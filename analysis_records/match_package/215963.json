@@ -1,0 +1,116 @@
+{
+ "id": 215963,
+ "league": "土超",
+ "kickoff": "08-24 00:00",
+ "kickoff_iso": "2026-08-23T16:00:00Z",
+ "home": "Eyüpspor",
+ "away": "Gazişehir Gaziantep",
+ "home_id": 191,
+ "away_id": 183,
+ "pulled_at": "2026-08-23T17:42:59.129753+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=3430) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": {
+    "id": 196,
+    "name": "Mirel Radoi",
+    "short_name": "M. Radoi",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 39.0,
+    "avg_goals_scored": 1.33,
+    "avg_goals_conceded": 1.59
+   }
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.85,
+   "draw": 3.16,
+   "away_win": 2.45,
+   "over_15_goals": 1.27,
+   "over_25_goals": 1.9,
+   "over_35_goals": 3.15,
+   "under_15_goals": 3.53,
+   "under_25_goals": 1.88,
+   "under_35_goals": 1.32,
+   "btts_yes": 1.66,
+   "btts_no": 2.12
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 22086,
+    "name": "David Costa",
+    "short_name": "D. Costa",
+    "status": "suspended",
+    "reason": "yellow_or_red_card_suspension"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.355,
+   "away": 0.464
+  },
+  "formation": {
+   "home": "4-1-4-1",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-23T08:32:40Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.5,
+    "home_ga": 1.0,
+    "away_gf": 1.222,
+    "away_ga": 1.778,
+    "n_home": 8.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.222,
+    "home_ga": 1.222,
+    "away_gf": 1.0,
+    "away_ga": 2.0,
+    "n_home": 9.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

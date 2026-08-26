@@ -1,0 +1,110 @@
+{
+ "id": 588080,
+ "league": "Emperor Cup",
+ "kickoff": "08-26 17:30",
+ "kickoff_iso": "2026-08-26T09:30:00+00:00",
+ "home": "Nagoya Grampus",
+ "away": "Gainare Tottori",
+ "home_id": 1942,
+ "away_id": 2007,
+ "pulled_at": "2026-08-25T23:45:44.660750+08:00",
+ "missing": [
+  "away教练(coach_cache未命中 id=1348) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1299,
+    "name": "Mihailo Petrovic",
+    "short_name": "M. Petrovic",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 65.0,
+    "avg_goals_scored": 1.35,
+    "avg_goals_conceded": 1.51
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.641,
+   "away": 0.0
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-25T14:32:26Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.5,
+    "home_ga": 1.0,
+    "away_gf": 1.0,
+    "away_ga": 2.0,
+    "n_home": 2.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026/2027",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.266,
+    "home_ga": 1.516,
+    "away_gf": 0.446,
+    "away_ga": 2.338,
+    "n_home": 6.4,
+    "n_away": 6.5,
+    "n_scored": 22,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2007
+   }
+  }
+ }
+}

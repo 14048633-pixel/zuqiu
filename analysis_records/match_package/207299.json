@@ -1,0 +1,119 @@
+{
+ "id": 207299,
+ "league": "芬超",
+ "kickoff": "08-23 23:00",
+ "kickoff_iso": "2026-08-23T15:00:00+00:00",
+ "home": "TPS Turku",
+ "away": "FC Inter Turku",
+ "home_id": 2099,
+ "away_id": 2098,
+ "pulled_at": "2026-08-23T17:50:03.615407+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1529,
+    "name": "Ivan Piñol Zoroa",
+    "short_name": "I. P. Zoroa",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 28.0,
+    "avg_goals_scored": 1.21,
+    "avg_goals_conceded": 1.04
+   },
+   "away": {
+    "id": 1528,
+    "name": "Vesa Vasara",
+    "short_name": "V. Vasara",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 32.0,
+    "avg_goals_scored": 1.59,
+    "avg_goals_conceded": 0.84
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.7,
+   "draw": 3.44,
+   "away_win": 1.9,
+   "over_15_goals": 1.26,
+   "over_25_goals": 1.84,
+   "over_35_goals": 3.12,
+   "under_15_goals": 3.55,
+   "under_25_goals": 1.91,
+   "under_35_goals": 1.32,
+   "btts_yes": 1.7,
+   "btts_no": 2.03
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.473,
+   "away": 0.564
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-23T08:32:33Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 1.121,
+    "away_ga": 1.491,
+    "n_home": 0.0,
+    "n_away": 16.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2099
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 1.164,
+    "away_ga": 1.248,
+    "n_home": 0.0,
+    "n_away": 16.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2098
+   }
+  }
+ }
+}

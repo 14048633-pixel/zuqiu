@@ -1,0 +1,104 @@
+{
+ "id": 600993,
+ "league": "Club Friendlies",
+ "kickoff": "08-26 01:30",
+ "kickoff_iso": "2026-08-25T17:30:00+00:00",
+ "home": "CD Alcoyano",
+ "away": "Lorca Deportiva",
+ "home_id": 4881,
+ "away_id": 1477,
+ "pulled_at": "2026-08-25T23:41:54.102230+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=3004) 未提取",
+  "away教练(coach_cache未命中 id=928) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.114,
+   "away": 0.068
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-25T14:32:07Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.615,
+    "home_ga": 1.55,
+    "away_gf": 0.929,
+    "away_ga": 1.875,
+    "n_home": 10.9,
+    "n_away": 5.6,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 4881
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.692,
+    "home_ga": 1.446,
+    "away_gf": 0.583,
+    "away_ga": 2.167,
+    "n_home": 6.5,
+    "n_away": 2.4,
+    "n_scored": 11,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1477
+   }
+  }
+ }
+}

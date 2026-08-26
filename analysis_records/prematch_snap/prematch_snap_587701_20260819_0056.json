@@ -1,0 +1,54 @@
+{
+ "id": 587701,
+ "league": "欧冠",
+ "kickoff": "08-19 03:00",
+ "home": "Fenerbahçe",
+ "away": "Olympique Lyonnais",
+ "pulled_at": "2026-08-19T00:56:30.155325+08:00",
+ "mins_to_ko": 123.6,
+ "bsd_odds": {
+  "home_win": 1.99,
+  "draw": 3.55,
+  "away_win": 3.64,
+  "over_15_goals": 1.23,
+  "over_25_goals": 1.76,
+  "over_35_goals": 2.86,
+  "under_15_goals": 3.88,
+  "under_25_goals": 2.03,
+  "under_35_goals": 1.39,
+  "btts_yes": 1.63,
+  "btts_no": 2.17
+ },
+ "bsd_odds_ts": "2026-08-18T15:57:45Z",
+ "bsd_pred": {
+  "match_result": {
+   "prob_home": 46.7,
+   "prob_draw": 26.2,
+   "prob_away": 27.1,
+   "predicted": "H"
+  },
+  "expected_goals": {
+   "home": 2.12,
+   "away": 1.14
+  },
+  "over_under": {
+   "prob_over_15": 77.4,
+   "prob_over_25": 55.7,
+   "prob_over_35": 35.5
+  },
+  "btts": {
+   "prob_yes": 57.7
+  },
+  "score": {
+   "most_likely": "2-1"
+  },
+  "draw_no_bet": {
+   "prob_home": 63.0
+  },
+  "corners": {
+   "prob_over_85": 72.7,
+   "prob_over_95": 61.9,
+   "prob_over_105": 51.8
+  }
+ }
+}

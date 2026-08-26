@@ -1,0 +1,402 @@
+{
+ "id": 7226,
+ "league": "巴甲",
+ "kickoff": "08-24 06:30",
+ "kickoff_iso": "2026-08-23T22:30:00Z",
+ "home": "Coritiba",
+ "away": "Corinthians",
+ "home_id": 370,
+ "away_id": 167,
+ "pulled_at": "2026-08-23T17:39:08.516371+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 146,
+    "name": "Fernando Seabra",
+    "short_name": "F. Seabra",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 24.0,
+    "avg_goals_scored": 1.12,
+    "avg_goals_conceded": 1.29
+   },
+   "away": {
+    "id": 153,
+    "name": "Fernando Diniz",
+    "short_name": "F. Diniz",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 71.0,
+    "avg_goals_scored": 1.11,
+    "avg_goals_conceded": 1.06
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.08,
+   "draw": 2.95,
+   "away_win": 2.43,
+   "over_15_goals": 1.5,
+   "over_25_goals": 2.54,
+   "over_35_goals": 5.01,
+   "under_15_goals": 2.52,
+   "under_25_goals": 1.48,
+   "under_35_goals": 1.15,
+   "btts_yes": 2.08,
+   "btts_no": 1.69
+  },
+  "best": {
+   "btts": {
+    "yes": {
+     "odds": 2.15,
+     "bookmaker": "betfair",
+     "n": 17
+    },
+    "no": {
+     "odds": 1.735,
+     "bookmaker": "pinnacle",
+     "n": 17
+    }
+   },
+   "double_chance": {
+    "1x": {
+     "odds": 1.56,
+     "bookmaker": "sbo",
+     "n": 8
+    },
+    "x2": {
+     "odds": 1.37,
+     "bookmaker": "unibet",
+     "n": 8
+    },
+    "12": {
+     "odds": 1.4,
+     "bookmaker": "william-hill",
+     "n": 8
+    }
+   },
+   "draw_no_bet": {
+    "home": {
+     "odds": 2.12,
+     "bookmaker": "betano",
+     "n": 11
+    },
+    "away": {
+     "odds": 1.769,
+     "bookmaker": "pinnacle",
+     "n": 11
+    }
+   },
+   "over_under_15": {
+    "over@1.5": {
+     "odds": 1.57,
+     "bookmaker": "1xbet",
+     "n": 7
+    },
+    "under@1.5": {
+     "odds": 2.65,
+     "bookmaker": "unibet",
+     "n": 7
+    }
+   },
+   "over_under_25": {
+    "over@2.5": {
+     "odds": 2.67,
+     "bookmaker": "pinnacle",
+     "n": 8
+    },
+    "under@2.5": {
+     "odds": 1.53,
+     "bookmaker": "10bet",
+     "n": 8
+    }
+   },
+   "over_under_35": {
+    "over@3.5": {
+     "odds": 5.4,
+     "bookmaker": "betvictor",
+     "n": 7
+    },
+    "under@3.5": {
+     "odds": 1.18,
+     "bookmaker": "10bet",
+     "n": 7
+    }
+   },
+   "over_under_05": {
+    "over@0.5": {
+     "odds": 1.12,
+     "bookmaker": "pinnacle",
+     "n": 7
+    },
+    "under@0.5": {
+     "odds": 7.5,
+     "bookmaker": "betfair",
+     "n": 7
+    }
+   },
+   "total_corners": {
+    "over@7.5": {
+     "odds": 1.33,
+     "bookmaker": "betfair",
+     "n": 3
+    },
+    "under@7.5": {
+     "odds": 3.05,
+     "bookmaker": "unibet",
+     "n": 3
+    },
+    "over@8.5": {
+     "odds": 1.6,
+     "bookmaker": "betfair",
+     "n": 4
+    },
+    "under@8.5": {
+     "odds": 2.27,
+     "bookmaker": "pinnacle",
+     "n": 4
+    },
+    "over@9.5": {
+     "odds": 2.05,
+     "bookmaker": "betfair",
+     "n": 4
+    },
+    "under@9.5": {
+     "odds": 1.81,
+     "bookmaker": "pinnacle",
+     "n": 4
+    },
+    "over@10.5": {
+     "odds": 2.8,
+     "bookmaker": "betfair",
+     "n": 4
+    },
+    "under@10.5": {
+     "odds": 1.49,
+     "bookmaker": "pinnacle",
+     "n": 4
+    },
+    "over@11.5": {
+     "odds": 3.9,
+     "bookmaker": "betfair",
+     "n": 3
+    },
+    "under@11.5": {
+     "odds": 1.28,
+     "bookmaker": "unibet",
+     "n": 3
+    }
+   },
+   "1x2": {
+    "home": {
+     "odds": 3.28,
+     "bookmaker": "pinnacle",
+     "n": 18
+    },
+    "draw": {
+     "odds": 3.1,
+     "bookmaker": "dafabet",
+     "n": 18
+    },
+    "away": {
+     "odds": 2.5,
+     "bookmaker": "bet365",
+     "n": 18
+    }
+   }
+  },
+  "bookmakers_count": 25,
+  "total_odds": 228
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 26879,
+    "name": "Brian Ocampo",
+    "short_name": "B. Ocampo",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 12211,
+    "name": "Josué",
+    "short_name": "Josué",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 12210,
+    "name": "Lucas Ronier",
+    "short_name": "L. Ronier",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 12213,
+    "name": "Pedro Rangel",
+    "short_name": "P. Rangel",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   },
+   {
+    "id": 24028,
+    "name": "Rodrigo Rodrigues",
+    "short_name": "R. Rodrigues",
+    "status": "injured",
+    "reason": "Groin Injury"
+   },
+   {
+    "id": 247,
+    "name": "Tinga",
+    "short_name": "Tinga",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 258,
+    "name": "André Luiz",
+    "short_name": "A. Luiz",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 255,
+    "name": "André Ramalho",
+    "short_name": "A. Ramalho",
+    "status": "injured",
+    "reason": "Illness"
+   },
+   {
+    "id": 272,
+    "name": "Hugo",
+    "short_name": "Hugo",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   },
+   {
+    "id": 253,
+    "name": "Hugo Souza",
+    "short_name": "H. Souza",
+    "status": "injured",
+    "reason": "rested"
+   },
+   {
+    "id": 268,
+    "name": "Kayke Ferrari",
+    "short_name": "Kayke",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 257,
+    "name": "Matheus Bidu",
+    "short_name": "M. Bidu",
+    "status": "injured",
+    "reason": "Groin Injury"
+   },
+   {
+    "id": 1144,
+    "name": "Matheuzinho",
+    "short_name": "Matheuzinho",
+    "status": "injured",
+    "reason": "rested"
+   },
+   {
+    "id": 79,
+    "name": "Pedro Raul",
+    "short_name": "P. Raul",
+    "status": "injured",
+    "reason": "Rib Injury"
+   },
+   {
+    "id": 1145,
+    "name": "Rodrigo Garro",
+    "short_name": "R. Garro",
+    "status": "suspended",
+    "reason": "yellow_card_accumulation_suspension"
+   },
+   {
+    "id": 263,
+    "name": "Vitinho",
+    "short_name": "Vitinho",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 1146,
+    "name": "Yuri Alberto",
+    "short_name": "Y. Alberto",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 13629,
+    "name": "Zakaria Labyad",
+    "short_name": "Z. Labyad",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.709,
+   "away": 0.677
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:33:15Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.182,
+    "home_ga": 1.182,
+    "away_gf": 1.25,
+    "away_ga": 1.417,
+    "n_home": 11,
+    "n_away": 12,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.083,
+    "home_ga": 0.833,
+    "away_gf": 1.091,
+    "away_ga": 1.091,
+    "n_home": 12,
+    "n_away": 11,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  }
+ }
+}

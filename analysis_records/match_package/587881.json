@@ -1,0 +1,193 @@
+{
+ "id": 587881,
+ "league": "欧协联",
+ "kickoff": "08-21 02:45",
+ "kickoff_iso": "2026-08-20T18:45:00+00:00",
+ "home": "Heart of Midlothian",
+ "away": "SK Rapid Wien",
+ "home_id": 231,
+ "away_id": 1411,
+ "pulled_at": "2026-08-20T22:16:03.011627+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 312,
+    "name": "Wouter Vrancken",
+    "short_name": "W. Vrancken",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 49.0,
+    "avg_goals_scored": 1.49,
+    "avg_goals_conceded": 1.31
+   },
+   "away": {
+    "id": 849,
+    "name": "Johannes Thorup",
+    "short_name": "J. Thorup",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 13.0,
+    "avg_goals_scored": 2.69,
+    "avg_goals_conceded": 1.15
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.33,
+   "draw": 3.46,
+   "away_win": 2.78,
+   "over_15_goals": 1.21,
+   "over_25_goals": 1.72,
+   "over_35_goals": 2.75,
+   "under_15_goals": 3.88,
+   "under_25_goals": 2.03,
+   "under_35_goals": 1.39,
+   "btts_yes": 1.59,
+   "btts_no": 2.21
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 6925,
+    "name": "Ageu",
+    "short_name": "Ageu",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 6680,
+    "name": "Craig Halkett",
+    "short_name": "C. Halkett",
+    "status": "injured",
+    "reason": "Achilles Tendon Injury"
+   },
+   {
+    "id": 46271,
+    "name": "Malachi Fagan-Walcott",
+    "short_name": "M. Fagan-Walcott",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 5768,
+    "name": "Stephen Kingsley",
+    "short_name": "S. Kingsley",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 31369,
+    "name": "Andrija Radulović",
+    "short_name": "A. Radulović",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   },
+   {
+    "id": 31541,
+    "name": "Claudy Mbuyi",
+    "short_name": "C. Mbuyi",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 31033,
+    "name": "Daniel Nunoo",
+    "short_name": "D. Nunoo",
+    "status": "injured",
+    "reason": "Knock Injury"
+   },
+   {
+    "id": 31015,
+    "name": "Dominic Vincze",
+    "short_name": "D. Vincze",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 33824,
+    "name": "Jean Marcelin",
+    "short_name": "J. Marcelin",
+    "status": "injured",
+    "reason": "Leg Injury"
+   },
+   {
+    "id": 15703,
+    "name": "Martin Ndzie",
+    "short_name": "M. Ndzie",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.5,
+   "away": 0.568
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-20T08:32:18Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.818,
+    "home_ga": 0.74,
+    "away_gf": 1.136,
+    "away_ga": 2.102,
+    "n_home": 7.7,
+    "n_away": 8.8,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 231
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.392,
+    "home_ga": 1.255,
+    "away_gf": 2.063,
+    "away_ga": 1.349,
+    "n_home": 10.2,
+    "n_away": 6.3,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 1411
+   }
+  }
+ }
+}

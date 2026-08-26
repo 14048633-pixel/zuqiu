@@ -1,0 +1,198 @@
+[
+ {
+  "league": "西乙",
+  "ct": "08-18 01:00",
+  "home": "Sporting Gijón",
+  "away": "Sabadell FC",
+  "best": null,
+  "dir": "小2.50",
+  "veto": [],
+  "obs": [],
+  "lam": 2.46
+ },
+ {
+  "league": "瑞超",
+  "ct": "08-18 01:00",
+  "home": "BK Hacken",
+  "away": "Halmstads BK",
+  "best": null,
+  "dir": "大2.50",
+  "veto": [],
+  "obs": [],
+  "lam": 3.7
+ },
+ {
+  "league": "丹超",
+  "ct": "08-18 01:00",
+  "home": "Brondby IF",
+  "away": "SonderjyskE",
+  "best": null,
+  "dir": "小2.50",
+  "veto": [
+   "模型与市场分歧>20pp(模型71% vs 市场40%)->否决"
+  ],
+  "obs": [],
+  "lam": 1.88
+ },
+ {
+  "league": "阿甲",
+  "ct": "08-18 01:45",
+  "home": "Estudiantes de Río Cuarto",
+  "away": "Atlético Tucuman",
+  "best": null,
+  "dir": "小2.50",
+  "veto": [],
+  "obs": [],
+  "lam": 1.71
+ },
+ {
+  "league": "土超",
+  "ct": "08-18 02:30",
+  "home": "Samsunspor",
+  "away": "Goztepe",
+  "best": null,
+  "dir": "让球主(-0.5)",
+  "veto": [
+   "模型与市场分歧>20pp(模型72% vs 市场44%)->否决"
+  ],
+  "obs": [],
+  "lam": 2.49
+ },
+ {
+  "league": "西甲",
+  "ct": "08-18 03:00",
+  "home": "Deportivo La Coruña",
+  "away": "Elche CF",
+  "best": {
+   "name": "大2.50",
+   "ev": 0.255,
+   "star": 2,
+   "tier": "高价值"
+  },
+  "dir": "大2.50",
+  "veto": [],
+  "obs": [],
+  "lam": 2.78
+ },
+ {
+  "league": "英冠",
+  "ct": "08-18 03:00",
+  "home": "Cardiff City",
+  "away": "Wrexham AFC",
+  "best": null,
+  "dir": "让球客(+0.5)",
+  "veto": [
+   "模型与市场分歧>20pp(模型71% vs 市场46%)->否决"
+  ],
+  "obs": [],
+  "lam": 1.89
+ },
+ {
+  "league": "葡超",
+  "ct": "08-18 03:15",
+  "home": "Casa Pia",
+  "away": "Benfica",
+  "best": {
+   "name": "小2.50",
+   "ev": 0.262,
+   "star": 3,
+   "tier": "高价值"
+  },
+  "dir": "小2.50",
+  "veto": [],
+  "obs": [
+   "联赛葡超历史负ROI(观察期, 300场后定禁入)"
+  ],
+  "lam": 2.35
+ },
+ {
+  "league": "西乙",
+  "ct": "08-18 03:30",
+  "home": "Almería",
+  "away": "CD Eldense",
+  "best": null,
+  "dir": "大2.50",
+  "veto": [],
+  "obs": [],
+  "lam": 3.52
+ },
+ {
+  "league": "阿甲",
+  "ct": "08-18 04:00",
+  "home": "Lanus",
+  "away": "Independiente",
+  "best": {
+   "name": "让球主(-0.5)",
+   "ev": 0.338,
+   "star": 3,
+   "tier": "高价值"
+  },
+  "dir": "小2.50",
+  "veto": [],
+  "obs": [],
+  "lam": 2.22
+ },
+ {
+  "league": "阿甲",
+  "ct": "08-18 06:15",
+  "home": "Velez Sarsfield BA",
+  "away": "Defensa y Justicia",
+  "best": null,
+  "dir": "让球主(-0.5)",
+  "veto": [
+   "盘口过期(距开赛12h>阈值12h)->否决"
+  ],
+  "obs": [],
+  "lam": 2.57
+ },
+ {
+  "league": "巴甲",
+  "ct": "08-18 07:00",
+  "home": "Internacional",
+  "away": "Remo",
+  "best": null,
+  "dir": "大2.50",
+  "veto": [],
+  "obs": [],
+  "lam": 2.88
+ },
+ {
+  "league": "阿甲",
+  "ct": "08-18 08:30",
+  "home": "Gimnasia Mendoza",
+  "away": "Talleres",
+  "best": null,
+  "dir": "让球主(+0.0)",
+  "veto": [
+   "盘口过期(距开赛14h>阈值12h)->否决"
+  ],
+  "obs": [],
+  "lam": 2.0
+ },
+ {
+  "league": "智利甲",
+  "ct": "08-18 08:30",
+  "home": "Palestino",
+  "away": "Huachipato",
+  "best": null,
+  "dir": "让球主(-0.5)",
+  "veto": [
+   "盘口过期(距开赛14h>阈值12h)->否决"
+  ],
+  "obs": [],
+  "lam": 2.22
+ },
+ {
+  "league": "墨超",
+  "ct": "08-18 09:00",
+  "home": "Necaxa",
+  "away": "León",
+  "best": null,
+  "dir": "让球主(-0.5)",
+  "veto": [
+   "盘口过期(距开赛15h>阈值12h)->否决"
+  ],
+  "obs": [],
+  "lam": 2.69
+ }
+]

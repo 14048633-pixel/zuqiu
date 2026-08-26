@@ -1,0 +1,166 @@
+{
+ "id": 210822,
+ "league": "荷甲",
+ "kickoff": "08-23 20:30",
+ "kickoff_iso": "2026-08-23T12:30:00Z",
+ "home": "PSV Eindhoven",
+ "away": "Groningen",
+ "home_id": 115,
+ "away_id": 181,
+ "pulled_at": "2026-08-23T17:41:31.399626+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 265,
+    "name": "Peter Bosz",
+    "short_name": "P. Bosz",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 48.0,
+    "avg_goals_scored": 2.77,
+    "avg_goals_conceded": 1.5
+   },
+   "away": {
+    "id": 294,
+    "name": "Dick Lukkien",
+    "short_name": "D. Lukkien",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 43.0,
+    "avg_goals_scored": 1.33,
+    "avg_goals_conceded": 1.44
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.32,
+   "draw": 5.71,
+   "away_win": 7.6,
+   "over_15_goals": 1.07,
+   "over_25_goals": 1.29,
+   "over_35_goals": 1.75,
+   "under_15_goals": 7.88,
+   "under_25_goals": 3.48,
+   "under_35_goals": 2.06,
+   "btts_yes": 1.5,
+   "btts_no": 2.44
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 5624,
+    "name": "Alassane Pléa",
+    "short_name": "A. Pléa",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 3504,
+    "name": "Jerdy Schouten",
+    "short_name": "J. Schouten",
+    "status": "injured",
+    "reason": "ACL Knee Injury"
+   },
+   {
+    "id": 3523,
+    "name": "Noah Fernandez",
+    "short_name": "N. Fernandez",
+    "status": "injured",
+    "reason": "Knock Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 4668,
+    "name": "Malcolm Jeng",
+    "short_name": "M. Jeng",
+    "status": "injured",
+    "reason": "Achilles Tendon Rupture"
+   },
+   {
+    "id": 5533,
+    "name": "Marco Rente",
+    "short_name": "M. Rente",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 8611,
+    "name": "Ryan Metu",
+    "short_name": "R. Metu",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 5384,
+    "name": "Tyrique Mercera",
+    "short_name": "T. Mercera",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.573,
+   "away": 0.491
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:19Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 2.0,
+    "away_gf": 2.0,
+    "away_ga": 1.0,
+    "n_home": 1,
+    "n_away": 1,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 1.0,
+    "away_gf": 4.0,
+    "away_ga": 1.0,
+    "n_home": 1,
+    "n_away": 1,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  }
+ }
+}

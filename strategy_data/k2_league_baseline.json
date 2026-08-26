@@ -1,0 +1,165 @@
+{
+  "league": "韩国K2联赛",
+  "full_name": "K League 2",
+  "version": "2026",
+  "updated": "2026-08-07",
+  "note": "韩国第二级别职业联赛, 上接K1, 下接K3",
+  "base": {
+    "avg_goals": 2.82,
+    "over25_rate": 57,
+    "under25_rate": 43,
+    "over35_rate": 27.4,
+    "under35_rate": 72.6,
+    "home_over25": 58.2,
+    "away_over25": 55.7,
+    "home_goals": 1.43,
+    "away_goals": 1.39,
+    "home_win_rate": 33.75,
+    "draw_rate": 32.5,
+    "away_win_rate": 33.75,
+    "home_advantage": "极弱",
+    "total_shots": 28.9,
+    "home_shots": 15.1,
+    "away_shots": 13.8,
+    "total_shots_on_target": 9.5,
+    "home_shots_on_target": 4.8,
+    "away_shots_on_target": 4.7,
+    "conversion_rate": 29.7,
+    "home_conversion": 30.2,
+    "away_conversion": 29.1,
+    "corners": 10.2,
+    "goals_le2_rate": 43,
+    "goals_eq3_rate": 29.6,
+    "goals_ge4_rate": 27.4
+  },
+  "structure": {
+    "teams_2026": 17,
+    "rounds": 32,
+    "total_matches": 272,
+    "no_split": true,
+    "promotion": "前2名直升K1; 第3-6名打附加赛, 附加赛胜者升级, 亚军与K1末名主客两回合争最后1席",
+    "relegation": "垫底降K3",
+    "special_team": "牙山木槿花(军人队)无升级资格, 升级区资格顺延"
+  },
+  "rules_2026": {
+    "foreigners": "外援注册无上限, 单场大名单最多登场4名外援, 允许注册外籍门将",
+    "u22_sub": "无U22=3换人; 1名U22=4换人; 2名+U22=5换人",
+    "squad_size": 20
+  },
+  "style": {
+    "tempo": "高速紧凑, 攻防转换极快, 场均有效比赛时间57分钟",
+    "formation": {
+      "T1升级热门": "4231/433主动进攻",
+      "T2中游": "4222攻守平衡",
+      "T3保级新军": "541/532死守防反"
+    },
+    "weakness": "后卫转身偏慢, 边路防守漏洞大; 65-75分钟体能下滑明显(最高发进球时段)",
+    "set_pieces": "34%进球来自角球/前场任意球, 弱队极依赖定位球"
+  },
+  "home_away": {
+    "home": "场均射门15.1射正4.8进球1.43; 前20分钟猛攻抢开局",
+    "away": "场均射门13.8射正4.7进球1.39; 开局收缩防守, 上半场0-0概率极高",
+    "away_undefeated_rate": 66.2,
+    "away_upset_common": true
+  },
+  "tiers": {
+    "T1升级热门": {
+      "teams": [
+        "水原三星",
+        "釜山偶像",
+        "华城FC",
+        "首尔衣恋"
+      ],
+      "criteria": "场均进球>=1.9, 场均失球<1, 射正转化率>33%"
+    },
+    "T2中游": {
+      "teams": [
+        "庆南FC",
+        "全南天龙",
+        "金浦市民",
+        "忠南牙山"
+      ],
+      "criteria": "攻防贴合联赛均值2.82, 平局居多"
+    },
+    "T3保级": {
+      "teams": [
+        "清州市",
+        "龙仁FC",
+        "安山绿人",
+        "金海FC",
+        "坡州先锋"
+      ],
+      "criteria": "场均进球<1.2, 射正<4次, 转化率<27%"
+    },
+    "special": "牙山木槿花(军人队): 服役球员半年轮换, 中游实力, 无法升级, 赛季中后期战意下滑"
+  },
+  "goal_timing": {
+    "0-20min": 21,
+    "21-45min": 23,
+    "46-65min": 25,
+    "66-90plus": 31,
+    "note": "超3成进球诞生在最后25分钟"
+  },
+  "discipline": {
+    "yellow_per_game": 3.7,
+    "red_per_game": 0.12,
+    "penalty_per_game": 0.23,
+    "scale": "尺度宽松, 合理冲撞不禁, 禁区内对抗极少判点"
+  },
+  "comparison": {
+    "K2": {
+      "avg_goals": 2.82,
+      "away_win": 33.75,
+      "home_adv": "极弱"
+    },
+    "J2": {
+      "avg_goals": 2.57,
+      "away_win": 29.3,
+      "home_adv": "中等"
+    },
+    "中甲": {
+      "avg_goals": 2.71,
+      "away_win": 27.8,
+      "home_adv": "较强"
+    },
+    "泰乙": {
+      "avg_goals": 3.11,
+      "away_win": 35.1,
+      "home_adv": "偏弱"
+    }
+  },
+  "practical_rules": [
+    "单队全场射正>=6次: 大概率至少1球; 射正>=8次基本保证破门",
+    "某队客场射正>=5次, 客场拿分概率72%",
+    "上半场0-0, 下半场总进球>=2球概率68%",
+    "保级队vs升级热门: 上半场守住平局, 下半场易靠反击偷球爆冷",
+    "客胜率33.75%接近主胜率, 客场爆冷是常态, 慎推主队",
+    "65-75分钟是高发进球段, 深盘下半场有追平/绝杀可能",
+    "主让1球及以上深盘, 73%概率小比分赛果(小2.5)",
+    "上半场0-0的比赛, 下半场打出大2.5概率68%",
+    "半场产生2球及以上, 全场大概率击穿3.5大球",
+    "保级队客场上半场守住0-0, 全场不败概率71%"
+  ],
+  "handicap_opening": {
+    "default": "平手/平半(0.25)为主, 占68%; 半球(0.5)盘占24%",
+    "deep_line": "主让>=1球仅占8%",
+    "deep_scenarios": "升级强队主场vs垫底保级队; 降班马(大邱/水原三星)主场vs新军鱼腩",
+    "note": "K2主场优势极弱, 机构很少给主队半球以上让步, 平手盘大量出现是客不败率66.2%的根源"
+  },
+  "half_goals": {
+    "first_half_avg": 1.03,
+    "second_half_avg": 1.79,
+    "second_half_pct": 63.5,
+    "first_half_0_0_rate": 36,
+    "first_half_ge1_rate": 64,
+    "first_half_ge2_rate": 28,
+    "home_first_half": 0.5,
+    "away_first_half": 0.53
+  },
+  "tier_handicap": {
+    "T1_home_vs_T3": "普通差距主让0.75球; 断层差距(前4vs倒数4)主让1球; 保级队状态极差高开主让1.25, 极少1.5",
+    "T1_away_vs_T3": "最多客让平手~0.25, 客场几乎不开深盘(K2最大盘口特点)",
+    "T1_home_1ball": "净胜2球穿盘37%, 仅赢1球走盘33%, 输盘30% (强队常只能小胜一球)",
+    "T3_home_vs_T1": "普遍受让平半/平手, 保级主场死守拿平局比例41%, 极易爆冷"
+  }
+}

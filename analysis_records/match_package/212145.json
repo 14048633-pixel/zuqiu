@@ -1,0 +1,133 @@
+{
+ "id": 212145,
+ "league": "德国杯",
+ "kickoff": "08-24 00:00",
+ "kickoff_iso": "2026-08-23T16:00:00Z",
+ "home": "Fortuna Düsseldorf",
+ "away": "SC Freiburg",
+ "home_id": 1291,
+ "away_id": 89,
+ "pulled_at": "2026-08-23T17:46:38.391672+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1202,
+    "name": "Alexander Ende",
+    "short_name": "A. Ende",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 10.0,
+    "avg_goals_scored": 3.7,
+    "avg_goals_conceded": 1.3
+   },
+   "away": {
+    "id": 245,
+    "name": "Julian Schuster",
+    "short_name": "J. Schuster",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 57.0,
+    "avg_goals_scored": 1.58,
+    "avg_goals_conceded": 1.37
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 6.39,
+   "draw": 4.79,
+   "away_win": 1.39,
+   "over_15_goals": 1.12,
+   "over_25_goals": 1.42,
+   "over_35_goals": 2.08,
+   "under_15_goals": 5.56,
+   "under_25_goals": 2.69,
+   "under_35_goals": 1.69,
+   "btts_yes": 1.62,
+   "btts_no": 2.17
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 27747,
+    "name": "Florent Muslija",
+    "short_name": "F. Muslija",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 5653,
+    "name": "Karl Steinmann",
+    "short_name": "K. Steinmann",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.227,
+   "away": 0.636
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:41Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.605,
+    "home_ga": 1.451,
+    "away_gf": 1.292,
+    "away_ga": 1.446,
+    "n_home": 40.8,
+    "n_away": 40.8,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 0.978,
+    "away_gf": 1.257,
+    "away_ga": 1.851,
+    "n_home": 9.1,
+    "n_away": 7.4,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 89
+   }
+  }
+ }
+}

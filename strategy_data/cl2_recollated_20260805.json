@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-08-05 11:24:35",
+  "note": "特征提取修复后的重新校对结果",
+  "matches": {
+    "上海海港B队 vs 山西崇德荣海": {
+      "match_en": "Shanghai Port B vs Shanxi Chongde Ronghai",
+      "lambda": {
+        "home": 0.57,
+        "away": 0.75
+      },
+      "best_bet": "小2.25 @1.73 EV+47.5% (4星)",
+      "hdp": {
+        "home_win": 0.642,
+        "bet": "主队-0/0.5 @1.92"
+      },
+      "feature": "职业主2客1, 状态差-0.08"
+    },
+    "长春喜都 vs 大连英博B队": {
+      "match_en": "Changchun Xidu vs Dalian Young Boy B",
+      "lambda": {
+        "home": 0.44,
+        "away": 0.88
+      },
+      "best_bet": "小1.75 @1.94 EV+20.2% (4星)",
+      "hdp": {
+        "away_win": 0.636,
+        "bet": "客队0"
+      },
+      "feature": "职业主0客1, 状态差-0.21"
+    },
+    "兰州陇原竞技 vs 北京理工": {
+      "match_en": "Lanzhou Longyuan vs Beijing IT",
+      "lambda": {
+        "home": 1.06,
+        "away": 0.3
+      },
+      "best_bet": "小2.25 @1.82 EV+53.3% (5星)",
+      "hdp": {
+        "home_win": 0.896,
+        "bet": "主队-0.5/1 @1.60 EV+43.4% (5星)"
+      },
+      "feature": "职业主1客0, 状态差+0.45",
+      "correction": "修复后从放弃改为主推: 兰州碾压垫底学生军"
+    },
+    "湖北青年星 vs 江西庐山": {
+      "match_en": "Hubei Youth Star vs Jiangxi Lushan",
+      "lambda": {
+        "home": 0.82,
+        "away": 0.5
+      },
+      "best_bet": "小2.25 @1.72 EV+46.6% (5星)",
+      "hdp": {
+        "home_win": 0.791,
+        "bet": "主队+0/0.5 @1.70 EV+34.4%"
+      },
+      "feature": "职业主2客1, 状态差+0.28"
+    },
+    "温州职业足球俱乐部 vs 贵州贵阳竞技": {
+      "match_en": "Wenzhou FC vs Guizhou Guiyang",
+      "lambda": {
+        "home": 0.3,
+        "away": 1.18
+      },
+      "best_bet": "小2 @1.84 EV+26.8% (4星)",
+      "hdp": {
+        "away_win": 0.591,
+        "bet": "客队-0.5 @1.73 客队占优"
+      },
+      "feature": "职业主0客2, 状态差-0.56",
+      "correction": "严格解读数据: 贵阳客场零封规律→客队占优"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+ "id": 580488,
+ "league": "法乙",
+ "kickoff": "08-22 02:00",
+ "kickoff_iso": "2026-08-21T18:00:00+00:00",
+ "home": "Clermont Foot",
+ "away": "Dijon",
+ "home_id": 1309,
+ "away_id": 1305,
+ "pulled_at": "2026-08-22T01:06:41.813558+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 3040,
+    "name": "David Guion",
+    "short_name": "D. Guion",
+    "profile": "defensive",
+    "preferred_formation": "5-4-1",
+    "matches_total": 9.0,
+    "avg_goals_scored": 0.89,
+    "avg_goals_conceded": 0.56
+   },
+   "away": {
+    "id": 2184,
+    "name": "Baptiste Ridira",
+    "short_name": "B. Ridira",
+    "profile": "attacking",
+    "preferred_formation": "4-3-1-2",
+    "matches_total": 7.0,
+    "avg_goals_scored": 2.57,
+    "avg_goals_conceded": 1.14
+   }
+  },
+  "preferred_formation": {
+   "home": "5-4-1",
+   "away": "4-3-1-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "confirmed",
+  "confidence": {
+   "home": null,
+   "away": null
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-1-3-2"
+  },
+  "updated_at": "2026-08-21T02:41:42Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.1,
+    "home_ga": 1.0,
+    "away_gf": 1.333,
+    "away_ga": 1.778,
+    "n_home": 10.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.975,
+    "home_ga": 0.864,
+    "away_gf": 1.583,
+    "away_ga": 1.25,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1305
+   }
+  }
+ }
+}

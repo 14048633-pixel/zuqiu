@@ -1,0 +1,385 @@
+================================================================================
+Brighton and Hove Albion vs Aston Villa
+{
+ "lambda": {
+  "home": 1.64,
+  "away": 0.85,
+  "sum": 2.49
+ },
+ "wdl": {
+  "home": 51.4,
+  "draw": 26.6,
+  "away": 22.0
+ },
+ "market_fair": {
+  "home": 45.7,
+  "draw": 27.3,
+  "away": 26.9
+ },
+ "data_src": {
+  "home": "cur",
+  "away": "cur"
+ },
+ "snap_age_h": 1.0,
+ "bets": [
+  {
+   "name": "让球客(+0.2)",
+   "prob": 0.4399,
+   "odds": 2.12,
+   "ev": -0.0761
+  },
+  {
+   "name": "小2.50",
+   "prob": 0.5459,
+   "odds": 2.0,
+   "ev": 0.089,
+   "star": 1,
+   "ev_tier": "标准",
+   "stake_factor": 0.0875
+  },
+  {
+   "name": "大2.50",
+   "prob": 0.4541,
+   "odds": 1.99,
+   "ev": -0.0985
+  },
+  {
+   "name": "1X2主胜",
+   "prob": 0.514,
+   "odds": 2.18,
+   "ev": 0.1171,
+   "is_1x2": true
+  },
+  {
+   "name": "1X2平局",
+   "prob": 0.2658,
+   "odds": 3.65,
+   "ev": -0.0328,
+   "is_1x2": true
+  },
+  {
+   "name": "1X2客胜",
+   "prob": 0.2203,
+   "odds": 3.7,
+   "ev": -0.1874,
+   "is_1x2": true
+  }
+ ],
+ "best_bet": {
+  "name": "小2.50",
+  "prob": 0.5459,
+  "odds": 2.0,
+  "ev": 0.089,
+  "star": 1,
+  "ev_tier": "标准",
+  "stake_factor": 0.0875
+ },
+ "direction": {
+  "name": "小2.50",
+  "prob": 0.5459,
+  "odds": 2.0,
+  "ev": 0.089,
+  "market_fair": 0.4987,
+  "wdl_name": "主胜",
+  "wdl_prob": 0.514,
+  "wdl_market_fair": 0.4574,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 27.3,
+   "strong": false
+  }
+ },
+ "dir_consistency": {
+  "groups": {
+   "1X2": {
+    "dir": "1X2主胜",
+    "ev": 11.7
+   },
+   "让球": {
+    "dir": "让球客(+0.2)",
+    "ev": -7.6
+   },
+   "大小球": {
+    "dir": "小2.50",
+    "ev": 8.9
+   }
+  },
+  "level": "主向分歧"
+ },
+ "star": 1,
+ "ev_tier": "标准",
+ "risk_tags": [
+  "纯数据无伤病情报",
+  "伤停>2人(主2/客3)",
+  "平局预警(市场去水平局>=26%)",
+  "平局预警→让球只用+号(受让方)",
+  "整球盘2.50遇预警降星"
+ ],
+ "draw_warn": {
+  "market_draw_prob": 27.3,
+  "strong": false
+ },
+ "upset": {
+  "hot": "Brighton and Hove Albion",
+  "level": "低风险",
+  "count": 1,
+  "signals": [
+   "F2疲劳修正(系数0.90)"
+  ]
+ },
+ "notes": [
+  "数据包伤停: 客队伤停3人(如Amadou Onana,Brian Madjo,João Gomes)",
+  "平局预警(去水平局27%)→让球只用+号(受让方), 移除1个-号让球腿"
+ ]
+}
+================================================================================
+Manchester City vs Bournemouth
+{
+ "lambda": {
+  "home": 2.44,
+  "away": 0.71,
+  "sum": 3.15
+ },
+ "wdl": {
+  "home": 68.4,
+  "draw": 19.3,
+  "away": 12.3
+ },
+ "market_fair": {
+  "home": 65.1,
+  "draw": 20.3,
+  "away": 14.6
+ },
+ "data_src": {
+  "home": "cur",
+  "away": "cur"
+ },
+ "snap_age_h": 1.0,
+ "bets": [
+  {
+   "name": "让球主(-1.2)",
+   "prob": 0.5301,
+   "odds": 2.0,
+   "ev": 0.0413
+  },
+  {
+   "name": "让球客(+1.2)",
+   "prob": 0.4699,
+   "odds": 1.93,
+   "ev": -0.1093
+  },
+  {
+   "name": "小2.50",
+   "prob": 0.3907,
+   "odds": 2.52,
+   "ev": -0.0665
+  },
+  {
+   "name": "大2.50",
+   "prob": 0.6093,
+   "odds": 1.52,
+   "ev": -0.1219
+  },
+  {
+   "name": "1X2主胜",
+   "prob": 0.65,
+   "odds": 1.53,
+   "ev": -0.01016676418958462,
+   "is_1x2": true,
+   "prob_raw": 0.6836
+  },
+  {
+   "name": "1X2平局",
+   "prob": 0.1935,
+   "odds": 4.9,
+   "ev": -0.0564,
+   "is_1x2": true
+  },
+  {
+   "name": "1X2客胜",
+   "prob": 0.1229,
+   "odds": 6.8,
+   "ev": -0.1684,
+   "is_1x2": true
+  }
+ ],
+ "best_bet": null,
+ "direction": {
+  "name": "大2.50",
+  "prob": 0.6093,
+  "odds": 1.52,
+  "ev": -0.1219,
+  "market_fair": 0.6238,
+  "wdl_name": "主胜",
+  "wdl_prob": 0.6836,
+  "wdl_market_fair": 0.6505,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null
+ },
+ "dir_consistency": {
+  "groups": {
+   "1X2": {
+    "dir": "1X2主胜",
+    "ev": -1.0
+   },
+   "让球": {
+    "dir": "让球主(-1.2)",
+    "ev": 4.1
+   },
+   "大小球": {
+    "dir": "小2.50",
+    "ev": -6.7
+   }
+  },
+  "level": "无正EV"
+ },
+ "star": 0,
+ "ev_tier": "垃圾",
+ "risk_tags": [
+  "纯数据无伤病情报",
+  "伤停>2人(主3/客5)"
+ ],
+ "draw_warn": null,
+ "upset": {
+  "hot": "Manchester City",
+  "level": "轻度风险",
+  "count": 3,
+  "signals": [
+   "L2大热低赔",
+   "L2大热低赔(去水概率>=55%%)",
+   "F2疲劳修正(系数0.90)"
+  ]
+ },
+ "notes": [
+  "数据包伤停: 主队伤停3人(如Jack Grealish,Jérémy Doku,Savinho); 客队伤停5人(如Amine Adli,Eli Junior Kroupi,Julián )",
+  "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+ ]
+}
+================================================================================
+Newcastle United vs Liverpool
+{
+ "lambda": {
+  "home": 2.14,
+  "away": 1.83,
+  "sum": 3.97
+ },
+ "wdl": {
+  "home": 43.2,
+  "draw": 22.8,
+  "away": 33.9
+ },
+ "market_fair": {
+  "home": 24.9,
+  "draw": 24.9,
+  "away": 50.1
+ },
+ "data_src": {
+  "home": "cur",
+  "away": "cur"
+ },
+ "snap_age_h": 3.5,
+ "bets": [
+  {
+   "name": "让球主(+0.5)",
+   "prob": 0.65,
+   "odds": 2.0,
+   "ev": 0.2967632412856498,
+   "prob_raw": 0.6627,
+   "_pband_banned": true
+  },
+  {
+   "name": "让球客(-0.5)",
+   "prob": 0.3373,
+   "odds": 1.99,
+   "ev": -0.3304
+  },
+  {
+   "name": "小2.50",
+   "prob": 0.2424,
+   "odds": 2.55,
+   "ev": -0.4112
+  },
+  {
+   "name": "大2.50",
+   "prob": 0.65,
+   "odds": 1.52,
+   "ev": -0.059147307286166795,
+   "prob_raw": 0.7576
+  },
+  {
+   "name": "1X2主胜",
+   "prob": 0.4324,
+   "odds": 4.0,
+   "ev": 0.7253,
+   "is_1x2": true
+  },
+  {
+   "name": "1X2平局",
+   "prob": 0.2284,
+   "odds": 4.0,
+   "ev": -0.0887,
+   "is_1x2": true
+  },
+  {
+   "name": "1X2客胜",
+   "prob": 0.3392,
+   "odds": 1.99,
+   "ev": -0.3267,
+   "is_1x2": true
+  }
+ ],
+ "best_bet": null,
+ "direction": {
+  "name": "大2.50",
+  "prob": 0.65,
+  "odds": 1.52,
+  "ev": -0.059147307286166795,
+  "market_fair": 0.6265,
+  "wdl_name": "主胜",
+  "wdl_prob": 0.4324,
+  "wdl_market_fair": 0.2494,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null
+ },
+ "dir_consistency": {
+  "groups": {
+   "1X2": {
+    "dir": "1X2主胜",
+    "ev": 72.5
+   },
+   "让球": {
+    "dir": "让球主(+0.5)",
+    "ev": 29.7
+   },
+   "大小球": {
+    "dir": "大2.50",
+    "ev": -5.9
+   }
+  },
+  "level": "主向一致(胜负亚盘)"
+ },
+ "star": 0,
+ "ev_tier": "垃圾",
+ "risk_tags": [
+  "纯数据无伤病情报",
+  "伤停>2人(主1/客5)"
+ ],
+ "draw_warn": null,
+ "upset": {
+  "hot": "Liverpool",
+  "level": "低风险",
+  "count": 1,
+  "signals": [
+   "F2疲劳修正(系数0.90)"
+  ]
+ },
+ "notes": [
+  "数据包伤停: 客队伤停5人(如Conor Bradley,Curtis Jones,Giovanni )",
+  "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+  "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选"
+ ]
+}
+saved pl_rescan_20260823.json

@@ -1,0 +1,141 @@
+{
+ "id": 212164,
+ "league": "德国杯",
+ "kickoff": "08-24 00:00",
+ "kickoff_iso": "2026-08-23T16:00:00Z",
+ "home": "1. FC Phönix Lübeck",
+ "away": "SC Paderborn",
+ "home_id": 2884,
+ "away_id": 1293,
+ "pulled_at": "2026-08-23T17:46:20.920341+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1882,
+    "name": "Dinalo Adigo",
+    "short_name": "D. Adigo",
+    "profile": "attacking",
+    "preferred_formation": "",
+    "matches_total": 7.0,
+    "avg_goals_scored": 2.29,
+    "avg_goals_conceded": 1.86
+   },
+   "away": {
+    "id": 1199,
+    "name": "Ralf Kettemann",
+    "short_name": "R. Kettemann",
+    "profile": "attacking",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 12.0,
+    "avg_goals_scored": 3.33,
+    "avg_goals_conceded": 1.33
+   }
+  },
+  "preferred_formation": {
+   "home": "",
+   "away": "3-4-2-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 13.99,
+   "draw": 8.66,
+   "away_win": 1.13,
+   "over_15_goals": null,
+   "over_25_goals": 1.18,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": 4.5,
+   "under_35_goals": null,
+   "btts_yes": 1.59,
+   "btts_no": 2.23
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 41433,
+    "name": "Nyamekye Awortwie-Grant",
+    "short_name": "N. Awortwie-Grant",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 29365,
+    "name": "Sebastian Klaas",
+    "short_name": "S. Klaas",
+    "status": "injured",
+    "reason": "Groin Injury"
+   },
+   {
+    "id": 29352,
+    "name": "Sven Michel",
+    "short_name": "S. Michel",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.039,
+   "away": 0.35
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-23T08:32:37Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 2.394,
+    "away_ga": 1.718,
+    "n_home": 0.0,
+    "n_away": 7.1,
+    "n_scored": 8,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2884
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 2.794,
+    "away_ga": 1.194,
+    "n_home": 0.0,
+    "n_away": 16.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1293
+   }
+  }
+ }
+}

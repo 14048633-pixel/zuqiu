@@ -1,0 +1,141 @@
+{
+ "id": 212154,
+ "league": "德国杯",
+ "kickoff": "08-25 00:00",
+ "kickoff_iso": "2026-08-24T16:00:00+00:00",
+ "home": "FC Würzburger Kickers",
+ "away": "1. FC Köln",
+ "home_id": 3340,
+ "away_id": 94,
+ "pulled_at": "2026-08-24T23:09:31.709521+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1876,
+    "name": "Michael Schiele",
+    "short_name": "M. Schiele",
+    "profile": "attacking",
+    "preferred_formation": "",
+    "matches_total": 7.0,
+    "avg_goals_scored": 2.14,
+    "avg_goals_conceded": 1.57
+   },
+   "away": {
+    "id": 1877,
+    "name": "Rene Wagner",
+    "short_name": "R. Wagner",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 6.0,
+    "avg_goals_scored": 4.5,
+    "avg_goals_conceded": 0.67
+   }
+  },
+  "preferred_formation": {
+   "home": "",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 7.84,
+   "draw": 5.41,
+   "away_win": 1.29,
+   "over_15_goals": 1.11,
+   "over_25_goals": 1.41,
+   "over_35_goals": 2.07,
+   "under_15_goals": 5.75,
+   "under_25_goals": 2.7,
+   "under_35_goals": 1.7,
+   "btts_yes": 1.72,
+   "btts_no": 2.01
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 2530,
+    "name": "Luca Waldschmidt",
+    "short_name": "L. Waldschmidt",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 2517,
+    "name": "Sebastian Sebulonsen",
+    "short_name": "S. Sebulonsen",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 4371,
+    "name": "Timo Hübers",
+    "short_name": "T. Hübers",
+    "status": "injured",
+    "reason": "Knee Surgery"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.068,
+   "away": 0.514
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-24T14:32:08Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.942,
+    "home_ga": 1.233,
+    "away_gf": 1.0,
+    "away_ga": 3.0,
+    "n_home": 8.6,
+    "n_away": 2.7,
+    "n_scored": 17,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 3340
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.089,
+    "home_ga": 1.611,
+    "away_gf": 2.987,
+    "away_ga": 1.627,
+    "n_home": 9.0,
+    "n_away": 7.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 94
+   }
+  }
+ }
+}

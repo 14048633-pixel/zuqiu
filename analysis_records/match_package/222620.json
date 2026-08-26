@@ -1,0 +1,127 @@
+{
+ "id": 222620,
+ "league": "沙超",
+ "kickoff": "08-22 02:00",
+ "kickoff_iso": "2026-08-21T18:00:00+00:00",
+ "home": "Al Faisaly",
+ "away": "Neom SC",
+ "home_id": 4909,
+ "away_id": 259,
+ "pulled_at": "2026-08-21T00:40:58.704768+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=3038) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": {
+    "id": 289,
+    "name": "Christophe Galtier",
+    "short_name": "C. Galtier",
+    "profile": "defensive",
+    "preferred_formation": "4-4-2",
+    "matches_total": 5.0,
+    "avg_goals_scored": 1.2,
+    "avg_goals_conceded": 0.6
+   }
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.93,
+   "draw": 3.94,
+   "away_win": 1.73,
+   "over_15_goals": 1.15,
+   "over_25_goals": 1.53,
+   "over_35_goals": 2.34,
+   "under_15_goals": 4.65,
+   "under_25_goals": 2.33,
+   "under_35_goals": 1.53,
+   "btts_yes": 1.54,
+   "btts_no": 2.31
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 8243,
+    "name": "Abbas Sadiq Alhassan",
+    "short_name": "A. S. Alhassan",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 8308,
+    "name": "Ala'a Al-Hejji",
+    "short_name": "A. Al-Hejji",
+    "status": "suspended",
+    "reason": "red_card_suspension"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.086,
+   "away": 0.482
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-20T14:32:34Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.278,
+    "home_ga": 0.917,
+    "away_gf": 1.075,
+    "away_ga": 1.839,
+    "n_home": 7.2,
+    "n_away": 9.3,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 4909
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.582,
+    "home_ga": 1.114,
+    "away_gf": 1.047,
+    "away_ga": 1.209,
+    "n_home": 7.9,
+    "n_away": 8.6,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 259
+   }
+  }
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "id": 10092,
+ "league": "巴乙",
+ "kickoff": "08-25 06:30",
+ "kickoff_iso": "2026-08-24T22:30:00+00:00",
+ "home": "Sport Recife",
+ "away": "América Mineiro",
+ "home_id": 159,
+ "away_id": 838,
+ "pulled_at": "2026-08-24T23:11:03.549759+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1934,
+    "name": "Gilmar Dal Pozzo",
+    "short_name": "G. D. Pozzo",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 9.0,
+    "avg_goals_scored": 1.11,
+    "avg_goals_conceded": 1.33
+   },
+   "away": {
+    "id": 1799,
+    "name": "Umberto Louzer",
+    "short_name": "U. Louzer",
+    "profile": "defensive",
+    "preferred_formation": "4-1-4-1",
+    "matches_total": 11.0,
+    "avg_goals_scored": 0.82,
+    "avg_goals_conceded": 0.91
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-1-4-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 1.88,
+   "btts_no": 1.83
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.755,
+   "away": 0.718
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-1-4-1"
+  },
+  "updated_at": "2026-08-24T14:32:20Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.482,
+    "home_ga": 1.576,
+    "away_gf": 0.812,
+    "away_ga": 1.137,
+    "n_home": 8.5,
+    "n_away": 8.0,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 159
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.889,
+    "home_ga": 1.321,
+    "away_gf": 0.643,
+    "away_ga": 1.643,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 838
+   }
+  }
+ }
+}

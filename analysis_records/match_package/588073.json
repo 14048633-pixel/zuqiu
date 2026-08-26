@@ -1,0 +1,110 @@
+{
+ "id": 588073,
+ "league": "Emperor Cup",
+ "kickoff": "08-26 18:00",
+ "kickoff_iso": "2026-08-26T10:00:00+00:00",
+ "home": "Gamba Osaka",
+ "away": "Reilac Shiga FC",
+ "home_id": 1939,
+ "away_id": 5626,
+ "pulled_at": "2026-08-25T23:48:08.809302+08:00",
+ "missing": [
+  "away教练(coach_cache未命中 id=3416) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 2940,
+    "name": "Tomokazu Myojin",
+    "short_name": "T. Myojin",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 6.0,
+    "avg_goals_scored": 3.5,
+    "avg_goals_conceded": 1.5
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 2.83,
+   "btts_no": 1.36
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.532,
+   "away": 0.036
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-1-2"
+  },
+  "updated_at": "2026-08-25T14:32:33Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 4.0,
+    "home_ga": 3.0,
+    "away_gf": 1.0,
+    "away_ga": 2.0,
+    "n_home": 1.0,
+    "n_away": 2.0,
+    "src_w": 1.0,
+    "src_season": "2026/2027",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.351,
+    "home_ga": 1.459,
+    "away_gf": 0.854,
+    "away_ga": 1.0,
+    "n_home": 3.7,
+    "n_away": 4.1,
+    "n_scored": 9,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 5626
+   }
+  }
+ }
+}

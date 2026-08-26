@@ -1,0 +1,114 @@
+{
+  "league": "中国中乙联赛",
+  "type": "欧赔区间+胜平负真实打出概率",
+  "version": "2023-2026完整赛季",
+  "updated": "2026-08-07",
+  "metadata": {
+    "sample_n": 600,
+    "data_window": {"start": "2023-03-01", "end": "2026-06-30"},
+    "generation": "rolling_window",
+    "note": "2023-2026完整赛季, sample_n为估算"
+  },
+  "correct_coef": {
+    "amateur_vs_pro_strong": 1.5,
+    "amateur_vs_pro_weak": 0.7,
+    "striker_miss": 0.8,
+    "key_striker_out": 0.85,
+    "weak_defense": 1.2,
+    "form_good": 1.1,
+    "away_weak": 0.85,
+    "first_leg_conservative": 0.9,
+    "note": "攻防修正系数按联赛可调, 顶级/次级分开调参; 修改后必须跑回归测试验证"
+  },
+  "return_rate": "90%",
+  "baseline": {
+    "home_win": 37.2,
+    "draw": 28.6,
+    "away_win": 34.2,
+    "away_undefeated": 62.8,
+    "avg_goals": 2.27,
+    "under25": 58,
+    "over25": 42,
+    "first_half_avg": 0.86,
+    "second_half_share": 65,
+    "note": "主场优势显著强于K2; 整体小球联赛; 65%进球集中下半场70-90分钟",
+    "top_scores": {"1-1": 14.3, "1-0": 12.8, "0-1": 11.7, "0-0": 9.6}
+  },
+  "odds_zones": {
+    "zone1_1.28_1.42": {
+      "desc": "主队超低赔, 主让≥1球深盘, 榜首vs垫底/职业vs校园",
+      "share": 9,
+      "real": {"home": 66, "draw": 21, "away": 13},
+      "notes": "主胜稳定性高于K2, 但1球小胜走盘多, 净胜2球穿盘仅34%; 深盘小2.5占56%"
+    },
+    "zone2_1.43_1.78": {
+      "desc": "主队低赔, 主让0.5/0.75半球盘, 上游vs中游",
+      "share": 26,
+      "real": {"home": 52, "draw": 27, "away": 21},
+      "notes": "主队胜率突破5成, 中乙为数不多主场有优势的区间; 平赔3.25-3.40"
+    },
+    "zone3_1.79_2.28": {
+      "desc": "中庸区间, 平手/平半盘, 联赛65%赛事",
+      "share": 65,
+      "real": {"home": 36, "draw": 29, "away": 35},
+      "notes": "胜负基本持平, 平局偏少; 受让方不败率64%"
+    },
+    "zone4_2.29_2.82": {
+      "desc": "主队偏高赔, 客让平半, 中游vs上游",
+      "share": null,
+      "real": {"home": 27, "draw": 33, "away": 40},
+      "notes": "强队客场优势一般, 保级主场死守平局33%, 冷门平局易出"
+    },
+    "zone5_2.85_plus": {
+      "desc": "主队高赔, 客让半球+, 下游vs榜首",
+      "share": 6,
+      "real": {"home": 19, "draw": 31, "away": 50},
+      "notes": "客胜过半, 保级主场密集防守逼平常规"
+    }
+  },
+  "asian_hdp": {
+    "平手盘": {"share": 29, "upper_win": 36, "draw": 29, "lower_win": 35},
+    "主让平半0.25": {"share": 36, "upper_win": 45, "draw": 30, "lower_win": 25},
+    "主让半球0.5": {"share": 26, "upper_win": 52, "draw": 27, "lower_win": 21},
+    "主让1球深盘": {"share": 9, "upper_win": 34, "push": 35, "lower_win": 31}
+  },
+  "draw_odds": {
+    "3.00_3.30": {"draw_prob": 34, "note": "最高平局区间; 低于3.20时拉升至37%"},
+    "3.31_3.55": {"draw_prob": 28},
+    "above_3.60": {"draw_prob": 22, "note": "大概率分胜负; >3.7基本无平局"}
+  },
+  "t1_away": {
+    "客让平手": {"away": 36, "draw": 33, "home": 31},
+    "客让平半": {"away": 43, "draw": 32, "home": 25}
+  },
+  "t3_home": {
+    "受让平半": {"undefeated": 70, "draw": 38, "home_win": 32},
+    "0_0_first_half": {"point_prob": 71}
+  },
+  "ou_link": {
+    "主让≥1深盘": {"under25": 56},
+    "平手平半中庸": {"under25": 58, "over25": 42},
+    "客队深让半球": {"over25": 60}
+  },
+  "vs_k2": {
+    "home_win": {"中乙": 37.2, "K2": 33.75, "note": "中乙主场更强"},
+    "draw": {"中乙": 28.6, "K2": 32.5, "note": "K2平局更多"},
+    "away_win": {"中乙": 34.2, "K2": 33.75},
+    "主让半球赢盘": {"中乙": 52, "K2": 47},
+    "under25": {"中乙": 58, "K2": 43, "note": "中乙整体偏小球"},
+    "home_advantage": "中乙主场小幅优势 vs K2几乎无主场优势"
+  },
+  "season_trend": {
+    "2023": {"home_win": 38.5, "draw": 27.1, "note": "主场最强"},
+    "2024": {"home_win": 37.4, "draw": 28.3, "note": "风格均衡"},
+    "2025": {"draw": 29.2, "note": "平局上涨, 小球增多"},
+    "2026": {"over25": 45, "draw": 28.1, "note": "开放程度提升, 大球上涨"}
+  },
+  "practical_rules": [
+    "中乙主胜1.70-1.90半球盘, 主队稳定性最高",
+    "平赔3.00-3.30重点防平, 平赔>3.6直接排除平局",
+    "保级主场受让平半, 优先主队不败",
+    "强队主场1球深盘, 提防赢1球走盘"
+  ],
+  "warning": "中乙存在梯队队(泰山B/蓉城B等青年队)/校园球队/赛季中途解散欠薪/夏窗大换血, 每年夏窗后赔率规律失效, 需重新统计"
+}

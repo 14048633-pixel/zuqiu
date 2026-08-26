@@ -1,0 +1,108 @@
+{
+ "id": 222631,
+ "league": "Saudi Pro League",
+ "kickoff": "08-26 02:00",
+ "kickoff_iso": "2026-08-25T18:00:00+00:00",
+ "home": "Al-Shabab",
+ "away": "Al-Riyadh",
+ "home_id": 264,
+ "away_id": 263,
+ "pulled_at": "2026-08-25T23:42:28.046339+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=2046) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": {
+    "id": 431,
+    "name": "Maurício Dulac",
+    "short_name": "M. Dulac",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 35.0,
+    "avg_goals_scored": 1.06,
+    "avg_goals_conceded": 1.86
+   }
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.71,
+   "draw": 3.84,
+   "away_win": 4.2,
+   "over_15_goals": 1.18,
+   "over_25_goals": 1.6,
+   "over_35_goals": 2.5,
+   "under_15_goals": 4.5,
+   "under_25_goals": 2.26,
+   "under_35_goals": 1.49,
+   "btts_yes": 1.59,
+   "btts_no": 2.22
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.473,
+   "away": 0.577
+  },
+  "formation": {
+   "home": "4-1-4-1",
+   "away": "4-1-4-1"
+  },
+  "updated_at": "2026-08-25T14:32:09Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.4,
+    "home_ga": 2.4,
+    "away_gf": 2.0,
+    "away_ga": 1.6,
+    "n_home": 5.0,
+    "n_away": 5.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.909,
+    "home_ga": 1.273,
+    "away_gf": 1.231,
+    "away_ga": 2.308,
+    "n_home": 11.0,
+    "n_away": 13.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

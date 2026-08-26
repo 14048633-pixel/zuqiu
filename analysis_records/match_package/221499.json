@@ -1,0 +1,132 @@
+{
+ "id": 221499,
+ "league": "丹超",
+ "kickoff": "08-23 18:00",
+ "kickoff_iso": "2026-08-23T10:00:00Z",
+ "home": "SonderjyskE",
+ "away": "FC Nordsjaelland",
+ "home_id": 1378,
+ "away_id": 1332,
+ "pulled_at": "2026-08-23T17:43:15.715324+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 2271,
+    "name": "Fatah Abdirahman",
+    "short_name": "F. Abdirahman",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 106.0,
+    "avg_goals_scored": 1.27,
+    "avg_goals_conceded": 1.77
+   },
+   "away": {
+    "id": 2265,
+    "name": "Jens Olsen",
+    "short_name": "J. Olsen",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 176.0,
+    "avg_goals_scored": 1.59,
+    "avg_goals_conceded": 1.35
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.87,
+   "draw": 4.04,
+   "away_win": 1.75,
+   "over_15_goals": 1.12,
+   "over_25_goals": 1.44,
+   "over_35_goals": 2.12,
+   "under_15_goals": 5.81,
+   "under_25_goals": 2.71,
+   "under_35_goals": 1.69,
+   "btts_yes": 1.45,
+   "btts_no": 2.58
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 30893,
+    "name": "Mathias Olesen",
+    "short_name": "M. Olesen",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 29477,
+    "name": "Rasmus Vinderslev",
+    "short_name": "R. Vinderslev",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "confirmed",
+  "confidence": {
+   "home": null,
+   "away": null
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "3-4-3"
+  },
+  "updated_at": "2026-08-23T09:41:09Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.222,
+    "home_ga": 1.444,
+    "away_gf": 0.625,
+    "away_ga": 1.875,
+    "n_home": 9.0,
+    "n_away": 8.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 0.861,
+    "away_ga": 1.867,
+    "n_home": 0.0,
+    "n_away": 16.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1332
+   }
+  }
+ }
+}

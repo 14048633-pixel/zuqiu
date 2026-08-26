@@ -1,0 +1,104 @@
+{
+ "id": 212575,
+ "league": "Emperor Cup",
+ "kickoff": "08-26 18:00",
+ "kickoff_iso": "2026-08-26T10:00:00+00:00",
+ "home": "Sagan Tosu",
+ "away": "Kataller Toyama",
+ "home_id": 1967,
+ "away_id": 1971,
+ "pulled_at": "2026-08-25T23:49:27.803006+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=1323) 未提取",
+  "away教练(coach_cache未命中 id=1327) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 1.92,
+   "btts_no": 1.77
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.245,
+   "away": 0.136
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "3-5-2"
+  },
+  "updated_at": "2026-08-25T14:32:34Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.341,
+    "home_ga": 1.216,
+    "away_gf": 1.052,
+    "away_ga": 1.701,
+    "n_home": 8.8,
+    "n_away": 7.7,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1967
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.927,
+    "home_ga": 1.0,
+    "away_gf": 0.933,
+    "away_ga": 1.767,
+    "n_home": 5.5,
+    "n_away": 9.0,
+    "n_scored": 30,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1971
+   }
+  }
+ }
+}

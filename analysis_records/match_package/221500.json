@@ -1,0 +1,169 @@
+{
+ "id": 221500,
+ "league": "丹超",
+ "kickoff": "08-23 20:00",
+ "kickoff_iso": "2026-08-23T12:00:00Z",
+ "home": "FC Midtjylland",
+ "away": "Randers FC",
+ "home_id": 127,
+ "away_id": 1373,
+ "pulled_at": "2026-08-23T17:43:34.943183+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 650,
+    "name": "Mike Tullberg",
+    "short_name": "M. Tullberg",
+    "profile": "attacking",
+    "preferred_formation": "4-4-2",
+    "matches_total": 192.0,
+    "avg_goals_scored": 2.01,
+    "avg_goals_conceded": 1.19
+   },
+   "away": {
+    "id": 2142,
+    "name": "Rasmus Bertelsen",
+    "short_name": "R. Bertelsen",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 171.0,
+    "avg_goals_scored": 1.32,
+    "avg_goals_conceded": 1.49
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.44,
+   "draw": 4.46,
+   "away_win": 6.23,
+   "over_15_goals": 1.17,
+   "over_25_goals": 1.58,
+   "over_35_goals": 2.47,
+   "under_15_goals": 4.76,
+   "under_25_goals": 2.3,
+   "under_35_goals": 1.51,
+   "btts_yes": 1.71,
+   "btts_no": 2.05
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 3253,
+    "name": "Júnior Brumado",
+    "short_name": "J. Brumado",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 3242,
+    "name": "Ousmane Diao",
+    "short_name": "O. Diao",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 3248,
+    "name": "Victor Bak Jensen",
+    "short_name": "V. B. Jensen",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "away": [
+   {
+    "id": 28990,
+    "name": "Benjamin Örn",
+    "short_name": "B. Örn",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 28979,
+    "name": "John Björkengren",
+    "short_name": "J. Björkengren",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 28984,
+    "name": "Lucas Lissens",
+    "short_name": "L. Lissens",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 37545,
+    "name": "Mohamed Sankoh",
+    "short_name": "M. Sankoh",
+    "status": "injured",
+    "reason": "Strain Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.655,
+   "away": 0.618
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:16Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.171,
+    "home_ga": 1.427,
+    "away_gf": 2.084,
+    "away_ga": 1.12,
+    "n_home": 8.2,
+    "n_away": 8.3,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 127
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.2,
+    "home_ga": 1.6,
+    "away_gf": 0.875,
+    "away_ga": 1.625,
+    "n_home": 10.0,
+    "n_away": 8.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

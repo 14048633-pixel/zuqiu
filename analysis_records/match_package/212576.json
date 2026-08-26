@@ -1,0 +1,104 @@
+{
+ "id": 212576,
+ "league": "Emperor Cup",
+ "kickoff": "08-26 18:00",
+ "kickoff_iso": "2026-08-26T10:00:00+00:00",
+ "home": "RB Omiya Ardija",
+ "away": "Vanraure Hachinohe",
+ "home_id": 2027,
+ "away_id": 3870,
+ "pulled_at": "2026-08-25T23:49:18.378095+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=3257) 未提取",
+  "away教练(coach_cache未命中 id=1351) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 1.94,
+   "btts_no": 1.78
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.064,
+   "away": 0.027
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-25T14:32:29Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.868,
+    "home_ga": 1.057,
+    "away_gf": 1.134,
+    "away_ga": 1.848,
+    "n_home": 5.3,
+    "n_away": 11.2,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2027
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.244,
+    "home_ga": 1.512,
+    "away_gf": 1.103,
+    "away_ga": 1.809,
+    "n_home": 4.1,
+    "n_away": 6.8,
+    "n_scored": 16,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 3870
+   }
+  }
+ }
+}

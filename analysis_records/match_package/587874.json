@@ -1,0 +1,143 @@
+{
+ "id": 587874,
+ "league": "欧协联",
+ "kickoff": "08-21 03:00",
+ "kickoff_iso": "2026-08-20T19:00:00+00:00",
+ "home": "Getafe",
+ "away": "FK Partizan",
+ "home_id": 50,
+ "away_id": 413,
+ "pulled_at": "2026-08-20T22:16:49.328762+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 371,
+    "name": "José Bordalás",
+    "short_name": "J. Bordalás",
+    "profile": "balanced",
+    "preferred_formation": "5-3-2",
+    "matches_total": 47.0,
+    "avg_goals_scored": 1.11,
+    "avg_goals_conceded": 1.06
+   },
+   "away": {
+    "id": 2179,
+    "name": "Saša Ilić",
+    "short_name": "S. Ilić",
+    "profile": "attacking",
+    "preferred_formation": "4-1-4-1",
+    "matches_total": 11.0,
+    "avg_goals_scored": 1.82,
+    "avg_goals_conceded": 1.18
+   }
+  },
+  "preferred_formation": {
+   "home": "5-3-2",
+   "away": "4-1-4-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.3,
+   "draw": 4.82,
+   "away_win": 10.06,
+   "over_15_goals": 1.3,
+   "over_25_goals": 1.96,
+   "over_35_goals": 3.35,
+   "under_15_goals": 3.23,
+   "under_25_goals": 1.78,
+   "under_35_goals": 1.28,
+   "btts_yes": 2.53,
+   "btts_no": 1.46
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 441,
+    "name": "Christantus Uche",
+    "short_name": "C. Uche",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 29066,
+    "name": "Francho Serrano",
+    "short_name": "F. Serrano",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   },
+   {
+    "id": 2757,
+    "name": "Juanmi",
+    "short_name": "Juanmi",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.45,
+   "away": 0.414
+  },
+  "formation": {
+   "home": "5-3-2",
+   "away": "4-1-4-1"
+  },
+  "updated_at": "2026-08-20T08:32:19Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.105,
+    "home_ga": 0.719,
+    "away_gf": 0.815,
+    "away_ga": 1.333,
+    "n_home": 5.7,
+    "n_away": 10.8,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 50
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.952,
+    "home_ga": 0.603,
+    "away_gf": 1.578,
+    "away_ga": 1.52,
+    "n_home": 6.3,
+    "n_away": 10.2,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 413
+   }
+  }
+ }
+}

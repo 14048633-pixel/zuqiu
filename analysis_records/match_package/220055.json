@@ -1,0 +1,127 @@
+{
+ "id": 220055,
+ "league": "哥甲",
+ "kickoff": "08-22 05:05",
+ "kickoff_iso": "2026-08-21T21:05:00+00:00",
+ "home": "Jaguares de Córdoba",
+ "away": "Boyacá Chicó FC",
+ "home_id": 4785,
+ "away_id": 4784,
+ "pulled_at": "2026-08-21T00:43:07.434235+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 2852,
+    "name": "Hubert Bodhert",
+    "short_name": "H. Bodhert",
+    "profile": "defensive",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 27.0,
+    "avg_goals_scored": 0.93,
+    "avg_goals_conceded": 1.59
+   },
+   "away": {
+    "id": 2850,
+    "name": "Jhon Jairo Gomez",
+    "short_name": "J. J. Gomez",
+    "profile": "defensive",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 25.0,
+    "avg_goals_scored": 0.84,
+    "avg_goals_conceded": 1.76
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.83,
+   "draw": 3.21,
+   "away_win": 4.28,
+   "over_15_goals": 1.41,
+   "over_25_goals": 2.27,
+   "over_35_goals": 4.18,
+   "under_15_goals": 2.66,
+   "under_25_goals": 1.56,
+   "under_35_goals": 1.18,
+   "btts_yes": 2.05,
+   "btts_no": 1.67
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 74750,
+    "name": "Santiago Cubides",
+    "short_name": "S. Cubides",
+    "status": "injured",
+    "reason": "Sprained Ankle"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.695,
+   "away": 0.718
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-1-4-1"
+  },
+  "updated_at": "2026-08-20T14:32:39Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.229,
+    "home_ga": 1.277,
+    "away_gf": 0.488,
+    "away_ga": 1.61,
+    "n_home": 8.3,
+    "n_away": 8.2,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 4785
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.568,
+    "home_ga": 0.541,
+    "away_gf": 0.44,
+    "away_ga": 2.791,
+    "n_home": 7.4,
+    "n_away": 9.1,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 4784
+   }
+  }
+ }
+}

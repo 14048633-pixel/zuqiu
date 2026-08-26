@@ -1,0 +1,9971 @@
+{
+ "ts": "2026-08-23T17:18:33.440757+08:00",
+ "n_settled": 102,
+ "rows": [
+  {
+   "ct": "08-22 01:00",
+   "league": "瑞超",
+   "home": "IK Sirius",
+   "away": "BK Häcken",
+   "score": "0-3",
+   "hg": 0,
+   "ag": 3,
+   "direction_name": "大2.50",
+   "direction_odds": 1.99,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.6181,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型79% vs 市场48%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主3/客5)",
+    "λ过高(4.19)",
+    "模型与市场分歧>20pp(模型79% vs 市场48%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.65,
+     "odds": 1.91,
+     "ev": 0.19168248868117432,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.3153,
+     "odds": 1.93,
+     "ev": -0.4157,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.212,
+     "odds": 1.84,
+     "ev": -0.627,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.99,
+     "ev": 0.2365672588832486,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.6181,
+     "odds": 1.97,
+     "ev": 0.2137,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.196,
+     "odds": 4.3,
+     "ev": -0.1598,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1858,
+     "odds": 3.8,
+     "ev": -0.2962,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 01:30",
+   "league": "阿甲",
+   "home": "Aldosivi",
+   "away": "Club Atlético Unión de Santa Fe",
+   "score": "1-3",
+   "hg": 1,
+   "ag": 3,
+   "direction_name": "小2.50",
+   "direction_odds": 1.45,
+   "wdl_name": "平局",
+   "wdl_prob": 0.3628,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主0/客3)",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.2)",
+     "prob": 0.65,
+     "odds": 1.94,
+     "ev": 0.21995563714242028,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(-0.2)",
+     "prob": 0.3463,
+     "odds": 1.93,
+     "ev": -0.3533,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.45,
+     "ev": -0.12507211839959864,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.2027,
+     "odds": 2.58,
+     "ev": -0.5145,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.2932,
+     "odds": 3.42,
+     "ev": -0.0683,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3628,
+     "odds": 2.93,
+     "ev": -0.0122,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.344,
+     "odds": 2.26,
+     "ev": -0.2775,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 01:30",
+   "league": "丹超",
+   "home": "FC Petrolul Ploiești",
+   "away": "FC Rapid București",
+   "score": "0-2",
+   "hg": 0,
+   "ag": 2,
+   "direction_name": "让球主(+0.2)",
+   "direction_odds": 2.0,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.3707,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "盘口过期(距开赛24h>阈值12h)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛24h>阈值12h)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.2)",
+     "prob": 0.6293,
+     "odds": 2.0,
+     "ev": 0.2096,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(-0.2)",
+     "prob": 0.3707,
+     "odds": 1.85,
+     "ev": -0.3409,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.6197,
+     "odds": 1.65,
+     "ev": -0.0493,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3803,
+     "odds": 2.13,
+     "ev": -0.2469,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3391,
+     "odds": 3.37,
+     "ev": 0.0495,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2902,
+     "odds": 3.19,
+     "ev": -0.1495,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3707,
+     "odds": 2.09,
+     "ev": -0.2884,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 02:00",
+   "league": "法乙",
+   "home": "USL Dunkerque",
+   "away": "Montpellier",
+   "score": "0-1",
+   "hg": 0,
+   "ag": 1,
+   "direction_name": "小2.50",
+   "direction_odds": 2.22,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.4146,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型83% vs 市场45%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "模型与市场分歧>20pp(模型83% vs 市场45%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.3789,
+     "odds": 1.82,
+     "ev": -0.3461,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.6211,
+     "odds": 1.98,
+     "ev": 0.1663,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 2.22,
+     "ev": 0.4342988172821627,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.1714,
+     "odds": 1.8,
+     "ev": -0.6933,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.2152,
+     "odds": 2.3,
+     "ev": -0.5072,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3702,
+     "odds": 3.75,
+     "ev": 0.382,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.4146,
+     "odds": 3.3,
+     "ev": 0.362,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 02:00",
+   "league": "法乙",
+   "home": "US Boulogne Côte-d'Opale",
+   "away": "Red Star FC",
+   "score": "1-1",
+   "hg": 1,
+   "ag": 1,
+   "direction_name": "小2.50",
+   "direction_odds": 1.63,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.4473,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.2)",
+     "prob": 0.523,
+     "odds": 1.85,
+     "ev": -0.068,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "half"
+    },
+    {
+     "name": "让球客(-0.2)",
+     "prob": 0.477,
+     "odds": 2.01,
+     "ev": -0.0763,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5986,
+     "odds": 1.63,
+     "ev": -0.0917,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4014,
+     "odds": 2.17,
+     "ev": -0.1893,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.2574,
+     "odds": 3.12,
+     "ev": -0.2578,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2953,
+     "odds": 3.06,
+     "ev": -0.165,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.4473,
+     "odds": 2.3,
+     "ev": -0.0492,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 02:00",
+   "league": "法乙",
+   "home": "Sochaux",
+   "away": "Guingamp",
+   "score": "1-0",
+   "hg": 1,
+   "ag": 0,
+   "direction_name": "让球主(+0.2)",
+   "direction_odds": 1.79,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4676,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型76% vs 市场54%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "模型与市场分歧>20pp(模型76% vs 市场54%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.2)",
+     "prob": 0.65,
+     "odds": 1.79,
+     "ev": 0.11936842105263157,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(-0.2)",
+     "prob": 0.24,
+     "odds": 2.08,
+     "ev": -0.5198,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5026,
+     "odds": 1.8,
+     "ev": -0.1639,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4974,
+     "odds": 1.9,
+     "ev": -0.1264,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4676,
+     "odds": 2.88,
+     "ev": 0.3348,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2736,
+     "odds": 3.4,
+     "ev": -0.0781,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2588,
+     "odds": 2.72,
+     "ev": -0.3024,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 02:00",
+   "league": "法乙",
+   "home": "Pau FC",
+   "away": "Nancy",
+   "score": "0-1",
+   "hg": 0,
+   "ag": 1,
+   "direction_name": "让球客(+0.2)",
+   "direction_odds": 1.93,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.4974,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型78% vs 市场50%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警-强(市场去水平局>=30%)",
+    "模型与市场分歧>20pp(模型78% vs 市场50%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.2173,
+     "odds": 1.93,
+     "ev": -0.5952,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.65,
+     "odds": 1.93,
+     "ev": 0.2105596013798392,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4674,
+     "odds": 1.82,
+     "ev": -0.1598,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5326,
+     "odds": 2.16,
+     "ev": 0.1364,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.2402,
+     "odds": 2.72,
+     "ev": -0.3508,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2625,
+     "odds": 3.3,
+     "ev": -0.1393,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.4974,
+     "odds": 2.98,
+     "ev": 0.4729,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 02:00",
+   "league": "法乙",
+   "home": "Clermont Foot",
+   "away": "Dijon",
+   "score": "1-1",
+   "hg": 1,
+   "ag": 1,
+   "direction_name": "小2.50",
+   "direction_odds": 1.72,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.3617,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.4961,
+     "odds": 1.9,
+     "ev": -0.1045,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.5039,
+     "odds": 1.9,
+     "ev": -0.0905,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5057,
+     "odds": 1.72,
+     "ev": -0.1901,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4943,
+     "odds": 2.03,
+     "ev": -0.0658,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3556,
+     "odds": 2.51,
+     "ev": -0.1742,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2828,
+     "odds": 3.31,
+     "ev": -0.134,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3617,
+     "odds": 2.63,
+     "ev": -0.1199,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 02:30",
+   "league": "土超",
+   "home": "Erzurumspor FK",
+   "away": "Galatasaray",
+   "score": "0-4",
+   "hg": 0,
+   "ag": 4,
+   "direction_name": "让球主(+1.2)",
+   "direction_odds": 1.94,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.3921,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "盘口过期(距开赛25h>阈值12h)",
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主0/客4)",
+    "盘口过期(距开赛25h>阈值12h)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+1.2)",
+     "prob": 0.65,
+     "odds": 1.94,
+     "ev": 0.22317515963440604,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(-1.2)",
+     "prob": 0.2013,
+     "odds": 1.94,
+     "ev": -0.6212,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4557,
+     "odds": 2.05,
+     "ev": -0.1262,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5443,
+     "odds": 1.72,
+     "ev": -0.1244,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3354,
+     "odds": 7.5,
+     "ev": 1.3401,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2725,
+     "odds": 4.4,
+     "ev": 0.1156,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3921,
+     "odds": 1.4,
+     "ev": -0.4893,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 02:45",
+   "league": "比甲",
+   "home": "Standard Liège",
+   "away": "RAAL La Louvière",
+   "score": "2-0",
+   "hg": 2,
+   "ag": 0,
+   "direction_name": "让球客(+0.5)",
+   "direction_odds": 1.99,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3692,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "让球客标准档降星"
+   ],
+   "best_bet": {
+    "name": "让球客(+0.5)",
+    "prob": 0.6216,
+    "odds": 1.99,
+    "ev": 0.1958,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.3784,
+     "odds": 1.88,
+     "ev": -0.3123,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.6216,
+     "odds": 1.99,
+     "ev": 0.1958,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.87,
+     "ev": 0.20239676580999144,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3074,
+     "odds": 2.1,
+     "ev": -0.3615,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3692,
+     "odds": 2.02,
+     "ev": -0.2572,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3279,
+     "odds": 3.55,
+     "ev": 0.1594,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3029,
+     "odds": 4.4,
+     "ev": 0.3273,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 02:45",
+   "league": "法甲",
+   "home": "Olympique de Marseille",
+   "away": "RC Strasbourg",
+   "score": "4-0",
+   "hg": 4,
+   "ag": 0,
+   "direction_name": "大2.50",
+   "direction_odds": 1.51,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.6147,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.8)",
+     "prob": 0.65,
+     "odds": 1.95,
+     "ev": 0.235879153190238,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.8)",
+     "prob": 0.3198,
+     "odds": 1.95,
+     "ev": -0.392,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.3383,
+     "odds": 2.45,
+     "ev": -0.2258,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.51,
+     "ev": -0.08300589390962665,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.6147,
+     "odds": 1.71,
+     "ev": -0.0093,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2159,
+     "odds": 4.06,
+     "ev": -0.1738,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1694,
+     "odds": 4.35,
+     "ev": -0.3054,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 03:00",
+   "league": "西乙",
+   "home": "Córdoba",
+   "away": "Girona FC",
+   "score": "2-1",
+   "hg": 2,
+   "ag": 1,
+   "direction_name": "让球主(+0.2)",
+   "direction_odds": 1.88,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4939,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型78% vs 市场51%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "模型与市场分歧>20pp(模型78% vs 市场51%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.2)",
+     "prob": 0.65,
+     "odds": 1.88,
+     "ev": 0.18133469700843774,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(-0.2)",
+     "prob": 0.2178,
+     "odds": 1.99,
+     "ev": -0.581,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4822,
+     "odds": 2.2,
+     "ev": 0.0534,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5178,
+     "odds": 1.81,
+     "ev": -0.0693,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4939,
+     "odds": 2.72,
+     "ev": 0.3331,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2656,
+     "odds": 3.6,
+     "ev": -0.0511,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2405,
+     "odds": 2.76,
+     "ev": -0.3414,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 03:00",
+   "league": "西甲",
+   "home": "Real Betis",
+   "away": "Real Sociedad",
+   "score": "1-0",
+   "hg": 1,
+   "ag": 0,
+   "direction_name": "大2.50",
+   "direction_odds": 1.9,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5838,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主5/客4)",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "大2.50",
+    "prob": 0.6474,
+    "odds": 1.9,
+    "ev": 0.2213,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.6447,
+     "odds": 1.85,
+     "ev": 0.173,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.3553,
+     "odds": 2.1,
+     "ev": -0.2661,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.3526,
+     "odds": 2.08,
+     "ev": -0.2717,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.6474,
+     "odds": 1.9,
+     "ev": 0.2213,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5838,
+     "odds": 2.14,
+     "ev": 0.2433,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2198,
+     "odds": 3.6,
+     "ev": -0.2125,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1964,
+     "odds": 3.85,
+     "ev": -0.2474,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 03:00",
+   "league": "英超",
+   "home": "Arsenal",
+   "away": "Coventry City",
+   "score": "3-0",
+   "hg": 3,
+   "ag": 0,
+   "direction_name": "让球客(+2.0)",
+   "direction_odds": 1.94,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5222,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型78% vs 市场50%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "模型与市场分歧>20pp(模型78% vs 市场50%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-2.0)",
+     "prob": 0.219,
+     "odds": 1.94,
+     "ev": -0.5879,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+2.0)",
+     "prob": 0.65,
+     "odds": 1.94,
+     "ev": 0.22318181818181815,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.579,
+     "odds": 2.58,
+     "ev": 0.4866,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.421,
+     "odds": 1.62,
+     "ev": -0.3213,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5222,
+     "odds": 1.23,
+     "ev": -0.3621,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2702,
+     "odds": 7.4,
+     "ev": 0.9856,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2076,
+     "odds": 17.0,
+     "ev": 2.5049,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 07:00",
+   "league": "阿甲",
+   "home": "Estudiantes de Río Cuarto",
+   "away": "San Lorenzo",
+   "score": "0-0",
+   "hg": 0,
+   "ag": 0,
+   "direction_name": "小2.50",
+   "direction_odds": 1.31,
+   "wdl_name": "平局",
+   "wdl_prob": 0.5244,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主0/客8)",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.4623,
+     "odds": 1.95,
+     "ev": -0.1563,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.5377,
+     "odds": 1.8,
+     "ev": -0.094,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.31,
+     "ev": -0.19813209494324036,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.031,
+     "odds": 3.35,
+     "ev": -0.9022,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.2041,
+     "odds": 3.7,
+     "ev": -0.2564,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.5244,
+     "odds": 2.82,
+     "ev": 0.4562,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2715,
+     "odds": 2.56,
+     "ev": -0.3155,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 09:00",
+   "league": "墨超",
+   "home": "Tigres UANL",
+   "away": "Atlante FC",
+   "score": "2-0",
+   "hg": 2,
+   "ag": 0,
+   "direction_name": "让球主(-1.0)",
+   "direction_odds": 1.98,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.8308,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "盘口为隔日快照(2026-08-21)",
+   "risk": [
+    "纯数据无伤病情报",
+    "λ过高(5.03)",
+    "盘口为隔日快照(2026-08-21)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-1.0)",
+     "prob": 0.65,
+     "odds": 1.98,
+     "ev": 0.27408094838941466,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+1.0)",
+     "prob": 0.1649,
+     "odds": 1.98,
+     "ev": -0.6767,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.1254,
+     "odds": 2.24,
+     "ev": -0.7231,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.76,
+     "ev": 0.1275040018294078,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.65,
+     "odds": 1.59,
+     "ev": 0.022020943668753068,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.1061,
+     "odds": 4.7,
+     "ev": -0.5067,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.0631,
+     "odds": 5.9,
+     "ev": -0.6317,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 11:10",
+   "league": "墨超",
+   "home": "FC Juárez",
+   "away": "Club América",
+   "score": "1-2",
+   "hg": 1,
+   "ag": 2,
+   "direction_name": "大2.50",
+   "direction_odds": 1.81,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.4928,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "盘口为隔日快照(2026-08-21)",
+   "risk": [
+    "纯数据无伤病情报",
+    "盘口为隔日快照(2026-08-21)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.8)",
+     "prob": 0.4658,
+     "odds": 1.94,
+     "ev": -0.1058,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(-0.8)",
+     "prob": 0.5342,
+     "odds": 2.02,
+     "ev": 0.0679,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "half"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.3772,
+     "odds": 2.18,
+     "ev": -0.1868,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.6228,
+     "odds": 1.81,
+     "ev": 0.1148,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.2587,
+     "odds": 4.7,
+     "ev": 0.2049,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2485,
+     "odds": 4.1,
+     "ev": 0.0097,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.4928,
+     "odds": 1.81,
+     "ev": -0.1162,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 17:00",
+   "league": "J1",
+   "home": "Kashima Antlers",
+   "away": "Avispa Fukuoka",
+   "score": "3-2",
+   "hg": 3,
+   "ag": 2,
+   "direction_name": "让球客(+0.8)",
+   "direction_odds": 1.88,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3704,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "盘口过期(距开赛15h>阈值12h)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛15h>阈值12h)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.8)",
+     "prob": 0.3788,
+     "odds": 2.01,
+     "ev": -0.2603,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "half"
+    },
+    {
+     "name": "让球客(+0.8)",
+     "prob": 0.6212,
+     "odds": 1.88,
+     "ev": 0.1344,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4199,
+     "odds": 1.6,
+     "ev": -0.353,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5801,
+     "odds": 2.42,
+     "ev": 0.3522,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3704,
+     "odds": 1.79,
+     "ev": -0.3427,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2591,
+     "odds": 3.6,
+     "ev": -0.0754,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3704,
+     "odds": 5.8,
+     "ev": 1.1297,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 17:30",
+   "league": "J1",
+   "home": "Fagiano Okayama",
+   "away": "Tokyo Verdy",
+   "score": "0-0",
+   "hg": 0,
+   "ag": 0,
+   "direction_name": "让球客(+0.2)",
+   "direction_odds": 1.93,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3704,
+   "dir_result": "half",
+   "vetoed": true,
+   "veto_reason": "盘口过期(距开赛16h>阈值12h)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警-强(市场去水平局>=30%)",
+    "盘口过期(距开赛16h>阈值12h)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.3788,
+     "odds": 1.88,
+     "ev": -0.3217,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.6212,
+     "odds": 1.93,
+     "ev": 0.1417,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "half"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4199,
+     "odds": 1.54,
+     "ev": -0.382,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5801,
+     "odds": 2.52,
+     "ev": 0.3974,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3704,
+     "odds": 2.22,
+     "ev": -0.1961,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2591,
+     "odds": 3.1,
+     "ev": -0.2148,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3704,
+     "odds": 4.0,
+     "ev": 0.4484,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 18:00",
+   "league": "J1",
+   "home": "Nagoya Grampus",
+   "away": "Gamba Osaka",
+   "score": "3-1",
+   "hg": 3,
+   "ag": 1,
+   "direction_name": "让球客(+0.2)",
+   "direction_odds": 1.85,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3704,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "盘口过期(距开赛16h>阈值12h)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛16h>阈值12h)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.3788,
+     "odds": 2.0,
+     "ev": -0.2718,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.6212,
+     "odds": 1.85,
+     "ev": 0.1044,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4199,
+     "odds": 2.02,
+     "ev": -0.1787,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5801,
+     "odds": 1.86,
+     "ev": 0.0449,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3704,
+     "odds": 2.46,
+     "ev": -0.1118,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2591,
+     "odds": 3.55,
+     "ev": -0.1035,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3704,
+     "odds": 2.96,
+     "ev": 0.0687,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 18:00",
+   "league": "J1",
+   "home": "Kyoto Sanga FC",
+   "away": "Mito Hollyhock",
+   "score": "1-3",
+   "hg": 1,
+   "ag": 3,
+   "direction_name": "让球客(+0.2)",
+   "direction_odds": 2.06,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3704,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "盘口过期(距开赛16h>阈值12h)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛16h>阈值12h)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.3788,
+     "odds": 1.84,
+     "ev": -0.3225,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.6212,
+     "odds": 2.06,
+     "ev": 0.2436,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4199,
+     "odds": 1.74,
+     "ev": -0.2846,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5801,
+     "odds": 2.24,
+     "ev": 0.2726,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3704,
+     "odds": 2.16,
+     "ev": -0.2184,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2591,
+     "odds": 3.4,
+     "ev": -0.1395,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3704,
+     "odds": 3.75,
+     "ev": 0.3569,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 18:00",
+   "league": "J1",
+   "home": "Cerezo Osaka",
+   "away": "Shimizu S-Pulse",
+   "score": "1-0",
+   "hg": 1,
+   "ag": 0,
+   "direction_name": "让球客(+0.2)",
+   "direction_odds": 1.88,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3704,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "盘口过期(距开赛16h>阈值12h)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛16h>阈值12h)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.3788,
+     "odds": 2.01,
+     "ev": -0.2603,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.6212,
+     "odds": 1.88,
+     "ev": 0.1344,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4199,
+     "odds": 2.0,
+     "ev": -0.1862,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5801,
+     "odds": 1.88,
+     "ev": 0.0569,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3704,
+     "odds": 2.32,
+     "ev": -0.1723,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2591,
+     "odds": 3.5,
+     "ev": -0.1266,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3704,
+     "odds": 3.11,
+     "ev": 0.1096,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 18:15",
+   "league": "J1",
+   "home": "Sanfrecce Hiroshima",
+   "away": "Kawasaki Frontale",
+   "score": "1-1",
+   "hg": 1,
+   "ag": 1,
+   "direction_name": "让球客(+0.8)",
+   "direction_odds": 2.07,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3704,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "盘口过期(距开赛17h>阈值12h)",
+   "risk": [
+    "纯数据无伤病情报",
+    "盘口过期(距开赛17h>阈值12h)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.8)",
+     "prob": 0.3788,
+     "odds": 1.83,
+     "ev": -0.3266,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.8)",
+     "prob": 0.6212,
+     "odds": 2.07,
+     "ev": 0.2489,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4199,
+     "odds": 2.36,
+     "ev": -0.0552,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5801,
+     "odds": 1.6,
+     "ev": -0.1149,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3704,
+     "odds": 1.68,
+     "ev": -0.389,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2591,
+     "odds": 4.4,
+     "ev": 0.1193,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3704,
+     "odds": 5.1,
+     "ev": 0.8548,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 18:30",
+   "league": "J1",
+   "home": "Yokohama F. Marinos",
+   "away": "Vissel Kobe",
+   "score": "1-0",
+   "hg": 1,
+   "ag": 0,
+   "direction_name": "让球主(+0.2)",
+   "direction_odds": 1.99,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3704,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "盘口过期(距开赛17h>阈值12h)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛17h>阈值12h)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.2)",
+     "prob": 0.6212,
+     "odds": 1.99,
+     "ev": 0.1982,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(-0.2)",
+     "prob": 0.3788,
+     "odds": 1.89,
+     "ev": -0.3059,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4199,
+     "odds": 1.77,
+     "ev": -0.2801,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5801,
+     "odds": 2.14,
+     "ev": 0.2027,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3704,
+     "odds": 3.5,
+     "ev": 0.2687,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2591,
+     "odds": 3.45,
+     "ev": -0.1253,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3704,
+     "odds": 2.24,
+     "ev": -0.1881,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 19:00",
+   "league": "中超",
+   "home": "Wuhan Three Towns",
+   "away": "Tianjin Jinmen Tiger",
+   "score": "0-0",
+   "hg": 0,
+   "ag": 0,
+   "direction_name": "让球客(+0.2)",
+   "direction_odds": 1.87,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3958,
+   "dir_result": "half",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "联赛基准偏差(λ已平移)",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.412,
+     "odds": 1.95,
+     "ev": -0.233,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.588,
+     "odds": 1.87,
+     "ev": 0.0496,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "half"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 2.1,
+     "ev": 0.3070587335576629,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3462,
+     "odds": 1.76,
+     "ev": -0.4167,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3958,
+     "odds": 2.4,
+     "ev": -0.0792,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3137,
+     "odds": 3.55,
+     "ev": 0.0796,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2904,
+     "odds": 3.0,
+     "ev": -0.1555,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 19:30",
+   "league": "英乙",
+   "home": "Walsall",
+   "away": "Grimsby Town",
+   "score": "0-0",
+   "hg": 0,
+   "ag": 0,
+   "direction_name": "让球客(-0.0)",
+   "direction_odds": 1.81,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.6199,
+   "dir_result": "push",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型80% vs 市场54%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警-强(市场去水平局>=30%)",
+    "模型与市场分歧>20pp(模型80% vs 市场54%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.1981,
+     "odds": 2.1,
+     "ev": -0.5957,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.65,
+     "odds": 1.81,
+     "ev": 0.14380221972814566,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.75,
+     "ev": 0.09043767152968352,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3077,
+     "odds": 2.12,
+     "ev": -0.3746,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.1078,
+     "odds": 3.55,
+     "ev": -0.624,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2724,
+     "odds": 2.42,
+     "ev": -0.3522,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.6199,
+     "odds": 3.1,
+     "ev": 0.8885,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 19:30",
+   "league": "英乙",
+   "home": "Salford City",
+   "away": "Chesterfield",
+   "score": "0-1",
+   "hg": 0,
+   "ag": 1,
+   "direction_name": "小2.50",
+   "direction_odds": 1.68,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4182,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "小2.50",
+    "prob": 0.65,
+    "odds": 1.68,
+    "ev": 0.07543151447661489,
+    "prob_raw": 0.7184,
+    "star": 1,
+    "ev_tier": "观察",
+    "stake_factor": 0.15
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.4397,
+     "odds": 1.97,
+     "ev": -0.1736,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.5603,
+     "odds": 1.85,
+     "ev": -0.0111,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.68,
+     "ev": 0.07543151447661489,
+     "star": 1,
+     "ev_tier": "观察",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.2816,
+     "odds": 2.38,
+     "ev": -0.34,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4182,
+     "odds": 6.8,
+     "ev": 1.8174,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3289,
+     "odds": 3.65,
+     "ev": 0.1894,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2529,
+     "odds": 1.7,
+     "ev": -0.5739,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 19:30",
+   "league": "英乙",
+   "home": "Bristol Rovers",
+   "away": "Newport County",
+   "score": "5-3",
+   "hg": 5,
+   "ag": 3,
+   "direction_name": "让球主(-0.5)",
+   "direction_odds": 1.88,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.8048,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型87% vs 市场52%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警-强(市场去水平局>=30%)",
+    "模型与市场分歧>20pp(模型87% vs 市场52%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.65,
+     "odds": 1.88,
+     "ev": 0.19555568299116866,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.1281,
+     "odds": 2.04,
+     "ev": -0.7444,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.315,
+     "odds": 1.98,
+     "ev": -0.4001,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.87,
+     "ev": 0.16886131386861303,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.65,
+     "odds": 1.96,
+     "ev": 0.2626863817097418,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.137,
+     "odds": 2.92,
+     "ev": -0.6034,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.0582,
+     "odds": 6.4,
+     "ev": -0.6308,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 19:30",
+   "league": "英冠",
+   "home": "Millwall",
+   "away": "Norwich City",
+   "score": "3-0",
+   "hg": 3,
+   "ag": 0,
+   "direction_name": "让球客(+0.2)",
+   "direction_odds": 1.95,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.3982,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型73% vs 市场51%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主4/客2)",
+    "模型与市场分歧>20pp(模型73% vs 市场51%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.2712,
+     "odds": 2.0,
+     "ev": -0.4644,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.65,
+     "odds": 1.95,
+     "ev": 0.2513927003293086,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.74,
+     "ev": 0.12452248458414794,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3351,
+     "odds": 2.32,
+     "ev": -0.227,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.2834,
+     "odds": 1.44,
+     "ev": -0.5954,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3184,
+     "odds": 4.4,
+     "ev": 0.3889,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3982,
+     "odds": 11.5,
+     "ev": 3.5403,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 19:30",
+   "league": "英冠",
+   "home": "Lincoln City",
+   "away": "Portsmouth",
+   "score": "1-3",
+   "hg": 1,
+   "ag": 3,
+   "direction_name": "让球主(-0.2)",
+   "direction_odds": 1.96,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.56,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主0/客7)",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "让球主(-0.2)",
+    "prob": 0.6158,
+    "odds": 1.96,
+    "ev": 0.1737,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.175
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.6158,
+     "odds": 1.96,
+     "ev": 0.1737,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.3842,
+     "odds": 1.93,
+     "ev": -0.2789,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4706,
+     "odds": 1.88,
+     "ev": -0.1303,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5294,
+     "odds": 2.06,
+     "ev": 0.0719,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.56,
+     "odds": 8.2,
+     "ev": 3.583,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2507,
+     "odds": 3.7,
+     "ev": -0.0741,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1892,
+     "odds": 1.64,
+     "ev": -0.6902,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 19:30",
+   "league": "英冠",
+   "home": "Birmingham City",
+   "away": "Bristol City",
+   "score": "2-2",
+   "hg": 2,
+   "ag": 2,
+   "direction_name": "小2.50",
+   "direction_odds": 3.35,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4749,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型64% vs 市场30%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警-强(市场去水平局>=30%)",
+    "模型与市场分歧>20pp(模型64% vs 市场30%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.8)",
+     "prob": 0.5109,
+     "odds": 2.02,
+     "ev": 0.005,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.8)",
+     "prob": 0.4891,
+     "odds": 1.88,
+     "ev": -0.1047,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.645,
+     "odds": 3.35,
+     "ev": 1.1441,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.355,
+     "odds": 1.41,
+     "ev": -0.5032,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4749,
+     "odds": 2.52,
+     "ev": 0.1847,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3029,
+     "odds": 2.42,
+     "ev": -0.2744,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2223,
+     "odds": 5.0,
+     "ev": 0.1004,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 19:30",
+   "league": "英超",
+   "home": "Hull City",
+   "away": "Manchester United",
+   "score": "2-0",
+   "hg": 2,
+   "ag": 0,
+   "direction_name": "让球主(+1.5)",
+   "direction_odds": 1.91,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.3646,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型85% vs 市场52%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主8/客3)",
+    "模型与市场分歧>20pp(模型85% vs 市场52%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+1.5)",
+     "prob": 0.65,
+     "odds": 1.91,
+     "ev": 0.236132031066133,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(-1.5)",
+     "prob": 0.1502,
+     "odds": 2.08,
+     "ev": -0.6889,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.6493,
+     "odds": 2.32,
+     "ev": 0.4928,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3507,
+     "odds": 1.73,
+     "ev": -0.3987,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3296,
+     "odds": 9.8,
+     "ev": 2.2184,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3058,
+     "odds": 5.2,
+     "ev": 0.5847,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3646,
+     "odds": 1.41,
+     "ev": -0.4878,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 19:35",
+   "league": "中超",
+   "home": "Shenzhen Peng City",
+   "away": "Zhejiang",
+   "score": "1-1",
+   "hg": 1,
+   "ag": 1,
+   "direction_name": "让球主(+0.0)",
+   "direction_odds": 1.81,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.6214,
+   "dir_result": "push",
+   "vetoed": true,
+   "veto_reason": "盘口过期(距开赛18h>阈值12h)",
+   "risk": [
+    "纯数据无伤病情报",
+    "联赛基准偏差(λ已平移)",
+    "盘口过期(距开赛18h>阈值12h)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.65,
+     "odds": 1.81,
+     "ev": 0.13613515958134115,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.2261,
+     "odds": 2.07,
+     "ev": -0.5481,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.2779,
+     "odds": 2.4,
+     "ev": -0.3768,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.53,
+     "ev": -0.07077274615704199,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.6214,
+     "odds": 2.48,
+     "ev": 0.5095,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2044,
+     "odds": 3.8,
+     "ev": -0.2393,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1742,
+     "odds": 2.82,
+     "ev": -0.5189,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 19:35",
+   "league": "中超",
+   "home": "Chengdu Rongcheng",
+   "away": "Shanghai Shenhua",
+   "score": "4-5",
+   "hg": 4,
+   "ag": 5,
+   "direction_name": "让球主(-0.5)",
+   "direction_odds": 1.91,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5412,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "盘口过期(距开赛18h>阈值12h)",
+   "risk": [
+    "纯数据无伤病情报",
+    "联赛基准偏差(λ已平移)",
+    "盘口过期(距开赛18h>阈值12h)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.5935,
+     "odds": 1.91,
+     "ev": 0.0882,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.4065,
+     "odds": 1.93,
+     "ev": -0.2469,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4533,
+     "odds": 2.8,
+     "ev": 0.1847,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5467,
+     "odds": 1.4,
+     "ev": -0.2857,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5412,
+     "odds": 1.85,
+     "ev": -0.0224,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.251,
+     "odds": 4.4,
+     "ev": 0.0783,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2078,
+     "odds": 3.9,
+     "ev": -0.2089,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 20:00",
+   "league": "法乙",
+   "home": "Nantes",
+   "away": "Rodez AF",
+   "score": "2-5",
+   "hg": 2,
+   "ag": 5,
+   "direction_name": "让球客(+1.5)",
+   "direction_odds": 1.95,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3991,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型78% vs 市场50%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主4/客0)",
+    "模型与市场分歧>20pp(模型78% vs 市场50%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-1.5)",
+     "prob": 0.215,
+     "odds": 1.93,
+     "ev": -0.5975,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+1.5)",
+     "prob": 0.65,
+     "odds": 1.95,
+     "ev": 0.22945222929936304,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.3963,
+     "odds": 1.96,
+     "ev": -0.2526,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.6037,
+     "odds": 1.89,
+     "ev": 0.0978,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3991,
+     "odds": 1.22,
+     "ev": -0.5193,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2616,
+     "odds": 6.6,
+     "ev": 0.7047,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3393,
+     "odds": 24.0,
+     "ev": 7.0391,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 20:00",
+   "league": "法乙",
+   "home": "Metz",
+   "away": "Stade Lavallois",
+   "score": "1-1",
+   "hg": 1,
+   "ag": 1,
+   "direction_name": "小2.50",
+   "direction_odds": 1.88,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4793,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.517,
+     "odds": 1.93,
+     "ev": -0.0346,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.483,
+     "odds": 1.94,
+     "ev": -0.0935,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5774,
+     "odds": 1.88,
+     "ev": 0.0468,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4226,
+     "odds": 1.98,
+     "ev": -0.193,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4793,
+     "odds": 2.06,
+     "ev": -0.0235,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2858,
+     "odds": 3.0,
+     "ev": -0.1521,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.235,
+     "odds": 5.2,
+     "ev": 0.2084,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 20:00",
+   "league": "中超",
+   "home": "Qingdao West Coast",
+   "away": "Shandong Taishan",
+   "score": "2-0",
+   "hg": 2,
+   "ag": 0,
+   "direction_name": "让球主(+0.0)",
+   "direction_odds": 1.88,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.581,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "盘口过期(距开赛18h>阈值12h)",
+   "risk": [
+    "纯数据无伤病情报",
+    "联赛基准偏差(λ已平移)",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛18h>阈值12h)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.65,
+     "odds": 1.88,
+     "ev": 0.1726962457337886,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.2382,
+     "odds": 1.96,
+     "ev": -0.5521,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.6317,
+     "odds": 2.28,
+     "ev": 0.3932,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3683,
+     "odds": 1.68,
+     "ev": -0.4016,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.581,
+     "odds": 2.58,
+     "ev": 0.4603,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2718,
+     "odds": 3.65,
+     "ev": -0.0334,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1471,
+     "odds": 2.74,
+     "ev": -0.6073,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 20:00",
+   "league": "中超",
+   "home": "Beijing Guoan",
+   "away": "Yunnan Yukun",
+   "score": "3-3",
+   "hg": 3,
+   "ag": 3,
+   "direction_name": "大2.50",
+   "direction_odds": 1.28,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.6714,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "盘口过期(距开赛18h>阈值12h)",
+   "risk": [
+    "纯数据无伤病情报",
+    "λ过高(4.32)",
+    "联赛基准偏差(λ已平移)",
+    "盘口过期(距开赛18h>阈值12h)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-1.2)",
+     "prob": 0.5576,
+     "odds": 1.98,
+     "ev": 0.0676,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+1.2)",
+     "prob": 0.4424,
+     "odds": 1.89,
+     "ev": -0.1915,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.196,
+     "odds": 3.35,
+     "ev": -0.3919,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.28,
+     "ev": -0.2294589552238806,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.65,
+     "odds": 1.54,
+     "ev": -0.018900804289544104,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.1779,
+     "odds": 5.2,
+     "ev": -0.0933,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1507,
+     "odds": 5.6,
+     "ev": -0.1726,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 21:00",
+   "league": "瑞超",
+   "home": "Örgryte IS",
+   "away": "Halmstads BK",
+   "score": "1-1",
+   "hg": 1,
+   "ag": 1,
+   "direction_name": "让球主(-0.5)",
+   "direction_odds": 1.97,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5464,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主5/客0)"
+   ],
+   "best_bet": {
+    "name": "让球主(-0.5)",
+    "prob": 0.5999,
+    "odds": 1.97,
+    "ev": 0.1787,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.5999,
+     "odds": 1.97,
+     "ev": 0.1787,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.4001,
+     "odds": 2.02,
+     "ev": -0.194,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4044,
+     "odds": 2.26,
+     "ev": -0.1045,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5956,
+     "odds": 1.73,
+     "ev": 0.0098,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5464,
+     "odds": 1.97,
+     "ev": 0.0649,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2422,
+     "odds": 3.95,
+     "ev": -0.0536,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2114,
+     "odds": 4.0,
+     "ev": -0.1633,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英乙",
+   "home": "Swindon Town",
+   "away": "Cheltenham Town",
+   "score": "2-1",
+   "hg": 2,
+   "ag": 1,
+   "direction_name": "让球主(-0.5)",
+   "direction_odds": 1.98,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.653,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型72% vs 市场49%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "λ过高(4.14)",
+    "平局预警(市场去水平局>=26%)",
+    "模型与市场分歧>20pp(模型72% vs 市场49%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.65,
+     "odds": 1.98,
+     "ev": 0.26110957579107374,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.2763,
+     "odds": 1.94,
+     "ev": -0.4747,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.2194,
+     "odds": 1.98,
+     "ev": -0.571,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.97,
+     "ev": 0.26452728670253656,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.65,
+     "odds": 2.0,
+     "ev": 0.28676110260336896,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.1869,
+     "odds": 3.6,
+     "ev": -0.3341,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1601,
+     "odds": 4.3,
+     "ev": -0.3187,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英乙",
+   "home": "Shrewsbury Town",
+   "away": "Barnet",
+   "score": "1-3",
+   "hg": 1,
+   "ag": 3,
+   "direction_name": "让球主(+0.5)",
+   "direction_odds": 1.87,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.4456,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.5)",
+     "prob": 0.525,
+     "odds": 1.87,
+     "ev": -0.0333,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(-0.5)",
+     "prob": 0.475,
+     "odds": 2.08,
+     "ev": -0.0271,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4967,
+     "odds": 1.93,
+     "ev": -0.0538,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5033,
+     "odds": 2.02,
+     "ev": 0.0034,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.2789,
+     "odds": 3.95,
+     "ev": 0.0896,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2756,
+     "odds": 3.55,
+     "ev": -0.0324,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.4456,
+     "odds": 2.1,
+     "ev": -0.0746,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英乙",
+   "home": "Rotherham United",
+   "away": "York City",
+   "score": "1-1",
+   "hg": 1,
+   "ag": 1,
+   "direction_name": "小2.50",
+   "direction_odds": 2.0,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3853,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "小2.50",
+    "prob": 0.5428,
+    "odds": 2.0,
+    "ev": 0.0801,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.5382,
+     "odds": 1.91,
+     "ev": -0.0007,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.4618,
+     "odds": 1.98,
+     "ev": -0.111,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5428,
+     "odds": 2.0,
+     "ev": 0.0801,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4572,
+     "odds": 1.98,
+     "ev": -0.0993,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3853,
+     "odds": 2.64,
+     "ev": 0.0022,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2896,
+     "odds": 3.65,
+     "ev": 0.0412,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3251,
+     "odds": 2.76,
+     "ev": -0.116,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英乙",
+   "home": "Rochdale",
+   "away": "Crawley Town",
+   "score": "1-2",
+   "hg": 1,
+   "ag": 2,
+   "direction_name": "让球主(-0.5)",
+   "direction_odds": 1.9,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5168,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.5622,
+     "odds": 1.9,
+     "ev": 0.0356,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.4378,
+     "odds": 1.98,
+     "ev": -0.1594,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 2.24,
+     "ev": 0.44402678435550147,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3429,
+     "odds": 1.78,
+     "ev": -0.3946,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5168,
+     "odds": 1.94,
+     "ev": -0.0072,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2949,
+     "odds": 3.9,
+     "ev": 0.1386,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1883,
+     "odds": 4.2,
+     "ev": -0.217,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英乙",
+   "home": "Port Vale",
+   "away": "Tranmere Rovers",
+   "score": "1-1",
+   "hg": 1,
+   "ag": 1,
+   "direction_name": "让球主(-0.5)",
+   "direction_odds": 2.0,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5865,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "让球主(-0.5)",
+    "prob": 0.6472,
+    "odds": 2.0,
+    "ev": 0.2612,
+    "star": 1,
+    "ev_tier": "高价值",
+    "stake_factor": 0.25
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.6472,
+     "odds": 2.0,
+     "ev": 0.2612,
+     "star": 1,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.3528,
+     "odds": 1.9,
+     "ev": -0.3469,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4368,
+     "odds": 1.76,
+     "ev": -0.2422,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5632,
+     "odds": 2.24,
+     "ev": 0.2433,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5865,
+     "odds": 2.04,
+     "ev": 0.1815,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2368,
+     "odds": 3.45,
+     "ev": -0.1932,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1767,
+     "odds": 4.3,
+     "ev": -0.2497,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英乙",
+   "home": "Fleetwood Town",
+   "away": "Gillingham",
+   "score": "0-0",
+   "hg": 0,
+   "ag": 0,
+   "direction_name": "让球主(-0.5)",
+   "direction_odds": 1.94,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5266,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "让球主(-0.5)",
+    "prob": 0.5755,
+    "odds": 1.94,
+    "ev": 0.0913,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.175
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.5755,
+     "odds": 1.94,
+     "ev": 0.0913,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.4245,
+     "odds": 1.97,
+     "ev": -0.1826,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5179,
+     "odds": 1.96,
+     "ev": 0.0048,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4821,
+     "odds": 2.0,
+     "ev": -0.0455,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5266,
+     "odds": 1.98,
+     "ev": 0.0267,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2651,
+     "odds": 3.75,
+     "ev": -0.0212,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2083,
+     "odds": 4.1,
+     "ev": -0.1592,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英乙",
+   "home": "Exeter City",
+   "away": "Accrington Stanley",
+   "score": "2-0",
+   "hg": 2,
+   "ag": 0,
+   "direction_name": "小2.50",
+   "direction_odds": 1.91,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4616,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "小2.50",
+    "prob": 0.6387,
+    "odds": 1.91,
+    "ev": 0.2091,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.4947,
+     "odds": 2.04,
+     "ev": -0.021,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.5053,
+     "odds": 1.85,
+     "ev": -0.093,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.6387,
+     "odds": 1.91,
+     "ev": 0.2091,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3613,
+     "odds": 2.06,
+     "ev": -0.2624,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4616,
+     "odds": 2.08,
+     "ev": -0.048,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3019,
+     "odds": 3.6,
+     "ev": 0.0776,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2365,
+     "odds": 4.0,
+     "ev": -0.062,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英乙",
+   "home": "Crewe Alexandra",
+   "away": "Northampton Town",
+   "score": "1-0",
+   "hg": 1,
+   "ag": 0,
+   "direction_name": "小2.50",
+   "direction_odds": 1.92,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4489,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "小2.50",
+    "prob": 0.5727,
+    "odds": 1.92,
+    "ev": 0.0875,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.4792,
+     "odds": 1.91,
+     "ev": -0.1147,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.5208,
+     "odds": 1.96,
+     "ev": -0.0125,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5727,
+     "odds": 1.92,
+     "ev": 0.0875,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4273,
+     "odds": 2.04,
+     "ev": -0.1378,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4489,
+     "odds": 2.26,
+     "ev": 0.0082,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2897,
+     "odds": 3.65,
+     "ev": 0.0506,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2614,
+     "odds": 3.45,
+     "ev": -0.1037,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英乙",
+   "home": "Colchester United",
+   "away": "Oldham Athletic",
+   "score": "2-1",
+   "hg": 2,
+   "ag": 1,
+   "direction_name": "大2.50",
+   "direction_odds": 1.99,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4909,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "大2.50",
+    "prob": 0.556,
+    "odds": 1.99,
+    "ev": 0.0926,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.65,
+     "odds": 1.97,
+     "ev": 0.23847982819450841,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.3481,
+     "odds": 1.9,
+     "ev": -0.3603,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.444,
+     "odds": 1.96,
+     "ev": -0.1407,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.556,
+     "odds": 1.99,
+     "ev": 0.0926,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4909,
+     "odds": 2.82,
+     "ev": 0.3623,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2597,
+     "odds": 3.5,
+     "ev": -0.1056,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2494,
+     "odds": 2.66,
+     "ev": -0.3473,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英冠",
+   "home": "Wrexham",
+   "away": "Watford",
+   "score": "1-1",
+   "hg": 1,
+   "ag": 1,
+   "direction_name": "大2.50",
+   "direction_odds": 1.93,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5522,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主1/客3)"
+   ],
+   "best_bet": {
+    "name": "大2.50",
+    "prob": 0.6099,
+    "odds": 1.93,
+    "ev": 0.1728,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.6069,
+     "odds": 1.91,
+     "ev": 0.1541,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.3931,
+     "odds": 2.08,
+     "ev": -0.1858,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.3901,
+     "odds": 2.06,
+     "ev": -0.1992,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.6099,
+     "odds": 1.93,
+     "ev": 0.1728,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5522,
+     "odds": 1.9,
+     "ev": 0.0439,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2402,
+     "odds": 3.9,
+     "ev": -0.0679,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2077,
+     "odds": 4.5,
+     "ev": -0.0701,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英冠",
+   "home": "West Ham United",
+   "away": "Charlton Athletic",
+   "score": "1-2",
+   "hg": 1,
+   "ag": 2,
+   "direction_name": "让球客(+1.2)",
+   "direction_odds": 1.91,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5693,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主4/客0)",
+    "联赛英冠历史负ROI(观察期, 300场后定禁入)"
+   ],
+   "best_bet": {
+    "name": "让球客(+1.2)",
+    "prob": 0.6478,
+    "odds": 1.91,
+    "ev": 0.2262,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(-1.2)",
+     "prob": 0.3522,
+     "odds": 2.06,
+     "ev": -0.2809,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+1.2)",
+     "prob": 0.6478,
+     "odds": 1.91,
+     "ev": 0.2262,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.6203,
+     "odds": 2.27,
+     "ev": 0.3501,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3797,
+     "odds": 1.66,
+     "ev": -0.3956,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5693,
+     "odds": 1.46,
+     "ev": -0.1738,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2746,
+     "odds": 5.1,
+     "ev": 0.3922,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1561,
+     "odds": 8.0,
+     "ev": 0.2414,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英冠",
+   "home": "Swansea City",
+   "away": "Sheffield United",
+   "score": "0-0",
+   "hg": 0,
+   "ag": 0,
+   "direction_name": "小2.50",
+   "direction_odds": 1.91,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4387,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主3/客0)",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "小2.50",
+    "prob": 0.6268,
+    "odds": 1.91,
+    "ev": 0.1866,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.6138,
+     "odds": 2.0,
+     "ev": 0.2215,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.3862,
+     "odds": 1.98,
+     "ev": -0.2392,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.6268,
+     "odds": 1.91,
+     "ev": 0.1866,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3732,
+     "odds": 2.06,
+     "ev": -0.2381,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4387,
+     "odds": 2.82,
+     "ev": 0.2372,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3046,
+     "odds": 3.5,
+     "ev": 0.0661,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2567,
+     "odds": 2.78,
+     "ev": -0.2865,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英冠",
+   "home": "Southampton",
+   "away": "Stoke City",
+   "score": "3-1",
+   "hg": 3,
+   "ag": 1,
+   "direction_name": "让球主(-0.8)",
+   "direction_odds": 1.875,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.6443,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主0/客4)"
+   ],
+   "best_bet": {
+    "name": "让球主(-0.8)",
+    "prob": 0.65,
+    "odds": 1.875,
+    "ev": 0.17230834272829765,
+    "prob_raw": 0.7096,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.8)",
+     "prob": 0.65,
+     "odds": 1.875,
+     "ev": 0.17230834272829765,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.8)",
+     "prob": 0.2904,
+     "odds": 1.975,
+     "ev": -0.4484,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5948,
+     "odds": 2.32,
+     "ev": 0.372,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4052,
+     "odds": 1.74,
+     "ev": -0.299,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.6443,
+     "odds": 1.68,
+     "ev": 0.081,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2446,
+     "odds": 4.6,
+     "ev": 0.1239,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1111,
+     "odds": 5.3,
+     "ev": -0.4121,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英冠",
+   "home": "Queens Park Rangers",
+   "away": "Bolton Wanderers",
+   "score": "0-0",
+   "hg": 0,
+   "ag": 0,
+   "direction_name": "让球客(+0.5)",
+   "direction_odds": 2.06,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.373,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主4/客2)",
+    "联赛英冠历史负ROI(观察期, 300场后定禁入)"
+   ],
+   "best_bet": {
+    "name": "让球客(+0.5)",
+    "prob": 0.6174,
+    "odds": 2.06,
+    "ev": 0.2708,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.3826,
+     "odds": 1.94,
+     "ev": -0.2585,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.6174,
+     "odds": 2.06,
+     "ev": 0.2708,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4378,
+     "odds": 2.06,
+     "ev": -0.1037,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5622,
+     "odds": 1.92,
+     "ev": 0.0727,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.373,
+     "odds": 1.94,
+     "ev": -0.2796,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2717,
+     "odds": 3.9,
+     "ev": 0.0548,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3553,
+     "odds": 4.3,
+     "ev": 0.5212,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英冠",
+   "home": "Preston North End",
+   "away": "Wolverhampton",
+   "score": "1-3",
+   "hg": 1,
+   "ag": 3,
+   "direction_name": "让球主(+0.5)",
+   "direction_odds": 1.89,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.3855,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "让球主(+0.5)",
+    "prob": 0.6011,
+    "odds": 1.89,
+    "ev": 0.1301,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(+0.5)",
+     "prob": 0.6011,
+     "odds": 1.89,
+     "ev": 0.1301,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(-0.5)",
+     "prob": 0.3989,
+     "odds": 2.1,
+     "ev": -0.1667,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.549,
+     "odds": 2.02,
+     "ev": 0.1033,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.451,
+     "odds": 1.96,
+     "ev": -0.1207,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3216,
+     "odds": 3.9,
+     "ev": 0.2462,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2929,
+     "odds": 3.65,
+     "ev": 0.062,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3855,
+     "odds": 2.1,
+     "ev": -0.1958,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英冠",
+   "home": "Derby County",
+   "away": "Cardiff City",
+   "score": "2-2",
+   "hg": 2,
+   "ag": 2,
+   "direction_name": "让球客(+0.2)",
+   "direction_odds": 2.06,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.3712,
+   "dir_result": "half",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主2/客4)",
+    "平局预警(市场去水平局>=26%)",
+    "联赛英冠历史负ROI(观察期, 300场后定禁入)"
+   ],
+   "best_bet": {
+    "name": "让球客(+0.2)",
+    "prob": 0.6293,
+    "odds": 2.06,
+    "ev": 0.2883,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.3707,
+     "odds": 1.92,
+     "ev": -0.2927,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.6293,
+     "odds": 2.06,
+     "ev": 0.2883,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "half"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.401,
+     "odds": 2.08,
+     "ev": -0.1717,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.599,
+     "odds": 1.9,
+     "ev": 0.13,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3639,
+     "odds": 2.06,
+     "ev": -0.2529,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2649,
+     "odds": 3.65,
+     "ev": -0.0362,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3712,
+     "odds": 4.1,
+     "ev": 0.5168,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英冠",
+   "home": "Blackburn Rovers",
+   "away": "Middlesbrough",
+   "score": "2-1",
+   "hg": 2,
+   "ag": 1,
+   "direction_name": "让球主(+0.5)",
+   "direction_odds": 1.95,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.3708,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "让球主(+0.5)",
+    "prob": 0.6196,
+    "odds": 1.95,
+    "ev": 0.1988,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(+0.5)",
+     "prob": 0.6196,
+     "odds": 1.95,
+     "ev": 0.1988,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(-0.5)",
+     "prob": 0.3804,
+     "odds": 2.02,
+     "ev": -0.2376,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 2.08,
+     "ev": 0.3461599652878218,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3086,
+     "odds": 1.91,
+     "ev": -0.4131,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3017,
+     "odds": 4.0,
+     "ev": 0.1944,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3275,
+     "odds": 3.7,
+     "ev": 0.1991,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3708,
+     "odds": 2.04,
+     "ev": -0.2514,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "比甲",
+   "home": "SV Zulte Waregem",
+   "away": "SK Beveren",
+   "score": "4-0",
+   "hg": 4,
+   "ag": 0,
+   "direction_name": "让球主(-0.5)",
+   "direction_odds": 2.08,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.6902,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型76% vs 市场47%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "λ过高(5.40)",
+    "平局预警(市场去水平局>=26%)",
+    "模型与市场分歧>20pp(模型76% vs 市场47%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.65,
+     "odds": 2.08,
+     "ev": 0.327565445026178,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.236,
+     "odds": 1.86,
+     "ev": -0.569,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.0962,
+     "odds": 2.2,
+     "ev": -0.7917,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.78,
+     "ev": 0.13839898207568035,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.65,
+     "odds": 2.1,
+     "ev": 0.3424731961750218,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.1575,
+     "odds": 3.65,
+     "ev": -0.4348,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1523,
+     "odds": 3.75,
+     "ev": -0.4383,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英超",
+   "home": "Nottingham Forest",
+   "away": "Leeds United",
+   "score": "0-1",
+   "hg": 0,
+   "ag": 1,
+   "direction_name": "小2.50",
+   "direction_odds": 1.83,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4291,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型75% vs 市场54%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主0/客3)",
+    "平局预警(市场去水平局>=26%)",
+    "模型与市场分歧>20pp(模型75% vs 市场54%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.4533,
+     "odds": 2.08,
+     "ev": -0.0611,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.5467,
+     "odds": 1.91,
+     "ev": 0.0396,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.83,
+     "ev": 0.18341778903853845,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.2501,
+     "odds": 2.18,
+     "ev": -0.4576,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4291,
+     "odds": 2.4,
+     "ev": 0.0244,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3296,
+     "odds": 3.5,
+     "ev": 0.1475,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2412,
+     "odds": 3.3,
+     "ev": -0.2082,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英超",
+   "home": "Ipswich Town",
+   "away": "Sunderland",
+   "score": "2-1",
+   "hg": 2,
+   "ag": 1,
+   "direction_name": "让球主(+0.0)",
+   "direction_odds": 2.02,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.6342,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型80% vs 市场49%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "模型与市场分歧>20pp(模型80% vs 市场49%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.65,
+     "odds": 2.02,
+     "ev": 0.3060559006211181,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.195,
+     "odds": 1.96,
+     "ev": -0.6197,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.6061,
+     "odds": 1.79,
+     "ev": 0.0794,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3939,
+     "odds": 2.24,
+     "ev": -0.1221,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.6342,
+     "odds": 2.88,
+     "ev": 0.8245,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2436,
+     "odds": 3.4,
+     "ev": -0.1727,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1222,
+     "odds": 2.78,
+     "ev": -0.6605,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:00",
+   "league": "英超",
+   "home": "Everton",
+   "away": "Crystal Palace",
+   "score": "2-0",
+   "hg": 2,
+   "ag": 0,
+   "direction_name": "小2.50",
+   "direction_odds": 1.92,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4166,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主3/客1)",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "小2.50",
+    "prob": 0.6331,
+    "odds": 1.92,
+    "ev": 0.208,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.4384,
+     "odds": 2.02,
+     "ev": -0.1214,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.5616,
+     "odds": 1.95,
+     "ev": 0.0866,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.6331,
+     "odds": 1.92,
+     "ev": 0.208,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3669,
+     "odds": 2.06,
+     "ev": -0.2489,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4166,
+     "odds": 2.26,
+     "ev": -0.0603,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2986,
+     "odds": 3.55,
+     "ev": 0.058,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2848,
+     "odds": 3.6,
+     "ev": 0.0232,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:30",
+   "league": "葡超",
+   "home": "CS Marítimo",
+   "away": "Académico Viseu FC",
+   "score": "2-2",
+   "hg": 2,
+   "ag": 2,
+   "direction_name": "小2.50",
+   "direction_odds": 1.71,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4576,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "大2.50",
+    "prob": 0.4818,
+    "odds": 2.38,
+    "ev": 0.1409,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.4901,
+     "odds": 2.1,
+     "ev": 0.0181,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.5099,
+     "odds": 1.87,
+     "ev": -0.0568,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5182,
+     "odds": 1.71,
+     "ev": -0.1182,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4818,
+     "odds": 2.38,
+     "ev": 0.1409,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4576,
+     "odds": 2.12,
+     "ev": -0.0393,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2798,
+     "odds": 3.4,
+     "ev": -0.0579,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2626,
+     "odds": 4.1,
+     "ev": 0.0665,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 22:30",
+   "league": "荷甲",
+   "home": "Fortuna Sittard",
+   "away": "AZ Alkmaar",
+   "score": "0-2",
+   "hg": 0,
+   "ag": 2,
+   "direction_name": "让球主(+1.0)",
+   "direction_odds": 1.87,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.3763,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型73% vs 市场52%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主1/客3)",
+    "模型与市场分歧>20pp(模型73% vs 市场52%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+1.0)",
+     "prob": 0.65,
+     "odds": 1.87,
+     "ev": 0.18029367366543148,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(-1.0)",
+     "prob": 0.2713,
+     "odds": 2.02,
+     "ev": -0.4678,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 2.62,
+     "ev": 0.6036447638603699,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3182,
+     "odds": 1.47,
+     "ev": -0.5595,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3097,
+     "odds": 5.2,
+     "ev": 0.6004,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.314,
+     "odds": 4.3,
+     "ev": 0.3416,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3763,
+     "odds": 1.72,
+     "ev": -0.3567,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 23:00",
+   "league": "西乙",
+   "home": "Real Oviedo",
+   "away": "Leganés",
+   "score": "0-1",
+   "hg": 0,
+   "ag": 1,
+   "direction_name": "小2.50",
+   "direction_odds": 1.63,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.425,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "让球客标准档降星"
+   ],
+   "best_bet": {
+    "name": "让球客(+0.5)",
+    "prob": 0.5553,
+    "odds": 2.12,
+    "ev": 0.173,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.4447,
+     "odds": 1.88,
+     "ev": -0.167,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.5553,
+     "odds": 2.12,
+     "ev": 0.173,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.63,
+     "ev": 0.016141640415354264,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.1429,
+     "odds": 2.33,
+     "ev": -0.6808,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.425,
+     "odds": 1.88,
+     "ev": -0.2072,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3835,
+     "odds": 3.4,
+     "ev": 0.2936,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1916,
+     "odds": 5.5,
+     "ev": 0.0454,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 23:00",
+   "league": "西甲",
+   "home": "Athletic Club",
+   "away": "Sevilla",
+   "score": "1-3",
+   "hg": 1,
+   "ag": 3,
+   "direction_name": "小2.50",
+   "direction_odds": 1.73,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4568,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "大2.50",
+    "prob": 0.4754,
+    "odds": 2.28,
+    "ev": 0.0661,
+    "star": 1,
+    "ev_tier": "观察",
+    "stake_factor": 0.15
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.8)",
+     "prob": 0.4891,
+     "odds": 2.02,
+     "ev": -0.0197,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.8)",
+     "prob": 0.5109,
+     "odds": 1.95,
+     "ev": -0.0116,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5246,
+     "odds": 1.73,
+     "ev": -0.1072,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4754,
+     "odds": 2.28,
+     "ev": 0.0661,
+     "star": 1,
+     "ev_tier": "观察",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4568,
+     "odds": 1.78,
+     "ev": -0.1877,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2717,
+     "odds": 3.75,
+     "ev": 0.0178,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2716,
+     "odds": 5.8,
+     "ev": 0.5738,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-22 23:15",
+   "league": "法甲",
+   "home": "RC Lens",
+   "away": "Auxerre",
+   "score": "5-2",
+   "hg": 5,
+   "ag": 2,
+   "direction_name": "让球主(-1.0)",
+   "direction_odds": 1.94,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.7642,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型75% vs 市场50%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主5/客7)",
+    "模型与市场分歧>20pp(模型75% vs 市场50%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-1.0)",
+     "prob": 0.65,
+     "odds": 1.94,
+     "ev": 0.22954636692091523,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+1.0)",
+     "prob": 0.2527,
+     "odds": 1.96,
+     "ev": -0.5172,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.2738,
+     "odds": 2.38,
+     "ev": -0.3583,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.68,
+     "ev": 0.07542687964748018,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.65,
+     "odds": 1.54,
+     "ev": -0.003991101805809971,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.1527,
+     "odds": 4.7,
+     "ev": -0.2858,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.0831,
+     "odds": 7.0,
+     "ev": -0.4211,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 00:00",
+   "league": "土超",
+   "home": "Çorum FK",
+   "away": "Kasımpaşa",
+   "score": "0-1",
+   "hg": 0,
+   "ag": 1,
+   "direction_name": "大2.50",
+   "direction_odds": 1.94,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4885,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.5289,
+     "odds": 1.99,
+     "ev": 0.0203,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.4711,
+     "odds": 1.89,
+     "ev": -0.1369,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4535,
+     "odds": 2.02,
+     "ev": -0.0934,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5465,
+     "odds": 1.94,
+     "ev": 0.0491,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4885,
+     "odds": 2.1,
+     "ev": 0.0158,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2617,
+     "odds": 3.65,
+     "ev": -0.0542,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2498,
+     "odds": 3.85,
+     "ev": -0.0477,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 00:00",
+   "league": "土超",
+   "home": "Çaykur Rizespor",
+   "away": "Samsunspor",
+   "score": "0-2",
+   "hg": 0,
+   "ag": 2,
+   "direction_name": "让球主(-0.2)",
+   "direction_odds": 1.87,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.6879,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型76% vs 市场52%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主1/客6)",
+    "λ过高(4.14)",
+    "平局预警(市场去水平局>=26%)",
+    "模型与市场分歧>20pp(模型76% vs 市场52%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.65,
+     "odds": 1.87,
+     "ev": 0.18301366263794017,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.2388,
+     "odds": 2.03,
+     "ev": -0.5281,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.2196,
+     "odds": 2.1,
+     "ev": -0.5425,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.88,
+     "ev": 0.2121283956945157,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.65,
+     "odds": 2.14,
+     "ev": 0.3836240732664631,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.1754,
+     "odds": 3.55,
+     "ev": -0.3805,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1366,
+     "odds": 3.9,
+     "ev": -0.4701,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 00:15",
+   "league": "比甲",
+   "home": "RC Sporting Charleroi",
+   "away": "KV Mechelen",
+   "score": "2-0",
+   "hg": 2,
+   "ag": 0,
+   "direction_name": "让球主(-0.8)",
+   "direction_odds": 1.88,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5675,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主1/客6)"
+   ],
+   "best_bet": {
+    "name": "让球主(-0.8)",
+    "prob": 0.6241,
+    "odds": 1.88,
+    "ev": 0.1453,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.8)",
+     "prob": 0.6241,
+     "odds": 1.88,
+     "ev": 0.1453,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.8)",
+     "prob": 0.3759,
+     "odds": 2.03,
+     "ev": -0.2552,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5282,
+     "odds": 2.18,
+     "ev": 0.1353,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4718,
+     "odds": 1.8,
+     "ev": -0.1628,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5675,
+     "odds": 1.71,
+     "ev": -0.0428,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2582,
+     "odds": 4.1,
+     "ev": 0.0441,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1743,
+     "odds": 5.4,
+     "ev": -0.0717,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 00:30",
+   "league": "意甲",
+   "home": "Udinese",
+   "away": "Como",
+   "score": "1-1",
+   "hg": 1,
+   "ag": 1,
+   "direction_name": "小2.50",
+   "direction_odds": 1.79,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.4069,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主3/客1)",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "小2.50",
+    "prob": 0.65,
+    "odds": 1.79,
+    "ev": 0.14590876692801147,
+    "prob_raw": 0.7015,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(+0.5)",
+     "prob": 0.5744,
+     "odds": 2.12,
+     "ev": 0.2098,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(-0.5)",
+     "prob": 0.4256,
+     "odds": 1.87,
+     "ev": -0.2092,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.79,
+     "ev": 0.14590876692801147,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.2985,
+     "odds": 2.19,
+     "ev": -0.356,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.2617,
+     "odds": 5.1,
+     "ev": 0.3285,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3313,
+     "odds": 3.65,
+     "ev": 0.2035,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.4069,
+     "odds": 1.87,
+     "ev": -0.2427,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 00:30",
+   "league": "意甲",
+   "home": "Inter",
+   "away": "Monza",
+   "score": "4-1",
+   "hg": 4,
+   "ag": 1,
+   "direction_name": "大2.50",
+   "direction_odds": 1.64,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.8043,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主1/客5)"
+   ],
+   "best_bet": {
+    "name": "让球主(-2.0)",
+    "prob": 0.5868,
+    "odds": 1.93,
+    "ev": 0.1177,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(-2.0)",
+     "prob": 0.5868,
+     "odds": 1.93,
+     "ev": 0.1177,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+2.0)",
+     "prob": 0.4132,
+     "odds": 2.02,
+     "ev": -0.1761,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.3309,
+     "odds": 2.46,
+     "ev": -0.1989,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.64,
+     "ev": 0.04887909131669388,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.65,
+     "odds": 1.2,
+     "ev": -0.2240892701728212,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.1412,
+     "odds": 8.2,
+     "ev": 0.1521,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.0544,
+     "odds": 20.0,
+     "ev": 0.0827,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 00:30",
+   "league": "英超",
+   "home": "Brentford",
+   "away": "Tottenham Hotspur",
+   "score": "3-0",
+   "hg": 3,
+   "ag": 0,
+   "direction_name": "让球主(-0.2)",
+   "direction_odds": 1.91,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.513,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报"
+   ],
+   "best_bet": {
+    "name": "让球主(-0.2)",
+    "prob": 0.5592,
+    "odds": 1.91,
+    "ev": 0.0586,
+    "star": 1,
+    "ev_tier": "观察",
+    "stake_factor": 0.3
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.5592,
+     "odds": 1.91,
+     "ev": 0.0586,
+     "star": 1,
+     "ev_tier": "观察",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.4408,
+     "odds": 2.06,
+     "ev": -0.1001,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4932,
+     "odds": 2.28,
+     "ev": 0.1168,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5068,
+     "odds": 1.76,
+     "ev": -0.114,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.513,
+     "odds": 2.2,
+     "ev": 0.124,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2568,
+     "odds": 3.85,
+     "ev": -0.0153,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2301,
+     "odds": 3.45,
+     "ev": -0.2093,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 00:45",
+   "league": "荷甲",
+   "home": "Sparta Rotterdam",
+   "away": "FC Utrecht",
+   "score": "3-3",
+   "hg": 3,
+   "ag": 3,
+   "direction_name": "小2.50",
+   "direction_odds": 2.24,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3628,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主0/客4)",
+    "平局预警(市场去水平局>=26%)",
+    "联赛荷甲历史负ROI(观察期, 300场后定禁入)"
+   ],
+   "best_bet": {
+    "name": "小2.50",
+    "prob": 0.5702,
+    "odds": 2.24,
+    "ev": 0.2628,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.5083,
+     "odds": 1.96,
+     "ev": -0.0187,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.4917,
+     "odds": 1.98,
+     "ev": -0.0411,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5702,
+     "odds": 2.24,
+     "ev": 0.2628,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4298,
+     "odds": 1.77,
+     "ev": -0.2478,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3628,
+     "odds": 2.72,
+     "ev": -0.0197,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2876,
+     "odds": 3.65,
+     "ev": 0.0427,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3497,
+     "odds": 2.74,
+     "ev": -0.0481,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 01:00",
+   "league": "葡超",
+   "home": "Estoril Praia",
+   "away": "Rio Ave",
+   "score": "0-2",
+   "hg": 0,
+   "ag": 2,
+   "direction_name": "让球主(-0.5)",
+   "direction_odds": 1.94,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5371,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主1/客4)",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "让球主(-0.5)",
+    "prob": 0.588,
+    "odds": 1.94,
+    "ev": 0.0892,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.175
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.588,
+     "odds": 1.94,
+     "ev": 0.0892,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.412,
+     "odds": 1.88,
+     "ev": -0.2606,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5259,
+     "odds": 2.04,
+     "ev": 0.0611,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4741,
+     "odds": 1.92,
+     "ev": -0.0997,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5371,
+     "odds": 2.12,
+     "ev": 0.1364,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2657,
+     "odds": 3.65,
+     "ev": -0.0322,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1971,
+     "odds": 3.9,
+     "ev": -0.2327,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 01:00",
+   "league": "西乙",
+   "home": "Albacete Balompié",
+   "away": "Real Sociedad B",
+   "score": "1-2",
+   "hg": 1,
+   "ag": 2,
+   "direction_name": "让球主(-0.8)",
+   "direction_odds": 2.06,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5451,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报"
+   ],
+   "best_bet": {
+    "name": "让球主(-0.8)",
+    "prob": 0.5982,
+    "odds": 2.06,
+    "ev": 0.2112,
+    "star": 3,
+    "ev_tier": "高价值",
+    "stake_factor": 1.0
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.8)",
+     "prob": 0.5982,
+     "odds": 2.06,
+     "ev": 0.2112,
+     "star": 3,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.8)",
+     "prob": 0.4018,
+     "odds": 1.88,
+     "ev": -0.2575,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4537,
+     "odds": 2.04,
+     "ev": -0.0797,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5463,
+     "odds": 1.94,
+     "ev": 0.0539,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5451,
+     "odds": 1.83,
+     "ev": -0.0167,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2502,
+     "odds": 3.85,
+     "ev": -0.0507,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2047,
+     "odds": 4.8,
+     "ev": -0.0313,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 01:00",
+   "league": "西乙",
+   "home": "AD Ceuta",
+   "away": "UD Las Palmas",
+   "score": "0-2",
+   "hg": 0,
+   "ag": 2,
+   "direction_name": "让球主(+0.2)",
+   "direction_odds": 1.93,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3921,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型71% vs 市场49%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "模型与市场分歧>20pp(模型71% vs 市场49%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.2)",
+     "prob": 0.65,
+     "odds": 1.93,
+     "ev": 0.19792551685075033,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(-0.2)",
+     "prob": 0.2938,
+     "odds": 1.89,
+     "ev": -0.4698,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.6206,
+     "odds": 2.04,
+     "ev": 0.2588,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3794,
+     "odds": 1.94,
+     "ev": -0.2681,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3921,
+     "odds": 3.0,
+     "ev": 0.1672,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.306,
+     "odds": 3.45,
+     "ev": 0.0476,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3019,
+     "odds": 2.6,
+     "ev": -0.2212,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 01:30",
+   "league": "西甲",
+   "home": "Valencia",
+   "away": "Celta Vigo",
+   "score": "0-0",
+   "hg": 0,
+   "ag": 0,
+   "direction_name": "小2.50",
+   "direction_odds": 1.69,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4661,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主3/客2)",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.5007,
+     "odds": 1.85,
+     "ev": -0.114,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.4993,
+     "odds": 1.98,
+     "ev": -0.0545,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "half"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5806,
+     "odds": 1.69,
+     "ev": -0.0236,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4194,
+     "odds": 2.42,
+     "ev": 0.0099,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4661,
+     "odds": 2.62,
+     "ev": 0.213,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.281,
+     "odds": 3.2,
+     "ev": -0.1067,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2529,
+     "odds": 3.2,
+     "ev": -0.1961,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 02:00",
+   "league": "法乙",
+   "home": "Saint-Étienne",
+   "away": "Grenoble Foot 38",
+   "score": "4-0",
+   "hg": 4,
+   "ag": 0,
+   "direction_name": "让球主(-1.2)",
+   "direction_odds": 1.92,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.8206,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型75% vs 市场51%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "λ过高(4.37)",
+    "模型与市场分歧>20pp(模型75% vs 市场51%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-1.2)",
+     "prob": 0.65,
+     "odds": 1.92,
+     "ev": 0.21350736278447124,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+1.2)",
+     "prob": 0.253,
+     "odds": 1.97,
+     "ev": -0.5154,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.1915,
+     "odds": 2.08,
+     "ev": -0.6055,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.89,
+     "ev": 0.2164687693259124,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.65,
+     "odds": 1.41,
+     "ev": -0.09367535949305372,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.1175,
+     "odds": 5.0,
+     "ev": -0.4188,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.0618,
+     "odds": 9.8,
+     "ev": -0.4006,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 02:30",
+   "league": "土超",
+   "home": "Fenerbahçe",
+   "away": "Konyaspor",
+   "score": "4-2",
+   "hg": 4,
+   "ag": 2,
+   "direction_name": "大2.50",
+   "direction_odds": 1.63,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.6681,
+   "dir_result": "win",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型83% vs 市场61%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主10/客0)",
+    "λ过高(4.53)",
+    "模型与市场分歧>20pp(模型83% vs 市场61%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-1.5)",
+     "prob": 0.5586,
+     "odds": 1.94,
+     "ev": 0.0777,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+1.5)",
+     "prob": 0.4414,
+     "odds": 2.04,
+     "ev": -0.1047,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.1709,
+     "odds": 2.56,
+     "ev": -0.5642,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.63,
+     "ev": 0.05508382583524307,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.65,
+     "odds": 1.36,
+     "ev": -0.12126927106720553,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.1754,
+     "odds": 5.7,
+     "ev": -0.0059,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1565,
+     "odds": 10.5,
+     "ev": 0.6332,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 02:45",
+   "league": "比甲",
+   "home": "Royal Antwerp FC",
+   "away": "KRC Genk",
+   "score": "4-4",
+   "hg": 4,
+   "ag": 4,
+   "direction_name": "让球主(+0.2)",
+   "direction_odds": 2.03,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5233,
+   "dir_result": "half",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型80% vs 市场48%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "模型与市场分歧>20pp(模型80% vs 市场48%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.2)",
+     "prob": 0.65,
+     "odds": 2.03,
+     "ev": 0.28794788273615635,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "half"
+    },
+    {
+     "name": "让球客(-0.2)",
+     "prob": 0.2018,
+     "odds": 1.88,
+     "ev": -0.6297,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4074,
+     "odds": 2.14,
+     "ev": -0.1375,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5926,
+     "odds": 1.84,
+     "ev": 0.0788,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5233,
+     "odds": 3.5,
+     "ev": 0.8133,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2492,
+     "odds": 3.65,
+     "ev": -0.0994,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2274,
+     "odds": 2.22,
+     "ev": -0.5002,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 02:45",
+   "league": "法甲",
+   "home": "Troyes",
+   "away": "Paris FC",
+   "score": "0-0",
+   "hg": 0,
+   "ag": 0,
+   "direction_name": "让球主(+0.2)",
+   "direction_odds": 2.01,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5976,
+   "dir_result": "half",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型87% vs 市场49%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "模型与市场分歧>20pp(模型87% vs 市场49%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.2)",
+     "prob": 0.65,
+     "odds": 2.01,
+     "ev": 0.282914370982553,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "half"
+    },
+    {
+     "name": "让球客(-0.2)",
+     "prob": 0.1288,
+     "odds": 1.92,
+     "ev": -0.7571,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4731,
+     "odds": 2.19,
+     "ev": 0.0205,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5269,
+     "odds": 1.79,
+     "ev": -0.0711,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5976,
+     "odds": 3.4,
+     "ev": 1.0181,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2406,
+     "odds": 3.7,
+     "ev": -0.116,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1618,
+     "odds": 2.26,
+     "ev": -0.6368,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 02:45",
+   "league": "法甲",
+   "home": "Toulouse",
+   "away": "Olympique Lyonnais",
+   "score": "0-2",
+   "hg": 0,
+   "ag": 2,
+   "direction_name": "让球主(+0.0)",
+   "direction_odds": 2.04,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.381,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主2/客3)",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "让球主(+0.0)",
+    "prob": 0.5325,
+    "odds": 2.04,
+    "ev": 0.0599,
+    "star": 1,
+    "ev_tier": "观察",
+    "stake_factor": 0.15
+   },
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.5325,
+     "odds": 2.04,
+     "ev": 0.0599,
+     "star": 1,
+     "ev_tier": "观察",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.4675,
+     "odds": 1.87,
+     "ev": -0.1471,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5308,
+     "odds": 2.01,
+     "ev": 0.0504,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4692,
+     "odds": 1.93,
+     "ev": -0.1083,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.381,
+     "odds": 2.5,
+     "ev": -0.0516,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2894,
+     "odds": 3.55,
+     "ev": 0.0228,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3297,
+     "odds": 3.1,
+     "ev": 0.0176,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 02:45",
+   "league": "法甲",
+   "home": "Nice",
+   "away": "Lorient",
+   "score": "0-0",
+   "hg": 0,
+   "ag": 0,
+   "direction_name": "让球主(-0.2)",
+   "direction_odds": 1.96,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5733,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "让球主(-0.2)",
+    "prob": 0.6309,
+    "odds": 1.96,
+    "ev": 0.2119,
+    "star": 1,
+    "ev_tier": "高价值",
+    "stake_factor": 0.25
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.6309,
+     "odds": 1.96,
+     "ev": 0.2119,
+     "star": 1,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.3691,
+     "odds": 1.96,
+     "ev": -0.2911,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "half"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5252,
+     "odds": 1.84,
+     "ev": -0.0502,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4748,
+     "odds": 2.11,
+     "ev": -0.0153,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5733,
+     "odds": 2.34,
+     "ev": 0.3373,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2561,
+     "odds": 3.4,
+     "ev": -0.1321,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1706,
+     "odds": 3.55,
+     "ev": -0.3961,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 02:45",
+   "league": "法甲",
+   "home": "Le Mans",
+   "away": "Stade Brestois",
+   "score": "2-2",
+   "hg": 2,
+   "ag": 2,
+   "direction_name": "让球主(+0.0)",
+   "direction_odds": 1.89,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.6391,
+   "dir_result": "push",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型81% vs 市场52%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "模型与市场分歧>20pp(模型81% vs 市场52%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.65,
+     "odds": 1.89,
+     "ev": 0.21083752916615506,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.1857,
+     "odds": 2.06,
+     "ev": -0.6229,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.6397,
+     "odds": 1.93,
+     "ev": 0.2156,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3603,
+     "odds": 2.01,
+     "ev": -0.2869,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.6391,
+     "odds": 2.62,
+     "ev": 0.6626,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2551,
+     "odds": 3.45,
+     "ev": -0.1262,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1058,
+     "odds": 2.98,
+     "ev": -0.6868,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 02:45",
+   "league": "意甲",
+   "home": "Parma",
+   "away": "Cagliari",
+   "score": "0-1",
+   "hg": 0,
+   "ag": 1,
+   "direction_name": "让球主(+0.0)",
+   "direction_odds": 1.85,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4261,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主5/客2)",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "best_bet": {
+    "name": "让球主(+0.0)",
+    "prob": 0.611,
+    "odds": 1.85,
+    "ev": 0.1215,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.611,
+     "odds": 1.85,
+     "ev": 0.1215,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.389,
+     "odds": 2.14,
+     "ev": -0.1739,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.61,
+     "ev": 0.04048752343862683,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3067,
+     "odds": 2.6,
+     "ev": -0.207,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4261,
+     "odds": 2.74,
+     "ev": 0.1617,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3267,
+     "odds": 3.1,
+     "ev": 0.0076,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2473,
+     "odds": 3.15,
+     "ev": -0.225,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 02:45",
+   "league": "意甲",
+   "home": "Genoa",
+   "away": "SSC Napoli",
+   "score": "0-2",
+   "hg": 0,
+   "ag": 2,
+   "direction_name": "小2.50",
+   "direction_odds": 1.62,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.3691,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主2/客3)",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "best_bet": {
+    "name": "让球主(+0.5)",
+    "prob": 0.6219,
+    "odds": 1.9,
+    "ev": 0.1734,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(+0.5)",
+     "prob": 0.6219,
+     "odds": 1.9,
+     "ev": 0.1734,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(-0.5)",
+     "prob": 0.3781,
+     "odds": 2.08,
+     "ev": -0.2192,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.62,
+     "ev": 0.0350867296573123,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.2909,
+     "odds": 2.5,
+     "ev": -0.2851,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.2941,
+     "odds": 4.5,
+     "ev": 0.3156,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3368,
+     "odds": 3.3,
+     "ev": 0.1049,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3691,
+     "odds": 2.08,
+     "ev": -0.237,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 03:00",
+   "league": "阿甲",
+   "home": "Gimnasia y Esgrima",
+   "away": "Gimnasia y Esgrima Mendoza",
+   "score": "2-3",
+   "hg": 2,
+   "ag": 3,
+   "direction_name": "让球主(-0.5)",
+   "direction_odds": 1.83,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.6852,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型75% vs 市场53%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主4/客2)",
+    "平局预警(市场去水平局>=26%)",
+    "模型与市场分歧>20pp(模型75% vs 市场53%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.65,
+     "odds": 1.83,
+     "ev": 0.1631261595547311,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.2454,
+     "odds": 2.1,
+     "ev": -0.4961,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5265,
+     "odds": 1.5,
+     "ev": -0.2541,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4735,
+     "odds": 2.55,
+     "ev": 0.1404,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.65,
+     "odds": 1.85,
+     "ev": 0.18948482194979555,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2163,
+     "odds": 3.55,
+     "ev": -0.2404,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.0985,
+     "odds": 5.3,
+     "ev": -0.4834,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 03:00",
+   "league": "阿甲",
+   "home": "Atlético Tucumán",
+   "away": "Instituto De Córdoba",
+   "score": "0-0",
+   "hg": 0,
+   "ag": 0,
+   "direction_name": "小2.50",
+   "direction_odds": 1.47,
+   "wdl_name": "平局",
+   "wdl_prob": 0.3847,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主4/客1)",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.5393,
+     "odds": 1.98,
+     "ev": 0.0436,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.4607,
+     "odds": 1.93,
+     "ev": -0.131,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.47,
+     "ev": -0.10024326569360387,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.1573,
+     "odds": 2.62,
+     "ev": -0.6119,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3398,
+     "odds": 3.0,
+     "ev": 0.0007,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3847,
+     "odds": 3.0,
+     "ev": 0.1328,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2755,
+     "odds": 2.84,
+     "ev": -0.232,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 03:00",
+   "league": "荷甲",
+   "home": "SC Heerenveen",
+   "away": "PEC Zwolle",
+   "score": "0-2",
+   "hg": 0,
+   "ag": 2,
+   "direction_name": "让球客(+1.0)",
+   "direction_odds": 1.96,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4033,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "联赛荷甲历史负ROI(观察期, 300场后定禁入)"
+   ],
+   "best_bet": {
+    "name": "让球客(+1.0)",
+    "prob": 0.65,
+    "odds": 1.96,
+    "ev": 0.24221371798645874,
+    "prob_raw": 0.6794,
+    "star": 3,
+    "ev_tier": "高价值",
+    "stake_factor": 1.0
+   },
+   "legs": [
+    {
+     "name": "让球主(-1.0)",
+     "prob": 0.3206,
+     "odds": 1.94,
+     "ev": -0.3937,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+1.0)",
+     "prob": 0.65,
+     "odds": 1.96,
+     "ev": 0.24221371798645874,
+     "star": 3,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.3556,
+     "odds": 2.75,
+     "ev": -0.0799,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.6444,
+     "odds": 1.43,
+     "ev": -0.1331,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4033,
+     "odds": 1.62,
+     "ev": -0.3522,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2478,
+     "odds": 4.7,
+     "ev": 0.1547,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3489,
+     "odds": 5.6,
+     "ev": 0.9371,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 03:00",
+   "league": "巴甲",
+   "home": "Fluminense",
+   "away": "Remo",
+   "score": "2-1",
+   "hg": 2,
+   "ag": 1,
+   "direction_name": "让球主(-1.0)",
+   "direction_odds": 1.9,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.7351,
+   "dir_result": "push",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主8/客3)"
+   ],
+   "best_bet": {
+    "name": "让球主(-1.0)",
+    "prob": 0.65,
+    "odds": 1.9,
+    "ev": 0.22065171688857754,
+    "prob_raw": 0.7135,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(-1.0)",
+     "prob": 0.65,
+     "odds": 1.9,
+     "ev": 0.22065171688857754,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "让球客(+1.0)",
+     "prob": 0.2865,
+     "odds": 2.06,
+     "ev": -0.4166,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.2901,
+     "odds": 1.91,
+     "ev": -0.4509,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 2.06,
+     "ev": 0.32710240878997054,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.65,
+     "odds": 1.54,
+     "ev": -0.005856346075363783,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.167,
+     "odds": 4.3,
+     "ev": -0.287,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.0979,
+     "odds": 8.0,
+     "ev": -0.222,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 03:30",
+   "league": "葡超",
+   "home": "Sporting CP",
+   "away": "FC Alverca",
+   "score": "3-1",
+   "hg": 3,
+   "ag": 1,
+   "direction_name": "让球客(+1.8)",
+   "direction_odds": 2.04,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4014,
+   "dir_result": "lose",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型79% vs 市场48%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "模型与市场分歧>20pp(模型79% vs 市场48%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-1.8)",
+     "prob": 0.2124,
+     "odds": 1.89,
+     "ev": -0.6062,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "half"
+    },
+    {
+     "name": "让球客(+1.8)",
+     "prob": 0.65,
+     "odds": 2.04,
+     "ev": 0.3009903504316913,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4434,
+     "odds": 2.48,
+     "ev": 0.0279,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5566,
+     "odds": 1.5,
+     "ev": -0.2197,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4014,
+     "odds": 1.23,
+     "ev": -0.5108,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2717,
+     "odds": 7.6,
+     "ev": 1.0464,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3269,
+     "odds": 15.5,
+     "ev": 4.0214,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 03:30",
+   "league": "西乙",
+   "home": "CD Eldense",
+   "away": "Cádiz",
+   "score": "2-2",
+   "hg": 2,
+   "ag": 2,
+   "direction_name": "大2.50",
+   "direction_odds": 2.28,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4834,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "best_bet": {
+    "name": "大2.50",
+    "prob": 0.5799,
+    "odds": 2.28,
+    "ev": 0.309,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.2)",
+     "prob": 0.5226,
+     "odds": 1.98,
+     "ev": 0.0244,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.2)",
+     "prob": 0.4774,
+     "odds": 1.98,
+     "ev": -0.0642,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "half"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4201,
+     "odds": 1.75,
+     "ev": -0.2721,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5799,
+     "odds": 2.28,
+     "ev": 0.309,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4834,
+     "odds": 2.34,
+     "ev": 0.1158,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.257,
+     "odds": 3.2,
+     "ev": -0.1889,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2596,
+     "odds": 3.65,
+     "ev": -0.0655,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 03:30",
+   "league": "西甲",
+   "home": "Espanyol",
+   "away": "Real Madrid",
+   "score": "1-2",
+   "hg": 1,
+   "ag": 2,
+   "direction_name": "让球主(+1.2)",
+   "direction_odds": 1.94,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.4448,
+   "dir_result": "half",
+   "vetoed": true,
+   "veto_reason": "模型与市场分歧>20pp(模型77% vs 市场51%)",
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主3/客5)",
+    "模型与市场分歧>20pp(模型77% vs 市场51%)->否决"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+1.2)",
+     "prob": 0.65,
+     "odds": 1.94,
+     "ev": 0.2538650148406245,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "half"
+    },
+    {
+     "name": "让球客(-1.2)",
+     "prob": 0.2251,
+     "odds": 2.04,
+     "ev": -0.5433,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.6111,
+     "odds": 2.2,
+     "ev": 0.327,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3889,
+     "odds": 1.79,
+     "ev": -0.313,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.2647,
+     "odds": 7.8,
+     "ev": 1.058,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2904,
+     "odds": 4.9,
+     "ev": 0.4182,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.4448,
+     "odds": 1.49,
+     "ev": -0.3395,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 05:30",
+   "league": "阿甲",
+   "home": "CA Independiente",
+   "away": "Independiente Rivadavia",
+   "score": "0-0",
+   "hg": 0,
+   "ag": 0,
+   "direction_name": "小2.50",
+   "direction_odds": 1.56,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4094,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主4/客1)",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.4292,
+     "odds": 2.11,
+     "ev": -0.1151,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.5708,
+     "odds": 1.82,
+     "ev": 0.0151,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.6162,
+     "odds": 1.56,
+     "ev": -0.0882,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3838,
+     "odds": 2.42,
+     "ev": -0.119,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4094,
+     "odds": 2.14,
+     "ev": -0.1363,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3036,
+     "odds": 3.3,
+     "ev": -0.0121,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.287,
+     "odds": 4.1,
+     "ev": 0.1604,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 05:30",
+   "league": "巴甲",
+   "home": "Internacional",
+   "away": "Atlético Mineiro",
+   "score": "0-0",
+   "hg": 0,
+   "ag": 0,
+   "direction_name": "小2.50",
+   "direction_odds": 1.87,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.3725,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主7/客5)",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "小2.50",
+    "prob": 0.65,
+    "odds": 1.87,
+    "ev": 0.207620172270075,
+    "prob_raw": 0.7198,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.3825,
+     "odds": 2.08,
+     "ev": -0.2144,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.6175,
+     "odds": 1.88,
+     "ev": 0.1464,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.87,
+     "ev": 0.207620172270075,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.2802,
+     "odds": 2.12,
+     "ev": -0.4097,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3725,
+     "odds": 2.12,
+     "ev": -0.2167,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.3357,
+     "odds": 3.35,
+     "ev": 0.1152,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2918,
+     "odds": 4.2,
+     "ev": 0.2155,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 07:07",
+   "league": "墨超",
+   "home": "CD Guadalajara",
+   "away": "Club Tijuana",
+   "score": "5-2",
+   "hg": 5,
+   "ag": 2,
+   "direction_name": "让球客(+1.2)",
+   "direction_odds": 1.84,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5631,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "让球客标准档降星"
+   ],
+   "best_bet": {
+    "name": "让球客(+1.2)",
+    "prob": 0.65,
+    "odds": 1.84,
+    "ev": 0.16251713111009614,
+    "prob_raw": 0.6567,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.7
+   },
+   "legs": [
+    {
+     "name": "让球主(-1.2)",
+     "prob": 0.3433,
+     "odds": 2.06,
+     "ev": -0.3128,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+1.2)",
+     "prob": 0.65,
+     "odds": 1.84,
+     "ev": 0.16251713111009614,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.6274,
+     "odds": 2.28,
+     "ev": 0.4117,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.3726,
+     "odds": 1.74,
+     "ev": -0.3602,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5631,
+     "odds": 1.53,
+     "ev": -0.1429,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2763,
+     "odds": 5.0,
+     "ev": 0.3744,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1606,
+     "odds": 6.6,
+     "ev": 0.0548,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 07:30",
+   "league": "巴甲",
+   "home": "Cruzeiro",
+   "away": "Flamengo",
+   "score": "2-1",
+   "hg": 2,
+   "ag": 1,
+   "direction_name": "大2.50",
+   "direction_odds": 2.06,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.4651,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主4/客4)",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "best_bet": {
+    "name": "大2.50",
+    "prob": 0.5967,
+    "odds": 2.06,
+    "ev": 0.2216,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(+0.2)",
+     "prob": 0.5004,
+     "odds": 1.95,
+     "ev": -0.0366,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(-0.2)",
+     "prob": 0.4996,
+     "odds": 2.0,
+     "ev": -0.0135,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4033,
+     "odds": 1.92,
+     "ev": -0.2306,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5967,
+     "odds": 2.06,
+     "ev": 0.2216,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.2763,
+     "odds": 3.4,
+     "ev": -0.0671,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2585,
+     "odds": 3.5,
+     "ev": -0.1015,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.4651,
+     "odds": 2.34,
+     "ev": 0.0806,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 07:30",
+   "league": "美职",
+   "home": "Charlotte FC",
+   "away": "DC United",
+   "score": "3-1",
+   "hg": 3,
+   "ag": 1,
+   "direction_name": "让球主(-0.8)",
+   "direction_odds": 2.06,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5849,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主3/客2)"
+   ],
+   "best_bet": {
+    "name": "让球主(-0.8)",
+    "prob": 0.6452,
+    "odds": 2.06,
+    "ev": 0.3137,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.8)",
+     "prob": 0.6452,
+     "odds": 2.06,
+     "ev": 0.3137,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.8)",
+     "prob": 0.3548,
+     "odds": 1.9,
+     "ev": -0.3337,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.4645,
+     "odds": 2.34,
+     "ev": 0.081,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.5355,
+     "odds": 1.73,
+     "ev": -0.0785,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5849,
+     "odds": 1.84,
+     "ev": 0.0597,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2414,
+     "odds": 4.0,
+     "ev": -0.0492,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1736,
+     "odds": 4.5,
+     "ev": -0.2307,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 07:30",
+   "league": "美职",
+   "home": "Orlando City SC",
+   "away": "Real Salt Lake",
+   "score": "2-1",
+   "hg": 2,
+   "ag": 1,
+   "direction_name": "大2.50",
+   "direction_odds": 1.41,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.5778,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主5/客5)"
+   ],
+   "best_bet": {
+    "name": "让球主(-0.5)",
+    "prob": 0.6376,
+    "odds": 2.08,
+    "ev": 0.3169,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.6376,
+     "odds": 2.08,
+     "ev": 0.3169,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.3624,
+     "odds": 1.9,
+     "ev": -0.3163,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.3208,
+     "odds": 2.85,
+     "ev": -0.1377,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.41,
+     "ev": -0.13543875147232032,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.5778,
+     "odds": 2.08,
+     "ev": 0.1929,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2222,
+     "odds": 4.3,
+     "ev": -0.0514,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2,
+     "odds": 3.4,
+     "ev": -0.3251,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 07:30",
+   "league": "美职",
+   "home": "New York Red Bulls",
+   "away": "Chicago Fire",
+   "score": "1-1",
+   "hg": 1,
+   "ag": 1,
+   "direction_name": "大2.50",
+   "direction_odds": 1.39,
+   "wdl_name": "客胜",
+   "wdl_prob": 0.3888,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "λ过高(4.33)"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(+0.0)",
+     "prob": 0.4976,
+     "odds": 2.12,
+     "ev": 0.0482,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "让球客(-0.0)",
+     "prob": 0.5024,
+     "odds": 1.87,
+     "ev": -0.0666,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "push"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.1942,
+     "odds": 2.95,
+     "ev": -0.4586,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.39,
+     "ev": -0.14640109208240248,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.3851,
+     "odds": 2.82,
+     "ev": 0.0775,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2261,
+     "odds": 4.0,
+     "ev": -0.1026,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.3888,
+     "odds": 2.48,
+     "ev": -0.0433,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 07:30",
+   "league": "美职",
+   "home": "CF Montréal",
+   "away": "LA Galaxy",
+   "score": "2-2",
+   "hg": 2,
+   "ag": 2,
+   "direction_name": "小2.50",
+   "direction_odds": 2.46,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.4697,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主6/客5)"
+   ],
+   "best_bet": {
+    "name": "小2.50",
+    "prob": 0.5904,
+    "odds": 2.46,
+    "ev": 0.4395,
+    "star": 2,
+    "ev_tier": "高价值",
+    "stake_factor": 0.5
+   },
+   "legs": [
+    {
+     "name": "让球主(-0.5)",
+     "prob": 0.5051,
+     "odds": 2.12,
+     "ev": 0.0608,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+0.5)",
+     "prob": 0.4949,
+     "odds": 1.86,
+     "ev": -0.0879,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.5904,
+     "odds": 2.46,
+     "ev": 0.4395,
+     "star": 2,
+     "ev_tier": "高价值",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.4096,
+     "odds": 1.66,
+     "ev": -0.326,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.4697,
+     "odds": 2.12,
+     "ev": -0.0178,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2901,
+     "odds": 3.9,
+     "ev": 0.1158,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.2402,
+     "odds": 3.5,
+     "ev": -0.1706,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 07:30",
+   "league": "美职",
+   "home": "FC Cincinnati",
+   "away": "Seattle Sounders FC",
+   "score": "1-1",
+   "hg": 1,
+   "ag": 1,
+   "direction_name": "大2.50",
+   "direction_odds": 1.37,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.615,
+   "dir_result": "lose",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主0/客9)"
+   ],
+   "best_bet": {
+    "name": "让球主(-1.0)",
+    "prob": 0.5658,
+    "odds": 2.08,
+    "ev": 0.1589,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "legs": [
+    {
+     "name": "让球主(-1.0)",
+     "prob": 0.5658,
+     "odds": 2.08,
+     "ev": 0.1589,
+     "star": 1,
+     "ev_tier": "标准",
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+1.0)",
+     "prob": 0.4342,
+     "odds": 1.87,
+     "ev": -0.2005,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.3879,
+     "odds": 3.05,
+     "ev": 0.1185,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.6121,
+     "odds": 1.37,
+     "ev": -0.2072,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.615,
+     "odds": 1.69,
+     "ev": 0.0262,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.2214,
+     "odds": 4.8,
+     "ev": 0.0492,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1636,
+     "odds": 4.7,
+     "ev": -0.2409,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    }
+   ]
+  },
+  {
+   "ct": "08-23 07:30",
+   "league": "美职",
+   "home": "Inter Miami CF",
+   "away": "Toronto FC",
+   "score": "1-2",
+   "hg": 1,
+   "ag": 2,
+   "direction_name": "大2.50",
+   "direction_odds": 1.24,
+   "wdl_name": "主胜",
+   "wdl_prob": 0.6804,
+   "dir_result": "win",
+   "vetoed": false,
+   "veto_reason": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主9/客9)"
+   ],
+   "best_bet": null,
+   "legs": [
+    {
+     "name": "让球主(-1.5)",
+     "prob": 0.556,
+     "odds": 1.9,
+     "ev": 0.0343,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "让球客(+1.5)",
+     "prob": 0.444,
+     "odds": 2.02,
+     "ev": -0.1219,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "小2.50",
+     "prob": 0.2601,
+     "odds": 3.95,
+     "ev": -0.0305,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "lose"
+    },
+    {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.24,
+     "ev": -0.2393093661305581,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": false,
+     "result": "win"
+    },
+    {
+     "name": "1X2主胜",
+     "prob": 0.65,
+     "odds": 1.38,
+     "ev": -0.11546884185773076,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2平局",
+     "prob": 0.1832,
+     "odds": 6.2,
+     "ev": 0.1201,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "lose"
+    },
+    {
+     "name": "1X2客胜",
+     "prob": 0.1364,
+     "odds": 7.8,
+     "ev": 0.0491,
+     "star": null,
+     "ev_tier": null,
+     "is_1x2": true,
+     "result": "win"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "1x2": {
+   "n": 306,
+   "win": 102,
+   "lose": 204,
+   "push": 0,
+   "half": 0,
+   "rate": 33.333333333333336
+  },
+  "spread": {
+   "n": 204,
+   "win": 78,
+   "lose": 91,
+   "push": 22,
+   "half": 13,
+   "rate": 46.42857142857143
+  },
+  "totals": {
+   "n": 102,
+   "win": 50,
+   "lose": 52,
+   "push": 0,
+   "half": 0,
+   "rate": 49.01960784313726
+  },
+  "pos_ev": {
+   "n": 304,
+   "win": 128,
+   "lose": 162,
+   "push": 7,
+   "half": 7,
+   "rate": 44.27609427609428
+  },
+  "neg_ev": {
+   "n": 410,
+   "win": 154,
+   "lose": 235,
+   "push": 15,
+   "half": 6,
+   "rate": 39.74683544303797
+  },
+  "main_dir": {
+   "n": 102,
+   "win": 54,
+   "lose": 38,
+   "push": 4,
+   "half": 6,
+   "rate": 58.16326530612245
+  }
+ }
+}

@@ -1,0 +1,400 @@
+{
+ "event_id": 588027,
+ "lineup_status": "predicted",
+ "beta": true,
+ "lineups": {
+  "home": {
+   "team_id": 2037,
+   "team_name": "Shanghai Port",
+   "formation": "4-2-3-1",
+   "confidence": 0.827,
+   "players": [
+    {
+     "id": 47403,
+     "name": "Yan Junling",
+     "short_name": "Y. Junling",
+     "position": "G",
+     "jersey_number": 1,
+     "ai_score": 0.864
+    },
+    {
+     "id": 47410,
+     "name": "Shuai Li",
+     "short_name": "L. Shuai",
+     "position": "D",
+     "jersey_number": 32,
+     "ai_score": 0.464
+    },
+    {
+     "id": 47407,
+     "name": "Zhen Wei",
+     "short_name": "Z. Wei",
+     "position": "D",
+     "jersey_number": 13,
+     "ai_score": 0.896
+    },
+    {
+     "id": 47408,
+     "name": "Yusup Umidjan",
+     "short_name": "U. Yusup",
+     "position": "D",
+     "jersey_number": 40,
+     "ai_score": 0.808
+    },
+    {
+     "id": 47405,
+     "name": "Xi Yang",
+     "short_name": "X. Y. Alex",
+     "position": "D",
+     "jersey_number": 22,
+     "ai_score": 0.815
+    },
+    {
+     "id": 47417,
+     "name": "Mateus Vital",
+     "short_name": "M. Vital",
+     "position": "M",
+     "jersey_number": 10,
+     "ai_score": 0.881
+    },
+    {
+     "id": 47514,
+     "name": "Jean Claude Aziangbe",
+     "short_name": "J. C. Aziangbe",
+     "position": "M",
+     "jersey_number": 8,
+     "ai_score": 0.36
+    },
+    {
+     "id": 6351,
+     "name": "Prince Ampem",
+     "short_name": "P. Ampem",
+     "position": "F",
+     "jersey_number": 17,
+     "ai_score": 0.684
+    },
+    {
+     "id": 30370,
+     "name": "Óscar Melendo",
+     "short_name": "Ó. Melendo",
+     "position": "M",
+     "jersey_number": 21,
+     "ai_score": 0.686
+    },
+    {
+     "id": 47426,
+     "name": "Xinxiang Li",
+     "short_name": "L. Xinxiang",
+     "position": "F",
+     "jersey_number": 49,
+     "ai_score": 0.686
+    },
+    {
+     "id": 47515,
+     "name": "Leonardo",
+     "short_name": "Leonardo",
+     "position": "F",
+     "jersey_number": 45,
+     "ai_score": 0.859
+    }
+   ],
+   "substitutes": [
+    {
+     "id": 49541,
+     "name": "Guangtai Jiang",
+     "short_name": "J. Guangtai",
+     "position": "D",
+     "jersey_number": 3,
+     "ai_score": 0.417
+    },
+    {
+     "id": 47430,
+     "name": "Yue Xin",
+     "short_name": "Y. Xin",
+     "position": "D",
+     "jersey_number": 28,
+     "ai_score": 0.409
+    },
+    {
+     "id": 47552,
+     "name": "Yuan Zhang",
+     "short_name": "Y. Zhang",
+     "position": "M",
+     "jersey_number": 6,
+     "ai_score": 0.401
+    },
+    {
+     "id": 47415,
+     "name": "Fu Huan",
+     "short_name": "F. Huan",
+     "position": "D",
+     "jersey_number": 23,
+     "ai_score": 0.376
+    },
+    {
+     "id": 47706,
+     "name": "Wang Zhenao",
+     "short_name": "W. Zhenao",
+     "position": "D",
+     "jersey_number": 19,
+     "ai_score": 0.351
+    },
+    {
+     "id": 47422,
+     "name": "Liu Zhurun",
+     "short_name": "L. Zhurun",
+     "position": "M",
+     "jersey_number": 33,
+     "ai_score": 0.349
+    },
+    {
+     "id": 47412,
+     "name": "Lu Yongtao",
+     "short_name": "L. Yongtao",
+     "position": "M",
+     "jersey_number": 38,
+     "ai_score": 0.322
+    },
+    {
+     "id": 47428,
+     "name": "Wu Lei",
+     "short_name": "W. Lei",
+     "position": "F",
+     "jersey_number": 7,
+     "ai_score": 0.296
+    },
+    {
+     "id": 47419,
+     "name": "Matthew Orr",
+     "short_name": "M. Orr",
+     "position": "F",
+     "jersey_number": 14,
+     "ai_score": 0.287
+    },
+    {
+     "id": 47406,
+     "name": "Wang Shenchao",
+     "short_name": "W. Shenchao",
+     "position": "D",
+     "jersey_number": 4,
+     "ai_score": 0.25
+    },
+    {
+     "id": 47433,
+     "name": "Ruofan Liu",
+     "short_name": "L. Ruofan",
+     "position": "M",
+     "jersey_number": 26,
+     "ai_score": 0.233
+    },
+    {
+     "id": 47517,
+     "name": "Yang Shiyuan",
+     "short_name": "Y. Shiyuan",
+     "position": "M",
+     "jersey_number": 20,
+     "ai_score": 0.22
+    }
+   ]
+  },
+  "away": {
+   "team_id": 2036,
+   "team_name": "Dalian Yingbo FC",
+   "formation": "4-2-3-1",
+   "confidence": 0.859,
+   "players": [
+    {
+     "id": 47178,
+     "name": "Weiguo Liu",
+     "short_name": "W. Liu",
+     "position": "G",
+     "jersey_number": 20,
+     "ai_score": 0.872
+    },
+    {
+     "id": 47150,
+     "name": "Weijie Mao",
+     "short_name": "M. Weijie",
+     "position": "D",
+     "jersey_number": 22,
+     "ai_score": 0.795
+    },
+    {
+     "id": 47148,
+     "name": "Mamadou Traoré",
+     "short_name": "M. Traoré",
+     "position": "D",
+     "jersey_number": 2,
+     "ai_score": 0.665
+    },
+    {
+     "id": 47680,
+     "name": "Yue Song",
+     "short_name": "Y. Song",
+     "position": "D",
+     "jersey_number": 6,
+     "ai_score": 0.631
+    },
+    {
+     "id": 47147,
+     "name": "Lü Zhuoyi",
+     "short_name": "L. Zhuoyi",
+     "position": "D",
+     "jersey_number": 38,
+     "ai_score": 0.674
+    },
+    {
+     "id": 17248,
+     "name": "Isnik Alimi",
+     "short_name": "I. Alimi",
+     "position": "M",
+     "jersey_number": 4,
+     "ai_score": 0.872
+    },
+    {
+     "id": 47153,
+     "name": "Jintao Liao",
+     "short_name": "J. Liao",
+     "position": "M",
+     "jersey_number": 40,
+     "ai_score": 0.739
+    },
+    {
+     "id": 47448,
+     "name": "Cephas Malele",
+     "short_name": "C. Malele",
+     "position": "F",
+     "jersey_number": 11,
+     "ai_score": 0.772
+    },
+    {
+     "id": 2609,
+     "name": "Nicolae Stanciu",
+     "short_name": "N. Stanciu",
+     "position": "M",
+     "jersey_number": 10,
+     "ai_score": 0.777
+    },
+    {
+     "id": 47155,
+     "name": "Yang Mingrui",
+     "short_name": "Y. Mingrui",
+     "position": "M",
+     "jersey_number": 27,
+     "ai_score": 0.314
+    },
+    {
+     "id": 47158,
+     "name": "Frank Acheampong",
+     "short_name": "F. Acheampong",
+     "position": "M",
+     "jersey_number": 30,
+     "ai_score": 0.738
+    }
+   ],
+   "substitutes": [
+    {
+     "id": 47170,
+     "name": "Jinhao Bi",
+     "short_name": "J. Bi",
+     "position": "D",
+     "jersey_number": 24,
+     "ai_score": 0.582
+    },
+    {
+     "id": 47163,
+     "name": "Luo Jing",
+     "short_name": "L. Jing",
+     "position": "M",
+     "jersey_number": 7,
+     "ai_score": 0.489
+    },
+    {
+     "id": 49542,
+     "name": "Shan Huang",
+     "short_name": "S. Huang",
+     "position": "M",
+     "jersey_number": 23,
+     "ai_score": 0.307
+    },
+    {
+     "id": 47319,
+     "name": "Feng Boxuan",
+     "short_name": "F. Boxuan",
+     "position": "D",
+     "jersey_number": 12,
+     "ai_score": 0.29
+    },
+    {
+     "id": 47160,
+     "name": "Zhu Pengyu",
+     "short_name": "Z. Pengyu",
+     "position": "F",
+     "jersey_number": 16,
+     "ai_score": 0.246
+    },
+    {
+     "id": 47185,
+     "name": "Jiabao Wen",
+     "short_name": "J. Wen",
+     "position": "D",
+     "jersey_number": 15,
+     "ai_score": 0.227
+    },
+    {
+     "id": 47167,
+     "name": "Huachen Zhang",
+     "short_name": "H. Zhang",
+     "position": "M",
+     "jersey_number": 8,
+     "ai_score": 0.205
+    },
+    {
+     "id": 47206,
+     "name": "Peng Lü",
+     "short_name": "P. Lü",
+     "position": "M",
+     "jersey_number": 21,
+     "ai_score": 0.198
+    },
+    {
+     "id": 47554,
+     "name": "Haiqing Cao",
+     "short_name": "H. Cao",
+     "position": "D",
+     "jersey_number": 33,
+     "ai_score": 0.166
+    },
+    {
+     "id": 47165,
+     "name": "Kangbo Sun",
+     "short_name": "S. Kangbo",
+     "position": "D",
+     "jersey_number": 28,
+     "ai_score": 0.151
+    },
+    {
+     "id": 47528,
+     "name": "Pedro Delgado",
+     "short_name": "P. Delgado",
+     "position": "M",
+     "jersey_number": 9,
+     "ai_score": 0.143
+    },
+    {
+     "id": 47450,
+     "name": "Feng Jin",
+     "short_name": "F. Jin",
+     "position": "M",
+     "jersey_number": 44,
+     "ai_score": 0.126
+    }
+   ]
+  }
+ },
+ "unavailable_players": {
+  "home": [],
+  "away": []
+ },
+ "updated_at": "2026-08-19T08:32:07Z"
+}

@@ -1,0 +1,116 @@
+{
+ "id": 215517,
+ "league": "葡超",
+ "kickoff": "08-23 22:30",
+ "kickoff_iso": "2026-08-23T14:30:00Z",
+ "home": "Vitória SC",
+ "away": "Nacional",
+ "home_id": 36,
+ "away_id": 23,
+ "pulled_at": "2026-08-23T17:40:42.396215+08:00",
+ "missing": [
+  "away教练(coach_cache未命中 id=1991) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 3,
+    "name": "Tiago Margarido",
+    "short_name": "T. Margarido",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 40.0,
+    "avg_goals_scored": 1.2,
+    "avg_goals_conceded": 1.23
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 6.69,
+   "draw": 4.38,
+   "away_win": 1.38,
+   "over_15_goals": null,
+   "over_25_goals": 1.75,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": 2.05,
+   "under_35_goals": null,
+   "btts_yes": 2.0,
+   "btts_no": 1.72
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 2035,
+    "name": "José Gomes",
+    "short_name": "J. Gomes",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.395,
+   "away": 0.445
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-23T08:32:26Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.5,
+    "home_ga": 0.5,
+    "away_gf": 2.0,
+    "away_ga": 3.0,
+    "n_home": 2.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.353,
+    "home_ga": 1.45,
+    "away_gf": 0.702,
+    "away_ga": 1.318,
+    "n_home": 28.9,
+    "n_away": 28.9,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "id": 587849,
+ "league": "欧联",
+ "kickoff": "08-21 02:00",
+ "kickoff_iso": "2026-08-20T18:00:00+00:00",
+ "home": "OFI Crete",
+ "away": "CSKA Sofia",
+ "home_id": 332,
+ "away_id": 345,
+ "pulled_at": "2026-08-20T22:12:50.681638+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 390,
+    "name": "Christos Kontis",
+    "short_name": "C. Kontis",
+    "profile": "balanced",
+    "preferred_formation": "3-4-3",
+    "matches_total": 35.0,
+    "avg_goals_scored": 1.31,
+    "avg_goals_conceded": 1.83
+   },
+   "away": {
+    "id": 292,
+    "name": "Hristo Yanev",
+    "short_name": "H. Yanev",
+    "profile": "balanced",
+    "preferred_formation": "4-1-4-1",
+    "matches_total": 54.0,
+    "avg_goals_scored": 1.48,
+    "avg_goals_conceded": 0.93
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-3",
+   "away": "4-1-4-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.62,
+   "draw": 3.23,
+   "away_win": 2.62,
+   "over_15_goals": 1.32,
+   "over_25_goals": 2.02,
+   "over_35_goals": 3.51,
+   "under_15_goals": 3.15,
+   "under_25_goals": 1.74,
+   "under_35_goals": 1.26,
+   "btts_yes": 1.77,
+   "btts_no": 1.95
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "squad(补拉)",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.686,
+   "away": 0.495
+  },
+  "formation": {
+   "home": "3-4-3",
+   "away": "4-1-4-1"
+  },
+  "updated_at": "2026-08-20T08:32:13Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.562,
+    "home_ga": 1.219,
+    "away_gf": 1.149,
+    "away_ga": 2.317,
+    "n_home": 6.4,
+    "n_away": 10.1,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 332
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.033,
+    "home_ga": 1.156,
+    "away_gf": 1.493,
+    "away_ga": 0.653,
+    "n_home": 9.0,
+    "n_away": 7.5,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 345
+   }
+  }
+ }
+}

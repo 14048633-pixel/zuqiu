@@ -1,0 +1,145 @@
+{
+ "id": 210437,
+ "league": "法甲",
+ "kickoff": "08-23 21:00",
+ "kickoff_iso": "2026-08-23T13:00:00Z",
+ "home": "Angers",
+ "away": "Lille",
+ "home_id": 107,
+ "away_id": 106,
+ "pulled_at": "2026-08-23T17:38:13.593516+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=1834) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": {
+    "id": 1778,
+    "name": "Davide Ancelotti",
+    "short_name": "D. Ancelotti",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 5.0,
+    "avg_goals_scored": 2.6,
+    "avg_goals_conceded": 1.4
+   }
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 4.84,
+   "draw": 3.67,
+   "away_win": 1.72,
+   "over_15_goals": 1.31,
+   "over_25_goals": 1.99,
+   "over_35_goals": 3.44,
+   "under_15_goals": 3.32,
+   "under_25_goals": 1.82,
+   "under_35_goals": 1.29,
+   "btts_yes": 1.9,
+   "btts_no": 1.83
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 1391,
+    "name": "Haris Belkebla",
+    "short_name": "H. Belkebla",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 1394,
+    "name": "Louis Mouton",
+    "short_name": "L. Mouton",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 1450,
+    "name": "Benjamin André",
+    "short_name": "B. André",
+    "status": "suspended",
+    "reason": "yellow_card_accumulation_suspension"
+   },
+   {
+    "id": 7386,
+    "name": "Loun Srdanovic",
+    "short_name": "L. Srdanovic",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 1464,
+    "name": "Matías Fernández-Pardo",
+    "short_name": "M. Fernández-Pardo",
+    "status": "suspended",
+    "reason": "yellow_card_accumulation_suspension"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.409,
+   "away": 0.514
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:20Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.066,
+    "home_ga": 1.52,
+    "away_gf": 0.737,
+    "away_ga": 1.566,
+    "n_home": 34.6,
+    "n_away": 34.6,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.684,
+    "home_ga": 1.024,
+    "away_gf": 1.384,
+    "away_ga": 1.135,
+    "n_home": 41.4,
+    "n_away": 41.4,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

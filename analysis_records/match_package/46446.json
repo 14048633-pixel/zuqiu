@@ -1,0 +1,123 @@
+{
+ "id": 46446,
+ "league": "瑞超",
+ "kickoff": "08-23 20:00",
+ "kickoff_iso": "2026-08-23T12:00:00Z",
+ "home": "Västerås SK",
+ "away": "Kalmar FF",
+ "home_id": 1054,
+ "away_id": 1053,
+ "pulled_at": "2026-08-23T17:42:29.055201+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 810,
+    "name": "Alexander Rubin",
+    "short_name": "A. Rubin",
+    "profile": "balanced",
+    "preferred_formation": "3-4-3",
+    "matches_total": 25.0,
+    "avg_goals_scored": 1.6,
+    "avg_goals_conceded": 1.6
+   },
+   "away": {
+    "id": 809,
+    "name": "Toni Koskela",
+    "short_name": "T. Koskela",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 26.0,
+    "avg_goals_scored": 1.5,
+    "avg_goals_conceded": 1.46
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-3",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.58,
+   "draw": 3.35,
+   "away_win": 2.53,
+   "over_15_goals": 1.22,
+   "over_25_goals": 1.76,
+   "over_35_goals": 2.86,
+   "under_15_goals": 3.89,
+   "under_25_goals": 2.01,
+   "under_35_goals": 1.38,
+   "btts_yes": 1.6,
+   "btts_no": 2.22
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 26259,
+    "name": "Frédéric Nsabiyumva",
+    "short_name": "F. Nsabiyumva",
+    "status": "injured",
+    "reason": "Foot Injury"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.814,
+   "away": 0.673
+  },
+  "formation": {
+   "home": "3-4-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:18Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.875,
+    "home_ga": 1.5,
+    "away_gf": 1.111,
+    "away_ga": 2.222,
+    "n_home": 8.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.556,
+    "home_ga": 1.222,
+    "away_gf": 0.875,
+    "away_ga": 2.125,
+    "n_home": 9.0,
+    "n_away": 8.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

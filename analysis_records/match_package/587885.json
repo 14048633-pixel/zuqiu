@@ -1,0 +1,120 @@
+{
+ "id": 587885,
+ "league": "欧协联",
+ "kickoff": "08-21 02:00",
+ "kickoff_iso": "2026-08-20T18:00:00+00:00",
+ "home": "Víkingur Reykjavík",
+ "away": "FK Borac Banja Luka",
+ "home_id": 3452,
+ "away_id": 2313,
+ "pulled_at": "2026-08-20T22:14:30.531354+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1840,
+    "name": "Solvi Geir",
+    "short_name": "S. Geir",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 5.0,
+    "avg_goals_scored": 1.0,
+    "avg_goals_conceded": 1.6
+   },
+   "away": {
+    "id": 1837,
+    "name": "Vinko Marinović",
+    "short_name": "V. Marinović",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 13.0,
+    "avg_goals_scored": 1.92,
+    "avg_goals_conceded": 1.15
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.6,
+   "draw": 4.07,
+   "away_win": 4.86,
+   "over_15_goals": 1.18,
+   "over_25_goals": 1.61,
+   "over_35_goals": 2.51,
+   "under_15_goals": 4.22,
+   "under_25_goals": 2.18,
+   "under_35_goals": 1.46,
+   "btts_yes": 1.66,
+   "btts_no": 2.09
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "squad(补拉)",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.559,
+   "away": 0.327
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-20T08:32:14Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.545,
+    "home_ga": 0.909,
+    "away_gf": 0.807,
+    "away_ga": 1.977,
+    "n_home": 7.7,
+    "n_away": 8.8,
+    "n_scored": 41,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 3452
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.295,
+    "home_ga": 0.784,
+    "away_gf": 1.584,
+    "away_ga": 1.818,
+    "n_home": 8.8,
+    "n_away": 7.7,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 2313
+   }
+  }
+ }
+}

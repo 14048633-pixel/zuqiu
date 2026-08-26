@@ -1,0 +1,104 @@
+{
+ "id": 600972,
+ "league": "Club Friendlies",
+ "kickoff": "08-26 01:00",
+ "kickoff_iso": "2026-08-25T17:00:00+00:00",
+ "home": "Barcelona Atlètic",
+ "away": "Reus FC Reddis",
+ "home_id": 4766,
+ "away_id": 1464,
+ "pulled_at": "2026-08-25T23:41:45.513690+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=3520) 未提取",
+  "away教练(coach_cache未命中 id=None) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.05,
+   "away": 0.195
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "5-4-1"
+  },
+  "updated_at": "2026-08-25T14:32:07Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.099,
+    "home_ga": 1.198,
+    "away_gf": 1.095,
+    "away_ga": 1.23,
+    "n_home": 9.1,
+    "n_away": 7.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 4766
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.0,
+    "home_ga": 1.0,
+    "away_gf": 0.0,
+    "away_ga": 4.0,
+    "n_home": 4.7,
+    "n_away": 1.0,
+    "n_scored": 6,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1464
+   }
+  }
+ }
+}

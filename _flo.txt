@@ -1,0 +1,14 @@
+def fetch_league_odds(api_key, sport_key, markets=DEFAULT_MARKETS,
+                      regions=DEFAULT_REGIONS, base_url=API_BASE, timeout=30):
+    """GET /sports/{sport}/odds -> (events_list, quota_headers)。base_url 可指向备用源。"""
+    import urllib.request
+    url = (f"{base_url}/sports/{sport_key}/odds"
+           f"?apiKey={api_key}&regions={regions}&markets={markets}"
+           f"&oddsFormat=decimal&dateFormat=iso")
+    req = urllib.request.Request(url, headers={"Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        quota = {
+            "used": resp.headers.get("x-requests-used"),
+            "remaining": resp.headers.get("x-requests-remaining"),
+        }
+        return json.loads(resp.read().decode("utf-8")), quota

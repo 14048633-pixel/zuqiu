@@ -1,0 +1,119 @@
+{
+ "id": 211687,
+ "league": "Parva Liga",
+ "kickoff": "08-22 02:15",
+ "kickoff_iso": "2026-08-21T18:15:00+00:00",
+ "home": "Cherno More Varna",
+ "away": "FK Dunav Ruse",
+ "home_id": 342,
+ "away_id": 3841,
+ "pulled_at": "2026-08-21T00:41:08.872420+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 365,
+    "name": "Ilian Iliev",
+    "short_name": "I. Iliev",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 52.0,
+    "avg_goals_scored": 1.17,
+    "avg_goals_conceded": 0.92
+   },
+   "away": {
+    "id": 1647,
+    "name": "Emanuel Lukanov",
+    "short_name": "E. Lukanov",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 14.0,
+    "avg_goals_scored": 1.0,
+    "avg_goals_conceded": 1.64
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.56,
+   "draw": 3.77,
+   "away_win": 5.27,
+   "over_15_goals": 1.32,
+   "over_25_goals": 2.0,
+   "over_35_goals": 3.49,
+   "under_15_goals": 3.06,
+   "under_25_goals": 1.72,
+   "under_35_goals": 1.25,
+   "btts_yes": 2.02,
+   "btts_no": 1.69
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.232,
+   "away": 0.241
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-20T14:32:35Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.109,
+    "home_ga": 1.38,
+    "away_gf": 0.808,
+    "away_ga": 1.342,
+    "n_home": 9.2,
+    "n_away": 7.3,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 342
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.486,
+    "home_ga": 1.843,
+    "away_gf": 1.211,
+    "away_ga": 1.474,
+    "n_home": 7.0,
+    "n_away": 9.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 3841
+   }
+  }
+ }
+}

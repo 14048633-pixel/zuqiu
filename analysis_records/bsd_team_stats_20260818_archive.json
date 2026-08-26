@@ -1,0 +1,74 @@
+{
+ "id": "bsd_team_stats_20260818",
+ "desc": "46场重点联赛(欧冠/欧联/欧协联/中超/西甲) 92支球队BSD历史赛果攻防stats",
+ "archived_at": "2026-08-18 23:22",
+ "data_file": "data/raw/football_data/bsd_team_stats_20260818.json",
+ "bytes": 26133,
+ "md5": "3cc790f04505270e46eb141f22fb9b6c",
+ "sha1": "602b0d660b81eda1d0fc3e4a5deb6caf8bc11539",
+ "fetched_ts": "2026-08-18T15:14:43Z",
+ "n_teams": 92,
+ "n_events": 5139,
+ "league_dist": {
+  "欧冠": 14,
+  "欧协联": 48,
+  "欧联": 24,
+  "西甲": 4,
+  "中超": 2
+ },
+ "source": "BSD /api/v2/events/?team_id={id}&status=finished&limit=60 (92队, 0错误)",
+ "agg_rule": "近40场(最多), 时间衰减权重: 近5场1.0/6-10场0.7/11-20场0.4/>20场0.2; 主客场分列",
+ "fields": [
+  "home_gf",
+  "home_ga",
+  "away_gf",
+  "away_ga",
+  "n_home",
+  "n_away",
+  "n_scored",
+  "src_season",
+  "src_w",
+  "src_tag",
+  "league",
+  "team_id"
+ ],
+ "known_issues": [
+  "未做对手强度归一: 弱队主场失球失真(如Levski home_ga0.32), 强队客场防守被低估(Monaco away_ga2.09), 我们λ仅作交叉验证",
+  "BSD prediction的expected_goals与其自身match_result方向矛盾(如Inter Turku), 不可直接当λ"
+ ],
+ "conclusion": "46场最终EV_bet(BSD概率x市场价-1)全部为负(-1.3%~-12.9%), 0正EV; BSD共识赔率早盘定价有效",
+ "related": [
+  "scan48h_20260818_2259.json",
+  "scan48h_20260818_2300.json",
+  "scan48h_teams_20260818_2300.txt",
+  "key46_20260818_2307.json",
+  "key46_20260818_2308.md",
+  "key46_model_ev_20260818_2316.json",
+  "key46_ev_v2_20260818_2317.json",
+  "key46_ev_v3_20260818_2319.json",
+  "key46_ev_final_20260818_2319.json",
+  "key46_ev_final2_20260818_2319.json"
+ ],
+ "location": "D:\\足球分析",
+ "updated_at": "2026-08-19 00:00",
+ "norm_v1_file": "data/raw/football_data/bsd_team_stats_norm_20260818.json",
+ "norm_v1_report": "analysis_records/opp_strength_norm_20260818.md",
+ "norm_v1_conclusion": "v1粗版(单系数乘除)仅对混合联赛赛程有效(50/92队零变化, 最大delta 0.121); Levski/Monaco跨联赛水平失真未修复; 不可作为修正版入库, 需v2迭代赛事图rating",
+ "norm_v1_related": [
+  "analysis_records/opp_strength_norm_20260818.md",
+  "analysis_records/opp_strength_norm_20260818_summary.json"
+ ],
+ "norm_v2_file": "data/raw/football_data/bsd_team_stats_norm_v2_20260818.json",
+ "norm_v2_report": "analysis_records/opp_strength_norm_v2_20260818.md",
+ "norm_v2_edges": "data/raw/football_data/bsd_edges_20260818.json",
+ "norm_v2_conclusion": "v2(相对本联赛均值x联赛水平+收缩K=6)修复v1抵消与跨联赛失真: Levski主ga 0.483->0.433, Monaco客ga 1.93->1.06, 联赛均值随coef单调; 关键发现BSD仅覆盖80联赛, 37/92队仅欧战样本(src_bias=uncovered标记); 迭代(rat)尺度漂移不主用",
+ "norm_v3_file": "data/raw/football_data/bsd_team_stats_norm_v3_20260818.json",
+ "norm_v3_report": "analysis_records/opp_strength_norm_v3_20260818.md",
+ "norm_v3_source": "HF soccer-dataset (本地 67.4万场) 国内联赛 + BSD 欧战",
+ "norm_v3_conclusion": "32队国内补齐(31融合+1陈旧), 92队统一: covered=55/merged=31/no_domestic=6(阿尔巴尼亚/安道尔/法罗/冰岛/里加); 红星/迪纳摩国内优势体现, 马卡比防守软化; no_domestic 6队仅欧战样本待人工复核",
+ "v3_lambda_validate": {
+  "report": "analysis_records/key46_v3_lambda_validate_20260818.md",
+  "data": "analysis_records/key46_v3_lambda_20260818_2357.json",
+  "conclusion": "v3接入46/46覆盖; 但跨联赛λ压缩失真(Getafe/Partizan客胜EV+285%等10场EV>50%假正,多数逆市场); v3暂不替换raw λ做EV主引擎, 保留数据覆盖+交叉验证; 中期需跨联赛level-gap校准+放开收缩K"
+ }
+}

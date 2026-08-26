@@ -1,0 +1,104 @@
+{
+ "id": 212579,
+ "league": "Emperor Cup",
+ "kickoff": "08-26 18:00",
+ "kickoff_iso": "2026-08-26T10:00:00+00:00",
+ "home": "Montedio Yamagata",
+ "away": "Fujieda MYFC",
+ "home_id": 1970,
+ "away_id": 1973,
+ "pulled_at": "2026-08-25T23:48:50.736093+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=1326) 未提取",
+  "away教练(coach_cache未命中 id=1329) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 1.84,
+   "btts_no": 1.86
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.245,
+   "away": 0.095
+  },
+  "formation": {
+   "home": "4-2-1-3",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-25T14:32:29Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.556,
+    "home_ga": 1.5,
+    "away_gf": 2.097,
+    "away_ga": 2.355,
+    "n_home": 7.2,
+    "n_away": 9.3,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1970
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.708,
+    "home_ga": 0.583,
+    "away_gf": 0.986,
+    "away_ga": 2.232,
+    "n_home": 2.4,
+    "n_away": 6.9,
+    "n_scored": 12,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1973
+   }
+  }
+ }
+}

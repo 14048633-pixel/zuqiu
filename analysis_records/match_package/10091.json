@@ -1,0 +1,119 @@
+{
+ "id": 10091,
+ "league": "巴乙",
+ "kickoff": "08-24 03:00",
+ "kickoff_iso": "2026-08-23T19:00:00Z",
+ "home": "Ponte Preta",
+ "away": "Avai",
+ "home_id": 844,
+ "away_id": 860,
+ "pulled_at": "2026-08-23T17:46:45.914069+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 768,
+    "name": "Márcio Zanardi",
+    "short_name": "M. Zanardi",
+    "profile": "defensive",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 10.0,
+    "avg_goals_scored": 0.6,
+    "avg_goals_conceded": 1.7
+   },
+   "away": {
+    "id": 138,
+    "name": "Allan Rodrigo Aal",
+    "short_name": "A. R. Aal",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 5.0,
+    "avg_goals_scored": 1.4,
+    "avg_goals_conceded": 0.8
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 4.21,
+   "draw": 3.22,
+   "away_win": 1.83,
+   "over_15_goals": 1.34,
+   "over_25_goals": 2.09,
+   "over_35_goals": 3.8,
+   "under_15_goals": 3.08,
+   "under_25_goals": 1.69,
+   "under_35_goals": 1.24,
+   "btts_yes": 1.92,
+   "btts_no": 1.8
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.632,
+   "away": 0.727
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:57Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.753,
+    "home_ga": 1.576,
+    "away_gf": 0.6,
+    "away_ga": 2.675,
+    "n_home": 8.5,
+    "n_away": 8.0,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 844
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 0.958,
+    "away_ga": 1.43,
+    "n_home": 0.0,
+    "n_away": 16.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 860
+   }
+  }
+ }
+}

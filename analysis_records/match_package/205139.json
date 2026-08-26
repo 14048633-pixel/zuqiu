@@ -1,0 +1,119 @@
+{
+ "id": 205139,
+ "league": "K League 1",
+ "kickoff": "08-26 18:30",
+ "kickoff_iso": "2026-08-26T10:30:00+00:00",
+ "home": "Daejeon Hana Citizen",
+ "away": "Ulsan HD",
+ "home_id": 1958,
+ "away_id": 1950,
+ "pulled_at": "2026-08-25T23:50:21.089267+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1315,
+    "name": "Sun-hong Hwang",
+    "short_name": "Seon-hong Hwang",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 27.0,
+    "avg_goals_scored": 1.26,
+    "avg_goals_conceded": 1.11
+   },
+   "away": {
+    "id": 1307,
+    "name": "Kim Hyun-Seok",
+    "short_name": "K. Hyun-Seok",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 23.0,
+    "avg_goals_scored": 1.61,
+    "avg_goals_conceded": 1.43
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.25,
+   "draw": 3.47,
+   "away_win": 2.78,
+   "over_15_goals": 1.2,
+   "over_25_goals": 1.7,
+   "over_35_goals": 2.74,
+   "under_15_goals": 4.16,
+   "under_25_goals": 2.1,
+   "under_35_goals": 1.41,
+   "btts_yes": 1.56,
+   "btts_no": 2.28
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.459,
+   "away": 0.477
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "3-4-3"
+  },
+  "updated_at": "2026-08-25T14:32:36Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.506,
+    "home_ga": 1.038,
+    "away_gf": 1.558,
+    "away_ga": 1.419,
+    "n_home": 7.9,
+    "n_away": 8.6,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1958
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.59,
+    "home_ga": 1.731,
+    "away_gf": 1.345,
+    "away_ga": 1.345,
+    "n_home": 7.8,
+    "n_away": 8.7,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1950
+   }
+  }
+ }
+}

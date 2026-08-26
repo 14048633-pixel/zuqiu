@@ -1,0 +1,115 @@
+{
+ "id": 210445,
+ "league": "法甲",
+ "kickoff": "08-23 02:45",
+ "kickoff_iso": "2026-08-22T18:45:00+00:00",
+ "home": "Troyes",
+ "away": "Paris FC",
+ "home_id": 1303,
+ "away_id": 108,
+ "pulled_at": "2026-08-22T01:16:14.347807+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1046,
+    "name": "Stephane Dumont",
+    "short_name": "S. Dumont",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 10.0,
+    "avg_goals_scored": 2.5,
+    "avg_goals_conceded": 0.9
+   },
+   "away": {
+    "id": 558,
+    "name": "Liam Rosenior",
+    "short_name": "L. Rosenior",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 5.0,
+    "avg_goals_scored": 1.6,
+    "avg_goals_conceded": 1.6
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.391,
+   "away": 0.536
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-21T14:34:32Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.0,
+    "home_ga": 1.386,
+    "away_gf": 1.228,
+    "away_ga": 2.386,
+    "n_home": 5.7,
+    "n_away": 5.7,
+    "src_w": 0.2,
+    "src_season": "2022/2023",
+    "src_tag": "old"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.647,
+    "home_ga": 1.588,
+    "away_gf": 1.118,
+    "away_ga": 1.353,
+    "n_home": 17.0,
+    "n_away": 17.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

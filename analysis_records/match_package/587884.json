@@ -1,0 +1,149 @@
+{
+ "id": 587884,
+ "league": "欧协联",
+ "kickoff": "08-21 01:00",
+ "kickoff_iso": "2026-08-20T17:00:00+00:00",
+ "home": "FC Nordsjælland",
+ "away": "FC St. Gallen 1879",
+ "home_id": 1332,
+ "away_id": 248,
+ "pulled_at": "2026-08-20T22:13:40.986435+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 2265,
+    "name": "Jens Olsen",
+    "short_name": "J. Olsen",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 176.0,
+    "avg_goals_scored": 1.59,
+    "avg_goals_conceded": 1.35
+   },
+   "away": {
+    "id": 462,
+    "name": "Enrico Maassen",
+    "short_name": "E. Maassen",
+    "profile": "attacking",
+    "preferred_formation": "3-5-2",
+    "matches_total": 51.0,
+    "avg_goals_scored": 1.84,
+    "avg_goals_conceded": 1.41
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "3-5-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.71,
+   "draw": 4.1,
+   "away_win": 4.0,
+   "over_15_goals": 1.12,
+   "over_25_goals": 1.42,
+   "over_35_goals": 2.07,
+   "under_15_goals": 5.52,
+   "under_25_goals": 2.65,
+   "under_35_goals": 1.69,
+   "btts_yes": 1.45,
+   "btts_no": 2.56
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 7499,
+    "name": "Behar Neziri",
+    "short_name": "B. Neziri",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 8787,
+    "name": "Colin Noah Kleine-Bekel",
+    "short_name": "C. N. Kleine-Bekel",
+    "status": "injured",
+    "reason": "Leg Injury"
+   },
+   {
+    "id": 7215,
+    "name": "Lawrence Ati Zigi",
+    "short_name": "L. A. Zigi",
+    "status": "injured",
+    "reason": "Leg Injury"
+   },
+   {
+    "id": 7232,
+    "name": "Malamine Efekele",
+    "short_name": "M. Efekele",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "squad(补拉)",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.545,
+   "away": 0.573
+  },
+  "formation": {
+   "home": "3-4-3",
+   "away": "3-5-2"
+  },
+  "updated_at": "2026-08-20T08:32:10Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.551,
+    "home_ga": 0.551,
+    "away_gf": 1.368,
+    "away_ga": 1.421,
+    "n_home": 8.9,
+    "n_away": 7.6,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 1332
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.857,
+    "home_ga": 1.452,
+    "away_gf": 2.012,
+    "away_ga": 2.0,
+    "n_home": 8.4,
+    "n_away": 8.1,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 248
+   }
+  }
+ }
+}

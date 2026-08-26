@@ -1,0 +1,165 @@
+KEYFAIL ODDS_API_KEY_1 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_africa_cup_of_nations               非洲杯 rows=0 quota_rem=206
+OK soccer_argentina_primera_division          阿甲 rows=5 quota_rem=491
+OK soccer_australia_aleague                   澳超 rows=0 quota_rem=495
+OK soccer_austria_bundesliga                  奥甲 rows=0 quota_rem=495
+OK soccer_belgium_first_div                   比甲 rows=2 quota_rem=492
+KEYFAIL ODDS_API_KEY_10 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_1 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_brazil_campeonato                   巴甲 rows=6 quota_rem=203
+OK soccer_brazil_serie_b                      巴乙 rows=4 quota_rem=488
+OK soccer_chile_campeonato                    智利甲 rows=4 quota_rem=492
+OK soccer_china_superleague                   中超 rows=3 quota_rem=492
+OK soccer_concacaf_gold_cup                   soccer_concacaf_gold_cup rows=0 quota_rem=492
+KEYFAIL ODDS_API_KEY_10 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_1 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_concacaf_leagues_cup                中北美联赛杯 rows=0 quota_rem=203
+OK soccer_conmebol_copa_america               soccer_conmebol_copa_america rows=0 quota_rem=488
+OK soccer_conmebol_copa_libertadores          解放者杯 rows=0 quota_rem=492
+OK soccer_conmebol_copa_sudamericana          南美杯 rows=0 quota_rem=492
+OK soccer_denmark_superliga                   丹超 rows=5 quota_rem=489
+KEYFAIL ODDS_API_KEY_10 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_1 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_efl_champ                           英冠 rows=1 quota_rem=200
+OK soccer_england_efl_cup                     英联杯 rows=0 quota_rem=488
+OK soccer_england_league1                     英甲 rows=0 quota_rem=492
+OK soccer_england_league2                     英乙 rows=0 quota_rem=492
+OK soccer_epl                                 英超 rows=3 quota_rem=486
+KEYFAIL ODDS_API_KEY_10 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_1 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_fa_cup                              soccer_fa_cup rows=0 quota_rem=200
+OK soccer_fifa_club_world_cup                 soccer_fifa_club_world_cup rows=0 quota_rem=488
+OK soccer_fifa_world_cup                      soccer_fifa_world_cup rows=0 quota_rem=492
+OK soccer_fifa_world_cup_qualifiers_europe    soccer_fifa_world_cup_qualifiers_europe rows=0 quota_rem=492
+OK soccer_fifa_world_cup_qualifiers_south_america soccer_fifa_world_cup_qualifiers_south_america rows=0 quota_rem=486
+KEYFAIL ODDS_API_KEY_10 HTTP 422 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 422 -> 换key
+KEYFAIL ODDS_API_KEY_1 HTTP 422 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 422 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 422 -> 换key
+KEYFAIL ODDS_API_KEY_5 HTTP 422 -> 换key
+KEYFAIL ODDS_API_KEY_6 HTTP 422 -> 换key
+KEYFAIL ODDS_API_KEY_7 HTTP 422 -> 换key
+KEYFAIL ODDS_API_KEY_8 HTTP 422 -> 换key
+KEYFAIL ODDS_API_KEY_9 HTTP 422 -> 换key
+FAIL soccer_fifa_world_cup_winner               soccer_fifa_world_cup_winner (全部key失败)
+KEYFAIL ODDS_API_KEY_10 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_1 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_fifa_world_cup_womens               soccer_fifa_world_cup_womens rows=0 quota_rem=200
+OK soccer_finland_veikkausliiga               芬超 rows=3 quota_rem=485
+OK soccer_france_coupe_de_france              法国杯 rows=0 quota_rem=492
+KEYFAIL ODDS_API_KEY_8 URLError(ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)) -> 换key
+OK soccer_france_ligue_one                    法甲 rows=3 quota_rem=483
+KEYFAIL ODDS_API_KEY_10 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_1 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_france_ligue_two                    法乙 rows=0 quota_rem=200
+OK soccer_germany_bundesliga                  德甲 rows=0 quota_rem=485
+OK soccer_germany_bundesliga2                 德乙 rows=0 quota_rem=492
+OK soccer_germany_bundesliga_women            soccer_germany_bundesliga_women rows=2 quota_rem=489
+OK soccer_germany_dfb_pokal                   德国杯 rows=9 quota_rem=480
+KEYFAIL ODDS_API_KEY_10 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_1 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_germany_liga3                       德丙 rows=0 quota_rem=200
+OK soccer_greece_super_league                 希腊超 rows=3 quota_rem=482
+OK soccer_italy_coppa_italia                  意大利杯 rows=0 quota_rem=492
+OK soccer_italy_serie_a                       意甲 rows=4 quota_rem=486
+OK soccer_italy_serie_b                       意乙 rows=4 quota_rem=477
+KEYFAIL ODDS_API_KEY_10 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_1 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_japan_j_league                      J1 rows=1 quota_rem=197
+OK soccer_korea_kleague1                      K联赛 rows=2 quota_rem=479
+OK soccer_league_of_ireland                   爱超 rows=0 quota_rem=492
+OK soccer_mexico_ligamx                       墨超 rows=2 quota_rem=483
+OK soccer_netherlands_eredivisie              荷甲 rows=3 quota_rem=474
+KEYFAIL ODDS_API_KEY_10 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_1 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_norway_eliteserien                  挪超 rows=0 quota_rem=197
+OK soccer_poland_ekstraklasa                  波甲 rows=3 quota_rem=476
+OK soccer_portugal_primeira_liga              葡超 rows=3 quota_rem=489
+OK soccer_russia_premier_league               俄超 rows=4 quota_rem=480
+OK soccer_saudi_arabia_pro_league             沙超 rows=0 quota_rem=474
+KEYFAIL ODDS_API_KEY_10 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_1 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_spain_copa_del_rey                  国王杯 rows=0 quota_rem=197
+OK soccer_spain_la_liga                       西甲 rows=3 quota_rem=473
+OK soccer_spain_segunda_division              西乙 rows=4 quota_rem=486
+OK soccer_spl                                 苏超 rows=0 quota_rem=480
+OK soccer_sweden_allsvenskan                  瑞超 rows=4 quota_rem=471
+KEYFAIL ODDS_API_KEY_10 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_1 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_sweden_superettan                   瑞甲 rows=3 quota_rem=194
+OK soccer_switzerland_superleague             瑞士超 rows=1 quota_rem=470
+OK soccer_turkey_super_league                 土超 rows=4 quota_rem=483
+OK soccer_uefa_champs_league                  欧冠 rows=0 quota_rem=480
+OK soccer_uefa_champs_league_qualification    欧冠资格赛 rows=0 quota_rem=471
+KEYFAIL ODDS_API_KEY_10 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_1 URLError(ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)) -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_uefa_champs_league_women            soccer_uefa_champs_league_women rows=0 quota_rem=194
+OK soccer_uefa_euro_qualification             soccer_uefa_euro_qualification rows=0 quota_rem=470
+OK soccer_uefa_europa_conference_league       欧协联 rows=0 quota_rem=483
+OK soccer_uefa_europa_league                  欧联 rows=0 quota_rem=480
+OK soccer_uefa_european_championship          soccer_uefa_european_championship rows=0 quota_rem=471
+KEYFAIL ODDS_API_KEY_10 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_11 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_1 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_2 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_3 HTTP 401 -> 换key
+KEYFAIL ODDS_API_KEY_4 HTTP 401 -> 换key
+OK soccer_uefa_nations_league                 soccer_uefa_nations_league rows=0 quota_rem=194
+OK soccer_usa_mls                             美职 rows=2 quota_rem=467
+
+TOTAL appended: 9482 -> D:\足球分析\prediction_v2\output\odds_snapshots\snapshots.csv
+OK联赛=66 FAIL=1
+按联赛场次(带赔率): {'阿甲': 365, '比甲': 206, '巴甲': 761, '巴乙': 340, '智利甲': 370, '中超': 305, '丹超': 615, '英冠': 114, '英超': 391, '芬超': 321, '法甲': 330, 'soccer_germany_bundesliga_women': 68, '德国杯': 320, '希腊超': 285, '意甲': 488, '意乙': 423, 'J1': 109, 'K联赛': 198, '墨超': 192, '荷甲': 336, '波甲': 282, '葡超': 304, '俄超': 108, '西甲': 312, '西乙': 433, '瑞超': 447, '瑞甲': 268, '瑞士超': 116, '土超': 429, '美职': 246}

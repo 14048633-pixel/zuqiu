@@ -1,0 +1,115 @@
+{
+ "id": 212204,
+ "league": "J1 League",
+ "kickoff": "08-21 18:30",
+ "kickoff_iso": "2026-08-21T10:30:00+00:00",
+ "home": "FC Tokyo",
+ "away": "JEF United Chiba",
+ "home_id": 1936,
+ "away_id": 1934,
+ "pulled_at": "2026-08-21T00:36:23.644192+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1293,
+    "name": "Rikizo Matsuhashi",
+    "short_name": "R. Matsuhashi",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 67.0,
+    "avg_goals_scored": 1.31,
+    "avg_goals_conceded": 1.25
+   },
+   "away": {
+    "id": 1291,
+    "name": "Yoshiyuki Kobayashi",
+    "short_name": "Y. Kobayashi",
+    "profile": "defensive",
+    "preferred_formation": "4-4-2",
+    "matches_total": 24.0,
+    "avg_goals_scored": 0.96,
+    "avg_goals_conceded": 1.71
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.5,
+   "draw": 4.04,
+   "away_win": 6.05,
+   "over_15_goals": 1.26,
+   "over_25_goals": 1.85,
+   "over_35_goals": 3.08,
+   "under_15_goals": 3.47,
+   "under_25_goals": 1.88,
+   "under_35_goals": 1.32,
+   "btts_yes": 1.94,
+   "btts_no": 1.77
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.65,
+   "away": 0.668
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-20T14:32:28Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.0,
+    "home_ga": 5.0,
+    "away_gf": 2.0,
+    "away_ga": 2.0,
+    "n_home": 1.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026/2027",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 4.0,
+    "away_gf": 0.0,
+    "away_ga": 3.0,
+    "n_home": 1.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026/2027",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

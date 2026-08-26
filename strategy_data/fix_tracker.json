@@ -1,0 +1,138 @@
+﻿{
+ "generated_at": "2026-08-19 22:46",
+ "note": "方向修复验证组: 全统计/分采信; n>=min_n且命中率>=target自动转正, 否则砍",
+ "items": {
+  "大球": {
+   "direction": "大球",
+   "fix_action": "无需修复, 继续累积样本(跨联赛已验证75%)",
+   "acceptance": {
+    "target_rate_pct": 65.0,
+    "min_n": 155
+   },
+   "baseline": {
+    "n": 20,
+    "hit_rate": 75.0,
+    "roi_pct": 35.6,
+    "at": "2026-08-19 22:46"
+   },
+   "current": {
+    "n": 20,
+    "hit_rate": 75.0,
+    "roi_pct": 35.6,
+    "at": "2026-08-19 22:46"
+   },
+   "status": "跟踪中",
+   "note": ""
+  },
+  "小球": {
+   "direction": "小球",
+   "fix_action": "重标定大小球模型(λ/OU线校准, 修复模型偏好小球缺陷)",
+   "acceptance": {
+    "target_rate_pct": 55.0,
+    "min_n": 150
+   },
+   "baseline": {
+    "n": 29,
+    "hit_rate": 34.5,
+    "roi_pct": -30.48,
+    "at": "2026-08-19 22:46"
+   },
+   "current": {
+    "n": 29,
+    "hit_rate": 34.5,
+    "roi_pct": -30.48,
+    "at": "2026-08-19 22:46"
+   },
+   "status": "修复中",
+   "note": "测试期只记录不采信"
+  },
+  "1X2主": {
+   "direction": "1X2主",
+   "fix_action": "平局预警过滤: 只统计无预警组(市场去水平局<26%), 预警组降级",
+   "acceptance": {
+    "target_rate_pct": 50.0,
+    "min_n": 300
+   },
+   "baseline": {
+    "n": 22,
+    "hit_rate": 31.8,
+    "roi_pct": null,
+    "at": "2026-08-19 22:46"
+   },
+   "current": {
+    "n": 22,
+    "hit_rate": 31.8,
+    "roi_pct": null,
+    "at": "2026-08-19 22:46"
+   },
+   "status": "修复中",
+   "note": "测试期只记录不采信"
+  },
+  "1X2客": {
+   "direction": "1X2客",
+   "fix_action": "平局预警过滤: 只统计无预警组, 预警组降级",
+   "acceptance": {
+    "target_rate_pct": 50.0,
+    "min_n": 300
+   },
+   "baseline": {
+    "n": 5,
+    "hit_rate": 40.0,
+    "roi_pct": null,
+    "at": "2026-08-19 22:46"
+   },
+   "current": {
+    "n": 5,
+    "hit_rate": 40.0,
+    "roi_pct": null,
+    "at": "2026-08-19 22:46"
+   },
+   "status": "修复中",
+   "note": "测试期只记录不采信"
+  },
+  "让球主": {
+   "direction": "让球主",
+   "fix_action": "概率校准(prob虚高0.65-0.70档)+深盘禁+只留0.5-0.75盘",
+   "acceptance": {
+    "target_rate_pct": 52.0,
+    "min_n": 600
+   },
+   "baseline": {
+    "n": 47,
+    "hit_rate": 44.7,
+    "roi_pct": -5.23,
+    "at": "2026-08-19 22:46"
+   },
+   "current": {
+    "n": 47,
+    "hit_rate": 44.7,
+    "roi_pct": -5.23,
+    "at": "2026-08-19 22:46"
+   },
+   "status": "修复中",
+   "note": "测试期只记录不采信"
+  },
+  "让球客": {
+   "direction": "让球客",
+   "fix_action": "同上概率校准+盘口过滤",
+   "acceptance": {
+    "target_rate_pct": 52.0,
+    "min_n": 600
+   },
+   "baseline": {
+    "n": 10,
+    "hit_rate": 30.0,
+    "roi_pct": -17.4,
+    "at": "2026-08-19 22:46"
+   },
+   "current": {
+    "n": 10,
+    "hit_rate": 30.0,
+    "roi_pct": -17.4,
+    "at": "2026-08-19 22:46"
+   },
+   "status": "修复中",
+   "note": "测试期只记录不采信"
+  }
+ }
+}

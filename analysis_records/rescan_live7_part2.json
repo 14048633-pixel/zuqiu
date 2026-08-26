@@ -1,0 +1,147 @@
+{
+ "matches": [
+  {
+   "league": "波甲",
+   "home": "Pogoń Szczecin",
+   "away": "Wisła Kraków",
+   "ct": "2026-08-23T18:15:00+00:00",
+   "result": {
+    "lambda": {
+     "home": 1.77,
+     "away": 1.56,
+     "sum": 3.33
+    },
+    "wdl": {
+     "home": 42.8,
+     "draw": 22.8,
+     "away": 34.4
+    },
+    "market_fair": {
+     "home": 45.4,
+     "draw": 26.4,
+     "away": 28.3
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "bsd"
+    },
+    "snap_age_h": 4.2,
+    "bets": [
+     {
+      "name": "让球客(+0.2)",
+      "prob": 0.5718,
+      "odds": 2.04,
+      "ev": 0.1317
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.3532,
+      "odds": 2.46,
+      "ev": -0.1419
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.6468,
+      "odds": 1.65,
+      "ev": 0.054,
+      "star": 1,
+      "ev_tier": "观察",
+      "stake_factor": 0.0375
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.4282,
+      "odds": 2.18,
+      "ev": -0.0767,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2279,
+      "odds": 3.75,
+      "ev": -0.1547,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.3439,
+      "odds": 3.5,
+      "ev": 0.1904,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "大2.50",
+     "prob": 0.6468,
+     "odds": 1.65,
+     "ev": 0.054,
+     "star": 1,
+     "ev_tier": "观察",
+     "stake_factor": 0.0375
+    },
+    "direction": {
+     "name": "大2.50",
+     "prob": 0.6468,
+     "odds": 1.65,
+     "ev": 0.054,
+     "market_fair": 0.5985,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.4282,
+     "wdl_market_fair": 0.4537,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": {
+      "market_draw_prob": 26.4,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2客胜",
+       "ev": 19.0
+      },
+      "让球": {
+       "dir": "让球客(+0.2)",
+       "ev": 13.2
+      },
+      "大小球": {
+       "dir": "大2.50",
+       "ev": 5.4
+      }
+     },
+     "level": "三向一致"
+    },
+    "star": 1,
+    "ev_tier": "观察",
+    "risk_tags": [
+     "纯数据无伤病情报",
+     "伤停>2人(主3/客0)",
+     "平局预警(市场去水平局>=26%)",
+     "平局预警→让球只用+号(受让方)",
+     "整球盘2.50遇预警降星"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 26.4,
+     "strong": false
+    },
+    "upset": {
+     "hot": "Pogoń Szczecin",
+     "level": "低风险",
+     "count": 1,
+     "signals": [
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     "数据包伤停: 主队伤停3人(如José Pozo,Nikolaos Botis,Rajmund Mol)",
+     "主队数据来自PL",
+     "主队跨联赛用PL数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "主队样本偏少, 攻防向联赛均值收缩",
+     "客队样本偏少, 攻防向联赛均值收缩",
+     "平局预警(去水平局26%)→让球只用+号(受让方), 移除1个-号让球腿"
+    ]
+   }
+  }
+ ]
+}

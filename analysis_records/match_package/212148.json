@@ -1,0 +1,277 @@
+{
+ "id": 212148,
+ "league": "德国杯",
+ "kickoff": "08-25 00:00",
+ "kickoff_iso": "2026-08-24T16:00:00+00:00",
+ "home": "VSG Altglienicke",
+ "away": "VfL Wolfsburg",
+ "home_id": 3845,
+ "away_id": 82,
+ "pulled_at": "2026-08-24T23:09:48.121627+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=3565) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": {
+    "id": 1875,
+    "name": "Tobias Strobl",
+    "short_name": "T. Strobl",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 5.0,
+    "avg_goals_scored": 3.0,
+    "avg_goals_conceded": 1.2
+   }
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 12.21,
+   "draw": 7.14,
+   "away_win": 1.16,
+   "over_15_goals": 1.06,
+   "over_25_goals": 1.29,
+   "over_35_goals": 1.78,
+   "under_15_goals": 7.4,
+   "under_25_goals": 3.32,
+   "under_35_goals": 1.97,
+   "btts_yes": 1.78,
+   "btts_no": 1.94
+  },
+  "best": {
+   "1x2": {
+    "home": {
+     "odds": 15.0,
+     "bookmaker": "bet365",
+     "n": 18
+    },
+    "draw": {
+     "odds": 8.09,
+     "bookmaker": "pinnacle",
+     "n": 18
+    },
+    "away": {
+     "odds": 1.21,
+     "bookmaker": "unibet",
+     "n": 18
+    }
+   },
+   "double_chance": {
+    "1x": {
+     "odds": 5.1,
+     "bookmaker": "1xbet",
+     "n": 6
+    },
+    "x2": {
+     "odds": 1.04,
+     "bookmaker": "unibet",
+     "n": 5
+    },
+    "12": {
+     "odds": 1.1,
+     "bookmaker": "888sport",
+     "n": 6
+    }
+   },
+   "over_under_15": {
+    "over@1.5": {
+     "odds": 1.08,
+     "bookmaker": "unibet",
+     "n": 5
+    },
+    "under@1.5": {
+     "odds": 8.0,
+     "bookmaker": "betfair",
+     "n": 5
+    }
+   },
+   "over_under_25": {
+    "over@2.5": {
+     "odds": 1.33,
+     "bookmaker": "bet365",
+     "n": 7
+    },
+    "under@2.5": {
+     "odds": 3.51,
+     "bookmaker": "pinnacle",
+     "n": 7
+    }
+   },
+   "over_under_35": {
+    "over@3.5": {
+     "odds": 1.8,
+     "bookmaker": "unibet",
+     "n": 7
+    },
+    "under@3.5": {
+     "odds": 2.03,
+     "bookmaker": "pinnacle",
+     "n": 7
+    }
+   },
+   "btts": {
+    "yes": {
+     "odds": 1.9,
+     "bookmaker": "bet365",
+     "n": 9
+    },
+    "no": {
+     "odds": 2.05,
+     "bookmaker": "interwetten",
+     "n": 9
+    }
+   },
+   "over_under_05": {
+    "over@0.5": {
+     "odds": 1.01,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "under@0.5": {
+     "odds": 26.0,
+     "bookmaker": "1xbet",
+     "n": 2
+    }
+   },
+   "total_corners": {
+    "over@7.5": {
+     "odds": 1.25,
+     "bookmaker": "unibet",
+     "n": 2
+    },
+    "under@7.5": {
+     "odds": 3.62,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "over@8.5": {
+     "odds": 1.43,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "under@8.5": {
+     "odds": 2.55,
+     "bookmaker": "unibet",
+     "n": 2
+    },
+    "over@9.5": {
+     "odds": 1.76,
+     "bookmaker": "1xbet",
+     "n": 3
+    },
+    "under@9.5": {
+     "odds": 2.01,
+     "bookmaker": "pinnacle",
+     "n": 3
+    },
+    "over@10.5": {
+     "odds": 2.2,
+     "bookmaker": "1xbet",
+     "n": 3
+    },
+    "under@10.5": {
+     "odds": 1.64,
+     "bookmaker": "unibet",
+     "n": 3
+    },
+    "over@11.5": {
+     "odds": 2.9,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "under@11.5": {
+     "odds": 1.42,
+     "bookmaker": "unibet",
+     "n": 2
+    }
+   },
+   "draw_no_bet": {
+    "home": {
+     "odds": 13.0,
+     "bookmaker": "888sport",
+     "n": 11
+    },
+    "away": {
+     "odds": 1.05,
+     "bookmaker": "betano",
+     "n": 11
+    }
+   }
+  },
+  "bookmakers_count": 23,
+  "total_odds": 177
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 4268,
+    "name": "Bence Dárdai",
+    "short_name": "B. Dárdai",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.091,
+   "away": 0.568
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-24T14:32:08Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.569,
+    "home_ga": 1.529,
+    "away_gf": 2.5,
+    "away_ga": 0.921,
+    "n_home": 5.1,
+    "n_away": 3.8,
+    "n_scored": 11,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 3845
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 1.0,
+    "away_ga": 0.0,
+    "n_home": 1.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026/2027",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

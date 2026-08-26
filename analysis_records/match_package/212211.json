@@ -1,0 +1,115 @@
+{
+ "id": 212211,
+ "league": "J1",
+ "kickoff": "08-22 18:15",
+ "kickoff_iso": "2026-08-22T10:15:00+00:00",
+ "home": "Sanfrecce Hiroshima",
+ "away": "Kawasaki Frontale",
+ "home_id": 1933,
+ "away_id": 1944,
+ "pulled_at": "2026-08-22T01:08:57.370708+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1290,
+    "name": "Bartosch Gaul",
+    "short_name": "B. Gaul",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 68.0,
+    "avg_goals_scored": 1.57,
+    "avg_goals_conceded": 0.99
+   },
+   "away": {
+    "id": 1301,
+    "name": "Shigetoshi Hasebe",
+    "short_name": "S. Hasebe",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 62.0,
+    "avg_goals_scored": 1.55,
+    "avg_goals_conceded": 1.47
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.559,
+   "away": 0.732
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-21T14:32:46Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 3.0,
+    "home_ga": 0.0,
+    "away_gf": 4.0,
+    "away_ga": 1.0,
+    "n_home": 1.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026/2027",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 2.0,
+    "away_gf": 1.0,
+    "away_ga": 1.0,
+    "n_home": 1.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026/2027",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

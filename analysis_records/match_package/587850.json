@@ -1,0 +1,121 @@
+{
+ "id": 587850,
+ "league": "欧联",
+ "kickoff": "08-21 00:00",
+ "kickoff_iso": "2026-08-20T16:00:00+00:00",
+ "home": "Jagiellonia Białystok",
+ "away": "FC Iberia 1999",
+ "home_id": 420,
+ "away_id": 395,
+ "pulled_at": "2026-08-20T22:11:42.088211+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 307,
+    "name": "Adrian Siemieniec",
+    "short_name": "A. Siemieniec",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 48.0,
+    "avg_goals_scored": 1.58,
+    "avg_goals_conceded": 1.19
+   },
+   "away": {
+    "id": 1963,
+    "name": "Andrei Demchenko",
+    "short_name": "A. Demchenko",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 9.0,
+    "avg_goals_scored": 1.11,
+    "avg_goals_conceded": 1.33
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.34,
+   "draw": 4.92,
+   "away_win": 8.3,
+   "over_15_goals": 1.2,
+   "over_25_goals": 1.68,
+   "over_35_goals": 2.69,
+   "under_15_goals": 4.05,
+   "under_25_goals": 2.1,
+   "under_35_goals": 1.42,
+   "btts_yes": 2.0,
+   "btts_no": 1.73
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "squad(补拉)",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.436,
+   "away": 0.3
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-20T08:32:06Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.333,
+    "home_ga": 0.978,
+    "away_gf": 1.319,
+    "away_ga": 0.917,
+    "n_home": 9.3,
+    "n_away": 7.2,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 420
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 0.966,
+    "home_ga": 1.552,
+    "away_gf": 1.0,
+    "away_ga": 1.376,
+    "n_home": 5.8,
+    "n_away": 8.5,
+    "n_scored": 29,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 395
+   }
+  }
+ }
+}

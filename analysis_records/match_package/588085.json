@@ -1,0 +1,112 @@
+{
+ "id": 588085,
+ "league": "Emperor Cup",
+ "kickoff": "08-26 18:00",
+ "kickoff_iso": "2026-08-26T10:00:00+00:00",
+ "home": "Shonan Bellmare",
+ "away": "ReinMeer Aomori FC",
+ "home_id": 1966,
+ "away_id": 1960,
+ "pulled_at": "2026-08-25T23:46:53.475872+08:00",
+ "missing": [
+  "away教练(coach_cache未命中 id=1317) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1322,
+    "name": "Tetsu Nagasawa",
+    "short_name": "T. Nagasawa",
+    "profile": "balanced",
+    "preferred_formation": "3-1-4-2",
+    "matches_total": 41.0,
+    "avg_goals_scored": 1.02,
+    "avg_goals_conceded": 1.59
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "3-1-4-2",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.518,
+   "away": 0.068
+  },
+  "formation": {
+   "home": "3-1-4-2",
+   "away": "3-4-3"
+  },
+  "updated_at": "2026-08-25T14:32:28Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.646,
+    "home_ga": 1.392,
+    "away_gf": 0.791,
+    "away_ga": 1.744,
+    "n_home": 7.9,
+    "n_away": 8.6,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1966
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 6.054,
+    "home_ga": 0.73,
+    "away_gf": 2.083,
+    "away_ga": 1.292,
+    "n_home": 3.7,
+    "n_away": 4.8,
+    "n_scored": 10,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1960
+   }
+  }
+ }
+}

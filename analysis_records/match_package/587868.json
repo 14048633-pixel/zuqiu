@@ -1,0 +1,149 @@
+{
+ "id": 587868,
+ "league": "欧协联",
+ "kickoff": "08-21 02:30",
+ "kickoff_iso": "2026-08-20T18:30:00+00:00",
+ "home": "Panathinaikos FC",
+ "away": "FC Hradec Králové",
+ "home_id": 149,
+ "away_id": 2319,
+ "pulled_at": "2026-08-20T22:15:45.043058+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1760,
+    "name": "Jacob Neestrup",
+    "short_name": "J. Neestrup",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 2.29,
+    "avg_goals_conceded": 1.29
+   },
+   "away": {
+    "id": 1965,
+    "name": "David Horejs",
+    "short_name": "D. Horejs",
+    "profile": "attacking",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 11.0,
+    "avg_goals_scored": 2.18,
+    "avg_goals_conceded": 1.0
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.46,
+   "draw": 4.1,
+   "away_win": 6.73,
+   "over_15_goals": 1.29,
+   "over_25_goals": 1.93,
+   "over_35_goals": 3.29,
+   "under_15_goals": 3.28,
+   "under_25_goals": 1.81,
+   "under_35_goals": 1.29,
+   "btts_yes": 2.09,
+   "btts_no": 1.66
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 2943,
+    "name": "Erik Palmer Brown",
+    "short_name": "E. Palmer Brown",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 8723,
+    "name": "Georgios Katris",
+    "short_name": "G. M. Katris",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 36865,
+    "name": "Georgios Kyriopoulos",
+    "short_name": "G. Kyriopoulos",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 6039,
+    "name": "Moussa Sissoko",
+    "short_name": "M. Sissoko",
+    "status": "injured",
+    "reason": ""
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.618,
+   "away": 0.382
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-20T08:32:15Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.783,
+    "home_ga": 1.024,
+    "away_gf": 1.415,
+    "away_ga": 1.451,
+    "n_home": 8.3,
+    "n_away": 8.2,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 149
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.756,
+    "home_ga": 0.829,
+    "away_gf": 1.904,
+    "away_ga": 1.25,
+    "n_home": 4.1,
+    "n_away": 5.2,
+    "n_scored": 12,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2319
+   }
+  }
+ }
+}

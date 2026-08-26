@@ -1,0 +1,127 @@
+{
+ "id": 211325,
+ "league": "比甲",
+ "kickoff": "08-23 02:45",
+ "kickoff_iso": "2026-08-22T18:45:00+00:00",
+ "home": "Royal Antwerp FC",
+ "away": "KRC Genk",
+ "home_id": 233,
+ "away_id": 146,
+ "pulled_at": "2026-08-22T01:16:06.075430+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=3413) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": {
+    "id": 687,
+    "name": "Jess Thorup",
+    "short_name": "J. Thorup",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 11.0,
+    "avg_goals_scored": 1.82,
+    "avg_goals_conceded": 2.09
+   }
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 3135,
+    "name": "Adrian Palacios",
+    "short_name": "A. Palacios",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 4160,
+    "name": "Ken Nkuba",
+    "short_name": "K. Nkuba",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.364,
+   "away": 0.318
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-21T14:34:30Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.329,
+    "home_ga": 1.076,
+    "away_gf": 1.221,
+    "away_ga": 1.012,
+    "n_home": 7.9,
+    "n_away": 8.6,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 233
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.914,
+    "home_ga": 1.171,
+    "away_gf": 1.453,
+    "away_ga": 1.968,
+    "n_home": 7.0,
+    "n_away": 9.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 146
+   }
+  }
+ }
+}

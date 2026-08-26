@@ -1,0 +1,158 @@
+{
+ "id": 5219,
+ "league": "美职",
+ "kickoff": "08-23 07:30",
+ "kickoff_iso": "2026-08-22T23:30:00+00:00",
+ "home": "Charlotte FC",
+ "away": "DC United",
+ "home_id": 275,
+ "away_id": 282,
+ "pulled_at": "2026-08-22T01:18:04.803341+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 335,
+    "name": "Dean Smith",
+    "short_name": "D. Smith",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 56.0,
+    "avg_goals_scored": 1.54,
+    "avg_goals_conceded": 1.38
+   },
+   "away": {
+    "id": 331,
+    "name": "Rene Weiler",
+    "short_name": "R. Weiler",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 53.0,
+    "avg_goals_scored": 1.08,
+    "avg_goals_conceded": 1.87
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 13572,
+    "name": "Aron John",
+    "short_name": "A. John",
+    "status": "injured",
+    "reason": "Shoulder Injury"
+   },
+   {
+    "id": 9231,
+    "name": "Harry Toffolo",
+    "short_name": "H. Toffolo",
+    "status": "injured",
+    "reason": "Knock Injury"
+   },
+   {
+    "id": 59029,
+    "name": "Nimfasha Berchimas",
+    "short_name": "N. Berchimas",
+    "status": "injured",
+    "reason": "Broken Foot"
+   }
+  ],
+  "away": [
+   {
+    "id": 9510,
+    "name": "Gabriel Segal",
+    "short_name": "G. Segal",
+    "status": "injured",
+    "reason": "Knock Injury"
+   },
+   {
+    "id": 9705,
+    "name": "Kye Rowles",
+    "short_name": "K. Rowles",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.764,
+   "away": 0.864
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-21T14:35:07Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.903,
+    "home_ga": 1.075,
+    "away_gf": 1.194,
+    "away_ga": 1.597,
+    "n_home": 9.3,
+    "n_away": 7.2,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "美职",
+    "team_id": 275
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.627,
+    "home_ga": 2.217,
+    "away_gf": 1.195,
+    "away_ga": 1.366,
+    "n_home": 8.3,
+    "n_away": 8.2,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "美职",
+    "team_id": 282
+   }
+  }
+ }
+}

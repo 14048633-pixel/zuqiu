@@ -1,0 +1,166 @@
+{
+ "id": 215968,
+ "league": "土超",
+ "kickoff": "08-23 00:00",
+ "kickoff_iso": "2026-08-22T16:00:00+00:00",
+ "home": "Çaykur Rizespor",
+ "away": "Samsunspor",
+ "home_id": 189,
+ "away_id": 184,
+ "pulled_at": "2026-08-22T01:14:17.835889+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 368,
+    "name": "Recep Uçar",
+    "short_name": "R. Ucar",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 43.0,
+    "avg_goals_scored": 1.4,
+    "avg_goals_conceded": 1.4
+   },
+   "away": {
+    "id": 363,
+    "name": "Thorsten Fink",
+    "short_name": "T. Fink",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 41.0,
+    "avg_goals_scored": 1.27,
+    "avg_goals_conceded": 1.32
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 5865,
+    "name": "Husniddin Aliqulov",
+    "short_name": "H. Aliqulov",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 6982,
+    "name": "Afonso Sousa",
+    "short_name": "A. Sousa",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 8627,
+    "name": "Elayis Tavsan",
+    "short_name": "E. Tavsan",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 13925,
+    "name": "Igor Drapiński",
+    "short_name": "I. Drapiński",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 8760,
+    "name": "Jaures Assoumou",
+    "short_name": "J. Assoumou",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 6981,
+    "name": "Tanguy Coulibaly",
+    "short_name": "T. Coulibaly",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 5737,
+    "name": "Yunus Emre Çift",
+    "short_name": "Y. E. Çift",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.282,
+   "away": 0.4
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-21T14:33:58Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.875,
+    "home_ga": 1.25,
+    "away_gf": 1.2,
+    "away_ga": 1.8,
+    "n_home": 8.0,
+    "n_away": 10.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.625,
+    "home_ga": 1.0,
+    "away_gf": 1.222,
+    "away_ga": 1.889,
+    "n_home": 8.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

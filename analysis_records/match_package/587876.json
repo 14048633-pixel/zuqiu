@@ -1,0 +1,157 @@
+{
+ "id": 587876,
+ "league": "欧协联",
+ "kickoff": "08-21 01:45",
+ "kickoff_iso": "2026-08-20T17:45:00+00:00",
+ "home": "PAOK",
+ "away": "SK Brann",
+ "home_id": 129,
+ "away_id": 141,
+ "pulled_at": "2026-08-20T22:14:21.574643+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 442,
+    "name": "Alessio Lisci",
+    "short_name": "A. Lisci",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 47.0,
+    "avg_goals_scored": 1.45,
+    "avg_goals_conceded": 1.34
+   },
+   "away": {
+    "id": 2044,
+    "name": "Eirik Horneland",
+    "short_name": "E. Horneland",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 11.0,
+    "avg_goals_scored": 1.73,
+    "avg_goals_conceded": 1.64
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.7,
+   "draw": 3.66,
+   "away_win": 4.63,
+   "over_15_goals": 1.24,
+   "over_25_goals": 1.78,
+   "over_35_goals": 2.89,
+   "under_15_goals": 3.7,
+   "under_25_goals": 1.96,
+   "under_35_goals": 1.36,
+   "btts_yes": 1.73,
+   "btts_no": 1.99
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 12573,
+    "name": "Jonas Torsvik",
+    "short_name": "J. Torsvik",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 8405,
+    "name": "Rabbi Matondo",
+    "short_name": "R. Matondo",
+    "status": "injured",
+    "reason": "Knock Injury"
+   },
+   {
+    "id": 4585,
+    "name": "Sævar Atli Magnússon",
+    "short_name": "S. A. Magnússon",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 25861,
+    "name": "Sakarias Opsahl",
+    "short_name": "S. Opsahl",
+    "status": "injured",
+    "reason": "Foot Injury"
+   },
+   {
+    "id": 3295,
+    "name": "Ulrik Mathisen",
+    "short_name": "U. Mathisen",
+    "status": "injured",
+    "reason": "Foot Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "squad(补拉)",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.459,
+   "away": 0.65
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-20T08:32:11Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.167,
+    "home_ga": 0.854,
+    "away_gf": 1.797,
+    "away_ga": 1.797,
+    "n_home": 9.6,
+    "n_away": 6.9,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 129
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.845,
+    "home_ga": 1.402,
+    "away_gf": 1.794,
+    "away_ga": 1.544,
+    "n_home": 9.7,
+    "n_away": 6.8,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 141
+   }
+  }
+ }
+}

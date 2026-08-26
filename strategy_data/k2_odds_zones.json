@@ -1,0 +1,94 @@
+{
+  "league": "韩国K2联赛",
+  "type": "欧赔区间+胜平负真实打出概率",
+  "version": "2026赛季160场实测",
+  "updated": "2026-08-07",
+  "metadata": {
+    "sample_n": 160,
+    "data_window": {"start": "2026-03-01", "end": "2026-08-01"},
+    "generation": "rolling_window",
+    "note": "2026赛季160场实测"
+  },
+  "correct_coef": {
+    "amateur_vs_pro_strong": 1.5,
+    "amateur_vs_pro_weak": 0.7,
+    "striker_miss": 0.8,
+    "key_striker_out": 0.85,
+    "weak_defense": 1.2,
+    "form_good": 1.1,
+    "away_weak": 0.85,
+    "first_leg_conservative": 0.9,
+    "note": "攻防修正系数按联赛可调, 顶级/次级分开调参; 修改后必须跑回归测试验证"
+  },
+  "return_rate": "94%",
+  "baseline": {
+    "home_win": 33.75,
+    "draw": 32.5,
+    "away_win": 33.75,
+    "away_undefeated": 66.2,
+    "note": "主客场优势几乎持平, K2最核心特质"
+  },
+  "odds_zones": {
+    "zone1_1.25_1.40": {
+      "desc": "主队超低赔, 主让≥1球深盘, 榜首vs垫底",
+      "share": 8,
+      "real": {"home": 62, "draw": 23, "away": 15},
+      "notes": "净胜2球穿盘仅37%, 常1球小胜走盘; 深盘小2.5占52%"
+    },
+    "zone2_1.41_1.75": {
+      "desc": "主队低赔, 主让0.5/0.75半球盘, 上游vs中游",
+      "share": 24,
+      "real": {"home": 48, "draw": 30, "away": 22},
+      "notes": "平局高发, 客场偷平偷胜普遍, 强队主场无法稳定赢盘"
+    },
+    "zone3_1.76_2.25": {
+      "desc": "中庸区间, 平手/平半盘, 联赛主流68%赛事",
+      "share": 68,
+      "real": {"home": 34, "draw": 33, "away": 33},
+      "notes": "胜平负几乎均分, 平局价值最高; 平半盘受让方不败率67%"
+    },
+    "zone4_2.26_2.80": {
+      "desc": "主队偏高赔, 客让平半, 中游vs上游",
+      "share": null,
+      "real": {"home": 25, "draw": 35, "away": 40},
+      "notes": "客队更强但主队主场死守平局35%, 大量冷门平局在此"
+    },
+    "zone5_2.85_plus": {
+      "desc": "主队高赔, 客让半球+, 下游vs榜首",
+      "share": 6,
+      "real": {"home": 18, "draw": 32, "away": 50},
+      "notes": "客胜过半但32%平局, 保级主场死守逼平常规"
+    }
+  },
+  "asian_hdp": {
+    "平手盘": {"share": 32, "upper_win": 34, "draw": 33, "lower_win": 33},
+    "主让平半0.25": {"share": 36, "upper_win": 41, "draw": 34, "lower_win": 25},
+    "主让半球0.5": {"share": 24, "upper_win": 47, "draw": 30, "lower_win": 23},
+    "主让1球深盘": {"share": 8, "upper_win": 37, "push": 33, "lower_win": 30}
+  },
+  "draw_odds": {
+    "3.20_3.35": {"draw_prob": 36, "note": "最高平局区间, 龙仁/清州平局大队"},
+    "3.36_3.55": {"draw_prob": 31},
+    "above_3.60": {"draw_prob": 24, "note": "更容易分胜负"}
+  },
+  "t1_away": {
+    "客让平手": {"away": 35, "draw": 36, "home": 29, "note": "平局最高"},
+    "客让平半": {"away": 42, "draw": 33, "home": 25},
+    "note": "强队客场平局普遍>=33%, 无法稳定取胜"
+  },
+  "t3_home": {
+    "受让平半": {"undefeated": 71, "draw": 41, "home_win": 30},
+    "0_0_first_half": {"point_prob": 72}
+  },
+  "ou_link": {
+    "主让≥1深盘": {"under25": 52},
+    "平手平半中庸": {"over25": 57, "under25": 43},
+    "客队高赔深让": {"over25": 61}
+  },
+  "practical_rules": [
+    "平手盘优先防平局",
+    "主场强队主让1球谨防赢1球走盘",
+    "降级队主场受让平半优先走客队不败, 平局优先级最高",
+    "平局赔率3.20-3.35时平局概率>1/3"
+  ]
+}

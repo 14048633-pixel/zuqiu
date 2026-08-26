@@ -1,0 +1,151 @@
+{
+ "id": 46442,
+ "league": "瑞超",
+ "kickoff": "08-23 22:30",
+ "kickoff_iso": "2026-08-23T14:30:00Z",
+ "home": "IF Brommapojkarna",
+ "away": "Degerfors IF",
+ "home_id": 437,
+ "away_id": 443,
+ "pulled_at": "2026-08-23T17:42:37.639328+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 587,
+    "name": "Ulf Kristiansson",
+    "short_name": "U. Kristiansson",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 55.0,
+    "avg_goals_scored": 1.25,
+    "avg_goals_conceded": 1.6
+   },
+   "away": {
+    "id": 593,
+    "name": "Henok Goitom",
+    "short_name": "H. Goitom",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 53.0,
+    "avg_goals_scored": 1.15,
+    "avg_goals_conceded": 1.7
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.05,
+   "draw": 3.36,
+   "away_win": 3.37,
+   "over_15_goals": 1.25,
+   "over_25_goals": 1.85,
+   "over_35_goals": 3.12,
+   "under_15_goals": 3.62,
+   "under_25_goals": 1.91,
+   "under_35_goals": 1.33,
+   "btts_yes": 1.67,
+   "btts_no": 2.08
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 15981,
+    "name": "Daniel Sundgren",
+    "short_name": "D. Sundgren",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 16265,
+    "name": "Erik Lindell",
+    "short_name": "E. Lindell",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 15983,
+    "name": "Juhani Pikkarainen",
+    "short_name": "J. Pikkarainen",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 15985,
+    "name": "Kazper Karlsson",
+    "short_name": "K. Karlsson",
+    "status": "suspended",
+    "reason": "yellow_card_accumulation_suspension"
+   },
+   {
+    "id": 16297,
+    "name": "Ziyad Salifu",
+    "short_name": "Z. Salifu",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.741,
+   "away": 0.705
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:27Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.375,
+    "home_ga": 1.375,
+    "away_gf": 1.556,
+    "away_ga": 1.778,
+    "n_home": 8.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.0,
+    "home_ga": 1.556,
+    "away_gf": 1.0,
+    "away_ga": 1.625,
+    "n_home": 9.0,
+    "n_away": 8.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

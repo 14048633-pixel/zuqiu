@@ -1,0 +1,154 @@
+{
+ "id": 223597,
+ "league": "阿甲",
+ "kickoff": "08-23 03:00",
+ "kickoff_iso": "2026-08-22T19:00:00+00:00",
+ "home": "Atlético Tucumán",
+ "away": "Instituto De Córdoba",
+ "home_id": 3132,
+ "away_id": 4996,
+ "pulled_at": "2026-08-22T01:16:59.386002+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 3193,
+    "name": "Julio Cesar Falcioni",
+    "short_name": "J. C. Falcioni",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 22.0,
+    "avg_goals_scored": 1.0,
+    "avg_goals_conceded": 1.09
+   },
+   "away": {
+    "id": 3189,
+    "name": "Diego Flores",
+    "short_name": "D. Flores",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 20.0,
+    "avg_goals_scored": 1.05,
+    "avg_goals_conceded": 0.95
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 90551,
+    "name": "Ignacio Galván",
+    "short_name": "I. Galván",
+    "status": "suspended",
+    "reason": "yellow_or_red_card_suspension"
+   },
+   {
+    "id": 90740,
+    "name": "Martín Benítez",
+    "short_name": "M. Benítez",
+    "status": "injured",
+    "reason": "Calf Injury"
+   },
+   {
+    "id": 90391,
+    "name": "Maximiliano Villa",
+    "short_name": "M. Villa",
+    "status": "injured",
+    "reason": "Groin Injury"
+   },
+   {
+    "id": 90402,
+    "name": "Ramiro Ruiz Rodríguez",
+    "short_name": "R. R. Rodríguez",
+    "status": "injured",
+    "reason": "Sprained Knee Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 90735,
+    "name": "Luca Rafaelli",
+    "short_name": "L. Rafaelli",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.791,
+   "away": 0.85
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-21T14:34:36Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.9,
+    "home_ga": 0.8,
+    "away_gf": 0.9,
+    "away_ga": 1.4,
+    "n_home": 10.0,
+    "n_away": 10.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.237,
+    "home_ga": 0.908,
+    "away_gf": 0.764,
+    "away_ga": 0.753,
+    "n_home": 7.6,
+    "n_away": 8.9,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 4996
+   }
+  }
+ }
+}

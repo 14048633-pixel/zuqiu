@@ -1,0 +1,104 @@
+{
+  "records": [
+    {
+      "timestamp": "2026-08-06 10:28:24",
+      "combo_type": "3串1",
+      "stake": 30,
+      "pnl": -30,
+      "legs": [
+        {
+          "match": "上海海港B vs 山西崇德荣海",
+          "bet": "小2.25",
+          "score": "0-1",
+          "leg_result": "赢",
+          "best_bet": "小2.25",
+          "best_bet_prob": 0.852,
+          "execution_error": false
+        },
+        {
+          "match": "兰州陇原 vs 北京理工",
+          "bet": "小2.25",
+          "score": "1-0",
+          "leg_result": "赢",
+          "best_bet": "小2.25",
+          "best_bet_prob": 0.843,
+          "execution_error": false
+        },
+        {
+          "match": "湖北青年星 vs 江西庐山",
+          "bet": "主队+0/0.5",
+          "score": "0-1",
+          "leg_result": "输",
+          "best_bet": "小2.25",
+          "best_bet_prob": 0.8525,
+          "execution_error": true,
+          "error_reason": "选腿[主队+0/0.5] ≠ best_bet[小2.25](胜率85.2%)"
+        }
+      ],
+      "execution_error": true,
+      "note": "⚠️ 存在执行失误: 实际选腿与best_bet(最高胜率腿)不一致; 失误腿导致输单: 湖北青年星 vs 江西庐山"
+    },
+    {
+      "timestamp": "2026-08-06 10:28:24",
+      "combo_type": "5串1",
+      "stake": 20,
+      "pnl": -20,
+      "legs": [
+        {
+          "match": "上海海港B vs 山西崇德荣海",
+          "bet": "小2.25",
+          "score": "0-1",
+          "leg_result": "赢",
+          "best_bet": "小2.25",
+          "best_bet_prob": 0.852,
+          "execution_error": false
+        },
+        {
+          "match": "长春喜都 vs 大连英博B",
+          "bet": "小1.75",
+          "score": "0-1",
+          "leg_result": "赢",
+          "best_bet": "小1.75",
+          "best_bet_prob": 0.62,
+          "execution_error": false
+        },
+        {
+          "match": "兰州陇原 vs 北京理工",
+          "bet": "小2.25",
+          "score": "1-0",
+          "leg_result": "赢",
+          "best_bet": "小2.25",
+          "best_bet_prob": 0.843,
+          "execution_error": false
+        },
+        {
+          "match": "湖北青年星 vs 江西庐山",
+          "bet": "主队+0/0.5",
+          "score": "0-1",
+          "leg_result": "输",
+          "best_bet": "小2.25",
+          "best_bet_prob": 0.8525,
+          "execution_error": true,
+          "error_reason": "选腿[主队+0/0.5] ≠ best_bet[小2.25](胜率85.2%)"
+        },
+        {
+          "match": "温州 vs 贵州贵阳",
+          "bet": "小2",
+          "score": "0-2",
+          "leg_result": "走水",
+          "best_bet": "小2",
+          "best_bet_prob": 0.689,
+          "execution_error": false
+        }
+      ],
+      "execution_error": true,
+      "note": "⚠️ 存在执行失误: 实际选腿与best_bet(最高胜率腿)不一致; 失误腿导致输单: 湖北青年星 vs 江西庐山"
+    }
+  ],
+  "stats": {
+    "total_bets": 2,
+    "total_legs": 8,
+    "execution_errors": 2,
+    "execution_error_rate": 0.25
+  }
+}

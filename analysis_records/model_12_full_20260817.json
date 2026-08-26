@@ -1,0 +1,3463 @@
+{
+ "ts": "2026-08-17T07:13:50.568682+00:00",
+ "note": "教练+当场阵型+位置伤停(squad兜底)+BSD交叉 全部接入",
+ "results": [
+  {
+   "id": "215480",
+   "league": "意杯",
+   "home": "Pisa",
+   "away": "Empoli",
+   "ct": "2026-08-17T16:00:00+00:00",
+   "info": {
+    "bsd_coaches": {
+     "home": {
+      "id": 1020,
+      "name": "Paolo Bianco",
+      "short_name": "P. Bianco",
+      "country": "Italy",
+      "profile": "attacking",
+      "preferred_formation": "3-4-2-1",
+      "pressing_intensity": null,
+      "defensive_line": "",
+      "top_styles": []
+     },
+     "away": {
+      "id": 2035,
+      "name": "Guido Pagliuca",
+      "short_name": "G. Pagliuca",
+      "country": "Italy",
+      "profile": "defensive",
+      "preferred_formation": "3-5-2",
+      "pressing_intensity": null,
+      "defensive_line": "",
+      "top_styles": []
+     }
+    },
+    "bsd_lineups": {
+     "formation": {
+      "home": "3-5-2",
+      "away": "3-4-2-1"
+     },
+     "coach": {
+      "home": "3-4-2-1",
+      "away": "3-5-2"
+     }
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    },
+    "bsd_prediction": {
+     "expected_goals": {
+      "home": 1.77,
+      "away": 1.29
+     },
+     "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 49.8,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "confidence": 0.4984,
+     "markets": {
+      "match_result": {
+       "prob_home": 49.8,
+       "prob_draw": 23.6,
+       "prob_away": 26.5,
+       "predicted": "H"
+      },
+      "expected_goals": {
+       "home": 1.77,
+       "away": 1.29
+      },
+      "over_under": {
+       "prob_over_15": 79.7,
+       "prob_over_25": 58,
+       "prob_over_35": 35.5
+      },
+      "btts": {
+       "prob_yes": 57.7
+      },
+      "score": {
+       "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+       "prob_home": 68.9
+      },
+      "corners": {
+       "prob_over_85": 53.9,
+       "prob_over_95": 41.9,
+       "prob_over_105": null
+      }
+     }
+    },
+    "bsd_odds": {
+     "consensus": {
+      "home_win": 1.86,
+      "draw": 3.4,
+      "away_win": 4.15,
+      "over_15_goals": 1.32,
+      "over_25_goals": 2.02,
+      "over_35_goals": 3.52,
+      "under_15_goals": 3.15,
+      "under_25_goals": 1.74,
+      "under_35_goals": 1.26,
+      "btts_yes": 1.86,
+      "btts_no": 1.85
+     }
+    }
+   },
+   "coach_mods": {
+    "h_atk": 1.0166,
+    "h_def": 0.9944,
+    "h_sample": 5,
+    "h_name": "Paolo Bianco",
+    "h_gf": 2.2,
+    "h_ga": 0.8
+   },
+   "result": {
+    "lambda": {
+     "home": 0.94,
+     "away": 1.12,
+     "sum": 2.06
+    },
+    "wdl": {
+     "home": 30.2,
+     "draw": 30.1,
+     "away": 39.7
+    },
+    "market_fair": {
+     "home": 50.1,
+     "draw": 27.4,
+     "away": 22.5
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 0.5,
+    "bets": [
+     {
+      "name": "小2.50",
+      "prob": 0.6597,
+      "odds": 1.74,
+      "ev": 0.073,
+      "star": 1,
+      "ev_tier": "观察",
+      "stake_factor": 0.15
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.3403,
+      "odds": 2.02,
+      "ev": -0.3574
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.3017,
+      "odds": 1.86,
+      "ev": -0.4768,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.301,
+      "odds": 3.4,
+      "ev": -0.0459,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.3972,
+      "odds": 4.15,
+      "ev": 0.5368,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "小2.50",
+     "prob": 0.6597,
+     "odds": 1.74,
+     "ev": 0.073,
+     "star": 1,
+     "ev_tier": "观察",
+     "stake_factor": 0.15
+    },
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.6597,
+     "odds": 1.74,
+     "ev": 0.073,
+     "market_fair": 0.5372,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.3972,
+     "wdl_market_fair": 0.2246,
+     "vetoed": false,
+     "veto_reason": null,
+     "ev_bsd": 0.073,
+     "ev_gap": 0.0
+    },
+    "star": 1,
+    "ev_tier": "观察",
+    "risk_tags": [
+     "纯数据无伤病情报",
+     "缺亚盘",
+     "阵型对攻倾向(+2)",
+     "λ与BSD市场分歧(我们0.94/1.12 vs BSD1.77/1.29, Δ最大0.83)",
+     "BSD方向分歧(BSD预测:H)"
+    ],
+    "upset": {
+     "hot": "Pisa",
+     "level": "低风险",
+     "count": 1,
+     "signals": [
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     " 教练量化:主Paolo Bianco(攻+1.7% 防-0.6% n5)",
+     "主队数据来自I1",
+     "客队数据来自I2",
+     "主队跨联赛用I1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "客队跨联赛用I2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "阵型:主3-5-2/客3-4-2-1(当场)",
+     "模型独立观点: 我们λ偏离BSD市场EG(市场λ), 属我方攻防模型独立信号, 人工复核",
+     "BSD与我们方向相反, 已降星(不改EV), 人工复核"
+    ],
+    "formation": {
+     "home": "3-5-2",
+     "away": "3-4-2-1",
+     "src": "cur",
+     "tend": 2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    },
+    "bsd": {
+     "eg": {
+      "home": 1.77,
+      "away": 1.29
+     },
+     "recs": {
+      "favorite": "H",
+      "favorite_prob": 49.8,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "ev": 0.073,
+     "lam_dev": {
+      "home": 0.83,
+      "away": 0.17,
+      "our": [
+       0.94,
+       1.12
+      ],
+      "bsd": [
+       1.77,
+       1.29
+      ]
+     },
+     "conf": 0.4984,
+     "agree": false,
+     "support": false
+    }
+   }
+  },
+  {
+   "id": "215481",
+   "league": "意杯",
+   "home": "Sassuolo",
+   "away": "Cesena",
+   "ct": "2026-08-17T16:30:00+00:00",
+   "info": {
+    "bsd_coaches": {
+     "home": {
+      "id": 1039,
+      "name": "Alberto Aquilani",
+      "short_name": "A. Aquilani",
+      "country": "Italy",
+      "profile": "attacking",
+      "preferred_formation": "4-3-3",
+      "pressing_intensity": null,
+      "defensive_line": "",
+      "top_styles": []
+     },
+     "away": {
+      "id": 2022,
+      "name": "Alessandro Diamanti",
+      "short_name": "A. Diamanti",
+      "country": "Italy",
+      "profile": "attacking",
+      "preferred_formation": "",
+      "pressing_intensity": null,
+      "defensive_line": "",
+      "top_styles": []
+     }
+    },
+    "bsd_lineups": {
+     "formation": {
+      "home": "4-3-3",
+      "away": "3-4-2-1"
+     },
+     "coach": {
+      "home": "4-3-3",
+      "away": ""
+     }
+    },
+    "injuries": {
+     "home": [
+      {
+       "name": "Daniel Boloca",
+       "position": "?",
+       "status": "injured",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Edoardo Pieragnolo",
+       "position": "?",
+       "status": "injured",
+       "reason": "Cruciate Ligament Injury"
+      },
+      {
+       "name": "Fali Candé",
+       "position": "?",
+       "status": "injured",
+       "reason": "Cruciate Ligament Injury"
+      },
+      {
+       "name": "Ismael Koné",
+       "position": "?",
+       "status": "injured",
+       "reason": "Broken Ankle"
+      },
+      {
+       "name": "Yeferson Paz",
+       "position": "?",
+       "status": "injured",
+       "reason": "Cruciate Ligament Injury"
+      }
+     ],
+     "away": []
+    },
+    "bsd_prediction": {
+     "expected_goals": {
+      "home": null,
+      "away": null
+     },
+     "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 61.4,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "confidence": 0.6137,
+     "markets": {
+      "match_result": {
+       "prob_home": 61.4,
+       "prob_draw": 21.8,
+       "prob_away": 16.9,
+       "predicted": "H"
+      },
+      "expected_goals": {
+       "home": null,
+       "away": null
+      },
+      "over_under": {
+       "prob_over_15": 79.9,
+       "prob_over_25": 60,
+       "prob_over_35": 39.4
+      },
+      "btts": {
+       "prob_yes": 56.2
+      },
+      "score": {
+       "most_likely": null
+      },
+      "draw_no_bet": {
+       "prob_home": 77.5
+      },
+      "corners": {
+       "prob_over_85": 60.6,
+       "prob_over_95": 48.6,
+       "prob_over_105": 37
+      }
+     }
+    },
+    "bsd_odds": {
+     "consensus": {
+      "home_win": 1.5,
+      "draw": 4.41,
+      "away_win": 5.59,
+      "over_15_goals": 1.16,
+      "over_25_goals": 1.54,
+      "over_35_goals": 2.35,
+      "under_15_goals": 4.72,
+      "under_25_goals": 2.35,
+      "under_35_goals": 1.54,
+      "btts_yes": 1.65,
+      "btts_no": 2.13
+     }
+    }
+   },
+   "coach_mods": {
+    "h_atk": 1.0245,
+    "h_def": 1.0026,
+    "h_sample": 8,
+    "h_name": "Alberto Aquilani",
+    "h_gf": 3.75,
+    "h_ga": 1.38
+   },
+   "result": {
+    "lambda": {
+     "home": 1.59,
+     "away": 0.85,
+     "sum": 2.44
+    },
+    "wdl": {
+     "home": 54.8,
+     "draw": 25.2,
+     "away": 20.0
+    },
+    "market_fair": {
+     "home": 62.2,
+     "draw": 21.1,
+     "away": 16.7
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 0.5,
+    "bets": [
+     {
+      "name": "小2.50",
+      "prob": 0.5602,
+      "odds": 2.35,
+      "ev": 0.2247,
+      "star": 2,
+      "ev_tier": "高价值",
+      "stake_factor": 0.5
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.4398,
+      "odds": 1.54,
+      "ev": -0.3699
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.548,
+      "odds": 1.5,
+      "ev": -0.2334,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2515,
+      "odds": 4.41,
+      "ev": 0.0344,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.2004,
+      "odds": 5.59,
+      "ev": 0.0448,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "小2.50",
+     "prob": 0.5602,
+     "odds": 2.35,
+     "ev": 0.2247,
+     "star": 2,
+     "ev_tier": "高价值",
+     "stake_factor": 0.5
+    },
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.5602,
+     "odds": 2.35,
+     "ev": 0.2247,
+     "market_fair": 0.3959,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.548,
+     "wdl_market_fair": 0.6217,
+     "vetoed": false,
+     "veto_reason": null
+    },
+    "star": 2,
+    "ev_tier": "高价值",
+    "risk_tags": [
+     "纯数据无伤病情报",
+     "缺亚盘"
+    ],
+    "upset": {
+     "hot": "Sassuolo",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "L2大热低赔",
+      "L2大热低赔(去水概率>=55%%)"
+     ]
+    },
+    "notes": [
+     " 教练量化:主Alberto Aquila(攻+2.4% 防+0.3% n8)",
+     "主队数据来自I1",
+     "客队数据来自I2",
+     "主队跨联赛用I1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "客队跨联赛用I2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "阵型:主4-3-3/客3-4-2-1(当场)",
+     "主队伤停5人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "formation": {
+     "home": "4-3-3",
+     "away": "3-4-2-1",
+     "src": "cur",
+     "tend": 1,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 5
+    },
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {
+      "favorite": "H",
+      "favorite_prob": 61.4,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "ev": null,
+     "lam_dev": null,
+     "conf": 0.6137,
+     "agree": null,
+     "support": null
+    }
+   }
+  },
+  {
+   "id": "215482",
+   "league": "意杯",
+   "home": "Cremonese",
+   "away": "Sampdoria",
+   "ct": "2026-08-17T18:45:00+00:00",
+   "info": {
+    "bsd_coaches": {
+     "home": {
+      "id": 381,
+      "name": "Marco Giampaolo",
+      "short_name": "M. Giampaolo",
+      "country": "Italy",
+      "profile": "defensive",
+      "preferred_formation": "3-5-2",
+      "pressing_intensity": 0.36465763825955333,
+      "defensive_line": "mid",
+      "top_styles": [
+       "park_the_bus",
+       "terrorist_fb"
+      ]
+     },
+     "away": {
+      "id": 1907,
+      "name": "Bernardo Corradi",
+      "short_name": "B. Corradi",
+      "country": "Italy",
+      "profile": "defensive",
+      "preferred_formation": "3-4-2-1",
+      "pressing_intensity": null,
+      "defensive_line": "",
+      "top_styles": []
+     }
+    },
+    "bsd_lineups": {
+     "formation": {
+      "home": "3-5-2",
+      "away": "3-4-2-1"
+     },
+     "coach": {
+      "home": "3-5-2",
+      "away": "3-4-2-1"
+     }
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    },
+    "bsd_prediction": {
+     "expected_goals": {
+      "home": 1.72,
+      "away": 1.38
+     },
+     "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 46,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "confidence": 0.4599,
+     "markets": {
+      "match_result": {
+       "prob_home": 46,
+       "prob_draw": 23.9,
+       "prob_away": 30.1,
+       "predicted": "H"
+      },
+      "expected_goals": {
+       "home": 1.72,
+       "away": 1.38
+      },
+      "over_under": {
+       "prob_over_15": 80.2,
+       "prob_over_25": 58.7,
+       "prob_over_35": 36.3
+      },
+      "btts": {
+       "prob_yes": 58.7
+      },
+      "score": {
+       "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+       "prob_home": 65
+      },
+      "corners": {
+       "prob_over_85": 55.9,
+       "prob_over_95": 43.9,
+       "prob_over_105": null
+      }
+     }
+    },
+    "bsd_odds": {
+     "consensus": {
+      "home_win": 2.02,
+      "draw": 3.21,
+      "away_win": 3.76,
+      "over_15_goals": 1.36,
+      "over_25_goals": 2.14,
+      "over_35_goals": 3.85,
+      "under_15_goals": 2.93,
+      "under_25_goals": 1.65,
+      "under_35_goals": 1.23,
+      "btts_yes": 1.9,
+      "btts_no": 1.81
+     }
+    }
+   },
+   "coach_mods": {
+    "h_atk": 0.908,
+    "h_def": 1.0108,
+    "h_sample": 43,
+    "h_name": "Marco Giampaolo",
+    "h_gf": 0.88,
+    "h_ga": 1.35,
+    "a_atk": 0.9729,
+    "a_def": 0.9919,
+    "a_sample": 5,
+    "a_name": "Bernardo Corradi",
+    "a_gf": 1.2,
+    "a_ga": 0.6
+   },
+   "result": {
+    "lambda": {
+     "home": 0.93,
+     "away": 0.98,
+     "sum": 1.91
+    },
+    "wdl": {
+     "home": 32.9,
+     "draw": 31.7,
+     "away": 35.4
+    },
+    "market_fair": {
+     "home": 46.2,
+     "draw": 29.0,
+     "away": 24.8
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 0.5,
+    "bets": [
+     {
+      "name": "小2.50",
+      "prob": 0.7006,
+      "odds": 1.65,
+      "ev": 0.0771,
+      "star": 1,
+      "ev_tier": "观察",
+      "stake_factor": 0.15
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.2994,
+      "odds": 2.14,
+      "ev": -0.4032
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.329,
+      "odds": 2.02,
+      "ev": -0.3804,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.317,
+      "odds": 3.21,
+      "ev": -0.0513,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.3541,
+      "odds": 3.76,
+      "ev": 0.2412,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "小2.50",
+     "prob": 0.7006,
+     "odds": 1.65,
+     "ev": 0.0771,
+     "star": 1,
+     "ev_tier": "观察",
+     "stake_factor": 0.15
+    },
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.7006,
+     "odds": 1.65,
+     "ev": 0.0771,
+     "market_fair": 0.5646,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.3541,
+     "wdl_market_fair": 0.248,
+     "vetoed": false,
+     "veto_reason": null,
+     "ev_bsd": 0.077,
+     "ev_gap": 0.0
+    },
+    "star": 1,
+    "ev_tier": "观察",
+    "risk_tags": [
+     "纯数据无伤病情报",
+     "缺亚盘",
+     "阵型对攻倾向(+2)",
+     "λ与BSD市场分歧(我们0.93/0.98 vs BSD1.72/1.38, Δ最大0.79)",
+     "BSD方向分歧(BSD预测:H)"
+    ],
+    "upset": {
+     "hot": "Cremonese",
+     "level": "低风险",
+     "count": 1,
+     "signals": [
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     " 教练量化:主Marco Giampaol(攻-9.2% 防+1.1% n43) 客Bernardo Corra(攻-2.7% 防-0.8% n5)",
+     "主队数据来自I1",
+     "客队数据来自I2",
+     "主队跨联赛用I1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "客队跨联赛用I2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "阵型:主3-5-2/客3-4-2-1(当场)",
+     "模型独立观点: 我们λ偏离BSD市场EG(市场λ), 属我方攻防模型独立信号, 人工复核",
+     "BSD与我们方向相反, 已降星(不改EV), 人工复核"
+    ],
+    "formation": {
+     "home": "3-5-2",
+     "away": "3-4-2-1",
+     "src": "cur",
+     "tend": 2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    },
+    "bsd": {
+     "eg": {
+      "home": 1.72,
+      "away": 1.38
+     },
+     "recs": {
+      "favorite": "H",
+      "favorite_prob": 46,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "ev": 0.077,
+     "lam_dev": {
+      "home": 0.79,
+      "away": 0.4,
+      "our": [
+       0.93,
+       0.98
+      ],
+      "bsd": [
+       1.72,
+       1.38
+      ]
+     },
+     "conf": 0.4599,
+     "agree": false,
+     "support": false
+    }
+   }
+  },
+  {
+   "id": "215483",
+   "league": "意杯",
+   "home": "Palermo",
+   "away": "Lecce",
+   "ct": "2026-08-17T19:15:00+00:00",
+   "info": {
+    "bsd_coaches": {
+     "home": {
+      "id": 1030,
+      "name": "Filippo Inzaghi",
+      "short_name": "F. Inzaghi",
+      "country": "Italy",
+      "profile": "attacking",
+      "preferred_formation": "3-4-2-1",
+      "pressing_intensity": null,
+      "defensive_line": "",
+      "top_styles": []
+     },
+     "away": {
+      "id": 456,
+      "name": "Eusebio Di Francesco",
+      "short_name": "E. D. Francesco",
+      "country": "Italy",
+      "profile": "defensive",
+      "preferred_formation": "4-2-3-1",
+      "pressing_intensity": 0.41441955327328384,
+      "defensive_line": "mid",
+      "top_styles": [
+       "terrorist_fb",
+       "set_piece"
+      ]
+     }
+    },
+    "bsd_lineups": {
+     "formation": {
+      "home": "3-4-2-1",
+      "away": "4-2-3-1"
+     },
+     "coach": {
+      "home": "3-4-2-1",
+      "away": "4-2-3-1"
+     }
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    },
+    "bsd_prediction": {
+     "expected_goals": {
+      "home": null,
+      "away": null
+     },
+     "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 38.4,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "confidence": 0.3843,
+     "markets": {
+      "match_result": {
+       "prob_home": 38.4,
+       "prob_draw": 28.5,
+       "prob_away": 33.1,
+       "predicted": "H"
+      },
+      "expected_goals": {
+       "home": null,
+       "away": null
+      },
+      "over_under": {
+       "prob_over_15": 71.7,
+       "prob_over_25": 47.6,
+       "prob_over_35": 27.9
+      },
+      "btts": {
+       "prob_yes": 53.3
+      },
+      "score": {
+       "most_likely": null
+      },
+      "draw_no_bet": {
+       "prob_home": 53.3
+      },
+      "corners": {
+       "prob_over_85": 60.6,
+       "prob_over_95": 48.9,
+       "prob_over_105": 37
+      }
+     }
+    },
+    "bsd_odds": {
+     "consensus": {
+      "home_win": 2.39,
+      "draw": 3.27,
+      "away_win": 2.89,
+      "over_15_goals": 1.29,
+      "over_25_goals": 1.96,
+      "over_35_goals": 3.36,
+      "under_15_goals": 3.29,
+      "under_25_goals": 1.78,
+      "under_35_goals": 1.28,
+      "btts_yes": 1.73,
+      "btts_no": 2
+     }
+    }
+   },
+   "coach_mods": {
+    "h_atk": 1.0172,
+    "h_def": 0.99,
+    "h_sample": 8,
+    "h_name": "Filippo Inzaghi",
+    "h_gf": 2.62,
+    "h_ga": 0.75,
+    "a_atk": 0.9043,
+    "a_def": 1.0045,
+    "a_sample": 45,
+    "a_name": "Eusebio Di Francesco",
+    "a_gf": 0.87,
+    "a_ga": 1.29
+   },
+   "result": {
+    "lambda": {
+     "home": 2.13,
+     "away": 0.56,
+     "sum": 2.69
+    },
+    "wdl": {
+     "home": 73.8,
+     "draw": 17.7,
+     "away": 8.5
+    },
+    "market_fair": {
+     "home": 39.1,
+     "draw": 28.6,
+     "away": 32.3
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 0.5,
+    "bets": [
+     {
+      "name": "小2.50",
+      "prob": 0.496,
+      "odds": 1.78,
+      "ev": -0.1764
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.504,
+      "odds": 1.96,
+      "ev": -0.0785
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.7376,
+      "odds": 2.39,
+      "ev": 0.6471,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.1772,
+      "odds": 3.27,
+      "ev": -0.4587,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.0853,
+      "odds": 2.89,
+      "ev": -0.7698,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "大2.50",
+     "prob": 0.504,
+     "odds": 1.96,
+     "ev": -0.0785,
+     "market_fair": 0.4759,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.7376,
+     "wdl_market_fair": 0.3909,
+     "vetoed": false,
+     "veto_reason": null
+    },
+    "star": 0,
+    "ev_tier": "垃圾",
+    "risk_tags": [
+     "纯数据无伤病情报",
+     "缺亚盘"
+    ],
+    "upset": {
+     "hot": "Palermo",
+     "level": "低风险",
+     "count": 0,
+     "signals": []
+    },
+    "notes": [
+     " 教练量化:主Filippo Inzagh(攻+1.7% 防-1.0% n8) 客Eusebio Di Fra(攻-9.6% 防+0.4% n45)",
+     "主队数据来自I2",
+     "客队数据来自I1",
+     "主队跨联赛用I2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "客队跨联赛用I1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "阵型:主3-4-2-1/客4-2-3-1(当场)"
+    ],
+    "formation": {
+     "home": "3-4-2-1",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": -1,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    },
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {
+      "favorite": "H",
+      "favorite_prob": 38.4,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "ev": null,
+     "lam_dev": null,
+     "conf": 0.3843,
+     "agree": null,
+     "support": null
+    }
+   }
+  },
+  {
+   "id": "215502",
+   "league": "葡超",
+   "home": "Casa Pia",
+   "away": "Benfica",
+   "ct": "2026-08-17T19:15:00+00:00",
+   "info": {
+    "bsd_coaches": {
+     "home": {
+      "id": 1,
+      "name": "Álvaro Pacheco",
+      "short_name": "Á. Pacheco",
+      "country": "Portugal",
+      "profile": "defensive",
+      "preferred_formation": "3-4-3",
+      "pressing_intensity": 0.4285504519397295,
+      "defensive_line": "mid",
+      "top_styles": [
+       "terrorist_fb",
+       "anti_football"
+      ]
+     },
+     "away": {
+      "id": 553,
+      "name": "Marco Silva",
+      "short_name": "M. Silva",
+      "country": "Portugal",
+      "profile": "balanced",
+      "preferred_formation": "4-2-3-1",
+      "pressing_intensity": 0.5143231693868474,
+      "defensive_line": "mid",
+      "top_styles": [
+       "ball_dominant",
+       "tiki_taka"
+      ]
+     }
+    },
+    "bsd_lineups": {
+     "formation": {
+      "home": "3-4-3",
+      "away": "4-2-3-1"
+     },
+     "coach": {
+      "home": "3-4-3",
+      "away": "4-2-3-1"
+     }
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    },
+    "bsd_prediction": {
+     "expected_goals": {
+      "home": 0.8,
+      "away": 1.91
+     },
+     "recommendations": {
+      "favorite": "A",
+      "favorite_prob": 66.6,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "confidence": 0.6663,
+     "markets": {
+      "match_result": {
+       "prob_home": 12.4,
+       "prob_draw": 21,
+       "prob_away": 66.6,
+       "predicted": "A"
+      },
+      "expected_goals": {
+       "home": 0.8,
+       "away": 1.91
+      },
+      "over_under": {
+       "prob_over_15": 74.4,
+       "prob_over_25": 50.5,
+       "prob_over_35": 28.1
+      },
+      "btts": {
+       "prob_yes": 47.7
+      },
+      "score": {
+       "most_likely": "0-1"
+      },
+      "draw_no_bet": {
+       "prob_home": 10.2
+      },
+      "corners": {
+       "prob_over_85": 63.3,
+       "prob_over_95": 52.3,
+       "prob_over_105": 41
+      }
+     }
+    },
+    "bsd_odds": {
+     "consensus": {
+      "home_win": 12.31,
+      "draw": 6.1,
+      "away_win": 1.22,
+      "over_15_goals": 1.17,
+      "over_25_goals": 1.59,
+      "over_35_goals": 2.47,
+      "under_15_goals": 4.52,
+      "under_25_goals": 2.27,
+      "under_35_goals": 1.5,
+      "btts_yes": 2.22,
+      "btts_no": 1.6
+     }
+    }
+   },
+   "coach_mods": {
+    "h_atk": 0.9287,
+    "h_def": 1.0494,
+    "h_sample": 36,
+    "h_name": "Álvaro Pacheco",
+    "h_gf": 0.92,
+    "h_ga": 1.58,
+    "a_atk": 1.0275,
+    "a_def": 1.0151,
+    "a_sample": 50,
+    "a_name": "Marco Silva",
+    "a_gf": 1.54,
+    "a_ga": 1.26
+   },
+   "result": {
+    "lambda": {
+     "home": 0.68,
+     "away": 1.76,
+     "sum": 2.44
+    },
+    "wdl": {
+     "home": 16.5,
+     "draw": 26.2,
+     "away": 57.3
+    },
+    "market_fair": {
+     "home": 7.6,
+     "draw": 15.4,
+     "away": 77.0
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 0.5,
+    "bets": [
+     {
+      "name": "小2.50",
+      "prob": 0.5589,
+      "odds": 2.27,
+      "ev": 0.1864,
+      "star": 1,
+      "ev_tier": "标准",
+      "stake_factor": 0.35
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.4411,
+      "odds": 1.59,
+      "ev": -0.3442
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.1651,
+      "odds": 12.31,
+      "ev": 0.9089,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.262,
+      "odds": 6.1,
+      "ev": 0.5009,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.5729,
+      "odds": 1.22,
+      "ev": -0.3436,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "小2.50",
+     "prob": 0.5589,
+     "odds": 2.27,
+     "ev": 0.1864,
+     "star": 1,
+     "ev_tier": "标准",
+     "stake_factor": 0.35
+    },
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.5589,
+     "odds": 2.27,
+     "ev": 0.1864,
+     "market_fair": 0.4119,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.5729,
+     "wdl_market_fair": 0.7698,
+     "vetoed": false,
+     "veto_reason": null,
+     "ev_bsd": 0.1863,
+     "ev_gap": 0.0
+    },
+    "star": 1,
+    "ev_tier": "标准",
+    "risk_tags": [
+     "纯数据无伤病情报",
+     "缺亚盘",
+     "BSD方向分歧(BSD预测:A)"
+    ],
+    "upset": {
+     "hot": "Benfica",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "L2大热低赔",
+      "L2大热低赔(去水概率>=55%%)"
+     ]
+    },
+    "notes": [
+     " 教练量化:主Álvaro Pacheco(攻-7.1% 防+4.9% n36) 客Marco Silva(攻+2.8% 防+1.5% n50)",
+     "阵型:主3-4-3/客4-2-3-1(当场)",
+     "BSD与我们方向相反, 已降星(不改EV), 人工复核"
+    ],
+    "formation": {
+     "home": "3-4-3",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": 1,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    },
+    "bsd": {
+     "eg": {
+      "home": 0.8,
+      "away": 1.91
+     },
+     "recs": {
+      "favorite": "A",
+      "favorite_prob": 66.6,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "ev": 0.1863,
+     "lam_dev": {
+      "home": 0.12,
+      "away": 0.15,
+      "our": [
+       0.68,
+       1.76
+      ],
+      "bsd": [
+       0.8,
+       1.91
+      ]
+     },
+     "conf": 0.6663,
+     "agree": false,
+     "support": false
+    }
+   }
+  },
+  {
+   "id": "223567",
+   "league": "阿甲",
+   "home": "CA Lanús",
+   "away": "CA Independiente",
+   "ct": "2026-08-17T20:00:00+00:00",
+   "info": {
+    "bsd_coaches": {
+     "home": {
+      "id": 514,
+      "name": "Mauricio Pellegrino",
+      "short_name": "M. Pellegrino",
+      "country": "Argentina",
+      "profile": "defensive",
+      "preferred_formation": "4-2-3-1",
+      "pressing_intensity": 0.5988030201366706,
+      "defensive_line": "mid",
+      "top_styles": [
+       "territory",
+       "gegenpressing"
+      ]
+     },
+     "away": {
+      "id": 2687,
+      "name": "Gustavo Quinteros",
+      "short_name": "G. Quinteros",
+      "country": "Bolivia",
+      "profile": "balanced",
+      "preferred_formation": "4-2-3-1",
+      "pressing_intensity": 0.7699722085765779,
+      "defensive_line": "mid",
+      "top_styles": [
+       "gegenpressing",
+       "high_press"
+      ]
+     }
+    },
+    "bsd_lineups": {
+     "formation": {
+      "home": "4-2-3-1",
+      "away": "4-2-3-1"
+     },
+     "coach": {
+      "home": "4-2-3-1",
+      "away": "4-2-3-1"
+     }
+    },
+    "injuries": {
+     "home": [
+      {
+       "name": "Agustín Medina",
+       "position": "?",
+       "status": "injured",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "Eduardo Salvio",
+       "position": "?",
+       "status": "injured",
+       "reason": "Hamstring Injury"
+      },
+      {
+       "name": "José Canale",
+       "position": "?",
+       "status": "injured",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "Marcelino Moreno",
+       "position": "?",
+       "status": "injured",
+       "reason": "Foot Injury"
+      },
+      {
+       "name": "Ramiro Carrera",
+       "position": "?",
+       "status": "injured",
+       "reason": "Knock Injury"
+      }
+     ],
+     "away": [
+      {
+       "name": "Jonathan De Irastorza",
+       "position": "?",
+       "status": "injured",
+       "reason": "Cruciate Ligament Injury"
+      },
+      {
+       "name": "Leonardo Godoy",
+       "position": "?",
+       "status": "injured",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "Sebastián Valdez",
+       "position": "?",
+       "status": "injured",
+       "reason": "Sprained Knee Injury"
+      }
+     ]
+    },
+    "bsd_prediction": {
+     "expected_goals": {
+      "home": 1.11,
+      "away": 0.89
+     },
+     "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 39.5,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "confidence": 0.3945,
+     "markets": {
+      "match_result": {
+       "prob_home": 39.5,
+       "prob_draw": 33.1,
+       "prob_away": 27.5,
+       "predicted": "H"
+      },
+      "expected_goals": {
+       "home": 1.11,
+       "away": 0.89
+      },
+      "over_under": {
+       "prob_over_15": 60.5,
+       "prob_over_25": 33.7,
+       "prob_over_35": 14.3
+      },
+      "btts": {
+       "prob_yes": 42.3
+      },
+      "score": {
+       "most_likely": "1-0"
+      },
+      "draw_no_bet": {
+       "prob_home": 59.1
+      },
+      "corners": {
+       "prob_over_85": 53.9,
+       "prob_over_95": 42.3,
+       "prob_over_105": 31.2
+      }
+     }
+    },
+    "bsd_odds": {
+     "consensus": {
+      "home_win": 2.31,
+      "draw": 2.88,
+      "away_win": 3.42,
+      "over_15_goals": 1.56,
+      "over_25_goals": 2.72,
+      "over_35_goals": 5.44,
+      "under_15_goals": 2.31,
+      "under_25_goals": 1.41,
+      "under_35_goals": 1.12,
+      "btts_yes": 2.2,
+      "btts_no": 1.6
+     }
+    }
+   },
+   "coach_mods": {
+    "h_atk": 0.9754,
+    "h_def": 1.0032,
+    "h_sample": 28,
+    "h_name": "Mauricio Pellegrino",
+    "h_gf": 0.89,
+    "h_ga": 1.11,
+    "a_atk": 1.0469,
+    "a_def": 1.013,
+    "a_sample": 25,
+    "a_name": "Gustavo Quinteros",
+    "a_gf": 1.56,
+    "a_ga": 1.2
+   },
+   "result": {
+    "lambda": {
+     "home": 1.54,
+     "away": 0.69,
+     "sum": 2.24
+    },
+    "wdl": {
+     "home": 52.6,
+     "draw": 28.3,
+     "away": 19.1
+    },
+    "market_fair": {
+     "home": 40.4,
+     "draw": 32.4,
+     "away": 27.3
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 0.5,
+    "bets": [
+     {
+      "name": "小2.50",
+      "prob": 0.6127,
+      "odds": 1.41,
+      "ev": -0.1977
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.3873,
+      "odds": 2.72,
+      "ev": -0.0218
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.5257,
+      "odds": 2.31,
+      "ev": 0.1323,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2831,
+      "odds": 2.88,
+      "ev": -0.2398,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.1912,
+      "odds": 3.42,
+      "ev": -0.3904,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.6127,
+     "odds": 1.41,
+     "ev": -0.1977,
+     "market_fair": 0.6586,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.5257,
+     "wdl_market_fair": 0.4036,
+     "vetoed": false,
+     "veto_reason": null,
+     "ev_bsd": -0.1978,
+     "ev_gap": 0.0
+    },
+    "star": 0,
+    "ev_tier": "垃圾",
+    "risk_tags": [
+     "纯数据无伤病情报",
+     "缺亚盘",
+     "队名模糊匹配",
+     "阵型防守倾向(-2)"
+    ],
+    "upset": {
+     "hot": "CA Lanús",
+     "level": "低风险",
+     "count": 0,
+     "signals": []
+    },
+    "notes": [
+     " 教练量化:主Mauricio Pelle(攻-2.5% 防+0.3% n28) 客Gustavo Quinte(攻+4.7% 防+1.3% n25)",
+     "主队队名模糊匹配(subset), 低置信",
+     "客队队名模糊匹配(subset), 低置信",
+     "阵型:主4-2-3-1/客4-2-3-1(当场)",
+     "主队伤停5人位置未知(非BSD源), 位置加权未覆盖",
+     "客队伤停3人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": -2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 8
+    },
+    "bsd": {
+     "eg": {
+      "home": 1.11,
+      "away": 0.89
+     },
+     "recs": {
+      "favorite": "H",
+      "favorite_prob": 39.5,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "ev": -0.1978,
+     "lam_dev": {
+      "home": 0.43,
+      "away": 0.2,
+      "our": [
+       1.54,
+       0.69
+      ],
+      "bsd": [
+       1.11,
+       0.89
+      ]
+     },
+     "conf": 0.3945,
+     "agree": null,
+     "support": null
+    }
+   }
+  },
+  {
+   "id": "223572",
+   "league": "阿甲",
+   "home": "Estudiantes de Río Cuarto",
+   "away": "Atlético Tucumán",
+   "ct": "2026-08-17T17:45:00+00:00",
+   "info": {
+    "bsd_coaches": {
+     "home": {
+      "id": 3200,
+      "name": "Ruben Dario Forestello",
+      "short_name": "R. D. Forestello",
+      "country": "Argentina",
+      "profile": "defensive",
+      "preferred_formation": "4-4-2",
+      "pressing_intensity": 0.6481513353969438,
+      "defensive_line": "mid",
+      "top_styles": [
+       "cross_pray",
+       "gegenpressing"
+      ]
+     },
+     "away": {
+      "id": 3193,
+      "name": "Julio Cesar Falcioni",
+      "short_name": "J. C. Falcioni",
+      "country": "Argentina",
+      "profile": "balanced",
+      "preferred_formation": "4-2-3-1",
+      "pressing_intensity": 0.7329370382799039,
+      "defensive_line": "mid",
+      "top_styles": [
+       "gegenpressing",
+       "high_press"
+      ]
+     }
+    },
+    "bsd_lineups": {
+     "formation": {
+      "home": "4-4-2",
+      "away": "4-2-3-1"
+     },
+     "coach": {
+      "home": "4-4-2",
+      "away": "4-2-3-1"
+     }
+    },
+    "injuries": {
+     "home": [],
+     "away": [
+      {
+       "name": "Leandro Díaz",
+       "position": "?",
+       "status": "injured",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "Martín Benítez",
+       "position": "?",
+       "status": "injured",
+       "reason": "Calf Injury"
+      },
+      {
+       "name": "Maximiliano Villa",
+       "position": "?",
+       "status": "injured",
+       "reason": "Groin Injury"
+      },
+      {
+       "name": "Ramiro Ruiz Rodríguez",
+       "position": "?",
+       "status": "injured",
+       "reason": "Sprained Knee Injury"
+      }
+     ]
+    },
+    "bsd_prediction": {
+     "expected_goals": {
+      "home": 0.76,
+      "away": 1.19
+     },
+     "recommendations": {
+      "favorite": "A",
+      "favorite_prob": 46.8,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "confidence": 0.4675,
+     "markets": {
+      "match_result": {
+       "prob_home": 20.9,
+       "prob_draw": 32.4,
+       "prob_away": 46.8,
+       "predicted": "A"
+      },
+      "expected_goals": {
+       "home": 0.76,
+       "away": 1.19
+      },
+      "over_under": {
+       "prob_over_15": 59.4,
+       "prob_over_25": 32.5,
+       "prob_over_35": 13.5
+      },
+      "btts": {
+       "prob_yes": 40.4
+      },
+      "score": {
+       "most_likely": "0-1"
+      },
+      "draw_no_bet": {
+       "prob_home": 47.2
+      },
+      "corners": {
+       "prob_over_85": 59.4,
+       "prob_over_95": 47.6,
+       "prob_over_105": 31.2
+      }
+     }
+    },
+    "bsd_odds": {
+     "consensus": {
+      "home_win": 2.98,
+      "draw": 2.77,
+      "away_win": 2.66,
+      "over_15_goals": 1.61,
+      "over_25_goals": 2.88,
+      "over_35_goals": 5.85,
+      "under_15_goals": 2.22,
+      "under_25_goals": 1.37,
+      "under_35_goals": 1.11,
+      "btts_yes": 2.25,
+      "btts_no": 1.58
+     }
+    }
+   },
+   "coach_mods": {
+    "h_atk": 0.9444,
+    "h_def": 1.033,
+    "h_sample": 20,
+    "h_name": "Ruben Dario Forestello",
+    "h_gf": 0.35,
+    "h_ga": 1.45,
+    "a_atk": 1.0037,
+    "a_def": 1.0005,
+    "a_sample": 22,
+    "a_name": "Julio Cesar Falcioni",
+    "a_gf": 1.0,
+    "a_ga": 1.09
+   },
+   "result": {
+    "lambda": {
+     "home": 0.76,
+     "away": 0.94,
+     "sum": 1.7
+    },
+    "wdl": {
+     "home": 28.6,
+     "draw": 34.6,
+     "away": 36.8
+    },
+    "market_fair": {
+     "home": 31.3,
+     "draw": 33.7,
+     "away": 35.1
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 0.5,
+    "bets": [
+     {
+      "name": "小2.50",
+      "prob": 0.7576,
+      "odds": 1.37,
+      "ev": -0.0364
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.2424,
+      "odds": 2.88,
+      "ev": -0.3519
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.2858,
+      "odds": 2.98,
+      "ev": -0.206,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.3463,
+      "odds": 2.77,
+      "ev": -0.1057,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.368,
+      "odds": 2.66,
+      "ev": -0.0874,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.7576,
+     "odds": 1.37,
+     "ev": -0.0364,
+     "market_fair": 0.6776,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.368,
+     "wdl_market_fair": 0.3505,
+     "vetoed": false,
+     "veto_reason": null,
+     "ev_bsd": -0.0364,
+     "ev_gap": 0.0
+    },
+    "star": 0,
+    "ev_tier": "垃圾",
+    "risk_tags": [
+     "纯数据无伤病情报",
+     "缺亚盘"
+    ],
+    "upset": {
+     "hot": "Atlético Tucumán",
+     "level": "轻度风险",
+     "count": 3,
+     "signals": [
+      "L4平局接近热门(平局价值高)",
+      "L5主客接近无明显热门(慎标冷门)",
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     " 教练量化:主Ruben Dario Fo(攻-5.6% 防+3.3% n20) 客Julio Cesar Fa(攻+0.4% 防+0.0% n22)",
+     "阵型:主4-4-2/客4-2-3-1(当场)",
+     "客队伤停4人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "formation": {
+     "home": "4-4-2",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": 0,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 4
+    },
+    "bsd": {
+     "eg": {
+      "home": 0.76,
+      "away": 1.19
+     },
+     "recs": {
+      "favorite": "A",
+      "favorite_prob": 46.8,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "ev": -0.0364,
+     "lam_dev": {
+      "home": 0.0,
+      "away": 0.25,
+      "our": [
+       0.76,
+       0.94
+      ],
+      "bsd": [
+       0.76,
+       1.19
+      ]
+     },
+     "conf": 0.4675,
+     "agree": null,
+     "support": null
+    }
+   }
+  },
+  {
+   "id": "223573",
+   "league": "阿甲",
+   "home": "Gimnasia y Esgrima Mendoza",
+   "away": "CA Talleres",
+   "ct": "2026-08-18T00:30:00+00:00",
+   "info": {
+    "bsd_coaches": {
+     "home": {
+      "id": 3188,
+      "name": "Dario Franco",
+      "short_name": "D. Franco",
+      "country": "Argentina",
+      "profile": "defensive",
+      "preferred_formation": "4-4-2",
+      "pressing_intensity": 0.6747429665886462,
+      "defensive_line": "mid",
+      "top_styles": [
+       "gegenpressing",
+       "high_press"
+      ]
+     },
+     "away": {
+      "id": 3191,
+      "name": "Jorge Sampaoli",
+      "short_name": "J. Sampaoli",
+      "country": "Argentina",
+      "profile": "balanced",
+      "preferred_formation": "4-2-3-1",
+      "pressing_intensity": 0.6911772268861013,
+      "defensive_line": "mid",
+      "top_styles": [
+       "gegenpressing",
+       "high_press"
+      ]
+     }
+    },
+    "bsd_lineups": {
+     "formation": {
+      "home": "4-3-3",
+      "away": "4-2-3-1"
+     },
+     "coach": {
+      "home": "4-4-2",
+      "away": "4-2-3-1"
+     }
+    },
+    "injuries": {
+     "home": [
+      {
+       "name": "Franco Saavedra",
+       "position": "?",
+       "status": "injured",
+       "reason": "Cruciate Ligament Injury"
+      }
+     ],
+     "away": [
+      {
+       "name": "Diego Valoyes",
+       "position": "?",
+       "status": "injured",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Mateo Caceres",
+       "position": "?",
+       "status": "injured",
+       "reason": "Shoulder Injury"
+      },
+      {
+       "name": "Matías Gómez",
+       "position": "?",
+       "status": "injured",
+       "reason": "Sprained Knee Injury"
+      }
+     ]
+    },
+    "bsd_prediction": {
+     "expected_goals": {
+      "home": 1.02,
+      "away": 1.06
+     },
+     "recommendations": {
+      "favorite": "A",
+      "favorite_prob": 35.1,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "confidence": 0.3514,
+     "markets": {
+      "match_result": {
+       "prob_home": 32.5,
+       "prob_draw": 32.4,
+       "prob_away": 35.1,
+       "predicted": "A"
+      },
+      "expected_goals": {
+       "home": 1.02,
+       "away": 1.06
+      },
+      "over_under": {
+       "prob_over_15": 62.5,
+       "prob_over_25": 35.8,
+       "prob_over_35": 15.8
+      },
+      "btts": {
+       "prob_yes": 44.1
+      },
+      "score": {
+       "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+       "prob_home": 48.1
+      },
+      "corners": {
+       "prob_over_85": 59.1,
+       "prob_over_95": 47.3,
+       "prob_over_105": 35.5
+      }
+     }
+    },
+    "bsd_odds": {
+     "consensus": {
+      "home_win": 2.9,
+      "draw": 2.76,
+      "away_win": 2.72,
+      "over_15_goals": 1.59,
+      "over_25_goals": 2.84,
+      "over_35_goals": 5.71,
+      "under_15_goals": 2.25,
+      "under_25_goals": 1.38,
+      "under_35_goals": 1.11,
+      "btts_yes": 2.22,
+      "btts_no": 1.59
+     }
+    }
+   },
+   "coach_mods": {
+    "h_atk": 0.9743,
+    "h_def": 1.0104,
+    "h_sample": 20,
+    "h_name": "Dario Franco",
+    "h_gf": 0.85,
+    "h_ga": 1.2,
+    "a_atk": 1.0095,
+    "a_def": 0.9833,
+    "a_sample": 20,
+    "a_name": "Jorge Sampaoli",
+    "a_gf": 1.1,
+    "a_ga": 0.9
+   },
+   "result": {
+    "lambda": {
+     "home": 1.08,
+     "away": 0.9,
+     "sum": 1.97
+    },
+    "wdl": {
+     "home": 37.6,
+     "draw": 32.3,
+     "away": 30.1
+    },
+    "market_fair": {
+     "home": 32.1,
+     "draw": 33.7,
+     "away": 34.2
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 0.5,
+    "bets": [
+     {
+      "name": "小2.50",
+      "prob": 0.6835,
+      "odds": 1.38,
+      "ev": -0.124
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.3165,
+      "odds": 2.84,
+      "ev": -0.1651
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.3764,
+      "odds": 2.9,
+      "ev": 0.0156,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.3229,
+      "odds": 2.76,
+      "ev": -0.1709,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.3007,
+      "odds": 2.72,
+      "ev": -0.2389,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.6835,
+     "odds": 1.38,
+     "ev": -0.124,
+     "market_fair": 0.673,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.3764,
+     "wdl_market_fair": 0.3208,
+     "vetoed": false,
+     "veto_reason": null,
+     "ev_bsd": -0.124,
+     "ev_gap": 0.0
+    },
+    "star": 0,
+    "ev_tier": "垃圾",
+    "risk_tags": [
+     "纯数据无伤病情报",
+     "缺亚盘"
+    ],
+    "upset": {
+     "hot": "CA Talleres",
+     "level": "轻度风险",
+     "count": 3,
+     "signals": [
+      "L4平局接近热门(平局价值高)",
+      "L5主客接近无明显热门(慎标冷门)",
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     " 教练量化:主Dario Franco(攻-2.6% 防+1.0% n20) 客Jorge Sampaoli(攻+1.0% 防-1.7% n20)",
+     "阵型:主4-3-3/客4-2-3-1(当场)",
+     "主队伤停1人位置未知(非BSD源), 位置加权未覆盖",
+     "客队伤停3人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": 0,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 4
+    },
+    "bsd": {
+     "eg": {
+      "home": 1.02,
+      "away": 1.06
+     },
+     "recs": {
+      "favorite": "A",
+      "favorite_prob": 35.1,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "ev": -0.124,
+     "lam_dev": {
+      "home": 0.06,
+      "away": 0.16,
+      "our": [
+       1.08,
+       0.9
+      ],
+      "bsd": [
+       1.02,
+       1.06
+      ]
+     },
+     "conf": 0.3514,
+     "agree": null,
+     "support": null
+    }
+   }
+  },
+  {
+   "id": "223579",
+   "league": "阿甲",
+   "home": "Vélez Sarsfield",
+   "away": "Defensa y Justicia",
+   "ct": "2026-08-17T22:15:00+00:00",
+   "info": {
+    "bsd_coaches": {
+     "home": {
+      "id": 3190,
+      "name": "Guillermo Schelotto",
+      "short_name": "G. Schelotto",
+      "country": "Argentina",
+      "profile": "defensive",
+      "preferred_formation": "4-2-3-1",
+      "pressing_intensity": 0.754446000758199,
+      "defensive_line": "mid",
+      "top_styles": [
+       "gegenpressing",
+       "high_press"
+      ]
+     },
+     "away": {
+      "id": 2845,
+      "name": "Julio Vaccari",
+      "short_name": "J. Vaccari",
+      "country": "Argentina",
+      "profile": "balanced",
+      "preferred_formation": "3-4-2-1",
+      "pressing_intensity": 0.8082957892447855,
+      "defensive_line": "high",
+      "top_styles": [
+       "gegenpressing",
+       "high_press"
+      ]
+     }
+    },
+    "bsd_lineups": {
+     "formation": {
+      "home": "4-2-3-1",
+      "away": "4-2-3-1"
+     },
+     "coach": {
+      "home": "4-2-3-1",
+      "away": "3-4-2-1"
+     }
+    },
+    "injuries": {
+     "home": [
+      {
+       "name": "Diego Valdés",
+       "position": "?",
+       "status": "injured",
+       "reason": "Physical Discomfort"
+      }
+     ],
+     "away": []
+    },
+    "bsd_prediction": {
+     "expected_goals": {
+      "home": 1.44,
+      "away": 0.81
+     },
+     "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 52.6,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "confidence": 0.5264,
+     "markets": {
+      "match_result": {
+       "prob_home": 52.6,
+       "prob_draw": 28.3,
+       "prob_away": 19.1,
+       "predicted": "H"
+      },
+      "expected_goals": {
+       "home": 1.44,
+       "away": 0.81
+      },
+      "over_under": {
+       "prob_over_15": 66,
+       "prob_over_25": 39.8,
+       "prob_over_35": 18.9
+      },
+      "btts": {
+       "prob_yes": 44.5
+      },
+      "score": {
+       "most_likely": "1-0"
+      },
+      "draw_no_bet": {
+       "prob_home": 72.1
+      },
+      "corners": {
+       "prob_over_85": 51,
+       "prob_over_95": 39.4,
+       "prob_over_105": 28.9
+      }
+     }
+    },
+    "bsd_odds": {
+     "consensus": {
+      "home_win": 1.78,
+      "draw": 3.33,
+      "away_win": 4.7,
+      "over_15_goals": 1.42,
+      "over_25_goals": 2.31,
+      "over_35_goals": 4.32,
+      "under_15_goals": 2.68,
+      "under_25_goals": 1.56,
+      "under_35_goals": 1.18,
+      "btts_yes": 2.12,
+      "btts_no": 1.65
+     }
+    }
+   },
+   "coach_mods": {
+    "h_atk": 0.9922,
+    "h_def": 0.9644,
+    "h_sample": 21,
+    "h_name": "Guillermo Schelotto",
+    "h_gf": 1.14,
+    "h_ga": 0.71,
+    "a_atk": 1.0125,
+    "a_def": 1.0195,
+    "a_sample": 21,
+    "a_name": "Julio Vaccari",
+    "a_gf": 1.14,
+    "a_ga": 1.29
+   },
+   "result": {
+    "lambda": {
+     "home": 1.8,
+     "away": 0.76,
+     "sum": 2.57
+    },
+    "wdl": {
+     "home": 56.1,
+     "draw": 25.8,
+     "away": 18.1
+    },
+    "market_fair": {
+     "home": 52.3,
+     "draw": 27.9,
+     "away": 19.8
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 0.5,
+    "bets": [
+     {
+      "name": "小2.50",
+      "prob": 0.5264,
+      "odds": 1.56,
+      "ev": -0.2353
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.4736,
+      "odds": 2.31,
+      "ev": 0.0187
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.5613,
+      "odds": 1.78,
+      "ev": -0.0705,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.258,
+      "odds": 3.33,
+      "ev": -0.2008,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.1807,
+      "odds": 4.7,
+      "ev": -0.2097,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.5264,
+     "odds": 1.56,
+     "ev": -0.2353,
+     "market_fair": 0.5969,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.5613,
+     "wdl_market_fair": 0.5227,
+     "vetoed": false,
+     "veto_reason": null,
+     "ev_bsd": -0.2353,
+     "ev_gap": 0.0
+    },
+    "star": 0,
+    "ev_tier": "垃圾",
+    "risk_tags": [
+     "纯数据无伤病情报",
+     "缺亚盘",
+     "阵型防守倾向(-2)"
+    ],
+    "upset": {
+     "hot": "Vélez Sarsfield",
+     "level": "低风险",
+     "count": 1,
+     "signals": [
+      "L2大热低赔"
+     ]
+    },
+    "notes": [
+     " 教练量化:主Guillermo Sche(攻-0.8% 防-3.6% n21) 客Julio Vaccari(攻+1.2% 防+2.0% n21)",
+     "阵型:主4-2-3-1/客4-2-3-1(当场)",
+     "主队伤停1人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": -2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 1
+    },
+    "bsd": {
+     "eg": {
+      "home": 1.44,
+      "away": 0.81
+     },
+     "recs": {
+      "favorite": "H",
+      "favorite_prob": 52.6,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "ev": -0.2353,
+     "lam_dev": {
+      "home": 0.36,
+      "away": 0.05,
+      "our": [
+       1.8,
+       0.76
+      ],
+      "bsd": [
+       1.44,
+       0.81
+      ]
+     },
+     "conf": 0.5264,
+     "agree": null,
+     "support": null
+    }
+   }
+  },
+  {
+   "id": "587699",
+   "league": "欧冠资格",
+   "home": "Levski Sofia",
+   "away": "AEK Athens",
+   "ct": "2026-08-18T19:00:00+00:00",
+   "info": {
+    "bsd_coaches": {
+     "home": {
+      "id": 392,
+      "name": "Julio Velazquez",
+      "short_name": "J. Velazquez",
+      "country": "Spain",
+      "profile": "attacking",
+      "preferred_formation": "4-2-3-1",
+      "pressing_intensity": 0.3445076230104497,
+      "defensive_line": "mid",
+      "top_styles": [
+       "tiki_taka",
+       "false_9"
+      ]
+     },
+     "away": {
+      "id": 436,
+      "name": "Marko Nikolić",
+      "short_name": "M. Nikolić",
+      "country": "Serbia",
+      "profile": "attacking",
+      "preferred_formation": "4-4-2",
+      "pressing_intensity": 0.5521186315267695,
+      "defensive_line": "high",
+      "top_styles": [
+       "total_football",
+       "ball_dominant"
+      ]
+     }
+    },
+    "bsd_lineups": {
+     "formation": {
+      "home": "4-2-3-1",
+      "away": "4-4-2"
+     },
+     "coach": {
+      "home": "4-2-3-1",
+      "away": "4-4-2"
+     }
+    },
+    "injuries": {
+     "home": [],
+     "away": [
+      {
+       "name": "Mijat Gaćinović",
+       "position": "?",
+       "status": "injured",
+       "reason": "Meniscus Injury"
+      }
+     ]
+    },
+    "bsd_prediction": {
+     "expected_goals": {
+      "home": 1.76,
+      "away": 1.07
+     },
+     "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 55,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "confidence": 0.5502,
+     "markets": {
+      "match_result": {
+       "prob_home": 55,
+       "prob_draw": 23.9,
+       "prob_away": 21.1,
+       "predicted": "H"
+      },
+      "expected_goals": {
+       "home": 1.76,
+       "away": 1.07
+      },
+      "over_under": {
+       "prob_over_15": 76.4,
+       "prob_over_25": 53.3,
+       "prob_over_35": 30.7
+      },
+      "btts": {
+       "prob_yes": 53.4
+      },
+      "score": {
+       "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+       "prob_home": 46.4
+      },
+      "corners": {
+       "prob_over_85": 60.2,
+       "prob_over_95": 48.4,
+       "prob_over_105": 32.6
+      }
+     }
+    },
+    "bsd_odds": {
+     "consensus": {
+      "home_win": 2.88,
+      "draw": 3.16,
+      "away_win": 2.48,
+      "over_15_goals": 1.35,
+      "over_25_goals": 2.11,
+      "over_35_goals": 3.77,
+      "under_15_goals": 2.97,
+      "under_25_goals": 1.67,
+      "under_35_goals": 1.23,
+      "btts_yes": 1.83,
+      "btts_no": 1.88
+     }
+    }
+   },
+   "coach_mods": {
+    "h_atk": 1.0488,
+    "h_def": 0.8912,
+    "h_sample": 58,
+    "h_name": "Julio Velazquez",
+    "h_gf": 1.93,
+    "h_ga": 0.64,
+    "a_atk": 1.0328,
+    "a_def": 0.9269,
+    "a_sample": 39,
+    "a_name": "Marko Nikolić",
+    "a_gf": 1.85,
+    "a_ga": 0.67
+   },
+   "result": {
+    "lambda": {
+     "home": 1.14,
+     "away": 1.29,
+     "sum": 2.42
+    },
+    "wdl": {
+     "home": 32.9,
+     "draw": 28.6,
+     "away": 38.6
+    },
+    "market_fair": {
+     "home": 32.5,
+     "draw": 29.7,
+     "away": 37.8
+    },
+    "data_src": {
+     "home": "market",
+     "away": "market"
+    },
+    "snap_age_h": 0.5,
+    "bets": [
+     {
+      "name": "小2.50",
+      "prob": 0.5645,
+      "odds": 1.67,
+      "ev": -0.1212
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.4355,
+      "odds": 2.11,
+      "ev": -0.1434
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.3286,
+      "odds": 2.88,
+      "ev": -0.113,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2857,
+      "odds": 3.16,
+      "ev": -0.1537,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.3857,
+      "odds": 2.48,
+      "ev": -0.1035,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.5645,
+     "odds": 1.67,
+     "ev": -0.1212,
+     "market_fair": 0.5582,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.3857,
+     "wdl_market_fair": 0.3779,
+     "vetoed": false,
+     "veto_reason": null,
+     "ev_bsd": -0.1212,
+     "ev_gap": 0.0
+    },
+    "star": 0,
+    "ev_tier": "垃圾",
+    "risk_tags": [
+     "纯数据无伤病情报",
+     "缺亚盘",
+     "非独立数据",
+     "队名/数据缺失",
+     "λ与BSD市场分歧(我们1.14/1.29 vs BSD1.76/1.07, Δ最大0.62)"
+    ],
+    "upset": {
+     "hot": "AEK Athens",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "F2疲劳修正(系数0.85)",
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     "杯赛参数: 欧冠(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+     " 教练量化:主Julio Velazque(攻+4.9% 防-10.9% n58) 客Marko Nikolić(攻+3.3% 防-7.3% n39)",
+     "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+     "非独立数据场次, best_bet禁用",
+     "阵型:主4-2-3-1/客4-4-2(当场)",
+     "客队伤停1人位置未知(非BSD源), 位置加权未覆盖",
+     "模型独立观点: 我们λ偏离BSD市场EG(市场λ), 属我方攻防模型独立信号, 人工复核"
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-4-2",
+     "src": "cur",
+     "tend": 0,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 1
+    },
+    "bsd": {
+     "eg": {
+      "home": 1.76,
+      "away": 1.07
+     },
+     "recs": {
+      "favorite": "H",
+      "favorite_prob": 55,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "ev": -0.1212,
+     "lam_dev": {
+      "home": 0.62,
+      "away": 0.22,
+      "our": [
+       1.14,
+       1.29
+      ],
+      "bsd": [
+       1.76,
+       1.07
+      ]
+     },
+     "conf": 0.5502,
+     "agree": null,
+     "support": null
+    }
+   }
+  },
+  {
+   "id": "587700",
+   "league": "欧冠资格",
+   "home": "GNK Dinamo Zagreb",
+   "away": "Viking FK",
+   "ct": "2026-08-18T19:00:00+00:00",
+   "info": {
+    "bsd_coaches": {
+     "home": {
+      "id": 683,
+      "name": "Mario Kovačević",
+      "short_name": "M. Kovačević",
+      "country": "Croatia",
+      "profile": "attacking",
+      "preferred_formation": "4-3-3",
+      "pressing_intensity": 0.500032041030371,
+      "defensive_line": "mid",
+      "top_styles": [
+       "chaos_ball",
+       "wing_play"
+      ]
+     },
+     "away": {
+      "id": 1496,
+      "name": "Morten Jensen",
+      "short_name": "M. Jensen",
+      "country": "Norway",
+      "profile": "attacking",
+      "preferred_formation": "4-1-4-1",
+      "pressing_intensity": 0.4389483263984922,
+      "defensive_line": "mid",
+      "top_styles": [
+       "cross_pray",
+       "wing_play"
+      ]
+     }
+    },
+    "bsd_lineups": {
+     "formation": {
+      "home": "4-3-3",
+      "away": "4-1-4-1"
+     },
+     "coach": {
+      "home": "4-3-3",
+      "away": "4-1-4-1"
+     }
+    },
+    "injuries": {
+     "home": [
+      {
+       "name": "Luka Stojković",
+       "position": "?",
+       "status": "injured",
+       "reason": "Muscle Injury"
+      }
+     ],
+     "away": [
+      {
+       "name": "Anders Baertelsen",
+       "position": "?",
+       "status": "injured",
+       "reason": "Broken Foot"
+      },
+      {
+       "name": "Henrik Sælebakke Falchener",
+       "position": "?",
+       "status": "injured",
+       "reason": "Thigh Injury"
+      },
+      {
+       "name": "Martin Ove Roseth",
+       "position": "?",
+       "status": "injured",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Veton Berisha",
+       "position": "?",
+       "status": "injured",
+       "reason": "Thigh Injury"
+      }
+     ]
+    },
+    "bsd_prediction": {
+     "expected_goals": {
+      "home": 1.68,
+      "away": 1.77
+     },
+     "recommendations": {
+      "favorite": "A",
+      "favorite_prob": 41.2,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "confidence": 0.4119,
+     "markets": {
+      "match_result": {
+       "prob_home": 36.3,
+       "prob_draw": 22.5,
+       "prob_away": 41.2,
+       "predicted": "A"
+      },
+      "expected_goals": {
+       "home": 1.68,
+       "away": 1.77
+      },
+      "over_under": {
+       "prob_over_15": 84.2,
+       "prob_over_25": 65.2,
+       "prob_over_35": 43.4
+      },
+      "btts": {
+       "prob_yes": 63.3
+      },
+      "score": {
+       "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+       "prob_home": 70.2
+      },
+      "corners": {
+       "prob_over_85": 69,
+       "prob_over_95": 57.8,
+       "prob_over_105": 47.1
+      }
+     }
+    },
+    "bsd_odds": {
+     "consensus": {
+      "home_win": 1.75,
+      "draw": 3.88,
+      "away_win": 4.17,
+      "over_15_goals": 1.19,
+      "over_25_goals": 1.63,
+      "over_35_goals": 2.55,
+      "under_15_goals": 4.27,
+      "under_25_goals": 2.19,
+      "under_35_goals": 1.46,
+      "btts_yes": 1.61,
+      "btts_no": 2.2
+     }
+    }
+   },
+   "coach_mods": {
+    "h_atk": 1.0442,
+    "h_def": 1.0074,
+    "h_sample": 18,
+    "h_name": "Mario Kovačević",
+    "h_gf": 2.33,
+    "h_ga": 1.61,
+    "a_atk": 1.0629,
+    "a_def": 0.9585,
+    "a_sample": 24,
+    "a_name": "Morten Jensen",
+    "a_gf": 2.54,
+    "a_ga": 0.88
+   },
+   "result": {
+    "lambda": {
+     "home": 1.83,
+     "away": 1.27,
+     "sum": 3.1
+    },
+    "wdl": {
+     "home": 46.8,
+     "draw": 24.9,
+     "away": 28.2
+    },
+    "market_fair": {
+     "home": 53.5,
+     "draw": 24.1,
+     "away": 22.4
+    },
+    "data_src": {
+     "home": "market",
+     "away": "cur"
+    },
+    "snap_age_h": 0.5,
+    "bets": [
+     {
+      "name": "小2.50",
+      "prob": 0.4013,
+      "odds": 2.19,
+      "ev": -0.1787
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.5987,
+      "odds": 1.63,
+      "ev": -0.0881
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.4681,
+      "odds": 1.75,
+      "ev": -0.2336,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2495,
+      "odds": 3.88,
+      "ev": -0.0945,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.2824,
+      "odds": 4.17,
+      "ev": 0.1015,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "大2.50",
+     "prob": 0.5987,
+     "odds": 1.63,
+     "ev": -0.0881,
+     "market_fair": 0.5733,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.4681,
+     "wdl_market_fair": 0.5346,
+     "vetoed": false,
+     "veto_reason": null,
+     "ev_bsd": -0.0881,
+     "ev_gap": 0.0
+    },
+    "star": 0,
+    "ev_tier": "垃圾",
+    "risk_tags": [
+     "纯数据无伤病情报",
+     "缺亚盘",
+     "非独立数据",
+     "队名/数据缺失"
+    ],
+    "upset": {
+     "hot": "GNK Dinamo Zagreb",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "L2大热低赔",
+      "F2疲劳修正(系数0.85)"
+     ]
+    },
+    "notes": [
+     "杯赛参数: 欧冠(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+     " 教练量化:主Mario Kovačevi(攻+4.4% 防+0.7% n18) 客Morten Jensen(攻+6.3% 防-4.1% n24)",
+     "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+     "非独立数据场次, best_bet禁用",
+     "阵型:主4-3-3/客4-1-4-1(当场)",
+     "主队伤停1人位置未知(非BSD源), 位置加权未覆盖",
+     "客队伤停4人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-1-4-1",
+     "src": "cur",
+     "tend": 0,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 5
+    },
+    "bsd": {
+     "eg": {
+      "home": 1.68,
+      "away": 1.77
+     },
+     "recs": {
+      "favorite": "A",
+      "favorite_prob": 41.2,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "ev": -0.0881,
+     "lam_dev": {
+      "home": 0.15,
+      "away": 0.5,
+      "our": [
+       1.83,
+       1.27
+      ],
+      "bsd": [
+       1.68,
+       1.77
+      ]
+     },
+     "conf": 0.4119,
+     "agree": null,
+     "support": null
+    }
+   }
+  },
+  {
+   "id": "587701",
+   "league": "欧冠资格",
+   "home": "Fenerbahçe",
+   "away": "Olympique Lyonnais",
+   "ct": "2026-08-18T19:00:00+00:00",
+   "info": {
+    "bsd_coaches": {
+     "home": {
+      "id": 1821,
+      "name": "İsmail Kartal",
+      "short_name": "I. Kartal",
+      "country": "Türkiye",
+      "profile": "attacking",
+      "preferred_formation": "4-1-4-1",
+      "pressing_intensity": 1.0,
+      "defensive_line": "high",
+      "top_styles": [
+       "tiki_taka",
+       "positional"
+      ]
+     },
+     "away": {
+      "id": 380,
+      "name": "Paulo Fonseca",
+      "short_name": "P. Fonseca",
+      "country": "Portugal",
+      "profile": "attacking",
+      "preferred_formation": "4-2-3-1",
+      "pressing_intensity": 0.5198929590036638,
+      "defensive_line": "mid",
+      "top_styles": [
+       "tiki_taka",
+       "false_9"
+      ]
+     }
+    },
+    "bsd_lineups": {
+     "formation": {
+      "home": "4-2-3-1",
+      "away": "4-2-3-1"
+     },
+     "coach": {
+      "home": "4-1-4-1",
+      "away": "4-2-3-1"
+     }
+    },
+    "injuries": {
+     "home": [
+      {
+       "name": "Anthony Musaba",
+       "position": "?",
+       "status": "injured",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "Çağlar Söyüncü",
+       "position": "?",
+       "status": "injured",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "Jayden Oosterwolde",
+       "position": "?",
+       "status": "injured",
+       "reason": "Achilles Tendon Injury"
+      },
+      {
+       "name": "Mert Günok",
+       "position": "?",
+       "status": "injured",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "Romelu Lukaku",
+       "position": "?",
+       "status": "injured",
+       "reason": "Physical Discomfort"
+      },
+      {
+       "name": "Sofyan Amrabat",
+       "position": "?",
+       "status": "injured",
+       "reason": "Physical Discomfort"
+      }
+     ],
+     "away": [
+      {
+       "name": "Khalis Merah",
+       "position": "?",
+       "status": "injured",
+       "reason": "Sprained Ankle"
+      },
+      {
+       "name": "Mads Bidstrup",
+       "position": "?",
+       "status": "injured",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Pavel Šulc",
+       "position": "?",
+       "status": "injured",
+       "reason": "Knee Injury"
+      }
+     ]
+    },
+    "bsd_prediction": {
+     "expected_goals": {
+      "home": 2.12,
+      "away": 1.14
+     },
+     "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 62.2,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "confidence": 0.6217,
+     "markets": {
+      "match_result": {
+       "prob_home": 62.2,
+       "prob_draw": 20,
+       "prob_away": 17.8,
+       "predicted": "H"
+      },
+      "expected_goals": {
+       "home": 2.12,
+       "away": 1.14
+      },
+      "over_under": {
+       "prob_over_15": 82.2,
+       "prob_over_25": 61.9,
+       "prob_over_35": 39.7
+      },
+      "btts": {
+       "prob_yes": 57.5
+      },
+      "score": {
+       "most_likely": "2-1"
+      },
+      "draw_no_bet": {
+       "prob_home": 62.6
+      },
+      "corners": {
+       "prob_over_85": 72.7,
+       "prob_over_95": 62,
+       "prob_over_105": 51.9
+      }
+     }
+    },
+    "bsd_odds": {
+     "consensus": {
+      "home_win": 2.04,
+      "draw": 3.58,
+      "away_win": 3.35,
+      "over_15_goals": 1.22,
+      "over_25_goals": 1.72,
+      "over_35_goals": 2.78,
+      "under_15_goals": 3.91,
+      "under_25_goals": 2.04,
+      "under_35_goals": 1.4,
+      "btts_yes": 1.62,
+      "btts_no": 2.17
+     }
+    }
+   },
+   "coach_mods": {
+    "h_atk": 1.0302,
+    "h_def": 0.9888,
+    "h_sample": 6,
+    "h_name": "İsmail Kartal",
+    "h_gf": 2.5,
+    "h_ga": 0.33,
+    "a_atk": 1.0276,
+    "a_def": 0.9533,
+    "a_sample": 55,
+    "a_name": "Paulo Fonseca",
+    "a_gf": 1.76,
+    "a_ga": 1.18
+   },
+   "result": {
+    "lambda": {
+     "home": 1.77,
+     "away": 1.13,
+     "sum": 2.9
+    },
+    "wdl": {
+     "home": 48.4,
+     "draw": 25.4,
+     "away": 26.1
+    },
+    "market_fair": {
+     "home": 45.9,
+     "draw": 26.2,
+     "away": 27.9
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 0.5,
+    "bets": [
+     {
+      "name": "小2.50",
+      "prob": 0.4456,
+      "odds": 2.04,
+      "ev": -0.1516
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.5544,
+      "odds": 1.72,
+      "ev": -0.1102
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.4844,
+      "odds": 2.04,
+      "ev": -0.0747,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2542,
+      "odds": 3.58,
+      "ev": -0.1481,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.2614,
+      "odds": 3.35,
+      "ev": -0.18,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "大2.50",
+     "prob": 0.5544,
+     "odds": 1.72,
+     "ev": -0.1102,
+     "market_fair": 0.5426,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.4844,
+     "wdl_market_fair": 0.459,
+     "vetoed": false,
+     "veto_reason": null,
+     "ev_bsd": -0.1101,
+     "ev_gap": -0.0
+    },
+    "star": 0,
+    "ev_tier": "垃圾",
+    "risk_tags": [
+     "纯数据无伤病情报",
+     "缺亚盘",
+     "阵型防守倾向(-2)"
+    ],
+    "upset": {
+     "hot": "Fenerbahçe",
+     "level": "低风险",
+     "count": 1,
+     "signals": [
+      "F2疲劳修正(系数0.85)"
+     ]
+    },
+    "notes": [
+     "杯赛参数: 欧冠(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+     " 教练量化:主İsmail Kartal(攻+3.0% 防-1.1% n6) 客Paulo Fonseca(攻+2.8% 防-4.7% n55)",
+     "主队数据来自TK",
+     "客队数据来自F1",
+     "主队跨联赛用TK数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "客队跨联赛用F1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "阵型:主4-2-3-1/客4-2-3-1(当场)",
+     "主队伤停6人位置未知(非BSD源), 位置加权未覆盖",
+     "客队伤停3人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": -2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 9
+    },
+    "bsd": {
+     "eg": {
+      "home": 2.12,
+      "away": 1.14
+     },
+     "recs": {
+      "favorite": "H",
+      "favorite_prob": 62.2,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+     },
+     "ev": -0.1101,
+     "lam_dev": {
+      "home": 0.35,
+      "away": 0.01,
+      "our": [
+       1.77,
+       1.13
+      ],
+      "bsd": [
+       2.12,
+       1.14
+      ]
+     },
+     "conf": 0.6217,
+     "agree": null,
+     "support": null
+    }
+   }
+  }
+ ]
+}

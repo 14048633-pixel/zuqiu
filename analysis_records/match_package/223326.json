@@ -1,0 +1,146 @@
+{
+ "id": 223326,
+ "league": "南美杯",
+ "kickoff": "08-21 08:30",
+ "kickoff_iso": "2026-08-21T00:30:00+00:00",
+ "home": "Botafogo",
+ "away": "Cienciano",
+ "home_id": 163,
+ "away_id": 750,
+ "pulled_at": "2026-08-21T00:35:45.652677+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 44,
+    "name": "Franclim Carvalho",
+    "short_name": "F. Carvalho",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 71.0,
+    "avg_goals_scored": 1.58,
+    "avg_goals_conceded": 1.14
+   },
+   "away": {
+    "id": 536,
+    "name": "Horacio Melgarejo",
+    "short_name": "H. Melgarejo",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 10.0,
+    "avg_goals_scored": 1.1,
+    "avg_goals_conceded": 1.1
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.09,
+   "draw": 9.53,
+   "away_win": 17.07,
+   "over_15_goals": 1.05,
+   "over_25_goals": 1.23,
+   "over_35_goals": 1.63,
+   "under_15_goals": 8.23,
+   "under_25_goals": 3.73,
+   "under_35_goals": 2.15,
+   "btts_yes": 1.98,
+   "btts_no": 1.73
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 1160,
+    "name": "Jordan Barrera",
+    "short_name": "J. Barrera",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 4622,
+    "name": "Júnior Santos",
+    "short_name": "J. Santos",
+    "status": "injured",
+    "reason": "Foot Injury"
+   },
+   {
+    "id": 4587,
+    "name": "Kaio Pantaleão",
+    "short_name": "K. Pantaleão",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 3255,
+    "name": "Paulinho",
+    "short_name": "Paulinho",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.736,
+   "away": 0.918
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-20T14:32:26Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.8,
+    "home_ga": 1.4,
+    "away_gf": 1.417,
+    "away_ga": 1.667,
+    "n_home": 10.0,
+    "n_away": 12.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.286,
+    "home_ga": 0.636,
+    "away_gf": 0.5,
+    "away_ga": 1.806,
+    "n_home": 7.7,
+    "n_away": 6.2,
+    "n_scored": 27,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 750
+   }
+  }
+ }
+}

@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-07-29 17:22:13",
+  "match": "布伦达拉U23 vs 昆比恩市U23",
+  "league": "澳大利亚首都特区国家超级联赛U23",
+  "status": "finished",
+  "final_score": "0-2",
+  "prediction": "让胜 (主队+0.5)",
+  "confidence": "80%",
+  "result": "FAILED",
+  "hdp_analysis": {
+    "original_hdp": "+0.5 @1.80",
+    "final_settlement": "主队-0.50, 客队+0.50",
+    "hdp_result": "让负 (客队赢盘)"
+  },
+  "pre_match_analysis": {
+    "step2_1_recent_form": "主队2胜1平2负，客队0胜1平4负",
+    "step2_2_head_to_head": "主队历史占优3胜2负",
+    "step2_3_injuries": "无重大伤停",
+    "step2_4_online_verification": "DeepSeek数据不准确，已修正",
+    "step2_5_formation": "主队4-3-3进攻，客队5-4-1防守",
+    "step7_risk_control": "R118碾压判定：状态/历史利好主队，但市场支持客队",
+    "step8_final_decision": "推荐让胜，置信度80%"
+  },
+  "errors_identified": [
+    {
+      "error": "过度依赖历史交锋",
+      "description": "主队历史交锋3胜2负占优，但近期状态一般",
+      "impact": "高估主队实力"
+    },
+    {
+      "error": "低估客队状态",
+      "description": "客队近期0胜1平4负，但实际表现更好",
+      "impact": "低估客队进攻能力"
+    },
+    {
+      "error": "数据不准确未修正",
+      "description": "Step 2.4发现DeepSeek数据不准确，但未及时修正推荐",
+      "impact": "推荐基于错误数据"
+    },
+    {
+      "error": "置信度过高",
+      "description": "数据不准确时给予80%置信度过高",
+      "impact": "误导决策"
+    }
+  ],
+  "lessons_learned": [
+    "在线验证发现数据不准确时，应降低置信度或暂停推荐",
+    "历史交锋数据需要结合近期状态综合判断",
+    "客队近期状态需要更仔细分析，不能只看近期5场",
+    "数据不准确时，推荐应更加保守",
+    "R118碾压判定显示市场与基本面矛盾，应更谨慎"
+  ],
+  "corrective_actions": [
+    "修改Step 2.4逻辑：数据不准确时自动降低置信度",
+    "增加近期状态权重，降低历史交锋权重",
+    "添加数据质量评估指标",
+    "矛盾信号时，推荐应更保守"
+  ]
+}

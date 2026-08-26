@@ -1,0 +1,117 @@
+{
+ "id": 205872,
+ "league": "中超",
+ "kickoff": "08-22 20:00",
+ "kickoff_iso": "2026-08-22T12:00:00+00:00",
+ "home": "Beijing Guoan",
+ "away": "Yunnan Yukun",
+ "home_id": 2044,
+ "away_id": 2039,
+ "pulled_at": "2026-08-22T01:10:59.438399+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1390,
+    "name": "Nick Montgomery",
+    "short_name": "N. Montgomery",
+    "profile": "attacking",
+    "preferred_formation": "4-4-2",
+    "matches_total": 111.0,
+    "avg_goals_scored": 2.03,
+    "avg_goals_conceded": 1.29
+   },
+   "away": {
+    "id": 1385,
+    "name": "Jordi Vinyals",
+    "short_name": "J. Vinyals",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 54.0,
+    "avg_goals_scored": 1.76,
+    "avg_goals_conceded": 1.85
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.882,
+   "away": 0.768
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-21T14:33:15Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.17,
+    "home_ga": 1.193,
+    "away_gf": 2.247,
+    "away_ga": 1.481,
+    "n_home": 8.8,
+    "n_away": 7.7,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2044
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.167,
+    "home_ga": 1.583,
+    "away_gf": 1.818,
+    "away_ga": 2.091,
+    "n_home": 12.0,
+    "n_away": 11.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

@@ -1,0 +1,3291 @@
+{
+ "ts": "2026-08-20T22:48:46.584021+08:00",
+ "window_h": 36.0,
+ "n": 56,
+ "n_draw_warn": 23,
+ "n_bet": 0,
+ "matches": [
+  {
+   "ct": "08-20 23:00",
+   "league": "欧联",
+   "home": "Kairat Almaty",
+   "away": "RSC Anderlecht",
+   "lam": {
+    "home": 0.9,
+    "away": 0.89,
+    "sum": 1.79
+   },
+   "src": {
+    "home": "bsd",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.65,
+    "odds": 1.82,
+    "ev": 0.10529259309780392,
+    "market_fair": 0.5134,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.335,
+    "wdl_market_fair": 0.2773,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 27.6,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据",
+    "队名模糊匹配",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 27.6,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 33.5,
+    "draw": 33.1,
+    "away": 33.4
+   },
+   "market_fair": {
+    "home": 27.7,
+    "draw": 27.6,
+    "away": 44.7
+   },
+   "notes": [
+    "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "客队数据来自B1",
+    "客队跨联赛用B1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队队名模糊匹配(subset), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-21 00:00",
+   "league": "欧协联",
+   "home": "Lincoln Red Imps",
+   "away": "Larne FC",
+   "lam": {
+    "home": 1.83,
+    "away": 0.38,
+    "sum": 2.21
+   },
+   "src": {
+    "home": "cur",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.6207,
+    "odds": 1.78,
+    "ev": 0.0306,
+    "market_fair": 0.5241,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.6644,
+    "wdl_market_fair": 0.4535,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 28.2,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据",
+    "队名模糊匹配",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 28.2,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 66.4,
+    "draw": 23.6,
+    "away": 10.0
+   },
+   "market_fair": {
+    "home": 45.3,
+    "draw": 28.2,
+    "away": 26.5
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队数据来自E2",
+    "主队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "主队队名模糊匹配(subset), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-21 00:00",
+   "league": "欧协联",
+   "home": "Inter Turku",
+   "away": "FC København",
+   "lam": {
+    "home": 1.82,
+    "away": 1.32,
+    "sum": 3.14
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.6076,
+    "odds": 1.6,
+    "ev": -0.0926,
+    "market_fair": 0.5833,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4599,
+    "wdl_market_fair": 0.1617,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主0/客3)",
+    "缺亚盘",
+    "队名模糊匹配"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 46.0,
+    "draw": 24.9,
+    "away": 29.1
+   },
+   "market_fair": {
+    "home": 16.2,
+    "draw": 20.7,
+    "away": 63.1
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 客队伤停3人(如Dominik Kotarski,Dominik Sarapata,Ma)",
+    "主队数据来自I1",
+    "客队数据来自DK",
+    "主队跨联赛用I1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队跨联赛用DK数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "主队队名模糊匹配(subset), 低置信",
+    "客队队名模糊匹配(fuzzy), 低置信"
+   ]
+  },
+  {
+   "ct": "08-21 00:00",
+   "league": "欧联",
+   "home": "Jagiellonia Białystok",
+   "away": "FC Iberia 1999",
+   "lam": {
+    "home": 1.13,
+    "away": 0.54,
+    "sum": 1.67
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.65,
+    "odds": 2.1,
+    "ev": 0.27397278199424235,
+    "market_fair": 0.4444,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4675,
+    "wdl_market_fair": 0.6974,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 46.7,
+    "draw": 32.8,
+    "away": 20.4
+   },
+   "market_fair": {
+    "home": 69.7,
+    "draw": 19.0,
+    "away": 11.3
+   },
+   "notes": [
+    "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-21 00:00",
+   "league": "欧联",
+   "home": "Mjällby AIF",
+   "away": "Red Bull Salzburg",
+   "lam": {
+    "home": 1.42,
+    "away": 1.19,
+    "sum": 2.62
+   },
+   "src": {
+    "home": "cur",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5144,
+    "odds": 2.3,
+    "ev": 0.1038,
+    "market_fair": 0.4057,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4051,
+    "wdl_market_fair": 0.2306,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主1/客4)",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 40.5,
+    "draw": 27.5,
+    "away": 32.0
+   },
+   "market_fair": {
+    "home": 23.1,
+    "draw": 23.9,
+    "away": 53.1
+   },
+   "notes": [
+    "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 客队伤停4人(如Anrie Chase,Enrique Aguilar,Frans Kr)",
+    "主队数据来自SW",
+    "主队跨联赛用SW数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 01:00",
+   "league": "欧协联",
+   "home": "FC Nordsjælland",
+   "away": "FC St. Gallen 1879",
+   "lam": {
+    "home": 1.98,
+    "away": 1.1,
+    "sum": 3.07
+   },
+   "src": {
+    "home": "cur",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.5929,
+    "odds": 1.42,
+    "ev": -0.2216,
+    "market_fair": 0.6511,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5277,
+    "wdl_market_fair": 0.5421,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主0/客4)",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 52.8,
+    "draw": 24.0,
+    "away": 23.2
+   },
+   "market_fair": {
+    "home": 54.2,
+    "draw": 22.6,
+    "away": 23.2
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 客队伤停4人(如Behar Neziri,Colin Noah Kleine-Bekel)",
+    "主队数据来自DK",
+    "主队跨联赛用DK数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 01:00",
+   "league": "欧协联",
+   "home": "FC Midtjylland",
+   "away": "HNK Rijeka",
+   "lam": {
+    "home": 0.82,
+    "away": 1.06,
+    "sum": 1.87
+   },
+   "src": {
+    "home": "cur",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.65,
+    "odds": 2.04,
+    "ev": 0.23356530296639955,
+    "market_fair": 0.456,
+    "wdl_name": "客胜",
+    "wdl_prob": 0.391,
+    "wdl_market_fair": 0.186,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主4/客0)",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "中度风险",
+   "wdl": {
+    "home": 28.8,
+    "draw": 32.1,
+    "away": 39.1
+   },
+   "market_fair": {
+    "home": 58.8,
+    "draw": 22.6,
+    "away": 18.6
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 主队伤停4人(如Júnior Brumado,Mikel Gogorza,Ousmane)",
+    "主队数据来自DK",
+    "主队跨联赛用DK数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-21 01:00",
+   "league": "欧协联",
+   "home": "Tromsø IL",
+   "away": "Brighton & Hove Albion",
+   "lam": {
+    "home": 1.49,
+    "away": 0.52,
+    "sum": 2.01
+   },
+   "src": {
+    "home": "bsd",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.3251,
+    "odds": 1.69,
+    "ev": -0.49,
+    "market_fair": 0.5493,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5582,
+    "wdl_market_fair": 0.1682,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主2/客3)",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 55.8,
+    "draw": 28.2,
+    "away": 16.0
+   },
+   "market_fair": {
+    "home": 16.8,
+    "draw": 22.9,
+    "away": 60.3
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 客队伤停3人(如Evan Ferguson,Yankuba Minteh,Zadok Y)",
+    "客队数据来自E1",
+    "客队跨联赛用E1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+    "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选"
+   ]
+  },
+  {
+   "ct": "08-21 01:00",
+   "league": "欧联",
+   "home": "Universitatea Craiova",
+   "away": "FC Ararat-Armenia",
+   "lam": {
+    "home": 2.47,
+    "away": 0.6,
+    "sum": 3.07
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.5929,
+    "odds": 1.7,
+    "ev": -0.0592,
+    "market_fair": 0.5491,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.7118,
+    "wdl_market_fair": 0.6523,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 71.2,
+    "draw": 18.5,
+    "away": 10.4
+   },
+   "market_fair": {
+    "home": 65.2,
+    "draw": 21.1,
+    "away": 13.7
+   },
+   "notes": [
+    "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-21 01:00",
+   "league": "欧联",
+   "home": "Trabzonspor",
+   "away": "Ferencváros TC",
+   "lam": {
+    "home": 1.5,
+    "away": 0.99,
+    "sum": 2.5
+   },
+   "src": {
+    "home": "cur",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.545,
+    "odds": 2.08,
+    "ev": 0.057,
+    "market_fair": 0.4483,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4581,
+    "wdl_market_fair": 0.5764,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 45.8,
+    "draw": 27.5,
+    "away": 26.7
+   },
+   "market_fair": {
+    "home": 57.6,
+    "draw": 22.5,
+    "away": 19.9
+   },
+   "notes": [
+    "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队数据来自TK",
+    "主队跨联赛用TK数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 01:00",
+   "league": "欧联",
+   "home": "Beşiktaş JK",
+   "away": "FK Kauno Žalgiris",
+   "lam": {
+    "home": 1.81,
+    "away": 0.8,
+    "sum": 2.6
+   },
+   "src": {
+    "home": "cur",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5173,
+    "odds": 2.76,
+    "ev": 0.3324,
+    "market_fair": 0.3381,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5591,
+    "wdl_market_fair": 0.8492,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据",
+    "队名模糊匹配"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 55.9,
+    "draw": 25.0,
+    "away": 19.0
+   },
+   "market_fair": {
+    "home": 84.9,
+    "draw": 10.8,
+    "away": 4.3
+   },
+   "notes": [
+    "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队数据来自TK",
+    "主队跨联赛用TK数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "主队队名模糊匹配(subset), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 01:00",
+   "league": "欧联",
+   "home": "KF Egnatia",
+   "away": "Lillestrøm SK",
+   "lam": {
+    "home": 2.63,
+    "away": 0.9,
+    "sum": 3.52
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.85,
+    "ev": 0.12132611241217806,
+    "market_fair": 0.504,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.6714,
+    "wdl_market_fair": 0.2848,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 26.2,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 26.2,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 67.1,
+    "draw": 18.9,
+    "away": 14.0
+   },
+   "market_fair": {
+    "home": 28.5,
+    "draw": 26.2,
+    "away": 45.3
+   },
+   "notes": [
+    "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-21 01:00",
+   "league": "欧联",
+   "home": "Lech Poznań",
+   "away": "FC Thun",
+   "lam": {
+    "home": 2.16,
+    "away": 0.97,
+    "sum": 3.13
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.6053,
+    "odds": 1.59,
+    "ev": -0.1016,
+    "market_fair": 0.587,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5834,
+    "wdl_market_fair": 0.596,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主3/客2)",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 58.3,
+    "draw": 22.6,
+    "away": 19.1
+   },
+   "market_fair": {
+    "home": 59.6,
+    "draw": 22.1,
+    "away": 18.3
+   },
+   "notes": [
+    "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 主队伤停3人(如Ali Gholizadeh,Kamil Jakóbczyk,Leo B)",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 01:30",
+   "league": "欧协联",
+   "home": "Klaksvíkar Ítróttarfelag",
+   "away": "Riga FC",
+   "lam": {
+    "home": 1.4,
+    "away": 1.13,
+    "sum": 2.53
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5355,
+    "odds": 2.21,
+    "ev": 0.1024,
+    "market_fair": 0.4215,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4113,
+    "wdl_market_fair": 0.2505,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 41.1,
+    "draw": 27.8,
+    "away": 31.0
+   },
+   "market_fair": {
+    "home": 25.0,
+    "draw": 24.5,
+    "away": 50.5
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 01:45",
+   "league": "欧协联",
+   "home": "PAOK",
+   "away": "SK Brann",
+   "lam": {
+    "home": 2.34,
+    "away": 1.01,
+    "sum": 3.35
+   },
+   "src": {
+    "home": "bsd",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.78,
+    "ev": 0.0793,
+    "market_fair": 0.5241,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.6041,
+    "wdl_market_fair": 0.546,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主0/客5)",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 60.4,
+    "draw": 21.4,
+    "away": 18.2
+   },
+   "market_fair": {
+    "home": 54.6,
+    "draw": 25.4,
+    "away": 20.0
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 客队伤停5人(如Jonas Torsvik,Rabbi Matondo,Sævar At)",
+    "客队数据来自NO",
+    "客队跨联赛用NO数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 02:00",
+   "league": "欧协联",
+   "home": "Víkingur Reykjavík",
+   "away": "FK Borac Banja Luka",
+   "lam": {
+    "home": 2.42,
+    "away": 0.94,
+    "sum": 3.37
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.61,
+    "ev": -0.03091632247208176,
+    "market_fair": 0.5752,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.6321,
+    "wdl_market_fair": 0.5806,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 63.2,
+    "draw": 20.5,
+    "away": 16.3
+   },
+   "market_fair": {
+    "home": 58.1,
+    "draw": 22.8,
+    "away": 19.1
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-21 02:00",
+   "league": "欧协联",
+   "home": "FC Twente",
+   "away": "Qarabağ FK",
+   "lam": {
+    "home": 1.6,
+    "away": 0.81,
+    "sum": 2.41
+   },
+   "src": {
+    "home": "cur",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5667,
+    "odds": 2.08,
+    "ev": 0.0954,
+    "market_fair": 0.4468,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5146,
+    "wdl_market_fair": 0.5787,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 51.5,
+    "draw": 26.9,
+    "away": 21.6
+   },
+   "market_fair": {
+    "home": 57.9,
+    "draw": 23.3,
+    "away": 18.9
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队数据来自D1",
+    "主队跨联赛用D1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 02:00",
+   "league": "欧协联",
+   "home": "Górnik Zabrze",
+   "away": "AS Monaco",
+   "lam": {
+    "home": 1.72,
+    "away": 0.95,
+    "sum": 2.67
+   },
+   "src": {
+    "home": "bsd",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5009,
+    "odds": 2.05,
+    "ev": -0.0427,
+    "market_fair": 0.4548,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5109,
+    "wdl_market_fair": 0.1791,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主1/客3)",
+    "缺亚盘",
+    "非独立数据",
+    "队名模糊匹配"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 51.1,
+    "draw": 25.9,
+    "away": 23.1
+   },
+   "market_fair": {
+    "home": 17.9,
+    "draw": 21.3,
+    "away": 60.8
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 客队伤停3人(如Ansu Fati,Edan Diop,Matthis Abline)",
+    "客队数据来自F1",
+    "客队跨联赛用F1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队队名模糊匹配(subset), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 02:00",
+   "league": "欧协联",
+   "home": "FC Drita",
+   "away": "Inter Club d'Escaldes",
+   "lam": {
+    "home": 1.11,
+    "away": 1.5,
+    "sum": 2.61
+   },
+   "src": {
+    "home": "bsd",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5159,
+    "odds": 2.02,
+    "ev": -0.032,
+    "market_fair": 0.4599,
+    "wdl_name": "客胜",
+    "wdl_prob": 0.4335,
+    "wdl_market_fair": 0.1864,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据",
+    "队名模糊匹配"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 29.4,
+    "draw": 27.3,
+    "away": 43.3
+   },
+   "market_fair": {
+    "home": 58.0,
+    "draw": 23.3,
+    "away": 18.6
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "客队数据来自I1",
+    "客队跨联赛用I1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队队名模糊匹配(subset), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 02:00",
+   "league": "欧联",
+   "home": "OFI Crete",
+   "away": "CSKA Sofia",
+   "lam": {
+    "home": 0.84,
+    "away": 1.06,
+    "sum": 1.9
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.65,
+    "odds": 1.74,
+    "ev": 0.05722001137009691,
+    "market_fair": 0.5372,
+    "wdl_name": "客胜",
+    "wdl_prob": 0.3877,
+    "wdl_market_fair": 0.3557,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 28.9,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 28.9,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 29.3,
+    "draw": 31.9,
+    "away": 38.8
+   },
+   "market_fair": {
+    "home": 35.6,
+    "draw": 28.9,
+    "away": 35.6
+   },
+   "notes": [
+    "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-21 02:00",
+   "league": "欧联",
+   "home": "Sint-Truidense VV",
+   "away": "Omonia Nicosia",
+   "lam": {
+    "home": 1.01,
+    "away": 0.65,
+    "sum": 1.66
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.65,
+    "odds": 1.91,
+    "ev": 0.1569746258946001,
+    "market_fair": 0.4879,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4122,
+    "wdl_market_fair": 0.5061,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 26.2,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 26.2,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 41.2,
+    "draw": 33.8,
+    "away": 25.0
+   },
+   "market_fair": {
+    "home": 50.6,
+    "draw": 26.2,
+    "away": 23.2
+   },
+   "notes": [
+    "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-21 02:00",
+   "league": "欧联",
+   "home": "FK Crvena Zvezda",
+   "away": "FC Viktoria Plzeň",
+   "lam": {
+    "home": 1.54,
+    "away": 0.98,
+    "sum": 2.53
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5373,
+    "odds": 2.09,
+    "ev": 0.0493,
+    "market_fair": 0.4471,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4683,
+    "wdl_market_fair": 0.5516,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 46.8,
+    "draw": 27.2,
+    "away": 25.9
+   },
+   "market_fair": {
+    "home": 55.2,
+    "draw": 23.3,
+    "away": 21.5
+   },
+   "notes": [
+    "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 02:15",
+   "league": "欧协联",
+   "home": "FC Sion",
+   "away": "AFC Ajax",
+   "lam": {
+    "home": 2.46,
+    "away": 0.57,
+    "sum": 3.03
+   },
+   "src": {
+    "home": "bsd",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.5832,
+    "odds": 1.56,
+    "ev": -0.1558,
+    "market_fair": 0.5948,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.7167,
+    "wdl_market_fair": 0.228,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 71.7,
+    "draw": 18.4,
+    "away": 9.9
+   },
+   "market_fair": {
+    "home": 22.8,
+    "draw": 22.3,
+    "away": 54.9
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "客队数据来自N1",
+    "客队跨联赛用N1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-21 02:30",
+   "league": "欧协联",
+   "home": "KAA Gent",
+   "away": "Hibernian",
+   "lam": {
+    "home": 1.17,
+    "away": 1.05,
+    "sum": 2.22
+   },
+   "src": {
+    "home": "cur",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.6164,
+    "odds": 1.82,
+    "ev": 0.0455,
+    "market_fair": 0.5121,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.3738,
+    "wdl_market_fair": 0.5917,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主1/客4)",
+    "缺亚盘",
+    "非独立数据",
+    "队名模糊匹配"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "中度风险",
+   "wdl": {
+    "home": 37.4,
+    "draw": 29.8,
+    "away": 32.9
+   },
+   "market_fair": {
+    "home": 59.2,
+    "draw": 24.1,
+    "away": 16.7
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 客队伤停4人(如Jack Iredale,Jamie McGrath,Nicky Cad)",
+    "主队数据来自B1",
+    "主队跨联赛用B1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "主队队名模糊匹配(subset), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 02:30",
+   "league": "欧协联",
+   "home": "FC Lugano",
+   "away": "Maccabi Tel Aviv",
+   "lam": {
+    "home": 1.76,
+    "away": 0.83,
+    "sum": 2.59
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5209,
+    "odds": 1.85,
+    "ev": -0.1039,
+    "market_fair": 0.5027,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5416,
+    "wdl_market_fair": 0.4634,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 26.3,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 26.3,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 54.2,
+    "draw": 25.5,
+    "away": 20.3
+   },
+   "market_fair": {
+    "home": 46.3,
+    "draw": 26.3,
+    "away": 27.3
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 02:30",
+   "league": "欧协联",
+   "home": "Motherwell",
+   "away": "SC Freiburg",
+   "lam": {
+    "home": 1.63,
+    "away": 0.72,
+    "sum": 2.35
+   },
+   "src": {
+    "home": "bsd",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5826,
+    "odds": 2.33,
+    "ev": 0.2586,
+    "market_fair": 0.3979,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5425,
+    "wdl_market_fair": 0.148,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主5/客2)",
+    "缺亚盘",
+    "非独立数据",
+    "队名模糊匹配"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 54.3,
+    "draw": 26.6,
+    "away": 19.1
+   },
+   "market_fair": {
+    "home": 14.8,
+    "draw": 20.0,
+    "away": 65.2
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 主队伤停5人(如Apostolos Stamatelopoulos,Callum Hen)",
+    "客队数据来自D1",
+    "客队跨联赛用D1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队队名模糊匹配(subset), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 02:30",
+   "league": "欧协联",
+   "home": "Panathinaikos FC",
+   "away": "FC Hradec Králové",
+   "lam": {
+    "home": 1.45,
+    "away": 1.06,
+    "sum": 2.51
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5405,
+    "odds": 1.81,
+    "ev": -0.0862,
+    "market_fair": 0.516,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.433,
+    "wdl_market_fair": 0.6357,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主4/客0)",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 43.3,
+    "draw": 27.7,
+    "away": 29.0
+   },
+   "market_fair": {
+    "home": 63.6,
+    "draw": 22.6,
+    "away": 13.8
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 主队伤停4人(如Erik Palmer Brown,Georgios Katris,Ge)",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 02:30",
+   "league": "欧协联",
+   "home": "Atalanta",
+   "away": "Hapoel Tel Aviv",
+   "lam": {
+    "home": 1.67,
+    "away": 0.9,
+    "sum": 2.56
+   },
+   "src": {
+    "home": "cur",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5274,
+    "odds": 2.81,
+    "ev": 0.3715,
+    "market_fair": 0.3294,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5096,
+    "wdl_market_fair": 0.8088,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主3/客0)",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 51.0,
+    "draw": 26.3,
+    "away": 22.7
+   },
+   "market_fair": {
+    "home": 80.9,
+    "draw": 12.6,
+    "away": 6.6
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 主队伤停3人(如Honest Ahanor,Isak Hien,Kamaldeen Su)",
+    "主队数据来自I1",
+    "主队跨联赛用I1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 02:45",
+   "league": "欧协联",
+   "home": "Heart of Midlothian",
+   "away": "SK Rapid Wien",
+   "lam": {
+    "home": 1.44,
+    "away": 0.98,
+    "sum": 2.42
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5654,
+    "odds": 2.03,
+    "ev": 0.0687,
+    "market_fair": 0.4587,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4464,
+    "wdl_market_fair": 0.3982,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 26.8,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主4/客6)",
+    "缺亚盘",
+    "非独立数据",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 26.8,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 44.6,
+    "draw": 28.1,
+    "away": 27.3
+   },
+   "market_fair": {
+    "home": 39.8,
+    "draw": 26.8,
+    "away": 33.4
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 主队伤停4人(如Ageu,Craig Halkett,Malachi Fagan-Wal); 客队伤停6人(如Andrija Radulović,Claudy Mbuyi,Danie)",
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 02:45",
+   "league": "欧协联",
+   "home": "Rangers",
+   "away": "FK Jablonec",
+   "lam": {
+    "home": 1.64,
+    "away": 1.34,
+    "sum": 2.98
+   },
+   "src": {
+    "home": "cur",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.5714,
+    "odds": 1.7,
+    "ev": -0.0973,
+    "market_fair": 0.5467,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4232,
+    "wdl_market_fair": 0.6796,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主3/客0)",
+    "缺亚盘",
+    "非独立数据",
+    "队名模糊匹配"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 42.3,
+    "draw": 25.9,
+    "away": 31.8
+   },
+   "market_fair": {
+    "home": 68.0,
+    "draw": 19.8,
+    "away": 12.2
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 主队伤停3人(如Ben Godfrey,José Cifuentes,Youssef C)",
+    "主队数据来自E2",
+    "主队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "主队队名模糊匹配(subset), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 03:00",
+   "league": "西甲",
+   "home": "Rayo Vallecano",
+   "away": "Alavés",
+   "lam": {
+    "home": 1.23,
+    "away": 0.87,
+    "sum": 2.1
+   },
+   "src": {
+    "home": "market",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.6491,
+    "odds": 1.65,
+    "ev": 0.0646,
+    "market_fair": 0.6024,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4239,
+    "wdl_market_fair": 0.4189,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 31.2,
+     "strong": true
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "非独立数据",
+    "队名/数据缺失",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 31.2,
+    "strong": true
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 42.4,
+    "draw": 30.2,
+    "away": 27.4
+   },
+   "market_fair": {
+    "home": 41.9,
+    "draw": 31.2,
+    "away": 26.9
+   },
+   "notes": [
+    "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 03:00",
+   "league": "欧协联",
+   "home": "Shamrock Rovers",
+   "away": "Kuopion Palloseura",
+   "lam": {
+    "home": 1.2,
+    "away": 0.67,
+    "sum": 1.87
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.65,
+    "odds": 1.83,
+    "ev": 0.10878055633604955,
+    "market_fair": 0.5094,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4586,
+    "wdl_market_fair": 0.4642,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 26.7,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 26.7,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 45.9,
+    "draw": 31.3,
+    "away": 22.8
+   },
+   "market_fair": {
+    "home": 46.4,
+    "draw": 26.7,
+    "away": 26.9
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-21 03:00",
+   "league": "欧协联",
+   "home": "Dinamo City",
+   "away": "Pafos FC",
+   "lam": {
+    "home": 1.65,
+    "away": 0.41,
+    "sum": 2.06
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.3403,
+    "odds": 1.99,
+    "ev": -0.3714,
+    "market_fair": 0.4665,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.6198,
+    "wdl_market_fair": 0.2409,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 27.4,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 27.4,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 62.0,
+    "draw": 26.0,
+    "away": 12.1
+   },
+   "market_fair": {
+    "home": 24.1,
+    "draw": 27.4,
+    "away": 48.6
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+    "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选"
+   ]
+  },
+  {
+   "ct": "08-21 03:00",
+   "league": "欧协联",
+   "home": "HNK Hajduk Split",
+   "away": "Raków Częstochowa",
+   "lam": {
+    "home": 1.72,
+    "away": 0.61,
+    "sum": 2.33
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5888,
+    "odds": 1.73,
+    "ev": -0.0507,
+    "market_fair": 0.5387,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5846,
+    "wdl_market_fair": 0.4589,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 28.4,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 28.4,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 58.5,
+    "draw": 25.6,
+    "away": 15.9
+   },
+   "market_fair": {
+    "home": 45.9,
+    "draw": 28.4,
+    "away": 25.7
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 03:00",
+   "league": "欧协联",
+   "home": "Getafe",
+   "away": "FK Partizan",
+   "lam": {
+    "home": 1.02,
+    "away": 1.01,
+    "sum": 2.04
+   },
+   "src": {
+    "home": "cur",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.3337,
+    "odds": 1.96,
+    "ev": -0.39,
+    "market_fair": 0.4759,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.3469,
+    "wdl_market_fair": 0.7148,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主3/客0)",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "中度风险",
+   "wdl": {
+    "home": 34.7,
+    "draw": 31.1,
+    "away": 34.2
+   },
+   "market_fair": {
+    "home": 71.5,
+    "draw": 19.3,
+    "away": 9.2
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 主队伤停3人(如Christantus Uche,Francho Serrano,Jua)",
+    "主队数据来自SP1",
+    "主队跨联赛用SP1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+    "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选"
+   ]
+  },
+  {
+   "ct": "08-21 03:00",
+   "league": "欧协联",
+   "home": "Sporting Braga",
+   "away": "FK Austria Wien",
+   "lam": {
+    "home": 2.27,
+    "away": 0.77,
+    "sum": 3.03
+   },
+   "src": {
+    "home": "bsd",
+    "away": "bsd"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.5835,
+    "odds": 1.59,
+    "ev": -0.1357,
+    "market_fair": 0.5859,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.6442,
+    "wdl_market_fair": 0.7044,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 64.4,
+    "draw": 21.1,
+    "away": 14.5
+   },
+   "market_fair": {
+    "home": 70.4,
+    "draw": 18.4,
+    "away": 11.2
+   },
+   "notes": [
+    "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队攻防仅旧赛季(BSD), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 03:00",
+   "league": "欧联",
+   "home": "Benfica",
+   "away": "AGF",
+   "lam": {
+    "home": 1.85,
+    "away": 0.7,
+    "sum": 2.55
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5304,
+    "odds": 3.21,
+    "ev": 0.5754,
+    "market_fair": 0.2882,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5869,
+    "wdl_market_fair": 0.7947,
+    "vetoed": true,
+    "veto_reason": "模型与市场分歧>20pp(模型53% vs 市场29%)",
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "伤停>2人(主0/客8)",
+    "缺亚盘",
+    "模型与市场分歧>20pp(模型53% vs 市场29%)->否决"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 58.7,
+    "draw": 24.5,
+    "away": 16.8
+   },
+   "market_fair": {
+    "home": 79.5,
+    "draw": 13.1,
+    "away": 7.4
+   },
+   "notes": [
+    "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "数据包伤停: 客队伤停8人(如Frederik Tingager,Gift Links,Jacob A)",
+    "主队数据来自P1",
+    "客队数据来自DK",
+    "主队跨联赛用P1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队跨联赛用DK数据(快照联赛与数据联赛不符), 攻防收缩30%"
+   ]
+  },
+  {
+   "ct": "08-21 03:00",
+   "league": "西甲",
+   "home": "Rayo Vallecano",
+   "away": "Deportivo Alavés",
+   "lam": {
+    "home": 1.89,
+    "away": 0.56,
+    "sum": 2.45
+   },
+   "src": {
+    "home": "bsd",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5562,
+    "odds": 1.45,
+    "ev": -0.2462,
+    "market_fair": 0.6446,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.6264,
+    "wdl_market_fair": 0.4189,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 31.4,
+     "strong": true
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "缺亚盘",
+    "非独立数据",
+    "队名模糊匹配",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 31.4,
+    "strong": true
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 62.6,
+    "draw": 23.7,
+    "away": 13.6
+   },
+   "market_fair": {
+    "home": 41.9,
+    "draw": 31.4,
+    "away": 26.7
+   },
+   "notes": [
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "主队攻防仅旧赛季(BSD), 低置信",
+    "客队队名模糊匹配(subset), 低置信",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-21 18:00",
+   "league": "J1",
+   "home": "Kashiwa Reysol",
+   "away": "V-Varen Nagasaki",
+   "lam": {
+    "home": 1.51,
+    "away": 1.51,
+    "sum": 3.02
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球客(+0.8)",
+    "prob": 0.6212,
+    "odds": 2.03,
+    "ev": 0.2136,
+    "market_fair": 0.4741,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.3704,
+    "wdl_market_fair": 0.5843,
+    "vetoed": true,
+    "veto_reason": "盘口过期(距开赛44h>阈值12h)",
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "盘口过期(距开赛44h>阈值12h)->否决"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "中度风险",
+   "wdl": {
+    "home": 37.0,
+    "draw": 25.9,
+    "away": 37.0
+   },
+   "market_fair": {
+    "home": 58.4,
+    "draw": 24.2,
+    "away": 17.3
+   },
+   "notes": [
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "客队样本偏少, 攻防向联赛均值收缩"
+   ]
+  },
+  {
+   "ct": "08-21 18:30",
+   "league": "J1",
+   "home": "FC Tokyo",
+   "away": "JEF United Chiba",
+   "lam": {
+    "home": 1.51,
+    "away": 1.51,
+    "sum": 3.02
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球客(+1.0)",
+    "prob": 0.65,
+    "odds": 1.93,
+    "ev": 0.20747845426744527,
+    "market_fair": 0.4987,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.3704,
+    "wdl_market_fair": 0.6348,
+    "vetoed": true,
+    "veto_reason": "盘口过期(距开赛44h>阈值12h)",
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "盘口过期(距开赛44h>阈值12h)->否决"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "中度风险",
+   "wdl": {
+    "home": 37.0,
+    "draw": 25.9,
+    "away": 37.0
+   },
+   "market_fair": {
+    "home": 63.5,
+    "draw": 22.8,
+    "away": 13.7
+   },
+   "notes": [
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-22 01:00",
+   "league": "瑞超",
+   "home": "IK Sirius",
+   "away": "BK Hacken",
+   "lam": {
+    "home": 2.97,
+    "away": 1.39,
+    "sum": 4.37
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.39,
+    "ev": -0.14914197530864193,
+    "market_fair": 0.6775,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.6247,
+    "wdl_market_fair": 0.5334,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "λ过高(4.37)"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 62.5,
+    "draw": 19.1,
+    "away": 18.4
+   },
+   "market_fair": {
+    "home": 53.3,
+    "draw": 21.8,
+    "away": 24.8
+   },
+   "notes": [
+    "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+    "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选"
+   ]
+  },
+  {
+   "ct": "08-22 01:30",
+   "league": "阿甲",
+   "home": "Aldosivi Mar del Plata",
+   "away": "Union Santa Fe",
+   "lam": {
+    "home": 0.81,
+    "away": 0.92,
+    "sum": 1.73
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.65,
+    "odds": 1.53,
+    "ev": -0.056053721769343756,
+    "market_fair": 0.6203,
+    "wdl_name": "客胜",
+    "wdl_prob": 0.3531,
+    "wdl_market_fair": 0.4014,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 32.3,
+     "strong": true
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "队名模糊匹配",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 32.3,
+    "strong": true
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 30.3,
+    "draw": 34.4,
+    "away": 35.3
+   },
+   "market_fair": {
+    "home": 27.5,
+    "draw": 32.3,
+    "away": 40.1
+   },
+   "notes": [
+    "主队队名模糊匹配(subset), 低置信",
+    "客队队名模糊匹配(fuzzy), 低置信",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-22 02:00",
+   "league": "法乙",
+   "home": "Boulogne",
+   "away": "Red Star",
+   "lam": {
+    "home": 1.08,
+    "away": 1.3,
+    "sum": 2.38
+   },
+   "src": {
+    "home": "cur",
+    "away": "market"
+   },
+   "dir": {
+    "name": "让球主(+0.2)",
+    "prob": 0.5911,
+    "odds": 1.87,
+    "ev": 0.0604,
+    "market_fair": 0.513,
+    "wdl_name": "客胜",
+    "wdl_prob": 0.3933,
+    "wdl_market_fair": 0.398,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 29.4,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "联赛基准偏差(λ已平移)",
+    "小球校准折扣",
+    "非独立数据",
+    "队名/数据缺失",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 29.4,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 31.1,
+    "draw": 29.6,
+    "away": 39.3
+   },
+   "market_fair": {
+    "home": 30.8,
+    "draw": 29.4,
+    "away": 39.8
+   },
+   "notes": [
+    "联赛基准偏差: 法乙 配置2.25 vs 近30场实测2.63 (Δ+0.38), λ基准已平移50% -> 2.44",
+    "客队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+    "非独立数据场次, best_bet禁用",
+    "小球EV校准: 基准上移Δ+0.38球, 小盘EV×0.81(防小球虚高)"
+   ]
+  },
+  {
+   "ct": "08-22 02:00",
+   "league": "法乙",
+   "home": "USL Dunkerque",
+   "away": "Montpellier",
+   "lam": {
+    "home": 0.39,
+    "away": 0.78,
+    "sum": 1.17
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.65,
+    "odds": 1.93,
+    "ev": 0.10761937013206913,
+    "market_fair": 0.4934,
+    "wdl_name": "平局",
+    "wdl_prob": 0.4058,
+    "wdl_market_fair": 0.2726,
+    "vetoed": true,
+    "veto_reason": "盘口过期(距开赛52h>阈值12h)",
+    "draw_warn": {
+     "market_draw_prob": 27.3,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "联赛基准偏差(λ已平移)",
+    "小球校准折扣",
+    "队名模糊匹配",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛52h>阈值12h)->否决"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 27.3,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "低风险",
+   "wdl": {
+    "home": 19.5,
+    "draw": 40.6,
+    "away": 39.9
+   },
+   "market_fair": {
+    "home": 37.4,
+    "draw": 27.3,
+    "away": 35.3
+   },
+   "notes": [
+    "联赛基准偏差: 法乙 配置2.25 vs 近30场实测2.63 (Δ+0.38), λ基准已平移50% -> 2.44",
+    "主队队名模糊匹配(subset), 低置信",
+    "小球EV校准: 基准上移Δ+0.38球, 小盘EV×0.81(防小球虚高)",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-22 02:00",
+   "league": "法乙",
+   "home": "Pau FC",
+   "away": "Nancy",
+   "lam": {
+    "home": 0.96,
+    "away": 1.63,
+    "sum": 2.59
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球客(+0.2)",
+    "prob": 0.65,
+    "odds": 1.88,
+    "ev": 0.16970103487926425,
+    "market_fair": 0.5091,
+    "wdl_name": "客胜",
+    "wdl_prob": 0.4866,
+    "wdl_market_fair": 0.2979,
+    "vetoed": true,
+    "veto_reason": "盘口过期(距开赛52h>阈值12h)",
+    "draw_warn": {
+     "market_draw_prob": 28.0,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "联赛基准偏差(λ已平移)",
+    "小球校准折扣",
+    "队名模糊匹配",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛52h>阈值12h)->否决"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 28.0,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "低风险",
+   "wdl": {
+    "home": 24.0,
+    "draw": 27.4,
+    "away": 48.7
+   },
+   "market_fair": {
+    "home": 42.2,
+    "draw": 28.0,
+    "away": 29.8
+   },
+   "notes": [
+    "联赛基准偏差: 法乙 配置2.25 vs 近30场实测2.63 (Δ+0.38), λ基准已平移50% -> 2.44",
+    "主队队名模糊匹配(subset), 低置信",
+    "客队队名模糊匹配(subset), 低置信",
+    "小球EV校准: 基准上移Δ+0.38球, 小盘EV×0.81(防小球虚高)",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-22 02:00",
+   "league": "法乙",
+   "home": "Clermont",
+   "away": "Dijon",
+   "lam": {
+    "home": 1.28,
+    "away": 1.16,
+    "sum": 2.44
+   },
+   "src": {
+    "home": "market",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球客(+0.2)",
+    "prob": 0.6132,
+    "odds": 1.72,
+    "ev": 0.014,
+    "market_fair": 0.559,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.376,
+    "wdl_market_fair": 0.3682,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 28.0,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "联赛基准偏差(λ已平移)",
+    "小球校准折扣",
+    "非独立数据",
+    "队名/数据缺失",
+    "队名模糊匹配",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 28.0,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 37.6,
+    "draw": 29.3,
+    "away": 33.1
+   },
+   "market_fair": {
+    "home": 36.8,
+    "draw": 28.0,
+    "away": 35.2
+   },
+   "notes": [
+    "联赛基准偏差: 法乙 配置2.25 vs 近30场实测2.63 (Δ+0.38), λ基准已平移50% -> 2.44",
+    "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+    "客队队名模糊匹配(subset), 低置信",
+    "非独立数据场次, best_bet禁用",
+    "小球EV校准: 基准上移Δ+0.38球, 小盘EV×0.81(防小球虚高)"
+   ]
+  },
+  {
+   "ct": "08-22 02:00",
+   "league": "法乙",
+   "home": "Sochaux",
+   "away": "Guingamp",
+   "lam": {
+    "home": 1.62,
+    "away": 1.04,
+    "sum": 2.67
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球主(+0.2)",
+    "prob": 0.65,
+    "odds": 1.78,
+    "ev": 0.11218421052631578,
+    "market_fair": 0.5401,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4677,
+    "wdl_market_fair": 0.3249,
+    "vetoed": true,
+    "veto_reason": "盘口过期(距开赛52h>阈值12h)",
+    "draw_warn": {
+     "market_draw_prob": 27.8,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "联赛基准偏差(λ已平移)",
+    "小球校准折扣",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛52h>阈值12h)->否决"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 27.8,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "低风险",
+   "wdl": {
+    "home": 46.8,
+    "draw": 27.4,
+    "away": 25.9
+   },
+   "market_fair": {
+    "home": 32.5,
+    "draw": 27.8,
+    "away": 39.7
+   },
+   "notes": [
+    "联赛基准偏差: 法乙 配置2.25 vs 近30场实测2.63 (Δ+0.38), λ基准已平移50% -> 2.44",
+    "主队样本偏少, 攻防向联赛均值收缩",
+    "小球EV校准: 基准上移Δ+0.38球, 小盘EV×0.81(防小球虚高)",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-22 02:30",
+   "league": "土超",
+   "home": "Erzurum BB",
+   "away": "Galatasaray",
+   "lam": {
+    "home": 0.72,
+    "away": 1.48,
+    "sum": 2.2
+   },
+   "src": {
+    "home": "market",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.6219,
+    "odds": 2.11,
+    "ev": 0.2243,
+    "market_fair": 0.459,
+    "wdl_name": "客胜",
+    "wdl_prob": 0.5044,
+    "wdl_market_fair": 0.6906,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "联赛基准偏差(λ已平移)",
+    "小球校准折扣",
+    "非独立数据",
+    "队名/数据缺失"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 20.6,
+    "draw": 29.0,
+    "away": 50.4
+   },
+   "market_fair": {
+    "home": 11.1,
+    "draw": 19.9,
+    "away": 69.1
+   },
+   "notes": [
+    "联赛基准偏差: 土超 配置2.56 vs 近30场实测2.90 (Δ+0.34), λ基准已平移50% -> 2.73",
+    "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+    "非独立数据场次, best_bet禁用",
+    "小球EV校准: 基准上移Δ+0.34球, 小盘EV×0.83(防小球虚高)"
+   ]
+  },
+  {
+   "ct": "08-22 02:45",
+   "league": "法甲",
+   "home": "Marseille",
+   "away": "Strasbourg",
+   "lam": {
+    "home": 2.5,
+    "away": 1.01,
+    "sum": 3.51
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.52,
+    "ev": -0.06897563839154686,
+    "market_fair": 0.62,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.6263,
+    "wdl_market_fair": 0.5633,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 62.6,
+    "draw": 21.0,
+    "away": 16.4
+   },
+   "market_fair": {
+    "home": 56.3,
+    "draw": 22.1,
+    "away": 21.6
+   },
+   "notes": [
+    "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+    "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选"
+   ]
+  },
+  {
+   "ct": "08-22 02:45",
+   "league": "比甲",
+   "home": "Standard Liege",
+   "away": "RAAL La Louvière",
+   "lam": {
+    "home": 1.05,
+    "away": 0.67,
+    "sum": 1.72
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.65,
+    "odds": 1.81,
+    "ev": 0.13084795321637444,
+    "market_fair": 0.5311,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4122,
+    "wdl_market_fair": 0.5086,
+    "vetoed": true,
+    "veto_reason": "盘口过期(距开赛53h>阈值12h)",
+    "draw_warn": {
+     "market_draw_prob": 26.1,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "队名模糊匹配",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛53h>阈值12h)->否决"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 26.1,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "低风险",
+   "wdl": {
+    "home": 41.2,
+    "draw": 34.2,
+    "away": 24.6
+   },
+   "market_fair": {
+    "home": 50.9,
+    "draw": 26.1,
+    "away": 23.1
+   },
+   "notes": [
+    "主队队名模糊匹配(subset), 低置信",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-22 03:00",
+   "league": "英超",
+   "home": "Arsenal",
+   "away": "Coventry City",
+   "lam": {
+    "home": 1.59,
+    "away": 0.77,
+    "sum": 2.36
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球客(+1.5)",
+    "prob": 0.65,
+    "odds": 2.47,
+    "ev": 0.582310912240185,
+    "market_fair": 0.399,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5222,
+    "wdl_market_fair": 0.8279,
+    "vetoed": true,
+    "veto_reason": "盘口过期(距开赛53h>阈值12h)",
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "盘口过期(距开赛53h>阈值12h)->否决"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 52.2,
+    "draw": 27.0,
+    "away": 20.8
+   },
+   "market_fair": {
+    "home": 82.8,
+    "draw": 12.1,
+    "away": 5.1
+   },
+   "notes": [
+    "客队数据来自E2",
+    "客队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-22 03:00",
+   "league": "西甲",
+   "home": "Real Betis",
+   "away": "Real Sociedad",
+   "lam": {
+    "home": 1.74,
+    "away": 0.75,
+    "sum": 2.49
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球主(-0.5)",
+    "prob": 0.6118,
+    "odds": 2.14,
+    "ev": 0.3028,
+    "market_fair": 0.465,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5568,
+    "wdl_market_fair": 0.4651,
+    "vetoed": true,
+    "veto_reason": "盘口过期(距开赛29h>阈值12h)",
+    "draw_warn": {
+     "market_draw_prob": 27.6,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "队名模糊匹配",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛29h>阈值12h)->否决"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 27.6,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "低风险",
+   "wdl": {
+    "home": 55.7,
+    "draw": 25.6,
+    "away": 18.7
+   },
+   "market_fair": {
+    "home": 46.5,
+    "draw": 27.6,
+    "away": 25.8
+   },
+   "notes": [
+    "主队队名模糊匹配(subset), 低置信",
+    "客队队名模糊匹配(subset), 低置信"
+   ]
+  },
+  {
+   "ct": "08-22 03:00",
+   "league": "西乙",
+   "home": "Córdoba",
+   "away": "Girona FC",
+   "lam": {
+    "home": 1.73,
+    "away": 1.02,
+    "sum": 2.75
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球主(+0.2)",
+    "prob": 0.65,
+    "odds": 1.91,
+    "ev": 0.19487982613142418,
+    "market_fair": 0.5039,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4939,
+    "wdl_market_fair": 0.3059,
+    "vetoed": true,
+    "veto_reason": "盘口过期(距开赛53h>阈值12h)",
+    "draw_warn": {
+     "market_draw_prob": 27.5,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛53h>阈值12h)->否决"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 27.5,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "低风险",
+   "wdl": {
+    "home": 49.4,
+    "draw": 26.6,
+    "away": 24.0
+   },
+   "market_fair": {
+    "home": 30.6,
+    "draw": 27.5,
+    "away": 41.9
+   },
+   "notes": [
+    "客队数据来自SP1",
+    "客队跨联赛用SP1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-22 07:00",
+   "league": "阿甲",
+   "home": "Estudiantes de Río Cuarto",
+   "away": "San Lorenzo",
+   "lam": {
+    "home": 0.29,
+    "away": 0.4,
+    "sum": 0.69
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球客(+0.2)",
+    "prob": 0.65,
+    "odds": 1.61,
+    "ev": 0.001621294615850033,
+    "market_fair": 0.5945,
+    "wdl_name": "平局",
+    "wdl_prob": 0.5193,
+    "wdl_market_fair": 0.3418,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 34.2,
+     "strong": true
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 34.2,
+    "strong": true
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 20.2,
+    "draw": 51.9,
+    "away": 27.9
+   },
+   "market_fair": {
+    "home": 30.4,
+    "draw": 34.2,
+    "away": 35.5
+   },
+   "notes": [
+    "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-22 08:30",
+   "league": "智利甲",
+   "home": "Audax Italiano",
+   "away": "Union La Calera",
+   "lam": {
+    "home": 2.98,
+    "away": 0.36,
+    "sum": 3.34
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球主(-0.5)",
+    "prob": 0.65,
+    "odds": 1.93,
+    "ev": 0.20102970965563838,
+    "market_fair": 0.4961,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.8253,
+    "wdl_market_fair": 0.4894,
+    "vetoed": true,
+    "veto_reason": "盘口过期(距开赛58h>阈值12h)",
+    "draw_warn": {
+     "market_draw_prob": 27.5,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "联赛基准偏差(λ已平移)",
+    "小球校准折扣",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛58h>阈值12h)->否决"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 27.5,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "低风险",
+   "wdl": {
+    "home": 82.5,
+    "draw": 13.0,
+    "away": 4.5
+   },
+   "market_fair": {
+    "home": 48.9,
+    "draw": 27.5,
+    "away": 23.5
+   },
+   "notes": [
+    "联赛基准偏差: 智利甲 配置2.85 vs 近30场实测3.23 (Δ+0.38), λ基准已平移50% -> 3.04",
+    "小球EV校准: 基准上移Δ+0.38球, 小盘EV×0.81(防小球虚高)",
+    "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-22 09:00",
+   "league": "墨超",
+   "home": "Tigres",
+   "away": "Atlante FC",
+   "lam": {
+    "home": 2.27,
+    "away": 0.85,
+    "sum": 3.12
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.6033,
+    "odds": 1.7,
+    "ev": -0.0164,
+    "market_fair": 0.5641,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.6228,
+    "wdl_market_fair": 0.6449,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "队名模糊匹配"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 62.3,
+    "draw": 22.0,
+    "away": 15.7
+   },
+   "market_fair": {
+    "home": 64.5,
+    "draw": 21.0,
+    "away": 14.5
+   },
+   "notes": [
+    "客队样本偏少, 攻防向联赛均值收缩",
+    "主队队名模糊匹配(subset), 低置信",
+    "客队队名模糊匹配(subset), 低置信"
+   ]
+  }
+ ]
+}

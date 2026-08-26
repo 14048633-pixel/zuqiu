@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>临场赔率填写 - K2 6场</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Microsoft YaHei", sans-serif; background: #1a1a2e; color: #eee; padding: 20px; }
+  .container { max-width: 880px; margin: 0 auto; }
+  h1 { text-align: center; margin-bottom: 8px; color: #e94560; font-size: 24px; }
+  .subtitle { text-align: center; color: #888; margin-bottom: 20px; font-size: 14px; }
+  .match-card { background: #16213e; border-radius: 12px; padding: 16px; margin-bottom: 14px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+  .match-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 5px; }
+  .teams { font-weight: bold; font-size: 15px; }
+  .init-info { font-size: 11px; color: #aaa; background: #0f3460; padding: 4px 8px; border-radius: 6px; }
+  .section-title { font-size: 12px; color: #e94560; margin: 8px 0 5px; font-weight: bold; }
+  .grid { display: grid; gap: 6px; }
+  .grid-4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+  .grid-3 { grid-template-columns: 1fr 1fr 1fr; }
+  .grid-2 { grid-template-columns: 1fr 1fr; }
+  .field input { width: 100%; padding: 7px; background: #0f3460; border: 1px solid #333; border-radius: 6px; color: #fff; font-size: 14px; }
+  .field input:focus { outline: none; border-color: #e94560; }
+  .field label { display: block; font-size: 11px; color: #888; margin-bottom: 3px; }
+  .btn-group { display: flex; gap: 10px; margin: 15px 0; }
+  button { flex: 1; padding: 13px; background: #e94560; color: #fff; border: none; border-radius: 8px; font-size: 15px; font-weight: bold; cursor: pointer; }
+  button:hover { background: #c23152; }
+  button.green { background: #2ecc71; }
+  button.green:hover { background: #27ae60; }
+  .output-box { background: #0f3460; border-radius: 10px; padding: 15px; margin-top: 10px; white-space: pre-wrap; font-family: Consolas, monospace; font-size: 13px; line-height: 1.7; color: #fff; }
+  .hint { font-size: 11px; color: #666; margin-top: 5px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>⚽ 临场赔率填写</h1>
+  <div class="subtitle">填30分钟前的临场数据 → 一键复制发给我分析</div>
+
+  <div id="matches"></div>
+
+  <div class="btn-group">
+    <button onclick="genOutput()">📤 生成分析数据</button>
+    <button class="green" onclick="copyOutput()">📋 复制全部</button>
+  </div>
+
+  <div class="output-box" id="output">（生成后可一键复制，发给我分析）</div>
+</div>
+
+<script>
+// ===== 预设数据（队伍 + 初盘）=====
+var MATCHES = [
+  { home:"金浦市民", away:"忠北清州", hdp_ini:"-0.5/1", water_ini:"2.03", oh:"1.77", od:"3.29", oa:"4.50", ou_ini:"2/2.5", ou_over:"1.89", ou_under:"1.97" },
+  { home:"忠南牙山", away:"安山绿人", hdp_ini:"-1", water_ini:"2.04", oh:"1.59", od:"4.37", oa:"4.85", ou_ini:"2.5", ou_over:"1.83", ou_under:"2.03" },
+  { home:"华城FC", away:"首尔衣恋", hdp_ini:"+0/0.5", water_ini:"1.87", oh:"2.79", od:"2.87", oa:"2.21", ou_ini:"2.5/3", ou_over:"1.95", ou_under:"1.91" },
+  { home:"水原三星", away:"金海FC", hdp_ini:"-1.5", water_ini:"1.96", oh:"1.30", od:"7.65", oa:"8.50", ou_ini:"2.5/3", ou_over:"1.89", ou_under:"1.97" },
+  { home:"庆南FC", away:"大邱FC", hdp_ini:"+0.5", water_ini:"1.99", oh:"3.65", od:"2.91", oa:"1.89", ou_ini:"2.5/3", ou_over:"1.99", ou_under:"1.87" },
+  { home:"龙仁FC", away:"釜山偶像", hdp_ini:"+0.5", water_ini:"1.98", oh:"3.85", od:"3.02", oa:"1.90", ou_ini:"2.5", ou_over:"2.03", ou_under:"1.83" },
+];
+
+function render() {
+  var html = '';
+  MATCHES.forEach(function(m, i) {
+    html += '<div class="match-card">' +
+      '<div class="match-header">' +
+      '<div class="teams">' + m.home + ' <span style="color:#888">vs</span> ' + m.away + '</div>' +
+      '<div class="init-info">初盘: ' + m.hdp_ini + ' @' + m.water_ini + ' | 主' + m.oh + ' 平' + m.od + ' 客' + m.oa + '</div>' +
+      '</div>' +
+
+      '<div class="section-title">让球盘（临场）</div>' +
+      '<div class="grid grid-4">' +
+      '<div class="field"><label>让球盘口</label><input id="hdp_now_' + i + '" placeholder="' + m.hdp_ini + '"></div>' +
+      '<div class="field"><label>上盘水位</label><input id="water_now_' + i + '" placeholder="' + m.water_ini + '"></div>' +
+      '</div>' +
+
+      '<div class="section-title">独赢（临场）</div>' +
+      '<div class="grid grid-3">' +
+      '<div class="field"><label>主胜(初' + m.oh + ')</label><input id="oh_now_' + i + '" placeholder="' + m.oh + '"></div>' +
+      '<div class="field"><label>平局(初' + m.od + ')</label><input id="od_now_' + i + '" placeholder="' + m.od + '"></div>' +
+      '<div class="field"><label>客胜(初' + m.oa + ')</label><input id="oa_now_' + i + '" placeholder="' + m.oa + '"></div>' +
+      '</div>' +
+
+      '<div class="section-title">大小球（临场）</div>' +
+      '<div class="grid grid-3">' +
+      '<div class="field"><label>大球水位(初' + m.ou_over + ')</label><input id="ou_over_now_' + i + '" placeholder="' + m.ou_over + '"></div>' +
+      '<div class="field"><label>小球水位(初' + m.ou_under + ')</label><input id="ou_under_now_' + i + '" placeholder="' + m.ou_under + '"></div>' +
+      '</div>' +
+      '</div>';
+  });
+  document.getElementById('matches').innerHTML = html;
+}
+
+function getVal(id, def) {
+  var v = document.getElementById(id).value.trim();
+  return v ? v : def;
+}
+
+function genOutput() {
+  var lines = [];
+  lines.push('【K2 6场 临场赔率】');
+  MATCHES.forEach(function(m, i) {
+    var hdp = getVal('hdp_now_' + i, m.hdp_ini);
+    var water = getVal('water_now_' + i, m.water_ini);
+    var oh = getVal('oh_now_' + i, m.oh);
+    var od = getVal('od_now_' + i, m.od);
+    var oa = getVal('oa_now_' + i, m.oa);
+    var over = getVal('ou_over_now_' + i, m.ou_over);
+    var under = getVal('ou_under_now_' + i, m.ou_under);
+    lines.push('');
+    lines.push(m.home + ' vs ' + m.away);
+    lines.push('  初盘: 让' + m.hdp_ini + ' @' + m.water_ini + ' | 主' + m.oh + ' 平' + m.od + ' 客' + m.oa);
+    lines.push('  临场: 让' + hdp + ' @' + water + ' | 主' + oh + ' 平' + od + ' 客' + oa + ' | 大' + over + ' 小' + under);
+  });
+  document.getElementById('output').textContent = lines.join('\n');
+}
+
+function copyOutput() {
+  var text = document.getElementById('output').textContent;
+  if (text.indexOf('（生成后可') !== -1) {
+    alert('请先点"生成分析数据"');
+    return;
+  }
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(text).then(function() {
+      alert('✅ 已复制！直接粘贴发给我即可');
+    });
+  } else {
+    // 兜底
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    alert('✅ 已复制！直接粘贴发给我即可');
+  }
+}
+
+render();
+</script>
+</body>
+</html>

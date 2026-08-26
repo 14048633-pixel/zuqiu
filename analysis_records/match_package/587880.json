@@ -1,0 +1,121 @@
+{
+ "id": 587880,
+ "league": "欧协联",
+ "kickoff": "08-21 03:00",
+ "kickoff_iso": "2026-08-20T19:00:00+00:00",
+ "home": "Dinamo City",
+ "away": "Pafos FC",
+ "home_id": 3272,
+ "away_id": 119,
+ "pulled_at": "2026-08-20T22:16:30.302215+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 2964,
+    "name": "Ilir Daja",
+    "short_name": "I. Daja",
+    "profile": "attacking",
+    "preferred_formation": "3-5-2",
+    "matches_total": 8.0,
+    "avg_goals_scored": 1.75,
+    "avg_goals_conceded": 1.0
+   },
+   "away": {
+    "id": 1659,
+    "name": "Ricardo Sá Pinto",
+    "short_name": "R. S. Pinto",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 21.0,
+    "avg_goals_scored": 1.14,
+    "avg_goals_conceded": 1.05
+   }
+  },
+  "preferred_formation": {
+   "home": "3-5-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.85,
+   "draw": 3.39,
+   "away_win": 1.91,
+   "over_15_goals": 1.31,
+   "over_25_goals": 1.99,
+   "over_35_goals": 3.44,
+   "under_15_goals": 3.14,
+   "under_25_goals": 1.74,
+   "under_35_goals": 1.27,
+   "btts_yes": 1.83,
+   "btts_no": 1.86
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "squad(补拉)",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.336,
+   "away": 0.286
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "3-5-2"
+  },
+  "updated_at": "2026-08-20T08:32:20Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.875,
+    "home_ga": 0.607,
+    "away_gf": 1.544,
+    "away_ga": 1.57,
+    "n_home": 5.6,
+    "n_away": 7.9,
+    "n_scored": 25,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 3272
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.778,
+    "home_ga": 1.136,
+    "away_gf": 0.833,
+    "away_ga": 1.452,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 119
+   }
+  }
+ }
+}

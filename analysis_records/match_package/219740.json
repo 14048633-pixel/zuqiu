@@ -1,0 +1,127 @@
+{
+ "id": 219740,
+ "league": "希腊超",
+ "kickoff": "08-24 02:30",
+ "kickoff_iso": "2026-08-23T18:30:00+00:00",
+ "home": "Panetolikos Agrinio",
+ "away": "Asteras Tripolis",
+ "home_id": 326,
+ "away_id": 325,
+ "pulled_at": "2026-08-23T17:50:33.323353+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 301,
+    "name": "Giannis Anastasiou",
+    "short_name": "G. Anastasiou",
+    "profile": "defensive",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 38.0,
+    "avg_goals_scored": 0.95,
+    "avg_goals_conceded": 1.42
+   },
+   "away": {
+    "id": 269,
+    "name": "Georgios Antonopoulos",
+    "short_name": "G. Antonopoulos",
+    "profile": "defensive",
+    "preferred_formation": "3-4-3",
+    "matches_total": 39.0,
+    "avg_goals_scored": 0.97,
+    "avg_goals_conceded": 1.33
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.66,
+   "draw": 2.97,
+   "away_win": 2.66,
+   "over_15_goals": 1.44,
+   "over_25_goals": 2.39,
+   "over_35_goals": 4.65,
+   "under_15_goals": 2.6,
+   "under_25_goals": 1.54,
+   "under_35_goals": 1.17,
+   "btts_yes": 1.98,
+   "btts_no": 1.75
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 11817,
+    "name": "David Galiatsos",
+    "short_name": "D. Galiatsos",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.573,
+   "away": 0.418
+  },
+  "formation": {
+   "home": "4-4-1-1",
+   "away": "3-4-3"
+  },
+  "updated_at": "2026-08-23T08:32:52Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 1.121,
+    "away_ga": 1.115,
+    "n_home": 0.0,
+    "n_away": 16.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 326
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 0.909,
+    "away_ga": 1.442,
+    "n_home": 0.0,
+    "n_away": 16.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 325
+   }
+  }
+ }
+}

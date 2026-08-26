@@ -1,0 +1,173 @@
+{
+ "id": 46444,
+ "league": "瑞超",
+ "kickoff": "08-22 01:00",
+ "kickoff_iso": "2026-08-21T17:00:00+00:00",
+ "home": "IK Sirius",
+ "away": "BK Häcken",
+ "home_id": 447,
+ "away_id": 407,
+ "pulled_at": "2026-08-22T01:05:44.476339+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 597,
+    "name": "Andreas Engelmark",
+    "short_name": "A. Engelmark",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 52.0,
+    "avg_goals_scored": 2.06,
+    "avg_goals_conceded": 1.54
+   },
+   "away": {
+    "id": 586,
+    "name": "Jens Gustafsson",
+    "short_name": "J. Gustafsson",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 58.0,
+    "avg_goals_scored": 1.52,
+    "avg_goals_conceded": 1.6
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.81,
+   "draw": 3.93,
+   "away_win": 3.66,
+   "over_15_goals": 1.11,
+   "over_25_goals": 1.41,
+   "over_35_goals": 2.05,
+   "under_15_goals": 5.84,
+   "under_25_goals": 2.75,
+   "under_35_goals": 1.74,
+   "btts_yes": 1.39,
+   "btts_no": 2.72
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 29120,
+    "name": "Jesper Uneken",
+    "short_name": "J. Uneken",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 16105,
+    "name": "Matthias Nartey",
+    "short_name": "M. Nartey",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 16120,
+    "name": "Otso Liimatta",
+    "short_name": "O. Liimatta",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "away": [
+   {
+    "id": 12744,
+    "name": "Andreas Linde",
+    "short_name": "A. Linde",
+    "status": "injured",
+    "reason": "Leg Injury"
+   },
+   {
+    "id": 12917,
+    "name": "Ben Engdahl",
+    "short_name": "B. Engdahl",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 12747,
+    "name": "Filip Ohman",
+    "short_name": "F. Öhman",
+    "status": "injured",
+    "reason": "Shoulder Injury"
+   },
+   {
+    "id": 12731,
+    "name": "Julius Lindberg",
+    "short_name": "J. Lindberg",
+    "status": "injured",
+    "reason": "Foot Injury"
+   },
+   {
+    "id": 50111,
+    "name": "Simen Hestnes",
+    "short_name": "S. Hestnes",
+    "status": "injured",
+    "reason": "personal_reason"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "confirmed",
+  "confidence": {
+   "home": null,
+   "away": null
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-21T17:04:29Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.875,
+    "home_ga": 1.375,
+    "away_gf": 2.667,
+    "away_ga": 1.333,
+    "n_home": 8.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.875,
+    "home_ga": 1.75,
+    "away_gf": 1.625,
+    "away_ga": 1.5,
+    "n_home": 8.0,
+    "n_away": 8.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

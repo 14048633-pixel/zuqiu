@@ -1,0 +1,378 @@
+===== analysis_records/bsd_direction_20260817.json =====
+{
+ "ts": "2026-08-17T14:55:05+0800",
+ "source": "BSD v2 consensus odds + BSD dc-blend-v1 prediction",
+ "note": "the-odds-api 剩余1请求未用; 方向参考非出单",
+ "rows": [
+  {
+   "id": "215480",
+   "league": "意杯",
+   "home": "Pisa",
+   "away": "Empoli",
+   "bsd_lambda": [
+    1.77,
+    1.29
+   ],
+   "bsd_1x2": [
+    49.8,
+    23.6,
+    26.5
+   ],
+   "bsd_dir": "H",
+   "mkt_fair": [
+    50.1,
+    27.4,
+    22.5
+   ],
+   "ev_1x2": [
+    -7.4,
+    -19.8,
+    10.0
+   ],
+   "ou_bsd": 58.0,
+   "ou_mkt": 46.3,
+   "ev_ou": [
+    17.2,
+    -26.9
+   ],
+   "score": "1-1",
+   "inj": [
+    0,
+    0
+   ],
+   "dir": "主胜Pisa(共识)",
+   "ou_dir": "大球BSD偏(分歧)",
+   "conf": "中"
+  },
+  {
+   "id": "215481",
+   "league": "意杯",
+   "home": "Sassuolo",
+   "away": "Cesena",
+   "bsd_lambda": null,
+   "bsd_1x2": [
+    61.4,
+    21.8,
+    16.9
+   ],
+   "bsd_dir": "H",
+   "mkt_fair": [
+    62.2,
+    21.1,
+    16.7
+   ],
+   "ev_1x2": [
+    -7.9,
+    -3.9,
+    -5.5
+   ],
+   "ou_bsd": 60.0,
+   "ou_mkt": 60.4,
+   "ev_ou": [
+    -7.6,
+    -6.0
+   ],
+   "score": null,
+   "inj": [
+    5,
+    0
+   ],
+   "dir": "主胜Sassuolo(共识)",
+   "ou_dir": "无价值",
+   "conf": "中高"
+  },
+  {
+   "id": "215482",
+   "league": "意杯",
+   "home": "Cremonese",
+   "away": "Sampdoria",
+   "bsd_lambda": [
+    1.72,
+    1.38
+   ],
+   "bsd_1x2": [
+    46.0,
+    23.9,
+    30.1
+   ],
+   "bsd_dir": "H",
+   "mkt_fair": [
+    46.2,
+    29.0,
+    24.8
+   ],
+   "ev_1x2": [
+    -7.1,
+    -23.3,
+    13.2
+   ],
+   "ou_bsd": 58.7,
+   "ou_mkt": 43.5,
+   "ev_ou": [
+    25.6,
+    -31.9
+   ],
+   "score": "1-1",
+   "inj": [
+    0,
+    0
+   ],
+   "dir": "主胜Cremonese(共识)",
+   "ou_dir": "大球BSD偏(分歧)",
+   "conf": "中"
+  },
+  {
+   "id": "215483",
+   "league": "意杯",
+   "home": "Palermo",
+   "away": "Lecce",
+   "bsd_lambda": null,
+   "bsd_1x2": [
+    38.4,
+    28.5,
+    33.1
+   ],
+   "bsd_dir": "H",
+   "mkt_fair": [
+    39.1,
+    28.6,
+    32.3
+   ],
+   "ev_1x2": [
+    -8.2,
+    -6.8,
+    -4.3
+   ],
+   "ou_bsd": 47.6,
+   "ou_mkt": 47.6,
+   "ev_ou": [
+    -6.7,
+    -6.7
+   ],
+   "score": null,
+   "inj": [
+    0,
+    0
+   ],
+   "dir": "主胜Palermo(弱)",
+   "ou_dir": "无价值",
+   "conf": "中低"
+  },
+  {
+   "id": "215502",
+   "league": "葡超",
+   "home": "Casa Pia",
+   "away": "Benfica",
+   "bsd_lambda": [
+    0.8,
+    1.91
+   ],
+   "bsd_1x2": [
+    12.4,
+    21.0,
+    66.6
+   ],
+   "bsd_dir": "A",
+   "mkt_fair": [
+    7.6,
+    15.4,
+    77.0
+   ],
+   "ev_1x2": [
+    52.6,
+    28.1,
+    -18.7
+   ],
+   "ou_bsd": 50.5,
+   "ou_mkt": 58.8,
+   "ev_ou": [
+    -19.7,
+    12.4
+   ],
+   "score": "0-1",
+   "inj": [
+    0,
+    0
+   ],
+   "dir": "客胜Benfica(共识)",
+   "ou_dir": "大小分歧(BSD偏小/市场偏大)",
+   "conf": "中高"
+  },
+  {
+   "id": "223567",
+   "league": "阿甲",
+   "home": "Lanus",
+   "away": "Independiente",
+   "bsd_lambda": [
+    1.11,
+    0.89
+   ],
+   "bsd_1x2": [
+    39.5,
+    33.1,
+    27.5
+   ],
+   "bsd_dir": "H",
+   "mkt_fair": [
+    40.4,
+    32.4,
+    27.3
+   ],
+   "ev_1x2": [
+    -8.8,
+    -4.7,
+    -5.9
+   ],
+   "ou_bsd": 33.7,
+   "ou_mkt": 34.1,
+   "ev_ou": [
+    -8.3,
+    -6.5
+
+===== analysis_records/key_matches_odds_20260817.json =====
+{
+ "ts": "2026-08-17T11:00:45Z",
+ "overlay": {
+  "215480": {
+   "eid": "215480",
+   "h2h": {
+    "home": 1.91,
+    "draw": 3.6,
+    "away": 4.7,
+    "bk": "betfair_ex_uk",
+    "orr": 1.0141039446486702
+   },
+   "totals": {
+    "line": 2.5,
+    "over": 2.02,
+    "under": 1.75,
+    "bk": "onexbet",
+    "orr": 1.0664780763790664
+   },
+   "spread": {
+    "hdp_home": 0.0,
+    "home_price": 1.35,
+    "away_price": 3.0,
+    "bk": "onexbet",
+    "orr": 1.074074074074074
+   },
+   "home_team": "Pisa",
+   "away_team": "Empoli",
+   "commence_time": "2026-08-17T16:00:00Z",
+   "snap_iso": "2026-08-17T11:00:45Z",
+   "source": "the-odds-api",
+   "league": "意杯",
+   "target_home": "Pisa",
+   "target_away": "Empoli"
+  },
+  "215481": {
+   "eid": "215481",
+   "h2h": {
+    "home": 1.51,
+    "draw": 4.8,
+    "away": 7.0,
+    "bk": "betfair_ex_uk",
+    "orr": 1.0134421318196154
+   },
+   "totals": {
+    "line": 2.5,
+    "over": 1.52,
+    "under": 2.35,
+    "bk": "tipico_de",
+    "orr": 1.0834266517357223
+   },
+   "spread": {
+    "hdp_home": -1.25,
+    "home_price": 2.03,
+    "away_price": 1.87,
+    "bk": "pinnacle",
+    "orr": 1.0273701957271937
+   },
+   "home_team": "Sassuolo",
+   "away_team": "Cesena FC",
+   "commence_time": "2026-08-17T16:30:00Z",
+   "snap_iso": "2026-08-17T11:00:45Z",
+   "source": "the-odds-api",
+   "league": "意杯",
+   "target_home": "Sassuolo",
+   "target_away": "Cesena"
+  },
+  "215482": {
+   "eid": "215482",
+   "h2h": {
+    "home": 2.14,
+    "draw": 3.4,
+    "away": 4.0,
+    "bk": "betfair_ex_eu",
+    "orr": 1.0114073666849919
+   },
+   "totals": {
+    "line": 2.5,
+    "over": 2.16,
+    "under": 1.66,
+    "bk": "onexbet",
+    "orr": 1.0653726015171798
+   },
+   "spread": {
+    "hdp_home": 0.0,
+    "home_price": 1.39,
+    "away_price": 2.59,
+    "bk": "onexbet",
+    "orr": 1.1055248465320409
+   },
+   "home_team": "Cremonese",
+   "away_team": "Sampdoria",
+   "commence_time": "2026-08-17T18:45:00Z",
+   "snap_iso": "2026-08-17T11:00:45Z",
+   "source": "the-odds-api",
+   "league": "意杯",
+   "target_home": "Cremonese",
+   "target_away": "Sampdoria"
+  },
+  "215483": {
+   "eid": "215483",
+   "h2h": {
+    "home": 2.48,
+    "draw": 3.4,
+    "away": 3.2,
+    "bk": "betfair_ex_uk",
+    "orr": 1.0098434535104364
+   },
+   "totals": {
+    "line": 2.5,
+    "over": 2.07,
+    "under": 1.82,
+    "bk": "pinnacle",
+    "orr": 1.032542336890163
+   },
+   "spread": {
+    "hdp_home": -0.25,
+    "home_price": 2.12,
+    "away_price": 1.79,
+    "bk": "pinnacle",
+    "orr": 1.0303573310846421
+   },
+   "home_team": "Palermo",
+   "away_team": "Lecce",
+   "commence_time": "2026-08-17T19:15:00Z",
+   "snap_iso": "2026-08-17T11:00:45Z",
+   "source": "the-odds-api",
+   "league": "意杯",
+   "target_home": "Palermo",
+   "target_away": "Lecce"
+  },
+  "215502": {
+   "eid": "215502",
+   "h2h": {
+    "home": 15.5,
+    "draw": 7.2,
+    "away": 1.25,
+    "bk": "smarkets",
+    "orr": 1.0034050179211471
+   },
+   "totals": {
+    "line": 2.5,
+    "over": 1.6,
+    "under": 2.3,
+    "bk": "gtbets",
+    

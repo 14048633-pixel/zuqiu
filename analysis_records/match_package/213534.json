@@ -1,0 +1,162 @@
+{
+ "id": 213534,
+ "league": "西甲",
+ "kickoff": "08-24 01:30",
+ "kickoff_iso": "2026-08-23T17:30:00Z",
+ "home": "Getafe",
+ "away": "Real Racing Club de Santander",
+ "home_id": 50,
+ "away_id": 1400,
+ "pulled_at": "2026-08-23T17:37:18.318557+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 371,
+    "name": "José Bordalás",
+    "short_name": "J. Bordalás",
+    "profile": "balanced",
+    "preferred_formation": "5-3-2",
+    "matches_total": 47.0,
+    "avg_goals_scored": 1.11,
+    "avg_goals_conceded": 1.06
+   },
+   "away": {
+    "id": 822,
+    "name": "José Alberto López",
+    "short_name": "J. A. López",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 96.0,
+    "avg_goals_scored": 1.8,
+    "avg_goals_conceded": 1.4
+   }
+  },
+  "preferred_formation": {
+   "home": "5-3-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.2,
+   "draw": 2.92,
+   "away_win": 3.79,
+   "over_15_goals": 1.58,
+   "over_25_goals": 2.76,
+   "over_35_goals": 5.82,
+   "under_15_goals": 2.35,
+   "under_25_goals": 1.43,
+   "under_35_goals": 1.12,
+   "btts_yes": 2.16,
+   "btts_no": 1.65
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 441,
+    "name": "Christantus Uche",
+    "short_name": "C. Uche",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 29066,
+    "name": "Francho Serrano",
+    "short_name": "F. Serrano",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   },
+   {
+    "id": 2757,
+    "name": "Juanmi",
+    "short_name": "Juanmi",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 2741,
+    "name": "Kiko Femenía",
+    "short_name": "K. Femenía",
+    "status": "suspended",
+    "reason": "red_card_suspension"
+   }
+  ],
+  "away": [
+   {
+    "id": 16400,
+    "name": "Giorgi Guliashvili",
+    "short_name": "G. Guliashvili",
+    "status": "injured",
+    "reason": "Fibula"
+   },
+   {
+    "id": 2194,
+    "name": "Pedro Felipe",
+    "short_name": "P. Felipe",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.45,
+   "away": 0.436
+  },
+  "formation": {
+   "home": "5-3-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:46Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.105,
+    "home_ga": 0.719,
+    "away_gf": 0.815,
+    "away_ga": 1.333,
+    "n_home": 5.7,
+    "n_away": 10.8,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 50
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 2.0,
+    "away_gf": 0.0,
+    "away_ga": 0.0,
+    "n_home": 1.0,
+    "n_away": 0.0,
+    "src_w": 1.0,
+    "src_season": "2026/2027",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

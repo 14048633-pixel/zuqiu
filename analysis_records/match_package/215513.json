@@ -1,0 +1,108 @@
+{
+ "id": 215513,
+ "league": "葡超",
+ "kickoff": "08-25 03:15",
+ "kickoff_iso": "2026-08-24T19:15:00+00:00",
+ "home": "Gil Vicente",
+ "away": "Casa Pia",
+ "home_id": 24,
+ "away_id": 21,
+ "pulled_at": "2026-08-24T23:10:58.066076+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=1987) 未提取",
+  "away教练(coach_cache未命中 id=3513) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.7,
+   "draw": 3.51,
+   "away_win": 5.1,
+   "over_15_goals": 1.4,
+   "over_25_goals": 2.28,
+   "over_35_goals": 4.27,
+   "under_15_goals": 2.76,
+   "under_25_goals": 1.6,
+   "under_35_goals": 1.19,
+   "btts_yes": 2.13,
+   "btts_no": 1.65
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 4636,
+    "name": "Domingos Jose Gabriel Bandeira",
+    "short_name": "Kaly",
+    "status": "suspended",
+    "reason": "yellow_or_red_card_suspension"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.523,
+   "away": 0.55
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-3"
+  },
+  "updated_at": "2026-08-24T14:32:17Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.0,
+    "home_ga": 0.0,
+    "away_gf": 0.0,
+    "away_ga": 0.0,
+    "n_home": 1,
+    "n_away": 0,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 7.0,
+    "away_gf": 0.0,
+    "away_ga": 1.0,
+    "n_home": 1,
+    "n_away": 1,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  }
+ }
+}

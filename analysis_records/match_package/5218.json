@@ -1,0 +1,193 @@
+{
+ "id": 5218,
+ "league": "美职",
+ "kickoff": "08-23 07:30",
+ "kickoff_iso": "2026-08-22T23:30:00+00:00",
+ "home": "Orlando City SC",
+ "away": "Real Salt Lake",
+ "home_id": 280,
+ "away_id": 279,
+ "pulled_at": "2026-08-22T01:18:10.295574+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 352,
+    "name": "Martín Perelman",
+    "short_name": "M. Perelman",
+    "profile": "attacking",
+    "preferred_formation": "4-4-2",
+    "matches_total": 52.0,
+    "avg_goals_scored": 1.73,
+    "avg_goals_conceded": 1.94
+   },
+   "away": {
+    "id": 325,
+    "name": "Pablo Mastroeni",
+    "short_name": "P. Mastroeni",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 53.0,
+    "avg_goals_scored": 1.36,
+    "avg_goals_conceded": 1.47
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 42222,
+    "name": "Bernardo Rhein",
+    "short_name": "B. Rhein",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 9383,
+    "name": "Braian Ojeda",
+    "short_name": "B. Ojeda",
+    "status": "injured",
+    "reason": "Foot Injury"
+   },
+   {
+    "id": 9569,
+    "name": "Eduard Atuesta",
+    "short_name": "E. Atuesta",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 9573,
+    "name": "Martín Ojeda",
+    "short_name": "M. Ojeda",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 12155,
+    "name": "Nolan Miller",
+    "short_name": "N. Miller",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 9897,
+    "name": "Aiden  Hezarkhani",
+    "short_name": "A. Hezarkhani",
+    "status": "injured",
+    "reason": "Toe Injury"
+   },
+   {
+    "id": 9658,
+    "name": "Ariath Piol",
+    "short_name": "A. Piol",
+    "status": "injured",
+    "reason": "Achilles Tendon Injury"
+   },
+   {
+    "id": 9389,
+    "name": "Emeka Eneli",
+    "short_name": "E. Eneli",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 9851,
+    "name": "Griffin Dillon",
+    "short_name": "G. Dillon",
+    "status": "injured",
+    "reason": "Metatarsal Fracture"
+   },
+   {
+    "id": 9379,
+    "name": "Justen Glad",
+    "short_name": "J. Glad",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.741,
+   "away": 0.791
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "5-4-1"
+  },
+  "updated_at": "2026-08-21T14:35:09Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.689,
+    "home_ga": 1.405,
+    "away_gf": 1.846,
+    "away_ga": 2.923,
+    "n_home": 7.4,
+    "n_away": 9.1,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "美职",
+    "team_id": 280
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.157,
+    "home_ga": 1.048,
+    "away_gf": 1.049,
+    "away_ga": 1.902,
+    "n_home": 8.3,
+    "n_away": 8.2,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "美职",
+    "team_id": 279
+   }
+  }
+ }
+}

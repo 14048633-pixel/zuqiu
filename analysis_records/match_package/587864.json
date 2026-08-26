@@ -1,0 +1,114 @@
+{
+ "id": 587864,
+ "league": "欧协联",
+ "kickoff": "08-21 00:00",
+ "kickoff_iso": "2026-08-20T16:00:00+00:00",
+ "home": "Lincoln Red Imps",
+ "away": "Larne FC",
+ "home_id": 382,
+ "away_id": 3475,
+ "pulled_at": "2026-08-20T22:13:27.939198+08:00",
+ "missing": [
+  "home教练(BSD无教练数据) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": {
+    "id": 1847,
+    "name": "Gary Haveron",
+    "short_name": "G. Haveron",
+    "profile": "defensive",
+    "preferred_formation": "4-3-3",
+    "matches_total": 7.0,
+    "avg_goals_scored": 0.71,
+    "avg_goals_conceded": 1.57
+   }
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.05,
+   "draw": 3.3,
+   "away_win": 3.51,
+   "over_15_goals": 1.29,
+   "over_25_goals": 1.96,
+   "over_35_goals": 3.35,
+   "under_15_goals": 3.25,
+   "under_25_goals": 1.78,
+   "under_35_goals": 1.28,
+   "btts_yes": 1.76,
+   "btts_no": 1.95
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "squad(补拉)",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.518,
+   "away": 0.441
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-20T08:32:07Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.062,
+    "home_ga": 1.198,
+    "away_gf": 0.571,
+    "away_ga": 2.583,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 382
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 0.693,
+    "home_ga": 1.64,
+    "away_gf": 0.593,
+    "away_ga": 1.523,
+    "n_home": 7.5,
+    "n_away": 8.6,
+    "n_scored": 38,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 3475
+   }
+  }
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "id": 7231,
+ "league": "巴甲",
+ "kickoff": "08-24 03:00",
+ "kickoff_iso": "2026-08-23T19:00:00Z",
+ "home": "Bragantino-SP",
+ "away": "Grêmio",
+ "home_id": 168,
+ "away_id": 154,
+ "pulled_at": "2026-08-23T17:38:37.780206+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 164,
+    "name": "Vagner Mancini",
+    "short_name": "V. Mancini",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 70.0,
+    "avg_goals_scored": 1.26,
+    "avg_goals_conceded": 1.26
+   },
+   "away": {
+    "id": 163,
+    "name": "Luís Castro",
+    "short_name": "L. Castro",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 74.0,
+    "avg_goals_scored": 1.27,
+    "avg_goals_conceded": 1.2
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 1.85,
+   "btts_no": 1.87
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 4994,
+    "name": "Cauê Nascimento",
+    "short_name": "C. N. Santos",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 292,
+    "name": "Fabrício",
+    "short_name": "Fabrício",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 298,
+    "name": "Fernando",
+    "short_name": "Fernando",
+    "status": "injured",
+    "reason": "Illness"
+   },
+   {
+    "id": 279,
+    "name": "Gustavo Marques",
+    "short_name": "G. Marques",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 294,
+    "name": "Vanderlan",
+    "short_name": "Vanderlan",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 612,
+    "name": "Dodi",
+    "short_name": "Dodi",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 609,
+    "name": "Gustavo Martins",
+    "short_name": "G. Martins",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 4680,
+    "name": "João Pedro",
+    "short_name": "J. Pedro",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 12196,
+    "name": "Juan Nardoni",
+    "short_name": "J. Nardoni",
+    "status": "injured",
+    "reason": "Sprained Knee Injury"
+   },
+   {
+    "id": 624,
+    "name": "Walter Kannemann",
+    "short_name": "W. Kannemann",
+    "status": "suspended",
+    "reason": "yellow_card_accumulation_suspension"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.736,
+   "away": 0.6
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-1-4-1"
+  },
+  "updated_at": "2026-08-23T08:33:01Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.455,
+    "home_ga": 1.0,
+    "away_gf": 1.0,
+    "away_ga": 1.091,
+    "n_home": 11.0,
+    "n_away": 11.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.5,
+    "home_ga": 1.071,
+    "away_gf": 0.462,
+    "away_ga": 1.538,
+    "n_home": 14.0,
+    "n_away": 13.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "id": 209540,
+ "league": "英超",
+ "kickoff": "08-23 00:30",
+ "kickoff_iso": "2026-08-22T16:30:00+00:00",
+ "home": "Brentford",
+ "away": "Tottenham Hotspur",
+ "home_id": 16,
+ "away_id": 9,
+ "pulled_at": "2026-08-22T01:14:50.186520+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 550,
+    "name": "Keith Andrews",
+    "short_name": "K. Andrews",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 46.0,
+    "avg_goals_scored": 1.57,
+    "avg_goals_conceded": 1.28
+   },
+   "away": {
+    "id": 563,
+    "name": "Roberto De Zerbi",
+    "short_name": "R. D. Zerbi",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 56.0,
+    "avg_goals_scored": 1.45,
+    "avg_goals_conceded": 1.39
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {
+   "1x2": {
+    "home": {
+     "odds": 2.53,
+     "bookmaker": "1xbet",
+     "n": 18
+    },
+    "draw": {
+     "odds": 3.7,
+     "bookmaker": "1xbet",
+     "n": 18
+    },
+    "away": {
+     "odds": 2.86,
+     "bookmaker": "1xbet",
+     "n": 18
+    }
+   },
+   "double_chance": {
+    "1x": {
+     "odds": 1.48,
+     "bookmaker": "1xbet",
+     "n": 8
+    },
+    "x2": {
+     "odds": 1.59,
+     "bookmaker": "1xbet",
+     "n": 8
+    },
+    "12": {
+     "odds": 1.32,
+     "bookmaker": "1xbet",
+     "n": 8
+    }
+   },
+   "over_under_15": {
+    "over@1.5": {
+     "odds": 1.22,
+     "bookmaker": "10bet",
+     "n": 6
+    },
+    "under@1.5": {
+     "odds": 4.7,
+     "bookmaker": "unibet",
+     "n": 6
+    }
+   },
+   "over_under_25": {
+    "over@2.5": {
+     "odds": 1.74,
+     "bookmaker": "1xbet",
+     "n": 9
+    },
+    "under@2.5": {
+     "odds": 2.27,
+     "bookmaker": "1xbet",
+     "n": 9
+    }
+   },
+   "over_under_35": {
+    "over@3.5": {
+     "odds": 2.7,
+     "bookmaker": "pinnacle",
+     "n": 7
+    },
+    "under@3.5": {
+     "odds": 1.5,
+     "bookmaker": "unibet",
+     "n": 7
+    }
+   },
+   "btts": {
+    "yes": {
+     "odds": 1.57,
+     "bookmaker": "bet365",
+     "n": 8
+    },
+    "no": {
+     "odds": 2.55,
+     "bookmaker": "betfair",
+     "n": 8
+    }
+   }
+  },
+  "bookmakers_count": 18,
+  "total_odds": 138
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 466,
+    "name": "Sepp van den Berg",
+    "short_name": "S. van den Berg",
+    "status": "injured",
+    "reason": "Knock Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 733,
+    "name": "Wilson Odobert",
+    "short_name": "W. Odobert",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 729,
+    "name": "Xavi Simons",
+    "short_name": "X. Simons",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.845,
+   "away": 0.5
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-21T14:34:12Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.794,
+    "home_ga": 1.421,
+    "away_gf": 1.276,
+    "away_ga": 1.489,
+    "n_home": 45.6,
+    "n_away": 45.6,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.1,
+    "home_ga": 2.0,
+    "away_gf": 1.0,
+    "away_ga": 1.4,
+    "n_home": 10.0,
+    "n_away": 10.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

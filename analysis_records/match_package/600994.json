@@ -1,0 +1,93 @@
+{
+ "id": 600994,
+ "league": "Club Friendlies",
+ "kickoff": "08-26 02:30",
+ "kickoff_iso": "2026-08-25T18:30:00+00:00",
+ "home": "Mutilvera",
+ "away": "Pamplona",
+ "home_id": 1521,
+ "away_id": 8470,
+ "pulled_at": "2026-08-25T23:42:44.862624+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=971) 未提取",
+  "away教练(coach_cache未命中 id=None) 未提取",
+  "away攻防历史 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.077,
+   "away": null
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": null
+  },
+  "updated_at": "2026-08-25T14:32:10Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.469,
+    "home_ga": 1.891,
+    "away_gf": 1.0,
+    "away_ga": 1.0,
+    "n_home": 6.4,
+    "n_away": 0.7,
+    "n_scored": 8,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1521
+   }
+  },
+  "away": {
+   "have": false,
+   "src": null,
+   "stats": null
+  }
+ }
+}

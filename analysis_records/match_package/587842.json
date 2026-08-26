@@ -1,0 +1,157 @@
+{
+ "id": 587842,
+ "league": "欧联",
+ "kickoff": "08-21 01:00",
+ "kickoff_iso": "2026-08-20T17:00:00+00:00",
+ "home": "Lech Poznań",
+ "away": "FC Thun",
+ "home_id": 375,
+ "away_id": 255,
+ "pulled_at": "2026-08-20T22:12:34.060114+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 308,
+    "name": "Niels Frederiksen",
+    "short_name": "N. Frederiksen",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 54.0,
+    "avg_goals_scored": 1.87,
+    "avg_goals_conceded": 1.26
+   },
+   "away": {
+    "id": 2925,
+    "name": "Gian Luca Privitelli",
+    "short_name": "G. L. Privitelli",
+    "profile": "attacking",
+    "preferred_formation": "4-4-2",
+    "matches_total": 10.0,
+    "avg_goals_scored": 2.6,
+    "avg_goals_conceded": 2.1
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.56,
+   "draw": 4.2,
+   "away_win": 5.09,
+   "over_15_goals": 1.17,
+   "over_25_goals": 1.59,
+   "over_35_goals": 2.45,
+   "under_15_goals": 4.5,
+   "under_25_goals": 2.26,
+   "under_35_goals": 1.49,
+   "btts_yes": 1.65,
+   "btts_no": 2.12
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 12866,
+    "name": "Ali Gholizadeh",
+    "short_name": "A. Gholizadeh",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 14196,
+    "name": "Kamil Jakóbczyk",
+    "short_name": "K. Jakóbczyk",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 12447,
+    "name": "Leo Bengtsson",
+    "short_name": "L. Bengtsson",
+    "status": "injured",
+    "reason": "Foot Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 7575,
+    "name": "Genís Montolio",
+    "short_name": "G. Montolio",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 7815,
+    "name": "Mattias Käit",
+    "short_name": "M. Käit",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.659,
+   "away": 0.541
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-20T08:32:07Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.927,
+    "home_ga": 1.031,
+    "away_gf": 2.29,
+    "away_ga": 0.623,
+    "n_home": 9.6,
+    "n_away": 6.9,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 375
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.5,
+    "home_ga": 2.129,
+    "away_gf": 1.695,
+    "away_ga": 1.895,
+    "n_home": 7.0,
+    "n_away": 9.5,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 255
+   }
+  }
+ }
+}

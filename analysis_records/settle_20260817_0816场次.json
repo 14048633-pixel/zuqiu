@@ -1,0 +1,898 @@
+{
+ "time": "2026-08-17T13:36:03.096195",
+ "n_settled": 44,
+ "wins": 24,
+ "halves": 0,
+ "pushes": 1,
+ "losses": 19,
+ "pnl": 1.8099999999999998,
+ "rows": [
+  {
+   "league": "巴甲",
+   "match": "Sao Paulo vs Coritiba",
+   "home": "Sao Paulo",
+   "away": "Coritiba",
+   "bb": {
+    "name": "大2.50",
+    "odds": "2.12",
+    "prob": "0.5152",
+    "ev": "0.082",
+    "star": "2",
+    "ev_tier": "标准",
+    "stake_factor": "0.7"
+   },
+   "score": "1-1",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "阿甲",
+   "match": "Platense vs Boca Juniors",
+   "home": "Platense",
+   "away": "Boca Juniors",
+   "bb": {
+    "name": "让球客(-0.5)",
+    "odds": "2.09",
+    "prob": "0.6721",
+    "ev": "0.3705",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "1-1",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "美职",
+   "match": "Houston Dynamo vs LA Galaxy",
+   "home": "Houston Dynamo",
+   "away": "LA Galaxy",
+   "bb": {
+    "name": "小2.50",
+    "odds": "2.42",
+    "prob": "0.5251",
+    "ev": "0.2646",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "1-0",
+   "result": "win",
+   "ret": 2.42,
+   "pnl": 1.42,
+   "status": "已结算"
+  },
+  {
+   "league": "美职",
+   "match": "Nashville SC vs Inter Miami CF",
+   "home": "Nashville SC",
+   "away": "Inter Miami CF",
+   "bb": {
+    "name": "大2.50",
+    "odds": "1.46",
+    "prob": "0.8789",
+    "ev": "0.2128",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "4-1",
+   "result": "win",
+   "ret": 1.46,
+   "pnl": 0.45999999999999996,
+   "status": "已结算"
+  },
+  {
+   "league": "墨超",
+   "match": "Monterrey vs FC Juárez",
+   "home": "Monterrey",
+   "away": "FC Juárez",
+   "bb": {
+    "name": "大2.50",
+    "odds": "1.52",
+    "prob": "0.7334",
+    "ev": "0.0505",
+    "star": "1",
+    "ev_tier": "观察",
+    "stake_factor": "0.3"
+   },
+   "score": "6-1",
+   "result": "win",
+   "ret": 1.52,
+   "pnl": 0.52,
+   "status": "已结算"
+  },
+  {
+   "league": "美职",
+   "match": "Colorado Rapids vs Sporting Kansas City",
+   "home": "Colorado Rapids",
+   "away": "Sporting Kansas City",
+   "bb": {
+    "name": "让球主(-1.0)",
+    "odds": "1.76",
+    "prob": "0.8926",
+    "ev": "0.5107",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "2-0",
+   "result": "win",
+   "ret": 1.76,
+   "pnl": 0.76,
+   "status": "已结算"
+  },
+  {
+   "league": "美职",
+   "match": "Real Salt Lake vs Minnesota United FC",
+   "home": "Real Salt Lake",
+   "away": "Minnesota United FC",
+   "bb": {
+    "name": "大2.50",
+    "odds": "1.65",
+    "prob": "0.8522",
+    "ev": "0.3932",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "1-1",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "美职",
+   "match": "Los Angeles FC vs San Diego FC",
+   "home": "Los Angeles FC",
+   "away": "San Diego FC",
+   "bb": {
+    "name": "让球主(-0.5)",
+    "odds": "1.6",
+    "prob": "0.8279",
+    "ev": "0.2317",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "0-1",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "美职",
+   "match": "San Jose Earthquakes vs St. Louis City SC",
+   "home": "San Jose Earthquakes",
+   "away": "St. Louis City SC",
+   "bb": {
+    "name": "让球主(-0.5)",
+    "odds": "2.18",
+    "prob": "0.6958",
+    "ev": "0.4584",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "1-3",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "墨超",
+   "match": "Atlas vs Tigres",
+   "home": "Atlas",
+   "away": "Tigres",
+   "bb": {
+    "name": "小2.50",
+    "odds": "1.79",
+    "prob": "0.7384",
+    "ev": "0.3046",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "2-1",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "荷甲",
+   "match": "ADO Den Haag vs Groningen",
+   "home": "ADO Den Haag",
+   "away": "Groningen",
+   "bb": {
+    "name": "让球主(+0.0)",
+    "odds": "2.08",
+    "prob": "0.7072",
+    "ev": "0.4236",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "1-4",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "德乙",
+   "match": "Dynamo Dresden vs SV Darmstadt 98",
+   "home": "Dynamo Dresden",
+   "away": "SV Darmstadt 98",
+   "bb": {
+    "name": "让球主(-0.5)",
+    "odds": "2.05",
+    "prob": "0.5609",
+    "ev": "0.1086",
+    "star": "1",
+    "ev_tier": "标准",
+    "stake_factor": "0.35"
+   },
+   "score": "1-0",
+   "result": "win",
+   "ret": 2.05,
+   "pnl": 1.0499999999999998,
+   "status": "已结算"
+  },
+  {
+   "league": "瑞超",
+   "match": "Djurgardens IF vs AIK",
+   "home": "Djurgardens IF",
+   "away": "AIK",
+   "bb": {
+    "name": "大2.50",
+    "odds": "1.52",
+    "prob": "0.7974",
+    "ev": "0.1422",
+    "star": "1",
+    "ev_tier": "标准",
+    "stake_factor": "0.35"
+   },
+   "score": "1-3",
+   "result": "win",
+   "ret": 1.52,
+   "pnl": 0.52,
+   "status": "已结算"
+  },
+  {
+   "league": "瑞超",
+   "match": "Degerfors IF vs IFK Goteborg",
+   "home": "Degerfors IF",
+   "away": "IFK Goteborg",
+   "bb": {
+    "name": "大2.50",
+    "odds": "1.9",
+    "prob": "0.694",
+    "ev": "0.2688",
+    "star": "3",
+    "ev_tier": "高价值",
+    "stake_factor": "1.0"
+   },
+   "score": "3-0",
+   "result": "win",
+   "ret": 1.9,
+   "pnl": 0.8999999999999999,
+   "status": "已结算"
+  },
+  {
+   "league": "瑞超",
+   "match": "IF Brommapojkarna vs Örgryte IS",
+   "home": "IF Brommapojkarna",
+   "away": "Örgryte IS",
+   "bb": {
+    "name": "让球主(-0.5)",
+    "odds": "1.84",
+    "prob": "0.7281",
+    "ev": "0.2961",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "3-1",
+   "result": "win",
+   "ret": 1.84,
+   "pnl": 0.8400000000000001,
+   "status": "已结算"
+  },
+  {
+   "league": "丹超",
+   "match": "OB Odense BK vs AC Horsens",
+   "home": "OB Odense BK",
+   "away": "AC Horsens",
+   "bb": {
+    "name": "让球客(+0.5)",
+    "odds": "2.2",
+    "prob": "0.6215",
+    "ev": "0.3327",
+    "star": "3",
+    "ev_tier": "高价值",
+    "stake_factor": "1.0"
+   },
+   "score": "1-2",
+   "result": "win",
+   "ret": 2.2,
+   "pnl": 1.2000000000000002,
+   "status": "已结算"
+  },
+  {
+   "league": "荷甲",
+   "match": "Feyenoord vs Go Ahead Eagles",
+   "home": "Feyenoord",
+   "away": "Go Ahead Eagles",
+   "bb": {
+    "name": "小2.50",
+    "odds": "3.14",
+    "prob": "0.3944",
+    "ev": "0.1631",
+    "star": "1",
+    "ev_tier": "标准",
+    "stake_factor": "0.35"
+   },
+   "score": "2-2",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "英冠",
+   "match": "Watford vs Southampton",
+   "home": "Watford",
+   "away": "Southampton",
+   "bb": {
+    "name": "让球主(+0.5)",
+    "odds": "1.8",
+    "prob": "0.6905",
+    "ev": "0.1913",
+    "star": "1",
+    "ev_tier": "标准",
+    "stake_factor": "0.35"
+   },
+   "score": "2-1",
+   "result": "win",
+   "ret": 1.8,
+   "pnl": 0.8,
+   "status": "已结算"
+  },
+  {
+   "league": "比甲",
+   "match": "RAAL La Louvière vs Gent",
+   "home": "RAAL La Louvière",
+   "away": "Gent",
+   "bb": {
+    "name": "让球主(+0.2)",
+    "odds": "1.83",
+    "prob": "0.7232",
+    "ev": "0.2797",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "1-2",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "巴甲",
+   "match": "Chapecoense vs Bahia",
+   "home": "Chapecoense",
+   "away": "Bahia",
+   "bb": {
+    "name": "大2.50",
+    "odds": "1.95",
+    "prob": "0.6998",
+    "ev": "0.3167",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "3-3",
+   "result": "win",
+   "ret": 1.95,
+   "pnl": 0.95,
+   "status": "已结算"
+  },
+  {
+   "league": "葡超",
+   "match": "Nacional vs Estoril",
+   "home": "Nacional",
+   "away": "Estoril",
+   "bb": {
+    "name": "大2.50",
+    "odds": "1.92",
+    "prob": "0.6999",
+    "ev": "0.2934",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "2-0",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "瑞超",
+   "match": "GAIS vs Malmo FF",
+   "home": "GAIS",
+   "away": "Malmo FF",
+   "bb": {
+    "name": "小2.50",
+    "odds": "2.24",
+    "prob": "0.6813",
+    "ev": "0.455",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "0-1",
+   "result": "win",
+   "ret": 2.24,
+   "pnl": 1.2400000000000002,
+   "status": "已结算"
+  },
+  {
+   "league": "瑞超",
+   "match": "Kalmar FF vs Hammarby IF",
+   "home": "Kalmar FF",
+   "away": "Hammarby IF",
+   "bb": {
+    "name": "让球主(+0.5)",
+    "odds": "2.02",
+    "prob": "0.8601",
+    "ev": "0.6682",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "0-4",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "荷甲",
+   "match": "Ajax vs Heerenveen",
+   "home": "Ajax",
+   "away": "Heerenveen",
+   "bb": {
+    "name": "让球主(-1.2)",
+    "odds": "1.9",
+    "prob": "0.5768",
+    "ev": "0.06",
+    "star": "1",
+    "ev_tier": "观察",
+    "stake_factor": "0.15"
+   },
+   "score": "2-2",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "西甲",
+   "match": "Real Racing Club de Santander vs Villarreal",
+   "home": "Real Racing Club de Santander",
+   "away": "Villarreal",
+   "bb": {
+    "name": "让球主(+0.5)",
+    "odds": "1.7",
+    "prob": "0.7964",
+    "ev": "0.3059",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "2-2",
+   "result": "win",
+   "ret": 1.7,
+   "pnl": 0.7,
+   "status": "已结算"
+  },
+  {
+   "league": "西乙",
+   "match": "SD Eibar vs Tenerife",
+   "home": "SD Eibar",
+   "away": "Tenerife",
+   "bb": {
+    "name": "让球主(-0.5)",
+    "odds": "1.99",
+    "prob": "0.7215",
+    "ev": "0.3803",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "1-3",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "英冠",
+   "match": "Burnley vs West Ham United",
+   "home": "Burnley",
+   "away": "West Ham United",
+   "bb": {
+    "name": "让球主(+0.5)",
+    "odds": "1.6",
+    "prob": "0.9554",
+    "ev": "0.445",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "2-2",
+   "result": "win",
+   "ret": 1.6,
+   "pnl": 0.6000000000000001,
+   "status": "已结算"
+  },
+  {
+   "league": "挪超",
+   "match": "Molde vs Tromso",
+   "home": "Molde",
+   "away": "Tromso",
+   "bb": {
+    "name": "大2.50",
+    "odds": "1.68",
+    "prob": "0.755",
+    "ev": "0.2106",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "3-2",
+   "result": "win",
+   "ret": 1.68,
+   "pnl": 0.6799999999999999,
+   "status": "已结算"
+  },
+  {
+   "league": "挪超",
+   "match": "Sarpsborg FK vs Sandefjord",
+   "home": "Sarpsborg FK",
+   "away": "Sandefjord",
+   "bb": {
+    "name": "小2.50",
+    "odds": "2.48",
+    "prob": "0.6533",
+    "ev": "0.5454",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "1-2",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "丹超",
+   "match": "Randers FC vs FC Copenhagen",
+   "home": "Randers FC",
+   "away": "FC Copenhagen",
+   "bb": {
+    "name": "大2.50",
+    "odds": "1.61",
+    "prob": "0.7761",
+    "ev": "0.177",
+    "star": "1",
+    "ev_tier": "标准",
+    "stake_factor": "0.35"
+   },
+   "score": "0-4",
+   "result": "win",
+   "ret": 1.61,
+   "pnl": 0.6100000000000001,
+   "status": "已结算"
+  },
+  {
+   "league": "智利甲",
+   "match": "Ñublense vs Union La Calera",
+   "home": "Ñublense",
+   "away": "Union La Calera",
+   "bb": {
+    "name": "让球主(-0.5)",
+    "odds": "1.77",
+    "prob": "0.8349",
+    "ev": "0.4193",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "2-1",
+   "result": "win",
+   "ret": 1.77,
+   "pnl": 0.77,
+   "status": "已结算"
+  },
+  {
+   "league": "西甲",
+   "match": "Espanyol vs Levante",
+   "home": "Espanyol",
+   "away": "Levante",
+   "bb": {
+    "name": "让球主(-0.5)",
+    "odds": "2.11",
+    "prob": "0.5437",
+    "ev": "0.1176",
+    "star": "1",
+    "ev_tier": "标准",
+    "stake_factor": "0.35"
+   },
+   "score": "3-0",
+   "result": "win",
+   "ret": 2.11,
+   "pnl": 1.1099999999999999,
+   "status": "已结算"
+  },
+  {
+   "league": "西乙",
+   "match": "Burgos CF vs Córdoba",
+   "home": "Burgos CF",
+   "away": "Córdoba",
+   "bb": {
+    "name": "让球主(-0.2)",
+    "odds": "2.11",
+    "prob": "0.5959",
+    "ev": "0.2103",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "3-2",
+   "result": "win",
+   "ret": 2.11,
+   "pnl": 1.1099999999999999,
+   "status": "已结算"
+  },
+  {
+   "league": "巴甲",
+   "match": "Atletico Mineiro vs Grêmio",
+   "home": "Atletico Mineiro",
+   "away": "Grêmio",
+   "bb": {
+    "name": "让球主(-0.5)",
+    "odds": "1.84",
+    "prob": "0.6176",
+    "ev": "0.0993",
+    "star": "1",
+    "ev_tier": "标准",
+    "stake_factor": "0.35"
+   },
+   "score": "3-0",
+   "result": "win",
+   "ret": 1.84,
+   "pnl": 0.8400000000000001,
+   "status": "已结算"
+  },
+  {
+   "league": "巴甲",
+   "match": "Vasco da Gama vs Santos",
+   "home": "Vasco da Gama",
+   "away": "Santos",
+   "bb": {
+    "name": "大2.50",
+    "odds": "2.06",
+    "prob": "0.6252",
+    "ev": "0.248",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "0-3",
+   "result": "win",
+   "ret": 2.06,
+   "pnl": 1.06,
+   "status": "已结算"
+  },
+  {
+   "league": "智利甲",
+   "match": "Cobresal vs Deportes Concepción",
+   "home": "Cobresal",
+   "away": "Deportes Concepción",
+   "bb": {
+    "name": "让球主(+0.0)",
+    "odds": "1.88",
+    "prob": "0.7557",
+    "ev": "0.37",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "0-2",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "西乙",
+   "match": "Las Palmas vs Albacete",
+   "home": "Las Palmas",
+   "away": "Albacete",
+   "bb": {
+    "name": "小2.50",
+    "odds": "1.97",
+    "prob": "0.6639",
+    "ev": "0.2581",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "2-1",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "巴甲",
+   "match": "Vitoria vs Botafogo",
+   "home": "Vitoria",
+   "away": "Botafogo",
+   "bb": {
+    "name": "让球主(-0.5)",
+    "odds": "2.3",
+    "prob": "0.6449",
+    "ev": "0.3997",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "1-0",
+   "result": "win",
+   "ret": 2.3,
+   "pnl": 1.2999999999999998,
+   "status": "已结算"
+  },
+  {
+   "league": "智利甲",
+   "match": "Colo Colo vs O'Higgins",
+   "home": "Colo Colo",
+   "away": "O'Higgins",
+   "bb": {
+    "name": "让球主(-1.0)",
+    "odds": "1.82",
+    "prob": "0.7357",
+    "ev": "0.2909",
+    "star": "2",
+    "ev_tier": "高价值",
+    "stake_factor": "0.5"
+   },
+   "score": "2-2",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "美职",
+   "match": "Chicago Fire vs Portland Timbers",
+   "home": "Chicago Fire",
+   "away": "Portland Timbers",
+   "bb": {
+    "name": "让球主(-1.0)",
+    "odds": "1.85",
+    "prob": "0.6452",
+    "ev": "0.1389",
+    "star": "1",
+    "ev_tier": "标准",
+    "stake_factor": "0.175"
+   },
+   "score": "2-1",
+   "result": "push",
+   "ret": 1.0,
+   "pnl": 0.0,
+   "status": "已结算"
+  },
+  {
+   "league": "美职",
+   "match": "New York City FC vs Philadelphia Union",
+   "home": "New York City FC",
+   "away": "Philadelphia Union",
+   "bb": {
+    "name": "大2.50",
+    "odds": "1.71",
+    "prob": "0.9526",
+    "ev": "0.5795",
+    "star": "1",
+    "ev_tier": "高价值",
+    "stake_factor": "0.25"
+   },
+   "score": "2-3",
+   "result": "win",
+   "ret": 1.71,
+   "pnl": 0.71,
+   "status": "已结算"
+  },
+  {
+   "league": "巴甲",
+   "match": "Corinthians vs Cruzeiro",
+   "home": "Corinthians",
+   "away": "Cruzeiro",
+   "bb": {
+    "name": "小2.50",
+    "odds": "1.63",
+    "prob": "0.6653",
+    "ev": "0.0734",
+    "star": "1",
+    "ev_tier": "观察",
+    "stake_factor": "0.15"
+   },
+   "score": "1-2",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  },
+  {
+   "league": "墨超",
+   "match": "América vs Atlético San Luis",
+   "home": "América",
+   "away": "Atlético San Luis",
+   "bb": {
+    "name": "大2.50",
+    "odds": "1.66",
+    "prob": "0.6639",
+    "ev": "0.0507",
+    "star": "1",
+    "ev_tier": "观察",
+    "stake_factor": "0.15"
+   },
+   "score": "3-0",
+   "result": "win",
+   "ret": 1.66,
+   "pnl": 0.6599999999999999,
+   "status": "已结算"
+  },
+  {
+   "league": "阿甲",
+   "match": "Barracas Central vs Rosario Central",
+   "home": "Barracas Central",
+   "away": "Rosario Central",
+   "bb": {
+    "name": "让球主(+0.0)",
+    "odds": "1.97",
+    "prob": "0.5522",
+    "ev": "0.0522",
+    "star": "1",
+    "ev_tier": "观察",
+    "stake_factor": "0.15"
+   },
+   "score": "0-1",
+   "result": "lose",
+   "ret": 0.0,
+   "pnl": -1.0,
+   "status": "已结算"
+  }
+ ],
+ "skipped": [
+  {
+   "league": "西甲",
+   "match": "Celta Vigo vs CA Osasuna",
+   "note": "BSD状态postponed(延期), 无赛果, 保持待结算"
+  }
+ ]
+}

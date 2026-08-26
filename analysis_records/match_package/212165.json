@@ -1,0 +1,115 @@
+{
+ "id": 212165,
+ "league": "DFB Pokal",
+ "kickoff": "08-22 00:00",
+ "kickoff_iso": "2026-08-21T16:00:00+00:00",
+ "home": "Preußen Münster",
+ "away": "Karlsruher SC",
+ "home_id": 1864,
+ "away_id": 1835,
+ "pulled_at": "2026-08-21T00:36:54.740935+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 2015,
+    "name": "Thomas Wörle",
+    "short_name": "T. Wörle",
+    "profile": "attacking",
+    "preferred_formation": "4-3-1-2",
+    "matches_total": 6.0,
+    "avg_goals_scored": 2.33,
+    "avg_goals_conceded": 1.0
+   },
+   "away": {
+    "id": 846,
+    "name": "Maximilian Senft",
+    "short_name": "M. Senft",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 9.0,
+    "avg_goals_scored": 5.67,
+    "avg_goals_conceded": 1.78
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-1-2",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.13,
+   "draw": 3.63,
+   "away_win": 2.07,
+   "over_15_goals": 1.14,
+   "over_25_goals": 1.51,
+   "over_35_goals": 2.24,
+   "under_15_goals": 4.96,
+   "under_25_goals": 2.42,
+   "under_35_goals": 1.59,
+   "btts_yes": 1.45,
+   "btts_no": 2.57
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.186,
+   "away": 0.209
+  },
+  "formation": {
+   "home": "4-3-1-2",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-20T14:32:30Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.136,
+    "home_ga": 1.434,
+    "away_gf": 1.058,
+    "away_ga": 1.931,
+    "n_home": 36.9,
+    "n_away": 37.9,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.2,
+    "home_ga": 1.6,
+    "away_gf": 0.889,
+    "away_ga": 1.778,
+    "n_home": 10.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "id": 7224,
+ "league": "Brasileirão Serie A",
+ "kickoff": "08-25 07:00",
+ "kickoff_iso": "2026-08-24T23:00:00+00:00",
+ "home": "Botafogo",
+ "away": "Athletico",
+ "home_id": 163,
+ "away_id": 371,
+ "pulled_at": "2026-08-24T23:13:00.039100+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=3555) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": {
+    "id": 43,
+    "name": "Odair Hellmann",
+    "short_name": "O. Hellmann",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 28.0,
+    "avg_goals_scored": 1.18,
+    "avg_goals_conceded": 0.93
+   }
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": "3-4-2-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.26,
+   "draw": 3.14,
+   "away_win": 3.25,
+   "over_15_goals": 1.3,
+   "over_25_goals": 2.01,
+   "over_35_goals": 3.46,
+   "under_15_goals": 3.3,
+   "under_25_goals": 1.78,
+   "under_35_goals": 1.28,
+   "btts_yes": 1.77,
+   "btts_no": 1.96
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 1162,
+    "name": "Arthur Cabral",
+    "short_name": "A. Cabral",
+    "status": "suspended",
+    "reason": "red_card_suspension"
+   },
+   {
+    "id": 1160,
+    "name": "Jordan Barrera",
+    "short_name": "J. Barrera",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 4622,
+    "name": "Júnior Santos",
+    "short_name": "J. Santos",
+    "status": "injured",
+    "reason": "Foot Injury"
+   },
+   {
+    "id": 4587,
+    "name": "Kaio Pantaleão",
+    "short_name": "K. Pantaleão",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 3255,
+    "name": "Paulinho",
+    "short_name": "Paulinho",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 7245,
+    "name": "Warleson",
+    "short_name": "Warleson",
+    "status": "injured",
+    "reason": "Head Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 13698,
+    "name": "Claudinho",
+    "short_name": "Claudinho",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 110,
+    "name": "Gilberto",
+    "short_name": "Gilberto",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 12253,
+    "name": "Leonardo Derik",
+    "short_name": "Leonardo Derik",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 12243,
+    "name": "Lucas Esquivel",
+    "short_name": "L. Esquivel",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.664,
+   "away": 0.695
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-24T14:32:21Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.8,
+    "home_ga": 1.4,
+    "away_gf": 1.417,
+    "away_ga": 1.667,
+    "n_home": 10,
+    "n_away": 12,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.432,
+    "home_ga": 0.519,
+    "away_gf": 0.81,
+    "away_ga": 1.19,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 371
+   }
+  }
+ }
+}

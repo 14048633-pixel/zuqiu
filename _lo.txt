@@ -1,0 +1,37 @@
+def flatten_events(events, league, snapshot_ts):
+    """把一次抓取的 events JSON 展开成长期格式行。"""
+    rows = []
+    for ev in events or []:
+        eid = ev.get("id")
+        home, away = ev.get("home_team"), ev.get("away_team")
+        ct = ev.get("commence_time")
+        erow = {"home_team": home, "away_team": away}
+        for bk in ev.get("bookmakers", []):
+            bkey = bk.get("key") or bk.get("title")
+            bk_ts = bk.get("last_update") or ""
+            for m in bk.get("markets", []):
+                mk = m.get("key")
+                for oc in m.get("outcomes", []):
+                    side, pt = _classify_outcome(erow, mk, oc.get("name"), oc.get("point"))
+                    side_key = f"{side}@{pt}" if pt is not None else side
+                    rows.append({
+                        "snapshot_ts": snapshot_ts, "event_id": str(eid),
+                        "league": league, "commence_time": ct,
+                        "home_team": home, "away_team": away,
+                        "bookmaker": bkey, "market": mk, "outcome": oc.get("name"),
+                        "side": side, "side_key": side_key, "point": pt,
+                        "price": oc.get("price"), "last_update": bk_ts,
+                    })
+    return rows
+
+==== normalize_team ====
+def normalize_team(name):
+    """归一化队名用于匹配（小写、去标点、查别名）。"""
+    if name is None:
+        return ""
+    s = "".join(ch for ch in str(name).strip().lower() if ch.isalnum() or ch.isspace())
+    s = " ".join(s.split())
+    return NAME_ALIASES.get(s, s)
+
+==== DEFAULT_MARKETS/REGIONS ====
+markets=h2h,spreads,totals regions=eu

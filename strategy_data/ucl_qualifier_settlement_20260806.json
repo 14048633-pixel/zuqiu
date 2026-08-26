@@ -1,0 +1,53 @@
+{
+  "tournament": "欧冠资格赛",
+  "settlement_date": "2026-08-06",
+  "matches": [
+    {
+      "match": "奥胡斯 vs 沙巴巴库",
+      "leg": "首回合",
+      "score": "2-1",
+      "engine_prediction": {
+        "triggered_count": 7,
+        "level": "高危大冷",
+        "recommendation": "弱队直接赢球概率很高",
+        "hot_items": ["H4密集赛程/长途消耗"],
+        "cold_items": ["C2不胜止颓+死守", "C3大巴密集防守", "C4客场无包袱只求平"],
+        "line_items": ["L2大热低赔"],
+        "h2h_items": ["D2冷门方历史不惧热门"],
+        "ucl_items": ["U5首回合保守"]
+      },
+      "step8": {
+        "poisson_lambda": {"home": 1.3, "away": 0.83},
+        "poisson_top5": ["1-0(15.4%)", "1-1(12.8%)", "0-0(11.8%)", "2-0(10.0%)", "0-1(9.8%)"],
+        "ml_predicted_goals": 3.36,
+        "over25_prob": 0.726,
+        "hdp": "主队-0.5/1赢盘概率47.6%"
+      },
+      "agent_tactical": "奥胡斯残阵+双线疲惫 vs 沙巴铁桶反击战意拉满, 沙巴极致防守压制",
+      "actual_result": "奥胡斯2-1主胜",
+      "verdict": "预测错误 (冷门引擎首次真测试失败)",
+      "note": "引擎判高危大冷但热门方主胜。教训: 欧冠首回合主队主场buff+沙巴只求客场进球, 弱队保平/保客场进球而非求胜; 引擎冷门条件中'弱队赢球概率很高'表述过强, 对欧冠首回合应改为'下盘/平局倾向'"
+    },
+    {
+      "match": "费内巴切 vs 格拉茨风暴",
+      "leg": "首回合",
+      "score": "2-0",
+      "engine_prediction": {
+        "triggered_count": 3,
+        "level": "轻度风险",
+        "recommendation": "防平局即可",
+        "bet": "小3 @1.86 EV+85%"
+      },
+      "actual_result": "费内巴切2-0主胜, 总进球2(<3)",
+      "verdict": "预测正确 (小球命中, 推荐小3赢)",
+      "note": "总进球2球小于3, 小3@1.86 命中"
+    }
+  ],
+  "summary": {
+    "count": 2,
+    "correct": 1,
+    "wrong": 1,
+    "accuracy": "50%",
+    "lesson": "欧冠首回合主队主场优势显著, 冷门引擎对'弱队直接赢球'表述应改为'下盘/防平'方向"
+  }
+}

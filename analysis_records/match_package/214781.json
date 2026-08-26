@@ -1,0 +1,282 @@
+{
+ "id": 214781,
+ "league": "西乙",
+ "kickoff": "08-24 03:30",
+ "kickoff_iso": "2026-08-23T19:30:00Z",
+ "home": "Tenerife",
+ "away": "Almería",
+ "home_id": 1388,
+ "away_id": 1264,
+ "pulled_at": "2026-08-23T17:44:30.921003+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 830,
+    "name": "Alvaro Cervera",
+    "short_name": "A. Cervera",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 51.0,
+    "avg_goals_scored": 1.1,
+    "avg_goals_conceded": 1.22
+   },
+   "away": {
+    "id": 1950,
+    "name": "Garcia Pimienta",
+    "short_name": "G. Pimienta",
+    "profile": "defensive",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 1.43,
+    "avg_goals_conceded": 0.71
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.08,
+   "draw": 3.16,
+   "away_win": 2.25,
+   "over_15_goals": 1.32,
+   "over_25_goals": 2.04,
+   "over_35_goals": 3.57,
+   "under_15_goals": 3.18,
+   "under_25_goals": 1.75,
+   "under_35_goals": 1.26,
+   "btts_yes": 1.75,
+   "btts_no": 1.97
+  },
+  "best": {
+   "btts": {
+    "yes": {
+     "odds": 1.8,
+     "bookmaker": "bet365",
+     "n": 17
+    },
+    "no": {
+     "odds": 2.1,
+     "bookmaker": "pinnacle",
+     "n": 17
+    }
+   },
+   "double_chance": {
+    "1x": {
+     "odds": 1.62,
+     "bookmaker": "1xbet",
+     "n": 8
+    },
+    "x2": {
+     "odds": 1.36,
+     "bookmaker": "1xbet",
+     "n": 8
+    },
+    "12": {
+     "odds": 1.35,
+     "bookmaker": "william-hill",
+     "n": 8
+    }
+   },
+   "draw_no_bet": {
+    "home": {
+     "odds": 2.05,
+     "bookmaker": "william-hill",
+     "n": 10
+    },
+    "away": {
+     "odds": 1.813,
+     "bookmaker": "pinnacle",
+     "n": 10
+    }
+   },
+   "over_under_15": {
+    "over@1.5": {
+     "odds": 1.33,
+     "bookmaker": "10bet",
+     "n": 7
+    },
+    "under@1.5": {
+     "odds": 3.37,
+     "bookmaker": "pinnacle",
+     "n": 7
+    }
+   },
+   "over_under_25": {
+    "over@2.5": {
+     "odds": 2.11,
+     "bookmaker": "sbo",
+     "n": 9
+    },
+    "under@2.5": {
+     "odds": 1.84,
+     "bookmaker": "1xbet",
+     "n": 9
+    }
+   },
+   "over_under_35": {
+    "over@3.5": {
+     "odds": 3.8,
+     "bookmaker": "betfair",
+     "n": 7
+    },
+    "under@3.5": {
+     "odds": 1.29,
+     "bookmaker": "pinnacle",
+     "n": 7
+    }
+   },
+   "over_under_05": {
+    "over@0.5": {
+     "odds": 1.07,
+     "bookmaker": "10bet",
+     "n": 5
+    },
+    "under@0.5": {
+     "odds": 9.0,
+     "bookmaker": "betvictor",
+     "n": 5
+    }
+   },
+   "total_corners": {
+    "over@7.5": {
+     "odds": 1.38,
+     "bookmaker": "unibet",
+     "n": 2
+    },
+    "under@7.5": {
+     "odds": 2.92,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "over@8.5": {
+     "odds": 1.65,
+     "bookmaker": "unibet",
+     "n": 3
+    },
+    "under@8.5": {
+     "odds": 2.25,
+     "bookmaker": "pinnacle",
+     "n": 3
+    },
+    "over@9.5": {
+     "odds": 2.07,
+     "bookmaker": "unibet",
+     "n": 4
+    },
+    "under@9.5": {
+     "odds": 1.8,
+     "bookmaker": "10bet",
+     "n": 4
+    },
+    "over@10.5": {
+     "odds": 2.65,
+     "bookmaker": "unibet",
+     "n": 3
+    },
+    "under@10.5": {
+     "odds": 1.47,
+     "bookmaker": "pinnacle",
+     "n": 3
+    },
+    "over@11.5": {
+     "odds": 3.5,
+     "bookmaker": "unibet",
+     "n": 2
+    },
+    "under@11.5": {
+     "odds": 1.24,
+     "bookmaker": "unibet",
+     "n": 2
+    }
+   },
+   "1x2": {
+    "home": {
+     "odds": 3.23,
+     "bookmaker": "1xbet",
+     "n": 18
+    },
+    "draw": {
+     "odds": 3.31,
+     "bookmaker": "1xbet",
+     "n": 18
+    },
+    "away": {
+     "odds": 2.34,
+     "bookmaker": "pinnacle",
+     "n": 18
+    }
+   }
+  },
+  "bookmakers_count": 25,
+  "total_odds": 216
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 204359,
+    "name": "Guilherme Borges Guedes",
+    "short_name": "G. B. Guedes",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.209,
+   "away": 0.586
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:33:01Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.054,
+    "home_ga": 0.745,
+    "away_gf": 0.762,
+    "away_ga": 1.5,
+    "n_home": 29.4,
+    "n_away": 29.4,
+    "src_w": 0.7,
+    "src_season": "2024/2025",
+    "src_tag": "prev"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.254,
+    "home_ga": 1.185,
+    "away_gf": 1.402,
+    "away_ga": 1.593,
+    "n_home": 37.8,
+    "n_away": 37.8,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

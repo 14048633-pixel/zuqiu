@@ -1,0 +1,136 @@
+{
+ "id": 587883,
+ "league": "欧协联",
+ "kickoff": "08-21 03:00",
+ "kickoff_iso": "2026-08-20T19:00:00+00:00",
+ "home": "Shamrock Rovers",
+ "away": "Kuopion Palloseura",
+ "home_id": 2349,
+ "away_id": 377,
+ "pulled_at": "2026-08-20T22:16:22.343946+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1842,
+    "name": "Stephen Bradley",
+    "short_name": "S. Bradley",
+    "profile": "attacking",
+    "preferred_formation": "3-5-2",
+    "matches_total": 9.0,
+    "avg_goals_scored": 2.44,
+    "avg_goals_conceded": 0.89
+   },
+   "away": {
+    "id": 600,
+    "name": "Miika Nuutinen",
+    "short_name": "M. Nuutinen",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 37.0,
+    "avg_goals_scored": 1.32,
+    "avg_goals_conceded": 0.92
+   }
+  },
+  "preferred_formation": {
+   "home": "3-5-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.0,
+   "draw": 3.48,
+   "away_win": 3.45,
+   "over_15_goals": 1.27,
+   "over_25_goals": 1.9,
+   "over_35_goals": 3.2,
+   "under_15_goals": 3.37,
+   "under_25_goals": 1.83,
+   "under_35_goals": 1.3,
+   "btts_yes": 1.74,
+   "btts_no": 1.96
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 64661,
+    "name": "John McGovern",
+    "short_name": "J. McGovern",
+    "status": "injured",
+    "reason": "Knock Injury"
+   },
+   {
+    "id": 64665,
+    "name": "Naj Razi",
+    "short_name": "N. Razi",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.3,
+   "away": 0.491
+  },
+  "formation": {
+   "home": "3-5-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-20T08:32:20Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.429,
+    "home_ga": 0.806,
+    "away_gf": 0.836,
+    "away_ga": 2.448,
+    "n_home": 9.8,
+    "n_away": 6.7,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 2349
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.321,
+    "home_ga": 1.148,
+    "away_gf": 1.381,
+    "away_ga": 0.75,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 377
+   }
+  }
+ }
+}

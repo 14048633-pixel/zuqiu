@@ -1,0 +1,133 @@
+{
+ "id": 580492,
+ "league": "法乙",
+ "kickoff": "08-22 02:00",
+ "kickoff_iso": "2026-08-21T18:00:00+00:00",
+ "home": "USL Dunkerque",
+ "away": "Montpellier",
+ "home_id": 1640,
+ "away_id": 1301,
+ "pulled_at": "2026-08-22T01:06:03.717524+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1077,
+    "name": "Albert Sánchez",
+    "short_name": "A. Sánchez",
+    "profile": "attacking",
+    "preferred_formation": "4-1-4-1",
+    "matches_total": 8.0,
+    "avg_goals_scored": 2.0,
+    "avg_goals_conceded": 1.12
+   },
+   "away": {
+    "id": 1058,
+    "name": "Zoumana Camara",
+    "short_name": "Z. Camara",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 11.0,
+    "avg_goals_scored": 2.55,
+    "avg_goals_conceded": 1.27
+   }
+  },
+  "preferred_formation": {
+   "home": "4-1-4-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 6052,
+    "name": "Steven​ N'Zonzi",
+    "short_name": "S. N'Zonzi",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "away": [
+   {
+    "id": 29215,
+    "name": "Florian Tardieu",
+    "short_name": "F. Tardieu",
+    "status": "injured",
+    "reason": ""
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.364,
+   "away": 0.464
+  },
+  "formation": {
+   "home": "4-1-4-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-21T14:32:20Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.32,
+    "home_ga": 1.206,
+    "away_gf": 2.265,
+    "away_ga": 1.956,
+    "n_home": 9.7,
+    "n_away": 6.8,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1640
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.778,
+    "home_ga": 1.333,
+    "away_gf": 0.9,
+    "away_ga": 0.4,
+    "n_home": 9.0,
+    "n_away": 10.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

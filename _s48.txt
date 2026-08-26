@@ -1,0 +1,16 @@
+keys: ['window_start', 'window_end', 'n_matches', 'n_leagues', 'n_teams', 'matches', 'teams']
+--- window_start: <class 'str'> ---
+  2026-08-17T14:22:34.287598+08:00
+--- window_end: <class 'str'> ---
+  2026-08-19T14:22:34.287598+08:00
+--- n_matches: <class 'int'> ---
+  42
+--- n_leagues: <class 'int'> ---
+  22
+--- n_teams: <class 'int'> ---
+  84
+--- matches: <class 'list'> ---
+  len=42
+  样例: {"league": "芬超", "home": "IF Gnistan", "away": "Ilves", "kickoff": "08-17 23:00", "src": "BSD"}
+--- teams: <class 'dict'> ---
+  {'IF Gnistan': [{'league': '芬超', 'kickoff': '08-17 23:00', 'opp': 'Ilves'}], 'Ilves': [{'league': '芬超', 'kickoff': '08-17 23:00', 'opp': 'IF Gnistan'}], 'FC Universitatea Cluj': [{'league': '罗甲', 'kickoff': '08-17 23:30', 'opp': 'UTA Arad'}], 'UTA Arad': [{'league': '罗甲', 'kickoff': '08-17 23:30', '

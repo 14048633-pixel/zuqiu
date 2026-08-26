@@ -1,0 +1,152 @@
+{
+ "id": 213539,
+ "league": "西甲",
+ "kickoff": "08-23 01:30",
+ "kickoff_iso": "2026-08-22T17:30:00+00:00",
+ "home": "Valencia",
+ "away": "Celta Vigo",
+ "home_id": 47,
+ "away_id": 49,
+ "pulled_at": "2026-08-22T01:15:24.819883+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 395,
+    "name": "Carlos Corberán",
+    "short_name": "C. Corberán",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 49.0,
+    "avg_goals_scored": 1.37,
+    "avg_goals_conceded": 1.37
+   },
+   "away": {
+    "id": 396,
+    "name": "Claudio Giráldez",
+    "short_name": "C. Giráldez",
+    "profile": "balanced",
+    "preferred_formation": "3-4-3",
+    "matches_total": 60.0,
+    "avg_goals_scored": 1.5,
+    "avg_goals_conceded": 1.27
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "3-4-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 30447,
+    "name": "Alberto Mari",
+    "short_name": "A. Marí",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 926,
+    "name": "José Copete",
+    "short_name": "J. Copete",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   },
+   {
+    "id": 29033,
+    "name": "Sergi Canós",
+    "short_name": "S. Canós",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 779,
+    "name": "Javi Galán",
+    "short_name": "J. Galán",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 2012,
+    "name": "Matías Vecino",
+    "short_name": "M. Vecino",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.405,
+   "away": 0.527
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "3-4-3"
+  },
+  "updated_at": "2026-08-21T14:34:19Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.342,
+    "home_ga": 1.07,
+    "away_gf": 0.982,
+    "away_ga": 1.673,
+    "n_home": 45.6,
+    "n_away": 45.6,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.482,
+    "home_ga": 1.281,
+    "away_gf": 1.272,
+    "away_ga": 1.474,
+    "n_home": 45.6,
+    "n_away": 45.6,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

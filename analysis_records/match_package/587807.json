@@ -1,0 +1,115 @@
+{
+ "id": 587807,
+ "league": "Carabao Cup",
+ "kickoff": "08-26 02:45",
+ "kickoff_iso": "2026-08-25T18:45:00+00:00",
+ "home": "Stevenage",
+ "away": "Reading",
+ "home_id": 1435,
+ "away_id": 1248,
+ "pulled_at": "2026-08-25T23:43:07.758320+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 882,
+    "name": "Alex Revell",
+    "short_name": "A. Revell",
+    "profile": "defensive",
+    "preferred_formation": "4-1-4-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 0.71,
+    "avg_goals_conceded": 1.43
+   },
+   "away": {
+    "id": 853,
+    "name": "Leam Richardson",
+    "short_name": "L. Richardson",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 11.0,
+    "avg_goals_scored": 1.73,
+    "avg_goals_conceded": 0.91
+   }
+  },
+  "preferred_formation": {
+   "home": "4-1-4-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.3,
+   "draw": 3.16,
+   "away_win": 3.09,
+   "over_15_goals": 1.38,
+   "over_25_goals": 2.18,
+   "over_35_goals": 3.97,
+   "under_15_goals": 2.87,
+   "under_25_goals": 1.65,
+   "under_35_goals": 1.22,
+   "btts_yes": 1.89,
+   "btts_no": 1.83
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.614,
+   "away": 0.386
+  },
+  "formation": {
+   "home": "4-1-4-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-25T14:32:15Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.794,
+    "home_ga": 1.618,
+    "away_gf": 0.5,
+    "away_ga": 1.971,
+    "n_home": 3.4,
+    "n_away": 3.4,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.794,
+    "home_ga": 1.088,
+    "away_gf": 0.706,
+    "away_ga": 2.324,
+    "n_home": 3.4,
+    "n_away": 3.4,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

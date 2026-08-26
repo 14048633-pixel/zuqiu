@@ -1,0 +1,131 @@
+{
+ "id": 213989,
+ "league": "英冠",
+ "kickoff": "08-22 22:00",
+ "kickoff_iso": "2026-08-22T14:00:00+00:00",
+ "home": "Blackburn Rovers",
+ "away": "Middlesbrough",
+ "home_id": 218,
+ "away_id": 207,
+ "pulled_at": "2026-08-22T01:12:56.089341+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1949,
+    "name": "Tony Mowbray",
+    "short_name": "T. Mowbray",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 5.0,
+    "avg_goals_scored": 1.0,
+    "avg_goals_conceded": 1.0
+   },
+   "away": {
+    "id": 168,
+    "name": "Kim Hellberg",
+    "short_name": "K. Hellberg",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 55.0,
+    "avg_goals_scored": 1.45,
+    "avg_goals_conceded": 1.16
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 6441,
+    "name": "Lewis Miller",
+    "short_name": "L. Miller",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 6048,
+    "name": "Ashley Phillips",
+    "short_name": "A. Phillips",
+    "status": "injured",
+    "reason": "Physical Discomfort"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.664,
+   "away": 0.518
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-21T14:33:25Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.667,
+    "home_ga": 0.917,
+    "away_gf": 1.167,
+    "away_ga": 1.75,
+    "n_home": 12.0,
+    "n_away": 12.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 1.0,
+    "away_gf": 0.0,
+    "away_ga": 0.0,
+    "n_home": 1,
+    "n_away": 0,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  }
+ }
+}

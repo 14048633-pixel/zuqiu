@@ -1,0 +1,100 @@
+{
+ "id": 205873,
+ "league": "中超",
+ "kickoff": "08-22 20:00",
+ "kickoff_iso": "2026-08-22T12:00:00+00:00",
+ "home": "Qingdao West Coast",
+ "away": "Shandong Taishan",
+ "home_id": 2042,
+ "away_id": 2031,
+ "pulled_at": "2026-08-22T01:10:49.143500+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=3452) 未提取",
+  "away教练(coach_cache未命中 id=3171) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.923,
+   "away": 0.745
+  },
+  "formation": {
+   "home": "4-4-1-1",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-21T14:33:16Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.25,
+    "home_ga": 0.75,
+    "away_gf": 1.0,
+    "away_ga": 1.818,
+    "n_home": 12.0,
+    "n_away": 11.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.333,
+    "home_ga": 1.417,
+    "away_gf": 1.273,
+    "away_ga": 1.909,
+    "n_home": 12.0,
+    "n_away": 11.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

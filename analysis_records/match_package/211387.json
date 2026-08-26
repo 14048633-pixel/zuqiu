@@ -1,0 +1,198 @@
+{
+ "id": 211387,
+ "league": "瑞士超",
+ "kickoff": "08-23 20:00",
+ "kickoff_iso": "2026-08-23T12:00:00Z",
+ "home": "BSC Young Boys",
+ "away": "FC Vaduz",
+ "home_id": 148,
+ "away_id": 1365,
+ "pulled_at": "2026-08-23T17:48:12.482680+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 310,
+    "name": "Gerardo Seoane",
+    "short_name": "G. Seoane",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 61.0,
+    "avg_goals_scored": 1.98,
+    "avg_goals_conceded": 1.72
+   },
+   "away": {
+    "id": 1864,
+    "name": "Marc Schneider",
+    "short_name": "M. Schneider",
+    "profile": "attacking",
+    "preferred_formation": "4-3-1-2",
+    "matches_total": 13.0,
+    "avg_goals_scored": 1.85,
+    "avg_goals_conceded": 1.31
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-1-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.28,
+   "draw": 5.8,
+   "away_win": 8.33,
+   "over_15_goals": 1.07,
+   "over_25_goals": 1.28,
+   "over_35_goals": 1.72,
+   "under_15_goals": 7.41,
+   "under_25_goals": 3.49,
+   "under_35_goals": 2.08,
+   "btts_yes": 1.52,
+   "btts_no": 2.4
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 3206,
+    "name": "Alan Virginius",
+    "short_name": "A. Virginius",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 7812,
+    "name": "Benjamin Kabeya",
+    "short_name": "B. Kabeya",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 2399,
+    "name": "Cedric Zesiger",
+    "short_name": "C. Zesiger",
+    "status": "injured",
+    "reason": "Hip Injury"
+   },
+   {
+    "id": 4389,
+    "name": "Edimilson Fernandes",
+    "short_name": "E. Fernandes",
+    "status": "suspended",
+    "reason": "red_card_suspension"
+   },
+   {
+    "id": 7410,
+    "name": "Kastriot Imeri",
+    "short_name": "K. Imeri",
+    "status": "injured",
+    "reason": "Hip Injury"
+   },
+   {
+    "id": 3199,
+    "name": "Saidy Janko",
+    "short_name": "S. Janko",
+    "status": "injured",
+    "reason": "Leg Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 30069,
+    "name": "Dejan Sorgić",
+    "short_name": "D. Sorgić",
+    "status": "injured",
+    "reason": "Knock Injury"
+   },
+   {
+    "id": 59320,
+    "name": "Lado Akhalaia",
+    "short_name": "L. Akhalaia",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 30071,
+    "name": "Ranjan Neelakandan",
+    "short_name": "R. Neelakandan",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 27642,
+    "name": "Stephan Seiler",
+    "short_name": "S. Seiler",
+    "status": "injured",
+    "reason": "Leg Injury"
+   },
+   {
+    "id": 27658,
+    "name": "Tim-Tiado Oehri",
+    "short_name": "T. Oehri",
+    "status": "injured",
+    "reason": "Knock Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.345,
+   "away": 0.514
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-1-2"
+  },
+  "updated_at": "2026-08-23T08:32:14Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.452,
+    "home_ga": 1.301,
+    "away_gf": 2.228,
+    "away_ga": 1.62,
+    "n_home": 7.3,
+    "n_away": 9.2,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 148
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.321,
+    "home_ga": 1.42,
+    "away_gf": 1.702,
+    "away_ga": 1.655,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1365
+   }
+  }
+ }
+}

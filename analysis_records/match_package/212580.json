@@ -1,0 +1,104 @@
+{
+ "id": 212580,
+ "league": "Emperor Cup",
+ "kickoff": "08-26 18:00",
+ "kickoff_iso": "2026-08-26T10:00:00+00:00",
+ "home": "FC Imabari",
+ "away": "Blaublitz Akita",
+ "home_id": 2026,
+ "away_id": 1961,
+ "pulled_at": "2026-08-25T23:48:40.478059+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=2037) 未提取",
+  "away教练(coach_cache未命中 id=1318) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 1.93,
+   "btts_no": 1.77
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.027,
+   "away": 0.141
+  },
+  "formation": {
+   "home": "3-4-1-2",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-25T14:32:34Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.806,
+    "home_ga": 2.194,
+    "away_gf": 0.703,
+    "away_ga": 2.338,
+    "n_home": 3.1,
+    "n_away": 7.4,
+    "n_scored": 15,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2026
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.878,
+    "home_ga": 1.694,
+    "away_gf": 0.847,
+    "away_ga": 2.194,
+    "n_home": 4.9,
+    "n_away": 7.2,
+    "n_scored": 19,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1961
+   }
+  }
+ }
+}

@@ -1,0 +1,40 @@
+# 足球竞猜模型配置
+data:
+  # API 数据源配置 (API-Football)
+  api_base_url: "https://v3.football.api-sports.io"
+  api_key_env: "FOOTBALL_API_KEY"
+  leagues:
+    - id: 39   # 英超
+    - id: 140  # 西甲
+    - id: 135  # 意甲
+    - id: 78   # 德甲
+    - id: 61   # 法甲
+  season: "2025-2026"
+  lookback_games: 10  # 每队回溯场次
+
+features:
+  rolling_windows: [3, 5, 10]  # 滚动统计窗口
+  include_h2h: true            # 包含历史交锋
+  include_odds: true           # 包含赔率数据
+  elo:
+    initial_rating: 1500       # Elo 初始分值
+    k_factor: 32               # K 因子（越大变化越快）
+    home_advantage: 100        # 主场优势加成
+
+model:
+  type: "xgb"                  # xgb / rf / lr
+  test_size: 0.2
+  random_state: 42
+  xgb_params:
+    n_estimators: 100
+    max_depth: 4
+    learning_rate: 0.03
+    subsample: 0.7
+    colsample_bytree: 1.0
+    eval_metric: "logloss"
+
+poisson:
+  max_goals: 6                 # 泊松分布最大进球数
+
+parlay:
+  top_n: 5                     # 返回最优串关数量

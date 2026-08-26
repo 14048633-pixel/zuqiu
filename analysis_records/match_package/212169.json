@@ -1,0 +1,110 @@
+{
+ "id": 212169,
+ "league": "德国杯",
+ "kickoff": "08-23 21:30",
+ "kickoff_iso": "2026-08-23T13:30:00Z",
+ "home": "Bahlinger SC",
+ "away": "1. FC Magdeburg",
+ "home_id": 1845,
+ "away_id": 1838,
+ "pulled_at": "2026-08-23T17:45:43.516793+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=1210) 未提取",
+  "away教练(coach_cache未命中 id=1885) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 28.34,
+   "draw": 14.36,
+   "away_win": 1.04,
+   "over_15_goals": 1.04,
+   "over_25_goals": 1.17,
+   "over_35_goals": 1.5,
+   "under_15_goals": 9.8,
+   "under_25_goals": 4.51,
+   "under_35_goals": 2.49,
+   "btts_yes": 2.47,
+   "btts_no": 1.49
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 15609,
+    "name": "Lubambo Musonda",
+    "short_name": "L. Musonda",
+    "status": "injured",
+    "reason": "Achilles Tendon Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.089,
+   "away": 0.218
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-23T08:32:24Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.333,
+    "home_ga": 2.667,
+    "away_gf": 2.0,
+    "away_ga": 3.0,
+    "n_home": 3.0,
+    "n_away": 1.0,
+    "n_scored": 4,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1845
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.2,
+    "home_ga": 1.8,
+    "away_gf": 2.556,
+    "away_ga": 1.889,
+    "n_home": 10.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

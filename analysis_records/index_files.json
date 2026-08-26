@@ -1,0 +1,2253 @@
+{
+ "ts": "2026-08-19 22:44",
+ "n": 321,
+ "files": [
+  {
+   "path": "analysis_records/relaunch_0817_1829.json",
+   "type": "临场重扫",
+   "league": "",
+   "date": "",
+   "size_kb": 0.1
+  },
+  {
+   "path": "analysis_records/relaunch_0831_0300.json",
+   "type": "临场重扫",
+   "league": "",
+   "date": "",
+   "size_kb": 0.1
+  },
+  {
+   "path": "analysis_records/bet_ledger.csv",
+   "type": "其他",
+   "league": "",
+   "date": "",
+   "size_kb": 34.9
+  },
+  {
+   "path": "analysis_records/bet_ledger_test_tmp.csv",
+   "type": "其他",
+   "league": "",
+   "date": "",
+   "size_kb": 32.2
+  },
+  {
+   "path": "analysis_records/coach_cache.json",
+   "type": "其他",
+   "league": "",
+   "date": "",
+   "size_kb": 481.9
+  },
+  {
+   "path": "analysis_records/csl_xg_588027_teams.json",
+   "type": "其他",
+   "league": "",
+   "date": "",
+   "size_kb": 6.0
+  },
+  {
+   "path": "analysis_records/historical_draw_odds_pattern.md",
+   "type": "其他",
+   "league": "",
+   "date": "",
+   "size_kb": 3.1
+  },
+  {
+   "path": "analysis_records/ledger_draw_pattern_0815_16.md",
+   "type": "其他",
+   "league": "",
+   "date": "",
+   "size_kb": 2.8
+  },
+  {
+   "path": "analysis_records/ledger_odds_pattern.md",
+   "type": "其他",
+   "league": "",
+   "date": "",
+   "size_kb": 2.5
+  },
+  {
+   "path": "analysis_records/ledger_pending_85_detail.md",
+   "type": "其他",
+   "league": "",
+   "date": "",
+   "size_kb": 11.9
+  },
+  {
+   "path": "analysis_records/phase_hypotheses.md",
+   "type": "其他",
+   "league": "",
+   "date": "",
+   "size_kb": 2.3
+  },
+  {
+   "path": "analysis_records/pull_pause.flag",
+   "type": "其他",
+   "league": "",
+   "date": "",
+   "size_kb": 0.0
+  },
+  {
+   "path": "analysis_records/apifootball_injuries_20260815.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 239.8
+  },
+  {
+   "path": "analysis_records/apifootball_injuries_2026-08-16.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 402.1
+  },
+  {
+   "path": "analysis_records/apifootball_injuries_20260816.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 402.1
+  },
+  {
+   "path": "analysis_records/audit_20260816.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 5.1
+  },
+  {
+   "path": "analysis_records/bet_ledger_backup_20260816_before_audit.csv",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 36.3
+  },
+  {
+   "path": "analysis_records/ledger_vs_data_20260816.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 28.2
+  },
+  {
+   "path": "analysis_records/ledger_vs_data_20260816.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 6.3
+  },
+  {
+   "path": "analysis_records/matches_info_20260816.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 512.7
+  },
+  {
+   "path": "analysis_records/matches_info_20260816.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 53.8
+  },
+  {
+   "path": "analysis_records/mls_20260816_report.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 3.6
+  },
+  {
+   "path": "analysis_records/review_20260816.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 2.5
+  },
+  {
+   "path": "analysis_records/today_remaining_direction_20260816.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 8.5
+  },
+  {
+   "path": "analysis_records/48h_final_direction_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 5.9
+  },
+  {
+   "path": "analysis_records/48h_final_direction_20260817.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 6.1
+  },
+  {
+   "path": "analysis_records/48h_full_odds_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 21.1
+  },
+  {
+   "path": "analysis_records/48h_full_odds_20260817.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 7.8
+  },
+  {
+   "path": "analysis_records/48h_plan_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 21.1
+  },
+  {
+   "path": "analysis_records/48h_plan_20260817.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 10.7
+  },
+  {
+   "path": "analysis_records/48h_plan_detail_20260817.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 14.9
+  },
+  {
+   "path": "analysis_records/coppa_lineups_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 2.1
+  },
+  {
+   "path": "analysis_records/coverage_report_20260817.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 1.1
+  },
+  {
+   "path": "analysis_records/key_matches_odds_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 8.2
+  },
+  {
+   "path": "analysis_records/key_probe_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 0.6
+  },
+  {
+   "path": "analysis_records/ledger_review_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 3.7
+  },
+  {
+   "path": "analysis_records/ledger_review_20260817.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 1.4
+  },
+  {
+   "path": "analysis_records/ledger_review_all_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 8.7
+  },
+  {
+   "path": "analysis_records/ledger_review_all_20260817.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 3.3
+  },
+  {
+   "path": "analysis_records/live_odds_48h_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 14.6
+  },
+  {
+   "path": "analysis_records/model_12_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 23.6
+  },
+  {
+   "path": "analysis_records/model_12_coach_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 46.2
+  },
+  {
+   "path": "analysis_records/model_12_full_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 73.4
+  },
+  {
+   "path": "analysis_records/model_vs_market_20260817.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 1.4
+  },
+  {
+   "path": "analysis_records/pipeline_12_calib_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 29.3
+  },
+  {
+   "path": "analysis_records/pipeline_12_live_odds_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 28.9
+  },
+  {
+   "path": "analysis_records/pipeline_12_rules2_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 29.4
+  },
+  {
+   "path": "analysis_records/pipeline_12_rules_20260817.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 29.2
+  },
+  {
+   "path": "analysis_records/pipeline_20260817_0729.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 27.3
+  },
+  {
+   "path": "analysis_records/pipeline_20260817_0730.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 27.7
+  },
+  {
+   "path": "analysis_records/pipeline_20260817_0733.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 28.5
+  },
+  {
+   "path": "analysis_records/pipeline_20260817_1057.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 29.9
+  },
+  {
+   "path": "analysis_records/pipeline_20260817_1058.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 30.0
+  },
+  {
+   "path": "analysis_records/pipeline_20260817_1100.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 29.9
+  },
+  {
+   "path": "analysis_records/pipeline_20260817_1101.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 30.2
+  },
+  {
+   "path": "analysis_records/pipeline_20260817_1109.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 30.2
+  },
+  {
+   "path": "analysis_records/star2_dissect_20260817.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 1.4
+  },
+  {
+   "path": "analysis_records/48h_23_detail_20260818.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 4.5
+  },
+  {
+   "path": "analysis_records/48h_23_table_20260818.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 4.0
+  },
+  {
+   "path": "analysis_records/key46_20260818_2307.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 61.1
+  },
+  {
+   "path": "analysis_records/key46_20260818_2307.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 8.2
+  },
+  {
+   "path": "analysis_records/key46_20260818_2308.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 8.9
+  },
+  {
+   "path": "analysis_records/key46_ev_final2_20260818_2319.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 29.1
+  },
+  {
+   "path": "analysis_records/key46_ev_final_20260818_2319.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 25.8
+  },
+  {
+   "path": "analysis_records/key46_ev_v2_20260818_2317.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 21.4
+  },
+  {
+   "path": "analysis_records/key46_ev_v3_20260818_2319.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 25.8
+  },
+  {
+   "path": "analysis_records/key46_model_ev_20260818_2316.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 23.1
+  },
+  {
+   "path": "analysis_records/key46_v3_lambda_20260818_2357.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 32.5
+  },
+  {
+   "path": "analysis_records/key46_v3_lambda_validate_20260818.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 2.6
+  },
+  {
+   "path": "analysis_records/live_cl3_20260818_2252.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 4.5
+  },
+  {
+   "path": "analysis_records/live_snap_48h_20260818_0018.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 3.7
+  },
+  {
+   "path": "analysis_records/opp_strength_norm_20260818.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 2.9
+  },
+  {
+   "path": "analysis_records/opp_strength_norm_20260818_summary.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 2.5
+  },
+  {
+   "path": "analysis_records/opp_strength_norm_v2_20260818.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 3.2
+  },
+  {
+   "path": "analysis_records/opp_strength_norm_v3_20260818.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 2.8
+  },
+  {
+   "path": "analysis_records/recompute_necaxa_leon_20260818.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 1.2
+  },
+  {
+   "path": "analysis_records/report_necaxa_leon_20260818.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 2.3
+  },
+  {
+   "path": "analysis_records/key46_v3_lambda_detail_20260819.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 7.7
+  },
+  {
+   "path": "analysis_records/live_snap_48h_20260819_0050.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 1.7
+  },
+  {
+   "path": "analysis_records/live_snap_48h_20260819_0107.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 1.7
+  },
+  {
+   "path": "analysis_records/live_snap_48h_20260819_0131.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 1.7
+  },
+  {
+   "path": "analysis_records/tianhuangbei_16_pred_20260819.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 7.7
+  },
+  {
+   "path": "analysis_records/upcoming_20260819_1830.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 5.3
+  },
+  {
+   "path": "analysis_records/laliga_20260820_atletico_malaga.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-20",
+   "size_kb": 1.6
+  },
+  {
+   "path": "analysis_records/mls_20260820_bsd_events.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-20",
+   "size_kb": 1.9
+  },
+  {
+   "path": "analysis_records/mls_20260820_bsd_pred.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-20",
+   "size_kb": 12.3
+  },
+  {
+   "path": "analysis_records/mls_20260820_direction.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-20",
+   "size_kb": 13.8
+  },
+  {
+   "path": "analysis_records/mls_20260820_direction.md",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-20",
+   "size_kb": 3.1
+  },
+  {
+   "path": "analysis_records/mls_20260820_final_direction.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-20",
+   "size_kb": 13.5
+  },
+  {
+   "path": "analysis_records/mls_20260820_local_model.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-20",
+   "size_kb": 9.8
+  },
+  {
+   "path": "analysis_records/mls_20260820_odds.json",
+   "type": "其他",
+   "league": "",
+   "date": "2026-08-20",
+   "size_kb": 7.7
+  },
+  {
+   "path": "analysis_records/20260729_150247_米佐拉姆警署_江冈.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-29",
+   "size_kb": 3.0
+  },
+  {
+   "path": "analysis_records/20260729_160057_奥克兰城_奥林匹克湾.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-29",
+   "size_kb": 7.5
+  },
+  {
+   "path": "analysis_records/20260729_160540_锡金阿克拉姆_甘托克.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-29",
+   "size_kb": 4.8
+  },
+  {
+   "path": "analysis_records/20260729_162906_西阿德莱德后备队(女)_南部足球中心后备队(女).json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-29",
+   "size_kb": 7.1
+  },
+  {
+   "path": "analysis_records/20260729_164015_吉打FA U20_吉隆坡U20.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-29",
+   "size_kb": 7.0
+  },
+  {
+   "path": "analysis_records/20260729_164226_吉隆坡足球协会U20_槟城U20.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-29",
+   "size_kb": 7.7
+  },
+  {
+   "path": "analysis_records/20260729_164342_雪兰莪U20_登嘉楼U20.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-29",
+   "size_kb": 7.0
+  },
+  {
+   "path": "analysis_records/20260729_170710_纽马克特_北松.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-29",
+   "size_kb": 6.7
+  },
+  {
+   "path": "analysis_records/20260729_170923_塞尔塔_维塞乌学院.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-29",
+   "size_kb": 7.9
+  },
+  {
+   "path": "analysis_records/20260729_171842_吉打FA U20_古晋U20.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-29",
+   "size_kb": 8.0
+  },
+  {
+   "path": "analysis_records/20260729_172213_REVIEW_布伦达拉U23_昆比恩市U23.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-29",
+   "size_kb": 2.2
+  },
+  {
+   "path": "analysis_records/20260730_095230_弗鲁米嫩塞_巴伊亚BA.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 8.5
+  },
+  {
+   "path": "analysis_records/20260730_095748_维多利亚BA_帕尔梅拉斯SP.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 8.5
+  },
+  {
+   "path": "analysis_records/20260730_100913_美国足球大联盟明星队_墨西哥超级联赛明星队.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 8.6
+  },
+  {
+   "path": "analysis_records/20260730_101834_联盟FC_安提瓜GFC.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 7.6
+  },
+  {
+   "path": "analysis_records/20260730_110005_阿拉胡埃拉人_夏拉祖.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 6.9
+  },
+  {
+   "path": "analysis_records/20260730_110619_海湾(女)_哥谭(女).json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 6.3
+  },
+  {
+   "path": "analysis_records/20260730_133832_Arsenal_Chelsea.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 7.0
+  },
+  {
+   "path": "analysis_records/20260730_142715_桑野马FC_北方人.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 5.8
+  },
+  {
+   "path": "analysis_records/20260730_144258_阿森纳_切尔西.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 6.0
+  },
+  {
+   "path": "analysis_records/20260730_144918_拉姆塔尔FC_信实FYC.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 6.9
+  },
+  {
+   "path": "analysis_records/20260730_152456_恩津加乌尼奥_卡兰杜拉体育.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 7.6
+  },
+  {
+   "path": "analysis_records/20260730_155127_Sydney Olympic_Brisbane Roar.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 7.5
+  },
+  {
+   "path": "analysis_records/20260730_155810_S.Melbourne_Adelaide Utd.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 7.4
+  },
+  {
+   "path": "analysis_records/20260730_161221_马洛卡_吉达联合.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 6.8
+  },
+  {
+   "path": "analysis_records/20260730_164808_沙巴U20_森美兰U20.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-30",
+   "size_kb": 6.6
+  },
+  {
+   "path": "analysis_records/20260731_094539_奥哈卡_多拉多斯.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-31",
+   "size_kb": 8.3
+  },
+  {
+   "path": "analysis_records/20260731_101449_国际圣特克拉_阿吉拉.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-31",
+   "size_kb": 7.3
+  },
+  {
+   "path": "analysis_records/20260731_105902_穆尼斯帕尔_卡塔基内斯.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-31",
+   "size_kb": 8.2
+  },
+  {
+   "path": "analysis_records/20260731_143338_Elche_Cordoba.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-31",
+   "size_kb": 7.7
+  },
+  {
+   "path": "analysis_records/20260731_143416_Castellon_Alaves.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-07-31",
+   "size_kb": 8.2
+  },
+  {
+   "path": "analysis_records/20260803_170059_科萨_绿盾.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-03",
+   "size_kb": 7.1
+  },
+  {
+   "path": "analysis_records/20260803_170241_科萨_绿盾.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-03",
+   "size_kb": 7.5
+  },
+  {
+   "path": "analysis_records/20260803_170903_彼得罗韦因胡莱茨_日托米尔波利西亚B队.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-03",
+   "size_kb": 8.8
+  },
+  {
+   "path": "analysis_records/20260804_094816_测试队A_测试队B.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-04",
+   "size_kb": 7.7
+  },
+  {
+   "path": "analysis_records/20260804_151619_维比_ASA阿晓斯.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-04",
+   "size_kb": 8.9
+  },
+  {
+   "path": "analysis_records/20260804_152254_根图夫特宠格德_厄华特.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-04",
+   "size_kb": 9.3
+  },
+  {
+   "path": "analysis_records/20260804_152919_FC南海岸_伊绍伊IF.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-04",
+   "size_kb": 9.7
+  },
+  {
+   "path": "analysis_records/20260804_153413_布隆索伊_科治.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-04",
+   "size_kb": 9.5
+  },
+  {
+   "path": "analysis_records/20260804_153807_霍尔斯特布罗_奥尔堡.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-04",
+   "size_kb": 10.4
+  },
+  {
+   "path": "analysis_records/20260804_154244_灵斯泰德_费林.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-04",
+   "size_kb": 8.5
+  },
+  {
+   "path": "analysis_records/20260804_155244_SfB_Oure_FA_FC_Fredericia.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-04",
+   "size_kb": 7.2
+  },
+  {
+   "path": "analysis_records/20260804_155950_Kolding_BK_N鎠tved.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-04",
+   "size_kb": 9.2
+  },
+  {
+   "path": "analysis_records/20260805_101622_SfB_Oure_FA_FC_Fredericia.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 9.5
+  },
+  {
+   "path": "analysis_records/20260805_104258_Shanghai_Port_B_Shanxi_Chongde_Ronghai.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 9.8
+  },
+  {
+   "path": "analysis_records/20260805_104616_Shanghai_Port_B_Shanxi_Chongde_Ronghai.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 10.6
+  },
+  {
+   "path": "analysis_records/20260805_105007_Changchun_Xidu_Dalian_Young_Boy_B.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 10.4
+  },
+  {
+   "path": "analysis_records/20260805_105644_Lanzhou_Longyuan_Beijing_Institute_of_Technology.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 11.8
+  },
+  {
+   "path": "analysis_records/20260805_110219_Hubei_Youth_Star_Jiangxi_Lushan.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 11.1
+  },
+  {
+   "path": "analysis_records/20260805_111232_Wenzhou_FC_Guizhou_Guiyang.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 11.4
+  },
+  {
+   "path": "analysis_records/20260805_112010_Wenzhou_FC_Guizhou_Guiyang.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 11.3
+  },
+  {
+   "path": "analysis_records/20260805_131003_Wenzhou_FC_Guizhou_Guiyang.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 12.7
+  },
+  {
+   "path": "analysis_records/20260805_132251_Shanghai_Port_B_Shanxi_Chongde_Ronghai.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 11.2
+  },
+  {
+   "path": "analysis_records/20260805_132441_Changchun_Xidu_Dalian_Young_Boy_B.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 11.3
+  },
+  {
+   "path": "analysis_records/20260805_132835_Lanzhou_Longyuan_Beijing_Institute_of_Technology.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 12.9
+  },
+  {
+   "path": "analysis_records/20260805_133201_Lanzhou_Longyuan_Beijing_IT.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 10.4
+  },
+  {
+   "path": "analysis_records/20260805_134345_Shanghai_Port_B_Shanxi_Chongde_Ronghai.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 11.1
+  },
+  {
+   "path": "analysis_records/20260805_134754_Changchun_Xidu_Dalian_Young_Boy_B.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 11.0
+  },
+  {
+   "path": "analysis_records/20260805_135227_Hubei_Youth_Star_Jiangxi_Lushan.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 11.2
+  },
+  {
+   "path": "analysis_records/20260805_141611_Lanzhou_Longyuan_Beijing_IT.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 10.4
+  },
+  {
+   "path": "analysis_records/20260805_163349_AGF_Aarhus_Sabah_FK.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-05",
+   "size_kb": 10.4
+  },
+  {
+   "path": "analysis_records/20260806_164548_古比斯_克拉约瓦大学.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-06",
+   "size_kb": 11.8
+  },
+  {
+   "path": "analysis_records/20260806_170134_乔治罗尼亚_流浪者.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-06",
+   "size_kb": 10.6
+  },
+  {
+   "path": "analysis_records/20260806_170512_乔治罗尼亚_流浪者.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-06",
+   "size_kb": 10.9
+  },
+  {
+   "path": "analysis_records/20260806_172604_特拉维夫马卡比_索菲亚中央陆军.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-06",
+   "size_kb": 11.0
+  },
+  {
+   "path": "analysis_records/20260807_094446_古比斯_克拉约瓦大学.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 10.3
+  },
+  {
+   "path": "analysis_records/20260807_095911_乔治罗尼亚_流浪者.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 10.8
+  },
+  {
+   "path": "analysis_records/20260807_100727_古比斯_克拉约瓦大学.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 11.1
+  },
+  {
+   "path": "analysis_records/20260807_101034_特拉维夫马卡比_索菲亚中央陆军.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 11.8
+  },
+  {
+   "path": "analysis_records/20260807_101318_乔治罗尼亚_流浪者.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 11.4
+  },
+  {
+   "path": "analysis_records/20260807_101706_古比斯_克拉约瓦大学.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 12.0
+  },
+  {
+   "path": "analysis_records/20260807_102008_特拉维夫马卡比_索菲亚中央陆军.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 12.2
+  },
+  {
+   "path": "analysis_records/20260807_102258_古比斯_克拉约瓦大学.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 10.6
+  },
+  {
+   "path": "analysis_records/20260807_102358_乔治罗尼亚_流浪者.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 10.8
+  },
+  {
+   "path": "analysis_records/20260807_102450_特拉维夫马卡比_索菲亚中央陆军.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 11.0
+  },
+  {
+   "path": "analysis_records/20260807_105742_古比斯_克拉约瓦大学.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 10.0
+  },
+  {
+   "path": "analysis_records/20260807_110712_特拉维夫马卡比_索菲亚中央陆军.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 12.0
+  },
+  {
+   "path": "analysis_records/20260807_124530_金浦市民_忠北清州.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 12.5
+  },
+  {
+   "path": "analysis_records/20260807_133037_金浦市民_忠北清州.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 12.6
+  },
+  {
+   "path": "analysis_records/20260807_134555_忠南牙山_安山绿人.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 12.0
+  },
+  {
+   "path": "analysis_records/20260807_135045_华城_首尔衣恋.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 11.7
+  },
+  {
+   "path": "analysis_records/20260807_135507_水原三星_金海市.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 12.0
+  },
+  {
+   "path": "analysis_records/20260807_135821_庆南_大邱FC.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 13.2
+  },
+  {
+   "path": "analysis_records/20260807_140207_龙仁_釜山偶像.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 13.3
+  },
+  {
+   "path": "analysis_records/20260807_143407_庆南_大邱FC.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 10.8
+  },
+  {
+   "path": "analysis_records/20260807_145036_金浦市民_忠北清州.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 12.1
+  },
+  {
+   "path": "analysis_records/20260807_145127_忠南牙山_安山绿人.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 12.1
+  },
+  {
+   "path": "analysis_records/20260807_145215_华城_首尔衣恋.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 11.9
+  },
+  {
+   "path": "analysis_records/20260807_145324_水原三星_金海市.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 11.1
+  },
+  {
+   "path": "analysis_records/20260807_145409_庆南_大邱FC.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 12.0
+  },
+  {
+   "path": "analysis_records/20260807_145516_龙仁_釜山偶像.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-07",
+   "size_kb": 13.0
+  },
+  {
+   "path": "analysis_records/20260808_094535_金浦市民_忠北清州.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-08",
+   "size_kb": 11.9
+  },
+  {
+   "path": "analysis_records/20260808_103625_金浦市民_忠北清州.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-08",
+   "size_kb": 11.7
+  },
+  {
+   "path": "analysis_records/20260814_J1第2轮_东京绿茵_柏太阳神.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-14",
+   "size_kb": 10.0
+  },
+  {
+   "path": "analysis_records/20260814_J1第2轮_东京绿茵_柏太阳神_半全场.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-14",
+   "size_kb": 3.0
+  },
+  {
+   "path": "analysis_records/20260814_J1第2轮_东京绿茵_柏太阳神_新数据版.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-14",
+   "size_kb": 5.7
+  },
+  {
+   "path": "analysis_records/20260814_中超23轮_泰山海牛_三镇海港_西海岸铜梁龙.json",
+   "type": "单场/批量分析",
+   "league": "中超",
+   "date": "2026-08-14",
+   "size_kb": 12.2
+  },
+  {
+   "path": "analysis_records/20260814_西甲第1轮_0816三场_赛前分析.json",
+   "type": "单场/批量分析",
+   "league": "西甲",
+   "date": "2026-08-14",
+   "size_kb": 10.0
+  },
+  {
+   "path": "analysis_records/20260815_1144_西甲_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "西甲",
+   "date": "2026-08-15",
+   "size_kb": 6.6
+  },
+  {
+   "path": "analysis_records/20260815_1144_西甲_盘口检查_西甲.json",
+   "type": "单场/批量分析",
+   "league": "西甲",
+   "date": "2026-08-15",
+   "size_kb": 3.7
+  },
+  {
+   "path": "analysis_records/20260815_1145_J1_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 9.4
+  },
+  {
+   "path": "analysis_records/20260815_1145_西甲_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "西甲",
+   "date": "2026-08-15",
+   "size_kb": 8.5
+  },
+  {
+   "path": "analysis_records/20260815_1146_J1_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 12.7
+  },
+  {
+   "path": "analysis_records/20260815_1147_J1_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 12.9
+  },
+  {
+   "path": "analysis_records/20260815_1149_J1_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 12.9
+  },
+  {
+   "path": "analysis_records/20260815_1154_J1_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 12.9
+  },
+  {
+   "path": "analysis_records/20260815_1526_中超_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "中超",
+   "date": "2026-08-15",
+   "size_kb": 8.3
+  },
+  {
+   "path": "analysis_records/20260815_1530_J1_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 13.8
+  },
+  {
+   "path": "analysis_records/20260815_1630_J1_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 14.3
+  },
+  {
+   "path": "analysis_records/20260815_1730_中超_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "中超",
+   "date": "2026-08-15",
+   "size_kb": 8.6
+  },
+  {
+   "path": "analysis_records/20260815_1825_中超_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "中超",
+   "date": "2026-08-15",
+   "size_kb": 9.1
+  },
+  {
+   "path": "analysis_records/20260815_1925_中超_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "中超",
+   "date": "2026-08-15",
+   "size_kb": 7.4
+  },
+  {
+   "path": "analysis_records/20260815_1937_中超_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "中超",
+   "date": "2026-08-15",
+   "size_kb": 4.0
+  },
+  {
+   "path": "analysis_records/20260815_1950_中超_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "中超",
+   "date": "2026-08-15",
+   "size_kb": 4.2
+  },
+  {
+   "path": "analysis_records/20260815_2000_西甲_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "西甲",
+   "date": "2026-08-15",
+   "size_kb": 8.6
+  },
+  {
+   "path": "analysis_records/20260815_J1第2轮_9场_赛前分析.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 26.1
+  },
+  {
+   "path": "analysis_records/20260815_J1第2轮_9场_重分析.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 25.6
+  },
+  {
+   "path": "analysis_records/20260815_csl_tonight.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 13.3
+  },
+  {
+   "path": "analysis_records/20260815_csl_tonight_v2.json",
+   "type": "单场/批量分析",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 8.1
+  },
+  {
+   "path": "analysis_records/20260815_西甲0816三场_重算对比_v3.1.json",
+   "type": "单场/批量分析",
+   "league": "西甲",
+   "date": "2026-08-15",
+   "size_kb": 4.2
+  },
+  {
+   "path": "analysis_records/20260815_西甲0816三场_重算对比_v3.json",
+   "type": "单场/批量分析",
+   "league": "西甲",
+   "date": "2026-08-15",
+   "size_kb": 10.4
+  },
+  {
+   "path": "analysis_records/20260815_西甲_重预测.json",
+   "type": "单场/批量分析",
+   "league": "西甲",
+   "date": "2026-08-15",
+   "size_kb": 15.8
+  },
+  {
+   "path": "analysis_records/20260816_0100_西甲_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "西甲",
+   "date": "2026-08-16",
+   "size_kb": 8.7
+  },
+  {
+   "path": "analysis_records/20260816_0135_西甲两场_正式重算.json",
+   "type": "单场/批量分析",
+   "league": "西甲",
+   "date": "2026-08-16",
+   "size_kb": 4.0
+  },
+  {
+   "path": "analysis_records/20260816_0948_西甲_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "西甲",
+   "date": "2026-08-16",
+   "size_kb": 5.2
+  },
+  {
+   "path": "analysis_records/20260817_1332_西甲_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "西甲",
+   "date": "2026-08-17",
+   "size_kb": 0.1
+  },
+  {
+   "path": "analysis_records/20260817_1333_西甲_盘口检查.json",
+   "type": "单场/批量分析",
+   "league": "西甲",
+   "date": "2026-08-17",
+   "size_kb": 0.1
+  },
+  {
+   "path": "analysis_records/_form_replay_necaxa_leon.txt",
+   "type": "工具/中间",
+   "league": "",
+   "date": "",
+   "size_kb": 4.9
+  },
+  {
+   "path": "analysis_records/_verify2.txt",
+   "type": "工具/中间",
+   "league": "",
+   "date": "",
+   "size_kb": 1.7
+  },
+  {
+   "path": "analysis_records/_verify_injuries.txt",
+   "type": "工具/中间",
+   "league": "",
+   "date": "",
+   "size_kb": 1.1
+  },
+  {
+   "path": "analysis_records/draw_warn_precheck_raw.json",
+   "type": "平局研究",
+   "league": "",
+   "date": "",
+   "size_kb": 39.5
+  },
+  {
+   "path": "analysis_records/draw_warn_precheck_v2.json",
+   "type": "平局研究",
+   "league": "",
+   "date": "",
+   "size_kb": 47.9
+  },
+  {
+   "path": "analysis_records/draw_warning_v2_validate_20260818.md",
+   "type": "平局研究",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 2.9
+  },
+  {
+   "path": "analysis_records/scan48h_final.json",
+   "type": "扫描",
+   "league": "",
+   "date": "",
+   "size_kb": 16.2
+  },
+  {
+   "path": "analysis_records/scan48h_teams.txt",
+   "type": "扫描",
+   "league": "",
+   "date": "",
+   "size_kb": 4.4
+  },
+  {
+   "path": "analysis_records/20260815_quantian_scan_upcoming.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 54.5
+  },
+  {
+   "path": "analysis_records/20260815_scan_upcoming.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 187.1
+  },
+  {
+   "path": "analysis_records/20260815_scan_upcoming.json.bak_audit",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 275.3
+  },
+  {
+   "path": "analysis_records/20260815_scan_upcoming_v1_39场.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 79.2
+  },
+  {
+   "path": "analysis_records/20260815_scan_upcoming_v2_53chang_bushuju.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 106.0
+  },
+  {
+   "path": "analysis_records/20260815_scan_upcoming_v3_25_26.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 106.0
+  },
+  {
+   "path": "analysis_records/20260816_scan_upcoming.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 966.4
+  },
+  {
+   "path": "analysis_records/scan_report_20260816.md",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 61.7
+  },
+  {
+   "path": "analysis_records/20260817_scan_upcoming.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 1370.3
+  },
+  {
+   "path": "analysis_records/scan48h_20260817_1418.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 7.4
+  },
+  {
+   "path": "analysis_records/scan48h_teams_20260817.txt",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 3.7
+  },
+  {
+   "path": "analysis_records/scan_5h_window_20260817.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 3.6
+  },
+  {
+   "path": "analysis_records/scan48h_20260818_2259.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 42.9
+  },
+  {
+   "path": "analysis_records/scan48h_20260818_2300.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 41.1
+  },
+  {
+   "path": "analysis_records/scan48h_teams_20260818_2259.txt",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 18.2
+  },
+  {
+   "path": "analysis_records/scan48h_teams_20260818_2300.txt",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 16.3
+  },
+  {
+   "path": "analysis_records/scan48h_0818_finished_check_20260819.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 5.8
+  },
+  {
+   "path": "analysis_records/scan_window_20260819_2158.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 24.1
+  },
+  {
+   "path": "analysis_records/scan_window_20260819_2159.json",
+   "type": "扫描",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 24.1
+  },
+  {
+   "path": "analysis_records/bsd_hitrate_check.md",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "",
+   "size_kb": 0.2
+  },
+  {
+   "path": "analysis_records/bsd_hitrate_real.md",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "",
+   "size_kb": 1.3
+  },
+  {
+   "path": "analysis_records/bsd_hitrate_rows.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "",
+   "size_kb": 1.6
+  },
+  {
+   "path": "analysis_records/bsd_hitrate_rows2.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "",
+   "size_kb": 17.7
+  },
+  {
+   "path": "analysis_records/bsd_pred_history.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "",
+   "size_kb": 39313.9
+  },
+  {
+   "path": "analysis_records/bsd_preds_past.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "",
+   "size_kb": 214.9
+  },
+  {
+   "path": "analysis_records/bsd_preds_week.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "",
+   "size_kb": 390.1
+  },
+  {
+   "path": "analysis_records/bsd_standings_cache.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "",
+   "size_kb": 65.2
+  },
+  {
+   "path": "analysis_records/bsd_lineups_2026-08-16.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 49.3
+  },
+  {
+   "path": "analysis_records/bsd_odds_2026-08-16.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 274.2
+  },
+  {
+   "path": "analysis_records/bsd_predictions_2026-08-16.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 48.2
+  },
+  {
+   "path": "analysis_records/bsd_prob_calib_20260816.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 6.5
+  },
+  {
+   "path": "analysis_records/bsd_prob_calib_20260816.md",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 4.0
+  },
+  {
+   "path": "analysis_records/bsd_squads_2026-08-16.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 1099.5
+  },
+  {
+   "path": "analysis_records/bzzoiro_events_2026-08-16.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 2012.1
+  },
+  {
+   "path": "analysis_records/bsd_direction_20260817.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 6.9
+  },
+  {
+   "path": "analysis_records/bsd_lineups_2026-08-17.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 44.7
+  },
+  {
+   "path": "analysis_records/bsd_odds_2026-08-17.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 265.1
+  },
+  {
+   "path": "analysis_records/bsd_predictions_2026-08-17.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 47.3
+  },
+  {
+   "path": "analysis_records/bsd_squads_2026-08-17.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 1193.3
+  },
+  {
+   "path": "analysis_records/bsd_v2_2026-08-17.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 135.3
+  },
+  {
+   "path": "analysis_records/bzzoiro_events_2026-08-17.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 1945.9
+  },
+  {
+   "path": "analysis_records/bsd_48h_form_update_20260818.md",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 3.4
+  },
+  {
+   "path": "analysis_records/bsd_team_stats_20260818_archive.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 3.7
+  },
+  {
+   "path": "analysis_records/bsd_team_stats_20260818_archive.md",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 5.2
+  },
+  {
+   "path": "analysis_records/ou_full_report_20260819.md",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 12.9
+  },
+  {
+   "path": "analysis_records/ou_key_full_report_20260819.md",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 17.5
+  },
+  {
+   "path": "analysis_records/ou_key_matches_20260819.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 11.6
+  },
+  {
+   "path": "analysis_records/ou_same_opp_settled_20260819.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 18.6
+  },
+  {
+   "path": "analysis_records/ou_same_opp_settled_20260819.md",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 9.8
+  },
+  {
+   "path": "analysis_records/ou_strategy_old_raw_20260819.md",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 9.6
+  },
+  {
+   "path": "analysis_records/ou_strategy_old_raw_20260819_by_time.md",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 6.2
+  },
+  {
+   "path": "analysis_records/ucl_20260820_detail_2026-08-19_2003.md",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-20",
+   "size_kb": 5.2
+  },
+  {
+   "path": "analysis_records/ucl_20260820_lineups.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-20",
+   "size_kb": 5.8
+  },
+  {
+   "path": "analysis_records/ucl_20260820_merge_2026-08-19_1952.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-20",
+   "size_kb": 8.6
+  },
+  {
+   "path": "analysis_records/ucl_20260820_model_2026-08-19_1952.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-20",
+   "size_kb": 4.6
+  },
+  {
+   "path": "analysis_records/ucl_20260820_pull_1952.json",
+   "type": "数据拉取/专项",
+   "league": "",
+   "date": "2026-08-20",
+   "size_kb": 78.0
+  },
+  {
+   "path": "analysis_records/20260814_J1第2轮_东京绿茵_柏太阳神_结算.json",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-14",
+   "size_kb": 1.8
+  },
+  {
+   "path": "analysis_records/20260814_中超23轮_三场_结算.json",
+   "type": "结算",
+   "league": "中超",
+   "date": "2026-08-14",
+   "size_kb": 2.8
+  },
+  {
+   "path": "analysis_records/20260815_1804_批量结算.json",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 2.6
+  },
+  {
+   "path": "analysis_records/20260815_2004_批量结算.json",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 6.2
+  },
+  {
+   "path": "analysis_records/20260815_2005_批量结算.json",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 6.2
+  },
+  {
+   "path": "analysis_records/20260815_2205_批量结算.json",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 2.5
+  },
+  {
+   "path": "analysis_records/20260815_2207_批量结算.json",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 2.5
+  },
+  {
+   "path": "analysis_records/20260815_2208_批量结算.json",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 4.8
+  },
+  {
+   "path": "analysis_records/20260815_2209_批量结算.json",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 2.5
+  },
+  {
+   "path": "analysis_records/20260816_0948_批量结算.json",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 20.6
+  },
+  {
+   "path": "analysis_records/20260817_1332_批量结算.json",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 20.7
+  },
+  {
+   "path": "analysis_records/settle_20260817_0816场次.json",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 18.5
+  },
+  {
+   "path": "analysis_records/settle_48h_20260818.md",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 3.0
+  },
+  {
+   "path": "analysis_records/settle_48h_20260818_grouped.md",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 2.4
+  },
+  {
+   "path": "analysis_records/settle_48h_20260818_grouped_v2.md",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-18",
+   "size_kb": 1.8
+  },
+  {
+   "path": "analysis_records/settle_bsd_finished_20260819.json",
+   "type": "结算",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 404.5
+  },
+  {
+   "path": "analysis_records/paper_settle_20260815_2315.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 15.5
+  },
+  {
+   "path": "analysis_records/paper_settle_20260815_2316.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 1.4
+  },
+  {
+   "path": "analysis_records/paper_settle_20260815_2318.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 0.5
+  },
+  {
+   "path": "analysis_records/paper_settle_20260815_2319.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 1.5
+  },
+  {
+   "path": "analysis_records/paper_settle_20260815_2320.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 2.6
+  },
+  {
+   "path": "analysis_records/paper_settle_20260815_2321.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 16.8
+  },
+  {
+   "path": "analysis_records/paper_settle_20260815_2322.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 16.8
+  },
+  {
+   "path": "analysis_records/paper_settle_20260816_0005.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 1.8
+  },
+  {
+   "path": "analysis_records/paper_settle_20260816_0006.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 15.7
+  },
+  {
+   "path": "analysis_records/paper_settle_20260816_0008.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 2.3
+  },
+  {
+   "path": "analysis_records/paper_settle_20260816_0949.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-16",
+   "size_kb": 14.0
+  },
+  {
+   "path": "analysis_records/paper_settle_20260819_1733.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 0.3
+  },
+  {
+   "path": "analysis_records/paper_settle_20260819_1734.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 0.3
+  },
+  {
+   "path": "analysis_records/paper_settle_20260819_1735.json",
+   "type": "结算-手工",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 0.2
+  },
+  {
+   "path": "analysis_records/prematch_lineup_588027.json",
+   "type": "赛前快照",
+   "league": "",
+   "date": "",
+   "size_kb": 8.1
+  },
+  {
+   "path": "analysis_records/prematch_players_588027.json",
+   "type": "赛前快照",
+   "league": "",
+   "date": "",
+   "size_kb": 0.2
+  },
+  {
+   "path": "analysis_records/prematch_pull_state.json",
+   "type": "赛前快照",
+   "league": "",
+   "date": "",
+   "size_kb": 0.1
+  },
+  {
+   "path": "analysis_records/bsd_finished_events_week.json",
+   "type": "赛果",
+   "league": "",
+   "date": "",
+   "size_kb": 822.6
+  },
+  {
+   "path": "analysis_records/bsd_finished_preds_pull.json",
+   "type": "赛果",
+   "league": "",
+   "date": "",
+   "size_kb": 381.8
+  },
+  {
+   "path": "analysis_records/result_summary_20260815.md",
+   "type": "赛果",
+   "league": "",
+   "date": "2026-08-15",
+   "size_kb": 4.4
+  },
+  {
+   "path": "analysis_records/refetch16_results_20260817.json",
+   "type": "赛果",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 23.5
+  },
+  {
+   "path": "analysis_records/refetch5_results_20260817.json",
+   "type": "赛果",
+   "league": "",
+   "date": "2026-08-17",
+   "size_kb": 7.1
+  },
+  {
+   "path": "analysis_records/latest_finished_20260819.json",
+   "type": "赛果",
+   "league": "",
+   "date": "2026-08-19",
+   "size_kb": 14.2
+  }
+ ]
+}

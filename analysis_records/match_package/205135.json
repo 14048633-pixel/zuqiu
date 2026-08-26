@@ -1,0 +1,119 @@
+{
+ "id": 205135,
+ "league": "K联赛",
+ "kickoff": "08-23 18:30",
+ "kickoff_iso": "2026-08-23T10:30:00Z",
+ "home": "Gwangju FC",
+ "away": "Incheon United",
+ "home_id": 1957,
+ "away_id": 1948,
+ "pulled_at": "2026-08-23T17:48:00.772190+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1314,
+    "name": "Jeong-Gyu Lee",
+    "short_name": "J. Lee",
+    "profile": "defensive",
+    "preferred_formation": "4-4-2",
+    "matches_total": 22.0,
+    "avg_goals_scored": 0.5,
+    "avg_goals_conceded": 2.14
+   },
+   "away": {
+    "id": 1305,
+    "name": "Jung-Hwan Yoon",
+    "short_name": "J. Yoon",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 24.0,
+    "avg_goals_scored": 1.33,
+    "avg_goals_conceded": 1.21
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 4.52,
+   "draw": 3.37,
+   "away_win": 1.77,
+   "over_15_goals": 1.4,
+   "over_25_goals": 2.25,
+   "over_35_goals": 4.3,
+   "under_15_goals": 2.79,
+   "under_25_goals": 1.61,
+   "under_35_goals": 1.2,
+   "btts_yes": 2.08,
+   "btts_no": 1.68
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.436,
+   "away": 0.491
+  },
+  "formation": {
+   "home": "4-1-4-1",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-23T08:32:08Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.839,
+    "home_ga": 1.69,
+    "away_gf": 0.372,
+    "away_ga": 1.962,
+    "n_home": 8.7,
+    "n_away": 7.8,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1957
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.055,
+    "home_ga": 1.033,
+    "away_gf": 1.554,
+    "away_ga": 1.23,
+    "n_home": 9.1,
+    "n_away": 7.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1948
+   }
+  }
+ }
+}

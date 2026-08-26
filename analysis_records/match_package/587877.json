@@ -1,0 +1,150 @@
+{
+ "id": 587877,
+ "league": "欧协联",
+ "kickoff": "08-21 01:00",
+ "kickoff_iso": "2026-08-20T17:00:00+00:00",
+ "home": "FC Midtjylland",
+ "away": "HNK Rijeka",
+ "home_id": 127,
+ "away_id": 385,
+ "pulled_at": "2026-08-20T22:13:51.843934+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 650,
+    "name": "Mike Tullberg",
+    "short_name": "M. Tullberg",
+    "profile": "attacking",
+    "preferred_formation": "4-4-2",
+    "matches_total": 192.0,
+    "avg_goals_scored": 2.01,
+    "avg_goals_conceded": 1.19
+   },
+   "away": {
+    "id": 1433,
+    "name": "Matjaž Kek",
+    "short_name": "M. Kek",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 9.0,
+    "avg_goals_scored": 1.56,
+    "avg_goals_conceded": 0.56
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.58,
+   "draw": 4.1,
+   "away_win": 4.99,
+   "over_15_goals": 1.21,
+   "over_25_goals": 1.71,
+   "over_35_goals": 2.75,
+   "under_15_goals": 3.9,
+   "under_25_goals": 2.04,
+   "under_35_goals": 1.39,
+   "btts_yes": 1.75,
+   "btts_no": 1.95
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 3253,
+    "name": "Júnior Brumado",
+    "short_name": "J. Brumado",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 3251,
+    "name": "Mikel Gogorza",
+    "short_name": "M. Gogorza",
+    "status": "injured",
+    "reason": "Hip Injury"
+   },
+   {
+    "id": 3242,
+    "name": "Ousmane Diao",
+    "short_name": "O. Diao",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 3248,
+    "name": "Victor Bak Jensen",
+    "short_name": "V. B. Jensen",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.577,
+   "away": 0.45
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-20T08:32:08Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.171,
+    "home_ga": 1.427,
+    "away_gf": 2.084,
+    "away_ga": 1.12,
+    "n_home": 8.2,
+    "n_away": 8.3,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 127
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.395,
+    "home_ga": 0.617,
+    "away_gf": 1.214,
+    "away_ga": 0.833,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 385
+   }
+  }
+ }
+}

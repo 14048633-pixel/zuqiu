@@ -1,0 +1,487 @@
+{
+ "id": 224835,
+ "league": "Champions League",
+ "kickoff": "08-26 03:00",
+ "kickoff_iso": "2026-08-25T19:00:00+00:00",
+ "home": "LASK",
+ "away": "Celtic",
+ "home_id": 1404,
+ "away_id": 132,
+ "pulled_at": "2026-08-25T23:44:46.392540+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 842,
+    "name": "Dietmar Kuhbauer",
+    "short_name": "D. Kuhbauer",
+    "profile": "attacking",
+    "preferred_formation": "3-4-1-2",
+    "matches_total": 11.0,
+    "avg_goals_scored": 2.45,
+    "avg_goals_conceded": 0.91
+   },
+   "away": {
+    "id": 413,
+    "name": "Martin O'Neill",
+    "short_name": "M. O'Neill",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 56.0,
+    "avg_goals_scored": 1.77,
+    "avg_goals_conceded": 1.23
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-1-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.9,
+   "draw": 3.88,
+   "away_win": 3.54,
+   "over_15_goals": 1.15,
+   "over_25_goals": 1.52,
+   "over_35_goals": 2.33,
+   "under_15_goals": 5.05,
+   "under_25_goals": 2.42,
+   "under_35_goals": 1.58,
+   "btts_yes": 1.48,
+   "btts_no": 2.49
+  },
+  "best": {
+   "btts": {
+    "yes": {
+     "odds": 1.53,
+     "bookmaker": "betfair",
+     "n": 16
+    },
+    "no": {
+     "odds": 2.58,
+     "bookmaker": "marathon",
+     "n": 16
+    }
+   },
+   "draw_no_bet": {
+    "home": {
+     "odds": 1.5,
+     "bookmaker": "novibet",
+     "n": 10
+    },
+    "away": {
+     "odds": 2.65,
+     "bookmaker": "bwin",
+     "n": 10
+    }
+   },
+   "asian_handicap": {
+    "home@-0.25": {
+     "odds": 1.74,
+     "bookmaker": "novibet",
+     "n": 6
+    },
+    "away@-0.25": {
+     "odds": 2.23,
+     "bookmaker": "1xbet",
+     "n": 6
+    },
+    "home@-1.75": {
+     "odds": 4.35,
+     "bookmaker": "unibet",
+     "n": 5
+    },
+    "away@-1.75": {
+     "odds": 1.26,
+     "bookmaker": "bet365",
+     "n": 5
+    },
+    "home@-1.25": {
+     "odds": 3.1,
+     "bookmaker": "unibet",
+     "n": 5
+    },
+    "away@-1.25": {
+     "odds": 1.425,
+     "bookmaker": "bet365",
+     "n": 5
+    },
+    "home@-0.75": {
+     "odds": 2.25,
+     "bookmaker": "novibet",
+     "n": 5
+    },
+    "away@-0.75": {
+     "odds": 1.7,
+     "bookmaker": "bet365",
+     "n": 5
+    },
+    "home@0.25": {
+     "odds": 1.4,
+     "bookmaker": "novibet",
+     "n": 5
+    },
+    "away@0.25": {
+     "odds": 3.04,
+     "bookmaker": "1xbet",
+     "n": 5
+    },
+    "home@0.75": {
+     "odds": 1.23,
+     "bookmaker": "novibet",
+     "n": 5
+    },
+    "away@0.75": {
+     "odds": 4.37,
+     "bookmaker": "1xbet",
+     "n": 5
+    },
+    "home@1.25": {
+     "odds": 1.115,
+     "bookmaker": "bet365",
+     "n": 4
+    },
+    "away@1.25": {
+     "odds": 6.87,
+     "bookmaker": "1xbet",
+     "n": 4
+    },
+    "home@1.75": {
+     "odds": 1.015,
+     "bookmaker": "marathon",
+     "n": 2
+    },
+    "away@1.75": {
+     "odds": 9.7,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "home@-2.25": {
+     "odds": 5.5,
+     "bookmaker": "bet365",
+     "n": 1
+    },
+    "away@-2.25": {
+     "odds": 1.15,
+     "bookmaker": "bet365",
+     "n": 1
+    },
+    "home@-1.5": {
+     "odds": 3.4,
+     "bookmaker": "unibet",
+     "n": 7
+    },
+    "away@-1.5": {
+     "odds": 1.37,
+     "bookmaker": "fonbet",
+     "n": 7
+    },
+    "home@-2.5": {
+     "odds": 6.55,
+     "bookmaker": "marathon",
+     "n": 4
+    },
+    "away@-2.5": {
+     "odds": 1.13,
+     "bookmaker": "fonbet",
+     "n": 4
+    },
+    "home@1.5": {
+     "odds": 1.105,
+     "bookmaker": "bet365",
+     "n": 4
+    },
+    "away@1.5": {
+     "odds": 7.4,
+     "bookmaker": "1xbet",
+     "n": 4
+    },
+    "home@-0.5": {
+     "odds": 1.96,
+     "bookmaker": "novibet",
+     "n": 9
+    },
+    "away@-0.5": {
+     "odds": 1.9,
+     "bookmaker": "bet365",
+     "n": 9
+    },
+    "home@0.0": {
+     "odds": 1.51,
+     "bookmaker": "novibet",
+     "n": 7
+    },
+    "away@0.0": {
+     "odds": 2.759,
+     "bookmaker": "1xbet",
+     "n": 7
+    },
+    "home@0.5": {
+     "odds": 1.33,
+     "bookmaker": "novibet",
+     "n": 3
+    },
+    "away@0.5": {
+     "odds": 3.45,
+     "bookmaker": "bet365",
+     "n": 3
+    },
+    "home@-2.0": {
+     "odds": 6.0,
+     "bookmaker": "unibet",
+     "n": 6
+    },
+    "away@-2.0": {
+     "odds": 1.17,
+     "bookmaker": "fonbet",
+     "n": 6
+    },
+    "home@-1.0": {
+     "odds": 2.75,
+     "bookmaker": "novibet",
+     "n": 7
+    },
+    "away@-1.0": {
+     "odds": 1.57,
+     "bookmaker": "fonbet",
+     "n": 7
+    },
+    "home@-3.0": {
+     "odds": 11.0,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "away@-3.0": {
+     "odds": 1.05,
+     "bookmaker": "fonbet",
+     "n": 2
+    },
+    "home@1.0": {
+     "odds": 1.13,
+     "bookmaker": "novibet",
+     "n": 6
+    },
+    "away@1.0": {
+     "odds": 6.5,
+     "bookmaker": "unibet",
+     "n": 6
+    }
+   },
+   "1x2": {
+    "home": {
+     "odds": 2.01,
+     "bookmaker": "dafabet",
+     "n": 18
+    },
+    "draw": {
+     "odds": 4.14,
+     "bookmaker": "pinnacle",
+     "n": 18
+    },
+    "away": {
+     "odds": 3.74,
+     "bookmaker": "1xbet",
+     "n": 18
+    }
+   },
+   "double_chance": {
+    "1x": {
+     "odds": 1.31,
+     "bookmaker": "1xbet",
+     "n": 7
+    },
+    "x2": {
+     "odds": 1.94,
+     "bookmaker": "1xbet",
+     "n": 7
+    },
+    "12": {
+     "odds": 1.27,
+     "bookmaker": "1xbet",
+     "n": 7
+    }
+   },
+   "over_under_15": {
+    "over@1.5": {
+     "odds": 1.18,
+     "bookmaker": "10bet",
+     "n": 7
+    },
+    "under@1.5": {
+     "odds": 5.47,
+     "bookmaker": "pinnacle",
+     "n": 7
+    }
+   },
+   "over_under_25": {
+    "over@2.5": {
+     "odds": 1.6,
+     "bookmaker": "10bet",
+     "n": 8
+    },
+    "under@2.5": {
+     "odds": 2.59,
+     "bookmaker": "pinnacle",
+     "n": 8
+    }
+   },
+   "over_under_35": {
+    "over@3.5": {
+     "odds": 2.45,
+     "bookmaker": "10bet",
+     "n": 7
+    },
+    "under@3.5": {
+     "odds": 1.66,
+     "bookmaker": "1xbet",
+     "n": 7
+    }
+   },
+   "over_under_05": {
+    "over@0.5": {
+     "odds": 1.03,
+     "bookmaker": "888sport",
+     "n": 5
+    },
+    "under@0.5": {
+     "odds": 20.0,
+     "bookmaker": "1xbet",
+     "n": 5
+    }
+   },
+   "total_corners": {
+    "over@7.5": {
+     "odds": 1.22,
+     "bookmaker": "unibet",
+     "n": 2
+    },
+    "under@7.5": {
+     "odds": 3.75,
+     "bookmaker": "unibet",
+     "n": 2
+    },
+    "over@8.5": {
+     "odds": 1.38,
+     "bookmaker": "unibet",
+     "n": 2
+    },
+    "under@8.5": {
+     "odds": 2.78,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "over@9.5": {
+     "odds": 1.67,
+     "bookmaker": "pinnacle",
+     "n": 3
+    },
+    "under@9.5": {
+     "odds": 2.16,
+     "bookmaker": "pinnacle",
+     "n": 3
+    },
+    "over@10.5": {
+     "odds": 2.1,
+     "bookmaker": "pinnacle",
+     "n": 4
+    },
+    "under@10.5": {
+     "odds": 1.72,
+     "bookmaker": "unibet",
+     "n": 4
+    },
+    "over@11.5": {
+     "odds": 2.63,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "under@11.5": {
+     "odds": 1.47,
+     "bookmaker": "unibet",
+     "n": 2
+    }
+   }
+  },
+  "bookmakers_count": 25,
+  "total_odds": 393
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 4406,
+    "name": "Alistair Johnston",
+    "short_name": "A. Johnston",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 30807,
+    "name": "Jota",
+    "short_name": "Jota",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.305,
+   "away": 0.627
+  },
+  "formation": {
+   "home": "5-3-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-25T14:32:17Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.729,
+    "home_ga": 1.167,
+    "away_gf": 2.0,
+    "away_ga": 1.362,
+    "n_home": 9.6,
+    "n_away": 6.9,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧冠",
+    "team_id": 1404
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.929,
+    "home_ga": 1.19,
+    "away_gf": 2.074,
+    "away_ga": 1.605,
+    "n_home": 8.4,
+    "n_away": 8.1,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧冠",
+    "team_id": 132
+   }
+  }
+ }
+}

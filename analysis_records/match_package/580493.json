@@ -1,0 +1,117 @@
+{
+ "id": 580493,
+ "league": "法乙",
+ "kickoff": "08-22 20:00",
+ "kickoff_iso": "2026-08-22T12:00:00+00:00",
+ "home": "Metz",
+ "away": "Stade Lavallois",
+ "home_id": 111,
+ "away_id": 1613,
+ "pulled_at": "2026-08-22T01:10:43.354326+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1883,
+    "name": "Luc Holtz",
+    "short_name": "L. Holtz",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 9.0,
+    "avg_goals_scored": 3.0,
+    "avg_goals_conceded": 1.0
+   },
+   "away": {
+    "id": 1134,
+    "name": "David Vignes",
+    "short_name": "D. Vignes",
+    "profile": "attacking",
+    "preferred_formation": "4-4-2",
+    "matches_total": 8.0,
+    "avg_goals_scored": 2.62,
+    "avg_goals_conceded": 1.5
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.373,
+   "away": 0.295
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "5-4-1"
+  },
+  "updated_at": "2026-08-21T14:33:13Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 1.0,
+    "away_gf": 0.0,
+    "away_ga": 0.0,
+    "n_home": 1.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026/2027",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.939,
+    "home_ga": 1.296,
+    "away_gf": 0.821,
+    "away_ga": 1.507,
+    "n_home": 9.8,
+    "n_away": 6.7,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1613
+   }
+  }
+ }
+}

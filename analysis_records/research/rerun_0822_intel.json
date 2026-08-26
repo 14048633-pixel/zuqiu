@@ -1,0 +1,7281 @@
+{
+ "pulled_at": "2026-08-21T14:34:28Z",
+ "n": 27,
+ "used_pkg": 27,
+ "matches": [
+  {
+   "id": "207298",
+   "league": "Veikkausliiga",
+   "home": "SJK",
+   "away": "FC Lahti",
+   "ct": "08-22 00:00",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "matchbook(line=0.0,orr=1.005)",
+    "spread": "pinnacle(line=0.0,orr=1.023)",
+    "totals": "matchbook(line=2.5,orr=1.009)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.03,
+     "away": 0.67,
+     "sum": 1.69
+    },
+    "wdl": {
+     "home": 43.3,
+     "draw": 33.3,
+     "away": 23.4
+    },
+    "market_fair": {
+     "home": 33.4,
+     "draw": 26.2,
+     "away": 40.4
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 1.5,
+    "bets": [
+     {
+      "name": "让球主(+0.0)",
+      "prob": 0.5998,
+      "odds": 2.1,
+      "ev": 0.2317
+     },
+     {
+      "name": "让球客(-0.0)",
+      "prob": 0.4002,
+      "odds": 1.83,
+      "ev": -0.2838
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.65,
+      "odds": 2.34,
+      "ev": 0.5078184692398893,
+      "prob_raw": 0.7591
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.2409,
+      "odds": 1.72,
+      "ev": -0.5893
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.4332,
+      "odds": 2.98,
+      "ev": 0.2842,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.3331,
+      "odds": 3.8,
+      "ev": 0.2594,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.2336,
+      "odds": 2.46,
+      "ev": -0.4282,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 2.34,
+     "ev": 0.5078184692398893,
+     "market_fair": 0.4236,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.4332,
+     "wdl_market_fair": 0.3338,
+     "vetoed": true,
+     "veto_reason": "模型与市场分歧>20pp(模型76% vs 市场42%)",
+     "draw_warn": {
+      "market_draw_prob": 26.2,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 28.4
+      },
+      "让球": {
+       "dir": "让球主(+0.0)",
+       "ev": 23.2
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": 50.8
+      }
+     },
+     "level": "主向稳胜"
+    },
+    "star": 0,
+    "ev_tier": "否决",
+    "risk_tags": [
+     "BSD伤停情报[主0客0]",
+     "平局预警(市场去水平局>=26%)",
+     "模型与市场分歧>20pp(模型76% vs 市场42%)->否决",
+     "阵型对攻倾向(+2)",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 26.2,
+     "strong": false
+    },
+    "upset": {
+     "hot": "FC Lahti",
+     "level": "低风险",
+     "count": 0,
+     "signals": []
+    },
+    "notes": [
+     "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主4-4-2/客4-3-3(当场)"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [],
+      "home_covered": false,
+      "away_covered": false,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.468,
+      "away_conf": 0.486,
+      "formation": {
+       "home": "4-4-2",
+       "away": "4-3-3"
+      },
+      "coach": {
+       "home": "4-4-2",
+       "away": "4-3-3"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 2.44,
+       "draw": 3.45,
+       "away_win": 2.6,
+       "over_15_goals": 1.19,
+       "over_25_goals": 1.65,
+       "over_35_goals": 2.57,
+       "under_15_goals": 4.17,
+       "under_25_goals": 2.13,
+       "under_35_goals": 1.44,
+       "btts_yes": 1.54,
+       "btts_no": 2.31
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 1530,
+        "name": "Jarkko Wiss",
+        "short_name": "J. Wiss",
+        "profile": "attacking",
+        "preferred_formation": "4-4-2",
+        "matches_total": 29.0,
+        "avg_goals_scored": 1.76,
+        "avg_goals_conceded": 1.28
+       },
+       "away": {
+        "id": 1531,
+        "name": "Gonçalo Pereira",
+        "short_name": "G. Pereira",
+        "profile": "balanced",
+        "preferred_formation": "4-3-3",
+        "matches_total": 27.0,
+        "avg_goals_scored": 1.44,
+        "avg_goals_conceded": 1.07
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 1530,
+       "name": "Jarkko Wiss",
+       "short_name": "J. Wiss",
+       "profile": "attacking",
+       "preferred_formation": "4-4-2",
+       "matches_total": 29.0,
+       "avg_goals_scored": 1.76,
+       "avg_goals_conceded": 1.28
+      },
+      "away": {
+       "id": 1531,
+       "name": "Gonçalo Pereira",
+       "short_name": "G. Pereira",
+       "profile": "balanced",
+       "preferred_formation": "4-3-3",
+       "matches_total": 27.0,
+       "avg_goals_scored": 1.44,
+       "avg_goals_conceded": 1.07
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-4-2",
+     "away": "4-3-3",
+     "src": "cur",
+     "tend": 2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    }
+   }
+  },
+  {
+   "id": "212165",
+   "league": "DFB Pokal",
+   "home": "Preußen Münster",
+   "away": "Karlsruher SC",
+   "ct": "08-22 00:00",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "leovegas(line=0.0,orr=1.053)",
+    "totals": "leovegas(line=3.5,orr=1.072)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.37,
+     "away": 1.02,
+     "sum": 2.39
+    },
+    "wdl": {
+     "home": 44.8,
+     "draw": 27.2,
+     "away": 28.0
+    },
+    "market_fair": {
+     "home": 24.3,
+     "draw": 24.3,
+     "away": 51.3
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 1.5,
+    "bets": [
+     {
+      "name": "小3.50",
+      "prob": 0.65,
+      "odds": 1.57,
+      "ev": -0.04784278581487633,
+      "prob_raw": 0.7811
+     },
+     {
+      "name": "大3.50",
+      "prob": 0.2189,
+      "odds": 2.3,
+      "ev": -0.5302
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.4483,
+      "odds": 3.9,
+      "ev": 0.6598,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2721,
+      "odds": 3.9,
+      "ev": 0.0075,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.2796,
+      "odds": 1.85,
+      "ev": -0.509,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "小3.50",
+     "prob": 0.65,
+     "odds": 1.57,
+     "ev": -0.04784278581487633,
+     "market_fair": 0.5943,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.4483,
+     "wdl_market_fair": 0.2434,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": null
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 66.0
+      },
+      "让球": {
+       "dir": null,
+       "ev": null
+      },
+      "大小球": {
+       "dir": "小3.50",
+       "ev": -4.8
+      }
+     },
+     "level": "无正EV"
+    },
+    "star": 0,
+    "ev_tier": "垃圾",
+    "risk_tags": [
+     "BSD伤停情报[主0客0]",
+     "缺亚盘",
+     "阵型对攻倾向(+2)",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": null,
+    "upset": {
+     "hot": "Karlsruher SC",
+     "level": "低风险",
+     "count": 0,
+     "signals": []
+    },
+    "notes": [
+     "主队数据来自D2",
+     "客队数据来自D2",
+     "主队跨联赛用D2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "客队跨联赛用D2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主4-3-1-2/客4-3-3(当场)"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [],
+      "home_covered": false,
+      "away_covered": false,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.186,
+      "away_conf": 0.209,
+      "formation": {
+       "home": "4-3-1-2",
+       "away": "4-3-3"
+      },
+      "coach": {
+       "home": "4-3-1-2",
+       "away": "4-3-3"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 3.13,
+       "draw": 3.63,
+       "away_win": 2.07,
+       "over_15_goals": 1.14,
+       "over_25_goals": 1.51,
+       "over_35_goals": 2.24,
+       "under_15_goals": 4.96,
+       "under_25_goals": 2.42,
+       "under_35_goals": 1.59,
+       "btts_yes": 1.45,
+       "btts_no": 2.57
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 2015,
+        "name": "Thomas Wörle",
+        "short_name": "T. Wörle",
+        "profile": "attacking",
+        "preferred_formation": "4-3-1-2",
+        "matches_total": 6.0,
+        "avg_goals_scored": 2.33,
+        "avg_goals_conceded": 1.0
+       },
+       "away": {
+        "id": 846,
+        "name": "Maximilian Senft",
+        "short_name": "M. Senft",
+        "profile": "attacking",
+        "preferred_formation": "4-3-3",
+        "matches_total": 9.0,
+        "avg_goals_scored": 5.67,
+        "avg_goals_conceded": 1.78
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 2015,
+       "name": "Thomas Wörle",
+       "short_name": "T. Wörle",
+       "profile": "attacking",
+       "preferred_formation": "4-3-1-2",
+       "matches_total": 6.0,
+       "avg_goals_scored": 2.33,
+       "avg_goals_conceded": 1.0
+      },
+      "away": {
+       "id": 846,
+       "name": "Maximilian Senft",
+       "short_name": "M. Senft",
+       "profile": "attacking",
+       "preferred_formation": "4-3-3",
+       "matches_total": 9.0,
+       "avg_goals_scored": 5.67,
+       "avg_goals_conceded": 1.78
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-3-1-2",
+     "away": "4-3-3",
+     "src": "cur",
+     "tend": 2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    }
+   }
+  },
+  {
+   "id": "212167",
+   "league": "DFB Pokal",
+   "home": "SV Waldhof Mannheim",
+   "away": "1. FC Kaiserslautern",
+   "ct": "08-22 00:00",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "unibet_uk(line=0.0,orr=1.058)",
+    "totals": "betmgm(line=2.5,orr=1.088)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.64,
+     "away": 1.02,
+     "sum": 2.66
+    },
+    "wdl": {
+     "home": 51.9,
+     "draw": 24.6,
+     "away": 23.5
+    },
+    "market_fair": {
+     "home": 30.5,
+     "draw": 25.5,
+     "away": 44.0
+    },
+    "data_src": {
+     "home": "bsd",
+     "away": "cur"
+    },
+    "snap_age_h": 1.5,
+    "bets": [
+     {
+      "name": "小2.50",
+      "prob": 0.5047,
+      "odds": 2.3,
+      "ev": 0.0666,
+      "star": 1,
+      "ev_tier": "观察",
+      "stake_factor": 0.15
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.4953,
+      "odds": 1.53,
+      "ev": -0.3038
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.5189,
+      "odds": 3.1,
+      "ev": 0.5205,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2462,
+      "odds": 3.7,
+      "ev": -0.139,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.2349,
+      "odds": 2.15,
+      "ev": -0.5226,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "小2.50",
+     "prob": 0.5047,
+     "odds": 2.3,
+     "ev": 0.0666,
+     "star": 1,
+     "ev_tier": "观察",
+     "stake_factor": 0.15
+    },
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.5047,
+     "odds": 2.3,
+     "ev": 0.0666,
+     "market_fair": 0.3995,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.5189,
+     "wdl_market_fair": 0.3049,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": null
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 52.0
+      },
+      "让球": {
+       "dir": null,
+       "ev": null
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": 6.7
+      }
+     },
+     "level": "无正EV"
+    },
+    "star": 1,
+    "ev_tier": "观察",
+    "risk_tags": [
+     "BSD伤停情报[主0客0]",
+     "缺亚盘",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": null,
+    "upset": {
+     "hot": "1. FC Kaiserslautern",
+     "level": "低风险",
+     "count": 0,
+     "signals": []
+    },
+    "notes": [
+     "客队数据来自D2",
+     "客队跨联赛用D2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "阵型:主4-2-3-1/客3-4-2-1(当场)"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [],
+      "home_covered": false,
+      "away_covered": false,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.186,
+      "away_conf": 0.4,
+      "formation": {
+       "home": "4-2-3-1",
+       "away": "3-4-2-1"
+      },
+      "coach": {
+       "home": "4-2-3-1",
+       "away": "3-4-2-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 3.01,
+       "draw": 3.92,
+       "away_win": 2.04,
+       "over_15_goals": 1.13,
+       "over_25_goals": 1.47,
+       "over_35_goals": 2.18,
+       "under_15_goals": 5.16,
+       "under_25_goals": 2.53,
+       "under_35_goals": 1.62,
+       "btts_yes": 1.44,
+       "btts_no": 2.59
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 1972,
+        "name": "Rui Mota",
+        "short_name": "R. Mota",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 9.0,
+        "avg_goals_scored": 2.67,
+        "avg_goals_conceded": 1.22
+       },
+       "away": {
+        "id": 1198,
+        "name": "Torsten Lieberknecht",
+        "short_name": "T. Lieberknecht",
+        "profile": "attacking",
+        "preferred_formation": "3-4-2-1",
+        "matches_total": 7.0,
+        "avg_goals_scored": 2.57,
+        "avg_goals_conceded": 2.0
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 1972,
+       "name": "Rui Mota",
+       "short_name": "R. Mota",
+       "profile": "attacking",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 9.0,
+       "avg_goals_scored": 2.67,
+       "avg_goals_conceded": 1.22
+      },
+      "away": {
+       "id": 1198,
+       "name": "Torsten Lieberknecht",
+       "short_name": "T. Lieberknecht",
+       "profile": "attacking",
+       "preferred_formation": "3-4-2-1",
+       "matches_total": 7.0,
+       "avg_goals_scored": 2.57,
+       "avg_goals_conceded": 2.0
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "3-4-2-1",
+     "src": "cur",
+     "tend": -1,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    }
+   }
+  },
+  {
+   "id": "222618",
+   "league": "沙超",
+   "home": "Al-Riyadh",
+   "away": "Al-Nassr",
+   "ct": "08-22 00:00",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "smarkets(line=0.0,orr=1.011)",
+    "spread": "pinnacle(line=1.75,orr=1.042)",
+    "totals": "pinnacle(line=3.25,orr=1.048)"
+   },
+   "result": {
+    "lambda": {
+     "home": 0.76,
+     "away": 2.53,
+     "sum": 3.29
+    },
+    "wdl": {
+     "home": 9.0,
+     "draw": 15.2,
+     "away": 75.8
+    },
+    "market_fair": {
+     "home": 7.6,
+     "draw": 14.5,
+     "away": 77.9
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 1.5,
+    "bets": [
+     {
+      "name": "让球主(+1.8)",
+      "prob": 0.4613,
+      "odds": 1.91,
+      "ev": -0.1542
+     },
+     {
+      "name": "让球客(-1.8)",
+      "prob": 0.5387,
+      "odds": 1.93,
+      "ev": -0.0019
+     },
+     {
+      "name": "小3.25",
+      "prob": 0.584,
+      "odds": 1.97,
+      "ev": 0.0976,
+      "star": 2,
+      "ev_tier": "标准",
+      "stake_factor": 0.7
+     },
+     {
+      "name": "大3.25",
+      "prob": 0.416,
+      "odds": 1.85,
+      "ev": -0.2658
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.0903,
+      "odds": 13.0,
+      "ev": 0.1603,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.1517,
+      "odds": 6.8,
+      "ev": 0.0199,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.65,
+      "odds": 1.27,
+      "ev": -0.18372691292875998,
+      "is_1x2": true,
+      "prob_raw": 0.758
+     }
+    ],
+    "best_bet": {
+     "name": "小3.25",
+     "prob": 0.584,
+     "odds": 1.97,
+     "ev": 0.0976,
+     "star": 2,
+     "ev_tier": "标准",
+     "stake_factor": 0.7
+    },
+    "direction": {
+     "name": "小3.25",
+     "prob": 0.584,
+     "odds": 1.97,
+     "ev": 0.0976,
+     "market_fair": 0.4843,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.758,
+     "wdl_market_fair": 0.7785,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": null
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 16.0
+      },
+      "让球": {
+       "dir": "让球客(-1.8)",
+       "ev": -0.2
+      },
+      "大小球": {
+       "dir": "小3.25",
+       "ev": 9.8
+      }
+     },
+     "level": "主向分歧"
+    },
+    "star": 2,
+    "ev_tier": "标准",
+    "risk_tags": [
+     "BSD伤停情报[主1客2]"
+    ],
+    "draw_warn": null,
+    "upset": {
+     "hot": "Al-Nassr",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "L2大热低赔",
+      "L2大热低赔(去水概率>=55%%)"
+     ]
+    },
+    "notes": [
+     "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主4-3-3/客4-2-3-1(当场)",
+     "主队伤停1人位置未知(非BSD源), 位置加权未覆盖",
+     "客队伤停2人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       {
+        "id": 2699,
+        "name": "Rodrigo Abascal",
+        "short_name": "R. Abascal",
+        "status": "suspended",
+        "reason": "red_card_suspension"
+       }
+      ],
+      "away": [
+       {
+        "id": 7880,
+        "name": "Cristiano Ronaldo",
+        "short_name": "C. Ronaldo",
+        "status": "injured",
+        "reason": "Lack of Fitness"
+       },
+       {
+        "id": 7872,
+        "name": "Sultan Al-Ghannam",
+        "short_name": "S. Al-Ghannam",
+        "status": "injured",
+        "reason": "Cruciate Ligament Injury"
+       }
+      ],
+      "home_covered": true,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.641,
+      "away_conf": 0.55,
+      "formation": {
+       "home": "4-3-3",
+       "away": "4-2-3-1"
+      },
+      "coach": {
+       "home": "4-4-2",
+       "away": null
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 8.93,
+       "draw": 5.95,
+       "away_win": 1.24,
+       "over_15_goals": 1.07,
+       "over_25_goals": 1.29,
+       "over_35_goals": 1.77,
+       "under_15_goals": 6.97,
+       "under_25_goals": 3.26,
+       "under_35_goals": 1.96,
+       "btts_yes": 1.61,
+       "btts_no": 2.17
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 431,
+        "name": "Maurício Dulac",
+        "short_name": "M. Dulac",
+        "profile": "balanced",
+        "preferred_formation": "4-4-2",
+        "matches_total": 35.0,
+        "avg_goals_scored": 1.06,
+        "avg_goals_conceded": 1.86
+       },
+       "away": null
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 431,
+       "name": "Maurício Dulac",
+       "short_name": "M. Dulac",
+       "profile": "balanced",
+       "preferred_formation": "4-4-2",
+       "matches_total": 35.0,
+       "avg_goals_scored": 1.06,
+       "avg_goals_conceded": 1.86
+      },
+      "away": null
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": 0,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 3
+    }
+   }
+  },
+  {
+   "id": "222619",
+   "league": "沙超",
+   "home": "Al-Hazem",
+   "away": "Al Diriyah",
+   "ct": "08-22 00:15",
+   "snap": "2026-08-21T14:34:28Z",
+   "books": {
+    "h2h": "betfair_ex_uk(line=0.0,orr=1.016)",
+    "spread": "onexbet(line=0.0,orr=1.069)",
+    "totals": "onexbet(line=2.5,orr=1.069)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.61,
+     "away": 1.69,
+     "sum": 3.31
+    },
+    "wdl": {
+     "home": 36.9,
+     "draw": 23.0,
+     "away": 40.1
+    },
+    "market_fair": {
+     "home": 28.5,
+     "draw": 25.9,
+     "away": 45.6
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 1.7,
+    "bets": [
+     {
+      "name": "让球主(+0.0)",
+      "prob": 0.4838,
+      "odds": 2.41,
+      "ev": 0.0912,
+      "star": 2,
+      "ev_tier": "标准",
+      "stake_factor": 0.7
+     },
+     {
+      "name": "让球客(-0.0)",
+      "prob": 0.5162,
+      "odds": 1.53,
+      "ev": -0.2609
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.3581,
+      "odds": 2.11,
+      "ev": -0.2934
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.6419,
+      "odds": 1.68,
+      "ev": 0.0087
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.3689,
+      "odds": 3.45,
+      "ev": 0.2527,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2298,
+      "odds": 3.8,
+      "ev": -0.1404,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.4013,
+      "odds": 2.16,
+      "ev": -0.1469,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "让球主(+0.0)",
+     "prob": 0.4838,
+     "odds": 2.41,
+     "ev": 0.0912,
+     "star": 2,
+     "ev_tier": "标准",
+     "stake_factor": 0.7
+    },
+    "direction": {
+     "name": "大2.50",
+     "prob": 0.6419,
+     "odds": 1.68,
+     "ev": 0.0087,
+     "market_fair": 0.5567,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.4013,
+     "wdl_market_fair": 0.4557,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": null
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 25.3
+      },
+      "让球": {
+       "dir": "让球主(+0.0)",
+       "ev": 9.1
+      },
+      "大小球": {
+       "dir": "大2.50",
+       "ev": 0.9
+      }
+     },
+     "level": "三向一致"
+    },
+    "star": 2,
+    "ev_tier": "标准",
+    "risk_tags": [
+     "BSD伤停情报[主0客0]",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": null,
+    "upset": {
+     "hot": "Al Diriyah",
+     "level": "低风险",
+     "count": 1,
+     "signals": [
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     "客队样本偏少, 攻防向联赛均值收缩",
+     "阵型:主4-3-3/客4-2-3-1(当场)"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [],
+      "home_covered": false,
+      "away_covered": false,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.609,
+      "away_conf": 0.132,
+      "formation": {
+       "home": "4-3-3",
+       "away": "4-2-3-1"
+      },
+      "coach": {
+       "home": "4-3-3",
+       "away": null
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 2.84,
+       "draw": 3.46,
+       "away_win": 2.2,
+       "over_15_goals": 1.18,
+       "over_25_goals": 1.63,
+       "over_35_goals": 2.54,
+       "under_15_goals": 4.22,
+       "under_25_goals": 2.15,
+       "under_35_goals": 1.45,
+       "btts_yes": 1.53,
+       "btts_no": 2.32
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 190,
+        "name": "Jalel Kadri",
+        "short_name": "J. Kadri",
+        "profile": "balanced",
+        "preferred_formation": "4-3-3",
+        "matches_total": 34.0,
+        "avg_goals_scored": 1.12,
+        "avg_goals_conceded": 1.68
+       },
+       "away": null
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 190,
+       "name": "Jalel Kadri",
+       "short_name": "J. Kadri",
+       "profile": "balanced",
+       "preferred_formation": "4-3-3",
+       "matches_total": 34.0,
+       "avg_goals_scored": 1.12,
+       "avg_goals_conceded": 1.68
+      },
+      "away": null
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": 0,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    }
+   }
+  },
+  {
+   "id": "46444",
+   "league": "Allsvenskan",
+   "home": "IK Sirius",
+   "away": "BK Häcken",
+   "ct": "08-22 01:00",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "smarkets(line=0.0,orr=1.009)",
+    "spread": "matchbook(line=-0.75,orr=1.010)",
+    "totals": "betsson(line=2.5,orr=1.063)"
+   },
+   "result": {
+    "lambda": {
+     "home": 2.99,
+     "away": 1.55,
+     "sum": 4.54
+    },
+    "wdl": {
+     "home": 66.7,
+     "draw": 15.8,
+     "away": 17.5
+    },
+    "market_fair": {
+     "home": 55.4,
+     "draw": 21.6,
+     "away": 23.1
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 2.5,
+    "bets": [
+     {
+      "name": "让球主(-0.8)",
+      "prob": 0.65,
+      "odds": 1.98,
+      "ev": 0.27408184679958025,
+      "prob_raw": 0.6671,
+      "_pband_banned": true
+     },
+     {
+      "name": "让球客(+0.8)",
+      "prob": 0.3329,
+      "odds": 1.98,
+      "ev": -0.3474
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.1695,
+      "odds": 2.75,
+      "ev": -0.4681
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.65,
+      "odds": 1.43,
+      "ev": -0.12553281155930163,
+      "prob_raw": 0.8305
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.65,
+      "odds": 1.79,
+      "ev": 0.15355269075101186,
+      "is_1x2": true,
+      "prob_raw": 0.6671
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.1578,
+      "odds": 4.6,
+      "ev": -0.2804,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.1751,
+      "odds": 4.3,
+      "ev": -0.2535,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.43,
+     "ev": -0.12553281155930163,
+     "market_fair": 0.6579,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.6671,
+     "wdl_market_fair": 0.5539,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": null
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 15.4
+      },
+      "让球": {
+       "dir": "让球主(-0.8)",
+       "ev": 27.4
+      },
+      "大小球": {
+       "dir": "大2.50",
+       "ev": -12.6
+      }
+     },
+     "level": "主向一致(胜负亚盘)"
+    },
+    "star": 0,
+    "ev_tier": "垃圾",
+    "risk_tags": [
+     "BSD伤停情报[主4客4]",
+     "伤停>2人(主4/客4)",
+     "λ过高(4.54)",
+     "联赛基准偏差(λ已平移)",
+     "小球校准折扣"
+    ],
+    "draw_warn": null,
+    "upset": {
+     "hot": "IK Sirius",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "L2大热低赔",
+      "L2大热低赔(去水概率>=55%%)"
+     ]
+    },
+    "notes": [
+     "联赛基准偏差: Allsvenskan 配置2.60 vs 近30场实测2.93 (Δ+0.33), λ基准已平移50% -> 2.77",
+     "数据包伤停: 主队伤停4人(如Jesper Uneken,Matthias Nartey,Noel M); 客队伤停4人(如Andreas Linde,Ben Engdahl,Filip Ohma)",
+     "小球EV校准: 基准上移Δ+0.33球, 小盘EV×0.83(防小球虚高)",
+     "概率封顶校准: 3腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选",
+     "阵型:主4-3-3/客4-2-3-1(当场)",
+     "主队伤停4人位置未知(非BSD源), 位置加权未覆盖",
+     "客队伤停4人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       {
+        "id": 29120,
+        "name": "Jesper Uneken",
+        "short_name": "J. Uneken",
+        "status": "injured",
+        "reason": "Unknown"
+       },
+       {
+        "id": 16105,
+        "name": "Matthias Nartey",
+        "short_name": "M. Nartey",
+        "status": "injured",
+        "reason": "Unknown"
+       },
+       {
+        "id": 16104,
+        "name": "Noel Milleskog",
+        "short_name": "N. Milleskog",
+        "status": "injured",
+        "reason": "Shoulder Injury"
+       },
+       {
+        "id": 16120,
+        "name": "Otso Liimatta",
+        "short_name": "O. Liimatta",
+        "status": "injured",
+        "reason": "Unknown"
+       }
+      ],
+      "away": [
+       {
+        "id": 12744,
+        "name": "Andreas Linde",
+        "short_name": "A. Linde",
+        "status": "injured",
+        "reason": "Leg Injury"
+       },
+       {
+        "id": 12917,
+        "name": "Ben Engdahl",
+        "short_name": "B. Engdahl",
+        "status": "injured",
+        "reason": "Unknown"
+       },
+       {
+        "id": 12747,
+        "name": "Filip Ohman",
+        "short_name": "F. Öhman",
+        "status": "injured",
+        "reason": "Shoulder Injury"
+       },
+       {
+        "id": 12731,
+        "name": "Julius Lindberg",
+        "short_name": "J. Lindberg",
+        "status": "injured",
+        "reason": "Foot Injury"
+       }
+      ],
+      "home_covered": true,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.786,
+      "away_conf": 0.75,
+      "formation": {
+       "home": "4-3-3",
+       "away": "4-2-3-1"
+      },
+      "coach": {
+       "home": "4-3-3",
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 1.77,
+       "draw": 4.09,
+       "away_win": 3.7,
+       "over_15_goals": 1.1,
+       "over_25_goals": 1.37,
+       "over_35_goals": 1.95,
+       "under_15_goals": 6.04,
+       "under_25_goals": 2.88,
+       "under_35_goals": 1.79,
+       "btts_yes": 1.39,
+       "btts_no": 2.78
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 597,
+        "name": "Andreas Engelmark",
+        "short_name": "A. Engelmark",
+        "profile": "attacking",
+        "preferred_formation": "4-3-3",
+        "matches_total": 52.0,
+        "avg_goals_scored": 2.06,
+        "avg_goals_conceded": 1.54
+       },
+       "away": {
+        "id": 586,
+        "name": "Jens Gustafsson",
+        "short_name": "J. Gustafsson",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 58.0,
+        "avg_goals_scored": 1.52,
+        "avg_goals_conceded": 1.6
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 597,
+       "name": "Andreas Engelmark",
+       "short_name": "A. Engelmark",
+       "profile": "attacking",
+       "preferred_formation": "4-3-3",
+       "matches_total": 52.0,
+       "avg_goals_scored": 2.06,
+       "avg_goals_conceded": 1.54
+      },
+      "away": {
+       "id": 586,
+       "name": "Jens Gustafsson",
+       "short_name": "J. Gustafsson",
+       "profile": "balanced",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 58.0,
+       "avg_goals_scored": 1.52,
+       "avg_goals_conceded": 1.6
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": 0,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 8
+    }
+   }
+  },
+  {
+   "id": "apifb214569",
+   "league": "Superliga",
+   "home": "FC Petrolul Ploiești",
+   "away": "FC Rapid București",
+   "ct": "08-22 01:30",
+   "snap": "2026-08-21T14:34:28Z",
+   "books": {
+    "h2h": "apifb:Superbet(line=0.0,orr=1.045)",
+    "spread": "apifb:Betano(line=0.5,orr=1.037)",
+    "totals": "apifb:Betano(line=2.5,orr=1.040)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.06,
+     "away": 1.16,
+     "sum": 2.22
+    },
+    "wdl": {
+     "home": 33.1,
+     "draw": 28.9,
+     "away": 37.9
+    },
+    "market_fair": {
+     "home": 25.2,
+     "draw": 28.6,
+     "away": 46.2
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 2.9,
+    "bets": [
+     {
+      "name": "让球主(+0.5)",
+      "prob": 0.6205,
+      "odds": 1.82,
+      "ev": 0.0888,
+      "star": 1,
+      "ev_tier": "标准",
+      "stake_factor": 0.35
+     },
+     {
+      "name": "让球客(-0.5)",
+      "prob": 0.3795,
+      "odds": 2.05,
+      "ev": -0.25
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.6178,
+      "odds": 1.72,
+      "ev": 0.0217
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.3822,
+      "odds": 2.18,
+      "ev": -0.199
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.3311,
+      "odds": 3.8,
+      "ev": 0.2041,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2894,
+      "odds": 3.35,
+      "ev": -0.0719,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.3795,
+      "odds": 2.07,
+      "ev": -0.2481,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "让球主(+0.5)",
+     "prob": 0.6205,
+     "odds": 1.82,
+     "ev": 0.0888,
+     "star": 1,
+     "ev_tier": "标准",
+     "stake_factor": 0.35
+    },
+    "direction": {
+     "name": "让球主(+0.5)",
+     "prob": 0.6205,
+     "odds": 1.82,
+     "ev": 0.0888,
+     "market_fair": 0.5297,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.3795,
+     "wdl_market_fair": 0.4624,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": {
+      "market_draw_prob": 28.6,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 20.4
+      },
+      "让球": {
+       "dir": "让球主(+0.5)",
+       "ev": 8.9
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": 2.2
+      }
+     },
+     "level": "主向稳胜"
+    },
+    "star": 1,
+    "ev_tier": "标准",
+    "risk_tags": [
+     "BSD伤停情报[主0客0]",
+     "联赛基准偏差(λ已平移)",
+     "平局预警(市场去水平局>=26%)",
+     "阵型防守倾向(-2)",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 28.6,
+     "strong": false
+    },
+    "upset": {
+     "hot": "FC Rapid București",
+     "level": "低风险",
+     "count": 1,
+     "signals": [
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     "联赛基准偏差: Superliga 配置2.60 vs 近30场实测2.20 (Δ-0.40), λ基准已平移50% -> 2.40",
+     "阵型:主4-1-4-1/客4-2-3-1(当场)"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [],
+      "home_covered": false,
+      "away_covered": false,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.336,
+      "away_conf": 0.586,
+      "formation": {
+       "home": "4-1-4-1",
+       "away": "4-2-3-1"
+      },
+      "coach": {
+       "home": "4-2-3-1",
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 3.37,
+       "draw": 3.19,
+       "away_win": 2.09,
+       "over_15_goals": 1.36,
+       "over_25_goals": 2.13,
+       "over_35_goals": 3.81,
+       "under_15_goals": 2.89,
+       "under_25_goals": 1.65,
+       "under_35_goals": 1.22,
+       "btts_yes": 1.88,
+       "btts_no": 1.81
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 1994,
+        "name": "Ricardo Sousa",
+        "short_name": "R. Sousa",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 14.0,
+        "avg_goals_scored": 1.36,
+        "avg_goals_conceded": 1.43
+       },
+       "away": {
+        "id": 479,
+        "name": "Daniel Pancu",
+        "short_name": "D. Pancu",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 56.0,
+        "avg_goals_scored": 1.34,
+        "avg_goals_conceded": 1.07
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 1994,
+       "name": "Ricardo Sousa",
+       "short_name": "R. Sousa",
+       "profile": "balanced",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 14.0,
+       "avg_goals_scored": 1.36,
+       "avg_goals_conceded": 1.43
+      },
+      "away": {
+       "id": 479,
+       "name": "Daniel Pancu",
+       "short_name": "D. Pancu",
+       "profile": "balanced",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 56.0,
+       "avg_goals_scored": 1.34,
+       "avg_goals_conceded": 1.07
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-1-4-1",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": -2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    }
+   }
+  },
+  {
+   "id": "223596",
+   "league": "阿甲",
+   "home": "Aldosivi",
+   "away": "Club Atlético Unión de Santa Fe",
+   "ct": "08-22 01:30",
+   "snap": "2026-08-21T14:34:28Z",
+   "books": {
+    "h2h": "betfair_ex_uk(line=0.0,orr=1.018)",
+    "spread": "pinnacle(line=0.0,orr=1.026)",
+    "totals": "unibet_se(line=2.5,orr=1.063)"
+   },
+   "result": {
+    "lambda": {
+     "home": 0.72,
+     "away": 0.83,
+     "sum": 1.55
+    },
+    "wdl": {
+     "home": 29.3,
+     "draw": 36.3,
+     "away": 34.4
+    },
+    "market_fair": {
+     "home": 33.9,
+     "draw": 32.2,
+     "away": 33.9
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "bsd"
+    },
+    "snap_age_h": 2.9,
+    "bets": [
+     {
+      "name": "让球主(+0.0)",
+      "prob": 0.4686,
+      "odds": 1.95,
+      "ev": -0.109
+     },
+     {
+      "name": "让球客(-0.0)",
+      "prob": 0.5314,
+      "odds": 1.95,
+      "ev": 0.0103
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.65,
+      "odds": 1.49,
+      "ev": -0.0892010535557507,
+      "prob_raw": 0.7973
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.2027,
+      "odds": 2.55,
+      "ev": -0.5139
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.2932,
+      "odds": 2.9,
+      "ev": -0.1644,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.3628,
+      "odds": 3.05,
+      "ev": 0.0875,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.344,
+      "odds": 2.9,
+      "ev": -0.0195,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.65,
+     "odds": 1.49,
+     "ev": -0.0892010535557507,
+     "market_fair": 0.6312,
+     "wdl_name": "平局",
+     "wdl_prob": 0.3628,
+     "wdl_market_fair": 0.3222,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": {
+      "market_draw_prob": 32.2,
+      "strong": true
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2平局",
+       "ev": 8.8
+      },
+      "让球": {
+       "dir": "让球客(-0.0)",
+       "ev": 1.0
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": -8.9
+      }
+     },
+     "level": "平局主导"
+    },
+    "star": 0,
+    "ev_tier": "垃圾",
+    "risk_tags": [
+     "BSD伤停情报[主0客3]",
+     "伤停>2人(主0/客3)",
+     "平局预警-强(市场去水平局>=30%)",
+     "阵型对攻倾向(+2)",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 32.2,
+     "strong": true
+    },
+    "upset": {
+     "hot": "Aldosivi",
+     "level": "轻度风险",
+     "count": 3,
+     "signals": [
+      "L4平局接近热门(平局价值高)",
+      "L5主客接近无明显热门(慎标冷门)",
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     "数据包伤停: 客队伤停3人(如Ignacio Malcorra,Joaquin Mosqueira,L)",
+     "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主4-4-2/客4-4-2(当场)",
+     "客队伤停3人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [
+       {
+        "id": 89265,
+        "name": "Ignacio Malcorra",
+        "short_name": "I. Malcorra",
+        "status": "injured",
+        "reason": "Hamstring Injury"
+       },
+       {
+        "id": 22801,
+        "name": "Joaquin Mosqueira",
+        "short_name": "J. Mosqueira",
+        "status": "injured",
+        "reason": "Sprained Knee Injury"
+       },
+       {
+        "id": 89278,
+        "name": "Lautaro Vargas",
+        "short_name": "L. Vargas",
+        "status": "injured",
+        "reason": "Sprained Knee Injury"
+       }
+      ],
+      "home_covered": false,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.6,
+      "away_conf": 0.7,
+      "formation": {
+       "home": "4-4-2",
+       "away": "4-4-2"
+      },
+      "coach": {
+       "home": "4-4-2",
+       "away": "4-4-2"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 3.42,
+       "draw": 2.93,
+       "away_win": 2.26,
+       "over_15_goals": 1.51,
+       "over_25_goals": 2.58,
+       "over_35_goals": 5.04,
+       "under_15_goals": 2.41,
+       "under_25_goals": 1.45,
+       "under_35_goals": 1.14,
+       "btts_yes": 2.13,
+       "btts_no": 1.63
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 3185,
+        "name": "Israel Damonte",
+        "short_name": "I. Damonte",
+        "profile": "defensive",
+        "preferred_formation": "4-4-2",
+        "matches_total": 20.0,
+        "avg_goals_scored": 0.45,
+        "avg_goals_conceded": 1.25
+       },
+       "away": {
+        "id": 2667,
+        "name": "Leonardo Carol Madelon",
+        "short_name": "L. C. Madelon",
+        "profile": "balanced",
+        "preferred_formation": "4-4-2",
+        "matches_total": 23.0,
+        "avg_goals_scored": 1.43,
+        "avg_goals_conceded": 1.3
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 3185,
+       "name": "Israel Damonte",
+       "short_name": "I. Damonte",
+       "profile": "defensive",
+       "preferred_formation": "4-4-2",
+       "matches_total": 20.0,
+       "avg_goals_scored": 0.45,
+       "avg_goals_conceded": 1.25
+      },
+      "away": {
+       "id": 2667,
+       "name": "Leonardo Carol Madelon",
+       "short_name": "L. C. Madelon",
+       "profile": "balanced",
+       "preferred_formation": "4-4-2",
+       "matches_total": 23.0,
+       "avg_goals_scored": 1.43,
+       "avg_goals_conceded": 1.3
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-4-2",
+     "away": "4-4-2",
+     "src": "cur",
+     "tend": 2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 3
+    }
+   }
+  },
+  {
+   "id": "222620",
+   "league": "沙超",
+   "home": "Al Faisaly",
+   "away": "Neom SC",
+   "ct": "08-22 02:00",
+   "snap": "2026-08-21T14:34:28Z",
+   "books": {
+    "h2h": "betfair_ex_uk(line=0.0,orr=1.011)",
+    "spread": "pinnacle(line=0.5,orr=1.039)",
+    "totals": "pinnacle(line=2.5,orr=1.043)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.42,
+     "away": 1.17,
+     "sum": 2.58
+    },
+    "wdl": {
+     "home": 42.7,
+     "draw": 26.2,
+     "away": 31.0
+    },
+    "market_fair": {
+     "home": 24.1,
+     "draw": 25.7,
+     "away": 50.2
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 3.4,
+    "bets": [
+     {
+      "name": "让球主(+0.5)",
+      "prob": 0.65,
+      "odds": 1.96,
+      "ev": 0.22574659321542478,
+      "prob_raw": 0.6898,
+      "_pband_banned": true
+     },
+     {
+      "name": "让球客(-0.5)",
+      "prob": 0.3102,
+      "odds": 1.89,
+      "ev": -0.4358
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.5225,
+      "odds": 2.0,
+      "ev": 0.0014
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.4775,
+      "odds": 1.84,
+      "ev": -0.1579
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.4274,
+      "odds": 4.1,
+      "ev": 0.7327,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2624,
+      "odds": 3.85,
+      "ev": -0.001,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.3102,
+      "odds": 1.97,
+      "ev": -0.3956,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.5225,
+     "odds": 2.0,
+     "ev": 0.0014,
+     "market_fair": 0.4792,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.4274,
+     "wdl_market_fair": 0.2412,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": null
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 73.3
+      },
+      "让球": {
+       "dir": "让球主(+0.5)",
+       "ev": 22.6
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": 0.1
+      }
+     },
+     "level": "主向稳胜"
+    },
+    "star": 0,
+    "ev_tier": "垃圾",
+    "risk_tags": [
+     "BSD伤停情报[主0客2]",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": null,
+    "upset": {
+     "hot": "Neom SC",
+     "level": "低风险",
+     "count": 1,
+     "signals": [
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     "主队样本偏少, 攻防向联赛均值收缩",
+     "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选",
+     "阵型:主4-2-3-1/客4-4-2(当场)",
+     "客队伤停2人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [
+       {
+        "id": 8243,
+        "name": "Abbas Sadiq Alhassan",
+        "short_name": "A. S. Alhassan",
+        "status": "injured",
+        "reason": "Cruciate Ligament Injury"
+       },
+       {
+        "id": 8308,
+        "name": "Ala'a Al-Hejji",
+        "short_name": "A. Al-Hejji",
+        "status": "suspended",
+        "reason": "red_card_suspension"
+       }
+      ],
+      "home_covered": false,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.086,
+      "away_conf": 0.482,
+      "formation": {
+       "home": "4-2-3-1",
+       "away": "4-4-2"
+      },
+      "coach": {
+       "home": null,
+       "away": "4-4-2"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 3.93,
+       "draw": 3.94,
+       "away_win": 1.73,
+       "over_15_goals": 1.15,
+       "over_25_goals": 1.53,
+       "over_35_goals": 2.34,
+       "under_15_goals": 4.65,
+       "under_25_goals": 2.33,
+       "under_35_goals": 1.53,
+       "btts_yes": 1.54,
+       "btts_no": 2.31
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": null,
+       "away": {
+        "id": 289,
+        "name": "Christophe Galtier",
+        "short_name": "C. Galtier",
+        "profile": "defensive",
+        "preferred_formation": "4-4-2",
+        "matches_total": 5.0,
+        "avg_goals_scored": 1.2,
+        "avg_goals_conceded": 0.6
+       }
+      }
+     },
+     "coaches": {
+      "home": null,
+      "away": {
+       "id": 289,
+       "name": "Christophe Galtier",
+       "short_name": "C. Galtier",
+       "profile": "defensive",
+       "preferred_formation": "4-4-2",
+       "matches_total": 5.0,
+       "avg_goals_scored": 1.2,
+       "avg_goals_conceded": 0.6
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-4-2",
+     "src": "cur",
+     "tend": 0,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 2
+    }
+   }
+  },
+  {
+   "id": "222621",
+   "league": "沙超",
+   "home": "Al-Qadsiah",
+   "away": "Al-Ittihad",
+   "ct": "08-22 02:00",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "betfair_ex_eu(line=0.0,orr=1.017)",
+    "spread": "pinnacle(line=-1.25,orr=1.038)",
+    "totals": "onexbet(line=3.5,orr=1.069)"
+   },
+   "result": {
+    "lambda": {
+     "home": 3.04,
+     "away": 0.97,
+     "sum": 4.02
+    },
+    "wdl": {
+     "home": 78.5,
+     "draw": 12.7,
+     "away": 8.8
+    },
+    "market_fair": {
+     "home": 66.9,
+     "draw": 17.3,
+     "away": 15.9
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 3.5,
+    "bets": [
+     {
+      "name": "让球主(-1.2)",
+      "prob": 0.5964,
+      "odds": 1.85,
+      "ev": 0.0629,
+      "star": 1,
+      "ev_tier": "观察",
+      "stake_factor": 0.15
+     },
+     {
+      "name": "让球客(+1.2)",
+      "prob": 0.4036,
+      "odds": 2.01,
+      "ev": -0.2185
+     },
+     {
+      "name": "小3.50",
+      "prob": 0.4318,
+      "odds": 2.01,
+      "ev": -0.1881
+     },
+     {
+      "name": "大3.50",
+      "prob": 0.5682,
+      "odds": 1.75,
+      "ev": -0.0697
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.65,
+      "odds": 1.47,
+      "ev": -0.06053134556574924,
+      "is_1x2": true,
+      "prob_raw": 0.7848
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.1271,
+      "odds": 5.7,
+      "ev": -0.2876,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.0881,
+      "odds": 6.2,
+      "ev": -0.4628,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "让球主(-1.2)",
+     "prob": 0.5964,
+     "odds": 1.85,
+     "ev": 0.0629,
+     "star": 1,
+     "ev_tier": "观察",
+     "stake_factor": 0.15
+    },
+    "direction": {
+     "name": "让球主(-1.2)",
+     "prob": 0.5964,
+     "odds": 1.85,
+     "ev": 0.0629,
+     "market_fair": 0.5207,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.7848,
+     "wdl_market_fair": 0.6689,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": null
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": -6.1
+      },
+      "让球": {
+       "dir": "让球主(-1.2)",
+       "ev": 6.3
+      },
+      "大小球": {
+       "dir": "大3.50",
+       "ev": -7.0
+      }
+     },
+     "level": "无正EV"
+    },
+    "star": 1,
+    "ev_tier": "观察",
+    "risk_tags": [
+     "BSD伤停情报[主1客3]",
+     "伤停>2人(主1/客3)",
+     "λ过高(4.02)",
+     "阵型对攻倾向(+3)"
+    ],
+    "draw_warn": null,
+    "upset": {
+     "hot": "Al-Qadsiah",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "L2大热低赔",
+      "L2大热低赔(去水概率>=55%%)"
+     ]
+    },
+    "notes": [
+     "数据包伤停: 客队伤停3人(如Ahmed Sharahili,Danilo Pereira,Hamed)",
+     "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主3-1-4-2/客4-3-3(当场)",
+     "主队伤停1人位置未知(非BSD源), 位置加权未覆盖",
+     "客队伤停3人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       {
+        "id": 8140,
+        "name": "Mateo Retegui",
+        "short_name": "M. Retegui",
+        "status": "injured",
+        "reason": "Broken Foot"
+       }
+      ],
+      "away": [
+       {
+        "id": 8164,
+        "name": "Ahmed Sharahili",
+        "short_name": "A. Sharahili",
+        "status": "injured",
+        "reason": "Ankle Injury"
+       },
+       {
+        "id": 8152,
+        "name": "Danilo Pereira",
+        "short_name": "D. Pereira",
+        "status": "suspended",
+        "reason": "red_card_suspension"
+       },
+       {
+        "id": 8161,
+        "name": "Hamed Al-Ghamdi",
+        "short_name": "H. Al-Ghamdi",
+        "status": "injured",
+        "reason": "Cruciate Ligament Injury"
+       }
+      ],
+      "home_covered": true,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.609,
+      "away_conf": 0.5,
+      "formation": {
+       "home": "3-1-4-2",
+       "away": "4-3-3"
+      },
+      "coach": {
+       "home": "4-4-2",
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 1.74,
+       "draw": 4.07,
+       "away_win": 3.74,
+       "over_15_goals": 1.11,
+       "over_25_goals": 1.42,
+       "over_35_goals": 2.06,
+       "under_15_goals": 5.53,
+       "under_25_goals": 2.66,
+       "under_35_goals": 1.69,
+       "btts_yes": 1.43,
+       "btts_no": 2.6
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 434,
+        "name": "Brendan Rodgers",
+        "short_name": "B. Rodgers",
+        "profile": "attacking",
+        "preferred_formation": "4-4-2",
+        "matches_total": 36.0,
+        "avg_goals_scored": 2.31,
+        "avg_goals_conceded": 0.97
+       },
+       "away": {
+        "id": 1296,
+        "name": "Jens Wissing",
+        "short_name": "J. Wissing",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 64.0,
+        "avg_goals_scored": 1.55,
+        "avg_goals_conceded": 1.47
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 434,
+       "name": "Brendan Rodgers",
+       "short_name": "B. Rodgers",
+       "profile": "attacking",
+       "preferred_formation": "4-4-2",
+       "matches_total": 36.0,
+       "avg_goals_scored": 2.31,
+       "avg_goals_conceded": 0.97
+      },
+      "away": {
+       "id": 1296,
+       "name": "Jens Wissing",
+       "short_name": "J. Wissing",
+       "profile": "balanced",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 64.0,
+       "avg_goals_scored": 1.55,
+       "avg_goals_conceded": 1.47
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "3-1-4-2",
+     "away": "4-3-3",
+     "src": "cur",
+     "tend": 3,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 4
+    }
+   }
+  },
+  {
+   "id": "580488",
+   "league": "Ligue 2",
+   "home": "Clermont Foot",
+   "away": "Dijon",
+   "ct": "08-22 02:00",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "betfair_ex_uk(line=0.0,orr=1.006)",
+    "spread": "matchbook(line=0.0,orr=1.025)",
+    "totals": "matchbook(line=2.5,orr=1.006)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.06,
+     "away": 1.22,
+     "sum": 2.28
+    },
+    "wdl": {
+     "home": 31.8,
+     "draw": 28.4,
+     "away": 39.7
+    },
+    "market_fair": {
+     "home": 33.4,
+     "draw": 29.2,
+     "away": 37.4
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "bsd"
+    },
+    "snap_age_h": 3.5,
+    "bets": [
+     {
+      "name": "让球主(+0.0)",
+      "prob": 0.4603,
+      "odds": 2.04,
+      "ev": -0.0838
+     },
+     {
+      "name": "让球客(-0.0)",
+      "prob": 0.5397,
+      "odds": 1.87,
+      "ev": -0.0154
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.6026,
+      "odds": 1.8,
+      "ev": 0.0782,
+      "star": 1,
+      "ev_tier": "观察",
+      "stake_factor": 0.15
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.3974,
+      "odds": 2.22,
+      "ev": -0.123
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.3182,
+      "odds": 2.98,
+      "ev": -0.0571,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2843,
+      "odds": 3.4,
+      "ev": -0.0387,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.3975,
+      "odds": 2.66,
+      "ev": 0.0514,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "小2.50",
+     "prob": 0.6026,
+     "odds": 1.8,
+     "ev": 0.0782,
+     "star": 1,
+     "ev_tier": "观察",
+     "stake_factor": 0.15
+    },
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.6026,
+     "odds": 1.8,
+     "ev": 0.0782,
+     "market_fair": 0.5522,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.3975,
+     "wdl_market_fair": 0.3738,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": {
+      "market_draw_prob": 29.2,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2客胜",
+       "ev": 5.1
+      },
+      "让球": {
+       "dir": "让球客(-0.0)",
+       "ev": -1.5
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": 7.8
+      }
+     },
+     "level": "无正EV"
+    },
+    "star": 1,
+    "ev_tier": "观察",
+    "risk_tags": [
+     "BSD伤停情报[主0客0]",
+     "平局预警(市场去水平局>=26%)",
+     "阵型对攻倾向(+2)",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 29.2,
+     "strong": false
+    },
+    "upset": {
+     "hot": "Dijon",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "L5主客接近无明显热门(慎标冷门)",
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     "阵型:主4-4-2/客4-1-3-2(当场)"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [],
+      "home_covered": false,
+      "away_covered": false,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.291,
+      "away_conf": 0.218,
+      "formation": {
+       "home": "4-4-2",
+       "away": "4-1-3-2"
+      },
+      "coach": {
+       "home": "5-4-1",
+       "away": "4-3-1-2"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 2.51,
+       "draw": 3.31,
+       "away_win": 2.63,
+       "over_15_goals": 1.32,
+       "over_25_goals": 2.03,
+       "over_35_goals": 3.57,
+       "under_15_goals": 3.06,
+       "under_25_goals": 1.72,
+       "under_35_goals": 1.25,
+       "btts_yes": 1.81,
+       "btts_no": 1.89
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 3040,
+        "name": "David Guion",
+        "short_name": "D. Guion",
+        "profile": "defensive",
+        "preferred_formation": "5-4-1",
+        "matches_total": 9.0,
+        "avg_goals_scored": 0.89,
+        "avg_goals_conceded": 0.56
+       },
+       "away": {
+        "id": 2184,
+        "name": "Baptiste Ridira",
+        "short_name": "B. Ridira",
+        "profile": "attacking",
+        "preferred_formation": "4-3-1-2",
+        "matches_total": 7.0,
+        "avg_goals_scored": 2.57,
+        "avg_goals_conceded": 1.14
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 3040,
+       "name": "David Guion",
+       "short_name": "D. Guion",
+       "profile": "defensive",
+       "preferred_formation": "5-4-1",
+       "matches_total": 9.0,
+       "avg_goals_scored": 0.89,
+       "avg_goals_conceded": 0.56
+      },
+      "away": {
+       "id": 2184,
+       "name": "Baptiste Ridira",
+       "short_name": "B. Ridira",
+       "profile": "attacking",
+       "preferred_formation": "4-3-1-2",
+       "matches_total": 7.0,
+       "avg_goals_scored": 2.57,
+       "avg_goals_conceded": 1.14
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-4-2",
+     "away": "4-1-3-2",
+     "src": "cur",
+     "tend": 2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    }
+   }
+  },
+  {
+   "id": "580489",
+   "league": "Ligue 2",
+   "home": "Pau FC",
+   "away": "Nancy",
+   "ct": "08-22 02:00",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "matchbook(line=0.0,orr=1.001)",
+    "spread": "pinnacle(line=-0.25,orr=1.029)",
+    "totals": "matchbook(line=2.5,orr=1.009)"
+   },
+   "result": {
+    "lambda": {
+     "home": 0.84,
+     "away": 1.61,
+     "sum": 2.45
+    },
+    "wdl": {
+     "home": 19.4,
+     "draw": 24.8,
+     "away": 55.8
+    },
+    "market_fair": {
+     "home": 38.4,
+     "draw": 29.8,
+     "away": 31.7
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 3.5,
+    "bets": [
+     {
+      "name": "让球主(-0.2)",
+      "prob": 0.1935,
+      "odds": 2.14,
+      "ev": -0.5975
+     },
+     {
+      "name": "让球客(+0.2)",
+      "prob": 0.65,
+      "odds": 1.78,
+      "ev": 0.12422194668319908,
+      "prob_raw": 0.8065
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.5567,
+      "odds": 1.79,
+      "ev": -0.0125
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.4433,
+      "odds": 2.22,
+      "ev": -0.0248
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.1935,
+      "odds": 2.6,
+      "ev": -0.4971,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2484,
+      "odds": 3.35,
+      "ev": -0.1684,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.5581,
+      "odds": 3.15,
+      "ev": 0.7569,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "让球客(+0.2)",
+     "prob": 0.65,
+     "odds": 1.78,
+     "ev": 0.12422194668319908,
+     "market_fair": 0.5459,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.5581,
+     "wdl_market_fair": 0.3173,
+     "vetoed": true,
+     "veto_reason": "模型与市场分歧>20pp(模型81% vs 市场55%)",
+     "draw_warn": {
+      "market_draw_prob": 29.8,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2客胜",
+       "ev": 75.7
+      },
+      "让球": {
+       "dir": "让球客(+0.2)",
+       "ev": 12.4
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": -1.2
+      }
+     },
+     "level": "客向一致(胜负亚盘)"
+    },
+    "star": 0,
+    "ev_tier": "否决",
+    "risk_tags": [
+     "BSD伤停情报[主0客0]",
+     "平局预警(市场去水平局>=26%)",
+     "模型与市场分歧>20pp(模型81% vs 市场55%)->否决",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 29.8,
+     "strong": false
+    },
+    "upset": {
+     "hot": "Pau FC",
+     "level": "低风险",
+     "count": 0,
+     "signals": []
+    },
+    "notes": [
+     "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主5-3-2/客4-2-3-1(当场)"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [],
+      "home_covered": false,
+      "away_covered": false,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.309,
+      "away_conf": 0.227,
+      "formation": {
+       "home": "5-3-2",
+       "away": "4-2-3-1"
+      },
+      "coach": {
+       "home": null,
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 2.22,
+       "draw": 3.31,
+       "away_win": 3.06,
+       "over_15_goals": 1.26,
+       "over_25_goals": 1.85,
+       "over_35_goals": 3.09,
+       "under_15_goals": 3.47,
+       "under_25_goals": 1.87,
+       "under_35_goals": 1.32,
+       "btts_yes": 1.68,
+       "btts_no": 2.05
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": null,
+       "away": {
+        "id": 1986,
+        "name": "Oswald Tanchot",
+        "short_name": "O. Tanchot",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 10.0,
+        "avg_goals_scored": 2.8,
+        "avg_goals_conceded": 1.1
+       }
+      }
+     },
+     "coaches": {
+      "home": null,
+      "away": {
+       "id": 1986,
+       "name": "Oswald Tanchot",
+       "short_name": "O. Tanchot",
+       "profile": "attacking",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 10.0,
+       "avg_goals_scored": 2.8,
+       "avg_goals_conceded": 1.1
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "5-3-2",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": -1,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    }
+   }
+  },
+  {
+   "id": "580490",
+   "league": "Ligue 2",
+   "home": "Sochaux",
+   "away": "Guingamp",
+   "ct": "08-22 02:00",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "betfair_ex_uk(line=0.0,orr=1.013)",
+    "spread": "pinnacle(line=0.0,orr=1.030)",
+    "totals": "betonlineag(line=2.5,orr=1.042)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.5,
+     "away": 1.1,
+     "sum": 2.6
+    },
+    "wdl": {
+     "home": 46.4,
+     "draw": 25.8,
+     "away": 27.8
+    },
+    "market_fair": {
+     "home": 36.3,
+     "draw": 29.5,
+     "away": 34.3
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 3.5,
+    "bets": [
+     {
+      "name": "让球主(+0.0)",
+      "prob": 0.5931,
+      "odds": 1.86,
+      "ev": 0.0707,
+      "star": 1,
+      "ev_tier": "观察",
+      "stake_factor": 0.15
+     },
+     {
+      "name": "让球客(-0.0)",
+      "prob": 0.4069,
+      "odds": 2.03,
+      "ev": -0.1982
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.5184,
+      "odds": 1.79,
+      "ev": -0.1092
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.4816,
+      "odds": 2.07,
+      "ev": -0.0431
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.4642,
+      "odds": 2.72,
+      "ev": 0.246,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2577,
+      "odds": 3.35,
+      "ev": -0.1482,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.2781,
+      "odds": 2.88,
+      "ev": -0.2097,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "让球主(+0.0)",
+     "prob": 0.5931,
+     "odds": 1.86,
+     "ev": 0.0707,
+     "star": 1,
+     "ev_tier": "观察",
+     "stake_factor": 0.15
+    },
+    "direction": {
+     "name": "让球主(+0.0)",
+     "prob": 0.5931,
+     "odds": 1.86,
+     "ev": 0.0707,
+     "market_fair": 0.5219,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.4642,
+     "wdl_market_fair": 0.3628,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": {
+      "market_draw_prob": 29.5,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 24.6
+      },
+      "让球": {
+       "dir": "让球主(+0.0)",
+       "ev": 7.1
+      },
+      "大小球": {
+       "dir": "大2.50",
+       "ev": -4.3
+      }
+     },
+     "level": "主向一致(胜负亚盘)"
+    },
+    "star": 1,
+    "ev_tier": "观察",
+    "risk_tags": [
+     "BSD伤停情报[主0客0]",
+     "平局预警(市场去水平局>=26%)",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 29.5,
+     "strong": false
+    },
+    "upset": {
+     "hot": "Sochaux",
+     "level": "低风险",
+     "count": 1,
+     "signals": [
+      "L5主客接近无明显热门(慎标冷门)"
+     ]
+    },
+    "notes": [
+     "主队样本偏少, 攻防向联赛均值收缩",
+     "阵型:主4-2-3-1/客4-4-2(当场)"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [],
+      "home_covered": false,
+      "away_covered": false,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.368,
+      "away_conf": 0.468,
+      "formation": {
+       "home": "4-2-3-1",
+       "away": "4-4-2"
+      },
+      "coach": {
+       "home": "4-2-3-1",
+       "away": "4-4-2"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 2.86,
+       "draw": 3.22,
+       "away_win": 2.37,
+       "over_15_goals": 1.35,
+       "over_25_goals": 2.1,
+       "over_35_goals": 3.76,
+       "under_15_goals": 2.93,
+       "under_25_goals": 1.66,
+       "under_35_goals": 1.23,
+       "btts_yes": 1.84,
+       "btts_no": 1.84
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 1055,
+        "name": "Vincent Hognon",
+        "short_name": "V. Hognon",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 10.0,
+        "avg_goals_scored": 1.7,
+        "avg_goals_conceded": 1.9
+       },
+       "away": {
+        "id": 1090,
+        "name": "Sylvain Ripoll",
+        "short_name": "S. Ripoll",
+        "profile": "balanced",
+        "preferred_formation": "4-4-2",
+        "matches_total": 8.0,
+        "avg_goals_scored": 1.38,
+        "avg_goals_conceded": 1.62
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 1055,
+       "name": "Vincent Hognon",
+       "short_name": "V. Hognon",
+       "profile": "attacking",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 10.0,
+       "avg_goals_scored": 1.7,
+       "avg_goals_conceded": 1.9
+      },
+      "away": {
+       "id": 1090,
+       "name": "Sylvain Ripoll",
+       "short_name": "S. Ripoll",
+       "profile": "balanced",
+       "preferred_formation": "4-4-2",
+       "matches_total": 8.0,
+       "avg_goals_scored": 1.38,
+       "avg_goals_conceded": 1.62
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-4-2",
+     "src": "cur",
+     "tend": 0,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    }
+   }
+  },
+  {
+   "id": "580491",
+   "league": "Ligue 2",
+   "home": "US Boulogne Côte-d'Opale",
+   "away": "Red Star FC",
+   "ct": "08-22 02:00",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "smarkets(line=0.0,orr=1.011)",
+    "spread": "matchbook(line=0.5,orr=1.009)",
+    "totals": "matchbook(line=2.5,orr=1.008)"
+   },
+   "result": {
+    "lambda": {
+     "home": 0.8,
+     "away": 1.37,
+     "sum": 2.17
+    },
+    "wdl": {
+     "home": 22.0,
+     "draw": 27.8,
+     "away": 50.2
+    },
+    "market_fair": {
+     "home": 24.7,
+     "draw": 29.1,
+     "away": 46.2
+    },
+    "data_src": {
+     "home": "bsd",
+     "away": "bsd"
+    },
+    "snap_age_h": 3.5,
+    "bets": [
+     {
+      "name": "让球主(+0.5)",
+      "prob": 0.4975,
+      "odds": 1.86,
+      "ev": -0.0832
+     },
+     {
+      "name": "让球客(-0.5)",
+      "prob": 0.5025,
+      "odds": 2.12,
+      "ev": 0.0554
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.6295,
+      "odds": 1.78,
+      "ev": 0.1113,
+      "star": 1,
+      "ev_tier": "标准",
+      "stake_factor": 0.35
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.3705,
+      "odds": 2.24,
+      "ev": -0.1768
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.2197,
+      "odds": 4.0,
+      "ev": -0.1313,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2779,
+      "odds": 3.4,
+      "ev": -0.066,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.5025,
+      "odds": 2.14,
+      "ev": 0.0632,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "小2.50",
+     "prob": 0.6295,
+     "odds": 1.78,
+     "ev": 0.1113,
+     "star": 1,
+     "ev_tier": "标准",
+     "stake_factor": 0.35
+    },
+    "direction": {
+     "name": "小2.50",
+     "prob": 0.6295,
+     "odds": 1.78,
+     "ev": 0.1113,
+     "market_fair": 0.5572,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.5025,
+     "wdl_market_fair": 0.462,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": {
+      "market_draw_prob": 29.1,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2客胜",
+       "ev": 6.3
+      },
+      "让球": {
+       "dir": "让球客(-0.5)",
+       "ev": 5.5
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": 11.1
+      }
+     },
+     "level": "客向稳胜"
+    },
+    "star": 1,
+    "ev_tier": "标准",
+    "risk_tags": [
+     "BSD伤停情报[主0客0]",
+     "平局预警(市场去水平局>=26%)",
+     "阵型对攻倾向(+2)",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 29.1,
+     "strong": false
+    },
+    "upset": {
+     "hot": "Red Star FC",
+     "level": "低风险",
+     "count": 0,
+     "signals": []
+    },
+    "notes": [
+     "主队样本偏少, 攻防向联赛均值收缩",
+     "客队样本偏少, 攻防向联赛均值收缩",
+     "阵型:主5-3-2/客3-5-2(当场)"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [],
+      "home_covered": false,
+      "away_covered": false,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.273,
+      "away_conf": 0.509,
+      "formation": {
+       "home": "5-3-2",
+       "away": "3-5-2"
+      },
+      "coach": {
+       "home": "5-3-2",
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 3.12,
+       "draw": 3.06,
+       "away_win": 2.3,
+       "over_15_goals": 1.37,
+       "over_25_goals": 2.17,
+       "over_35_goals": 3.88,
+       "under_15_goals": 2.85,
+       "under_25_goals": 1.63,
+       "under_35_goals": 1.21,
+       "btts_yes": 1.86,
+       "btts_no": 1.83
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 1104,
+        "name": "Fabien Dagneaux",
+        "short_name": "F. Dagneaux",
+        "profile": "defensive",
+        "preferred_formation": "5-3-2",
+        "matches_total": 9.0,
+        "avg_goals_scored": 0.78,
+        "avg_goals_conceded": 1.0
+       },
+       "away": {
+        "id": 3258,
+        "name": "Damien Perrinelle",
+        "short_name": "D. Perrinelle",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 7.0,
+        "avg_goals_scored": 1.71,
+        "avg_goals_conceded": 1.0
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 1104,
+       "name": "Fabien Dagneaux",
+       "short_name": "F. Dagneaux",
+       "profile": "defensive",
+       "preferred_formation": "5-3-2",
+       "matches_total": 9.0,
+       "avg_goals_scored": 0.78,
+       "avg_goals_conceded": 1.0
+      },
+      "away": {
+       "id": 3258,
+       "name": "Damien Perrinelle",
+       "short_name": "D. Perrinelle",
+       "profile": "attacking",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 7.0,
+       "avg_goals_scored": 1.71,
+       "avg_goals_conceded": 1.0
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "5-3-2",
+     "away": "3-5-2",
+     "src": "cur",
+     "tend": 2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    }
+   }
+  },
+  {
+   "id": "580492",
+   "league": "Ligue 2",
+   "home": "USL Dunkerque",
+   "away": "Montpellier",
+   "ct": "08-22 02:00",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "smarkets(line=0.0,orr=1.012)",
+    "spread": "pinnacle(line=-0.25,orr=1.028)",
+    "totals": "matchbook(line=2.5,orr=1.002)"
+   },
+   "result": {
+    "lambda": {
+     "home": 0.41,
+     "away": 0.83,
+     "sum": 1.24
+    },
+    "wdl": {
+     "home": 16.9,
+     "draw": 39.6,
+     "away": 43.5
+    },
+    "market_fair": {
+     "home": 42.6,
+     "draw": 27.5,
+     "away": 29.9
+    },
+    "data_src": {
+     "home": "bsd",
+     "away": "cur"
+    },
+    "snap_age_h": 3.5,
+    "bets": [
+     {
+      "name": "让球主(-0.2)",
+      "prob": 0.169,
+      "odds": 1.92,
+      "ev": -0.6844
+     },
+     {
+      "name": "让球客(+0.2)",
+      "prob": 0.65,
+      "odds": 1.97,
+      "ev": 0.2450120336943442,
+      "prob_raw": 0.831
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.65,
+      "odds": 2.18,
+      "ev": 0.41379666858127506,
+      "prob_raw": 0.8705
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.1295,
+      "odds": 1.84,
+      "ev": -0.7622
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.169,
+      "odds": 2.32,
+      "ev": -0.6124,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.3957,
+      "odds": 3.6,
+      "ev": 0.408,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.4352,
+      "odds": 3.3,
+      "ev": 0.4194,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "让球客(+0.2)",
+     "prob": 0.65,
+     "odds": 1.97,
+     "ev": 0.2450120336943442,
+     "market_fair": 0.4936,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.4352,
+     "wdl_market_fair": 0.2995,
+     "vetoed": true,
+     "veto_reason": "模型与市场分歧>20pp(模型83% vs 市场49%)",
+     "draw_warn": {
+      "market_draw_prob": 27.5,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2客胜",
+       "ev": 41.9
+      },
+      "让球": {
+       "dir": "让球客(+0.2)",
+       "ev": 24.5
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": 41.4
+      }
+     },
+     "level": "客向稳胜"
+    },
+    "star": 0,
+    "ev_tier": "否决",
+    "risk_tags": [
+     "BSD伤停情报[主1客1]",
+     "平局预警(市场去水平局>=26%)",
+     "模型与市场分歧>20pp(模型83% vs 市场49%)->否决",
+     "阵型防守倾向(-2)"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 27.5,
+     "strong": false
+    },
+    "upset": {
+     "hot": "USL Dunkerque",
+     "level": "低风险",
+     "count": 0,
+     "signals": []
+    },
+    "notes": [
+     "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主4-1-4-1/客4-2-3-1(当场)",
+     "主队伤停1人位置未知(非BSD源), 位置加权未覆盖",
+     "客队伤停1人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       {
+        "id": 6052,
+        "name": "Steven​ N'Zonzi",
+        "short_name": "S. N'Zonzi",
+        "status": "injured",
+        "reason": "Unknown"
+       }
+      ],
+      "away": [
+       {
+        "id": 29215,
+        "name": "Florian Tardieu",
+        "short_name": "F. Tardieu",
+        "status": "injured",
+        "reason": ""
+       }
+      ],
+      "home_covered": true,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.323,
+      "away_conf": 0.436,
+      "formation": {
+       "home": "4-1-4-1",
+       "away": "4-2-3-1"
+      },
+      "coach": {
+       "home": "4-1-4-1",
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 2.47,
+       "draw": 3.27,
+       "away_win": 2.7,
+       "over_15_goals": 1.26,
+       "over_25_goals": 1.85,
+       "over_35_goals": 3.06,
+       "under_15_goals": 3.49,
+       "under_25_goals": 1.88,
+       "under_35_goals": 1.33,
+       "btts_yes": 1.66,
+       "btts_no": 2.08
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 1077,
+        "name": "Albert Sánchez",
+        "short_name": "A. Sánchez",
+        "profile": "attacking",
+        "preferred_formation": "4-1-4-1",
+        "matches_total": 8.0,
+        "avg_goals_scored": 2.0,
+        "avg_goals_conceded": 1.12
+       },
+       "away": {
+        "id": 1058,
+        "name": "Zoumana Camara",
+        "short_name": "Z. Camara",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 11.0,
+        "avg_goals_scored": 2.55,
+        "avg_goals_conceded": 1.27
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 1077,
+       "name": "Albert Sánchez",
+       "short_name": "A. Sánchez",
+       "profile": "attacking",
+       "preferred_formation": "4-1-4-1",
+       "matches_total": 8.0,
+       "avg_goals_scored": 2.0,
+       "avg_goals_conceded": 1.12
+      },
+      "away": {
+       "id": 1058,
+       "name": "Zoumana Camara",
+       "short_name": "Z. Camara",
+       "profile": "attacking",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 11.0,
+       "avg_goals_scored": 2.55,
+       "avg_goals_conceded": 1.27
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-1-4-1",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": -2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 2
+    }
+   }
+  },
+  {
+   "id": "apifb211687",
+   "league": "Parva Liga",
+   "home": "Cherno More Varna",
+   "away": "FK Dunav Ruse",
+   "ct": "08-22 02:15",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "apifb:Pinnacle(line=0.0,orr=1.057)",
+    "spread": "apifb:Pinnacle(line=-0.75,orr=1.038)",
+    "totals": "apifb:Pinnacle(line=2.5,orr=1.046)"
+   },
+   "result": {
+    "lambda": {
+     "home": 0.91,
+     "away": 1.46,
+     "sum": 2.36
+    },
+    "wdl": {
+     "home": 23.5,
+     "draw": 26.6,
+     "away": 49.8
+    },
+    "market_fair": {
+     "home": 58.8,
+     "draw": 24.3,
+     "away": 16.9
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 3.7,
+    "bets": [
+     {
+      "name": "让球主(-0.8)",
+      "prob": 0.2354,
+      "odds": 1.81,
+      "ev": -0.5895
+     },
+     {
+      "name": "让球客(+0.8)",
+      "prob": 0.65,
+      "odds": 2.06,
+      "ev": 0.29005362280931224,
+      "prob_raw": 0.7646
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.5792,
+      "odds": 1.74,
+      "ev": -0.037
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.4208,
+      "odds": 2.12,
+      "ev": -0.1474
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.2354,
+      "odds": 1.61,
+      "ev": -0.6414,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2661,
+      "odds": 3.89,
+      "ev": -0.0207,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.4985,
+      "odds": 5.59,
+      "ev": 1.6359,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "让球客(+0.8)",
+     "prob": 0.65,
+     "odds": 2.06,
+     "ev": 0.29005362280931224,
+     "market_fair": 0.4677,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.4985,
+     "wdl_market_fair": 0.1692,
+     "vetoed": true,
+     "veto_reason": "模型与市场分歧>20pp(模型76% vs 市场47%)",
+     "draw_warn": null
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2客胜",
+       "ev": 163.6
+      },
+      "让球": {
+       "dir": "让球客(+0.8)",
+       "ev": 29.0
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": -3.7
+      }
+     },
+     "level": "客向一致(胜负亚盘)"
+    },
+    "star": 0,
+    "ev_tier": "否决",
+    "risk_tags": [
+     "BSD伤停情报[主0客0]",
+     "模型与市场分歧>20pp(模型76% vs 市场47%)->否决",
+     "阵型防守倾向(-2)",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": null,
+    "upset": {
+     "hot": "Cherno More Varna",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "L2大热低赔",
+      "L2大热低赔(去水概率>=55%%)"
+     ]
+    },
+    "notes": [
+     "客队样本偏少, 攻防向联赛均值收缩",
+     "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主4-2-3-1/客4-2-3-1(当场)"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [],
+      "home_covered": false,
+      "away_covered": false,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.232,
+      "away_conf": 0.241,
+      "formation": {
+       "home": "4-2-3-1",
+       "away": "4-2-3-1"
+      },
+      "coach": {
+       "home": "4-2-3-1",
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 1.56,
+       "draw": 3.77,
+       "away_win": 5.27,
+       "over_15_goals": 1.32,
+       "over_25_goals": 2.0,
+       "over_35_goals": 3.49,
+       "under_15_goals": 3.06,
+       "under_25_goals": 1.72,
+       "under_35_goals": 1.25,
+       "btts_yes": 2.02,
+       "btts_no": 1.69
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 365,
+        "name": "Ilian Iliev",
+        "short_name": "I. Iliev",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 52.0,
+        "avg_goals_scored": 1.17,
+        "avg_goals_conceded": 0.92
+       },
+       "away": {
+        "id": 1647,
+        "name": "Emanuel Lukanov",
+        "short_name": "E. Lukanov",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 14.0,
+        "avg_goals_scored": 1.0,
+        "avg_goals_conceded": 1.64
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 365,
+       "name": "Ilian Iliev",
+       "short_name": "I. Iliev",
+       "profile": "balanced",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 52.0,
+       "avg_goals_scored": 1.17,
+       "avg_goals_conceded": 0.92
+      },
+      "away": {
+       "id": 1647,
+       "name": "Emanuel Lukanov",
+       "short_name": "E. Lukanov",
+       "profile": "balanced",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 14.0,
+       "avg_goals_scored": 1.0,
+       "avg_goals_conceded": 1.64
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": -2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    }
+   }
+  },
+  {
+   "id": "211869",
+   "league": "Ekstraklasa",
+   "home": "KS Cracovia",
+   "away": "Wieczysta Kraków",
+   "ct": "08-22 02:30",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "smarkets(line=0.0,orr=1.012)",
+    "spread": "pinnacle(line=-0.25,orr=1.028)",
+    "totals": "matchbook(line=2.5,orr=1.005)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.25,
+     "away": 1.3,
+     "sum": 2.55
+    },
+    "wdl": {
+     "home": 35.4,
+     "draw": 26.7,
+     "away": 37.9
+    },
+    "market_fair": {
+     "home": 42.2,
+     "draw": 28.2,
+     "away": 29.5
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 4.0,
+    "bets": [
+     {
+      "name": "让球主(-0.2)",
+      "prob": 0.3542,
+      "odds": 1.96,
+      "ev": -0.3248
+     },
+     {
+      "name": "让球客(+0.2)",
+      "prob": 0.6458,
+      "odds": 1.93,
+      "ev": 0.212,
+      "star": 2,
+      "ev_tier": "高价值",
+      "stake_factor": 0.5
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.5316,
+      "odds": 2.02,
+      "ev": 0.0682
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.4684,
+      "odds": 1.96,
+      "ev": -0.0867
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.3542,
+      "odds": 2.34,
+      "ev": -0.1806,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2669,
+      "odds": 3.5,
+      "ev": -0.0764,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.3788,
+      "odds": 3.35,
+      "ev": 0.2545,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "让球客(+0.2)",
+     "prob": 0.6458,
+     "odds": 1.93,
+     "ev": 0.212,
+     "star": 2,
+     "ev_tier": "高价值",
+     "stake_factor": 0.5
+    },
+    "direction": {
+     "name": "让球客(+0.2)",
+     "prob": 0.6458,
+     "odds": 1.93,
+     "ev": 0.212,
+     "market_fair": 0.5039,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.3788,
+     "wdl_market_fair": 0.2951,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": {
+      "market_draw_prob": 28.2,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2客胜",
+       "ev": 25.4
+      },
+      "让球": {
+       "dir": "让球客(+0.2)",
+       "ev": 21.2
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": 6.8
+      }
+     },
+     "level": "客向稳胜"
+    },
+    "star": 2,
+    "ev_tier": "高价值",
+    "risk_tags": [
+     "BSD伤停情报[主3客1]",
+     "伤停>2人(主3/客1)",
+     "平局预警(市场去水平局>=26%)",
+     "阵型对攻倾向(+2)"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 28.2,
+     "strong": false
+    },
+    "upset": {
+     "hot": "KS Cracovia",
+     "level": "低风险",
+     "count": 1,
+     "signals": [
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     "数据包伤停: 主队伤停3人(如Filip Marchwiński,Karol Knap,Wiktor )",
+     "主队样本偏少, 攻防向联赛均值收缩",
+     "客队样本偏少, 攻防向联赛均值收缩",
+     "阵型:主4-3-3/客4-3-3(当场)",
+     "主队伤停3人位置未知(非BSD源), 位置加权未覆盖",
+     "客队伤停1人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       {
+        "id": 8432,
+        "name": "Filip Marchwiński",
+        "short_name": "F. Marchwiński",
+        "status": "injured",
+        "reason": "Cruciate Ligament Injury"
+       },
+       {
+        "id": 13847,
+        "name": "Karol Knap",
+        "short_name": "K. Knap",
+        "status": "injured",
+        "reason": "Muscle Injury"
+       },
+       {
+        "id": 9621,
+        "name": "Wiktor Bogacz",
+        "short_name": "W. Bogacz",
+        "status": "injured",
+        "reason": "Thigh Injury"
+       }
+      ],
+      "away": [
+       {
+        "id": 41146,
+        "name": "Stefan Feiertag",
+        "short_name": "S. Feiertag",
+        "status": "injured",
+        "reason": "Knee Injury"
+       }
+      ],
+      "home_covered": true,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.555,
+      "away_conf": 0.364,
+      "formation": {
+       "home": "4-3-3",
+       "away": "4-3-3"
+      },
+      "coach": {
+       "home": "3-4-3",
+       "away": "4-3-3"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 2.01,
+       "draw": 3.47,
+       "away_win": 3.39,
+       "over_15_goals": 1.22,
+       "over_25_goals": 1.74,
+       "over_35_goals": 2.82,
+       "under_15_goals": 3.79,
+       "under_25_goals": 1.99,
+       "under_35_goals": 1.37,
+       "btts_yes": 1.64,
+       "btts_no": 2.14
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 1358,
+        "name": "Bartosz Grzelak",
+        "short_name": "B. Grzelak",
+        "profile": "balanced",
+        "preferred_formation": "3-4-3",
+        "matches_total": 46.0,
+        "avg_goals_scored": 1.2,
+        "avg_goals_conceded": 1.2
+       },
+       "away": {
+        "id": 1179,
+        "name": "Kazimierz Moskal",
+        "short_name": "K. Moskal",
+        "profile": "attacking",
+        "preferred_formation": "4-3-3",
+        "matches_total": 15.0,
+        "avg_goals_scored": 1.73,
+        "avg_goals_conceded": 1.33
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 1358,
+       "name": "Bartosz Grzelak",
+       "short_name": "B. Grzelak",
+       "profile": "balanced",
+       "preferred_formation": "3-4-3",
+       "matches_total": 46.0,
+       "avg_goals_scored": 1.2,
+       "avg_goals_conceded": 1.2
+      },
+      "away": {
+       "id": 1179,
+       "name": "Kazimierz Moskal",
+       "short_name": "K. Moskal",
+       "profile": "attacking",
+       "preferred_formation": "4-3-3",
+       "matches_total": 15.0,
+       "avg_goals_scored": 1.73,
+       "avg_goals_conceded": 1.33
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-3-3",
+     "src": "cur",
+     "tend": 2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 4
+    }
+   }
+  },
+  {
+   "id": "apifb215962",
+   "league": "Trendyol Super Lig",
+   "home": "Erzurumspor FK",
+   "away": "Galatasaray",
+   "ct": "08-22 02:30",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "apifb:Betano(line=0.0,orr=1.026)",
+    "spread": "apifb:SBO(line=1.25,orr=1.042)",
+    "totals": "apifb:1xBet(line=2.5,orr=1.031)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.21,
+     "away": 1.64,
+     "sum": 2.85
+    },
+    "wdl": {
+     "home": 28.3,
+     "draw": 24.4,
+     "away": 47.3
+    },
+    "market_fair": {
+     "home": 15.0,
+     "draw": 22.9,
+     "away": 62.1
+    },
+    "data_src": {
+     "home": "bsd",
+     "away": "cur"
+    },
+    "snap_age_h": 4.0,
+    "bets": [
+     {
+      "name": "让球主(+1.2)",
+      "prob": 0.65,
+      "odds": 1.92,
+      "ev": 0.1980409084871828,
+      "prob_raw": 0.7529
+     },
+     {
+      "name": "让球客(-1.2)",
+      "prob": 0.2471,
+      "odds": 1.92,
+      "ev": -0.5445
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.4581,
+      "odds": 2.26,
+      "ev": 0.0044
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.5419,
+      "odds": 1.7,
+      "ev": -0.1062
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.2832,
+      "odds": 6.5,
+      "ev": 0.7939,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2441,
+      "odds": 4.25,
+      "ev": 0.011,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.4727,
+      "odds": 1.57,
+      "ev": -0.2767,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "让球主(+1.2)",
+     "prob": 0.65,
+     "odds": 1.92,
+     "ev": 0.1980409084871828,
+     "market_fair": 0.5,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.4727,
+     "wdl_market_fair": 0.6208,
+     "vetoed": true,
+     "veto_reason": "模型与市场分歧>20pp(模型75% vs 市场50%)",
+     "draw_warn": null
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 79.4
+      },
+      "让球": {
+       "dir": "让球主(+1.2)",
+       "ev": 19.8
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": 0.4
+      }
+     },
+     "level": "主向稳胜"
+    },
+    "star": 0,
+    "ev_tier": "否决",
+    "risk_tags": [
+     "BSD伤停情报[主0客1]",
+     "模型与市场分歧>20pp(模型75% vs 市场50%)->否决",
+     "阵型防守倾向(-2)",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": null,
+    "upset": {
+     "hot": "Galatasaray",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "L2大热低赔",
+      "L2大热低赔(去水概率>=55%%)"
+     ]
+    },
+    "notes": [
+     "主队样本偏少, 攻防向联赛均值收缩",
+     "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主4-2-3-1/客4-2-3-1(当场)",
+     "客队伤停1人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [
+       {
+        "id": 4214,
+        "name": "Wilfried Singo",
+        "short_name": "W. Singo",
+        "status": "injured",
+        "reason": "Thigh Injury"
+       }
+      ],
+      "home_covered": false,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.095,
+      "away_conf": 0.632,
+      "formation": {
+       "home": "4-2-3-1",
+       "away": "4-2-3-1"
+      },
+      "coach": {
+       "home": null,
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 7.5,
+       "draw": 4.4,
+       "away_win": 1.4,
+       "over_15_goals": 1.22,
+       "over_25_goals": 1.72,
+       "over_35_goals": 2.74,
+       "under_15_goals": 3.93,
+       "under_25_goals": 2.05,
+       "under_35_goals": 1.4,
+       "btts_yes": 1.92,
+       "btts_no": 1.79
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": null,
+       "away": {
+        "id": 304,
+        "name": "Okan Buruk",
+        "short_name": "O. Buruk",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 51.0,
+        "avg_goals_scored": 2.02,
+        "avg_goals_conceded": 1.2
+       }
+      }
+     },
+     "coaches": {
+      "home": null,
+      "away": {
+       "id": 304,
+       "name": "Okan Buruk",
+       "short_name": "O. Buruk",
+       "profile": "attacking",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 51.0,
+       "avg_goals_scored": 2.02,
+       "avg_goals_conceded": 1.2
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": -2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 1
+    }
+   }
+  },
+  {
+   "id": "210441",
+   "league": "Ligue 1",
+   "home": "Olympique de Marseille",
+   "away": "RC Strasbourg",
+   "ct": "08-22 02:45",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "betfair_ex_eu(line=0.0,orr=1.003)",
+    "spread": "pinnacle(line=-0.75,orr=1.021)",
+    "totals": "nordicbet(line=2.5,orr=1.048)"
+   },
+   "result": {
+    "lambda": {
+     "home": 2.39,
+     "away": 1.16,
+     "sum": 3.55
+    },
+    "wdl": {
+     "home": 64.7,
+     "draw": 18.4,
+     "away": 16.9
+    },
+    "market_fair": {
+     "home": 56.0,
+     "draw": 23.2,
+     "away": 20.8
+    },
+    "data_src": {
+     "home": "bsd",
+     "away": "bsd"
+    },
+    "snap_age_h": 4.2,
+    "bets": [
+     {
+      "name": "让球主(-0.8)",
+      "prob": 0.6473,
+      "odds": 1.94,
+      "ev": 0.2305,
+      "star": 3,
+      "ev_tier": "高价值",
+      "stake_factor": 1.0
+     },
+     {
+      "name": "让球客(+0.8)",
+      "prob": 0.3527,
+      "odds": 1.98,
+      "ev": -0.3157
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.3123,
+      "odds": 2.48,
+      "ev": -0.2612
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.65,
+      "odds": 1.55,
+      "ev": -0.039035916824196604,
+      "prob_raw": 0.6877
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.6473,
+      "odds": 1.78,
+      "ev": 0.1491,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.1836,
+      "odds": 4.3,
+      "ev": -0.2126,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.1691,
+      "odds": 4.8,
+      "ev": -0.1905,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "让球主(-0.8)",
+     "prob": 0.6473,
+     "odds": 1.94,
+     "ev": 0.2305,
+     "star": 3,
+     "ev_tier": "高价值",
+     "stake_factor": 1.0
+    },
+    "direction": {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.55,
+     "ev": -0.039035916824196604,
+     "market_fair": 0.6154,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.6473,
+     "wdl_market_fair": 0.5603,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": null
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 14.9
+      },
+      "让球": {
+       "dir": "让球主(-0.8)",
+       "ev": 23.1
+      },
+      "大小球": {
+       "dir": "大2.50",
+       "ev": -3.9
+      }
+     },
+     "level": "主向一致(胜负亚盘)"
+    },
+    "star": 3,
+    "ev_tier": "高价值",
+    "risk_tags": [
+     "BSD伤停情报[主1客1]",
+     "阵型防守倾向(-2)"
+    ],
+    "draw_warn": null,
+    "upset": {
+     "hot": "Olympique de Marseille",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "L2大热低赔",
+      "L2大热低赔(去水概率>=55%%)"
+     ]
+    },
+    "notes": [
+     "客队样本偏少, 攻防向联赛均值收缩",
+     "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主4-2-3-1/客4-2-3-1(当场)",
+     "主队伤停1人位置未知(非BSD源), 位置加权未覆盖",
+     "客队伤停1人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       {
+        "id": 3373,
+        "name": "Quinten Timber",
+        "short_name": "Q. Timber",
+        "status": "suspended",
+        "reason": "yellow_card_accumulation_suspension"
+       }
+      ],
+      "away": [
+       {
+        "id": 1711,
+        "name": "Joaquin Panichelli",
+        "short_name": "J. Panichelli",
+        "status": "injured",
+        "reason": "Cruciate Ligament Injury"
+       }
+      ],
+      "home_covered": true,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.377,
+      "away_conf": 0.491,
+      "formation": {
+       "home": "4-2-3-1",
+       "away": "4-2-3-1"
+      },
+      "coach": {
+       "home": "4-2-3-1",
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 1.71,
+       "draw": 4.06,
+       "away_win": 4.35,
+       "over_15_goals": 1.15,
+       "over_25_goals": 1.51,
+       "over_35_goals": 2.29,
+       "under_15_goals": 5.01,
+       "under_25_goals": 2.45,
+       "under_35_goals": 1.59,
+       "btts_yes": 1.53,
+       "btts_no": 2.38
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 321,
+        "name": "Bruno Genesio",
+        "short_name": "B. Genesio",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 52.0,
+        "avg_goals_scored": 1.5,
+        "avg_goals_conceded": 1.1
+       },
+       "away": {
+        "id": 7,
+        "name": "Hugo Oliveira",
+        "short_name": "H. F. C. Oliveira",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 38.0,
+        "avg_goals_scored": 1.16,
+        "avg_goals_conceded": 1.18
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 321,
+       "name": "Bruno Genesio",
+       "short_name": "B. Genesio",
+       "profile": "balanced",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 52.0,
+       "avg_goals_scored": 1.5,
+       "avg_goals_conceded": 1.1
+      },
+      "away": {
+       "id": 7,
+       "name": "Hugo Oliveira",
+       "short_name": "H. F. C. Oliveira",
+       "profile": "balanced",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 38.0,
+       "avg_goals_scored": 1.16,
+       "avg_goals_conceded": 1.18
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": -2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 2
+    }
+   }
+  },
+  {
+   "id": "211321",
+   "league": "Pro League",
+   "home": "Standard Liège",
+   "away": "RAAL La Louvière",
+   "ct": "08-22 02:45",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "smarkets(line=0.0,orr=1.004)",
+    "spread": "matchbook(line=-0.5,orr=1.016)",
+    "totals": "matchbook(line=2.5,orr=1.006)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.11,
+     "away": 1.1,
+     "sum": 2.21
+    },
+    "wdl": {
+     "home": 35.9,
+     "draw": 29.0,
+     "away": 35.1
+    },
+    "market_fair": {
+     "home": 48.8,
+     "draw": 28.0,
+     "away": 23.2
+    },
+    "data_src": {
+     "home": "bsd",
+     "away": "cur"
+    },
+    "snap_age_h": 4.2,
+    "bets": [
+     {
+      "name": "让球主(-0.5)",
+      "prob": 0.3591,
+      "odds": 2.02,
+      "ev": -0.286
+     },
+     {
+      "name": "让球客(+0.5)",
+      "prob": 0.6409,
+      "odds": 1.92,
+      "ev": 0.2113,
+      "star": 2,
+      "ev_tier": "高价值",
+      "stake_factor": 0.5
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.6192,
+      "odds": 1.87,
+      "ev": 0.1505
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.3808,
+      "odds": 2.12,
+      "ev": -0.198
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.3591,
+      "odds": 2.04,
+      "ev": -0.2707,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2903,
+      "odds": 3.55,
+      "ev": 0.0259,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.3506,
+      "odds": 4.3,
+      "ev": 0.5011,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "让球客(+0.5)",
+     "prob": 0.6409,
+     "odds": 1.92,
+     "ev": 0.2113,
+     "star": 2,
+     "ev_tier": "高价值",
+     "stake_factor": 0.5
+    },
+    "direction": {
+     "name": "让球客(+0.5)",
+     "prob": 0.6409,
+     "odds": 1.92,
+     "ev": 0.2113,
+     "market_fair": 0.5127,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.3591,
+     "wdl_market_fair": 0.488,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": {
+      "market_draw_prob": 28.0,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2客胜",
+       "ev": 50.1
+      },
+      "让球": {
+       "dir": "让球客(+0.5)",
+       "ev": 21.1
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": 15.0
+      }
+     },
+     "level": "客向稳胜"
+    },
+    "star": 2,
+    "ev_tier": "高价值",
+    "risk_tags": [
+     "BSD伤停情报[主2客0]",
+     "平局预警(市场去水平局>=26%)",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 28.0,
+     "strong": false
+    },
+    "upset": {
+     "hot": "Standard Liège",
+     "level": "低风险",
+     "count": 1,
+     "signals": [
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     "阵型:主5-4-1/客3-4-1-2(当场)",
+     "主队伤停2人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       {
+        "id": 7711,
+        "name": "Josué Homawoo",
+        "short_name": "J. Homawoo",
+        "status": "injured",
+        "reason": "Achilles Tendon Injury"
+       },
+       {
+        "id": 7626,
+        "name": "Marco Ilaimaharitra",
+        "short_name": "M. Ilaimaharitra",
+        "status": "injured",
+        "reason": "Hamstring Injury"
+       }
+      ],
+      "away": [],
+      "home_covered": true,
+      "away_covered": false,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.414,
+      "away_conf": 0.295,
+      "formation": {
+       "home": "5-4-1",
+       "away": "3-4-1-2"
+      },
+      "coach": {
+       "home": "4-2-3-1",
+       "away": "4-4-2"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 1.84,
+       "draw": 3.51,
+       "away_win": 4.06,
+       "over_15_goals": 1.32,
+       "over_25_goals": 2.01,
+       "over_35_goals": 3.49,
+       "under_15_goals": 3.13,
+       "under_25_goals": 1.74,
+       "under_35_goals": 1.26,
+       "btts_yes": 1.87,
+       "btts_no": 1.83
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 280,
+        "name": "Vincent Euvrard",
+        "short_name": "V. Euvrard",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 49.0,
+        "avg_goals_scored": 1.29,
+        "avg_goals_conceded": 1.16
+       },
+       "away": {
+        "id": 180,
+        "name": "Edward Still",
+        "short_name": "E. Still",
+        "profile": "balanced",
+        "preferred_formation": "4-4-2",
+        "matches_total": 56.0,
+        "avg_goals_scored": 1.12,
+        "avg_goals_conceded": 1.5
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 280,
+       "name": "Vincent Euvrard",
+       "short_name": "V. Euvrard",
+       "profile": "balanced",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 49.0,
+       "avg_goals_scored": 1.29,
+       "avg_goals_conceded": 1.16
+      },
+      "away": {
+       "id": 180,
+       "name": "Edward Still",
+       "short_name": "E. Still",
+       "profile": "balanced",
+       "preferred_formation": "4-4-2",
+       "matches_total": 56.0,
+       "avg_goals_scored": 1.12,
+       "avg_goals_conceded": 1.5
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "5-4-1",
+     "away": "3-4-1-2",
+     "src": "cur",
+     "tend": 0,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 2
+    }
+   }
+  },
+  {
+   "id": "212144",
+   "league": "DFB Pokal",
+   "home": "FC Hansa Rostock",
+   "away": "VfB Stuttgart",
+   "ct": "08-22 02:45",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "betmgm(line=0.0,orr=1.045)",
+    "totals": "leovegas(line=3.5,orr=1.073)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.57,
+     "away": 3.53,
+     "sum": 5.09
+    },
+    "wdl": {
+     "home": 13.2,
+     "draw": 12.9,
+     "away": 73.9
+    },
+    "market_fair": {
+     "home": 8.7,
+     "draw": 14.7,
+     "away": 76.6
+    },
+    "data_src": {
+     "home": "bsd",
+     "away": "bsd"
+    },
+    "snap_age_h": 4.2,
+    "bets": [
+     {
+      "name": "小3.50",
+      "prob": 0.255,
+      "odds": 1.73,
+      "ev": -0.589
+     },
+     {
+      "name": "大3.50",
+      "prob": 0.65,
+      "odds": 2.02,
+      "ev": 0.22365771812080548,
+      "prob_raw": 0.745
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.1316,
+      "odds": 11.0,
+      "ev": 0.3851,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.1294,
+      "odds": 6.5,
+      "ev": -0.1948,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.65,
+      "odds": 1.25,
+      "ev": -0.22228687415426251,
+      "is_1x2": true,
+      "prob_raw": 0.739
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "大3.50",
+     "prob": 0.65,
+     "odds": 2.02,
+     "ev": 0.22365771812080548,
+     "market_fair": 0.4613,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.739,
+     "wdl_market_fair": 0.7657,
+     "vetoed": true,
+     "veto_reason": "模型与市场分歧>20pp(模型74% vs 市场46%)",
+     "draw_warn": null
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 38.5
+      },
+      "让球": {
+       "dir": null,
+       "ev": null
+      },
+      "大小球": {
+       "dir": "大3.50",
+       "ev": 22.4
+      }
+     },
+     "level": "无正EV"
+    },
+    "star": 0,
+    "ev_tier": "否决",
+    "risk_tags": [
+     "BSD伤停情报[主0客4]",
+     "伤停>2人(主0/客4)",
+     "缺亚盘",
+     "λ过高(5.09)",
+     "模型与市场分歧>20pp(模型74% vs 市场46%)->否决",
+     "阵型对攻倾向(+3)",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": null,
+    "upset": {
+     "hot": "VfB Stuttgart",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "L2大热低赔",
+      "L2大热低赔(去水概率>=55%%)"
+     ]
+    },
+    "notes": [
+     "数据包伤停: 客队伤停4人(如Dan Zagadou,Justin Diehl,Leo Sauer,L)",
+     "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主4-3-1-2/客3-4-1-2(当场)",
+     "客队伤停4人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [
+       {
+        "id": 3918,
+        "name": "Dan Zagadou",
+        "short_name": "D. Zagadou",
+        "status": "injured",
+        "reason": "Hamstring Injury"
+       },
+       {
+        "id": 24025,
+        "name": "Justin Diehl",
+        "short_name": "J. Diehl",
+        "status": "injured",
+        "reason": "Thigh Injury"
+       },
+       {
+        "id": 3370,
+        "name": "Leo Sauer",
+        "short_name": "L. Sauer",
+        "status": "injured",
+        "reason": "Hamstring Injury"
+       },
+       {
+        "id": 1628,
+        "name": "Lorenz Assignon",
+        "short_name": "L. Assignon",
+        "status": "injured",
+        "reason": "Shoulder Injury"
+       }
+      ],
+      "home_covered": false,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.186,
+      "away_conf": 0.509,
+      "formation": {
+       "home": "4-3-1-2",
+       "away": "3-4-1-2"
+      },
+      "coach": {
+       "home": "4-3-1-2",
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 11.31,
+       "draw": 6.23,
+       "away_win": 1.21,
+       "over_15_goals": 1.11,
+       "over_25_goals": 1.41,
+       "over_35_goals": 2.05,
+       "under_15_goals": 5.63,
+       "under_25_goals": 2.71,
+       "under_35_goals": 1.7,
+       "btts_yes": 1.92,
+       "btts_no": 1.8
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 1212,
+        "name": "Daniel Brinkmann",
+        "short_name": "D. Brinkmann",
+        "profile": "attacking",
+        "preferred_formation": "4-3-1-2",
+        "matches_total": 10.0,
+        "avg_goals_scored": 2.9,
+        "avg_goals_conceded": 1.5
+       },
+       "away": {
+        "id": 283,
+        "name": "Sebastian Hoeneß",
+        "short_name": "S. Hoeneß",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 58.0,
+        "avg_goals_scored": 2.28,
+        "avg_goals_conceded": 1.34
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 1212,
+       "name": "Daniel Brinkmann",
+       "short_name": "D. Brinkmann",
+       "profile": "attacking",
+       "preferred_formation": "4-3-1-2",
+       "matches_total": 10.0,
+       "avg_goals_scored": 2.9,
+       "avg_goals_conceded": 1.5
+      },
+      "away": {
+       "id": 283,
+       "name": "Sebastian Hoeneß",
+       "short_name": "S. Hoeneß",
+       "profile": "attacking",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 58.0,
+       "avg_goals_scored": 2.28,
+       "avg_goals_conceded": 1.34
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-3-1-2",
+     "away": "3-4-1-2",
+     "src": "cur",
+     "tend": 3,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 4
+    }
+   }
+  },
+  {
+   "id": "209535",
+   "league": "Premier League",
+   "home": "Arsenal",
+   "away": "Coventry City",
+   "ct": "08-22 03:00",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "matchbook(line=0.0,orr=1.002)",
+    "spread": "matchbook(line=-2.0,orr=1.008)",
+    "totals": "bovada(line=2.5,orr=1.045)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.59,
+     "away": 0.93,
+     "sum": 2.52
+    },
+    "wdl": {
+     "home": 52.7,
+     "draw": 25.2,
+     "away": 22.1
+    },
+    "market_fair": {
+     "home": 81.2,
+     "draw": 13.1,
+     "away": 5.7
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 4.5,
+    "bets": [
+     {
+      "name": "让球主(-2.0)",
+      "prob": 0.1975,
+      "odds": 2.1,
+      "ev": -0.5885
+     },
+     {
+      "name": "让球客(+2.0)",
+      "prob": 0.65,
+      "odds": 1.88,
+      "ev": 0.21211838006230543,
+      "prob_raw": 0.8025
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.5394,
+      "odds": 2.38,
+      "ev": 0.2283
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.4606,
+      "odds": 1.6,
+      "ev": -0.2949
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.5273,
+      "odds": 1.23,
+      "ev": -0.3525,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2517,
+      "odds": 7.6,
+      "ev": 0.9094,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.221,
+      "odds": 17.5,
+      "ev": 2.8605,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "让球客(+2.0)",
+     "prob": 0.65,
+     "odds": 1.88,
+     "ev": 0.21211838006230543,
+     "market_fair": 0.5276,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.5273,
+     "wdl_market_fair": 0.8116,
+     "vetoed": true,
+     "veto_reason": "模型与市场分歧>20pp(模型80% vs 市场53%)",
+     "draw_warn": null
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2客胜",
+       "ev": 286.1
+      },
+      "让球": {
+       "dir": "让球客(+2.0)",
+       "ev": 21.2
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": 22.8
+      }
+     },
+     "level": "客向稳胜"
+    },
+    "star": 0,
+    "ev_tier": "否决",
+    "risk_tags": [
+     "BSD伤停情报[主4客1]",
+     "伤停>2人(主4/客1)",
+     "模型与市场分歧>20pp(模型80% vs 市场53%)->否决",
+     "阵型防守倾向(-2)"
+    ],
+    "draw_warn": null,
+    "upset": {
+     "hot": "Arsenal",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "L2大热低赔",
+      "L2大热低赔(去水概率>=55%%)"
+     ]
+    },
+    "notes": [
+     "数据包伤停: 主队伤停4人(如Christian Nørgaard,Jurriën Timber,Lo)",
+     "客队数据来自E2",
+     "客队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主4-2-3-1/客4-2-3-1(当场)",
+     "主队伤停4人位置未知(非BSD源), 位置加权未覆盖",
+     "客队伤停1人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       {
+        "id": 459,
+        "name": "Christian Nørgaard",
+        "short_name": "C. Nørgaard",
+        "status": "injured",
+        "reason": "Muscle Injury"
+       },
+       {
+        "id": 453,
+        "name": "Jurriën Timber",
+        "short_name": "J. Timber",
+        "status": "injured",
+        "reason": "Ankle Injury"
+       },
+       {
+        "id": 5186,
+        "name": "Louie Copley",
+        "short_name": "L. Copley",
+        "status": "injured",
+        "reason": "Cruciate Ligament Injury"
+       },
+       {
+        "id": 3460,
+        "name": "William Saliba",
+        "short_name": "W. Saliba",
+        "status": "injured",
+        "reason": "Back Injury"
+       }
+      ],
+      "away": [
+       {
+        "id": 6430,
+        "name": "Haji Wright",
+        "short_name": "H. Wright",
+        "status": "injured",
+        "reason": "Muscle Injury"
+       }
+      ],
+      "home_covered": true,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.614,
+      "away_conf": 0.668,
+      "formation": {
+       "home": "4-2-3-1",
+       "away": "4-2-3-1"
+      },
+      "coach": {
+       "home": "4-3-3",
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 1.18,
+       "draw": 7.19,
+       "away_win": 15.71,
+       "over_15_goals": 1.16,
+       "over_25_goals": 1.56,
+       "over_35_goals": 2.41,
+       "under_15_goals": 4.78,
+       "under_25_goals": 2.36,
+       "under_35_goals": 1.54,
+       "btts_yes": 2.43,
+       "btts_no": 1.51
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 488,
+        "name": "Mikel Arteta",
+        "short_name": "M. Arteta",
+        "profile": "attacking",
+        "preferred_formation": "4-3-3",
+        "matches_total": 65.0,
+        "avg_goals_scored": 1.94,
+        "avg_goals_conceded": 0.72
+       },
+       "away": {
+        "id": 203,
+        "name": "Frank Lampard",
+        "short_name": "F. Lampard",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 51.0,
+        "avg_goals_scored": 2.0,
+        "avg_goals_conceded": 0.96
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 488,
+       "name": "Mikel Arteta",
+       "short_name": "M. Arteta",
+       "profile": "attacking",
+       "preferred_formation": "4-3-3",
+       "matches_total": 65.0,
+       "avg_goals_scored": 1.94,
+       "avg_goals_conceded": 0.72
+      },
+      "away": {
+       "id": 203,
+       "name": "Frank Lampard",
+       "short_name": "F. Lampard",
+       "profile": "attacking",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 51.0,
+       "avg_goals_scored": 2.0,
+       "avg_goals_conceded": 0.96
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": -2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 5
+    }
+   }
+  },
+  {
+   "id": "213538",
+   "league": "西甲",
+   "home": "Real Betis",
+   "away": "Real Sociedad",
+   "ct": "08-22 03:00",
+   "snap": "2026-08-21T14:34:28Z",
+   "books": {
+    "h2h": "smarkets(line=0.0,orr=1.007)",
+    "spread": "matchbook(line=-0.5,orr=1.005)",
+    "totals": "matchbook(line=2.5,orr=1.007)"
+   },
+   "result": {
+    "lambda": {
+     "home": 2.27,
+     "away": 1.11,
+     "sum": 3.38
+    },
+    "wdl": {
+     "home": 57.5,
+     "draw": 22.1,
+     "away": 20.4
+    },
+    "market_fair": {
+     "home": 47.3,
+     "draw": 27.6,
+     "away": 25.1
+    },
+    "data_src": {
+     "home": "bsd",
+     "away": "bsd"
+    },
+    "snap_age_h": 4.4,
+    "bets": [
+     {
+      "name": "让球主(-0.5)",
+      "prob": 0.6346,
+      "odds": 2.1,
+      "ev": 0.3257
+     },
+     {
+      "name": "让球客(+0.5)",
+      "prob": 0.3654,
+      "odds": 1.89,
+      "ev": -0.3131
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.3439,
+      "odds": 2.08,
+      "ev": -0.2897
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.65,
+      "odds": 1.9,
+      "ev": 0.2262917238225881,
+      "prob_raw": 0.6561,
+      "star": 2,
+      "ev_tier": "高价值",
+      "stake_factor": 0.5
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.5752,
+      "odds": 2.1,
+      "ev": 0.1995,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2208,
+      "odds": 3.6,
+      "ev": -0.2109,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.204,
+      "odds": 3.95,
+      "ev": -0.1999,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.9,
+     "ev": 0.2262917238225881,
+     "prob_raw": 0.6561,
+     "star": 2,
+     "ev_tier": "高价值",
+     "stake_factor": 0.5
+    },
+    "direction": {
+     "name": "大2.50",
+     "prob": 0.65,
+     "odds": 1.9,
+     "ev": 0.2262917238225881,
+     "market_fair": 0.5226,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.5752,
+     "wdl_market_fair": 0.4728,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": {
+      "market_draw_prob": 27.6,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 20.0
+      },
+      "让球": {
+       "dir": "让球主(-0.5)",
+       "ev": 32.6
+      },
+      "大小球": {
+       "dir": "大2.50",
+       "ev": 22.6
+      }
+     },
+     "level": "三向一致"
+    },
+    "star": 2,
+    "ev_tier": "高价值",
+    "risk_tags": [
+     "BSD伤停情报[主3客1]",
+     "伤停>2人(主3/客1)",
+     "平局预警(市场去水平局>=26%)",
+     "阵型防守倾向(-2)"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 27.6,
+     "strong": false
+    },
+    "upset": {
+     "hot": "Real Betis",
+     "level": "低风险",
+     "count": 1,
+     "signals": [
+      "F2疲劳修正(系数0.90)"
+     ]
+    },
+    "notes": [
+     "数据包伤停: 主队伤停3人(如Abdessamad Ezzalzouli,Aitor Ruibal,D)",
+     "主队样本偏少, 攻防向联赛均值收缩",
+     "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主4-2-3-1/客4-2-3-1(当场)",
+     "主队伤停3人位置未知(非BSD源), 位置加权未覆盖",
+     "客队伤停1人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       {
+        "id": 1577,
+        "name": "Abdessamad Ezzalzouli",
+        "short_name": "A. Ezzalzouli",
+        "status": "injured",
+        "reason": "Knee Injury"
+       },
+       {
+        "id": 1569,
+        "name": "Aitor Ruibal",
+        "short_name": "A. Ruibal",
+        "status": "injured",
+        "reason": "Meniscus Injury"
+       },
+       {
+        "id": 3884,
+        "name": "Diego Conde",
+        "short_name": "D. Conde",
+        "status": "injured",
+        "reason": "Shoulder Injury"
+       }
+      ],
+      "away": [
+       {
+        "id": 1759,
+        "name": "Álvaro Odriozola",
+        "short_name": "Á. Odriozola",
+        "status": "injured",
+        "reason": "ACL Knee Injury"
+       }
+      ],
+      "home_covered": true,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.409,
+      "away_conf": 0.45,
+      "formation": {
+       "home": "4-2-3-1",
+       "away": "4-2-3-1"
+      },
+      "coach": {
+       "home": "4-2-3-1",
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 2.07,
+       "draw": 3.41,
+       "away_win": 3.57,
+       "over_15_goals": 1.31,
+       "over_25_goals": 2.0,
+       "over_35_goals": 3.47,
+       "under_15_goals": 3.29,
+       "under_25_goals": 1.79,
+       "under_35_goals": 1.29,
+       "btts_yes": 1.8,
+       "btts_no": 1.95
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 287,
+        "name": "Manuel Pellegrini",
+        "short_name": "M. Pellegrini",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 62.0,
+        "avg_goals_scored": 1.74,
+        "avg_goals_conceded": 1.18
+       },
+       "away": {
+        "id": 229,
+        "name": "Pellegrino Matarazzo",
+        "short_name": "P. Matarazzo",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 52.0,
+        "avg_goals_scored": 1.62,
+        "avg_goals_conceded": 1.48
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 287,
+       "name": "Manuel Pellegrini",
+       "short_name": "M. Pellegrini",
+       "profile": "attacking",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 62.0,
+       "avg_goals_scored": 1.74,
+       "avg_goals_conceded": 1.18
+      },
+      "away": {
+       "id": 229,
+       "name": "Pellegrino Matarazzo",
+       "short_name": "P. Matarazzo",
+       "profile": "balanced",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 52.0,
+       "avg_goals_scored": 1.62,
+       "avg_goals_conceded": 1.48
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": -2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 4
+    }
+   }
+  },
+  {
+   "id": "214783",
+   "league": "Segunda División",
+   "home": "Córdoba",
+   "away": "Girona FC",
+   "ct": "08-22 03:00",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "smarkets(line=0.0,orr=1.000)",
+    "spread": "matchbook(line=0.0,orr=1.008)",
+    "totals": "matchbook(line=2.5,orr=1.008)"
+   },
+   "result": {
+    "lambda": {
+     "home": 1.65,
+     "away": 1.13,
+     "sum": 2.78
+    },
+    "wdl": {
+     "home": 49.5,
+     "draw": 24.4,
+     "away": 26.1
+    },
+    "market_fair": {
+     "home": 35.5,
+     "draw": 27.8,
+     "away": 36.8
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 4.5,
+    "bets": [
+     {
+      "name": "让球主(+0.0)",
+      "prob": 0.6166,
+      "odds": 2.02,
+      "ev": 0.2357,
+      "star": 2,
+      "ev_tier": "高价值",
+      "stake_factor": 0.5
+     },
+     {
+      "name": "让球客(-0.0)",
+      "prob": 0.3834,
+      "odds": 1.95,
+      "ev": -0.2581
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.4734,
+      "odds": 2.18,
+      "ev": 0.0236
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.5266,
+      "odds": 1.82,
+      "ev": -0.0493
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.4945,
+      "odds": 2.82,
+      "ev": 0.3945,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2441,
+      "odds": 3.6,
+      "ev": -0.1213,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.2614,
+      "odds": 2.72,
+      "ev": -0.289,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": {
+     "name": "让球主(+0.0)",
+     "prob": 0.6166,
+     "odds": 2.02,
+     "ev": 0.2357,
+     "star": 2,
+     "ev_tier": "高价值",
+     "stake_factor": 0.5
+    },
+    "direction": {
+     "name": "让球主(+0.0)",
+     "prob": 0.6166,
+     "odds": 2.02,
+     "ev": 0.2357,
+     "market_fair": 0.4912,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.4945,
+     "wdl_market_fair": 0.3546,
+     "vetoed": false,
+     "veto_reason": null,
+     "draw_warn": {
+      "market_draw_prob": 27.8,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 39.5
+      },
+      "让球": {
+       "dir": "让球主(+0.0)",
+       "ev": 23.6
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": 2.4
+      }
+     },
+     "level": "主向稳胜"
+    },
+    "star": 2,
+    "ev_tier": "高价值",
+    "risk_tags": [
+     "BSD伤停情报[主1客2]",
+     "平局预警(市场去水平局>=26%)"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 27.8,
+     "strong": false
+    },
+    "upset": {
+     "hot": "Girona FC",
+     "level": "低风险",
+     "count": 1,
+     "signals": [
+      "L5主客接近无明显热门(慎标冷门)"
+     ]
+    },
+    "notes": [
+     "客队数据来自SP1",
+     "客队跨联赛用SP1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "阵型:主4-3-3/客4-2-3-1(当场)",
+     "主队伤停1人位置未知(非BSD源), 位置加权未覆盖",
+     "客队伤停2人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       {
+        "id": 32484,
+        "name": "Jacobo Martí",
+        "short_name": "J. Martí",
+        "status": "injured",
+        "reason": "Anterior Cruciate Ligament"
+       }
+      ],
+      "away": [
+       {
+        "id": 4113,
+        "name": "Portu",
+        "short_name": "Portu",
+        "status": "injured",
+        "reason": "Cruciate Ligament Injury"
+       },
+       {
+        "id": 1043,
+        "name": "Viktor Tsygankov",
+        "short_name": "V. Tsygankov",
+        "status": "injured",
+        "reason": "club_decision"
+       }
+      ],
+      "home_covered": true,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.4,
+      "away_conf": 0.473,
+      "formation": {
+       "home": "4-3-3",
+       "away": "4-2-3-1"
+      },
+      "coach": {
+       "home": "4-3-3",
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 3.04,
+       "draw": 3.38,
+       "away_win": 2.2,
+       "over_15_goals": 1.25,
+       "over_25_goals": 1.82,
+       "over_35_goals": 3.0,
+       "under_15_goals": 3.62,
+       "under_25_goals": 1.92,
+       "under_35_goals": 1.34,
+       "btts_yes": 1.66,
+       "btts_no": 2.1
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 814,
+        "name": "Iván Ania",
+        "short_name": "I. Ania",
+        "profile": "balanced",
+        "preferred_formation": "4-3-3",
+        "matches_total": 91.0,
+        "avg_goals_scored": 1.34,
+        "avg_goals_conceded": 1.46
+       },
+       "away": {
+        "id": 3167,
+        "name": "Quique Álvarez",
+        "short_name": "Q. Álvarez",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 8.0,
+        "avg_goals_scored": 1.75,
+        "avg_goals_conceded": 2.0
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 814,
+       "name": "Iván Ania",
+       "short_name": "I. Ania",
+       "profile": "balanced",
+       "preferred_formation": "4-3-3",
+       "matches_total": 91.0,
+       "avg_goals_scored": 1.34,
+       "avg_goals_conceded": 1.46
+      },
+      "away": {
+       "id": 3167,
+       "name": "Quique Álvarez",
+       "short_name": "Q. Álvarez",
+       "profile": "attacking",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 8.0,
+       "avg_goals_scored": 1.75,
+       "avg_goals_conceded": 2.0
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-2-3-1",
+     "src": "cur",
+     "tend": 0,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 3
+    }
+   }
+  },
+  {
+   "id": "apifb374898",
+   "league": "Liga Portugal 2",
+   "home": "Tondela",
+   "away": "Académica Coimbra",
+   "ct": "08-22 03:15",
+   "snap": "2026-08-21T14:32:46Z",
+   "books": {
+    "h2h": "apifb:Dafabet(line=0.0,orr=1.048)",
+    "spread": "apifb:Pinnacle(line=-0.5,orr=1.039)",
+    "totals": "apifb:Pinnacle(line=2.5,orr=1.048)"
+   },
+   "result": {
+    "lambda": {
+     "home": 0.99,
+     "away": 1.38,
+     "sum": 2.36
+    },
+    "wdl": {
+     "home": 26.9,
+     "draw": 27.2,
+     "away": 45.9
+    },
+    "market_fair": {
+     "home": 49.5,
+     "draw": 27.3,
+     "away": 23.3
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 4.7,
+    "bets": [
+     {
+      "name": "让球主(-0.5)",
+      "prob": 0.2688,
+      "odds": 1.9,
+      "ev": -0.5085
+     },
+     {
+      "name": "让球客(+0.5)",
+      "prob": 0.65,
+      "odds": 1.95,
+      "ev": 0.2197278446389499,
+      "prob_raw": 0.7312
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.5792,
+      "odds": 1.69,
+      "ev": -0.0662
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.4208,
+      "odds": 2.19,
+      "ev": -0.121
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.2688,
+      "odds": 1.93,
+      "ev": -0.5048,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.2724,
+      "odds": 3.5,
+      "ev": -0.0901,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.4588,
+      "odds": 4.1,
+      "ev": 0.7952,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "让球客(+0.5)",
+     "prob": 0.65,
+     "odds": 1.95,
+     "ev": 0.2197278446389499,
+     "market_fair": 0.4935,
+     "wdl_name": "客胜",
+     "wdl_prob": 0.4588,
+     "wdl_market_fair": 0.2328,
+     "vetoed": true,
+     "veto_reason": "模型与市场分歧>20pp(模型73% vs 市场49%)",
+     "draw_warn": {
+      "market_draw_prob": 27.3,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2客胜",
+       "ev": 79.5
+      },
+      "让球": {
+       "dir": "让球客(+0.5)",
+       "ev": 22.0
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": -6.6
+      }
+     },
+     "level": "客向一致(胜负亚盘)"
+    },
+    "star": 0,
+    "ev_tier": "否决",
+    "risk_tags": [
+     "BSD伤停情报[主0客0]",
+     "平局预警(市场去水平局>=26%)",
+     "模型与市场分歧>20pp(模型73% vs 市场49%)->否决",
+     "阵型对攻倾向(+3)",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 27.3,
+     "strong": false
+    },
+    "upset": {
+     "hot": "Tondela",
+     "level": "低风险",
+     "count": 0,
+     "signals": []
+    },
+    "notes": [
+     "主队数据来自P1",
+     "主队跨联赛用P1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+     "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主3-4-3/客4-3-3(当场)"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [],
+      "home_covered": false,
+      "away_covered": false,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.282,
+      "away_conf": 0.223,
+      "formation": {
+       "home": "3-4-3",
+       "away": "4-3-3"
+      },
+      "coach": {
+       "home": "3-4-3",
+       "away": "4-3-3"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 1.85,
+       "draw": 3.33,
+       "away_win": 3.94,
+       "over_15_goals": 1.34,
+       "over_25_goals": 2.06,
+       "over_35_goals": 3.66,
+       "under_15_goals": 2.98,
+       "under_25_goals": 1.68,
+       "under_35_goals": 1.24,
+       "btts_yes": 1.9,
+       "btts_no": 1.79
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 1935,
+        "name": "Ricardo Costa",
+        "short_name": "R. Costa",
+        "profile": "balanced",
+        "preferred_formation": "3-4-3",
+        "matches_total": 6.0,
+        "avg_goals_scored": 1.17,
+        "avg_goals_conceded": 1.17
+       },
+       "away": {
+        "id": 2109,
+        "name": "Antonio Barbosa",
+        "short_name": "A. Barbosa",
+        "profile": "balanced",
+        "preferred_formation": "4-3-3",
+        "matches_total": 39.0,
+        "avg_goals_scored": 1.59,
+        "avg_goals_conceded": 1.13
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 1935,
+       "name": "Ricardo Costa",
+       "short_name": "R. Costa",
+       "profile": "balanced",
+       "preferred_formation": "3-4-3",
+       "matches_total": 6.0,
+       "avg_goals_scored": 1.17,
+       "avg_goals_conceded": 1.17
+      },
+      "away": {
+       "id": 2109,
+       "name": "Antonio Barbosa",
+       "short_name": "A. Barbosa",
+       "profile": "balanced",
+       "preferred_formation": "4-3-3",
+       "matches_total": 39.0,
+       "avg_goals_scored": 1.59,
+       "avg_goals_conceded": 1.13
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "3-4-3",
+     "away": "4-3-3",
+     "src": "cur",
+     "tend": 3,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 0
+    }
+   }
+  },
+  {
+   "id": "apifb220055",
+   "league": "哥甲",
+   "home": "Jaguares de Córdoba",
+   "away": "Boyacá Chicó FC",
+   "ct": "08-22 05:05",
+   "snap": "2026-08-21T14:34:28Z",
+   "books": {
+    "h2h": "apifb:Betano(line=0.0,orr=1.026)",
+    "spread": "apifb:Pinnacle(line=-0.5,orr=1.037)",
+    "totals": "apifb:Pinnacle(line=2.5,orr=1.045)"
+   },
+   "result": {
+    "lambda": {
+     "home": 2.88,
+     "away": 0.2,
+     "sum": 3.08
+    },
+    "wdl": {
+     "home": 91.0,
+     "draw": 7.6,
+     "away": 1.3
+    },
+    "market_fair": {
+     "home": 51.0,
+     "draw": 29.1,
+     "away": 19.9
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 6.5,
+    "bets": [
+     {
+      "name": "让球主(-0.5)",
+      "prob": 0.65,
+      "odds": 1.87,
+      "ev": 0.17182796880149387,
+      "prob_raw": 0.9103
+     },
+     {
+      "name": "让球客(+0.5)",
+      "prob": 0.0897,
+      "odds": 1.99,
+      "ev": -0.8279
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.4057,
+      "odds": 1.61,
+      "ev": -0.3749
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.5943,
+      "odds": 2.36,
+      "ev": 0.3423
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.65,
+      "odds": 1.91,
+      "ev": 0.2098868504888498,
+      "is_1x2": true,
+      "prob_raw": 0.9103
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.0764,
+      "odds": 3.35,
+      "ev": -0.7505,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.0133,
+      "odds": 4.9,
+      "ev": -0.9366,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "让球主(-0.5)",
+     "prob": 0.65,
+     "odds": 1.87,
+     "ev": 0.17182796880149387,
+     "market_fair": 0.5155,
+     "wdl_name": "主胜",
+     "wdl_prob": 0.9103,
+     "wdl_market_fair": 0.5102,
+     "vetoed": true,
+     "veto_reason": "模型与市场分歧>20pp(模型91% vs 市场52%)",
+     "draw_warn": {
+      "market_draw_prob": 29.1,
+      "strong": false
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2主胜",
+       "ev": 21.0
+      },
+      "让球": {
+       "dir": "让球主(-0.5)",
+       "ev": 17.2
+      },
+      "大小球": {
+       "dir": "大2.50",
+       "ev": 34.2
+      }
+     },
+     "level": "三向一致"
+    },
+    "star": 0,
+    "ev_tier": "否决",
+    "risk_tags": [
+     "BSD伤停情报[主1客0]",
+     "平局预警(市场去水平局>=26%)",
+     "模型与市场分歧>20pp(模型91% vs 市场52%)->否决",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 29.1,
+     "strong": false
+    },
+    "upset": {
+     "hot": "Jaguares de Córdoba",
+     "level": "低风险",
+     "count": 0,
+     "signals": []
+    },
+    "notes": [
+     "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主4-4-2/客4-1-4-1(当场)",
+     "主队伤停1人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       {
+        "id": 74750,
+        "name": "Santiago Cubides",
+        "short_name": "S. Cubides",
+        "status": "injured",
+        "reason": "Sprained Ankle"
+       }
+      ],
+      "away": [],
+      "home_covered": true,
+      "away_covered": false,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.695,
+      "away_conf": 0.718,
+      "formation": {
+       "home": "4-4-2",
+       "away": "4-1-4-1"
+      },
+      "coach": {
+       "home": "4-2-3-1",
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 1.83,
+       "draw": 3.21,
+       "away_win": 4.28,
+       "over_15_goals": 1.41,
+       "over_25_goals": 2.27,
+       "over_35_goals": 4.18,
+       "under_15_goals": 2.66,
+       "under_25_goals": 1.56,
+       "under_35_goals": 1.18,
+       "btts_yes": 2.05,
+       "btts_no": 1.67
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 2852,
+        "name": "Hubert Bodhert",
+        "short_name": "H. Bodhert",
+        "profile": "defensive",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 27.0,
+        "avg_goals_scored": 0.93,
+        "avg_goals_conceded": 1.59
+       },
+       "away": {
+        "id": 2850,
+        "name": "Jhon Jairo Gomez",
+        "short_name": "J. J. Gomez",
+        "profile": "defensive",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 25.0,
+        "avg_goals_scored": 0.84,
+        "avg_goals_conceded": 1.76
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 2852,
+       "name": "Hubert Bodhert",
+       "short_name": "H. Bodhert",
+       "profile": "defensive",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 27.0,
+       "avg_goals_scored": 0.93,
+       "avg_goals_conceded": 1.59
+      },
+      "away": {
+       "id": 2850,
+       "name": "Jhon Jairo Gomez",
+       "short_name": "J. J. Gomez",
+       "profile": "defensive",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 25.0,
+       "avg_goals_scored": 0.84,
+       "avg_goals_conceded": 1.76
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-4-2",
+     "away": "4-1-4-1",
+     "src": "cur",
+     "tend": 0,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 1
+    }
+   }
+  },
+  {
+   "id": "223603",
+   "league": "阿甲",
+   "home": "Estudiantes de Río Cuarto",
+   "away": "San Lorenzo",
+   "ct": "08-22 07:00",
+   "snap": "2026-08-21T14:34:28Z",
+   "books": {
+    "h2h": "smarkets(line=0.0,orr=1.013)",
+    "spread": "pinnacle(line=0.25,orr=1.027)",
+    "totals": "nordicbet(line=2.5,orr=1.065)"
+   },
+   "result": {
+    "lambda": {
+     "home": 0.29,
+     "away": 0.39,
+     "sum": 0.67
+    },
+    "wdl": {
+     "home": 20.4,
+     "draw": 52.4,
+     "away": 27.2
+    },
+    "market_fair": {
+     "home": 26.7,
+     "draw": 34.8,
+     "away": 38.6
+    },
+    "data_src": {
+     "home": "cur",
+     "away": "cur"
+    },
+    "snap_age_h": 8.4,
+    "bets": [
+     {
+      "name": "让球主(+0.2)",
+      "prob": 0.65,
+      "odds": 1.83,
+      "ev": 0.15801603206412818,
+      "prob_raw": 0.7485
+     },
+     {
+      "name": "让球客(-0.2)",
+      "prob": 0.2515,
+      "odds": 2.08,
+      "ev": -0.4908
+     },
+     {
+      "name": "小2.50",
+      "prob": 0.65,
+      "odds": 1.32,
+      "ev": -0.19457688338493295,
+      "prob_raw": 0.969
+     },
+     {
+      "name": "大2.50",
+      "prob": 0.031,
+      "odds": 3.25,
+      "ev": -0.9054
+     },
+     {
+      "name": "1X2主胜",
+      "prob": 0.2041,
+      "odds": 3.7,
+      "ev": -0.2546,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2平局",
+      "prob": 0.5244,
+      "odds": 2.84,
+      "ev": 0.4701,
+      "is_1x2": true
+     },
+     {
+      "name": "1X2客胜",
+      "prob": 0.2715,
+      "odds": 2.56,
+      "ev": -0.3138,
+      "is_1x2": true
+     }
+    ],
+    "best_bet": null,
+    "direction": {
+     "name": "让球主(+0.2)",
+     "prob": 0.65,
+     "odds": 1.83,
+     "ev": 0.15801603206412818,
+     "market_fair": 0.532,
+     "wdl_name": "平局",
+     "wdl_prob": 0.5244,
+     "wdl_market_fair": 0.3476,
+     "vetoed": true,
+     "veto_reason": "模型与市场分歧>20pp(模型75% vs 市场53%)",
+     "draw_warn": {
+      "market_draw_prob": 34.8,
+      "strong": true
+     }
+    },
+    "dir_consistency": {
+     "groups": {
+      "1X2": {
+       "dir": "1X2平局",
+       "ev": 47.0
+      },
+      "让球": {
+       "dir": "让球主(+0.2)",
+       "ev": 15.8
+      },
+      "大小球": {
+       "dir": "小2.50",
+       "ev": -19.5
+      }
+     },
+     "level": "平局主导"
+    },
+    "star": 0,
+    "ev_tier": "否决",
+    "risk_tags": [
+     "BSD伤停情报[主0客6]",
+     "伤停>2人(主0/客6)",
+     "平局预警-强(市场去水平局>=30%)",
+     "模型与市场分歧>20pp(模型75% vs 市场53%)->否决",
+     "阵型对攻倾向(+2)",
+     "伤停覆盖不全"
+    ],
+    "draw_warn": {
+     "market_draw_prob": 34.8,
+     "strong": true
+    },
+    "upset": {
+     "hot": "San Lorenzo",
+     "level": "轻度风险",
+     "count": 2,
+     "signals": [
+      "L4平局接近热门(平局价值高)",
+      "F4基本面攻防接近(冷门温床)"
+     ]
+    },
+    "notes": [
+     "数据包伤停: 客队伤停6人(如Daniel Herrera,Ezequiel Herrera,Facu)",
+     "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+     "阵型:主4-4-2/客4-4-2(当场)",
+     "客队伤停6人位置未知(非BSD源), 位置加权未覆盖"
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [
+       {
+        "id": 30711,
+        "name": "Daniel Herrera",
+        "short_name": "D. Herrera",
+        "status": "injured",
+        "reason": "Cruciate Ligament Injury"
+       },
+       {
+        "id": 22974,
+        "name": "Ezequiel Herrera",
+        "short_name": "E. Herrera",
+        "status": "injured",
+        "reason": "Hamstring Injury"
+       },
+       {
+        "id": 22986,
+        "name": "Facundo Gulli",
+        "short_name": "F. Gulli",
+        "status": "injured",
+        "reason": "Muscle Injury"
+       },
+       {
+        "id": 22984,
+        "name": "Gonzalo Abrego",
+        "short_name": "G. Abrego",
+        "status": "injured",
+        "reason": "Groin Injury"
+       },
+       {
+        "id": 30710,
+        "name": "Nahuel Arias",
+        "short_name": "N. Arias",
+        "status": "injured",
+        "reason": "Hamstring Injury"
+       },
+       {
+        "id": 22980,
+        "name": "Nahuel Barrios",
+        "short_name": "N. Barrios",
+        "status": "injured",
+        "reason": "Cruciate Ligament Injury"
+       }
+      ],
+      "home_covered": false,
+      "away_covered": true,
+      "sources": {
+       "home": "bsd_lineups",
+       "away": "bsd_lineups"
+      }
+     },
+     "bsd_lineups": {
+      "status": "predicted",
+      "home_conf": 0.655,
+      "away_conf": 0.65,
+      "formation": {
+       "home": "4-4-2",
+       "away": "4-4-2"
+      },
+      "coach": {
+       "home": "4-4-2",
+       "away": "4-2-3-1"
+      }
+     },
+     "bsd_odds": {
+      "consensus": {
+       "home_win": 3.02,
+       "draw": 2.74,
+       "away_win": 2.64,
+       "over_15_goals": 1.63,
+       "over_25_goals": 2.95,
+       "over_35_goals": 6.02,
+       "under_15_goals": 2.16,
+       "under_25_goals": 1.35,
+       "under_35_goals": 1.1,
+       "btts_yes": 2.29,
+       "btts_no": 1.55
+      }
+     },
+     "bsd_prediction": {
+      "expected_goals": {},
+      "recommendations": {},
+      "confidence": null,
+      "coaches": {
+       "home": {
+        "id": 3200,
+        "name": "Ruben Dario Forestello",
+        "short_name": "R. D. Forestello",
+        "profile": "defensive",
+        "preferred_formation": "4-4-2",
+        "matches_total": 20.0,
+        "avg_goals_scored": 0.35,
+        "avg_goals_conceded": 1.45
+       },
+       "away": {
+        "id": 2668,
+        "name": "Nestor Gorosito",
+        "short_name": "N. Gorosito",
+        "profile": "defensive",
+        "preferred_formation": "4-2-3-1",
+        "matches_total": 23.0,
+        "avg_goals_scored": 0.74,
+        "avg_goals_conceded": 0.91
+       }
+      }
+     },
+     "coaches": {
+      "home": {
+       "id": 3200,
+       "name": "Ruben Dario Forestello",
+       "short_name": "R. D. Forestello",
+       "profile": "defensive",
+       "preferred_formation": "4-4-2",
+       "matches_total": 20.0,
+       "avg_goals_scored": 0.35,
+       "avg_goals_conceded": 1.45
+      },
+      "away": {
+       "id": 2668,
+       "name": "Nestor Gorosito",
+       "short_name": "N. Gorosito",
+       "profile": "defensive",
+       "preferred_formation": "4-2-3-1",
+       "matches_total": 23.0,
+       "avg_goals_scored": 0.74,
+       "avg_goals_conceded": 0.91
+      }
+     }
+    },
+    "coach": {},
+    "bsd": {
+     "eg": {
+      "home": null,
+      "away": null
+     },
+     "recs": {},
+     "ev": null,
+     "lam_dev": null,
+     "conf": null,
+     "agree": null,
+     "support": null
+    },
+    "formation": {
+     "home": "4-4-2",
+     "away": "4-4-2",
+     "src": "cur",
+     "tend": 2,
+     "missing": []
+    },
+    "injury_pos": {
+     "home": {},
+     "away": {},
+     "unknown": 6
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "id": 587871,
+ "league": "欧协联",
+ "kickoff": "08-21 02:00",
+ "kickoff_iso": "2026-08-20T18:00:00+00:00",
+ "home": "Górnik Zabrze",
+ "away": "AS Monaco",
+ "home_id": 429,
+ "away_id": 101,
+ "pulled_at": "2026-08-20T22:14:48.951899+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 271,
+    "name": "Michal Gasparik",
+    "short_name": "M. Gasparik",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 53.0,
+    "avg_goals_scored": 1.53,
+    "avg_goals_conceded": 0.94
+   },
+   "away": {
+    "id": 1919,
+    "name": "Filipe Luís",
+    "short_name": "Filipe Luís",
+    "profile": "attacking",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 5.0,
+    "avg_goals_scored": 2.2,
+    "avg_goals_conceded": 1.6
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "3-4-2-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 5.19,
+   "draw": 4.36,
+   "away_win": 1.53,
+   "over_15_goals": 1.21,
+   "over_25_goals": 1.71,
+   "over_35_goals": 2.75,
+   "under_15_goals": 3.9,
+   "under_25_goals": 2.05,
+   "under_35_goals": 1.39,
+   "btts_yes": 1.8,
+   "btts_no": 1.9
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 13985,
+    "name": "Jarosław Kubicki",
+    "short_name": "J. Kubicki",
+    "status": "injured",
+    "reason": "Broken Hand"
+   }
+  ],
+  "away": [
+   {
+    "id": 2234,
+    "name": "Ansu Fati",
+    "short_name": "A. Fati",
+    "status": "injured",
+    "reason": "Calf Injury"
+   },
+   {
+    "id": 7266,
+    "name": "Edan Diop",
+    "short_name": "E. Diop",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 1134,
+    "name": "Matthis Abline",
+    "short_name": "M. Abline",
+    "status": "injured",
+    "reason": "Foot Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.614,
+   "away": 0.514
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-20T08:32:12Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.84,
+    "home_ga": 0.92,
+    "away_gf": 1.056,
+    "away_ga": 0.944,
+    "n_home": 7.5,
+    "n_away": 9.0,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 429
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.792,
+    "home_ga": 1.236,
+    "away_gf": 1.634,
+    "away_ga": 2.086,
+    "n_home": 7.2,
+    "n_away": 9.3,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 101
+   }
+  }
+ }
+}

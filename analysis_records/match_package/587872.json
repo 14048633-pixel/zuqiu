@@ -1,0 +1,128 @@
+{
+ "id": 587872,
+ "league": "欧协联",
+ "kickoff": "08-21 02:00",
+ "kickoff_iso": "2026-08-20T18:00:00+00:00",
+ "home": "FC Twente",
+ "away": "Qarabağ FK",
+ "home_id": 178,
+ "away_id": 117,
+ "pulled_at": "2026-08-20T22:14:41.020084+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 318,
+    "name": "John van den Brom",
+    "short_name": "J. v. d. Brom",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 44.0,
+    "avg_goals_scored": 1.77,
+    "avg_goals_conceded": 1.2
+   },
+   "away": {
+    "id": 648,
+    "name": "Gurban Gurbanov",
+    "short_name": "G. Gurbanov",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 27.0,
+    "avg_goals_scored": 2.0,
+    "avg_goals_conceded": 1.67
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.6,
+   "draw": 3.98,
+   "away_win": 4.91,
+   "over_15_goals": 1.2,
+   "over_25_goals": 1.68,
+   "over_35_goals": 2.66,
+   "under_15_goals": 4.03,
+   "under_25_goals": 2.08,
+   "under_35_goals": 1.41,
+   "btts_yes": 1.71,
+   "btts_no": 2.01
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 5257,
+    "name": "Stav Lemkin",
+    "short_name": "S. Lemkin",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.445,
+   "away": 0.45
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-20T08:32:12Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.205,
+    "home_ga": 1.012,
+    "away_gf": 1.793,
+    "away_ga": 1.707,
+    "n_home": 8.3,
+    "n_away": 8.2,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 178
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.851,
+    "home_ga": 1.865,
+    "away_gf": 1.516,
+    "away_ga": 1.341,
+    "n_home": 7.4,
+    "n_away": 9.1,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 117
+   }
+  }
+ }
+}

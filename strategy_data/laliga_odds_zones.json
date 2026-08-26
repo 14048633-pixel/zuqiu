@@ -1,0 +1,37 @@
+{
+  "league": "西甲",
+  "full_name": "西班牙足球甲级联赛 (La Liga)",
+  "season": "2026-27",
+  "type": "league_odds_zones",
+  "version": "1.0",
+  "updated": "2026-08-15",
+  "metadata": {
+    "sample_n": 3800,
+    "data_window": {
+      "start": "2023-08-01",
+      "end": "2026-06-30"
+    },
+    "generation": "rolling_window",
+    "note": "基线来自 calibration.json 西甲(3800场滚动窗口) + 2025/26 SP1 实测(2.695); 升班马系数为修复 0816 重算差异落地"
+  },
+  "baseline": {
+    "league_avg": 2.5811,
+    "home_avg": 1.4582,
+    "away_avg": 1.1229,
+    "note": "calibration.json 西甲 3800场"
+  },
+  "correct_coef": {
+    "amateur_vs_pro_strong": 1.5,
+    "amateur_vs_pro_weak": 0.7,
+    "striker_miss": 0.8,
+    "key_striker_out": 0.85,
+    "weak_defense": 1.2,
+    "form_good": 1.1,
+    "away_weak": 0.85,
+    "first_leg_conservative": 0.9,
+    "promoted_attack": 0.65,
+    "promoted_defense": 1.2,
+    "note": "promoted_*: 升班马(次级联赛升入)攻防修正; 修改后必须跑回归测试验证"
+  },
+  "warning": "西甲新赛季第1轮无新样本, 泊松锚定2025/26+历史; 升班马场次必须启用promoted系数"
+}

@@ -1,0 +1,125 @@
+{
+ "id": 212161,
+ "league": "德国杯",
+ "kickoff": "08-23 21:30",
+ "kickoff_iso": "2026-08-23T13:30:00Z",
+ "home": "FC Carl Zeiss Jena",
+ "away": "SV Darmstadt 98",
+ "home_id": 3850,
+ "away_id": 1295,
+ "pulled_at": "2026-08-23T17:46:13.391925+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 2014,
+    "name": "Marco Grote",
+    "short_name": "M. Grote",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 9.0,
+    "avg_goals_scored": 3.56,
+    "avg_goals_conceded": 1.89
+   },
+   "away": {
+    "id": 1200,
+    "name": "Florian Kohfeldt",
+    "short_name": "F. Kohfeldt",
+    "profile": "attacking",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 12.0,
+    "avg_goals_scored": 4.0,
+    "avg_goals_conceded": 0.92
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 5.06,
+   "draw": 4.29,
+   "away_win": 1.54,
+   "over_15_goals": 1.13,
+   "over_25_goals": 1.46,
+   "over_35_goals": 2.16,
+   "under_15_goals": 5.33,
+   "under_25_goals": 2.55,
+   "under_35_goals": 1.64,
+   "btts_yes": 1.54,
+   "btts_no": 2.32
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 27235,
+    "name": "Luca Marseiler",
+    "short_name": "L. Marseiler",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.182,
+   "away": 0.236
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-23T08:32:23Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.412,
+    "home_ga": 1.987,
+    "away_gf": 4.392,
+    "away_ga": 2.196,
+    "n_home": 8.0,
+    "n_away": 5.1,
+    "n_scored": 23,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 3850
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.778,
+    "home_ga": 1.222,
+    "away_gf": 1.4,
+    "away_ga": 2.0,
+    "n_home": 9.0,
+    "n_away": 10.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

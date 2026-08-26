@@ -1,0 +1,117 @@
+{
+ "id": 214787,
+ "league": "西乙",
+ "kickoff": "08-24 01:00",
+ "kickoff_iso": "2026-08-23T17:00:00Z",
+ "home": "Sporting Gijón",
+ "away": "Burgos CF",
+ "home_id": 1267,
+ "away_id": 1401,
+ "pulled_at": "2026-08-23T17:44:07.475800+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 349,
+    "name": "Nicolas Larcamon",
+    "short_name": "N. Larcamon",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 1.86,
+    "avg_goals_conceded": 1.43
+   },
+   "away": {
+    "id": 1954,
+    "name": "Sergio Francisco",
+    "short_name": "S. Francisco",
+    "profile": "defensive",
+    "preferred_formation": "4-4-2",
+    "matches_total": 7.0,
+    "avg_goals_scored": 1.0,
+    "avg_goals_conceded": 0.71
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.42,
+   "draw": 2.96,
+   "away_win": 2.97,
+   "over_15_goals": 1.43,
+   "over_25_goals": 2.39,
+   "over_35_goals": 4.5,
+   "under_15_goals": 2.58,
+   "under_25_goals": 1.53,
+   "under_35_goals": 1.17,
+   "btts_yes": 1.98,
+   "btts_no": 1.74
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.4,
+   "away": 0.359
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-23T08:32:45Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.537,
+    "home_ga": 1.239,
+    "away_gf": 1.571,
+    "away_ga": 1.459,
+    "n_home": 6.7,
+    "n_away": 9.8,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1267
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.252,
+    "home_ga": 0.768,
+    "away_gf": 0.895,
+    "away_ga": 1.202,
+    "n_home": 50.4,
+    "n_away": 50.4,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

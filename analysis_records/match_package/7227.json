@@ -1,0 +1,173 @@
+{
+ "id": 7227,
+ "league": "巴甲",
+ "kickoff": "08-23 07:30",
+ "kickoff_iso": "2026-08-22T23:30:00+00:00",
+ "home": "Cruzeiro",
+ "away": "Flamengo",
+ "home_id": 150,
+ "away_id": 160,
+ "pulled_at": "2026-08-22T01:17:59.230077+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 143,
+    "name": "Artur Jorge",
+    "short_name": "A. Jorge",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 72.0,
+    "avg_goals_scored": 1.4,
+    "avg_goals_conceded": 0.97
+   },
+   "away": {
+    "id": 165,
+    "name": "Leonardo Jardim",
+    "short_name": "L. Jardim",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 70.0,
+    "avg_goals_scored": 2.0,
+    "avg_goals_conceded": 0.79
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 9440,
+    "name": "Gabriel Pec",
+    "short_name": "G. Pec",
+    "status": "injured",
+    "reason": "Broken Leg"
+   },
+   {
+    "id": 1877,
+    "name": "Jonathan Jesus",
+    "short_name": "J. Jesus",
+    "status": "suspended",
+    "reason": "yellow_card_accumulation_suspension"
+   },
+   {
+    "id": 1870,
+    "name": "Luis Sinisterra",
+    "short_name": "L. Sinisterra",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 12203,
+    "name": "Néiser Villarreal",
+    "short_name": "N. Villarreal",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 51,
+    "name": "Alex Sandro",
+    "short_name": "A. Sandro",
+    "status": "injured",
+    "reason": "Calf Injury"
+   },
+   {
+    "id": 60,
+    "name": "Luiz Araújo",
+    "short_name": "L. Araújo",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 61,
+    "name": "Nicolás de la Cruz",
+    "short_name": "N. De la Cruz",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 163,
+    "name": "Vitão",
+    "short_name": "Vitão",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.755,
+   "away": 0.677
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-21T14:34:59Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.583,
+    "home_ga": 1.167,
+    "away_gf": 1.182,
+    "away_ga": 1.636,
+    "n_home": 12,
+    "n_away": 11,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.9,
+    "home_ga": 0.8,
+    "away_gf": 2.083,
+    "away_ga": 0.917,
+    "n_home": 10,
+    "n_away": 12,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  }
+ }
+}

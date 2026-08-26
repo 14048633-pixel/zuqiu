@@ -1,0 +1,201 @@
+{
+ "id": 7233,
+ "league": "巴甲",
+ "kickoff": "08-24 03:00",
+ "kickoff_iso": "2026-08-23T19:00:00Z",
+ "home": "Vitoria",
+ "away": "Bahia",
+ "home_id": 157,
+ "away_id": 166,
+ "pulled_at": "2026-08-23T17:38:29.638299+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 144,
+    "name": "Jair Ventura",
+    "short_name": "J. Ventura",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 64.0,
+    "avg_goals_scored": 1.0,
+    "avg_goals_conceded": 1.39
+   },
+   "away": {
+    "id": 145,
+    "name": "Rogério Ceni",
+    "short_name": "R. Ceni",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 66.0,
+    "avg_goals_scored": 1.32,
+    "avg_goals_conceded": 1.23
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 1.77,
+   "btts_no": 1.97
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 13628,
+    "name": "Anderson Pato",
+    "short_name": "A. Pato",
+    "status": "injured",
+    "reason": "Knee Surgery"
+   },
+   {
+    "id": 2688,
+    "name": "Caique Gonçalves",
+    "short_name": "Caique",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 301,
+    "name": "Camutanga",
+    "short_name": "Camutanga",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 310,
+    "name": "Dudu",
+    "short_name": "D. Rodrigues",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 2027,
+    "name": "Edu",
+    "short_name": "Edu",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 277,
+    "name": "Nathan Mendes",
+    "short_name": "N. Mendes",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 12324,
+    "name": "Riccieli",
+    "short_name": "Riccieli",
+    "status": "injured",
+    "reason": "Calf Injury"
+   },
+   {
+    "id": 5002,
+    "name": "Rúben Ramos Ismael",
+    "short_name": "Ismael",
+    "status": "injured",
+    "reason": "Knee Surgery"
+   }
+  ],
+  "away": [
+   {
+    "id": 101,
+    "name": "Ademir",
+    "short_name": "Ademir",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 107,
+    "name": "Erick",
+    "short_name": "Erick",
+    "status": "suspended",
+    "reason": ""
+   },
+   {
+    "id": 98,
+    "name": "Everton Ribeiro",
+    "short_name": "E. Ribeiro",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 12291,
+    "name": "Léo Vieira",
+    "short_name": "L. Vieira",
+    "status": "injured",
+    "reason": "Knee Surgery"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.732,
+   "away": 0.727
+  },
+  "formation": {
+   "home": "4-1-4-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-23T08:32:59Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.538,
+    "home_ga": 0.538,
+    "away_gf": 0.533,
+    "away_ga": 2.2,
+    "n_home": 13.0,
+    "n_away": 15.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.417,
+    "home_ga": 0.917,
+    "away_gf": 1.364,
+    "away_ga": 1.545,
+    "n_home": 12,
+    "n_away": 11,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  }
+ }
+}

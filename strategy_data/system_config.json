@@ -1,0 +1,70 @@
+{
+  "version": "v1.1",
+  "updated": "2026-08-14",
+  "poisson": {
+    "lam_min": 0.2,
+    "lam_max": 4.5,
+    "risk_adjust_weight": 0.1,
+    "max_goals": 6
+  },
+  "ev": {
+    "noise_min": 0.08,
+    "min_odds_major": 1.60,
+    "min_odds_minor": 1.40
+  },
+  "risk": {
+    "score_threshold": 0.6,
+    "dispersion_norm": 0.15,
+    "hist_roi_window": 100
+  },
+  "position": {
+    "single_bet_pct": 0.05,
+    "parlay_bet_pct": 0.02,
+    "daily_limit_pct": 0.15,
+    "lose3_halve": true,
+    "lose5_stop": true,
+    "drawdown_stop_pct": 0.10,
+    "drawdown_stop_days": 7,
+    "profit_lock_pct": 0.20,
+    "profit_lock_ratio": 0.50
+  },
+  "parlay": {
+    "max_legs": 2,
+    "max_per_league": 1,
+    "correlation_decay": 0.90,
+    "min_ev": 0.10
+  },
+  "data_quality": {
+    "min_league_samples": 20,
+    "max_total_goals": 12,
+    "min_odds": 1.01,
+    "dispersion_threshold": 0.15
+  },
+  "odds": {
+    "max_hours_ahead": 72,
+    "consensus_dispersion_alert": 0.05,
+    "source_priority": ["the_odds_api", "api_football", "snapshot", "manual"],
+    "api_keys": ["ODDS_API_KEY_1", "ODDS_API_KEY_2", "ODDS_API_KEY_3"],
+    "max_fail_per_key": 3
+  },
+  "line_movement": {
+    "far_h": 12.0,
+    "mid_h": 3.0,
+    "near_h": 0.5,
+    "w_far": 0.30,
+    "w_mid": 0.60,
+    "w_near": 0.80,
+    "w_now": 1.00,
+    "risk_thresholds": [0.03, 0.08, 0.15]
+  },
+  "zone_calibration": {
+    "min_samples": 300,
+    "rolling_window": true,
+    "merge_on_low_sample": true
+  },
+  "match_filter": {
+    "exclude_types": ["friendly", "youth", "postponed", "abandoned", "awarded"],
+    "blacklist_path": "strategy_data/blacklist.json",
+    "two_leg_split": true
+  }
+}

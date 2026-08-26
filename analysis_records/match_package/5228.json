@@ -1,0 +1,321 @@
+{
+ "id": 5228,
+ "league": "美职",
+ "kickoff": "08-24 07:00",
+ "kickoff_iso": "2026-08-23T23:00:00Z",
+ "home": "Atlanta United FC",
+ "away": "Sporting Kansas City",
+ "home_id": 277,
+ "away_id": 299,
+ "pulled_at": "2026-08-23T17:40:11.138222+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 333,
+    "name": "Gerardo Martino",
+    "short_name": "G. Martino",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 52.0,
+    "avg_goals_scored": 1.1,
+    "avg_goals_conceded": 1.85
+   },
+   "away": {
+    "id": 326,
+    "name": "Raphael Wicky",
+    "short_name": "R. Wicky",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 54.0,
+    "avg_goals_scored": 1.19,
+    "avg_goals_conceded": 2.19
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.65,
+   "draw": 4.12,
+   "away_win": 4.39,
+   "over_15_goals": 1.14,
+   "over_25_goals": 1.49,
+   "over_35_goals": 2.23,
+   "under_15_goals": 5.42,
+   "under_25_goals": 2.53,
+   "under_35_goals": 1.62,
+   "btts_yes": 1.52,
+   "btts_no": 2.4
+  },
+  "best": {
+   "btts": {
+    "yes": {
+     "odds": 1.55,
+     "bookmaker": "fonbet",
+     "n": 17
+    },
+    "no": {
+     "odds": 2.52,
+     "bookmaker": "pinnacle",
+     "n": 17
+    }
+   },
+   "double_chance": {
+    "1x": {
+     "odds": 1.2,
+     "bookmaker": "betvictor",
+     "n": 7
+    },
+    "x2": {
+     "odds": 2.28,
+     "bookmaker": "sbo",
+     "n": 7
+    },
+    "12": {
+     "odds": 1.22,
+     "bookmaker": "unibet",
+     "n": 7
+    }
+   },
+   "draw_no_bet": {
+    "home": {
+     "odds": 1.31,
+     "bookmaker": "novibet",
+     "n": 11
+    },
+    "away": {
+     "odds": 3.59,
+     "bookmaker": "pinnacle",
+     "n": 11
+    }
+   },
+   "over_under_15": {
+    "over@1.5": {
+     "odds": 1.16,
+     "bookmaker": "pinnacle",
+     "n": 6
+    },
+    "under@1.5": {
+     "odds": 6.0,
+     "bookmaker": "betfair",
+     "n": 6
+    }
+   },
+   "over_under_25": {
+    "over@2.5": {
+     "odds": 1.52,
+     "bookmaker": "pinnacle",
+     "n": 7
+    },
+    "under@2.5": {
+     "odds": 2.63,
+     "bookmaker": "betfair",
+     "n": 7
+    }
+   },
+   "over_under_35": {
+    "over@3.5": {
+     "odds": 2.3,
+     "bookmaker": "pinnacle",
+     "n": 6
+    },
+    "under@3.5": {
+     "odds": 1.65,
+     "bookmaker": "10bet",
+     "n": 6
+    }
+   },
+   "over_under_05": {
+    "over@0.5": {
+     "odds": 1.02,
+     "bookmaker": "888sport",
+     "n": 2
+    },
+    "under@0.5": {
+     "odds": 19.0,
+     "bookmaker": "888sport",
+     "n": 2
+    }
+   },
+   "total_corners": {
+    "over@7.5": {
+     "odds": 1.3,
+     "bookmaker": "unibet",
+     "n": 2
+    },
+    "under@7.5": {
+     "odds": 3.3,
+     "bookmaker": "betfair",
+     "n": 2
+    },
+    "over@8.5": {
+     "odds": 1.52,
+     "bookmaker": "unibet",
+     "n": 3
+    },
+    "under@8.5": {
+     "odds": 2.56,
+     "bookmaker": "pinnacle",
+     "n": 3
+    },
+    "over@9.5": {
+     "odds": 1.91,
+     "bookmaker": "10bet",
+     "n": 4
+    },
+    "under@9.5": {
+     "odds": 2.0,
+     "bookmaker": "pinnacle",
+     "n": 4
+    },
+    "over@10.5": {
+     "odds": 2.4,
+     "bookmaker": "betfair",
+     "n": 3
+    },
+    "under@10.5": {
+     "odds": 1.62,
+     "bookmaker": "pinnacle",
+     "n": 3
+    },
+    "over@11.5": {
+     "odds": 3.3,
+     "bookmaker": "betfair",
+     "n": 2
+    },
+    "under@11.5": {
+     "odds": 1.32,
+     "bookmaker": "unibet",
+     "n": 2
+    }
+   },
+   "1x2": {
+    "home": {
+     "odds": 1.7,
+     "bookmaker": "dafabet",
+     "n": 18
+    },
+    "draw": {
+     "odds": 4.64,
+     "bookmaker": "1xbet",
+     "n": 18
+    },
+    "away": {
+     "odds": 4.75,
+     "bookmaker": "bet365",
+     "n": 18
+    }
+   }
+  },
+  "bookmakers_count": 25,
+  "total_odds": 201
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 9911,
+    "name": "Ajani Fortune",
+    "short_name": "A. Fortune",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 9827,
+    "name": "Matthew Edwards",
+    "short_name": "M. Edwards",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 9686,
+    "name": "Sergio Santos",
+    "short_name": "S. Santos",
+    "status": "injured",
+    "reason": "Calf Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 13728,
+    "name": "Diego Borges",
+    "short_name": "D. Borges",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 9366,
+    "name": "Justin Reynolds",
+    "short_name": "J. Reynolds",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 12109,
+    "name": "Taylor Calheira",
+    "short_name": "T. Calheira",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.786,
+   "away": 0.795
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-23T08:33:16Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.444,
+    "home_ga": 1.667,
+    "away_gf": 0.8,
+    "away_ga": 1.9,
+    "n_home": 9.0,
+    "n_away": 10.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.169,
+    "home_ga": 1.687,
+    "away_gf": 0.829,
+    "away_ga": 3.037,
+    "n_home": 8.3,
+    "n_away": 8.2,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "美职",
+    "team_id": 299
+   }
+  }
+ }
+}

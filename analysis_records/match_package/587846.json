@@ -1,0 +1,135 @@
+{
+ "id": 587846,
+ "league": "欧联",
+ "kickoff": "08-21 01:00",
+ "kickoff_iso": "2026-08-20T17:00:00+00:00",
+ "home": "Trabzonspor",
+ "away": "Ferencváros TC",
+ "home_id": 197,
+ "away_id": 143,
+ "pulled_at": "2026-08-20T22:12:06.520369+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 303,
+    "name": "Fatih Tekke",
+    "short_name": "F. Tekke",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 38.0,
+    "avg_goals_scored": 1.66,
+    "avg_goals_conceded": 1.18
+   },
+   "away": {
+    "id": 993,
+    "name": "Balazs Borbely",
+    "short_name": "B. Borbely",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 11.0,
+    "avg_goals_scored": 1.27,
+    "avg_goals_conceded": 1.0
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.62,
+   "draw": 4.15,
+   "away_win": 4.7,
+   "over_15_goals": 1.21,
+   "over_25_goals": 1.69,
+   "over_35_goals": 2.72,
+   "under_15_goals": 4.0,
+   "under_25_goals": 2.08,
+   "under_35_goals": 1.41,
+   "btts_yes": 1.73,
+   "btts_no": 2.0
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 6612,
+    "name": "Arseniy Batagov",
+    "short_name": "A. Batagov",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   },
+   {
+    "id": 6615,
+    "name": "Tim Jabol-Folcarelli",
+    "short_name": "T. Jabol-Folcarelli",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.586,
+   "away": 0.405
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-20T08:32:09Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.254,
+    "home_ga": 1.209,
+    "away_gf": 1.378,
+    "away_ga": 1.276,
+    "n_home": 6.7,
+    "n_away": 9.8,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 197
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.568,
+    "home_ga": 1.0,
+    "away_gf": 1.2,
+    "away_ga": 1.729,
+    "n_home": 9.5,
+    "n_away": 7.0,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 143
+   }
+  }
+ }
+}

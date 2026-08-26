@@ -1,0 +1,119 @@
+{
+ "id": 207298,
+ "league": "Veikkausliiga",
+ "kickoff": "08-22 00:00",
+ "kickoff_iso": "2026-08-21T16:00:00+00:00",
+ "home": "SJK",
+ "away": "FC Lahti",
+ "home_id": 2100,
+ "away_id": 2101,
+ "pulled_at": "2026-08-21T00:37:16.920942+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1530,
+    "name": "Jarkko Wiss",
+    "short_name": "J. Wiss",
+    "profile": "attacking",
+    "preferred_formation": "4-4-2",
+    "matches_total": 29.0,
+    "avg_goals_scored": 1.76,
+    "avg_goals_conceded": 1.28
+   },
+   "away": {
+    "id": 1531,
+    "name": "Gonçalo Pereira",
+    "short_name": "G. Pereira",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 27.0,
+    "avg_goals_scored": 1.44,
+    "avg_goals_conceded": 1.07
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.44,
+   "draw": 3.45,
+   "away_win": 2.6,
+   "over_15_goals": 1.19,
+   "over_25_goals": 1.65,
+   "over_35_goals": 2.57,
+   "under_15_goals": 4.17,
+   "under_25_goals": 2.13,
+   "under_35_goals": 1.44,
+   "btts_yes": 1.54,
+   "btts_no": 2.31
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.468,
+   "away": 0.486
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-20T14:32:29Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.619,
+    "home_ga": 1.274,
+    "away_gf": 1.765,
+    "away_ga": 1.679,
+    "n_home": 8.4,
+    "n_away": 8.1,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2100
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.543,
+    "home_ga": 0.741,
+    "away_gf": 0.94,
+    "away_ga": 1.143,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2101
+   }
+  }
+ }
+}

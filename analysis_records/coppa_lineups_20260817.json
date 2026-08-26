@@ -1,0 +1,105 @@
+{
+ "ts": "2026-08-17T10:56:52Z",
+ "lineups": {
+  "215480": {
+   "lineup_status": "predicted",
+   "confidence": {
+    "home": 0.536,
+    "away": 0.155
+   },
+   "formation": {
+    "home": "3-5-2",
+    "away": "3-4-2-1"
+   },
+   "unavailable_players": {
+    "home": [],
+    "away": []
+   },
+   "updated_at": "2026-08-17T08:32:07Z"
+  },
+  "215481": {
+   "lineup_status": "predicted",
+   "confidence": {
+    "home": 0.35,
+    "away": 0.245
+   },
+   "formation": {
+    "home": "4-3-3",
+    "away": "3-4-2-1"
+   },
+   "unavailable_players": {
+    "home": [
+     {
+      "id": 4562,
+      "name": "Daniel Boloca",
+      "short_name": "D. Boloca",
+      "status": "injured",
+      "reason": "Knee Injury"
+     },
+     {
+      "id": 4620,
+      "name": "Edoardo Pieragnolo",
+      "short_name": "E. Pieragnolo",
+      "status": "injured",
+      "reason": "Cruciate Ligament Injury"
+     },
+     {
+      "id": 2857,
+      "name": "Fali Candé",
+      "short_name": "F. Candé",
+      "status": "injured",
+      "reason": "Cruciate Ligament Injury"
+     },
+     {
+      "id": 2848,
+      "name": "Ismael Koné",
+      "short_name": "I. Koné",
+      "status": "injured",
+      "reason": "Broken Ankle"
+     },
+     {
+      "id": 4313,
+      "name": "Yeferson Paz",
+      "short_name": "Y. Paz",
+      "status": "injured",
+      "reason": "Cruciate Ligament Injury"
+     }
+    ],
+    "away": []
+   },
+   "updated_at": "2026-08-17T08:32:07Z"
+  },
+  "215482": {
+   "lineup_status": "predicted",
+   "confidence": {
+    "home": 0.464,
+    "away": 0.236
+   },
+   "formation": {
+    "home": "3-5-2",
+    "away": "4-3-3"
+   },
+   "unavailable_players": {
+    "home": [],
+    "away": []
+   },
+   "updated_at": "2026-08-17T08:32:13Z"
+  },
+  "215483": {
+   "lineup_status": "predicted",
+   "confidence": {
+    "home": 0.35,
+    "away": 0.45
+   },
+   "formation": {
+    "home": "3-4-2-1",
+    "away": "4-2-3-1"
+   },
+   "unavailable_players": {
+    "home": [],
+    "away": []
+   },
+   "updated_at": "2026-08-17T08:32:15Z"
+  }
+ }
+}

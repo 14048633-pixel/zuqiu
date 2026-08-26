@@ -1,0 +1,138 @@
+{
+ "id": 210821,
+ "league": "荷甲",
+ "kickoff": "08-23 18:15",
+ "kickoff_iso": "2026-08-23T10:15:00Z",
+ "home": "Go Ahead Eagles",
+ "away": "ADO Den Haag",
+ "home_id": 139,
+ "away_id": 1319,
+ "pulled_at": "2026-08-23T17:41:23.336194+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 199,
+    "name": "Joseph Oosting",
+    "short_name": "J. Oosting",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 8.0,
+    "avg_goals_scored": 4.88,
+    "avg_goals_conceded": 1.0
+   },
+   "away": {
+    "id": 1859,
+    "name": "Robin Peter",
+    "short_name": "R. Peter",
+    "profile": "attacking",
+    "preferred_formation": "4-1-3-2",
+    "matches_total": 6.0,
+    "avg_goals_scored": 3.0,
+    "avg_goals_conceded": 0.83
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-1-3-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.73,
+   "draw": 3.94,
+   "away_win": 4.27,
+   "over_15_goals": 1.15,
+   "over_25_goals": 1.52,
+   "over_35_goals": 2.33,
+   "under_15_goals": 5.1,
+   "under_25_goals": 2.43,
+   "under_35_goals": 1.59,
+   "btts_yes": 1.52,
+   "btts_no": 2.39
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 36135,
+    "name": "Pim Saathof",
+    "short_name": "P. Saathof",
+    "status": "injured",
+    "reason": "ACL Knee Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 26445,
+    "name": "Cameron Peupion",
+    "short_name": "C. Peupion",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 26450,
+    "name": "Jalen Hawkins",
+    "short_name": "J. Hawkins",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "confirmed",
+  "confidence": {
+   "home": null,
+   "away": null
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-23T08:41:11Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.856,
+    "home_ga": 1.388,
+    "away_gf": 1.242,
+    "away_ga": 1.708,
+    "n_home": 42.5,
+    "n_away": 42.5,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.0,
+    "home_ga": 4.0,
+    "away_gf": 0.0,
+    "away_ga": 2.0,
+    "n_home": 1.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026/2027",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

@@ -1,0 +1,793 @@
+[
+ {
+  "bsd_id": 587797,
+  "ko_bjt": "08-26 02:00",
+  "home": "Cardiff City",
+  "away": "Norwich City",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.33,
+   "away": 1.5,
+   "sum": 2.84
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.65,
+  "dir_odds": 1.71,
+  "dir_ev": 0.04762734990903583,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 26.6,
+   "strong": false
+  },
+  "star": 0,
+  "risk_tags": [
+   "伤停>2人(主4/客1)",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "客胜高估区(赔率2.32: 真实客胜11%, 押受让+号/避平手)"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "数据包伤停: 主队伤停4人(如Calum Chambers,Dylan Lawlor,Ollie Ta)",
+   "客队数据来自E2",
+   "客队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "方案A大球校准: 强强档 大球概率+12pp(英联杯, 分档拟合实证)",
+   "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+   "规则8赔率高估区: 客胜高估区(赔率2.32: 真实客胜11%, 押受让+号/避平手) (1X2热门方向降权参考, 让球押受让+号)"
+  ],
+  "base_direction": "大2.50",
+  "base_dir_ev": 0.04762734990903583,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ },
+ {
+  "bsd_id": 587794,
+  "ko_bjt": "08-26 02:30",
+  "home": "Doncaster Rovers",
+  "away": "Middlesbrough",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 0.83,
+   "away": 1.22,
+   "sum": 2.05
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.4168,
+  "dir_odds": 1.65,
+  "dir_ev": -0.3529,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "risk_tags": [
+   "缺亚盘"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "客队数据来自E1",
+   "客队跨联赛用E1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "方案A大球校准: 混合档 大球概率+8pp(英联杯, 分档拟合实证)",
+   "规则6小2.50高EV禁出(按方案A校准前EV): 移除1腿(EV>=20%, 高价值档24注-10.8%, 升级规则②反向标记->禁出)"
+  ],
+  "base_direction": "大2.50",
+  "base_dir_ev": -0.3529,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ },
+ {
+  "bsd_id": 587808,
+  "ko_bjt": "08-26 02:45",
+  "home": "Fleetwood Town",
+  "away": "Shrewsbury Town",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.22,
+   "away": 0.86,
+   "sum": 2.08
+  },
+  "direction": "小2.50",
+  "dir_prob": 0.6058,
+  "dir_odds": 1.75,
+  "dir_ev": -0.0035,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 28.3,
+   "strong": false
+  },
+  "star": 0,
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "主胜高估区(赔率2.06: 真实主胜28%, 平局预警下押受让+号)"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "主队数据来自E3",
+   "客队数据来自E3",
+   "主队跨联赛用E3数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E3数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "方案A大球校准: 弱弱档 大球概率+5pp(英联杯, 分档拟合实证)",
+   "规则8赔率高估区: 主胜高估区(赔率2.06: 真实主胜28%, 平局预警下押受让+号) (1X2热门方向降权参考, 让球押受让+号)"
+  ],
+  "base_direction": "小2.50",
+  "base_dir_ev": -0.0035,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ },
+ {
+  "bsd_id": 587807,
+  "ko_bjt": "08-26 02:45",
+  "home": "Stevenage",
+  "away": "Reading",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.7,
+   "away": 1.48,
+   "sum": 3.17
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.65,
+  "dir_odds": 2.18,
+  "dir_ev": 0.33079193664506845,
+  "vetoed": true,
+  "veto_reason": "模型与市场分歧>20pp(模型69% vs 市场43%)",
+  "draw_warn": {
+   "market_draw_prob": 29.4,
+   "strong": false
+  },
+  "star": 0,
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "模型与市场分歧>20pp(模型69% vs 市场43%)->否决"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "主队数据来自E2",
+   "客队数据来自E2",
+   "主队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "方案A大球校准: 混合档 大球概率+8pp(英联杯, 分档拟合实证)",
+   "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+  ],
+  "base_direction": "大2.50",
+  "base_dir_ev": 0.33079193664506845,
+  "base_star": 0,
+  "base_veto": true,
+  "base_best": null,
+  "status": "否决"
+ },
+ {
+  "bsd_id": 587806,
+  "ko_bjt": "08-26 02:45",
+  "home": "Walsall",
+  "away": "Leyton Orient",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 0.9,
+   "away": 1.42,
+   "sum": 2.32
+  },
+  "direction": "小2.50",
+  "dir_prob": 0.5107,
+  "dir_odds": 1.98,
+  "dir_ev": -0.0466,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 26.9,
+   "strong": false
+  },
+  "star": 0,
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "主队数据来自E3",
+   "客队数据来自E2",
+   "主队跨联赛用E3数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "方案A大球校准: 混合档 大球概率+8pp(英联杯, 分档拟合实证)"
+  ],
+  "base_direction": "小2.50",
+  "base_dir_ev": -0.0466,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ },
+ {
+  "bsd_id": 587805,
+  "ko_bjt": "08-26 02:45",
+  "home": "Cambridge United",
+  "away": "Millwall",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.33,
+   "away": 1.1,
+   "sum": 2.43
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.5193,
+  "dir_odds": 1.95,
+  "dir_ev": -0.0413,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 28.2,
+   "strong": false
+  },
+  "star": 0,
+  "risk_tags": [
+   "伤停>2人(主0/客4)",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "数据包伤停: 客队伤停4人(如Femi Azeez,Massimo Luongo,Mathis Ser)",
+   "主队数据来自E2",
+   "客队数据来自E1",
+   "主队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "方案A大球校准: 混合档 大球概率+8pp(英联杯, 分档拟合实证)"
+  ],
+  "base_direction": "大2.50",
+  "base_dir_ev": -0.0413,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ },
+ {
+  "bsd_id": 587804,
+  "ko_bjt": "08-26 02:45",
+  "home": "Watford",
+  "away": "Peterborough United",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.07,
+   "away": 0.73,
+   "sum": 1.8
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.3197,
+  "dir_odds": 1.56,
+  "dir_ev": -0.5339,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "risk_tags": [
+   "伤停>2人(主3/客0)",
+   "缺亚盘"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "数据包伤停: 主队伤停3人(如Jeremy Ngakia,Kwadwo Baah,Marc Bola)",
+   "主队数据来自E1",
+   "主队跨联赛用E1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "方案A大球校准: 弱弱档 大球概率+5pp(英联杯, 分档拟合实证)",
+   "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+   "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选",
+   "规则6小2.50高EV禁出(按方案A校准前EV): 移除1腿(EV>=20%, 高价值档24注-10.8%, 升级规则②反向标记->禁出)"
+  ],
+  "base_direction": "大2.50",
+  "base_dir_ev": -0.5339,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ },
+ {
+  "bsd_id": 587803,
+  "ko_bjt": "08-26 02:45",
+  "home": "Stoke City",
+  "away": "Hull City",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.12,
+   "away": 1.25,
+   "sum": 2.37
+  },
+  "direction": "小2.50",
+  "dir_prob": 0.5277,
+  "dir_odds": 1.77,
+  "dir_ev": -0.1209,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 29.0,
+   "strong": false
+  },
+  "star": 0,
+  "risk_tags": [
+   "伤停>2人(主4/客9)",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "客胜高估区(赔率2.42: 真实客胜11%, 押受让+号/避平手)"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "数据包伤停: 主队伤停4人(如Aaron Cresswell,Ato Ampah,Junior Tch); 客队伤停9人(如Charlie Hughes,Darko Gyabi,Eliot Mat)",
+   "主队数据来自E2",
+   "客队数据来自E2",
+   "主队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "方案A大球校准: 弱弱档 大球概率+5pp(英联杯, 分档拟合实证)",
+   "规则8赔率高估区: 客胜高估区(赔率2.42: 真实客胜11%, 押受让+号/避平手) (1X2热门方向降权参考, 让球押受让+号)"
+  ],
+  "base_direction": "小2.50",
+  "base_dir_ev": -0.1209,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ },
+ {
+  "bsd_id": 587802,
+  "ko_bjt": "08-26 02:45",
+  "home": "Blackburn Rovers",
+  "away": "Sheffield United",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 0.79,
+   "away": 0.84,
+   "sum": 1.63
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.2749,
+  "dir_odds": 1.87,
+  "dir_ev": -0.5142,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 28.4,
+   "strong": false
+  },
+  "star": 0,
+  "risk_tags": [
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "客胜高估区(赔率2.55: 真实客胜11%, 押受让+号/避平手)"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "主队数据来自E2",
+   "客队数据来自E1",
+   "主队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "方案A大球校准: 弱弱档 大球概率+5pp(英联杯, 分档拟合实证)",
+   "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+   "规则6小2.50高EV禁出(按方案A校准前EV): 移除1腿(EV>=20%, 高价值档24注-10.8%, 升级规则②反向标记->禁出)",
+   "规则8赔率高估区: 客胜高估区(赔率2.55: 真实客胜11%, 押受让+号/避平手) (1X2热门方向降权参考, 让球押受让+号)"
+  ],
+  "base_direction": "大2.50",
+  "base_dir_ev": -0.5142,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ },
+ {
+  "bsd_id": 587801,
+  "ko_bjt": "08-26 02:45",
+  "home": "Plymouth Argyle",
+  "away": "Coventry City",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.03,
+   "away": 1.26,
+   "sum": 2.29
+  },
+  "direction": "小2.50",
+  "dir_prob": 0.5197,
+  "dir_odds": 2.12,
+  "dir_ev": 0.0327,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "risk_tags": [
+   "缺亚盘"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "客队数据来自E2",
+   "客队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "方案A大球校准: 混合档 大球概率+8pp(英联杯, 分档拟合实证)"
+  ],
+  "base_direction": "小2.50",
+  "base_dir_ev": 0.0327,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ },
+ {
+  "bsd_id": 587800,
+  "ko_bjt": "08-26 02:45",
+  "home": "Sheffield Wednesday",
+  "away": "Wolverhampton",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.02,
+   "away": 1.39,
+   "sum": 2.4
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.5114,
+  "dir_odds": 1.79,
+  "dir_ev": -0.1374,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "risk_tags": [
+   "缺亚盘"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "主队数据来自E2",
+   "客队数据来自E1",
+   "主队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "方案A大球校准: 混合档 大球概率+8pp(英联杯, 分档拟合实证)"
+  ],
+  "base_direction": "大2.50",
+  "base_dir_ev": -0.1374,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ },
+ {
+  "bsd_id": 587799,
+  "ko_bjt": "08-26 02:45",
+  "home": "Ipswich Town",
+  "away": "Leicester City",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.6,
+   "away": 0.58,
+   "sum": 2.18
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.4507,
+  "dir_odds": 1.62,
+  "dir_ev": -0.3111,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "主队数据来自E2",
+   "客队数据来自E2",
+   "主队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "方案A大球校准: 混合档 大球概率+8pp(英联杯, 分档拟合实证)",
+   "规则6小2.50高EV禁出(按方案A校准前EV): 移除1腿(EV>=20%, 高价值档24注-10.8%, 升级规则②反向标记->禁出)"
+  ],
+  "base_direction": "大2.50",
+  "base_dir_ev": -0.3111,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ },
+ {
+  "bsd_id": 587798,
+  "ko_bjt": "08-26 02:45",
+  "home": "Southampton",
+  "away": "West Ham United",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.85,
+   "away": 1.04,
+   "sum": 2.89
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.6321,
+  "dir_odds": 1.67,
+  "dir_ev": -0.0058,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 26.4,
+   "strong": false
+  },
+  "star": 0,
+  "risk_tags": [
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "客胜高估区(赔率2.56: 真实客胜11%, 押受让+号/避平手)"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "主队数据来自E1",
+   "客队数据来自E2",
+   "主队跨联赛用E1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "方案A大球校准: 混合档 大球概率+8pp(英联杯, 分档拟合实证)",
+   "规则8赔率高估区: 客胜高估区(赔率2.56: 真实客胜11%, 押受让+号/避平手) (1X2热门方向降权参考, 让球押受让+号)"
+  ],
+  "base_direction": "大2.50",
+  "base_dir_ev": -0.0058,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ },
+ {
+  "bsd_id": 587796,
+  "ko_bjt": "08-26 02:45",
+  "home": "Barnsley",
+  "away": "Crewe Alexandra",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.41,
+   "away": 1.23,
+   "sum": 2.65
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.5728,
+  "dir_odds": 1.57,
+  "dir_ev": -0.1565,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "主队数据来自E2",
+   "客队数据来自E3",
+   "主队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E3数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "方案A大球校准: 混合档 大球概率+8pp(英联杯, 分档拟合实证)"
+  ],
+  "base_direction": "大2.50",
+  "base_dir_ev": -0.1565,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ },
+ {
+  "bsd_id": 587795,
+  "ko_bjt": "08-26 02:45",
+  "home": "Blackpool",
+  "away": "Lincoln City",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.7,
+   "away": 1.48,
+   "sum": 3.17
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.65,
+  "dir_odds": 1.75,
+  "dir_ev": 0.06901367890568744,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 26.5,
+   "strong": false
+  },
+  "star": 1,
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "整球盘2.50遇预警降星"
+  ],
+  "best_bet": {
+   "name": "大2.50",
+   "prob": 0.65,
+   "odds": 1.75,
+   "ev": 0.06901367890568744,
+   "ev_pre_ou_adj": 0.0106,
+   "ou_bucket": "混合",
+   "prob_raw": 0.6945,
+   "star": 1,
+   "ev_tier": "观察",
+   "stake_factor": 0.075
+  },
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "主队数据来自E2",
+   "客队数据来自E2",
+   "主队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "方案A大球校准: 混合档 大球概率+8pp(英联杯, 分档拟合实证)",
+   "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+  ],
+  "base_direction": "大2.50",
+  "base_dir_ev": 0.06901367890568744,
+  "base_star": 1,
+  "base_veto": false,
+  "base_best": {
+   "name": "大2.50",
+   "prob": 0.65,
+   "odds": 1.75,
+   "ev": 0.06901367890568744,
+   "ev_pre_ou_adj": 0.0106,
+   "ou_bucket": "混合",
+   "prob_raw": 0.6945,
+   "star": 1,
+   "ev_tier": "观察",
+   "stake_factor": 0.075
+  },
+  "status": "BEST/保持(Δ+0.0%)"
+ },
+ {
+  "bsd_id": 587810,
+  "ko_bjt": "08-26 03:00",
+  "home": "Birmingham City",
+  "away": "Brentford",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.4,
+   "away": 0.92,
+   "sum": 2.32
+  },
+  "direction": "小2.50",
+  "dir_prob": 0.541,
+  "dir_odds": 2.14,
+  "dir_ev": 0.0859,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 1,
+  "risk_tags": [
+   "缺亚盘"
+  ],
+  "best_bet": {
+   "name": "小2.50",
+   "prob": 0.541,
+   "odds": 2.14,
+   "ev": 0.0859,
+   "ev_pre_ou_adj": 0.1863,
+   "ou_bucket": "弱弱",
+   "star": 1,
+   "ev_tier": "标准",
+   "stake_factor": 0.35
+  },
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "主队数据来自E2",
+   "客队数据来自E0",
+   "主队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E0数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "方案A大球校准: 弱弱档 大球概率+5pp(英联杯, 分档拟合实证)"
+  ],
+  "base_direction": "小2.50",
+  "base_dir_ev": 0.0859,
+  "base_star": 1,
+  "base_veto": false,
+  "base_best": {
+   "name": "小2.50",
+   "prob": 0.541,
+   "odds": 2.14,
+   "ev": 0.0859,
+   "ev_pre_ou_adj": 0.1863,
+   "ou_bucket": "弱弱",
+   "star": 1,
+   "ev_tier": "标准",
+   "stake_factor": 0.35
+  },
+  "status": "BEST/保持(Δ+0.0%)"
+ },
+ {
+  "bsd_id": 587809,
+  "ko_bjt": "08-26 03:00",
+  "home": "Nottingham Forest",
+  "away": "Leeds United",
+  "cons_src": "BSD临场",
+  "pulled_at": "2026-08-25T16:28:43+08:00",
+  "lambda": {
+   "home": 1.08,
+   "away": 0.67,
+   "sum": 1.76
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.3079,
+  "dir_odds": 1.94,
+  "dir_ev": -0.4374,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 27.8,
+   "strong": false
+  },
+  "star": 0,
+  "risk_tags": [
+   "伤停>2人(主2/客3)",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "主胜高估区(赔率2.15: 真实主胜28%, 平局预警下押受让+号)"
+  ],
+  "best_bet": null,
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "数据包伤停: 客队伤停3人(如Gabriel Gudmundsson,Mateo Joseph,Wil)",
+   "主队数据来自E0",
+   "客队数据来自E0",
+   "主队跨联赛用E0数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E0数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "方案A大球校准: 弱弱档 大球概率+5pp(英联杯, 分档拟合实证)",
+   "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+   "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选",
+   "规则6小2.50高EV禁出(按方案A校准前EV): 移除1腿(EV>=20%, 高价值档24注-10.8%, 升级规则②反向标记->禁出)",
+   "规则8赔率高估区: 主胜高估区(赔率2.15: 真实主胜28%, 平局预警下押受让+号) (1X2热门方向降权参考, 让球押受让+号)"
+  ],
+  "base_direction": "大2.50",
+  "base_dir_ev": -0.4374,
+  "base_star": 0,
+  "base_veto": false,
+  "base_best": null,
+  "status": "参考"
+ }
+]

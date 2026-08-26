@@ -1,0 +1,149 @@
+{
+ "id": 211869,
+ "league": "Ekstraklasa",
+ "kickoff": "08-22 02:30",
+ "kickoff_iso": "2026-08-21T18:30:00+00:00",
+ "home": "KS Cracovia",
+ "away": "Wieczysta Kraków",
+ "home_id": 422,
+ "away_id": 1822,
+ "pulled_at": "2026-08-21T00:41:30.819213+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1358,
+    "name": "Bartosz Grzelak",
+    "short_name": "B. Grzelak",
+    "profile": "balanced",
+    "preferred_formation": "3-4-3",
+    "matches_total": 46.0,
+    "avg_goals_scored": 1.2,
+    "avg_goals_conceded": 1.2
+   },
+   "away": {
+    "id": 1179,
+    "name": "Kazimierz Moskal",
+    "short_name": "K. Moskal",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 15.0,
+    "avg_goals_scored": 1.73,
+    "avg_goals_conceded": 1.33
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-3",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.01,
+   "draw": 3.47,
+   "away_win": 3.39,
+   "over_15_goals": 1.22,
+   "over_25_goals": 1.74,
+   "over_35_goals": 2.82,
+   "under_15_goals": 3.79,
+   "under_25_goals": 1.99,
+   "under_35_goals": 1.37,
+   "btts_yes": 1.64,
+   "btts_no": 2.14
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 8432,
+    "name": "Filip Marchwiński",
+    "short_name": "F. Marchwiński",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 13847,
+    "name": "Karol Knap",
+    "short_name": "K. Knap",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 9621,
+    "name": "Wiktor Bogacz",
+    "short_name": "W. Bogacz",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 41146,
+    "name": "Stefan Feiertag",
+    "short_name": "S. Feiertag",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.555,
+   "away": 0.364
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-20T14:32:36Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.404,
+    "home_ga": 1.035,
+    "away_gf": 0.926,
+    "away_ga": 1.148,
+    "n_home": 5.7,
+    "n_away": 10.8,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 422
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.466,
+    "home_ga": 1.631,
+    "away_gf": 2.25,
+    "away_ga": 2.25,
+    "n_home": 10.3,
+    "n_away": 2.4,
+    "n_scored": 21,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1822
+   }
+  }
+ }
+}

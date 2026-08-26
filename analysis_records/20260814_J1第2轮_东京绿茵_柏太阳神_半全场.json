@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-08-14 13:00",
+  "match": "东京绿茵 vs 柏太阳神",
+  "league": "日本J1联赛(2026-27跨年正式赛季)",
+  "round": "第2轮",
+  "kickoff_beijing": "2026-08-14 18:00 (MUFG国立竞技场)",
+  "match_status": "pre_match",
+  "analysis_type": "半全场(HT/FT)专项分析",
+  "model_base": {
+    "note": "与FT新数据版同口径 λ_home=1.03 λ_away=1.33; 半场份额0.42为J1半场进球占比经验值假设(未逐场验证)",
+    "ht_lambda": {
+      "home": 0.43,
+      "away": 0.56
+    },
+    "second_half_lambda": {
+      "home": 0.6,
+      "away": 0.77
+    }
+  },
+  "ht_result_model": {
+    "home_win": 22.4,
+    "draw": 46.6,
+    "away_win": 30.9,
+    "ht_0_0": 37.1,
+    "ht_ge1": 62.9,
+    "ht_ge2": 17.1
+  },
+  "htft_9grid_pct": {
+    "home_win_then_home_win": 15.5,
+    "home_win_then_draw": 4.8,
+    "home_win_then_away_win": 2.2,
+    "ht_draw_then_home_win": 11.9,
+    "ht_draw_then_draw": 18.0,
+    "ht_draw_then_away_win": 16.8,
+    "away_win_then_home_win": 1.6,
+    "away_win_then_draw": 4.8,
+    "away_win_then_away_win": 24.6
+  },
+  "conditional": {
+    "given_ht_draw_ft": {
+      "home": 25.4,
+      "draw": 38.6,
+      "away": 36.0
+    },
+    "given_ht_away_lead_ft_away_win": "约80% (24.6/30.9)"
+  },
+  "real_data_signals": {
+    "kashiwa_away_last9": "近9个客场7次半场0-0(bodongxi实测, 唯一例外2026-05-30京都2-6柏 半场1-3)",
+    "tokyo_ht_draw_rate": "本赛季半场和率不低; 2026-05-03 东京1-0柏 半场0-0; 媒体: 东京主场近4次3次半场和",
+    "round1_2026": "东京1-1川崎(半场0-0被补时绝平); 柏2-1水户(半场2-0)"
+  },
+  "market_reference": {
+    "qiu_tan_htft": "球探半全场会员页(需会员): 半场和@3.05为主流方向, 隐含概率约32.8%",
+    "model_vs_market": "模型半场和46.6% > 市场隐含~33% → 半场和方向存在edge, 但模型不含临场半场伤停/战术调整",
+    "ht_totals": "半场大小球盘口无公开免费数据, 仅给方向: 半场小1(0-0/0-1/1-0)优先"
+  },
+  "verdict": {
+    "ht": "主推半场和(46.6%), 比分优先0-0(37.1%); 半场客胜30.9%次之",
+    "ft": "全场方向偏柏(FT 43.5%)但以1-2球为主; 若半场和→全场平/柏胜五五偏柏",
+    "best_htft": "客胜→客胜(24.6%)最大单格; 次选平→平(18.0%)+平→负(16.8%)",
+    "avoid": "主胜→任何(全组合合计22.4%, 东京主场赢面最低)"
+  },
+  "caveats": [
+    "半场份额0.42为经验假设, 未逐场验证",
+    "模型不含半场换人/战术调整/点球/红牌",
+    "首发未公布(18:00开赛), 伤停为赛前情报",
+    "球探半全场9宫格完整价格需会员, 半场大小盘无公开数据",
+    "the-odds-api免费key不支持htft/h2h_h1/ou_h1市场(422)"
+  ],
+  "sources": [
+    "bodongxi.com 赛果",
+    "titan007 球探半全场(会员)",
+    "dailysports/gogoal 单场参考",
+    "the-odds-api 11:30盘口快照",
+    "模型计算 htft_model.py"
+  ]
+}

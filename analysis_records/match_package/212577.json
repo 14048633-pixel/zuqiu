@@ -1,0 +1,112 @@
+{
+ "id": 212577,
+ "league": "Emperor Cup",
+ "kickoff": "08-26 18:00",
+ "kickoff_iso": "2026-08-26T10:00:00+00:00",
+ "home": "Iwaki FC",
+ "away": "Oita Trinita",
+ "home_id": 1984,
+ "away_id": 1969,
+ "pulled_at": "2026-08-25T23:49:10.936333+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=1334) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": {
+    "id": 1325,
+    "name": "Shuhei Yomoda",
+    "short_name": "S. Yomoda",
+    "profile": "balanced",
+    "preferred_formation": "5-4-1",
+    "matches_total": 5.0,
+    "avg_goals_scored": 1.6,
+    "avg_goals_conceded": 1.4
+   }
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": "5-4-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 1.89,
+   "btts_no": 1.78
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.05,
+   "away": 0.173
+  },
+  "formation": {
+   "home": "3-5-1-1",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-25T14:32:33Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.857,
+    "home_ga": 2.0,
+    "away_gf": 1.818,
+    "away_ga": 1.773,
+    "n_home": 4.9,
+    "n_away": 4.4,
+    "n_scored": 12,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1984
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.592,
+    "home_ga": 0.855,
+    "away_gf": 1.112,
+    "away_ga": 1.697,
+    "n_home": 7.6,
+    "n_away": 8.9,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1969
+   }
+  }
+ }
+}

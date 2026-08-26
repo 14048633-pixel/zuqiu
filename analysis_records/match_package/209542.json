@@ -1,0 +1,325 @@
+{
+ "id": 209542,
+ "league": "英超",
+ "kickoff": "08-23 21:00",
+ "kickoff_iso": "2026-08-23T13:00:00Z",
+ "home": "Manchester City",
+ "away": "Bournemouth",
+ "home_id": 12,
+ "away_id": 2,
+ "pulled_at": "2026-08-23T17:36:47.370849+08:00",
+ "missing": [
+  "away教练(coach_cache未命中 id=1820) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1916,
+    "name": "Enzo Maresca",
+    "short_name": "E. Maresca",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 6.0,
+    "avg_goals_scored": 3.67,
+    "avg_goals_conceded": 0.83
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.48,
+   "draw": 4.79,
+   "away_win": 5.73,
+   "over_15_goals": 1.11,
+   "over_25_goals": 1.42,
+   "over_35_goals": 2.1,
+   "under_15_goals": 5.96,
+   "under_25_goals": 2.75,
+   "under_35_goals": 1.74,
+   "btts_yes": 1.55,
+   "btts_no": 2.35
+  },
+  "best": {
+   "btts": {
+    "yes": {
+     "odds": 1.6,
+     "bookmaker": "fonbet",
+     "n": 18
+    },
+    "no": {
+     "odds": 2.5,
+     "bookmaker": "betfair",
+     "n": 18
+    }
+   },
+   "double_chance": {
+    "1x": {
+     "odds": 1.16,
+     "bookmaker": "1xbet",
+     "n": 8
+    },
+    "x2": {
+     "odds": 2.75,
+     "bookmaker": "unibet",
+     "n": 8
+    },
+    "12": {
+     "odds": 1.21,
+     "bookmaker": "1xbet",
+     "n": 8
+    }
+   },
+   "draw_no_bet": {
+    "home": {
+     "odds": 1.206,
+     "bookmaker": "pinnacle",
+     "n": 12
+    },
+    "away": {
+     "odds": 5.0,
+     "bookmaker": "bet365",
+     "n": 12
+    }
+   },
+   "over_under_15": {
+    "over@1.5": {
+     "odds": 1.13,
+     "bookmaker": "10bet",
+     "n": 6
+    },
+    "under@1.5": {
+     "odds": 6.5,
+     "bookmaker": "betvictor",
+     "n": 6
+    }
+   },
+   "over_under_25": {
+    "over@2.5": {
+     "odds": 1.44,
+     "bookmaker": "10bet",
+     "n": 8
+    },
+    "under@2.5": {
+     "odds": 2.87,
+     "bookmaker": "pinnacle",
+     "n": 8
+    }
+   },
+   "over_under_35": {
+    "over@3.5": {
+     "odds": 2.16,
+     "bookmaker": "sbo",
+     "n": 8
+    },
+    "under@3.5": {
+     "odds": 1.81,
+     "bookmaker": "1xbet",
+     "n": 8
+    }
+   },
+   "over_under_05": {
+    "over@0.5": {
+     "odds": 1.03,
+     "bookmaker": "888sport",
+     "n": 2
+    },
+    "under@0.5": {
+     "odds": 22.0,
+     "bookmaker": "1xbet",
+     "n": 2
+    }
+   },
+   "total_corners": {
+    "over@7.5": {
+     "odds": 1.15,
+     "bookmaker": "unibet",
+     "n": 3
+    },
+    "under@7.5": {
+     "odds": 4.8,
+     "bookmaker": "betfair",
+     "n": 3
+    },
+    "over@8.5": {
+     "odds": 1.3,
+     "bookmaker": "unibet",
+     "n": 3
+    },
+    "under@8.5": {
+     "odds": 3.3,
+     "bookmaker": "betfair",
+     "n": 3
+    },
+    "over@9.5": {
+     "odds": 1.5,
+     "bookmaker": "betfair",
+     "n": 4
+    },
+    "under@9.5": {
+     "odds": 2.52,
+     "bookmaker": "pinnacle",
+     "n": 4
+    },
+    "over@10.5": {
+     "odds": 1.87,
+     "bookmaker": "pinnacle",
+     "n": 5
+    },
+    "under@10.5": {
+     "odds": 1.96,
+     "bookmaker": "pinnacle",
+     "n": 5
+    },
+    "over@11.5": {
+     "odds": 2.4,
+     "bookmaker": "betfair",
+     "n": 4
+    },
+    "under@11.5": {
+     "odds": 1.6,
+     "bookmaker": "pinnacle",
+     "n": 4
+    }
+   },
+   "1x2": {
+    "home": {
+     "odds": 1.54,
+     "bookmaker": "1xbet",
+     "n": 20
+    },
+    "draw": {
+     "odds": 5.03,
+     "bookmaker": "1xbet",
+     "n": 20
+    },
+    "away": {
+     "odds": 6.4,
+     "bookmaker": "unibet",
+     "n": 20
+    }
+   }
+  },
+  "bookmakers_count": 27,
+  "total_odds": 230
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 812,
+    "name": "Jack Grealish",
+    "short_name": "J. Grealish",
+    "status": "injured",
+    "reason": "Foot Injury"
+   },
+   {
+    "id": 853,
+    "name": "Jérémy Doku",
+    "short_name": "J. Doku",
+    "status": "injured",
+    "reason": "Calf Injury"
+   },
+   {
+    "id": 855,
+    "name": "Savinho",
+    "short_name": "Savinho",
+    "status": "injured",
+    "reason": "Illness"
+   }
+  ],
+  "away": [
+   {
+    "id": 790,
+    "name": "Amine Adli",
+    "short_name": "A. Adli",
+    "status": "injured",
+    "reason": "Calf Injury"
+   },
+   {
+    "id": 793,
+    "name": "Eli Junior Kroupi",
+    "short_name": "E. J. Kroupi",
+    "status": "injured",
+    "reason": "Foot Injury"
+   },
+   {
+    "id": 800,
+    "name": "Julián Araujo",
+    "short_name": "J. Araujo",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 3900,
+    "name": "Ryan Christie",
+    "short_name": "R. Christie",
+    "status": "suspended",
+    "reason": "red_card_suspension"
+   },
+   {
+    "id": 785,
+    "name": "Veljko Milosavljević",
+    "short_name": "V. Milosavljević",
+    "status": "injured",
+    "reason": "Knock Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.568,
+   "away": 0.591
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:21Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 0.8,
+    "away_gf": 1.4,
+    "away_ga": 1.0,
+    "n_home": 10.0,
+    "n_away": 10.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.371,
+    "home_ga": 1.098,
+    "away_gf": 1.549,
+    "away_ga": 1.812,
+    "n_home": 43.7,
+    "n_away": 43.7,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

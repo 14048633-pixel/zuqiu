@@ -1,0 +1,475 @@
+{
+ "id": 587780,
+ "league": "Copa Libertadores",
+ "kickoff": "08-26 08:30",
+ "kickoff_iso": "2026-08-26T00:30:00+00:00",
+ "home": "Independiente del Valle",
+ "away": "Deportes Tolima",
+ "home_id": 793,
+ "away_id": 781,
+ "pulled_at": "2026-08-25T23:45:26.703787+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 534,
+    "name": "Joaquin Papa",
+    "short_name": "J. Papa",
+    "profile": "attacking",
+    "preferred_formation": "4-1-4-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 1.71,
+    "avg_goals_conceded": 1.14
+   },
+   "away": {
+    "id": 1966,
+    "name": "Sebastián Oliveros",
+    "short_name": "S. Oliveros",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 29.0,
+    "avg_goals_scored": 1.45,
+    "avg_goals_conceded": 1.03
+   }
+  },
+  "preferred_formation": {
+   "home": "4-1-4-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.59,
+   "draw": 3.75,
+   "away_win": 5.98,
+   "over_15_goals": 1.38,
+   "over_25_goals": 2.21,
+   "over_35_goals": 4.17,
+   "under_15_goals": 2.9,
+   "under_25_goals": 1.65,
+   "under_35_goals": 1.21,
+   "btts_yes": 2.21,
+   "btts_no": 1.61
+  },
+  "best": {
+   "btts": {
+    "yes": {
+     "odds": 2.38,
+     "bookmaker": "betfair",
+     "n": 16
+    },
+    "no": {
+     "odds": 1.83,
+     "bookmaker": "888sport",
+     "n": 16
+    }
+   },
+   "draw_no_bet": {
+    "home": {
+     "odds": 1.21,
+     "bookmaker": "betano",
+     "n": 10
+    },
+    "away": {
+     "odds": 4.75,
+     "bookmaker": "betway",
+     "n": 10
+    }
+   },
+   "1x2": {
+    "home": {
+     "odds": 2.5,
+     "bookmaker": "888sport",
+     "n": 20
+    },
+    "draw": {
+     "odds": 4.0,
+     "bookmaker": "bet365",
+     "n": 20
+    },
+    "away": {
+     "odds": 6.8,
+     "bookmaker": "betsson",
+     "n": 20
+    }
+   },
+   "double_chance": {
+    "1x": {
+     "odds": 1.36,
+     "bookmaker": "888sport",
+     "n": 8
+    },
+    "x2": {
+     "odds": 2.42,
+     "bookmaker": "1xbet",
+     "n": 8
+    },
+    "12": {
+     "odds": 1.36,
+     "bookmaker": "888sport",
+     "n": 8
+    }
+   },
+   "over_under_15": {
+    "over@1.5": {
+     "odds": 1.4,
+     "bookmaker": "888sport",
+     "n": 7
+    },
+    "under@1.5": {
+     "odds": 3.08,
+     "bookmaker": "pinnacle",
+     "n": 7
+    }
+   },
+   "asian_handicap": {
+    "home@-0.25": {
+     "odds": 1.41,
+     "bookmaker": "novibet",
+     "n": 5
+    },
+    "away@-0.25": {
+     "odds": 3.1,
+     "bookmaker": "unibet",
+     "n": 5
+    },
+    "home@-1.75": {
+     "odds": 3.605,
+     "bookmaker": "1xbet",
+     "n": 6
+    },
+    "away@-1.75": {
+     "odds": 1.35,
+     "bookmaker": "bet365",
+     "n": 6
+    },
+    "home@-1.25": {
+     "odds": 2.4,
+     "bookmaker": "novibet",
+     "n": 6
+    },
+    "away@-1.25": {
+     "odds": 1.624,
+     "bookmaker": "1xbet",
+     "n": 6
+    },
+    "home@-0.75": {
+     "odds": 1.76,
+     "bookmaker": "novibet",
+     "n": 6
+    },
+    "away@-0.75": {
+     "odds": 2.15,
+     "bookmaker": "unibet",
+     "n": 6
+    },
+    "home@0.25": {
+     "odds": 1.18,
+     "bookmaker": "novibet",
+     "n": 5
+    },
+    "away@0.25": {
+     "odds": 5.5,
+     "bookmaker": "bet365",
+     "n": 5
+    },
+    "home@0.75": {
+     "odds": 1.014,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "away@0.75": {
+     "odds": 8.4,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "home@-2.75": {
+     "odds": 7.0,
+     "bookmaker": "bet365",
+     "n": 3
+    },
+    "away@-2.75": {
+     "odds": 1.1,
+     "bookmaker": "bet365",
+     "n": 3
+    },
+    "home@-2.25": {
+     "odds": 5.05,
+     "bookmaker": "novibet",
+     "n": 5
+    },
+    "away@-2.25": {
+     "odds": 1.18,
+     "bookmaker": "bet365",
+     "n": 5
+    },
+    "home@-1.5": {
+     "odds": 2.75,
+     "bookmaker": "novibet",
+     "n": 7
+    },
+    "away@-1.5": {
+     "odds": 1.499,
+     "bookmaker": "1xbet",
+     "n": 7
+    },
+    "home@-2.5": {
+     "odds": 5.5,
+     "bookmaker": "bet365",
+     "n": 6
+    },
+    "away@-2.5": {
+     "odds": 1.15,
+     "bookmaker": "unibet",
+     "n": 6
+    },
+    "home@-0.5": {
+     "odds": 1.59,
+     "bookmaker": "novibet",
+     "n": 9
+    },
+    "away@-0.5": {
+     "odds": 2.45,
+     "bookmaker": "unibet",
+     "n": 9
+    },
+    "home@0.0": {
+     "odds": 1.22,
+     "bookmaker": "novibet",
+     "n": 7
+    },
+    "away@0.0": {
+     "odds": 4.65,
+     "bookmaker": "1xbet",
+     "n": 7
+    },
+    "home@0.5": {
+     "odds": 1.15,
+     "bookmaker": "novibet",
+     "n": 3
+    },
+    "away@0.5": {
+     "odds": 5.9,
+     "bookmaker": "bet365",
+     "n": 3
+    },
+    "home@-2.0": {
+     "odds": 4.6,
+     "bookmaker": "novibet",
+     "n": 7
+    },
+    "away@-2.0": {
+     "odds": 1.21,
+     "bookmaker": "bet365",
+     "n": 7
+    },
+    "home@-1.0": {
+     "odds": 2.06,
+     "bookmaker": "novibet",
+     "n": 8
+    },
+    "away@-1.0": {
+     "odds": 1.85,
+     "bookmaker": "bet365",
+     "n": 8
+    },
+    "home@-3.0": {
+     "odds": 9.7,
+     "bookmaker": "1xbet",
+     "n": 1
+    },
+    "away@-3.0": {
+     "odds": 1.01,
+     "bookmaker": "1xbet",
+     "n": 1
+    }
+   },
+   "over_under_25": {
+    "over@2.5": {
+     "odds": 2.25,
+     "bookmaker": "888sport",
+     "n": 8
+    },
+    "under@2.5": {
+     "odds": 1.69,
+     "bookmaker": "1xbet",
+     "n": 8
+    }
+   },
+   "over_under_35": {
+    "over@3.5": {
+     "odds": 4.33,
+     "bookmaker": "888sport",
+     "n": 7
+    },
+    "under@3.5": {
+     "odds": 1.24,
+     "bookmaker": "pinnacle",
+     "n": 7
+    }
+   },
+   "over_under_05": {
+    "over@0.5": {
+     "odds": 1.08,
+     "bookmaker": "888sport",
+     "n": 6
+    },
+    "under@0.5": {
+     "odds": 8.5,
+     "bookmaker": "1xbet",
+     "n": 6
+    }
+   },
+   "total_corners": {
+    "over@7.5": {
+     "odds": 1.3,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "under@7.5": {
+     "odds": 3.25,
+     "bookmaker": "unibet",
+     "n": 2
+    },
+    "over@8.5": {
+     "odds": 1.59,
+     "bookmaker": "pinnacle",
+     "n": 3
+    },
+    "under@8.5": {
+     "odds": 2.4,
+     "bookmaker": "unibet",
+     "n": 3
+    },
+    "over@9.5": {
+     "odds": 2.01,
+     "bookmaker": "pinnacle",
+     "n": 4
+    },
+    "under@9.5": {
+     "odds": 1.88,
+     "bookmaker": "unibet",
+     "n": 4
+    },
+    "over@10.5": {
+     "odds": 2.57,
+     "bookmaker": "pinnacle",
+     "n": 3
+    },
+    "under@10.5": {
+     "odds": 1.55,
+     "bookmaker": "unibet",
+     "n": 3
+    },
+    "over@11.5": {
+     "odds": 3.07,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "under@11.5": {
+     "odds": 1.34,
+     "bookmaker": "unibet",
+     "n": 2
+    }
+   }
+  },
+  "bookmakers_count": 26,
+  "total_odds": 392
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 36273,
+    "name": "Guido Villar",
+    "short_name": "G. Villar",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 18512,
+    "name": "Brayan Rovira",
+    "short_name": "B. Rovira",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 20056,
+    "name": "Ever Valencia",
+    "short_name": "E. Valencia",
+    "status": "injured",
+    "reason": "Achilles Tendon Injury"
+   },
+   {
+    "id": 22806,
+    "name": "Jherson Mosquera",
+    "short_name": "J. Mosquera",
+    "status": "injured",
+    "reason": "Sprained Ankle"
+   },
+   {
+    "id": 18516,
+    "name": "Luis Sandoval",
+    "short_name": "L. Sandoval",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.655,
+   "away": 0.641
+  },
+  "formation": {
+   "home": "4-1-4-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-25T14:32:23Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.937,
+    "home_ga": 0.911,
+    "away_gf": 1.081,
+    "away_ga": 1.43,
+    "n_home": 7.9,
+    "n_away": 8.6,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 793
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 3.0,
+    "home_ga": 1.0,
+    "away_gf": 1.0,
+    "away_ga": 1.0,
+    "n_home": 1.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

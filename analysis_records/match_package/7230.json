@@ -1,0 +1,180 @@
+{
+ "id": 7230,
+ "league": "巴甲",
+ "kickoff": "08-24 03:00",
+ "kickoff_iso": "2026-08-23T19:00:00Z",
+ "home": "Palmeiras",
+ "away": "Vasco da Gama",
+ "home_id": 162,
+ "away_id": 164,
+ "pulled_at": "2026-08-23T17:38:45.990440+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 162,
+    "name": "Abel Ferreira",
+    "short_name": "A. Ferreira",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 70.0,
+    "avg_goals_scored": 1.8,
+    "avg_goals_conceded": 0.83
+   },
+   "away": {
+    "id": 290,
+    "name": "Pedro Emanuel",
+    "short_name": "P. Emanuel",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 43.0,
+    "avg_goals_scored": 1.21,
+    "avg_goals_conceded": 1.42
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.58,
+   "draw": 3.88,
+   "away_win": 5.55,
+   "over_15_goals": 1.26,
+   "over_25_goals": 1.88,
+   "over_35_goals": 3.17,
+   "under_15_goals": 3.57,
+   "under_25_goals": 1.9,
+   "under_35_goals": 1.32,
+   "btts_yes": 1.89,
+   "btts_no": 1.84
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 35,
+    "name": "Bruno Fuchs",
+    "short_name": "B. Fuchs",
+    "status": "injured",
+    "reason": "Appendicitis"
+   },
+   {
+    "id": 36,
+    "name": "Jefté",
+    "short_name": "Jefté",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   },
+   {
+    "id": 28,
+    "name": "Joaquín Piquerez",
+    "short_name": "J. Piquerez",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 25,
+    "name": "Khellven",
+    "short_name": "Khellven",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 5053,
+    "name": "Paulinho",
+    "short_name": "Paulinho",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 37,
+    "name": "Ramón Sosa",
+    "short_name": "R. Sosa",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 9167,
+    "name": "Brenner",
+    "short_name": "Brenner",
+    "status": "injured",
+    "reason": "Toe Injury"
+   },
+   {
+    "id": 4755,
+    "name": "Jair",
+    "short_name": "Jair",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 10276,
+    "name": "Johan Rojas",
+    "short_name": "J. Rojas",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.714,
+   "away": 0.8
+  },
+  "formation": {
+   "home": "3-4-1-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:58Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.545,
+    "home_ga": 0.727,
+    "away_gf": 1.917,
+    "away_ga": 0.917,
+    "n_home": 11,
+    "n_away": 12,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.083,
+    "home_ga": 1.417,
+    "away_gf": 1.0,
+    "away_ga": 1.7,
+    "n_home": 12,
+    "n_away": 10,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  }
+ }
+}

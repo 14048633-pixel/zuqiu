@@ -1,0 +1,150 @@
+{
+ "id": 587878,
+ "league": "欧协联",
+ "kickoff": "08-21 03:00",
+ "kickoff_iso": "2026-08-20T19:00:00+00:00",
+ "home": "HNK Hajduk Split",
+ "away": "Raków Częstochowa",
+ "home_id": 2343,
+ "away_id": 428,
+ "pulled_at": "2026-08-20T22:16:38.586667+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1853,
+    "name": "Gonzalo García",
+    "short_name": "G. García",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 11.0,
+    "avg_goals_scored": 2.18,
+    "avg_goals_conceded": 0.82
+   },
+   "away": {
+    "id": 1443,
+    "name": "Dawid Kroczek",
+    "short_name": "D. Kroczek",
+    "profile": "attacking",
+    "preferred_formation": "3-4-3",
+    "matches_total": 56.0,
+    "avg_goals_scored": 1.71,
+    "avg_goals_conceded": 1.23
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.02,
+   "draw": 3.26,
+   "away_win": 3.61,
+   "over_15_goals": 1.32,
+   "over_25_goals": 2.02,
+   "over_35_goals": 3.5,
+   "under_15_goals": 3.1,
+   "under_25_goals": 1.73,
+   "under_35_goals": 1.26,
+   "btts_yes": 1.81,
+   "btts_no": 1.88
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 8791,
+    "name": "Mathieu Acapandié",
+    "short_name": "M. Acapandié",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 64863,
+    "name": "Roko Brajković",
+    "short_name": "R. Brajković",
+    "status": "injured",
+    "reason": "Knee Surgery"
+   }
+  ],
+  "away": [
+   {
+    "id": 13999,
+    "name": "Karol Struski",
+    "short_name": "K. Struski",
+    "status": "injured",
+    "reason": "Ligament Injury"
+   },
+   {
+    "id": 13992,
+    "name": "Marko Bulat",
+    "short_name": "M. Bulat",
+    "status": "injured",
+    "reason": ""
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.468,
+   "away": 0.536
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-3"
+  },
+  "updated_at": "2026-08-20T08:32:18Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.962,
+    "home_ga": 0.329,
+    "away_gf": 1.523,
+    "away_ga": 1.395,
+    "n_home": 7.9,
+    "n_away": 8.6,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 2343
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.714,
+    "home_ga": 0.786,
+    "away_gf": 1.6,
+    "away_ga": 1.463,
+    "n_home": 7.0,
+    "n_away": 9.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 428
+   }
+  }
+ }
+}

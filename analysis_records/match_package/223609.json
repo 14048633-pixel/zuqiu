@@ -1,0 +1,133 @@
+{
+ "id": 223609,
+ "league": "阿甲",
+ "kickoff": "08-24 01:45",
+ "kickoff_iso": "2026-08-23T17:45:00Z",
+ "home": "Sarmiento de Junin",
+ "away": "Estudiantes",
+ "home_id": 4999,
+ "away_id": 787,
+ "pulled_at": "2026-08-23T17:39:24.031812+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 3199,
+    "name": "Facundo Sava",
+    "short_name": "F. Sava",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 20.0,
+    "avg_goals_scored": 1.05,
+    "avg_goals_conceded": 1.4
+   },
+   "away": {
+    "id": 517,
+    "name": "Alexander Medina",
+    "short_name": "A. Medina",
+    "profile": "defensive",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 27.0,
+    "avg_goals_scored": 1.04,
+    "avg_goals_conceded": 0.67
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 2.06,
+   "btts_no": 1.69
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 90736,
+    "name": "Joel Godoy",
+    "short_name": "J. Godoy",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 22388,
+    "name": "Tiago Palacios",
+    "short_name": "T. Palacios",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.727,
+   "away": 0.8
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:48Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.364,
+    "home_ga": 0.909,
+    "away_gf": 0.8,
+    "away_ga": 1.8,
+    "n_home": 11.0,
+    "n_away": 10.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 0.782,
+    "away_ga": 1.182,
+    "n_home": 0.0,
+    "n_away": 16.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 787
+   }
+  }
+ }
+}

@@ -1,0 +1,173 @@
+{
+ "id": 215512,
+ "league": "葡超",
+ "kickoff": "08-24 03:30",
+ "kickoff_iso": "2026-08-23T19:30:00Z",
+ "home": "FC Porto",
+ "away": "Arouca",
+ "home_id": 35,
+ "away_id": 25,
+ "pulled_at": "2026-08-23T17:40:57.588367+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 15,
+    "name": "Francesco Farioli",
+    "short_name": "F. Farioli",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 49.0,
+    "avg_goals_scored": 1.8,
+    "avg_goals_conceded": 0.61
+   },
+   "away": {
+    "id": 5,
+    "name": "Vasco Seabra",
+    "short_name": "V. Seabra",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 40.0,
+    "avg_goals_scored": 1.27,
+    "avg_goals_conceded": 1.73
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.21,
+   "draw": 6.39,
+   "away_win": 12.55,
+   "over_15_goals": 1.17,
+   "over_25_goals": 1.6,
+   "over_35_goals": 2.47,
+   "under_15_goals": 4.58,
+   "under_25_goals": 2.29,
+   "under_35_goals": 1.49,
+   "btts_yes": 2.21,
+   "btts_no": 1.61
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 3448,
+    "name": "Alan Varela",
+    "short_name": "A. Varela",
+    "status": "injured",
+    "reason": "Sprained Ankle"
+   },
+   {
+    "id": 2768,
+    "name": "André Silva",
+    "short_name": "A. Silva",
+    "status": "injured",
+    "reason": "Sprained Ankle"
+   },
+   {
+    "id": 1012,
+    "name": "Cláudio Ramos",
+    "short_name": "C. Ramos",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 998,
+    "name": "Jan Bednarek",
+    "short_name": "J. Bednarek",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 1008,
+    "name": "Martim Fernandes",
+    "short_name": "M. Fernandes",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 8638,
+    "name": "Oskar Pietuszewski",
+    "short_name": "O. Pietuszewski",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 1005,
+    "name": "Samu Aghehowa",
+    "short_name": "S. Aghehowa",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 8604,
+    "name": "Javi Sánchez",
+    "short_name": "J. Sánchez",
+    "status": "injured",
+    "reason": "Leg Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.641,
+   "away": 0.414
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:33:03Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 0.0,
+    "away_gf": 0.0,
+    "away_ga": 0.0,
+    "n_home": 1.0,
+    "n_away": 0.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 4.0,
+    "home_ga": 0.0,
+    "away_gf": 1.0,
+    "away_ga": 0.0,
+    "n_home": 1,
+    "n_away": 1,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  }
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "id": 587794,
+ "league": "Carabao Cup",
+ "kickoff": "08-26 02:30",
+ "kickoff_iso": "2026-08-25T18:30:00+00:00",
+ "home": "Doncaster Rovers",
+ "away": "Middlesbrough",
+ "home_id": 1253,
+ "away_id": 207,
+ "pulled_at": "2026-08-25T23:42:53.870178+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 859,
+    "name": "Grant McCann",
+    "short_name": "G. McCann",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 14.0,
+    "avg_goals_scored": 1.86,
+    "avg_goals_conceded": 1.14
+   },
+   "away": {
+    "id": 168,
+    "name": "Kim Hellberg",
+    "short_name": "K. Hellberg",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 55.0,
+    "avg_goals_scored": 1.45,
+    "avg_goals_conceded": 1.16
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 5.01,
+   "draw": 4.08,
+   "away_win": 1.58,
+   "over_15_goals": 1.2,
+   "over_25_goals": 1.65,
+   "over_35_goals": 2.59,
+   "under_15_goals": 4.34,
+   "under_25_goals": 2.19,
+   "under_35_goals": 1.46,
+   "btts_yes": 1.69,
+   "btts_no": 2.06
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 6048,
+    "name": "Ashley Phillips",
+    "short_name": "A. Phillips",
+    "status": "injured",
+    "reason": "Physical Discomfort"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.364,
+   "away": 0.523
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-25T14:32:10Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.571,
+    "home_ga": 1.286,
+    "away_gf": 1.737,
+    "away_ga": 1.221,
+    "n_home": 7.0,
+    "n_away": 9.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1253
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 1.0,
+    "away_gf": 0.0,
+    "away_ga": 0.0,
+    "n_home": 1,
+    "n_away": 0,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  }
+ }
+}

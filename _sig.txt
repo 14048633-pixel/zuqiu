@@ -1,0 +1,4 @@
+fetch_sports_list(api_key, base_url='https://api.the-odds-api.com/v4', timeout=30)
+fetch_league_odds(api_key, sport_key, markets='h2h,spreads,totals', regions='eu', base_url='https://api.the-odds-api.com/v4', timeout=30)
+flatten_events(events, league, snapshot_ts)
+append_snapshots(path, rows)

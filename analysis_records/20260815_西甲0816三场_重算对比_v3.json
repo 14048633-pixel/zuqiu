@@ -1,0 +1,563 @@
+{
+ "timestamp": "2026-08-15",
+ "type": "重算对比(升级后系统v3 vs 原存档)",
+ "league": "西甲 2026-27 R1",
+ "note": "league_avg=2.8(get_league_avg_goals默认); 未调LLM, Agent风险信号=0; 冷门引擎独立输出; EV为去水后公平EV; 升班马主观修正已从流程移除",
+ "results": {
+  "M1": {
+   "match": "阿拉维斯 vs 赫塔菲",
+   "kickoff": "2026-08-16 01:30",
+   "inputs": {
+    "home_txt": "阿拉维斯 西甲 近38场场均进1.32失1.32, 前锋Boyé缺阵, 前锋Garcés停赛, 锋线受损",
+    "away_txt": "赫塔菲 西甲 近38场场均进0.74失1.16, 前锋Uche伤, 客场低位防守反击"
+   },
+   "feats": {
+    "home_gf": 1.32,
+    "home_ga": 1.32,
+    "away_gf": 0.74,
+    "away_ga": 1.16,
+    "home_attack_disabled": 0,
+    "away_attack_disabled": 1,
+    "home_defense_weak": 0,
+    "away_defense_weak": 0,
+    "form_diff": 0,
+    "amateur_vs_pro": 0,
+    "pro_vs_amateur": 0
+   },
+   "cc": {
+    "home_coef": 1.1,
+    "away_coef": 0.95,
+    "fatigue_coef": 0.9,
+    "injury_coef_h": null,
+    "injury_coef_a": null
+   },
+   "pc": {
+    "rho": 0.0,
+    "shrink": 0.8
+   },
+   "league_avg": 2.8,
+   "lambda": {
+    "home": 1.083,
+    "away": 0.477,
+    "sum": 1.56
+   },
+   "feature_note": "客队锋线哑火×0.8",
+   "wdl_model": {
+    "home": 50.8,
+    "draw": 31.0,
+    "away": 18.2
+   },
+   "wdl_market_devig": {
+    "home": 40.8,
+    "draw": 34.2,
+    "away": 24.9
+   },
+   "ou": {
+    "under_2_25": 79.4,
+    "under_2_5": 79.4,
+    "over_2_75": 20.6,
+    "over_2_5": 20.6
+   },
+   "hdp": {
+    "hdp_val": -0.25,
+    "home_cover": 0.5047,
+    "away_cover": 0.4953
+   },
+   "upset": {
+    "hot_team": "阿拉维斯",
+    "level": "轻度风险",
+    "count": 3,
+    "signals": [
+     "H2防线主力缺阵",
+     "C2不胜止颓+死守",
+     "F2疲劳修正(系数0.90)"
+    ],
+    "risk_signal": -0.03,
+    "fair_probs": {
+     "home": 0.4084,
+     "draw": 0.3421,
+     "away": 0.2495
+    },
+    "score_breakdown": {
+     "hot": 1,
+     "cold": 1,
+     "line": 0,
+     "fair": 0,
+     "feature": 1,
+     "env": 0,
+     "h2h": 0,
+     "ucl": 0,
+     "uel": 0
+    },
+    "exclusions": []
+   },
+   "conflict": {
+    "conflict": false,
+    "level": "none",
+    "direction": "home",
+    "msg": null
+   },
+   "bets": [
+    {
+     "name": "赫塔菲客胜",
+     "prob": 0.1822,
+     "odds": 3.88,
+     "orr": 1.033,
+     "ev": -0.3155
+    },
+    {
+     "name": "主-0.25",
+     "prob": 0.5047,
+     "odds": 1.97,
+     "orr": 1.0257,
+     "ev": -0.0307
+    },
+    {
+     "name": "小2.5(参考)",
+     "prob": 0.7936,
+     "odds": 1.92,
+     "orr": 1.0284,
+     "ev": 0.4816
+    }
+   ],
+   "best_bet": {
+    "name": "小2.5(参考)",
+    "prob": 0.7936,
+    "odds": 1.92,
+    "orr": 1.0284,
+    "ev": 0.4816
+   },
+   "old": {
+    "lambda": [
+     0.968,
+     0.865
+    ],
+    "wdl": [
+     36.6,
+     32.5,
+     31.0
+    ],
+    "ou": {
+     "under_2_5": 72.2
+    },
+    "bets": [
+     [
+      "赫塔菲客胜",
+      0.31,
+      3.88,
+      0.202,
+      "1x2",
+      "away"
+     ],
+     [
+      "主-0.25",
+      0.529,
+      1.97,
+      0.04,
+      "hdp",
+      "home"
+     ],
+     [
+      "小2.5(参考)",
+      0.722,
+      1.92,
+      0.386,
+      "ou",
+      "under_2_5"
+     ]
+    ]
+   },
+   "real_market_bets": [
+    {
+     "name": "主队-0.25",
+     "prob": 0.5048,
+     "odds": 1.97,
+     "ev": -0.0304
+    },
+    {
+     "name": "客队0.25",
+     "prob": 0.4952,
+     "odds": 1.93,
+     "ev": -0.0683
+    },
+    {
+     "name": "小1.75",
+     "prob": 0.5379,
+     "odds": 1.92,
+     "ev": 0.0043
+    },
+    {
+     "name": "大1.75",
+     "prob": 0.4621,
+     "odds": 1.97,
+     "ev": -0.1149
+    }
+   ],
+   "real_best_bet": null
+  },
+  "M2": {
+   "match": "塞维利亚 vs 巴列卡诺",
+   "kickoff": "2026-08-16 03:30",
+   "inputs": {
+    "home_txt": "塞维利亚 西甲 近38场场均进1.26失1.32, 仅缺Marcao/Alfon 2人, 阵容完整度高",
+    "away_txt": "巴列卡诺 西甲 近38场场均进0.90失1.53, 仅缺Luiz Felipe, 客场紧凑反击"
+   },
+   "feats": {
+    "home_gf": 1.26,
+    "home_ga": 1.32,
+    "away_gf": 0.9,
+    "away_ga": 1.53,
+    "home_attack_disabled": 0,
+    "away_attack_disabled": 1,
+    "home_defense_weak": 0,
+    "away_defense_weak": 0,
+    "form_diff": 0,
+    "amateur_vs_pro": 0,
+    "pro_vs_amateur": 0
+   },
+   "cc": {
+    "home_coef": 1.1,
+    "away_coef": 0.95,
+    "fatigue_coef": 0.9,
+    "injury_coef_h": null,
+    "injury_coef_a": null
+   },
+   "pc": {
+    "rho": 0.0,
+    "shrink": 0.8
+   },
+   "league_avg": 2.8,
+   "lambda": {
+    "home": 1.363,
+    "away": 0.58,
+    "sum": 1.944
+   },
+   "feature_note": "客队锋线哑火×0.8",
+   "wdl_model": {
+    "home": 53.6,
+    "draw": 29.0,
+    "away": 17.4
+   },
+   "wdl_market_devig": {
+    "home": 41.2,
+    "draw": 29.8,
+    "away": 29.0
+   },
+   "ou": {
+    "under_2_25": 69.2,
+    "under_2_5": 69.2,
+    "over_2_75": 30.8,
+    "over_2_5": 30.8
+   },
+   "hdp": {
+    "hdp_val": -0.25,
+    "home_cover": 0.5607,
+    "away_cover": 0.4393
+   },
+   "upset": {
+    "hot_team": "塞维利亚",
+    "level": "低风险",
+    "count": 1,
+    "signals": [
+     "F2疲劳修正(系数0.90)"
+    ],
+    "risk_signal": -0.0,
+    "fair_probs": {
+     "home": 0.4121,
+     "draw": 0.298,
+     "away": 0.2899
+    },
+    "score_breakdown": {
+     "hot": 0,
+     "cold": 0,
+     "line": 0,
+     "fair": 0,
+     "feature": 1,
+     "env": 0,
+     "h2h": 0,
+     "ucl": 0,
+     "uel": 0
+    },
+    "exclusions": []
+   },
+   "conflict": {},
+   "bets": [
+    {
+     "name": "小2.25",
+     "prob": 0.6919,
+     "odds": 1.87,
+     "orr": 1.0298,
+     "ev": 0.2565
+    },
+    {
+     "name": "主-0.25",
+     "prob": 0.5607,
+     "odds": 2.01,
+     "orr": 1.0238,
+     "ev": 0.1008
+    },
+    {
+     "name": "小2.5(MB)",
+     "prob": 0.6919,
+     "odds": 1.7,
+     "orr": 1.0833,
+     "ev": 0.0859
+    }
+   ],
+   "best_bet": {
+    "name": "小2.25",
+    "prob": 0.6919,
+    "odds": 1.87,
+    "orr": 1.0298,
+    "ev": 0.2565
+   },
+   "old": {
+    "lambda": [
+     1.225,
+     1.05
+    ],
+    "wdl": [
+     40.1,
+     28.4,
+     31.5
+    ],
+    "ou": {
+     "under_2_5": 60.3,
+     "under_2_25": 53.5
+    },
+    "bets": [
+     [
+      "小2.25",
+      0.603,
+      1.87,
+      0.127,
+      "ou",
+      "under_2_25"
+     ],
+     [
+      "主-0.25",
+      0.543,
+      2.01,
+      0.092,
+      "hdp",
+      "home"
+     ],
+     [
+      "小2.5(MB)",
+      0.603,
+      1.7,
+      0.025,
+      "ou",
+      "under_2_5"
+     ]
+    ]
+   },
+   "real_market_bets": [
+    {
+     "name": "主队-0.25",
+     "prob": 0.5608,
+     "odds": 2.01,
+     "ev": 0.1009
+    },
+    {
+     "name": "客队0.25",
+     "prob": 0.4392,
+     "odds": 1.9,
+     "ev": -0.1849
+    },
+    {
+     "name": "小2.25",
+     "prob": 0.6921,
+     "odds": 1.87,
+     "ev": 0.2568
+    },
+    {
+     "name": "大2.25",
+     "prob": 0.3079,
+     "odds": 2.02,
+     "ev": -0.3961
+    }
+   ],
+   "real_best_bet": {
+    "name": "小2.25",
+    "prob": 0.6921,
+    "odds": 1.87,
+    "ev": 0.2568
+   }
+  },
+  "M3": {
+   "match": "桑坦德 vs 比利亚雷亚尔",
+   "kickoff": "2026-08-16 23:00",
+   "inputs": {
+    "home_txt": "桑坦德 西甲 近42场场均进2.62失1.38, 西乙升班马, 主场气势足",
+    "away_txt": "比利亚雷亚尔 西甲 近38场场均进1.26失1.42, 全主力23人可用无伤病"
+   },
+   "feats": {
+    "home_gf": 2.62,
+    "home_ga": 1.38,
+    "away_gf": 1.26,
+    "away_ga": 1.42,
+    "home_attack_disabled": 0,
+    "away_attack_disabled": 0,
+    "home_defense_weak": 0,
+    "away_defense_weak": 0,
+    "form_diff": 0,
+    "amateur_vs_pro": 0,
+    "pro_vs_amateur": 0
+   },
+   "cc": {
+    "home_coef": 1.1,
+    "away_coef": 0.95,
+    "fatigue_coef": 0.9,
+    "injury_coef_h": null,
+    "injury_coef_a": null
+   },
+   "pc": {
+    "rho": 0.0,
+    "shrink": 0.8
+   },
+   "league_avg": 2.8,
+   "lambda": {
+    "home": 2.631,
+    "away": 1.062,
+    "sum": 3.693
+   },
+   "feature_note": "无",
+   "wdl_model": {
+    "home": 62.0,
+    "draw": 23.5,
+    "away": 14.6
+   },
+   "wdl_market_devig": {
+    "home": 29.3,
+    "draw": 26.6,
+    "away": 44.1
+   },
+   "ou": {
+    "under_2_25": 28.7,
+    "under_2_5": 28.7,
+    "over_2_75": 71.3,
+    "over_2_5": 71.3
+   },
+   "hdp": {
+    "hdp_val": 0.25,
+    "home_cover": 0.8696,
+    "away_cover": 0.1304
+   },
+   "upset": {
+    "hot_team": "比利亚雷亚尔",
+    "level": "低风险",
+    "count": 1,
+    "signals": [
+     "F2疲劳修正(系数0.90)"
+    ],
+    "risk_signal": 0.0,
+    "fair_probs": {
+     "home": 0.293,
+     "draw": 0.2656,
+     "away": 0.4414
+    },
+    "score_breakdown": {
+     "hot": 0,
+     "cold": 0,
+     "line": 0,
+     "fair": 0,
+     "feature": 1,
+     "env": 0,
+     "h2h": 0,
+     "ucl": 0,
+     "uel": 0
+    },
+    "exclusions": []
+   },
+   "conflict": {},
+   "bets": [
+    {
+     "name": "客-0.25",
+     "prob": 0.1304,
+     "odds": 1.91,
+     "orr": 1.0261,
+     "ev": -0.7573
+    },
+    {
+     "name": "大2.75",
+     "prob": 0.7129,
+     "odds": 1.99,
+     "orr": 1.0316,
+     "ev": 0.3752
+    }
+   ],
+   "best_bet": {
+    "name": "大2.75",
+    "prob": 0.7129,
+    "odds": 1.99,
+    "orr": 1.0316,
+    "ev": 0.3752
+   },
+   "old": {
+    "lambda": [
+     1.53,
+     1.84
+    ],
+    "wdl": [
+     32.3,
+     22.5,
+     45.2
+    ],
+    "ou": {
+     "over_2_75": 65.4
+    },
+    "bets": [
+     [
+      "客-0.25",
+      0.564,
+      1.91,
+      0.078,
+      "hdp",
+      "away"
+     ],
+     [
+      "大2.75",
+      0.654,
+      1.99,
+      0.302,
+      "ou",
+      "over_2_75"
+     ]
+    ]
+   },
+   "real_market_bets": [
+    {
+     "name": "主队0.25",
+     "prob": 0.8696,
+     "odds": 1.99,
+     "ev": 0.6865
+    },
+    {
+     "name": "客队-0.25",
+     "prob": 0.1304,
+     "odds": 1.91,
+     "ev": -0.7572
+    },
+    {
+     "name": "小2.75",
+     "prob": 0.2871,
+     "odds": 1.89,
+     "ev": -0.474
+    },
+    {
+     "name": "大2.75",
+     "prob": 0.7129,
+     "odds": 1.99,
+     "ev": 0.3752
+    }
+   ],
+   "real_best_bet": {
+    "name": "主队0.25",
+    "prob": 0.8696,
+    "odds": 1.99,
+    "ev": 0.6865
+   }
+  }
+ }
+}

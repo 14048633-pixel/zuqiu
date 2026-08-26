@@ -1,0 +1,1146 @@
+{
+ "ts": "2026-08-19T22:44:39.449274+08:00",
+ "window_h": 36.0,
+ "n": 21,
+ "n_draw_warn": 5,
+ "n_bet": 4,
+ "matches": [
+  {
+   "ct": "08-20 03:00",
+   "league": "西甲",
+   "home": "Atlético Madrid",
+   "away": "Málaga",
+   "lam": {
+    "home": 2.31,
+    "away": 1.07,
+    "sum": 3.39
+   },
+   "src": {
+    "home": "market",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.72,
+    "ev": 0.10233282674772015,
+    "market_fair": 0.5732,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.589,
+    "wdl_market_fair": 0.7487,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "非独立数据",
+    "队名/数据缺失"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 58.9,
+    "draw": 21.7,
+    "away": 19.4
+   },
+   "market_fair": {
+    "home": 74.9,
+    "draw": 17.2,
+    "away": 8.0
+   },
+   "notes": [
+    "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-20 03:00",
+   "league": "欧冠资格",
+   "home": "NEC Nijmegen",
+   "away": "Bodø/Glimt",
+   "lam": {
+    "home": 1.32,
+    "away": 1.58,
+    "sum": 2.9
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球客(-0.0)",
+    "prob": 0.5588,
+    "odds": 1.87,
+    "ev": 0.005,
+    "market_fair": 0.5143,
+    "wdl_name": "客胜",
+    "wdl_prob": 0.4151,
+    "wdl_market_fair": 0.3811,
+    "vetoed": true,
+    "veto_reason": "盘口过期(距开赛28h>阈值12h)",
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "队名模糊匹配",
+    "盘口过期(距开赛28h>阈值12h)->否决"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 32.3,
+    "draw": 26.2,
+    "away": 41.5
+   },
+   "market_fair": {
+    "home": 36.7,
+    "draw": 25.2,
+    "away": 38.1
+   },
+   "notes": [
+    "杯赛参数: 欧冠(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "主队数据来自D1",
+    "客队数据来自NO",
+    "主队跨联赛用D1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队跨联赛用NO数据(快照联赛与数据联赛不符), 攻防收缩30%",
+    "客队队名模糊匹配(fuzzy), 低置信"
+   ]
+  },
+  {
+   "ct": "08-20 03:00",
+   "league": "欧冠资格",
+   "home": "Celtic",
+   "away": "LASK",
+   "lam": {
+    "home": 1.89,
+    "away": 0.98,
+    "sum": 2.88
+   },
+   "src": {
+    "home": "market",
+    "away": "market"
+   },
+   "dir": {
+    "name": "让球主(-0.8)",
+    "prob": 0.5854,
+    "odds": 1.83,
+    "ev": 0.031,
+    "market_fair": 0.5259,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5344,
+    "wdl_market_fair": 0.5876,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "非独立数据",
+    "队名/数据缺失"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 53.4,
+    "draw": 24.6,
+    "away": 22.0
+   },
+   "market_fair": {
+    "home": 58.8,
+    "draw": 23.0,
+    "away": 18.3
+   },
+   "notes": [
+    "杯赛参数: 欧冠(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-20 03:00",
+   "league": "欧冠资格",
+   "home": "Hapoel Be'er Sheva",
+   "away": "Sabah FK",
+   "lam": {
+    "home": 1.43,
+    "away": 1.27,
+    "sum": 2.69
+   },
+   "src": {
+    "home": "market",
+    "away": "market"
+   },
+   "dir": {
+    "name": "让球客(+0.2)",
+    "prob": 0.592,
+    "odds": 1.88,
+    "ev": 0.0733,
+    "market_fair": 0.513,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.3929,
+    "wdl_market_fair": 0.4106,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 28.2,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "非独立数据",
+    "队名/数据缺失",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 28.2,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 39.3,
+    "draw": 27.2,
+    "away": 33.5
+   },
+   "market_fair": {
+    "home": 41.1,
+    "draw": 28.2,
+    "away": 30.8
+   },
+   "notes": [
+    "杯赛参数: 欧冠(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-20 03:00",
+   "league": "欧冠资格",
+   "home": "ŠK Slovan Bratislava",
+   "away": "NK Celje",
+   "lam": {
+    "home": 1.82,
+    "away": 0.98,
+    "sum": 2.81
+   },
+   "src": {
+    "home": "market",
+    "away": "market"
+   },
+   "dir": {
+    "name": "让球主(-0.5)",
+    "prob": 0.5697,
+    "odds": 1.71,
+    "ev": -0.0627,
+    "market_fair": 0.5627,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5215,
+    "wdl_market_fair": 0.5711,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "非独立数据",
+    "队名/数据缺失"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 52.2,
+    "draw": 25.1,
+    "away": 22.7
+   },
+   "market_fair": {
+    "home": 57.1,
+    "draw": 23.5,
+    "away": 19.4
+   },
+   "notes": [
+    "杯赛参数: 欧冠(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+    "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+    "非独立数据场次, best_bet禁用"
+   ]
+  },
+  {
+   "ct": "08-20 07:30",
+   "league": "美职",
+   "home": "Columbus Crew SC",
+   "away": "CF Montreal",
+   "lam": {
+    "home": 2.7,
+    "away": 0.84,
+    "sum": 3.54
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球主(-0.5)",
+    "prob": 0.65,
+    "odds": 1.71,
+    "ev": 0.05871018482107737,
+    "market_fair": 0.557,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.6903,
+    "wdl_market_fair": 0.5534,
+    "vetoed": true,
+    "veto_reason": "模型与市场分歧>20pp(模型76% vs 市场56%)",
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "队名模糊匹配",
+    "模型与市场分歧>20pp(模型76% vs 市场56%)->否决"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 69.0,
+    "draw": 18.6,
+    "away": 12.3
+   },
+   "market_fair": {
+    "home": 55.3,
+    "draw": 23.6,
+    "away": 21.1
+   },
+   "notes": [
+    "主队队名模糊匹配(subset), 低置信",
+    "概率封顶校准: 3腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-20 07:30",
+   "league": "美职",
+   "home": "Toronto FC",
+   "away": "Charlotte FC",
+   "lam": {
+    "home": 2.77,
+    "away": 1.35,
+    "sum": 4.12
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.69,
+    "ev": 0.08943073759958886,
+    "market_fair": 0.5868,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.6052,
+    "wdl_market_fair": 0.4155,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 26.0,
+     "strong": false
+    }
+   },
+   "best": {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.69,
+    "ev": 0.08943073759958886,
+    "prob_raw": 0.7782,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "risk": [
+    "纯数据无伤病情报",
+    "λ过高(4.12)",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 26.0,
+    "strong": false
+   },
+   "star": 1,
+   "ev_tier": "标准",
+   "upset": "低风险",
+   "wdl": {
+    "home": 60.5,
+    "draw": 20.1,
+    "away": 19.4
+   },
+   "market_fair": {
+    "home": 41.6,
+    "draw": 26.0,
+    "away": 32.4
+   },
+   "notes": [
+    "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+    "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选"
+   ]
+  },
+  {
+   "ct": "08-20 07:30",
+   "league": "美职",
+   "home": "Orlando City SC",
+   "away": "Chicago Fire",
+   "lam": {
+    "home": 2.11,
+    "away": 1.72,
+    "sum": 3.82
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.39,
+    "ev": -0.14642711310739076,
+    "market_fair": 0.6797,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4417,
+    "wdl_market_fair": 0.3473,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "队名模糊匹配"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 44.2,
+    "draw": 23.7,
+    "away": 32.2
+   },
+   "market_fair": {
+    "home": 34.7,
+    "draw": 24.2,
+    "away": 41.0
+   },
+   "notes": [
+    "客队队名模糊匹配(subset), 低置信",
+    "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+    "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选"
+   ]
+  },
+  {
+   "ct": "08-20 07:30",
+   "league": "美职",
+   "home": "D.C. United",
+   "away": "New England Revolution",
+   "lam": {
+    "home": 2.28,
+    "away": 1.33,
+    "sum": 3.61
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.8,
+    "ev": 0.1630795649685175,
+    "market_fair": 0.5522,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5335,
+    "wdl_market_fair": 0.3819,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 26.8,
+     "strong": false
+    }
+   },
+   "best": {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.8,
+    "ev": 0.1630795649685175,
+    "prob_raw": 0.6988,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 26.8,
+    "strong": false
+   },
+   "star": 1,
+   "ev_tier": "标准",
+   "upset": "低风险",
+   "wdl": {
+    "home": 53.3,
+    "draw": 22.9,
+    "away": 23.7
+   },
+   "market_fair": {
+    "home": 38.2,
+    "draw": 26.8,
+    "away": 35.0
+   },
+   "notes": [
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-20 07:30",
+   "league": "美职",
+   "home": "FC Cincinnati",
+   "away": "New York City FC",
+   "lam": {
+    "home": 2.55,
+    "away": 1.33,
+    "sum": 3.88
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.43,
+    "ev": -0.12552762468073675,
+    "market_fair": 0.6579,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5761,
+    "wdl_market_fair": 0.5098,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": {
+    "name": "让球主(-0.5)",
+    "prob": 0.6357,
+    "odds": 1.94,
+    "ev": 0.2264,
+    "star": 3,
+    "ev_tier": "高价值",
+    "stake_factor": 1.0
+   },
+   "risk": [
+    "纯数据无伤病情报"
+   ],
+   "draw_warn": null,
+   "star": 3,
+   "ev_tier": "高价值",
+   "upset": "低风险",
+   "wdl": {
+    "home": 57.6,
+    "draw": 21.3,
+    "away": 21.1
+   },
+   "market_fair": {
+    "home": 51.0,
+    "draw": 23.0,
+    "away": 26.0
+   },
+   "notes": [
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-20 07:30",
+   "league": "美职",
+   "home": "Philadelphia Union",
+   "away": "Inter Miami CF",
+   "lam": {
+    "home": 1.4,
+    "away": 1.43,
+    "sum": 2.83
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球客(+0.5)",
+    "prob": 0.6376,
+    "odds": 1.56,
+    "ev": -0.0612,
+    "market_fair": 0.6051,
+    "wdl_name": "客胜",
+    "wdl_prob": 0.3686,
+    "wdl_market_fair": 0.3843,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": {
+    "name": "小2.50",
+    "prob": 0.462,
+    "odds": 3.2,
+    "ev": 0.3963,
+    "star": 3,
+    "ev_tier": "高价值",
+    "stake_factor": 1.0
+   },
+   "risk": [
+    "纯数据无伤病情报"
+   ],
+   "draw_warn": null,
+   "star": 3,
+   "ev_tier": "高价值",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 35.7,
+    "draw": 27.4,
+    "away": 36.9
+   },
+   "market_fair": {
+    "home": 39.0,
+    "draw": 22.5,
+    "away": 38.4
+   },
+   "notes": []
+  },
+  {
+   "ct": "08-20 07:30",
+   "league": "美职",
+   "home": "New York Red Bulls",
+   "away": "Nashville SC",
+   "lam": {
+    "home": 0.72,
+    "away": 1.4,
+    "sum": 2.12
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.644,
+    "odds": 2.48,
+    "ev": 0.5051,
+    "market_fair": 0.38,
+    "wdl_name": "客胜",
+    "wdl_prob": 0.488,
+    "wdl_market_fair": 0.3979,
+    "vetoed": true,
+    "veto_reason": "模型与市场分歧>20pp(模型64% vs 市场38%)",
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "模型与市场分歧>20pp(模型64% vs 市场38%)->否决"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "低风险",
+   "wdl": {
+    "home": 21.4,
+    "draw": 29.8,
+    "away": 48.8
+   },
+   "market_fair": {
+    "home": 35.0,
+    "draw": 25.2,
+    "away": 39.8
+   },
+   "notes": []
+  },
+  {
+   "ct": "08-20 08:00",
+   "league": "美职",
+   "home": "Sporting Kansas City",
+   "away": "St. Louis City SC",
+   "lam": {
+    "home": 1.34,
+    "away": 1.31,
+    "sum": 2.65
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球主(+0.5)",
+    "prob": 0.6421,
+    "odds": 2.02,
+    "ev": 0.2869,
+    "market_fair": 0.4912,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.3637,
+    "wdl_market_fair": 0.2537,
+    "vetoed": true,
+    "veto_reason": "盘口为隔日快照(2026-08-19)",
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "盘口为隔日快照(2026-08-19)->否决"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "低风险",
+   "wdl": {
+    "home": 36.4,
+    "draw": 28.3,
+    "away": 35.3
+   },
+   "market_fair": {
+    "home": 25.4,
+    "draw": 24.1,
+    "away": 50.5
+   },
+   "notes": []
+  },
+  {
+   "ct": "08-20 08:30",
+   "league": "美职",
+   "home": "Minnesota United FC",
+   "away": "Atlanta United FC",
+   "lam": {
+    "home": 1.08,
+    "away": 0.34,
+    "sum": 1.41
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.65,
+    "odds": 2.38,
+    "ev": 0.534078313253012,
+    "market_fair": 0.4167,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5049,
+    "wdl_market_fair": 0.5592,
+    "vetoed": true,
+    "veto_reason": "盘口为隔日快照(2026-08-19)",
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "盘口为隔日快照(2026-08-19)->否决"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 50.5,
+    "draw": 35.3,
+    "away": 14.2
+   },
+   "market_fair": {
+    "home": 55.9,
+    "draw": 23.0,
+    "away": 21.1
+   },
+   "notes": [
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-20 09:30",
+   "league": "美职",
+   "home": "Seattle Sounders FC",
+   "away": "Austin FC",
+   "lam": {
+    "home": 3.44,
+    "away": 1.1,
+    "sum": 4.54
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球主(-0.5)",
+    "prob": 0.65,
+    "odds": 1.74,
+    "ev": 0.0762096774193548,
+    "market_fair": 0.5469,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.7317,
+    "wdl_market_fair": 0.5401,
+    "vetoed": true,
+    "veto_reason": "盘口为隔日快照(2026-08-19)",
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "λ过高(4.54)",
+    "盘口为隔日快照(2026-08-19)->否决"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "低风险",
+   "wdl": {
+    "home": 73.2,
+    "draw": 15.3,
+    "away": 11.5
+   },
+   "market_fair": {
+    "home": 54.0,
+    "draw": 23.5,
+    "away": 22.5
+   },
+   "notes": [
+    "概率封顶校准: 3腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-20 09:30",
+   "league": "美职",
+   "home": "Colorado Rapids",
+   "away": "Los Angeles FC",
+   "lam": {
+    "home": 1.71,
+    "away": 0.91,
+    "sum": 2.62
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球主(-0.5)",
+    "prob": 0.5582,
+    "odds": 2.5,
+    "ev": 0.3192,
+    "market_fair": 0.3781,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.5124,
+    "wdl_market_fair": 0.3765,
+    "vetoed": true,
+    "veto_reason": "盘口为隔日快照(2026-08-19)",
+    "draw_warn": {
+     "market_draw_prob": 26.9,
+     "strong": false
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "盘口为隔日快照(2026-08-19)->否决"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 26.9,
+    "strong": false
+   },
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "低风险",
+   "wdl": {
+    "home": 51.2,
+    "draw": 26.7,
+    "away": 22.0
+   },
+   "market_fair": {
+    "home": 37.6,
+    "draw": 26.9,
+    "away": 35.5
+   },
+   "notes": []
+  },
+  {
+   "ct": "08-20 09:30",
+   "league": "美职",
+   "home": "Real Salt Lake",
+   "away": "FC Dallas",
+   "lam": {
+    "home": 1.54,
+    "away": 1.01,
+    "sum": 2.55
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "小2.50",
+    "prob": 0.5316,
+    "odds": 2.48,
+    "ev": 0.2424,
+    "market_fair": 0.38,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4586,
+    "wdl_market_fair": 0.4822,
+    "vetoed": true,
+    "veto_reason": "盘口为隔日快照(2026-08-19)",
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "盘口为隔日快照(2026-08-19)->否决"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "低风险",
+   "wdl": {
+    "home": 45.9,
+    "draw": 28.0,
+    "away": 26.1
+   },
+   "market_fair": {
+    "home": 48.2,
+    "draw": 25.5,
+    "away": 26.2
+   },
+   "notes": []
+  },
+  {
+   "ct": "08-20 10:30",
+   "league": "美职",
+   "home": "Vancouver Whitecaps FC",
+   "away": "Houston Dynamo",
+   "lam": {
+    "home": 3.37,
+    "away": 0.58,
+    "sum": 3.95
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球主(-1.0)",
+    "prob": 0.65,
+    "odds": 1.97,
+    "ev": 0.25805152979066026,
+    "market_fair": 0.4987,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.8175,
+    "wdl_market_fair": 0.6164,
+    "vetoed": true,
+    "veto_reason": "盘口过期(距开赛12h>阈值12h)",
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "队名模糊匹配",
+    "盘口过期(距开赛12h>阈值12h)->否决"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "轻度风险",
+   "wdl": {
+    "home": 81.8,
+    "draw": 12.4,
+    "away": 5.8
+   },
+   "market_fair": {
+    "home": 61.6,
+    "draw": 21.9,
+    "away": 16.4
+   },
+   "notes": [
+    "主队队名模糊匹配(subset), 低置信",
+    "客队队名模糊匹配(subset), 低置信",
+    "概率封顶校准: 3腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-20 10:30",
+   "league": "美职",
+   "home": "LA Galaxy",
+   "away": "San Jose Earthquakes",
+   "lam": {
+    "home": 1.16,
+    "away": 1.96,
+    "sum": 3.12
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球客(+0.5)",
+    "prob": 0.65,
+    "odds": 1.68,
+    "ev": 0.052333461194220776,
+    "market_fair": 0.5736,
+    "wdl_name": "客胜",
+    "wdl_prob": 0.5101,
+    "wdl_market_fair": 0.3281,
+    "vetoed": true,
+    "veto_reason": "盘口过期(距开赛12h>阈值12h)",
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "盘口过期(距开赛12h>阈值12h)->否决"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "否决",
+   "upset": "低风险",
+   "wdl": {
+    "home": 24.1,
+    "draw": 24.9,
+    "away": 51.0
+   },
+   "market_fair": {
+    "home": 43.2,
+    "draw": 24.0,
+    "away": 32.8
+   },
+   "notes": [
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+   ]
+  },
+  {
+   "ct": "08-20 10:30",
+   "league": "美职",
+   "home": "Portland Timbers",
+   "away": "San Diego FC",
+   "lam": {
+    "home": 2.52,
+    "away": 1.05,
+    "sum": 3.57
+   },
+   "src": {
+    "home": "cur",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.39,
+    "ev": -0.14632894927012574,
+    "market_fair": 0.6797,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.623,
+    "wdl_market_fair": 0.4866,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": null
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报"
+   ],
+   "draw_warn": null,
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 62.3,
+    "draw": 20.8,
+    "away": 16.9
+   },
+   "market_fair": {
+    "home": 48.7,
+    "draw": 22.6,
+    "away": 28.8
+   },
+   "notes": [
+    "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+    "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选"
+   ]
+  },
+  {
+   "ct": "08-21 03:00",
+   "league": "西甲",
+   "home": "Rayo Vallecano",
+   "away": "Alavés",
+   "lam": {
+    "home": 1.18,
+    "away": 0.87,
+    "sum": 2.04
+   },
+   "src": {
+    "home": "market",
+    "away": "cur"
+   },
+   "dir": {
+    "name": "让球客(+0.5)",
+    "prob": 0.5702,
+    "odds": 1.67,
+    "ev": -0.0786,
+    "market_fair": 0.5793,
+    "wdl_name": "主胜",
+    "wdl_prob": 0.4098,
+    "wdl_market_fair": 0.4177,
+    "vetoed": false,
+    "veto_reason": null,
+    "draw_warn": {
+     "market_draw_prob": 32.1,
+     "strong": true
+    }
+   },
+   "best": null,
+   "risk": [
+    "纯数据无伤病情报",
+    "非独立数据",
+    "队名/数据缺失",
+    "平局预警-强(市场去水平局>=30%)"
+   ],
+   "draw_warn": {
+    "market_draw_prob": 32.1,
+    "strong": true
+   },
+   "star": 0,
+   "ev_tier": "垃圾",
+   "upset": "低风险",
+   "wdl": {
+    "home": 41.0,
+    "draw": 30.7,
+    "away": 28.3
+   },
+   "market_fair": {
+    "home": 41.8,
+    "draw": 32.1,
+    "away": 26.2
+   },
+   "notes": [
+    "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+    "非独立数据场次, best_bet禁用",
+    "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+    "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "id": 46443,
+ "league": "瑞超",
+ "kickoff": "08-23 20:00",
+ "kickoff_iso": "2026-08-23T12:00:00Z",
+ "home": "IFK Goteborg",
+ "away": "IF Elfsborg",
+ "home_id": 439,
+ "away_id": 440,
+ "pulled_at": "2026-08-23T17:42:21.658598+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 3147,
+    "name": "Joachim Björklund",
+    "short_name": "J. Björklund",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 10.0,
+    "avg_goals_scored": 2.7,
+    "avg_goals_conceded": 1.6
+   },
+   "away": {
+    "id": 590,
+    "name": "Björn Hamberg",
+    "short_name": "B. Hamberg",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 55.0,
+    "avg_goals_scored": 1.4,
+    "avg_goals_conceded": 1.49
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.57,
+   "draw": 3.37,
+   "away_win": 2.54,
+   "over_15_goals": 1.22,
+   "over_25_goals": 1.75,
+   "over_35_goals": 2.84,
+   "under_15_goals": 3.97,
+   "under_25_goals": 2.04,
+   "under_35_goals": 1.38,
+   "btts_yes": 1.59,
+   "btts_no": 2.23
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 24892,
+    "name": "Alexander Jallow",
+    "short_name": "A. Jallow",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 24886,
+    "name": "Arbnor Mucolli",
+    "short_name": "A. Mucolli",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 16189,
+    "name": "Ramon Pascal Lundqvist",
+    "short_name": "R. Lundqvist",
+    "status": "injured",
+    "reason": "Illness"
+   }
+  ],
+  "away": [
+   {
+    "id": 15948,
+    "name": "Julius Magnusson",
+    "short_name": "J. Magnusson",
+    "status": "suspended",
+    "reason": "yellow_card_accumulation_suspension"
+   },
+   {
+    "id": 15951,
+    "name": "Per Frick",
+    "short_name": "P. Frick",
+    "status": "injured",
+    "reason": "Broken Ankle"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.655,
+   "away": 0.8
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:17Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.375,
+    "home_ga": 1.375,
+    "away_gf": 1.222,
+    "away_ga": 3.0,
+    "n_home": 8.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.556,
+    "home_ga": 1.0,
+    "away_gf": 1.0,
+    "away_ga": 0.875,
+    "n_home": 9.0,
+    "n_away": 8.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

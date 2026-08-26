@@ -1,0 +1,148 @@
+{
+ "id": 212144,
+ "league": "DFB Pokal",
+ "kickoff": "08-22 02:45",
+ "kickoff_iso": "2026-08-21T18:45:00+00:00",
+ "home": "FC Hansa Rostock",
+ "away": "VfB Stuttgart",
+ "home_id": 1847,
+ "away_id": 84,
+ "pulled_at": "2026-08-21T00:41:43.489356+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1212,
+    "name": "Daniel Brinkmann",
+    "short_name": "D. Brinkmann",
+    "profile": "attacking",
+    "preferred_formation": "4-3-1-2",
+    "matches_total": 10.0,
+    "avg_goals_scored": 2.9,
+    "avg_goals_conceded": 1.5
+   },
+   "away": {
+    "id": 283,
+    "name": "Sebastian Hoeneß",
+    "short_name": "S. Hoeneß",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 58.0,
+    "avg_goals_scored": 2.28,
+    "avg_goals_conceded": 1.34
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-1-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 11.31,
+   "draw": 6.23,
+   "away_win": 1.21,
+   "over_15_goals": 1.11,
+   "over_25_goals": 1.41,
+   "over_35_goals": 2.05,
+   "under_15_goals": 5.63,
+   "under_25_goals": 2.71,
+   "under_35_goals": 1.7,
+   "btts_yes": 1.92,
+   "btts_no": 1.8
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 3918,
+    "name": "Dan Zagadou",
+    "short_name": "D. Zagadou",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 24025,
+    "name": "Justin Diehl",
+    "short_name": "J. Diehl",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 3370,
+    "name": "Leo Sauer",
+    "short_name": "L. Sauer",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 1628,
+    "name": "Lorenz Assignon",
+    "short_name": "L. Assignon",
+    "status": "injured",
+    "reason": "Shoulder Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.186,
+   "away": 0.509
+  },
+  "formation": {
+   "home": "4-3-1-2",
+   "away": "3-4-1-2"
+  },
+  "updated_at": "2026-08-20T14:32:37Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.677,
+    "home_ga": 1.906,
+    "away_gf": 2.29,
+    "away_ga": 1.58,
+    "n_home": 9.6,
+    "n_away": 6.9,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1847
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.016,
+    "home_ga": 1.127,
+    "away_gf": 3.118,
+    "away_ga": 1.51,
+    "n_home": 6.3,
+    "n_away": 10.2,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 84
+   }
+  }
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "id": 207965,
+ "league": "解放者杯",
+ "kickoff": "08-21 08:30",
+ "kickoff_iso": "2026-08-21T00:30:00+00:00",
+ "home": "Corinthians",
+ "away": "Rosario Central",
+ "home_id": 167,
+ "away_id": 792,
+ "pulled_at": "2026-08-21T00:35:58.246791+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 153,
+    "name": "Fernando Diniz",
+    "short_name": "F. Diniz",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 71.0,
+    "avg_goals_scored": 1.11,
+    "avg_goals_conceded": 1.06
+   },
+   "away": {
+    "id": 533,
+    "name": "Jorge Almiron",
+    "short_name": "J. Almiron",
+    "profile": "defensive",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 29.0,
+    "avg_goals_scored": 1.31,
+    "avg_goals_conceded": 0.79
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.91,
+   "draw": 2.99,
+   "away_win": 4.6,
+   "over_15_goals": 1.61,
+   "over_25_goals": 2.86,
+   "over_35_goals": 5.93,
+   "under_15_goals": 2.21,
+   "under_25_goals": 1.38,
+   "under_35_goals": 1.11,
+   "btts_yes": 2.44,
+   "btts_no": 1.49
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 4478,
+    "name": "Alex Santana",
+    "short_name": "A. Santana",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 3869,
+    "name": "Allan",
+    "short_name": "Allan",
+    "status": "suspended",
+    "reason": "yellow_or_red_card_suspension"
+   },
+   {
+    "id": 258,
+    "name": "André Luiz",
+    "short_name": "A. Luiz",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 272,
+    "name": "Hugo",
+    "short_name": "Hugo",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   },
+   {
+    "id": 79,
+    "name": "Pedro Raul",
+    "short_name": "P. Raul",
+    "status": "injured",
+    "reason": "Rib Injury"
+   },
+   {
+    "id": 1146,
+    "name": "Yuri Alberto",
+    "short_name": "Y. Alberto",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 13629,
+    "name": "Zakaria Labyad",
+    "short_name": "Z. Labyad",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 3979,
+    "name": "Franco Cervi",
+    "short_name": "F. Cervi",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 26210,
+    "name": "Juan Giménez",
+    "short_name": "J. Giménez",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 26212,
+    "name": "Marco Rubén",
+    "short_name": "M. Rubén",
+    "status": "injured",
+    "reason": "Calf Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.759,
+   "away": 0.782
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-20T14:32:27Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.083,
+    "home_ga": 0.833,
+    "away_gf": 1.091,
+    "away_ga": 1.091,
+    "n_home": 12.0,
+    "n_away": 11.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.364,
+    "home_ga": 0.818,
+    "away_gf": 1.083,
+    "away_ga": 1.0,
+    "n_home": 11.0,
+    "n_away": 12.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "id": 210823,
+ "league": "荷甲",
+ "kickoff": "08-23 22:45",
+ "kickoff_iso": "2026-08-23T14:45:00Z",
+ "home": "SC Cambuur",
+ "away": "Feyenoord",
+ "home_id": 1324,
+ "away_id": 138,
+ "pulled_at": "2026-08-23T17:41:39.414798+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 2021,
+    "name": "Johan Plat",
+    "short_name": "J. Plat",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 6.0,
+    "avg_goals_scored": 1.17,
+    "avg_goals_conceded": 1.67
+   },
+   "away": {
+    "id": 1921,
+    "name": "Giovanni van Bronckhorst",
+    "short_name": "G. v. Bronckhorst",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 6.0,
+    "avg_goals_scored": 2.83,
+    "avg_goals_conceded": 0.67
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 9.2,
+   "draw": 5.77,
+   "away_win": 1.27,
+   "over_15_goals": 1.11,
+   "over_25_goals": 1.4,
+   "over_35_goals": 2.07,
+   "under_15_goals": 6.12,
+   "under_25_goals": 2.82,
+   "under_35_goals": 1.74,
+   "btts_yes": 1.74,
+   "btts_no": 2.0
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 29286,
+    "name": "Wiebe Kooistra",
+    "short_name": "W. Kooistra",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "away": [
+   {
+    "id": 4163,
+    "name": "Givairo Read",
+    "short_name": "G. Read",
+    "status": "injured",
+    "reason": "Hip Injury"
+   },
+   {
+    "id": 4396,
+    "name": "Jordan Bos",
+    "short_name": "J. Bos",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.414,
+   "away": 0.514
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:30Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 4.0,
+    "away_gf": 1.0,
+    "away_ga": 3.0,
+    "n_home": 1.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026/2027",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 2.0,
+    "away_gf": 1.0,
+    "away_ga": 0.0,
+    "n_home": 1,
+    "n_away": 1,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  }
+ }
+}

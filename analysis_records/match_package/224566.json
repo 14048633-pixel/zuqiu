@@ -1,0 +1,115 @@
+{
+ "id": 224566,
+ "league": "英乙",
+ "kickoff": "08-22 22:00",
+ "kickoff_iso": "2026-08-22T14:00:00+00:00",
+ "home": "Rochdale",
+ "away": "Crawley Town",
+ "home_id": 3702,
+ "away_id": 1447,
+ "pulled_at": "2026-08-22T01:11:29.470928+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1237,
+    "name": "Ian Watson",
+    "short_name": "I. Watson",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 1.71,
+    "avg_goals_conceded": 2.43
+   },
+   "away": {
+    "id": 897,
+    "name": "Colin Kazim-Richards",
+    "short_name": "C. Kazim-Richards",
+    "profile": "defensive",
+    "preferred_formation": "4-4-2",
+    "matches_total": 7.0,
+    "avg_goals_scored": 0.71,
+    "avg_goals_conceded": 1.57
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.373,
+   "away": 0.432
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-21T14:33:35Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 0.0,
+    "away_ga": 3.0,
+    "n_home": 0.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026/2027",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.75,
+    "home_ga": 1.083,
+    "away_gf": 0.667,
+    "away_ga": 1.333,
+    "n_home": 12.0,
+    "n_away": 12.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

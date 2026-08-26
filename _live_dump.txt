@@ -1,0 +1,452 @@
+{
+ "ts": "2026-08-17T13:18:09Z",
+ "league_sport": {
+  "\u4e39\u8d85": "soccer_denmark_superliga",
+  "\u745e\u8d85": "soccer_sweden_allsvenskan",
+  "\u897f\u4e59": "soccer_spain_segunda_division",
+  "\u963f\u7532": "soccer_argentina_primera_division",
+  "\u571f\u8d85": "soccer_turkey_super_league",
+  "\u82f1\u51a0": "soccer_efl_champ",
+  "\u897f\u7532": "soccer_spain_la_liga",
+  "\u8461\u8d85": "soccer_portugal_primeira_liga",
+  "\u5df4\u7532": "soccer_brazil_campeonato",
+  "\u667a\u5229\u7532": "soccer_chile_campeonato",
+  "\u58a8\u8d85": "soccer_mexico_ligamx"
+ },
+ "matches": [
+  {
+   "league": "\u4e39\u8d85",
+   "kickoff": "08-18 01:00",
+   "home": "Br\u00f8ndby IF",
+   "away": "S\u00f8nderjyske Fodbold",
+   "found": false
+  },
+  {
+   "league": "\u745e\u8d85",
+   "kickoff": "08-18 01:00",
+   "home": "BK H\u00e4cken",
+   "away": "Halmstads BK",
+   "found": true,
+   "event_id": "5a522fe54ae01be40f5c1969281e05b0",
+   "ct": "2026-08-17 17:00:00+00:00",
+   "h2h": [
+    1.28,
+    4.7,
+    6.5
+   ],
+   "ou25": [
+    1.4,
+    2.8
+   ],
+   "hdp_home0": null,
+   "fair_1x2": [
+    68.1,
+    18.5,
+    13.4
+   ],
+   "dir_1x2": "\u4e3b\u80dc 68.1%",
+   "fair_ou": [
+    66.7,
+    33.3
+   ],
+   "dir_ou": "\u59272.5 66.7%"
+  },
+  {
+   "league": "\u897f\u4e59",
+   "kickoff": "08-18 01:00",
+   "home": "Sporting Gij\u00f3n",
+   "away": "CE Sabadell",
+   "found": true,
+   "event_id": "156362501c4105c23c213f47dbfebcf0",
+   "ct": "2026-08-17 17:00:00+00:00",
+   "h2h": [
+    1.67,
+    3.1,
+    4.0
+   ],
+   "ou25": [
+    2.06,
+    1.54
+   ],
+   "hdp_home0": null,
+   "fair_1x2": [
+    51.1,
+    27.5,
+    21.3
+   ],
+   "dir_1x2": "\u4e3b\u80dc 51.1%",
+   "fair_ou": [
+    42.8,
+    57.2
+   ],
+   "dir_ou": "\u5c0f2.5 57.2%"
+  },
+  {
+   "league": "\u963f\u7532",
+   "kickoff": "08-18 01:45",
+   "home": "Estudiantes de R\u00edo Cuarto",
+   "away": "Atl\u00e9tico Tucum\u00e1n",
+   "found": true,
+   "event_id": "0910862bb2fa73b5d65f4c92b46050bf",
+   "ct": "2026-08-17 17:45:00+00:00",
+   "h2h": [
+    2.7,
+    2.7,
+    2.35
+   ],
+   "ou25": [
+    2.95,
+    1.39
+   ],
+   "hdp_home0": 2.1,
+   "fair_1x2": [
+    31.8,
+    31.8,
+    36.5
+   ],
+   "dir_1x2": "\u5ba2\u80dc 36.5%",
+   "fair_ou": [
+    32.0,
+    68.0
+   ],
+   "dir_ou": "\u5c0f2.5 68.0%"
+  },
+  {
+   "league": "\u571f\u8d85",
+   "kickoff": "08-18 02:30",
+   "home": "Samsunspor",
+   "away": "G\u00f6ztepe",
+   "found": true,
+   "event_id": "4b7e118e8b4da87694adfd9b8a75a1f9",
+   "ct": "2026-08-17 18:30:00+00:00",
+   "h2h": [
+    2.1,
+    3.1,
+    3.0
+   ],
+   "ou25": [
+    1.88,
+    1.65
+   ],
+   "hdp_home0": 1.63,
+   "fair_1x2": [
+    42.1,
+    28.5,
+    29.4
+   ],
+   "dir_1x2": "\u4e3b\u80dc 42.1%",
+   "fair_ou": [
+    46.7,
+    53.3
+   ],
+   "dir_ou": "\u5c0f2.5 53.3%"
+  },
+  {
+   "league": "\u82f1\u51a0",
+   "kickoff": "08-18 03:00",
+   "home": "Cardiff City",
+   "away": "Wrexham",
+   "found": true,
+   "event_id": "bb0f8db2a6c8fd7984342d6ad2dcf569",
+   "ct": "2026-08-17 19:00:00+00:00",
+   "h2h": [
+    2.35,
+    3.3,
+    2.5
+   ],
+   "ou25": [
+    1.61,
+    1.93
+   ],
+   "hdp_home0": 1.8,
+   "fair_1x2": [
+    37.7,
+    26.9,
+    35.4
+   ],
+   "dir_1x2": "\u4e3b\u80dc 37.7%",
+   "fair_ou": [
+    54.5,
+    45.5
+   ],
+   "dir_ou": "\u59272.5 54.5%"
+  },
+  {
+   "league": "\u897f\u7532",
+   "kickoff": "08-18 03:00",
+   "home": "Deportivo de A Coru\u00f1a",
+   "away": "Elche",
+   "found": true,
+   "event_id": "7b9f4d89d66c48e0c496aab1679e4ae4",
+   "ct": "2026-08-17 19:00:00+00:00",
+   "h2h": [
+    2.1,
+    3.0,
+    3.25
+   ],
+   "ou25": [
+    2.14,
+    1.53
+   ],
+   "hdp_home0": 1.59,
+   "fair_1x2": [
+    42.6,
+    29.8,
+    27.5
+   ],
+   "dir_1x2": "\u4e3b\u80dc 42.6%",
+   "fair_ou": [
+    41.7,
+    58.3
+   ],
+   "dir_ou": "\u5c0f2.5 58.3%"
+  },
+  {
+   "league": "\u8461\u8d85",
+   "kickoff": "08-18 03:15",
+   "home": "Casa Pia",
+   "away": "Benfica",
+   "found": true,
+   "event_id": "f7a76400e2ae3978f03925ed51a69bce",
+   "ct": "2026-08-17 19:15:00+00:00",
+   "h2h": [
+    11.5,
+    5.6,
+    1.18
+   ],
+   "ou25": [
+    1.49,
+    2.15
+   ],
+   "hdp_home0": null,
+   "fair_1x2": [
+    7.8,
+    16.0,
+    76.1
+   ],
+   "dir_1x2": "\u5ba2\u80dc 76.1%",
+   "fair_ou": [
+    59.1,
+    40.9
+   ],
+   "dir_ou": "\u59272.5 59.1%"
+  },
+  {
+   "league": "\u897f\u4e59",
+   "kickoff": "08-18 03:30",
+   "home": "Almer\u00eda",
+   "away": "CD Eldense",
+   "found": true,
+   "event_id": "664dab2fa76694bc6e698a9be5ed925e",
+   "ct": "2026-08-17 19:30:00+00:00",
+   "h2h": [
+    1.24,
+    4.6,
+    6.75
+   ],
+   "ou25": [
+    1.56,
+    2.0
+   ],
+   "hdp_home0": null,
+   "fair_1x2": [
+    68.8,
+    18.5,
+    12.6
+   ],
+   "dir_1x2": "\u4e3b\u80dc 68.8%",
+   "fair_ou": [
+    56.2,
+    43.8
+   ],
+   "dir_ou": "\u59272.5 56.2%"
+  },
+  {
+   "league": "\u963f\u7532",
+   "kickoff": "08-18 04:00",
+   "home": "CA Lan\u00fas",
+   "away": "CA Independiente",
+   "found": true,
+   "event_id": "1e87f55c063c7e171601eaa6b5f4da69",
+   "ct": "2026-08-17 20:00:00+00:00",
+   "h2h": [
+    2.15,
+    2.8,
+    3.0
+   ],
+   "ou25": [
+    2.75,
+    1.44
+   ],
+   "hdp_home0": 1.61,
+   "fair_1x2": [
+    40.2,
+    30.9,
+    28.8
+   ],
+   "dir_1x2": "\u4e3b\u80dc 40.2%",
+   "fair_ou": [
+    34.4,
+    65.6
+   ],
+   "dir_ou": "\u5c0f2.5 65.6%"
+  },
+  {
+   "league": "\u963f\u7532",
+   "kickoff": "08-18 06:15",
+   "home": "V\u00e9lez Sarsfield",
+   "away": "Defensa y Justicia",
+   "found": true,
+   "event_id": "9c7d6ce4e925c3ef8e007b18fe763b09",
+   "ct": "2026-08-17 22:15:00+00:00",
+   "h2h": [
+    1.67,
+    3.1,
+    4.5
+   ],
+   "ou25": [
+    2.17,
+    1.5
+   ],
+   "hdp_home0": 1.27,
+   "fair_1x2": [
+    52.4,
+    28.2,
+    19.4
+   ],
+   "dir_1x2": "\u4e3b\u80dc 52.4%",
+   "fair_ou": [
+    40.9,
+    59.1
+   ],
+   "dir_ou": "\u5c0f2.5 59.1%"
+  },
+  {
+   "league": "\u5df4\u7532",
+   "kickoff": "08-18 07:00",
+   "home": "Internacional",
+   "away": "Remo",
+   "found": true,
+   "event_id": "caa23e620c159aa3324822722689bd9a",
+   "ct": "2026-08-17 23:00:00+00:00",
+   "h2h": [
+    1.45,
+    3.8,
+    5.2
+   ],
+   "ou25": [
+    1.71,
+    1.82
+   ],
+   "hdp_home0": null,
+   "fair_1x2": [
+    60.2,
+    23.0,
+    16.8
+   ],
+   "dir_1x2": "\u4e3b\u80dc 60.2%",
+   "fair_ou": [
+    51.6,
+    48.4
+   ],
+   "dir_ou": "\u59272.5 51.6%"
+  },
+  {
+   "league": "\u667a\u5229\u7532",
+   "kickoff": "08-18 08:30",
+   "home": "Palestino",
+   "away": "Huachipato",
+   "found": true,
+   "event_id": "1d64dc7725a17580fc7bbc21fa9f847c",
+   "ct": "2026-08-18 00:30:00+00:00",
+   "h2h": [
+    1.65,
+    3.45,
+    3.9
+   ],
+   "ou25": [
+    1.62,
+    2.02
+   ],
+   "hdp_home0": null,
+   "fair_1x2": [
+    52.6,
+    25.2,
+    22.3
+   ],
+   "dir_1x2": "\u4e3b\u80dc 52.6%",
+   "fair_ou": [
+    55.5,
+    44.5
+   ],
+   "dir_ou": "\u59272.5 55.5%"
+  },
+  {
+   "league": "\u963f\u7532",
+   "kickoff": "08-18 08:30",
+   "home": "Gimnasia y Esgrima Mendoza",
+   "away": "CA Talleres",
+   "found": false
+  },
+  {
+   "league": "\u58a8\u8d85",
+   "kickoff": "08-18 09:00",
+   "home": "Club Necaxa",
+   "away": "Club Le\u00f3n",
+   "found": true,
+   "event_id": "33f8e1e092f62b4456967aa2c6fd5271",
+   "ct": "2026-08-18 01:00:00+00:00",
+   "h2h": [
+    2.12,
+    3.1,
+    2.5
+   ],
+   "ou25": [
+    1.56,
+    1.95
+   ],
+   "hdp_home0": 1.75,
+   "fair_1x2": [
+    39.5,
+    27.0,
+    33.5
+   ],
+   "dir_1x2": "\u4e3b\u80dc 39.5%",
+   "fair_ou": [
+    55.6,
+    44.4
+   ],
+   "dir_ou": "\u59272.5 55.6%"
+  },
+  {
+   "league": "\u58a8\u8d85",
+   "kickoff": "08-18 11:00",
+   "home": "CF Pachuca",
+   "away": "Club Puebla",
+   "found": true,
+   "event_id": "1fa4faa9a275055bafa251f91affc6ff",
+   "ct": "2026-08-18 03:00:00+00:00",
+   "h2h": [
+    1.36,
+    3.58,
+    5.25
+   ],
+   "ou25": [
+    1.55,
+    2.0
+   ],
+   "hdp_home0": null,
+   "fair_1x2": [
+    61.0,
+    23.2,
+    15.8
+   ],
+   "dir_1x2": "\u4e3b\u80dc 61.0%",
+   "fair_ou": [
+    56.3,
+    43.7
+   ],
+   "dir_ou": "\u59272.5 56.3%"
+  }
+ ]
+}

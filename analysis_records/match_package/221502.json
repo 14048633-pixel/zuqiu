@@ -1,0 +1,145 @@
+{
+ "id": 221502,
+ "league": "丹超",
+ "kickoff": "08-24 00:00",
+ "kickoff_iso": "2026-08-23T16:00:00Z",
+ "home": "Viborg FF",
+ "away": "FC Copenhagen",
+ "home_id": 1376,
+ "away_id": 124,
+ "pulled_at": "2026-08-23T17:43:50.533113+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 2096,
+    "name": "Nickolai Konig Lund",
+    "short_name": "N. K. Lund",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 174.0,
+    "avg_goals_scored": 1.43,
+    "avg_goals_conceded": 1.38
+   },
+   "away": {
+    "id": 640,
+    "name": "Bo Svensson",
+    "short_name": "B. Svensson",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 189.0,
+    "avg_goals_scored": 1.95,
+    "avg_goals_conceded": 1.15
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.84,
+   "draw": 3.66,
+   "away_win": 2.19,
+   "over_15_goals": 1.15,
+   "over_25_goals": 1.53,
+   "over_35_goals": 2.34,
+   "under_15_goals": 5.03,
+   "under_25_goals": 2.4,
+   "under_35_goals": 1.57,
+   "btts_yes": 1.47,
+   "btts_no": 2.5
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 42325,
+    "name": "Mohamed Iyadh Riahi",
+    "short_name": "M. I. Riahi",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 4244,
+    "name": "Andreas Cornelius",
+    "short_name": "A. Cornelius",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 3557,
+    "name": "Dominik Kotarski",
+    "short_name": "D. Kotarski",
+    "status": "injured",
+    "reason": "Leg Injury"
+   },
+   {
+    "id": 3561,
+    "name": "Marcos López",
+    "short_name": "M. López",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.573,
+   "away": 0.705
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:38Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.0,
+    "home_ga": 0.778,
+    "away_gf": 1.333,
+    "away_ga": 1.889,
+    "n_home": 9.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.875,
+    "home_ga": 1.125,
+    "away_gf": 2.667,
+    "away_ga": 1.333,
+    "n_home": 8.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

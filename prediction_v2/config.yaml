@@ -1,0 +1,68 @@
+﻿# prediction_v2 配置 — 足球竞猜新方案
+# 设计原则: 无未来函数 / 开收盘双口径 / 结果诚实
+
+data:
+  football_dir: "../data/raw/football_data"   # football-data.co.uk 原始 CSV
+  soccer_teams: "../data/raw/soccer-dataset/teams.parquet"  # 球队映射字典数据源
+  soccer_fixtures: "../data/raw/soccer-dataset/fixtures.parquet"
+  soccer_match_stats: "../data/raw/soccer-dataset/match_stats.parquet"
+  xg_cache: "xg_cache.csv"                    # 逐场 xG 缓存(可重建: python build_xg_cache.py)
+  min_date: "2015-06-01"                      # 训练数据起点
+  max_date: "2026-08-13"                      # 回测数据截止(<=今天, 防未来行)
+  leagues: []                                 # 空=全部9大联赛
+
+features:
+  elo_k: 32
+  elo_home_adv: 100
+  decay_half_life_days: 180                   # 攻防强度时间衰减半衰期
+  strength_prior: 8                           # 强度收缩先验(相当于N场)
+  min_games_strength: 3                       # 强度最少样本
+  max_goals: 10                               # 泊松比分网格上限
+
+model:
+  type: "poisson"                             # poisson(主) | xgb/lgb(对照)
+  extra_ml_features: [tech]                # ML扩展特征: tech=射门/射正/角球/犯规滚动(回测LogLoss 1.0171->1.0134, 10/10年改善); sos 冗余不启用                              # 0=纯进球; 0.25=进球+xG混合(回测优化, 无xG场次自动回退纯进球)
+  xgb_params:
+    n_estimators: 200
+    max_depth: 4
+    learning_rate: 0.05
+    subsample: 0.8
+    colsample_bytree: 0.8
+    min_child_weight: 3
+    reg_lambda: 1.0
+    random_state: 42
+  lgb_params:
+    n_estimators: 400
+    max_depth: 4
+    learning_rate: 0.05
+    subsample: 0.8
+    colsample_bytree: 0.8
+    min_child_samples: 30
+    reg_lambda: 1.0
+    random_state: 42
+  cat_params:
+    iterations: 300
+    depth: 4
+    learning_rate: 0.05
+    l2_leaf_reg: 1.0
+    subsample: 0.8
+    rsm: 0.8
+    random_seed: 42
+    thread_count: 4
+
+backtest:
+  warmup_days: 730                            # 前两年只用于积累特征
+  retrain_days: 180                           # 每半年一个回测折
+  min_train_matches: 1500                     # XGB至少需要的训练样本
+
+markets:
+  # 各市场最低边际(模型概率 - 去水市场概率)
+  edge_1x2: 0.03
+  edge_ou: 0.03
+  edge_ah: 0.03
+  min_odds: 2.00
+  max_odds: 9.0
+  kelly_fraction: 0.25                        # 1/4凯利
+  kelly_cap: 0.10                             # 单注上限10%本金
+  initial_bankroll: 1000.0
+  ou_line: 2.5                                # 大小球固定主盘

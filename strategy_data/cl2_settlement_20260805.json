@@ -1,0 +1,44 @@
+{
+  "settlement_date": "2026-08-06",
+  "note": "2026-08-05 中乙5场投注复盘结算",
+  "total_stake": 50,
+  "total_return": 0,
+  "total_pnl": -50,
+  "roi": "-100%",
+  "bets": [
+    {
+      "type": "3串1",
+      "stake": 30,
+      "result": "输",
+      "return": 0,
+      "legs": [
+        {"match": "上海海港B vs 山西崇德荣海", "bet": "小2.25", "odds": 1.73, "prob": 0.852, "score": "0-1", "leg_result": "赢", "note": "陈祥煜1分钟闪击, 山西6连胜"},
+        {"match": "兰州陇原 vs 北京理工", "bet": "小2.25", "odds": 1.82, "prob": 0.843, "score": "1-0", "leg_result": "赢"},
+        {"match": "湖北青年星 vs 江西庐山", "bet": "主队+0/0.5", "odds": 1.7, "prob": 0.791, "score": "0-1", "leg_result": "输", "note": "江西绝杀, 主队不败预测失败"}
+      ]
+    },
+    {
+      "type": "5串1",
+      "stake": 20,
+      "result": "输",
+      "return": 0,
+      "legs": [
+        {"match": "上海海港B vs 山西崇德荣海", "bet": "小2.25", "odds": 1.73, "prob": 0.852, "score": "0-1", "leg_result": "赢"},
+        {"match": "长春喜都 vs 大连英博B", "bet": "小1.75", "odds": 1.94, "prob": 0.62, "score": "0-1", "leg_result": "赢", "note": "44分钟马明伟头球, 大连英博B终结5轮不胜"},
+        {"match": "兰州陇原 vs 北京理工", "bet": "小2.25", "odds": 1.82, "prob": 0.843, "score": "1-0", "leg_result": "赢"},
+        {"match": "湖北青年星 vs 江西庐山", "bet": "主队+0/0.5", "odds": 1.7, "prob": 0.791, "score": "0-1", "leg_result": "输"},
+        {"match": "温州 vs 贵州贵阳", "bet": "小2", "odds": 1.84, "prob": 0.689, "score": "0-2", "leg_result": "走水"}
+      ]
+    }
+  ],
+  "review": {
+    "leg_accuracy": "5腿中4腿正确(4赢1走水), 仅湖北青年星让球盘失败",
+    "failed_leg": {
+      "match": "湖北青年星 vs 江西庐山",
+      "prediction": "主队+0/0.5 (不败概率79.1%)",
+      "actual": "主队0-1输球",
+      "lesson": "让球盘预测主队不败但客队绝杀, 79.1%概率仍落入21%尾部风险"
+    },
+    "key_insight": "小球方向全部命中(4/4走水含1), 让球盘是本次亏损根源"
+  }
+}

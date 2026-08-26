@@ -1,0 +1,147 @@
+{
+ "id": 210819,
+ "league": "荷甲",
+ "kickoff": "08-23 02:00",
+ "kickoff_iso": "2026-08-22T18:00:00+00:00",
+ "home": "NEC Nijmegen",
+ "away": "Excelsior",
+ "home_id": 171,
+ "away_id": 172,
+ "pulled_at": "2026-08-22T01:15:36.938551+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 316,
+    "name": "Dick Schreuder",
+    "short_name": "D. Schreuder",
+    "profile": "attacking",
+    "preferred_formation": "3-4-1-2",
+    "matches_total": 43.0,
+    "avg_goals_scored": 2.19,
+    "avg_goals_conceded": 1.53
+   },
+   "away": {
+    "id": 315,
+    "name": "Ruben den Uil",
+    "short_name": "R. d. Uil",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 40.0,
+    "avg_goals_scored": 1.62,
+    "avg_goals_conceded": 1.57
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-1-2",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 5458,
+    "name": "Koki Ogawa",
+    "short_name": "K. Ogawa",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 5450,
+    "name": "Philippe Sandler",
+    "short_name": "P. Sandler",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 5452,
+    "name": "Sami Ouaissa",
+    "short_name": "S. Ouaissa",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 5632,
+    "name": "Yassin Moslih",
+    "short_name": "Y. Moslih",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.564,
+   "away": 0.486
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-21T14:34:21Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 1.406,
+    "away_gf": 1.913,
+    "away_ga": 1.348,
+    "n_home": 9.6,
+    "n_away": 6.9,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧冠",
+    "team_id": 171
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.0,
+    "home_ga": 2.0,
+    "away_gf": 4.0,
+    "away_ga": 0.0,
+    "n_home": 1,
+    "n_away": 1,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  }
+ }
+}

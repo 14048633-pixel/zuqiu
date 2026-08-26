@@ -1,0 +1,255 @@
+{
+ "id": 7225,
+ "league": "巴甲",
+ "kickoff": "08-24 05:30",
+ "kickoff_iso": "2026-08-23T21:30:00Z",
+ "home": "Chapecoense",
+ "away": "Sao Paulo",
+ "home_id": 373,
+ "away_id": 158,
+ "pulled_at": "2026-08-23T17:38:53.096492+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1915,
+    "name": "Rafael Lacerda",
+    "short_name": "R. Lacerda",
+    "profile": "defensive",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 9.0,
+    "avg_goals_scored": 0.78,
+    "avg_goals_conceded": 1.56
+   },
+   "away": {
+    "id": 1579,
+    "name": "Dorival Júnior",
+    "short_name": "D. Júnior",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 67.0,
+    "avg_goals_scored": 1.15,
+    "avg_goals_conceded": 1.13
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.6,
+   "draw": 3.28,
+   "away_win": 2.06,
+   "over_15_goals": null,
+   "over_25_goals": 2.1,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": 1.7,
+   "under_35_goals": null,
+   "btts_yes": 1.84,
+   "btts_no": 1.89
+  },
+  "best": {
+   "btts": {
+    "yes": {
+     "odds": 1.9,
+     "bookmaker": "bet365",
+     "n": 14
+    },
+    "no": {
+     "odds": 1.97,
+     "bookmaker": "pinnacle",
+     "n": 14
+    }
+   },
+   "draw_no_bet": {
+    "home": {
+     "odds": 2.71,
+     "bookmaker": "pinnacle",
+     "n": 10
+    },
+    "away": {
+     "odds": 1.483,
+     "bookmaker": "pinnacle",
+     "n": 10
+    }
+   },
+   "over_under_25": {
+    "over@2.5": {
+     "odds": 2.1,
+     "bookmaker": "bet365",
+     "n": 1
+    },
+    "under@2.5": {
+     "odds": 1.7,
+     "bookmaker": "bet365",
+     "n": 1
+    }
+   },
+   "1x2": {
+    "home": {
+     "odds": 4.0,
+     "bookmaker": "betfair",
+     "n": 14
+    },
+    "draw": {
+     "odds": 3.4,
+     "bookmaker": "dafabet",
+     "n": 14
+    },
+    "away": {
+     "odds": 2.1,
+     "bookmaker": "ladbrokes",
+     "n": 14
+    }
+   }
+  },
+  "bookmakers_count": 23,
+  "total_odds": 92
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 4989,
+    "name": "Bruno Tubarão",
+    "short_name": "B. Tubarão",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 12334,
+    "name": "João Paulo",
+    "short_name": "J. Paulo",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 17467,
+    "name": "Max",
+    "short_name": "Max",
+    "status": "injured",
+    "reason": "Broken Rib"
+   },
+   {
+    "id": 12296,
+    "name": "Rafael Carvalheira",
+    "short_name": "R. Carvalheira",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 12335,
+    "name": "Robert Santos",
+    "short_name": "R. Santos",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 12292,
+    "name": "Victor Caetano",
+    "short_name": "V. Caetano",
+    "status": "injured",
+    "reason": "Foot Injury"
+   },
+   {
+    "id": 1873,
+    "name": "Yannick Bolasie",
+    "short_name": "Y. Bolasie",
+    "status": "injured",
+    "reason": ""
+   }
+  ],
+  "away": [
+   {
+    "id": 143,
+    "name": "Damián Bobadilla",
+    "short_name": "D. Bobadilla",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 4041,
+    "name": "Lucas Moura",
+    "short_name": "L. Moura",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 142,
+    "name": "Maik",
+    "short_name": "Maik",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 139,
+    "name": "Rafael Tolói",
+    "short_name": "R. Tolói",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 149,
+    "name": "Robert Arboleda",
+    "short_name": "R. Arboleda",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.614,
+   "away": 0.795
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:33:11Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.455,
+    "home_ga": 2.455,
+    "away_gf": 0.636,
+    "away_ga": 1.727,
+    "n_home": 11,
+    "n_away": 11,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.545,
+    "home_ga": 1.0,
+    "away_gf": 0.867,
+    "away_ga": 1.333,
+    "n_home": 11.0,
+    "n_away": 15.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "id": 211875,
+ "league": "波甲",
+ "kickoff": "08-23 20:45",
+ "kickoff_iso": "2026-08-23T12:45:00Z",
+ "home": "Radomiak Radom",
+ "away": "Zagłębie Lubin",
+ "home_id": 433,
+ "away_id": 424,
+ "pulled_at": "2026-08-23T17:44:51.928733+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1897,
+    "name": "Tomasz Kaczmarek",
+    "short_name": "T. Kaczmarek",
+    "profile": "attacking",
+    "preferred_formation": "4-1-4-1",
+    "matches_total": 15.0,
+    "avg_goals_scored": 1.93,
+    "avg_goals_conceded": 1.87
+   },
+   "away": {
+    "id": 487,
+    "name": "Leszek Ojrzynski",
+    "short_name": "L. Ojrzynski",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 49.0,
+    "avg_goals_scored": 1.39,
+    "avg_goals_conceded": 1.18
+   }
+  },
+  "preferred_formation": {
+   "home": "4-1-4-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.36,
+   "draw": 3.26,
+   "away_win": 2.82,
+   "over_15_goals": 1.27,
+   "over_25_goals": 1.87,
+   "over_35_goals": 3.17,
+   "under_15_goals": 3.51,
+   "under_25_goals": 1.89,
+   "under_35_goals": 1.32,
+   "btts_yes": 1.68,
+   "btts_no": 2.08
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 13956,
+    "name": "Mateusz Cichocki",
+    "short_name": "M. Cichocki",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.432,
+   "away": 0.4
+  },
+  "formation": {
+   "home": "4-1-4-1",
+   "away": "3-5-2"
+  },
+  "updated_at": "2026-08-23T08:32:20Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 1.0,
+    "away_gf": 0.0,
+    "away_ga": 0.0,
+    "n_home": 1.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 0.0,
+    "away_ga": 0.0,
+    "n_home": 1.0,
+    "n_away": 0.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

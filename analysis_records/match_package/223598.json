@@ -1,0 +1,138 @@
+{
+ "id": 223598,
+ "league": "阿甲",
+ "kickoff": "08-24 01:45",
+ "kickoff_iso": "2026-08-23T17:45:00Z",
+ "home": "Barracas Central",
+ "away": "Platense",
+ "home_id": 734,
+ "away_id": 796,
+ "pulled_at": "2026-08-23T17:39:14.509132+08:00",
+ "missing": [
+  "away教练(coach_cache未命中 id=3401) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 3194,
+    "name": "Damián Ayude",
+    "short_name": "D. Ayude",
+    "profile": "defensive",
+    "preferred_formation": "3-5-2",
+    "matches_total": 20.0,
+    "avg_goals_scored": 0.9,
+    "avg_goals_conceded": 0.85
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "3-5-2",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 2.38,
+   "btts_no": 1.53
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 21908,
+    "name": "Norberto Briasco",
+    "short_name": "N. Briasco",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 21932,
+    "name": "Yonatthan Rak",
+    "short_name": "Y. Rak",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 23748,
+    "name": "Celías Ingenthron",
+    "short_name": "C. Ingenthron",
+    "status": "injured",
+    "reason": "Dislocated Shoulder"
+   },
+   {
+    "id": 36938,
+    "name": "Gonzalo Goñi",
+    "short_name": "G. Goñi",
+    "status": "injured",
+    "reason": "Achilles Tendon Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.814,
+   "away": 0.736
+  },
+  "formation": {
+   "home": "5-3-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:47Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.0,
+    "home_ga": 0.9,
+    "away_gf": 0.727,
+    "away_ga": 0.818,
+    "n_home": 10.0,
+    "n_away": 11.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.636,
+    "home_ga": 1.364,
+    "away_gf": 0.8,
+    "away_ga": 0.9,
+    "n_home": 11.0,
+    "n_away": 10.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

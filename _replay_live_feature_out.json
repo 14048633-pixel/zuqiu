@@ -1,0 +1,2871 @@
+[
+ {
+  "league": "德乙",
+  "home": "Hertha Berlin",
+  "away": "1. FC Heidenheim",
+  "kickoff": "2026-08-15T11:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:40:03Z",
+   "snap_age_h": 51.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛51h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "盘口过期(距开赛51h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-13T14:39:19",
+   "snap_age_h": 44.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛44h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "盘口过期(距开赛44h>阈值12h)->否决"
+   ]
+  }
+ },
+ {
+  "league": "德乙",
+  "home": "Greuther Fürth",
+  "away": "1. FC Nürnberg",
+  "kickoff": "2026-08-15T11:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:40:03Z",
+   "snap_age_h": 51.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "客胜高估区(赔率2.24: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-13T14:39:19",
+   "snap_age_h": 44.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "客胜高估区(赔率2.24: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  }
+ },
+ {
+  "league": "中超",
+  "home": "Liaoning Tieren FC",
+  "away": "Shenzhen Peng City FC",
+  "kickoff": "2026-08-15T11:00:00+00:00",
+  "score": "1-2",
+  "early": {
+   "snap": "2026-08-15T07:26:50Z",
+   "snap_age_h": 3.6,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:25:01Z",
+   "snap_age_h": 0.6,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "模型与市场分歧>20pp(模型72% vs 市场49%)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "模型与市场分歧>20pp(模型72% vs 市场49%)->否决"
+   ]
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Bolton Wanderers",
+  "away": "Preston North End",
+  "kickoff": "2026-08-15T11:30:00+00:00",
+  "score": "2-1",
+  "early": {
+   "snap": "2026-08-13T07:39:55Z",
+   "snap_age_h": 51.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 0.2,
+   "best": "大2.50",
+   "ev": 0.0829,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "win",
+   "pnl": 1.1
+  }
+ },
+ {
+  "league": "中超",
+  "home": "Yunnan Yukun",
+  "away": "Dalian Yingbo",
+  "kickoff": "2026-08-15T12:00:00+00:00",
+  "score": "3-1",
+  "early": {
+   "snap": "2026-08-15T07:26:50Z",
+   "snap_age_h": 4.6,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "模型与市场分歧>20pp(模型82% vs 市场50%)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "λ过高(4.81)",
+    "模型与市场分歧>20pp(模型82% vs 市场50%)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T11:50:17Z",
+   "snap_age_h": 0.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "模型与市场分歧>20pp(模型82% vs 市场50%)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "λ过高(4.81)",
+    "模型与市场分歧>20pp(模型82% vs 市场50%)->否决"
+   ]
+  }
+ },
+ {
+  "league": "中超",
+  "home": "Shanghai Shenhua FC",
+  "away": "Henan FC",
+  "kickoff": "2026-08-15T12:00:00+00:00",
+  "score": "4-1",
+  "early": {
+   "snap": "2026-08-15T07:26:50Z",
+   "snap_age_h": 4.6,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "主胜高估区(赔率1.94: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T11:50:17Z",
+   "snap_age_h": 0.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "主胜高估区(赔率1.89: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Bristol City",
+  "away": "Millwall",
+  "kickoff": "2026-08-15T14:00:00+00:00",
+  "score": "0-2",
+  "early": {
+   "snap": "2026-08-13T07:39:55Z",
+   "snap_age_h": 54.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 2.7,
+   "best": "小2.50",
+   "ev": 0.1368,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "整球盘2.50遇预警降星",
+    "联赛小球反向标记(英冠实证: 小球为反向, 勿追小球)"
+   ],
+   "result": "win",
+   "pnl": 0.94
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Charlton Athletic",
+  "away": "Derby County",
+  "kickoff": "2026-08-15T14:00:00+00:00",
+  "score": "2-1",
+  "early": {
+   "snap": "2026-08-13T07:39:55Z",
+   "snap_age_h": 54.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.78: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 2.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警-强(市场去水平局>=30%)"
+   ]
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Middlesbrough",
+  "away": "Lincoln City",
+  "kickoff": "2026-08-15T14:00:00+00:00",
+  "score": "2-1",
+  "early": {
+   "snap": "2026-08-13T07:39:55Z",
+   "snap_age_h": 54.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 2.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "模型与市场分歧>20pp(模型72% vs 市场51%)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "模型与市场分歧>20pp(模型72% vs 市场51%)->否决"
+   ]
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Norwich City",
+  "away": "West Bromwich Albion",
+  "kickoff": "2026-08-15T14:00:00+00:00",
+  "score": "1-2",
+  "early": {
+   "snap": "2026-08-13T07:39:55Z",
+   "snap_age_h": 54.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.06: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 2.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.02: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Portsmouth",
+  "away": "Queens Park Rangers",
+  "kickoff": "2026-08-15T14:00:00+00:00",
+  "score": "1-3",
+  "early": {
+   "snap": "2026-08-13T07:39:55Z",
+   "snap_age_h": 54.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 2.7,
+   "best": "小2.50",
+   "ev": 0.1171,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "整球盘2.50遇预警降星",
+    "联赛小球反向标记(英冠实证: 小球为反向, 勿追小球)"
+   ],
+   "result": "lose",
+   "pnl": -1.0
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Stoke City",
+  "away": "Swansea City",
+  "kickoff": "2026-08-15T14:00:00+00:00",
+  "score": "1-2",
+  "early": {
+   "snap": "2026-08-13T07:39:55Z",
+   "snap_age_h": 54.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 2.7,
+   "best": "大2.50",
+   "ev": 0.2535,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "win",
+   "pnl": 1.1400000000000001
+  }
+ },
+ {
+  "league": "荷甲",
+  "home": "Willem II",
+  "away": "NEC Nijmegen",
+  "kickoff": "2026-08-15T14:30:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:40:10Z",
+   "snap_age_h": 54.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛55h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "盘口过期(距开赛55h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:36Z",
+   "snap_age_h": 4.3,
+   "best": "让球主(+1.0)",
+   "ev": 0.0757,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "假小球拦截(1腿: 模型大53%>=50%+市场隐含大>=60%, λ低估假信号)"
+   ]
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Sheffield United",
+  "away": "Birmingham City",
+  "kickoff": "2026-08-15T16:30:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:39:55Z",
+   "snap_age_h": 56.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 5.2,
+   "best": "小2.50",
+   "ev": 0.0731,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "整球盘2.50遇预警降星",
+    "联赛小球反向标记(英冠实证: 小球为反向, 勿追小球)"
+   ]
+  }
+ },
+ {
+  "league": "荷甲",
+  "home": "FC Utrecht",
+  "away": "AZ Alkmaar",
+  "kickoff": "2026-08-15T16:45:00+00:00",
+  "score": "1-4",
+  "early": {
+   "snap": "2026-08-13T07:40:10Z",
+   "snap_age_h": 57.1,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.45: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:36Z",
+   "snap_age_h": 6.6,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "客胜高估区(赔率2.50: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  }
+ },
+ {
+  "league": "西乙",
+  "home": "Cádiz CF",
+  "away": "Celta Vigo",
+  "kickoff": "2026-08-15T17:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:39:59Z",
+   "snap_age_h": 57.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.06: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:39Z",
+   "snap_age_h": 6.8,
+   "best": "小2.50",
+   "ev": 0.1455,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.10: 真实主胜28%, 平局预警下押受让+号)",
+    "整球盘2.50遇预警降星"
+   ]
+  }
+ },
+ {
+  "league": "西乙",
+  "home": "Oviedo",
+  "away": "Granada CF",
+  "kickoff": "2026-08-15T17:00:00+00:00",
+  "score": "0-0",
+  "early": {
+   "snap": "2026-08-13T07:39:59Z",
+   "snap_age_h": 57.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率1.81: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:39Z",
+   "snap_age_h": 6.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.06: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  }
+ },
+ {
+  "league": "荷甲",
+  "home": "Excelsior",
+  "away": "PSV Eindhoven",
+  "kickoff": "2026-08-15T18:00:00+00:00",
+  "score": "1-2",
+  "early": {
+   "snap": "2026-08-13T07:40:10Z",
+   "snap_age_h": 58.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:36Z",
+   "snap_age_h": 7.8,
+   "best": "让球主(+1.2)",
+   "ev": 0.1652,
+   "star": 2,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "联赛荷甲历史负ROI(观察期, 300场后定禁入)"
+   ],
+   "result": "half",
+   "pnl": 0.43000000000000016
+  }
+ },
+ {
+  "league": "德乙",
+  "home": "1. FC Kaiserslautern",
+  "away": "Karlsruher SC",
+  "kickoff": "2026-08-15T18:30:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:40:03Z",
+   "snap_age_h": 58.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛59h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "主胜高估区(赔率1.90: 真实主胜28%, 平局预警下押受让+号)",
+    "盘口过期(距开赛59h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-13T14:39:19",
+   "snap_age_h": 51.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛52h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "主胜高估区(赔率1.90: 真实主胜28%, 平局预警下押受让+号)",
+    "盘口过期(距开赛52h>阈值12h)->否决"
+   ]
+  }
+ },
+ {
+  "league": "荷甲",
+  "home": "Fortuna Sittard",
+  "away": "SC Cambuur",
+  "kickoff": "2026-08-15T19:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:40:10Z",
+   "snap_age_h": 59.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:36Z",
+   "snap_age_h": 8.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报"
+   ]
+  }
+ },
+ {
+  "league": "西乙",
+  "home": "Mallorca",
+  "away": "Real Valladolid CF",
+  "kickoff": "2026-08-15T19:30:00+00:00",
+  "score": "2-0",
+  "early": {
+   "snap": "2026-08-13T07:39:59Z",
+   "snap_age_h": 59.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛60h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "盘口过期(距开赛60h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:39Z",
+   "snap_age_h": 9.3,
+   "best": "让球主(-0.8)",
+   "ev": 0.1668,
+   "star": 2,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报"
+   ],
+   "result": "win",
+   "pnl": 0.97
+  }
+ },
+ {
+  "league": "美职",
+  "home": "Los Angeles FC",
+  "away": "San Diego FC",
+  "kickoff": "2026-08-16T02:30:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-15T13:20:54Z",
+   "snap_age_h": 13.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "假小球拦截(1腿: 模型大58%>=50%+市场隐含大>=60%, λ低估假信号)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-16T02:29:31Z",
+   "snap_age_h": 0.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "假小球拦截(1腿: 模型大58%>=50%+市场隐含大>=60%, λ低估假信号)"
+   ]
+  }
+ },
+ {
+  "league": "美职",
+  "home": "San Jose Earthquakes",
+  "away": "St. Louis City SC",
+  "kickoff": "2026-08-16T02:30:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-15T13:20:54Z",
+   "snap_age_h": 13.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛13h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "盘口过期(距开赛13h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-16T02:29:31Z",
+   "snap_age_h": 0.2,
+   "best": "让球主(-0.2)",
+   "ev": 0.13,
+   "star": 2,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报"
+   ]
+  }
+ },
+ {
+  "league": "荷甲",
+  "home": "ADO Den Haag",
+  "away": "Groningen",
+  "kickoff": "2026-08-16T10:15:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:40:10Z",
+   "snap_age_h": 74.6,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.48: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:36Z",
+   "snap_age_h": 24.1,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.56: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  }
+ },
+ {
+  "league": "德乙",
+  "home": "Dynamo Dresden",
+  "away": "SV Darmstadt 98",
+  "kickoff": "2026-08-16T11:30:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:40:03Z",
+   "snap_age_h": 75.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛76h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "主胜高估区(赔率2.18: 真实主胜28%, 平局预警下押受让+号)",
+    "盘口过期(距开赛76h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-13T14:39:19",
+   "snap_age_h": 68.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛69h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "主胜高估区(赔率2.18: 真实主胜28%, 平局预警下押受让+号)",
+    "盘口过期(距开赛69h>阈值12h)->否决"
+   ]
+  }
+ },
+ {
+  "league": "荷甲",
+  "home": "Feyenoord",
+  "away": "Go Ahead Eagles",
+  "kickoff": "2026-08-16T12:30:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:40:10Z",
+   "snap_age_h": 76.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:36Z",
+   "snap_age_h": 26.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "假小球拦截(1腿: 模型大65%>=50%+市场隐含大>=60%, λ低估假信号)"
+   ]
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Watford",
+  "away": "Southampton",
+  "kickoff": "2026-08-16T12:30:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:39:55Z",
+   "snap_age_h": 76.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛77h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "盘口过期(距开赛77h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 25.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛25h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "盘口过期(距开赛25h>阈值12h)->否决"
+   ]
+  }
+ },
+ {
+  "league": "荷甲",
+  "home": "Ajax",
+  "away": "Heerenveen",
+  "kickoff": "2026-08-16T14:45:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:40:10Z",
+   "snap_age_h": 79.1,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:36Z",
+   "snap_age_h": 28.6,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报"
+   ]
+  }
+ },
+ {
+  "league": "西甲",
+  "home": "Real Racing Club de Santander",
+  "away": "Villarreal",
+  "kickoff": "2026-08-16T15:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:39:44Z",
+   "snap_age_h": 79.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛79h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "客胜高估区(赔率2.32: 真实客胜11%, 押受让+号/避平手)",
+    "盘口过期(距开赛79h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-16T03:53:58Z",
+   "snap_age_h": 11.1,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "模型与市场分歧>20pp(模型71% vs 市场47%)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "模型与市场分歧>20pp(模型71% vs 市场47%)->否决"
+   ]
+  }
+ },
+ {
+  "league": "西乙",
+  "home": "SD Eibar",
+  "away": "Tenerife",
+  "kickoff": "2026-08-16T15:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:39:59Z",
+   "snap_age_h": 79.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率1.94: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:39Z",
+   "snap_age_h": 28.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率1.96: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Burnley",
+  "away": "West Ham United",
+  "kickoff": "2026-08-16T15:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:39:55Z",
+   "snap_age_h": 79.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛79h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "客胜高估区(赔率2.36: 真实客胜11%, 押受让+号/避平手)",
+    "盘口过期(距开赛79h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 27.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛28h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "客胜高估区(赔率2.38: 真实客胜11%, 押受让+号/避平手)",
+    "盘口过期(距开赛28h>阈值12h)->否决"
+   ]
+  }
+ },
+ {
+  "league": "西甲",
+  "home": "Espanyol",
+  "away": "Levante",
+  "kickoff": "2026-08-16T17:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:39:44Z",
+   "snap_age_h": 81.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主3/客0)",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.18: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-16T03:53:58Z",
+   "snap_age_h": 13.1,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛13h>阈值12h)",
+   "risk_tags": [
+    "伤停>2人(主3/客0)",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.14: 真实主胜28%, 平局预警下押受让+号)",
+    "盘口过期(距开赛13h>阈值12h)->否决"
+   ]
+  }
+ },
+ {
+  "league": "西乙",
+  "home": "Burgos CF",
+  "away": "Córdoba",
+  "kickoff": "2026-08-16T17:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:39:59Z",
+   "snap_age_h": 81.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:39Z",
+   "snap_age_h": 30.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警-强(市场去水平局>=30%)",
+    "平局预警→让球只用+号(受让方)"
+   ]
+  }
+ },
+ {
+  "league": "西乙",
+  "home": "Las Palmas",
+  "away": "Albacete",
+  "kickoff": "2026-08-16T19:30:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-13T07:39:59Z",
+   "snap_age_h": 83.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:39Z",
+   "snap_age_h": 33.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛33h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "盘口过期(距开赛33h>阈值12h)->否决"
+   ]
+  }
+ },
+ {
+  "league": "美职",
+  "home": "Chicago Fire",
+  "away": "Portland Timbers",
+  "kickoff": "2026-08-16T22:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-15T13:20:54Z",
+   "snap_age_h": 32.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "队名模糊匹配"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-16T02:29:31Z",
+   "snap_age_h": 19.5,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "队名模糊匹配"
+   ]
+  }
+ },
+ {
+  "league": "美职",
+  "home": "New York City FC",
+  "away": "Philadelphia Union",
+  "kickoff": "2026-08-16T22:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-15T13:20:54Z",
+   "snap_age_h": 32.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛33h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "盘口过期(距开赛33h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-16T02:29:31Z",
+   "snap_age_h": 19.5,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛20h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "盘口过期(距开赛20h>阈值12h)->否决"
+   ]
+  }
+ },
+ {
+  "league": "J1",
+  "home": "Shimizu S-Pulse",
+  "away": "Yokohama F Marinos",
+  "kickoff": "2026-08-15T09:30:00+00:00",
+  "score": "0-1",
+  "early": {
+   "snap": "2026-08-15T03:45:54Z",
+   "snap_age_h": 5.7,
+   "best": "大2.50",
+   "ev": 0.1916,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "lose",
+   "pnl": -1.0
+  },
+  "live": {
+   "snap": "2026-08-15T08:30:05Z",
+   "snap_age_h": 1.0,
+   "best": "大2.50",
+   "ev": 0.2185,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "lose",
+   "pnl": -1.0
+  },
+  "same_leg": true,
+  "delta_ev": 0.026900000000000007
+ },
+ {
+  "league": "J1",
+  "home": "Fagiano Okayama",
+  "away": "V-Varen Nagasaki",
+  "kickoff": "2026-08-15T09:55:00+00:00",
+  "score": "1-0",
+  "early": {
+   "snap": "2026-08-15T03:45:54Z",
+   "snap_age_h": 6.2,
+   "best": "让球客(+0.2)",
+   "ev": 0.2252,
+   "star": 2,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "联赛J1历史负ROI(观察期, 300场后定禁入)"
+   ],
+   "result": "lose",
+   "pnl": -1.0
+  },
+  "live": {
+   "snap": "2026-08-15T08:30:05Z",
+   "snap_age_h": 1.4,
+   "best": "大2.50",
+   "ev": 0.215,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "lose",
+   "pnl": -1.0
+  },
+  "same_leg": false,
+  "delta_ev": -0.010200000000000015
+ },
+ {
+  "league": "J1",
+  "home": "Kashima Antlers",
+  "away": "Nagoya Grampus",
+  "kickoff": "2026-08-15T09:00:00+00:00",
+  "score": "2-1",
+  "early": {
+   "snap": "2026-08-15T03:45:54Z",
+   "snap_age_h": 5.2,
+   "best": "让球客(+0.5)",
+   "ev": 0.3047,
+   "star": 3,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率1.86: 真实主胜28%, 平局预警下押受让+号)",
+    "高估区受让+号加权重(实证赢盘72-78%%)",
+    "联赛J1历史负ROI(观察期, 300场后定禁入)"
+   ],
+   "result": "lose",
+   "pnl": -1.0
+  },
+  "live": {
+   "snap": "2026-08-15T08:30:05Z",
+   "snap_age_h": 0.5,
+   "best": "让球客(+0.5)",
+   "ev": 0.2514,
+   "star": 3,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率1.97: 真实主胜28%, 平局预警下押受让+号)",
+    "高估区受让+号加权重(实证赢盘72-78%%)",
+    "联赛J1历史负ROI(观察期, 300场后定禁入)"
+   ],
+   "result": "lose",
+   "pnl": -1.0
+  },
+  "same_leg": true,
+  "delta_ev": -0.053300000000000014
+ },
+ {
+  "league": "J1",
+  "home": "Avispa Fukuoka",
+  "away": "Cerezo Osaka",
+  "kickoff": "2026-08-15T10:00:00+00:00",
+  "score": "3-0",
+  "early": {
+   "snap": "2026-08-15T03:45:54Z",
+   "snap_age_h": 6.2,
+   "best": "大2.50",
+   "ev": 0.2115,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.78: 真实客胜11%, 押受让+号/避平手)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "win",
+   "pnl": 1.12
+  },
+  "live": {
+   "snap": "2026-08-15T08:30:05Z",
+   "snap_age_h": 1.5,
+   "best": "大2.50",
+   "ev": 0.2051,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.64: 真实客胜11%, 押受让+号/避平手)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "win",
+   "pnl": 1.1
+  },
+  "same_leg": true,
+  "delta_ev": -0.006399999999999989
+ },
+ {
+  "league": "中超",
+  "home": "Tianjin Jinmen Tiger FC",
+  "away": "Beijing FC",
+  "kickoff": "2026-08-15T11:35:00+00:00",
+  "score": "2-4",
+  "early": {
+   "snap": "2026-08-15T07:26:50Z",
+   "snap_age_h": 4.1,
+   "best": "大2.50",
+   "ev": 0.12032309533306762,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "客胜高估区(赔率2.44: 真实客胜11%, 押受让+号/避平手)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "win",
+   "pnl": 0.74
+  },
+  "live": {
+   "snap": "2026-08-15T11:25:05Z",
+   "snap_age_h": 0.2,
+   "best": "大2.50",
+   "ev": 0.09819837787528263,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.48: 真实客胜11%, 押受让+号/避平手)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "win",
+   "pnl": 0.71
+  },
+  "same_leg": true,
+  "delta_ev": -0.022124717457784993
+ },
+ {
+  "league": "西乙",
+  "home": "Andorra CF",
+  "away": "AD Ceuta FC",
+  "kickoff": "2026-08-15T15:00:00+00:00",
+  "score": "5-1",
+  "early": {
+   "snap": "2026-08-13T07:39:59Z",
+   "snap_age_h": 55.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "缺大小球",
+    "队名模糊匹配"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-15T10:11:39Z",
+   "snap_age_h": 4.8,
+   "best": "大2.50",
+   "ev": 0.0671,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "队名模糊匹配"
+   ],
+   "result": "win",
+   "pnl": 0.9099999999999999
+  }
+ },
+ {
+  "league": "比甲",
+  "home": "Standard Liège",
+  "away": "RAAL La Louvière",
+  "kickoff": "2026-08-22T02:45:00+08:00",
+  "score": "2-0",
+  "early": {
+   "snap": "2026-08-17T10:02:56Z",
+   "snap_age_h": 104.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率1.88: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-21T17:34:42Z",
+   "snap_age_h": 1.2,
+   "best": "小2.50",
+   "ev": 0.1093,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.02: 真实主胜28%, 平局预警下押受让+号)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "win",
+   "pnl": 0.8700000000000001
+  }
+ },
+ {
+  "league": "西甲",
+  "home": "Real Betis",
+  "away": "Real Sociedad",
+  "kickoff": "2026-08-22T03:00:00+08:00",
+  "score": "1-0",
+  "early": {
+   "snap": "2026-08-13T07:39:44Z",
+   "snap_age_h": 203.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主5/客4)",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "主胜高估区(赔率2.17: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-21T17:36:21Z",
+   "snap_age_h": 1.4,
+   "best": "大2.50",
+   "ev": 0.22623842422460672,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主5/客4)",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.12: 真实主胜28%, 平局预警下押受让+号)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "lose",
+   "pnl": -1.0
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Lincoln City",
+  "away": "Portsmouth",
+  "kickoff": "2026-08-22T19:30:00+08:00",
+  "score": "1-3",
+  "early": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 168.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主0/客7)",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.41: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-21T17:35:35Z",
+   "snap_age_h": 17.9,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛18h>阈值12h)",
+   "risk_tags": [
+    "伤停>2人(主0/客7)",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "盘口过期(距开赛18h>阈值12h)->否决"
+   ]
+  }
+ },
+ {
+  "league": "瑞超",
+  "home": "Örgryte IS",
+  "away": "Halmstads BK",
+  "kickoff": "2026-08-22T21:00:00+08:00",
+  "score": "1-1",
+  "early": {
+   "snap": "2026-08-17T10:02:57Z",
+   "snap_age_h": 123.0,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主5/客0)",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:38:31Z",
+   "snap_age_h": 0.4,
+   "best": "让球主(-0.5)",
+   "ev": 0.2536,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主5/客0)",
+    "主胜高估区(赔率1.97: 真实主胜28%, 平局预警下押受让+号)",
+    "高估区让球-号降权重(实证赢盘22-28%%)"
+   ],
+   "result": "lose",
+   "pnl": -1.0
+  }
+ },
+ {
+  "league": "英乙",
+  "home": "Rotherham United",
+  "away": "York City",
+  "kickoff": "2026-08-22T22:00:00+08:00",
+  "score": "1-1",
+  "early": {
+   "snap": "2026-08-17T10:02:56Z",
+   "snap_age_h": 124.0,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.75: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:39:00Z",
+   "snap_age_h": 1.4,
+   "best": "小2.50",
+   "ev": 0.0801,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.76: 真实客胜11%, 押受让+号/避平手)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "win",
+   "pnl": 1.0
+  }
+ },
+ {
+  "league": "英乙",
+  "home": "Fleetwood Town",
+  "away": "Gillingham",
+  "kickoff": "2026-08-22T22:00:00+08:00",
+  "score": "0-0",
+  "early": {
+   "snap": "2026-08-17T10:02:56Z",
+   "snap_age_h": 124.0,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.07: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:39:00Z",
+   "snap_age_h": 1.4,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率1.98: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  }
+ },
+ {
+  "league": "英乙",
+  "home": "Exeter City",
+  "away": "Accrington Stanley",
+  "kickoff": "2026-08-22T22:00:00+08:00",
+  "score": "2-0",
+  "early": {
+   "snap": "2026-08-17T10:02:56Z",
+   "snap_age_h": 124.0,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛124h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.00: 真实主胜28%, 平局预警下押受让+号)",
+    "盘口过期(距开赛124h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:39:00Z",
+   "snap_age_h": 1.4,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.08: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  }
+ },
+ {
+  "league": "英乙",
+  "home": "Crewe Alexandra",
+  "away": "Northampton Town",
+  "kickoff": "2026-08-22T22:00:00+08:00",
+  "score": "1-0",
+  "early": {
+   "snap": "2026-08-17T10:02:56Z",
+   "snap_age_h": 124.0,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "主胜高估区(赔率2.15: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:39:00Z",
+   "snap_age_h": 1.4,
+   "best": "小2.50",
+   "ev": 0.0875,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "win",
+   "pnl": 0.9199999999999999
+  }
+ },
+ {
+  "league": "英乙",
+  "home": "Colchester United",
+  "away": "Oldham Athletic",
+  "kickoff": "2026-08-22T22:00:00+08:00",
+  "score": "2-1",
+  "early": {
+   "snap": "2026-08-17T10:02:56Z",
+   "snap_age_h": 124.0,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.71: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:39:00Z",
+   "snap_age_h": 1.4,
+   "best": "大2.50",
+   "ev": 0.0926,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.66: 真实客胜11%, 押受让+号/避平手)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "win",
+   "pnl": 0.99
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "West Ham United",
+  "away": "Charlton Athletic",
+  "kickoff": "2026-08-22T22:00:00+08:00",
+  "score": "1-2",
+  "early": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 170.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛171h>阈值12h)",
+   "risk_tags": [
+    "伤停>2人(主4/客0)",
+    "盘口过期(距开赛171h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T13:36:11Z",
+   "snap_age_h": 0.4,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "模型与市场分歧>20pp(模型79% vs 市场52%)",
+   "risk_tags": [
+    "伤停>2人(主4/客0)",
+    "模型与市场分歧>20pp(模型79% vs 市场52%)->否决"
+   ]
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Swansea City",
+  "away": "Sheffield United",
+  "kickoff": "2026-08-22T22:00:00+08:00",
+  "score": "0-0",
+  "early": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 170.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛171h>阈值12h)",
+   "risk_tags": [
+    "伤停>2人(主3/客0)",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.70: 真实客胜11%, 押受让+号/避平手)",
+    "盘口过期(距开赛171h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T13:36:11Z",
+   "snap_age_h": 0.4,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主3/客0)",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.78: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Southampton",
+  "away": "Stoke City",
+  "kickoff": "2026-08-22T22:00:00+08:00",
+  "score": "3-1",
+  "early": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 170.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛171h>阈值12h)",
+   "risk_tags": [
+    "伤停>2人(主0/客4)",
+    "盘口过期(距开赛171h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T13:36:11Z",
+   "snap_age_h": 0.4,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "模型与市场分歧>20pp(模型74% vs 市场53%)",
+   "risk_tags": [
+    "伤停>2人(主0/客4)",
+    "模型与市场分歧>20pp(模型74% vs 市场53%)->否决"
+   ]
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Queens Park Rangers",
+  "away": "Bolton Wanderers",
+  "kickoff": "2026-08-22T22:00:00+08:00",
+  "score": "0-0",
+  "early": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 170.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主4/客2)",
+    "主胜高估区(赔率1.86: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T13:36:11Z",
+   "snap_age_h": 0.4,
+   "best": "让球客(+0.5)",
+   "ev": 0.2329,
+   "star": 3,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主4/客2)",
+    "主胜高估区(赔率1.94: 真实主胜28%, 平局预警下押受让+号)",
+    "高估区受让+号加权重(实证赢盘72-78%%)",
+    "联赛英冠历史负ROI(观察期, 300场后定禁入)"
+   ],
+   "result": "win",
+   "pnl": 1.06
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Derby County",
+  "away": "Cardiff City",
+  "kickoff": "2026-08-22T22:00:00+08:00",
+  "score": "2-2",
+  "early": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 170.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛171h>阈值12h)",
+   "risk_tags": [
+    "伤停>2人(主2/客4)",
+    "盘口过期(距开赛171h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T13:36:11Z",
+   "snap_age_h": 0.4,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "模型与市场分歧>20pp(模型74% vs 市场52%)",
+   "risk_tags": [
+    "伤停>2人(主2/客4)",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "模型与市场分歧>20pp(模型74% vs 市场52%)->否决"
+   ]
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "Blackburn Rovers",
+  "away": "Middlesbrough",
+  "kickoff": "2026-08-22T22:00:00+08:00",
+  "score": "2-1",
+  "early": {
+   "snap": "2026-08-15T11:18:16Z",
+   "snap_age_h": 170.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.30: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T13:36:11Z",
+   "snap_age_h": 0.4,
+   "best": "让球主(+0.5)",
+   "ev": 0.2042,
+   "star": 2,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "联赛英冠历史负ROI(观察期, 300场后定禁入)"
+   ],
+   "result": "win",
+   "pnl": 0.95
+  }
+ },
+ {
+  "league": "英乙",
+  "home": "Port Vale",
+  "away": "Tranmere Rovers",
+  "kickoff": "2026-08-22T22:00:00+08:00",
+  "score": "1-1",
+  "early": {
+   "snap": "2026-08-17T10:02:56Z",
+   "snap_age_h": 124.0,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛124h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "盘口过期(距开赛124h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:39:00Z",
+   "snap_age_h": 1.4,
+   "best": "大2.50",
+   "ev": 0.2433,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.04: 真实主胜28%, 平局预警下押受让+号)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "lose",
+   "pnl": -1.0
+  }
+ },
+ {
+  "league": "英超",
+  "home": "Everton",
+  "away": "Crystal Palace",
+  "kickoff": "2026-08-22T22:00:00+08:00",
+  "score": "2-0",
+  "early": {
+   "snap": "2026-08-13T07:39:41Z",
+   "snap_age_h": 222.3,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主3/客1)",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:39:56Z",
+   "snap_age_h": 1.3,
+   "best": "小2.50",
+   "ev": 0.1284,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主3/客1)",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "win",
+   "pnl": 0.9199999999999999
+  }
+ },
+ {
+  "league": "意甲",
+  "home": "Udinese",
+  "away": "Como",
+  "kickoff": "2026-08-23T00:30:00+08:00",
+  "score": "1-1",
+  "early": {
+   "snap": "2026-08-13T07:39:46Z",
+   "snap_age_h": 224.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛225h>阈值12h)",
+   "risk_tags": [
+    "伤停>2人(主3/客1)",
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "盘口过期(距开赛225h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:43:38Z",
+   "snap_age_h": 3.8,
+   "best": "小2.50",
+   "ev": 0.124,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主3/客1)",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "整球盘2.50遇预警降星"
+   ],
+   "result": "win",
+   "pnl": 0.79
+  }
+ },
+ {
+  "league": "英超",
+  "home": "Brentford",
+  "away": "Tottenham Hotspur",
+  "kickoff": "2026-08-23T00:30:00+08:00",
+  "score": "3-0",
+  "early": {
+   "snap": "2026-08-13T07:39:41Z",
+   "snap_age_h": 224.8,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:39:56Z",
+   "snap_age_h": 3.8,
+   "best": "让球主(-0.2)",
+   "ev": 0.0772,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [],
+   "result": "win",
+   "pnl": 0.9099999999999999
+  }
+ },
+ {
+  "league": "荷甲",
+  "home": "Sparta Rotterdam",
+  "away": "FC Utrecht",
+  "kickoff": "2026-08-23T00:45:00+08:00",
+  "score": "3-3",
+  "early": {
+   "snap": "2026-08-17T10:02:52Z",
+   "snap_age_h": 126.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛127h>阈值12h)",
+   "risk_tags": [
+    "伤停>2人(主0/客4)",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.66: 真实客胜11%, 押受让+号/避平手)",
+    "盘口过期(距开赛127h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:41:18Z",
+   "snap_age_h": 4.1,
+   "best": "小2.50",
+   "ev": 0.1552,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主0/客4)",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.74: 真实客胜11%, 押受让+号/避平手)",
+    "整球盘2.50遇预警降星",
+    "联赛小球反向标记(荷甲实证: 小球为反向, 勿追小球)"
+   ],
+   "result": "lose",
+   "pnl": -1.0
+  }
+ },
+ {
+  "league": "法甲",
+  "home": "Nice",
+  "away": "Lorient",
+  "kickoff": "2026-08-23T02:45:00+08:00",
+  "score": "0-0",
+  "early": {
+   "snap": "2026-08-13T07:39:53Z",
+   "snap_age_h": 227.1,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "缺大小球",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:42:42Z",
+   "snap_age_h": 6.0,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)"
+   ]
+  }
+ },
+ {
+  "league": "意甲",
+  "home": "Parma",
+  "away": "Cagliari",
+  "kickoff": "2026-08-23T02:45:00+08:00",
+  "score": "0-1",
+  "early": {
+   "snap": "2026-08-13T07:39:46Z",
+   "snap_age_h": 227.1,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主5/客2)",
+    "缺大小球",
+    "平局预警-强(市场去水平局>=30%)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:43:38Z",
+   "snap_age_h": 6.0,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主5/客2)",
+    "平局预警-强(市场去水平局>=30%)"
+   ]
+  }
+ },
+ {
+  "league": "巴甲",
+  "home": "Fluminense",
+  "away": "Remo",
+  "kickoff": "2026-08-23T03:00:00+08:00",
+  "score": "2-1",
+  "early": {
+   "snap": "2026-08-15T13:20:48Z",
+   "snap_age_h": 173.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主8/客3)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:45:01Z",
+   "snap_age_h": 6.2,
+   "best": "大2.50",
+   "ev": 0.2231,
+   "star": 2,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主8/客3)"
+   ],
+   "result": "win",
+   "pnl": 1.06
+  }
+ },
+ {
+  "league": "巴甲",
+  "home": "Internacional",
+  "away": "Atlético Mineiro",
+  "kickoff": "2026-08-23T05:30:00+08:00",
+  "score": "0-0",
+  "early": {
+   "snap": "2026-08-15T13:20:48Z",
+   "snap_age_h": 176.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛176h>阈值12h)",
+   "risk_tags": [
+    "伤停>2人(主7/客5)",
+    "平局预警(市场去水平局>=26%)",
+    "盘口过期(距开赛176h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:45:01Z",
+   "snap_age_h": 8.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主7/客5)",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率2.12: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  }
+ },
+ {
+  "league": "巴甲",
+  "home": "Cruzeiro",
+  "away": "Flamengo",
+  "kickoff": "2026-08-23T07:30:00+08:00",
+  "score": "2-1",
+  "early": {
+   "snap": "2026-08-15T13:20:48Z",
+   "snap_age_h": 178.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主4/客4)",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.51: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:45:01Z",
+   "snap_age_h": 10.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主4/客4)",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "客胜高估区(赔率2.34: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  }
+ },
+ {
+  "league": "美职",
+  "home": "Charlotte FC",
+  "away": "DC United",
+  "kickoff": "2026-08-23T07:30:00+08:00",
+  "score": "3-1",
+  "early": {
+   "snap": "2026-08-15T13:20:54Z",
+   "snap_age_h": 178.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "主胜高估区(赔率1.99: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:45:59Z",
+   "snap_age_h": 10.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "模型与市场分歧>20pp(模型71% vs 市场48%)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "主胜高估区(赔率1.84: 真实主胜28%, 平局预警下押受让+号)",
+    "模型与市场分歧>20pp(模型71% vs 市场48%)->否决"
+   ]
+  }
+ },
+ {
+  "league": "美职",
+  "home": "Orlando City SC",
+  "away": "Real Salt Lake",
+  "kickoff": "2026-08-23T07:30:00+08:00",
+  "score": "2-1",
+  "early": {
+   "snap": "2026-08-15T13:20:54Z",
+   "snap_age_h": 178.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛178h>阈值12h)",
+   "risk_tags": [
+    "伤停>2人(主5/客5)",
+    "客胜高估区(赔率2.70: 真实客胜11%, 押受让+号/避平手)",
+    "盘口过期(距开赛178h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:45:59Z",
+   "snap_age_h": 10.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主5/客5)",
+    "假小球拦截(1腿: 模型大60%>=50%+市场隐含大>=60%, λ低估假信号)",
+    "主胜高估区(赔率2.08: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  }
+ },
+ {
+  "league": "美职",
+  "home": "CF Montréal",
+  "away": "LA Galaxy",
+  "kickoff": "2026-08-23T07:30:00+08:00",
+  "score": "2-2",
+  "early": {
+   "snap": "2026-08-15T13:20:54Z",
+   "snap_age_h": 178.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主6/客5)",
+    "假小球拦截(1腿: 模型大51%>=50%+市场隐含大>=60%, λ低估假信号)",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.69: 真实客胜11%, 押受让+号/避平手)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:45:59Z",
+   "snap_age_h": 10.7,
+   "best": "小2.50",
+   "ev": 0.1906,
+   "star": 1,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主6/客5)",
+    "主胜高估区(赔率2.12: 真实主胜28%, 平局预警下押受让+号)"
+   ],
+   "result": "lose",
+   "pnl": -1.0
+  }
+ },
+ {
+  "league": "美职",
+  "home": "FC Cincinnati",
+  "away": "Seattle Sounders FC",
+  "kickoff": "2026-08-23T07:30:00+08:00",
+  "score": "1-1",
+  "early": {
+   "snap": "2026-08-15T13:20:54Z",
+   "snap_age_h": 178.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛178h>阈值12h)",
+   "risk_tags": [
+    "伤停>2人(主0/客9)",
+    "主胜高估区(赔率1.98: 真实主胜28%, 平局预警下押受让+号)",
+    "盘口过期(距开赛178h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-22T12:45:59Z",
+   "snap_age_h": 10.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主0/客9)"
+   ]
+  }
+ },
+ {
+  "league": "荷甲",
+  "home": "Go Ahead Eagles",
+  "away": "ADO Den Haag",
+  "kickoff": "2026-08-23T10:15:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-17T10:02:52Z",
+   "snap_age_h": 144.2,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": []
+  },
+  "live": {
+   "snap": "2026-08-23T09:33:53Z",
+   "snap_age_h": 0.7,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": []
+  }
+ },
+ {
+  "league": "J1",
+  "home": "FC Machida Zelvia",
+  "away": "Urawa Red Diamonds",
+  "kickoff": "2026-08-23T10:30:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-17T10:02:53Z",
+   "snap_age_h": 144.5,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛144h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "盘口过期(距开赛144h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-23T09:33:48Z",
+   "snap_age_h": 0.9,
+   "best": "让球客(+0.5)",
+   "ev": 0.2716,
+   "star": 3,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "主胜高估区(赔率1.92: 真实主胜28%, 平局预警下押受让+号)",
+    "高估区受让+号加权重(实证赢盘72-78%%)",
+    "联赛J1历史负ROI(观察期, 300场后定禁入)"
+   ]
+  }
+ },
+ {
+  "league": "英冠",
+  "home": "West Bromwich Albion",
+  "away": "Burnley",
+  "kickoff": "2026-08-23T11:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-17T10:02:49Z",
+   "snap_age_h": 145.0,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛145h>阈值12h)",
+   "risk_tags": [
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.60: 真实客胜11%, 押受让+号/避平手)",
+    "盘口过期(距开赛145h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-23T09:32:55Z",
+   "snap_age_h": 1.5,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "平局预警(市场去水平局>=26%)"
+   ]
+  }
+ },
+ {
+  "league": "中超",
+  "home": "Liaoning Tieren FC",
+  "away": "Henan FC",
+  "kickoff": "2026-08-23T11:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-17T10:02:54Z",
+   "snap_age_h": 145.0,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛145h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "客胜高估区(赔率2.35: 真实客胜11%, 押受让+号/避平手)",
+    "盘口过期(距开赛145h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-23T09:32:37Z",
+   "snap_age_h": 1.5,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "模型与市场分歧>20pp(模型79% vs 市场54%)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "客胜高估区(赔率2.46: 真实客胜11%, 押受让+号/避平手)",
+    "模型与市场分歧>20pp(模型79% vs 市场54%)->否决"
+   ]
+  }
+ },
+ {
+  "league": "中超",
+  "home": "Shanghai SIPG FC",
+  "away": "Qingdao Hainiu FC",
+  "kickoff": "2026-08-23T11:35:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-17T10:02:54Z",
+   "snap_age_h": 145.5,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-23T09:32:37Z",
+   "snap_age_h": 2.0,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "纯数据无伤病情报"
+   ]
+  }
+ },
+ {
+  "league": "中超",
+  "home": "Chongqing Tonglianglong FC",
+  "away": "Dalian Yingbo",
+  "kickoff": "2026-08-23T12:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-17T10:02:54Z",
+   "snap_age_h": 146.0,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛146h>阈值12h)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "客胜高估区(赔率2.72: 真实客胜11%, 押受让+号/避平手)",
+    "盘口过期(距开赛146h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-23T09:32:37Z",
+   "snap_age_h": 2.5,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "模型与市场分歧>20pp(模型74% vs 市场48%)",
+   "risk_tags": [
+    "纯数据无伤病情报",
+    "平局预警(市场去水平局>=26%)",
+    "平局预警→让球只用+号(受让方)",
+    "模型与市场分歧>20pp(模型74% vs 市场48%)->否决"
+   ]
+  }
+ },
+ {
+  "league": "丹超",
+  "home": "AGF Aarhus",
+  "away": "OB Odense BK",
+  "kickoff": "2026-08-23T12:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-17T10:03:06Z",
+   "snap_age_h": 145.9,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主4/客1)"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-23T09:32:49Z",
+   "snap_age_h": 2.5,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主4/客1)",
+    "主胜高估区(赔率1.83: 真实主胜28%, 平局预警下押受让+号)"
+   ]
+  }
+ },
+ {
+  "league": "丹超",
+  "home": "FC Midtjylland",
+  "away": "Randers FC",
+  "kickoff": "2026-08-23T12:00:00+00:00",
+  "score": null,
+  "early": {
+   "snap": "2026-08-17T10:03:06Z",
+   "snap_age_h": 145.9,
+   "best": null,
+   "ev": null,
+   "star": null,
+   "veto": true,
+   "veto_reason": "盘口过期(距开赛146h>阈值12h)",
+   "risk_tags": [
+    "伤停>2人(主3/客4)",
+    "盘口过期(距开赛146h>阈值12h)->否决"
+   ]
+  },
+  "live": {
+   "snap": "2026-08-23T09:32:49Z",
+   "snap_age_h": 2.5,
+   "best": "让球客(+1.2)",
+   "ev": 0.2037,
+   "star": 2,
+   "veto": false,
+   "veto_reason": null,
+   "risk_tags": [
+    "伤停>2人(主3/客4)",
+    "假小球拦截(1腿: 模型大51%>=50%+市场隐含大>=60%, λ低估假信号)"
+   ]
+  }
+ }
+]

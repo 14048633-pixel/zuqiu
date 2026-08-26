@@ -1,0 +1,137 @@
+{
+ "id": 212146,
+ "league": "德国杯",
+ "kickoff": "08-23 21:30",
+ "kickoff_iso": "2026-08-23T13:30:00Z",
+ "home": "Eintracht Braunschweig",
+ "away": "Union Berlin",
+ "home_id": 1830,
+ "away_id": 83,
+ "pulled_at": "2026-08-23T17:46:04.756804+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1187,
+    "name": "Lars Kornetka",
+    "short_name": "L. Kornetka",
+    "profile": "attacking",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 9.0,
+    "avg_goals_scored": 2.0,
+    "avg_goals_conceded": 1.56
+   },
+   "away": {
+    "id": 274,
+    "name": "Mauro Lustrinelli",
+    "short_name": "M. Lustrinelli",
+    "profile": "attacking",
+    "preferred_formation": "4-2-2-2",
+    "matches_total": 48.0,
+    "avg_goals_scored": 2.48,
+    "avg_goals_conceded": 1.4
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-2-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.54,
+   "draw": 3.63,
+   "away_win": 1.9,
+   "over_15_goals": 1.17,
+   "over_25_goals": 1.58,
+   "over_35_goals": 2.42,
+   "under_15_goals": 4.63,
+   "under_25_goals": 2.3,
+   "under_35_goals": 1.5,
+   "btts_yes": 1.52,
+   "btts_no": 2.38
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 8737,
+    "name": "Andrik Markgraf",
+    "short_name": "A. Markgraf",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 2426,
+    "name": "Oliver Burke",
+    "short_name": "O. Burke",
+    "status": "injured",
+    "reason": "Achilles Tendon Injury"
+   },
+   {
+    "id": 2433,
+    "name": "Stanley Nsoki",
+    "short_name": "S. Nsoki",
+    "status": "injured",
+    "reason": "Calf Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.232,
+   "away": 0.282
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-23T08:32:24Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.238,
+    "home_ga": 1.458,
+    "away_gf": 0.957,
+    "away_ga": 1.913,
+    "n_home": 39.1,
+    "n_away": 39.1,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.37,
+    "home_ga": 1.422,
+    "away_gf": 1.005,
+    "away_ga": 1.738,
+    "n_home": 40.8,
+    "n_away": 40.8,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

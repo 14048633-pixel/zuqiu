@@ -1,0 +1,122 @@
+{
+ "id": 587879,
+ "league": "欧协联",
+ "kickoff": "08-21 02:30",
+ "kickoff_iso": "2026-08-20T18:30:00+00:00",
+ "home": "FC Lugano",
+ "away": "Maccabi Tel Aviv",
+ "home_id": 254,
+ "away_id": 130,
+ "pulled_at": "2026-08-20T22:15:25.982979+08:00",
+ "missing": [
+  "away教练(BSD无教练数据) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 273,
+    "name": "Mattia Croci-Torti",
+    "short_name": "M. Croci-Torti",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 54.0,
+    "avg_goals_scored": 1.69,
+    "avg_goals_conceded": 1.09
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.0,
+   "draw": 3.52,
+   "away_win": 3.39,
+   "over_15_goals": 1.27,
+   "over_25_goals": 1.87,
+   "over_35_goals": 3.16,
+   "under_15_goals": 3.41,
+   "under_25_goals": 1.85,
+   "under_35_goals": 1.31,
+   "btts_yes": 1.73,
+   "btts_no": 1.98
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 7257,
+    "name": "Martim Marques",
+    "short_name": "M. Marques",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.632,
+   "away": 0.541
+  },
+  "formation": {
+   "home": "3-4-1-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-20T08:32:16Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.99,
+    "home_ga": 0.865,
+    "away_gf": 2.58,
+    "away_ga": 0.986,
+    "n_home": 9.6,
+    "n_away": 6.9,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 254
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 0.921,
+    "home_ga": 2.145,
+    "away_gf": 1.607,
+    "away_ga": 1.337,
+    "n_home": 7.6,
+    "n_away": 8.9,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 130
+   }
+  }
+ }
+}

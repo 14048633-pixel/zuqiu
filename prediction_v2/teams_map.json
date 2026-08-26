@@ -1,0 +1,1965 @@
+{
+  "version": "2026-08-13",
+  "source": "football-data.co.uk (matches_2015_2025 + recent) <-> soccer-dataset teams.parquet",
+  "join_key": "football-data HomeTeam/AwayTeam == teams.fd_name/name (归一化: 小写/去连字符)",
+  "football_data_teams_by_league": {
+    "德乙": [
+      "Bielefeld",
+      "Bochum",
+      "Braunschweig",
+      "Darmstadt",
+      "Dresden",
+      "Duisburg",
+      "Elversberg",
+      "Erzgebirge Aue",
+      "FC Koln",
+      "Fortuna Dusseldorf",
+      "Frankfurt FSV",
+      "Freiburg",
+      "Greuther Furth",
+      "Hamburg",
+      "Hannover",
+      "Hansa Rostock",
+      "Heidenheim",
+      "Hertha",
+      "Holstein Kiel",
+      "Ingolstadt",
+      "Kaiserslautern",
+      "Karlsruhe",
+      "Magdeburg",
+      "Munich 1860",
+      "Nurnberg",
+      "Osnabruck",
+      "Paderborn",
+      "Preußen Münster",
+      "RB Leipzig",
+      "Regensburg",
+      "Sandhausen",
+      "Schalke 04",
+      "St Pauli",
+      "Stuttgart",
+      "Ulm",
+      "Union Berlin",
+      "Wehen",
+      "Werder Bremen",
+      "Wurzburger Kickers"
+    ],
+    "英冠": [
+      "Aston Villa",
+      "Barnsley",
+      "Birmingham",
+      "Blackburn",
+      "Blackpool",
+      "Bolton",
+      "Bournemouth",
+      "Brentford",
+      "Brighton",
+      "Bristol City",
+      "Burnley",
+      "Burton",
+      "Cardiff",
+      "Charlton",
+      "Coventry",
+      "Derby",
+      "Fulham",
+      "Huddersfield",
+      "Hull",
+      "Ipswich",
+      "Leeds",
+      "Leicester",
+      "Luton",
+      "Middlesbrough",
+      "Millwall",
+      "Milton Keynes Dons",
+      "Newcastle",
+      "Norwich",
+      "Nott'm Forest",
+      "Oxford",
+      "Peterboro",
+      "Plymouth",
+      "Portsmouth",
+      "Preston",
+      "QPR",
+      "Reading",
+      "Rotherham",
+      "Sheffield United",
+      "Sheffield Weds",
+      "Southampton",
+      "Stoke",
+      "Sunderland",
+      "Swansea",
+      "Watford",
+      "West Brom",
+      "Wigan",
+      "Wolves",
+      "Wrexham",
+      "Wycombe"
+    ],
+    "法甲": [
+      "Ajaccio",
+      "Ajaccio GFCO",
+      "Amiens",
+      "Angers",
+      "Auxerre",
+      "Bastia",
+      "Bordeaux",
+      "Brest",
+      "Caen",
+      "Clermont",
+      "Dijon",
+      "Guingamp",
+      "Le Havre",
+      "Lens",
+      "Lille",
+      "Lorient",
+      "Lyon",
+      "Marseille",
+      "Metz",
+      "Monaco",
+      "Montpellier",
+      "Nancy",
+      "Nantes",
+      "Nice",
+      "Nimes",
+      "Paris FC",
+      "Paris SG",
+      "Reims",
+      "Rennes",
+      "St Etienne",
+      "Strasbourg",
+      "Toulouse",
+      "Troyes"
+    ],
+    "荷甲": [
+      "AZ Alkmaar",
+      "Ajax",
+      "Almere City",
+      "Cambuur",
+      "Den Haag",
+      "Excelsior",
+      "FC Emmen",
+      "Feyenoord",
+      "For Sittard",
+      "Go Ahead Eagles",
+      "Graafschap",
+      "Groningen",
+      "Heerenveen",
+      "Heracles",
+      "NAC Breda",
+      "Nijmegen",
+      "PSV Eindhoven",
+      "Roda",
+      "Sparta Rotterdam",
+      "Telstar",
+      "Twente",
+      "Utrecht",
+      "VVV Venlo",
+      "Vitesse",
+      "Volendam",
+      "Waalwijk",
+      "Willem II",
+      "Zwolle"
+    ],
+    "英超": [
+      "Arsenal",
+      "Aston Villa",
+      "Bournemouth",
+      "Brentford",
+      "Brighton",
+      "Burnley",
+      "Cardiff",
+      "Chelsea",
+      "Crystal Palace",
+      "Everton",
+      "Fulham",
+      "Huddersfield",
+      "Hull",
+      "Ipswich",
+      "Leeds",
+      "Leicester",
+      "Liverpool",
+      "Luton",
+      "Man City",
+      "Man United",
+      "Middlesbrough",
+      "Newcastle",
+      "Norwich",
+      "Nott'm Forest",
+      "Sheffield United",
+      "Southampton",
+      "Stoke",
+      "Sunderland",
+      "Swansea",
+      "Tottenham",
+      "Watford",
+      "West Brom",
+      "West Ham",
+      "Wolves"
+    ],
+    "德甲": [
+      "Augsburg",
+      "Bayern Munich",
+      "Bielefeld",
+      "Bochum",
+      "Darmstadt",
+      "Dortmund",
+      "Ein Frankfurt",
+      "FC Koln",
+      "Fortuna Dusseldorf",
+      "Freiburg",
+      "Greuther Furth",
+      "Hamburg",
+      "Hannover",
+      "Heidenheim",
+      "Hertha",
+      "Hoffenheim",
+      "Holstein Kiel",
+      "Ingolstadt",
+      "Leverkusen",
+      "M'gladbach",
+      "Mainz",
+      "Nurnberg",
+      "Paderborn",
+      "RB Leipzig",
+      "Schalke 04",
+      "St Pauli",
+      "Stuttgart",
+      "Union Berlin",
+      "Werder Bremen",
+      "Wolfsburg"
+    ],
+    "西甲": [
+      "Alaves",
+      "Almeria",
+      "Ath Bilbao",
+      "Ath Madrid",
+      "Barcelona",
+      "Betis",
+      "Cadiz",
+      "Celta",
+      "Eibar",
+      "Elche",
+      "Espanol",
+      "Getafe",
+      "Girona",
+      "Granada",
+      "Huesca",
+      "La Coruna",
+      "Las Palmas",
+      "Leganes",
+      "Levante",
+      "Malaga",
+      "Mallorca",
+      "Osasuna",
+      "Oviedo",
+      "Real Madrid",
+      "Sevilla",
+      "Sociedad",
+      "Sp Gijon",
+      "Valencia",
+      "Valladolid",
+      "Vallecano",
+      "Villarreal"
+    ],
+    "西乙": [
+      "Alaves",
+      "Albacete",
+      "Alcorcon",
+      "Almeria",
+      "Amorebieta",
+      "Andorra",
+      "Ath Bilbao B",
+      "Barcelona B",
+      "Burgos",
+      "Cadiz",
+      "Cartagena",
+      "Castellon",
+      "Ceuta",
+      "Cordoba",
+      "Cultural Leonesa",
+      "Eibar",
+      "Elche",
+      "Eldense",
+      "Espanol",
+      "Extremadura UD",
+      "Ferrol",
+      "Fuenlabrada",
+      "Getafe",
+      "Gimnastic",
+      "Girona",
+      "Granada",
+      "Huesca",
+      "Ibiza",
+      "La Coruna",
+      "Las Palmas",
+      "Leganes",
+      "Leonesa",
+      "Levante",
+      "Llagostera",
+      "Logrones",
+      "Lorca",
+      "Lugo",
+      "Malaga",
+      "Mallorca",
+      "Mirandes",
+      "Numancia",
+      "Osasuna",
+      "Oviedo",
+      "Ponferradina",
+      "Rayo Majadahonda",
+      "Reus Deportiu",
+      "Sabadell",
+      "Santander",
+      "Sevilla B",
+      "Sociedad B",
+      "Sp Gijon",
+      "Tenerife",
+      "UCAM Murcia",
+      "Valladolid",
+      "Vallecano",
+      "Villarreal B",
+      "Zaragoza"
+    ],
+    "意甲": [
+      "Atalanta",
+      "Benevento",
+      "Bologna",
+      "Brescia",
+      "Cagliari",
+      "Carpi",
+      "Chievo",
+      "Como",
+      "Cremonese",
+      "Crotone",
+      "Empoli",
+      "Fiorentina",
+      "Frosinone",
+      "Genoa",
+      "Inter",
+      "Juventus",
+      "Lazio",
+      "Lecce",
+      "Milan",
+      "Monza",
+      "Napoli",
+      "Palermo",
+      "Parma",
+      "Pescara",
+      "Pisa",
+      "Roma",
+      "Salernitana",
+      "Sampdoria",
+      "Sassuolo",
+      "Spal",
+      "Spezia",
+      "Torino",
+      "Udinese",
+      "Venezia",
+      "Verona"
+    ]
+  },
+  "football_data_to_soccer": {
+    "AZ Alkmaar": {
+      "soccer_id": 309,
+      "soccer_name": "AZ Alkmaar",
+      "fd_name": "AZ Alkmaar",
+      "api_football_id": 201
+    },
+    "Ajaccio": {
+      "soccer_id": 225,
+      "soccer_name": "Ajaccio",
+      "fd_name": "Ajaccio",
+      "api_football_id": 98
+    },
+    "Ajaccio GFCO": {
+      "soccer_id": 5927,
+      "soccer_name": "Ajaccio GFCO",
+      "fd_name": "Ajaccio GFCO",
+      "api_football_id": null
+    },
+    "Ajax": {
+      "soccer_id": 303,
+      "soccer_name": "Ajax",
+      "fd_name": "Ajax",
+      "api_football_id": 194
+    },
+    "Alaves": {
+      "soccer_id": 116,
+      "soccer_name": "Alaves",
+      "fd_name": "Alaves",
+      "api_football_id": 542
+    },
+    "Albacete": {
+      "soccer_id": 133,
+      "soccer_name": "Albacete",
+      "fd_name": "Albacete",
+      "api_football_id": 722
+    },
+    "Alcorcon": {
+      "soccer_id": 138,
+      "soccer_name": "Alcorcon",
+      "fd_name": "Alcorcon",
+      "api_football_id": 711
+    },
+    "Almere City": {
+      "soccer_id": 313,
+      "soccer_name": "Almere City",
+      "fd_name": "Almere City",
+      "api_football_id": 419
+    },
+    "Almeria": {
+      "soccer_id": 99,
+      "soccer_name": "Almeria",
+      "fd_name": "Almeria",
+      "api_football_id": 723
+    },
+    "Amiens": {
+      "soccer_id": 233,
+      "soccer_name": "Amiens",
+      "fd_name": "Amiens",
+      "api_football_id": 87
+    },
+    "Amorebieta": {
+      "soccer_id": 126,
+      "soccer_name": "Amorebieta",
+      "fd_name": "Amorebieta",
+      "api_football_id": 9380
+    },
+    "Andorra": {
+      "soccer_id": 136,
+      "soccer_name": "Andorra",
+      "fd_name": "Andorra",
+      "api_football_id": 8157
+    },
+    "Angers": {
+      "soccer_id": 226,
+      "soccer_name": "Angers",
+      "fd_name": "Angers",
+      "api_football_id": 77
+    },
+    "Arsenal": {
+      "soccer_id": 3,
+      "soccer_name": "Arsenal",
+      "fd_name": "Arsenal",
+      "api_football_id": 42
+    },
+    "Aston Villa": {
+      "soccer_id": 14,
+      "soccer_name": "Aston Villa",
+      "fd_name": "Aston Villa",
+      "api_football_id": 66
+    },
+    "Atalanta": {
+      "soccer_id": 164,
+      "soccer_name": "Atalanta",
+      "fd_name": "Atalanta",
+      "api_football_id": 499
+    },
+    "Ath Bilbao": {
+      "soccer_id": 4643,
+      "soccer_name": "Athletic Club",
+      "fd_name": "Ath Bilbao",
+      "api_football_id": 13975
+    },
+    "Ath Madrid": {
+      "soccer_id": 117,
+      "soccer_name": "Ath Madrid",
+      "fd_name": "Ath Madrid",
+      "api_football_id": 530
+    },
+    "Augsburg": {
+      "soccer_id": 256,
+      "soccer_name": "Augsburg",
+      "fd_name": "Augsburg",
+      "api_football_id": 170
+    },
+    "Auxerre": {
+      "soccer_id": 227,
+      "soccer_name": "Auxerre",
+      "fd_name": "Auxerre",
+      "api_football_id": 108
+    },
+    "Barcelona": {
+      "soccer_id": 114,
+      "soccer_name": "Barcelona",
+      "fd_name": "Barcelona",
+      "api_football_id": 529
+    },
+    "Barcelona B": {
+      "soccer_id": 4322,
+      "soccer_name": "Barcelona B",
+      "fd_name": null,
+      "api_football_id": 712
+    },
+    "Barnsley": {
+      "soccer_id": 48,
+      "soccer_name": "Barnsley",
+      "fd_name": "Barnsley",
+      "api_football_id": 747
+    },
+    "Bastia": {
+      "soccer_id": 240,
+      "soccer_name": "Bastia",
+      "fd_name": "Bastia",
+      "api_football_id": 1305
+    },
+    "Bayern Munich": {
+      "soccer_id": 255,
+      "soccer_name": "Bayern Munich",
+      "fd_name": "Bayern Munich",
+      "api_football_id": 157
+    },
+    "Benevento": {
+      "soccer_id": 3464,
+      "soccer_name": "Benevento",
+      "fd_name": "Benevento",
+      "api_football_id": 506
+    },
+    "Betis": {
+      "soccer_id": 112,
+      "soccer_name": "Betis",
+      "fd_name": "Betis",
+      "api_football_id": 543
+    },
+    "Bielefeld": {
+      "soccer_id": 274,
+      "soccer_name": "Bielefeld",
+      "fd_name": "Bielefeld",
+      "api_football_id": null
+    },
+    "Birmingham": {
+      "soccer_id": 39,
+      "soccer_name": "Birmingham",
+      "fd_name": "Birmingham",
+      "api_football_id": 54
+    },
+    "Blackburn": {
+      "soccer_id": 28,
+      "soccer_name": "Blackburn",
+      "fd_name": "Blackburn",
+      "api_football_id": 67
+    },
+    "Blackpool": {
+      "soccer_id": 45,
+      "soccer_name": "Blackpool",
+      "fd_name": "Blackpool",
+      "api_football_id": 1356
+    },
+    "Bochum": {
+      "soccer_id": 263,
+      "soccer_name": "Bochum",
+      "fd_name": "Bochum",
+      "api_football_id": 176
+    },
+    "Bologna": {
+      "soccer_id": 171,
+      "soccer_name": "Bologna",
+      "fd_name": "Bologna",
+      "api_football_id": 500
+    },
+    "Bolton": {
+      "soccer_id": 55,
+      "soccer_name": "Bolton",
+      "fd_name": "Bolton",
+      "api_football_id": 68
+    },
+    "Bordeaux": {
+      "soccer_id": 229,
+      "soccer_name": "Bordeaux",
+      "fd_name": "Bordeaux",
+      "api_football_id": 78
+    },
+    "Bournemouth": {
+      "soccer_id": 5,
+      "soccer_name": "Bournemouth",
+      "fd_name": "Bournemouth",
+      "api_football_id": 35
+    },
+    "Braunschweig": {
+      "soccer_id": 287,
+      "soccer_name": "Braunschweig",
+      "fd_name": "Braunschweig",
+      "api_football_id": 744
+    },
+    "Brentford": {
+      "soccer_id": 15,
+      "soccer_name": "Brentford",
+      "fd_name": "Brentford",
+      "api_football_id": 55
+    },
+    "Brescia": {
+      "soccer_id": 180,
+      "soccer_name": "Brescia",
+      "fd_name": "Brescia",
+      "api_football_id": 518
+    },
+    "Brest": {
+      "soccer_id": 213,
+      "soccer_name": "Brest",
+      "fd_name": "Brest",
+      "api_football_id": 106
+    },
+    "Brighton": {
+      "soccer_id": 7,
+      "soccer_name": "Brighton",
+      "fd_name": "Brighton",
+      "api_football_id": 51
+    },
+    "Bristol City": {
+      "soccer_id": 29,
+      "soccer_name": "Bristol City",
+      "fd_name": "Bristol City",
+      "api_football_id": 56
+    },
+    "Burgos": {
+      "soccer_id": 132,
+      "soccer_name": "Burgos",
+      "fd_name": "Burgos",
+      "api_football_id": 9580
+    },
+    "Burnley": {
+      "soccer_id": 1,
+      "soccer_name": "Burnley",
+      "fd_name": "Burnley",
+      "api_football_id": 44
+    },
+    "Burton": {
+      "soccer_id": 54,
+      "soccer_name": "Burton",
+      "fd_name": "Burton",
+      "api_football_id": 748
+    },
+    "Cadiz": {
+      "soccer_id": 115,
+      "soccer_name": "Cadiz",
+      "fd_name": "Cadiz",
+      "api_football_id": 724
+    },
+    "Caen": {
+      "soccer_id": 244,
+      "soccer_name": "Caen",
+      "fd_name": "Caen",
+      "api_football_id": 88
+    },
+    "Cagliari": {
+      "soccer_id": 170,
+      "soccer_name": "Cagliari",
+      "fd_name": "Cagliari",
+      "api_football_id": 490
+    },
+    "Cambuur": {
+      "soccer_id": 1472,
+      "soccer_name": "Cambuur",
+      "fd_name": "Cambuur",
+      "api_football_id": 420
+    },
+    "Cardiff": {
+      "soccer_id": 42,
+      "soccer_name": "Cardiff",
+      "fd_name": "Cardiff",
+      "api_football_id": 43
+    },
+    "Carpi": {
+      "soccer_id": 3469,
+      "soccer_name": "Carpi",
+      "fd_name": null,
+      "api_football_id": 519
+    },
+    "Cartagena": {
+      "soccer_id": 134,
+      "soccer_name": "Cartagena",
+      "fd_name": "Cartagena",
+      "api_football_id": 5262
+    },
+    "Celta": {
+      "soccer_id": 109,
+      "soccer_name": "Celta",
+      "fd_name": "Celta",
+      "api_football_id": 538
+    },
+    "Ceuta": {
+      "soccer_id": 5149,
+      "soccer_name": "Ceuta",
+      "fd_name": null,
+      "api_football_id": 5255
+    },
+    "Charlton": {
+      "soccer_id": 52,
+      "soccer_name": "Charlton",
+      "fd_name": "Charlton",
+      "api_football_id": 1335
+    },
+    "Chelsea": {
+      "soccer_id": 17,
+      "soccer_name": "Chelsea",
+      "fd_name": "Chelsea",
+      "api_football_id": 49
+    },
+    "Chievo": {
+      "soccer_id": 3492,
+      "soccer_name": "Chievo",
+      "fd_name": "Chievo",
+      "api_football_id": 491
+    },
+    "Clermont": {
+      "soccer_id": 215,
+      "soccer_name": "Clermont",
+      "fd_name": "Clermont",
+      "api_football_id": 99
+    },
+    "Como": {
+      "soccer_id": 192,
+      "soccer_name": "Como",
+      "fd_name": "Como",
+      "api_football_id": 895
+    },
+    "Cordoba": {
+      "soccer_id": 3162,
+      "soccer_name": "Cordoba",
+      "fd_name": null,
+      "api_football_id": 713
+    },
+    "Coventry": {
+      "soccer_id": 41,
+      "soccer_name": "Coventry",
+      "fd_name": "Coventry",
+      "api_football_id": 1346
+    },
+    "Cremonese": {
+      "soccer_id": 174,
+      "soccer_name": "Cremonese",
+      "fd_name": "Cremonese",
+      "api_football_id": 520
+    },
+    "Crotone": {
+      "soccer_id": 3456,
+      "soccer_name": "Crotone",
+      "fd_name": "Crotone",
+      "api_football_id": 501
+    },
+    "Crystal Palace": {
+      "soccer_id": 12,
+      "soccer_name": "Crystal Palace",
+      "fd_name": "Crystal Palace",
+      "api_football_id": 52
+    },
+    "Cultural Leonesa": {
+      "soccer_id": 3201,
+      "soccer_name": "Cultural Leonesa",
+      "fd_name": null,
+      "api_football_id": 725
+    },
+    "Darmstadt": {
+      "soccer_id": 271,
+      "soccer_name": "Darmstadt",
+      "fd_name": "Darmstadt",
+      "api_football_id": 181
+    },
+    "Den Haag": {
+      "soccer_id": 320,
+      "soccer_name": "Den Haag",
+      "fd_name": "Den Haag",
+      "api_football_id": null
+    },
+    "Derby": {
+      "soccer_id": 49,
+      "soccer_name": "Derby",
+      "fd_name": "Derby",
+      "api_football_id": 69
+    },
+    "Dijon": {
+      "soccer_id": 3530,
+      "soccer_name": "Dijon",
+      "fd_name": "Dijon",
+      "api_football_id": 89
+    },
+    "Dortmund": {
+      "soccer_id": 266,
+      "soccer_name": "Dortmund",
+      "fd_name": "Dortmund",
+      "api_football_id": 165
+    },
+    "Dresden": {
+      "soccer_id": 293,
+      "soccer_name": "Dresden",
+      "fd_name": "Dresden",
+      "api_football_id": null
+    },
+    "Duisburg": {
+      "soccer_id": 5930,
+      "soccer_name": "Duisburg",
+      "fd_name": "Duisburg",
+      "api_football_id": null
+    },
+    "Eibar": {
+      "soccer_id": 123,
+      "soccer_name": "Eibar",
+      "fd_name": "Eibar",
+      "api_football_id": 545
+    },
+    "Ein Frankfurt": {
+      "soccer_id": 270,
+      "soccer_name": "Ein Frankfurt",
+      "fd_name": "Ein Frankfurt",
+      "api_football_id": 169
+    },
+    "Elche": {
+      "soccer_id": 121,
+      "soccer_name": "Elche",
+      "fd_name": "Elche",
+      "api_football_id": 797
+    },
+    "Eldense": {
+      "soccer_id": 135,
+      "soccer_name": "Eldense",
+      "fd_name": "Eldense",
+      "api_football_id": 9692
+    },
+    "Elversberg": {
+      "soccer_id": 280,
+      "soccer_name": "Elversberg",
+      "fd_name": "Elversberg",
+      "api_football_id": 1660
+    },
+    "Empoli": {
+      "soccer_id": 153,
+      "soccer_name": "Empoli",
+      "fd_name": "Empoli",
+      "api_football_id": 511
+    },
+    "Erzgebirge Aue": {
+      "soccer_id": 3377,
+      "soccer_name": "Erzgebirge Aue",
+      "fd_name": "Erzgebirge Aue",
+      "api_football_id": 190
+    },
+    "Espanol": {
+      "soccer_id": 119,
+      "soccer_name": "Espanol",
+      "fd_name": "Espanol",
+      "api_football_id": 540
+    },
+    "Everton": {
+      "soccer_id": 9,
+      "soccer_name": "Everton",
+      "fd_name": "Everton",
+      "api_football_id": 45
+    },
+    "Excelsior": {
+      "soccer_id": 308,
+      "soccer_name": "Excelsior",
+      "fd_name": "Excelsior",
+      "api_football_id": 196
+    },
+    "Extremadura UD": {
+      "soccer_id": 150,
+      "soccer_name": "Extremadura UD",
+      "fd_name": "Extremadura UD",
+      "api_football_id": null
+    },
+    "FC Emmen": {
+      "soccer_id": 316,
+      "soccer_name": "FC Emmen",
+      "fd_name": "FC Emmen",
+      "api_football_id": null
+    },
+    "FC Koln": {
+      "soccer_id": 267,
+      "soccer_name": "FC Koln",
+      "fd_name": "FC Koln",
+      "api_football_id": 192
+    },
+    "Ferrol": {
+      "soccer_id": 131,
+      "soccer_name": "Ferrol",
+      "fd_name": "Ferrol",
+      "api_football_id": 9409
+    },
+    "Feyenoord": {
+      "soccer_id": 311,
+      "soccer_name": "Feyenoord",
+      "fd_name": "Feyenoord",
+      "api_football_id": 209
+    },
+    "Fiorentina": {
+      "soccer_id": 158,
+      "soccer_name": "Fiorentina",
+      "fd_name": "Fiorentina",
+      "api_football_id": 502
+    },
+    "For Sittard": {
+      "soccer_id": 312,
+      "soccer_name": "For Sittard",
+      "fd_name": "For Sittard",
+      "api_football_id": 205
+    },
+    "Fortuna Dusseldorf": {
+      "soccer_id": 277,
+      "soccer_name": "Fortuna Dusseldorf",
+      "fd_name": "Fortuna Dusseldorf",
+      "api_football_id": 158
+    },
+    "Freiburg": {
+      "soccer_id": 259,
+      "soccer_name": "Freiburg",
+      "fd_name": "Freiburg",
+      "api_football_id": 160
+    },
+    "Frosinone": {
+      "soccer_id": 155,
+      "soccer_name": "Frosinone",
+      "fd_name": "Frosinone",
+      "api_football_id": 512
+    },
+    "Fuenlabrada": {
+      "soccer_id": 3290,
+      "soccer_name": "Fuenlabrada",
+      "fd_name": "Fuenlabrada",
+      "api_football_id": 4906
+    },
+    "Fulham": {
+      "soccer_id": 10,
+      "soccer_name": "Fulham",
+      "fd_name": "Fulham",
+      "api_football_id": 36
+    },
+    "Genoa": {
+      "soccer_id": 157,
+      "soccer_name": "Genoa",
+      "fd_name": "Genoa",
+      "api_football_id": 495
+    },
+    "Getafe": {
+      "soccer_id": 113,
+      "soccer_name": "Getafe",
+      "fd_name": "Getafe",
+      "api_football_id": 546
+    },
+    "Gimnastic": {
+      "soccer_id": 3177,
+      "soccer_name": "Gimnastic",
+      "fd_name": null,
+      "api_football_id": 714
+    },
+    "Girona": {
+      "soccer_id": 104,
+      "soccer_name": "Girona",
+      "fd_name": "Girona",
+      "api_football_id": 547
+    },
+    "Go Ahead Eagles": {
+      "soccer_id": 310,
+      "soccer_name": "Go Ahead Eagles",
+      "fd_name": "Go Ahead Eagles",
+      "api_football_id": 410
+    },
+    "Graafschap": {
+      "soccer_id": 5932,
+      "soccer_name": "Graafschap",
+      "fd_name": "Graafschap",
+      "api_football_id": null
+    },
+    "Granada": {
+      "soccer_id": 118,
+      "soccer_name": "Granada",
+      "fd_name": "Granada",
+      "api_football_id": 715
+    },
+    "Greuther Furth": {
+      "soccer_id": 275,
+      "soccer_name": "Greuther Furth",
+      "fd_name": "Greuther Furth",
+      "api_football_id": 178
+    },
+    "Groningen": {
+      "soccer_id": 1483,
+      "soccer_name": "Groningen",
+      "fd_name": "Groningen",
+      "api_football_id": 202
+    },
+    "Guingamp": {
+      "soccer_id": 238,
+      "soccer_name": "Guingamp",
+      "fd_name": "Guingamp",
+      "api_football_id": 90
+    },
+    "Hamburg": {
+      "soccer_id": 278,
+      "soccer_name": "Hamburg",
+      "fd_name": "Hamburg",
+      "api_football_id": 175
+    },
+    "Hannover": {
+      "soccer_id": 279,
+      "soccer_name": "Hannover",
+      "fd_name": "Hannover",
+      "api_football_id": 166
+    },
+    "Hansa Rostock": {
+      "soccer_id": 289,
+      "soccer_name": "Hansa Rostock",
+      "fd_name": "Hansa Rostock",
+      "api_football_id": 1321
+    },
+    "Heerenveen": {
+      "soccer_id": 301,
+      "soccer_name": "Heerenveen",
+      "fd_name": "Heerenveen",
+      "api_football_id": 210
+    },
+    "Heidenheim": {
+      "soccer_id": 265,
+      "soccer_name": "Heidenheim",
+      "fd_name": "Heidenheim",
+      "api_football_id": 180
+    },
+    "Heracles": {
+      "soccer_id": 304,
+      "soccer_name": "Heracles",
+      "fd_name": "Heracles",
+      "api_football_id": 206
+    },
+    "Hertha": {
+      "soccer_id": 272,
+      "soccer_name": "Hertha",
+      "fd_name": "Hertha",
+      "api_football_id": 159
+    },
+    "Hoffenheim": {
+      "soccer_id": 258,
+      "soccer_name": "Hoffenheim",
+      "fd_name": "Hoffenheim",
+      "api_football_id": 167
+    },
+    "Holstein Kiel": {
+      "soccer_id": 288,
+      "soccer_name": "Holstein Kiel",
+      "fd_name": "Holstein Kiel",
+      "api_football_id": 191
+    },
+    "Huddersfield": {
+      "soccer_id": 35,
+      "soccer_name": "Huddersfield",
+      "fd_name": "Huddersfield",
+      "api_football_id": 37
+    },
+    "Huesca": {
+      "soccer_id": 124,
+      "soccer_name": "Huesca",
+      "fd_name": "Huesca",
+      "api_football_id": 726
+    },
+    "Hull": {
+      "soccer_id": 33,
+      "soccer_name": "Hull",
+      "fd_name": "Hull",
+      "api_football_id": 64
+    },
+    "Ibiza": {
+      "soccer_id": 3181,
+      "soccer_name": "Ibiza",
+      "fd_name": "Ibiza",
+      "api_football_id": 9390
+    },
+    "Ingolstadt": {
+      "soccer_id": 294,
+      "soccer_name": "Ingolstadt",
+      "fd_name": "Ingolstadt",
+      "api_football_id": null
+    },
+    "Inter": {
+      "soccer_id": 6349,
+      "soccer_name": "Inter Milan",
+      "fd_name": "Inter",
+      "api_football_id": 26154
+    },
+    "Ipswich": {
+      "soccer_id": 44,
+      "soccer_name": "Ipswich",
+      "fd_name": "Ipswich",
+      "api_football_id": 57
+    },
+    "Juventus": {
+      "soccer_id": 168,
+      "soccer_name": "Juventus",
+      "fd_name": "Juventus",
+      "api_football_id": 496
+    },
+    "Kaiserslautern": {
+      "soccer_id": 281,
+      "soccer_name": "Kaiserslautern",
+      "fd_name": "Kaiserslautern",
+      "api_football_id": 745
+    },
+    "Karlsruhe": {
+      "soccer_id": 284,
+      "soccer_name": "Karlsruhe",
+      "fd_name": "Karlsruhe",
+      "api_football_id": 785
+    },
+    "La Coruna": {
+      "soccer_id": 151,
+      "soccer_name": "La Coruna",
+      "fd_name": "La Coruna",
+      "api_football_id": null
+    },
+    "Las Palmas": {
+      "soccer_id": 105,
+      "soccer_name": "Las Palmas",
+      "fd_name": "Las Palmas",
+      "api_football_id": 534
+    },
+    "Lazio": {
+      "soccer_id": 166,
+      "soccer_name": "Lazio",
+      "fd_name": "Lazio",
+      "api_football_id": 487
+    },
+    "Le Havre": {
+      "soccer_id": 218,
+      "soccer_name": "Le Havre",
+      "fd_name": "Le Havre",
+      "api_football_id": 111
+    },
+    "Lecce": {
+      "soccer_id": 165,
+      "soccer_name": "Lecce",
+      "fd_name": "Lecce",
+      "api_football_id": 867
+    },
+    "Leeds": {
+      "soccer_id": 21,
+      "soccer_name": "Leeds",
+      "fd_name": "Leeds",
+      "api_football_id": 63
+    },
+    "Leganes": {
+      "soccer_id": 125,
+      "soccer_name": "Leganes",
+      "fd_name": "Leganes",
+      "api_football_id": 537
+    },
+    "Leicester": {
+      "soccer_id": 23,
+      "soccer_name": "Leicester",
+      "fd_name": "Leicester",
+      "api_football_id": 46
+    },
+    "Lens": {
+      "soccer_id": 214,
+      "soccer_name": "Lens",
+      "fd_name": "Lens",
+      "api_football_id": 116
+    },
+    "Leonesa": {
+      "soccer_id": 5922,
+      "soccer_name": "Leonesa",
+      "fd_name": "Leonesa",
+      "api_football_id": null
+    },
+    "Levante": {
+      "soccer_id": 122,
+      "soccer_name": "Levante",
+      "fd_name": "Levante",
+      "api_football_id": 539
+    },
+    "Leverkusen": {
+      "soccer_id": 260,
+      "soccer_name": "Leverkusen",
+      "fd_name": "Leverkusen",
+      "api_football_id": 168
+    },
+    "Lille": {
+      "soccer_id": 208,
+      "soccer_name": "Lille",
+      "fd_name": "Lille",
+      "api_football_id": 79
+    },
+    "Liverpool": {
+      "soccer_id": 18,
+      "soccer_name": "Liverpool",
+      "fd_name": "Liverpool",
+      "api_football_id": 40
+    },
+    "Llagostera": {
+      "soccer_id": 3364,
+      "soccer_name": "Llagostera",
+      "fd_name": null,
+      "api_football_id": 9399
+    },
+    "Logrones": {
+      "soccer_id": 148,
+      "soccer_name": "Logrones",
+      "fd_name": "Logrones",
+      "api_football_id": null
+    },
+    "Lorca": {
+      "soccer_id": 5921,
+      "soccer_name": "Lorca",
+      "fd_name": "Lorca",
+      "api_football_id": null
+    },
+    "Lorient": {
+      "soccer_id": 212,
+      "soccer_name": "Lorient",
+      "fd_name": "Lorient",
+      "api_football_id": 97
+    },
+    "Lugo": {
+      "soccer_id": 3248,
+      "soccer_name": "Lugo",
+      "fd_name": "Lugo",
+      "api_football_id": 716
+    },
+    "Luton": {
+      "soccer_id": 8,
+      "soccer_name": "Luton",
+      "fd_name": "Luton",
+      "api_football_id": 1359
+    },
+    "Lyon": {
+      "soccer_id": 224,
+      "soccer_name": "Lyon",
+      "fd_name": "Lyon",
+      "api_football_id": 80
+    },
+    "M'gladbach": {
+      "soccer_id": 257,
+      "soccer_name": "M'gladbach",
+      "fd_name": "M'gladbach",
+      "api_football_id": 163
+    },
+    "Magdeburg": {
+      "soccer_id": 286,
+      "soccer_name": "Magdeburg",
+      "fd_name": "Magdeburg",
+      "api_football_id": 179
+    },
+    "Mainz": {
+      "soccer_id": 269,
+      "soccer_name": "Mainz",
+      "fd_name": "Mainz",
+      "api_football_id": 164
+    },
+    "Malaga": {
+      "soccer_id": 3189,
+      "soccer_name": "Malaga",
+      "fd_name": "Malaga",
+      "api_football_id": 535
+    },
+    "Mallorca": {
+      "soccer_id": 106,
+      "soccer_name": "Mallorca",
+      "fd_name": "Mallorca",
+      "api_football_id": 798
+    },
+    "Man City": {
+      "soccer_id": 2,
+      "soccer_name": "Man City",
+      "fd_name": "Man City",
+      "api_football_id": 50
+    },
+    "Man United": {
+      "soccer_id": 19,
+      "soccer_name": "Man United",
+      "fd_name": "Man United",
+      "api_football_id": 33
+    },
+    "Marseille": {
+      "soccer_id": 209,
+      "soccer_name": "Marseille",
+      "fd_name": "Marseille",
+      "api_football_id": 81
+    },
+    "Metz": {
+      "soccer_id": 222,
+      "soccer_name": "Metz",
+      "fd_name": "Metz",
+      "api_football_id": 112
+    },
+    "Middlesbrough": {
+      "soccer_id": 31,
+      "soccer_name": "Middlesbrough",
+      "fd_name": "Middlesbrough",
+      "api_football_id": 70
+    },
+    "Milan": {
+      "soccer_id": 172,
+      "soccer_name": "Milan",
+      "fd_name": "Milan",
+      "api_football_id": 489
+    },
+    "Millwall": {
+      "soccer_id": 32,
+      "soccer_name": "Millwall",
+      "fd_name": "Millwall",
+      "api_football_id": 58
+    },
+    "Milton Keynes Dons": {
+      "soccer_id": 71,
+      "soccer_name": "Milton Keynes Dons",
+      "fd_name": "Milton Keynes Dons",
+      "api_football_id": 1348
+    },
+    "Mirandes": {
+      "soccer_id": 137,
+      "soccer_name": "Mirandes",
+      "fd_name": "Mirandes",
+      "api_football_id": 799
+    },
+    "Monaco": {
+      "soccer_id": 216,
+      "soccer_name": "Monaco",
+      "fd_name": "Monaco",
+      "api_football_id": 91
+    },
+    "Montpellier": {
+      "soccer_id": 217,
+      "soccer_name": "Montpellier",
+      "fd_name": "Montpellier",
+      "api_football_id": 82
+    },
+    "Monza": {
+      "soccer_id": 160,
+      "soccer_name": "Monza",
+      "fd_name": "Monza",
+      "api_football_id": 1579
+    },
+    "Munich 1860": {
+      "soccer_id": 5931,
+      "soccer_name": "Munich 1860",
+      "fd_name": "Munich 1860",
+      "api_football_id": null
+    },
+    "NAC Breda": {
+      "soccer_id": 1482,
+      "soccer_name": "NAC Breda",
+      "fd_name": null,
+      "api_football_id": 203
+    },
+    "Nancy": {
+      "soccer_id": 3538,
+      "soccer_name": "Nancy",
+      "fd_name": "Nancy",
+      "api_football_id": 102
+    },
+    "Nantes": {
+      "soccer_id": 219,
+      "soccer_name": "Nantes",
+      "fd_name": "Nantes",
+      "api_football_id": 83
+    },
+    "Napoli": {
+      "soccer_id": 156,
+      "soccer_name": "Napoli",
+      "fd_name": "Napoli",
+      "api_football_id": 492
+    },
+    "Newcastle": {
+      "soccer_id": 13,
+      "soccer_name": "Newcastle",
+      "fd_name": "Newcastle",
+      "api_football_id": 34
+    },
+    "Nice": {
+      "soccer_id": 207,
+      "soccer_name": "Nice",
+      "fd_name": "Nice",
+      "api_football_id": 84
+    },
+    "Nijmegen": {
+      "soccer_id": 307,
+      "soccer_name": "Nijmegen",
+      "fd_name": "Nijmegen",
+      "api_football_id": 413
+    },
+    "Nimes": {
+      "soccer_id": 3745,
+      "soccer_name": "Nimes",
+      "fd_name": "Nimes",
+      "api_football_id": 92
+    },
+    "Norwich": {
+      "soccer_id": 25,
+      "soccer_name": "Norwich",
+      "fd_name": "Norwich",
+      "api_football_id": 71
+    },
+    "Nott'm Forest": {
+      "soccer_id": 4,
+      "soccer_name": "Nott'm Forest",
+      "fd_name": "Nott'm Forest",
+      "api_football_id": 65
+    },
+    "Numancia": {
+      "soccer_id": 3163,
+      "soccer_name": "Numancia",
+      "fd_name": "Numancia",
+      "api_football_id": 717
+    },
+    "Nurnberg": {
+      "soccer_id": 290,
+      "soccer_name": "Nurnberg",
+      "fd_name": "Nurnberg",
+      "api_football_id": 171
+    },
+    "Osasuna": {
+      "soccer_id": 110,
+      "soccer_name": "Osasuna",
+      "fd_name": "Osasuna",
+      "api_football_id": 727
+    },
+    "Osnabruck": {
+      "soccer_id": 283,
+      "soccer_name": "Osnabruck",
+      "fd_name": "Osnabruck",
+      "api_football_id": 1324
+    },
+    "Oviedo": {
+      "soccer_id": 140,
+      "soccer_name": "Oviedo",
+      "fd_name": "Oviedo",
+      "api_football_id": 718
+    },
+    "Oxford": {
+      "soccer_id": 58,
+      "soccer_name": "Oxford",
+      "fd_name": "Oxford",
+      "api_football_id": 1338
+    },
+    "PSV Eindhoven": {
+      "soccer_id": 299,
+      "soccer_name": "PSV Eindhoven",
+      "fd_name": "PSV Eindhoven",
+      "api_football_id": 197
+    },
+    "Paderborn": {
+      "soccer_id": 276,
+      "soccer_name": "Paderborn",
+      "fd_name": "Paderborn",
+      "api_football_id": 185
+    },
+    "Palermo": {
+      "soccer_id": 183,
+      "soccer_name": "Palermo",
+      "fd_name": "Palermo",
+      "api_football_id": 522
+    },
+    "Paris FC": {
+      "soccer_id": 243,
+      "soccer_name": "Paris FC",
+      "fd_name": "Paris FC",
+      "api_football_id": 114
+    },
+    "Paris SG": {
+      "soccer_id": 211,
+      "soccer_name": "Paris SG",
+      "fd_name": "Paris SG",
+      "api_football_id": 85
+    },
+    "Parma": {
+      "soccer_id": 177,
+      "soccer_name": "Parma",
+      "fd_name": "Parma",
+      "api_football_id": 523
+    },
+    "Pescara": {
+      "soccer_id": 3458,
+      "soccer_name": "Pescara",
+      "fd_name": "Pescara",
+      "api_football_id": 525
+    },
+    "Peterboro": {
+      "soccer_id": 50,
+      "soccer_name": "Peterboro",
+      "fd_name": "Peterboro",
+      "api_football_id": 1350
+    },
+    "Pisa": {
+      "soccer_id": 193,
+      "soccer_name": "Pisa",
+      "fd_name": "Pisa",
+      "api_football_id": 801
+    },
+    "Plymouth": {
+      "soccer_id": 34,
+      "soccer_name": "Plymouth",
+      "fd_name": "Plymouth",
+      "api_football_id": 1357
+    },
+    "Ponferradina": {
+      "soccer_id": 3175,
+      "soccer_name": "Ponferradina",
+      "fd_name": "Ponferradina",
+      "api_football_id": 4907
+    },
+    "Portsmouth": {
+      "soccer_id": 64,
+      "soccer_name": "Portsmouth",
+      "fd_name": "Portsmouth",
+      "api_football_id": 1355
+    },
+    "Preston": {
+      "soccer_id": 30,
+      "soccer_name": "Preston",
+      "fd_name": "Preston",
+      "api_football_id": 59
+    },
+    "Preußen Münster": {
+      "soccer_id": 3397,
+      "soccer_name": "Preußen Münster",
+      "fd_name": null,
+      "api_football_id": 1313
+    },
+    "QPR": {
+      "soccer_id": 40,
+      "soccer_name": "QPR",
+      "fd_name": "QPR",
+      "api_football_id": 72
+    },
+    "RB Leipzig": {
+      "soccer_id": 261,
+      "soccer_name": "RB Leipzig",
+      "fd_name": "RB Leipzig",
+      "api_football_id": 173
+    },
+    "Rayo Majadahonda": {
+      "soccer_id": 3304,
+      "soccer_name": "Rayo Majadahonda",
+      "fd_name": null,
+      "api_football_id": 861
+    },
+    "Reading": {
+      "soccer_id": 46,
+      "soccer_name": "Reading",
+      "fd_name": "Reading",
+      "api_football_id": 53
+    },
+    "Real Madrid": {
+      "soccer_id": 108,
+      "soccer_name": "Real Madrid",
+      "fd_name": "Real Madrid",
+      "api_football_id": 541
+    },
+    "Regensburg": {
+      "soccer_id": 291,
+      "soccer_name": "Regensburg",
+      "fd_name": "Regensburg",
+      "api_football_id": null
+    },
+    "Reims": {
+      "soccer_id": 210,
+      "soccer_name": "Reims",
+      "fd_name": "Reims",
+      "api_football_id": 93
+    },
+    "Rennes": {
+      "soccer_id": 221,
+      "soccer_name": "Rennes",
+      "fd_name": "Rennes",
+      "api_football_id": 94
+    },
+    "Reus Deportiu": {
+      "soccer_id": 5920,
+      "soccer_name": "Reus Deportiu",
+      "fd_name": "Reus Deportiu",
+      "api_football_id": null
+    },
+    "Roda": {
+      "soccer_id": 5270,
+      "soccer_name": "Roda",
+      "fd_name": null,
+      "api_football_id": 9684
+    },
+    "Roma": {
+      "soccer_id": 161,
+      "soccer_name": "Roma",
+      "fd_name": "Roma",
+      "api_football_id": 497
+    },
+    "Rotherham": {
+      "soccer_id": 37,
+      "soccer_name": "Rotherham",
+      "fd_name": "Rotherham",
+      "api_football_id": 73
+    },
+    "Sabadell": {
+      "soccer_id": 3327,
+      "soccer_name": "Sabadell",
+      "fd_name": "Sabadell",
+      "api_football_id": 9593
+    },
+    "Salernitana": {
+      "soccer_id": 162,
+      "soccer_name": "Salernitana",
+      "fd_name": "Salernitana",
+      "api_football_id": 514
+    },
+    "Sampdoria": {
+      "soccer_id": 173,
+      "soccer_name": "Sampdoria",
+      "fd_name": "Sampdoria",
+      "api_football_id": 498
+    },
+    "Sandhausen": {
+      "soccer_id": 292,
+      "soccer_name": "Sandhausen",
+      "fd_name": "Sandhausen",
+      "api_football_id": null
+    },
+    "Santander": {
+      "soccer_id": 128,
+      "soccer_name": "Santander",
+      "fd_name": "Santander",
+      "api_football_id": 4665
+    },
+    "Sassuolo": {
+      "soccer_id": 163,
+      "soccer_name": "Sassuolo",
+      "fd_name": "Sassuolo",
+      "api_football_id": 488
+    },
+    "Schalke 04": {
+      "soccer_id": 273,
+      "soccer_name": "Schalke 04",
+      "fd_name": "Schalke 04",
+      "api_football_id": 174
+    },
+    "Sevilla": {
+      "soccer_id": 101,
+      "soccer_name": "Sevilla",
+      "fd_name": "Sevilla",
+      "api_football_id": 536
+    },
+    "Sevilla B": {
+      "soccer_id": 5923,
+      "soccer_name": "Sevilla B",
+      "fd_name": "Sevilla B",
+      "api_football_id": null
+    },
+    "Sheffield United": {
+      "soccer_id": 11,
+      "soccer_name": "Sheffield United",
+      "fd_name": "Sheffield United",
+      "api_football_id": 62
+    },
+    "Sheffield Weds": {
+      "soccer_id": 27,
+      "soccer_name": "Sheffield Weds",
+      "fd_name": "Sheffield Weds",
+      "api_football_id": 74
+    },
+    "Sociedad": {
+      "soccer_id": 103,
+      "soccer_name": "Sociedad",
+      "fd_name": "Sociedad",
+      "api_football_id": 548
+    },
+    "Sociedad B": {
+      "soccer_id": 145,
+      "soccer_name": "Sociedad B",
+      "fd_name": "Sociedad B",
+      "api_football_id": null
+    },
+    "Southampton": {
+      "soccer_id": 22,
+      "soccer_name": "Southampton",
+      "fd_name": "Southampton",
+      "api_football_id": 41
+    },
+    "Sp Gijon": {
+      "soccer_id": 127,
+      "soccer_name": "Sp Gijon",
+      "fd_name": "Sp Gijon",
+      "api_football_id": 731
+    },
+    "Spal": {
+      "soccer_id": 3463,
+      "soccer_name": "Spal",
+      "fd_name": "Spal",
+      "api_football_id": 493
+    },
+    "Sparta Rotterdam": {
+      "soccer_id": 306,
+      "soccer_name": "Sparta Rotterdam",
+      "fd_name": "Sparta Rotterdam",
+      "api_football_id": 426
+    },
+    "Spezia": {
+      "soccer_id": 175,
+      "soccer_name": "Spezia",
+      "fd_name": "Spezia",
+      "api_football_id": 515
+    },
+    "St Etienne": {
+      "soccer_id": 230,
+      "soccer_name": "St Etienne",
+      "fd_name": "St Etienne",
+      "api_football_id": 1063
+    },
+    "St Pauli": {
+      "soccer_id": 282,
+      "soccer_name": "St Pauli",
+      "fd_name": "St Pauli",
+      "api_football_id": 186
+    },
+    "Stoke": {
+      "soccer_id": 36,
+      "soccer_name": "Stoke",
+      "fd_name": "Stoke",
+      "api_football_id": 75
+    },
+    "Strasbourg": {
+      "soccer_id": 223,
+      "soccer_name": "Strasbourg",
+      "fd_name": "Strasbourg",
+      "api_football_id": 95
+    },
+    "Stuttgart": {
+      "soccer_id": 262,
+      "soccer_name": "Stuttgart",
+      "fd_name": "Stuttgart",
+      "api_football_id": 172
+    },
+    "Sunderland": {
+      "soccer_id": 43,
+      "soccer_name": "Sunderland",
+      "fd_name": "Sunderland",
+      "api_football_id": 746
+    },
+    "Swansea": {
+      "soccer_id": 38,
+      "soccer_name": "Swansea",
+      "fd_name": "Swansea",
+      "api_football_id": 76
+    },
+    "Telstar": {
+      "soccer_id": 1474,
+      "soccer_name": "Telstar",
+      "fd_name": null,
+      "api_football_id": 427
+    },
+    "Tenerife": {
+      "soccer_id": 139,
+      "soccer_name": "Tenerife",
+      "fd_name": "Tenerife",
+      "api_football_id": 719
+    },
+    "Torino": {
+      "soccer_id": 169,
+      "soccer_name": "Torino",
+      "fd_name": "Torino",
+      "api_football_id": 503
+    },
+    "Tottenham": {
+      "soccer_id": 16,
+      "soccer_name": "Tottenham",
+      "fd_name": "Tottenham",
+      "api_football_id": 47
+    },
+    "Toulouse": {
+      "soccer_id": 220,
+      "soccer_name": "Toulouse",
+      "fd_name": "Toulouse",
+      "api_football_id": 96
+    },
+    "Troyes": {
+      "soccer_id": 228,
+      "soccer_name": "Troyes",
+      "fd_name": "Troyes",
+      "api_football_id": 110
+    },
+    "Twente": {
+      "soccer_id": 314,
+      "soccer_name": "Twente",
+      "fd_name": "Twente",
+      "api_football_id": 415
+    },
+    "UCAM Murcia": {
+      "soccer_id": 3231,
+      "soccer_name": "Ucam Murcia",
+      "fd_name": null,
+      "api_football_id": 800
+    },
+    "Udinese": {
+      "soccer_id": 167,
+      "soccer_name": "Udinese",
+      "fd_name": "Udinese",
+      "api_football_id": 494
+    },
+    "Ulm": {
+      "soccer_id": 5929,
+      "soccer_name": "Ulm",
+      "fd_name": "Ulm",
+      "api_football_id": null
+    },
+    "Union Berlin": {
+      "soccer_id": 268,
+      "soccer_name": "Union Berlin",
+      "fd_name": "Union Berlin",
+      "api_football_id": 182
+    },
+    "Utrecht": {
+      "soccer_id": 300,
+      "soccer_name": "Utrecht",
+      "fd_name": "Utrecht",
+      "api_football_id": 207
+    },
+    "VVV Venlo": {
+      "soccer_id": 1476,
+      "soccer_name": "VVV Venlo",
+      "fd_name": "VVV Venlo",
+      "api_football_id": 204
+    },
+    "Valencia": {
+      "soccer_id": 102,
+      "soccer_name": "Valencia",
+      "fd_name": "Valencia",
+      "api_football_id": 532
+    },
+    "Valladolid": {
+      "soccer_id": 120,
+      "soccer_name": "Valladolid",
+      "fd_name": "Valladolid",
+      "api_football_id": 720
+    },
+    "Vallecano": {
+      "soccer_id": 100,
+      "soccer_name": "Vallecano",
+      "fd_name": "Vallecano",
+      "api_football_id": 728
+    },
+    "Venezia": {
+      "soccer_id": 176,
+      "soccer_name": "Venezia",
+      "fd_name": "Venezia",
+      "api_football_id": 517
+    },
+    "Verona": {
+      "soccer_id": 154,
+      "soccer_name": "Verona",
+      "fd_name": "Verona",
+      "api_football_id": 504
+    },
+    "Villarreal": {
+      "soccer_id": 111,
+      "soccer_name": "Villarreal",
+      "fd_name": "Villarreal",
+      "api_football_id": 533
+    },
+    "Villarreal B": {
+      "soccer_id": 130,
+      "soccer_name": "Villarreal B",
+      "fd_name": "Villarreal B",
+      "api_football_id": 9595
+    },
+    "Vitesse": {
+      "soccer_id": 298,
+      "soccer_name": "Vitesse",
+      "fd_name": "Vitesse",
+      "api_football_id": 200
+    },
+    "Volendam": {
+      "soccer_id": 297,
+      "soccer_name": "Volendam",
+      "fd_name": "Volendam",
+      "api_football_id": 416
+    },
+    "Waalwijk": {
+      "soccer_id": 302,
+      "soccer_name": "Waalwijk",
+      "fd_name": "Waalwijk",
+      "api_football_id": 417
+    },
+    "Watford": {
+      "soccer_id": 24,
+      "soccer_name": "Watford",
+      "fd_name": "Watford",
+      "api_football_id": 38
+    },
+    "Wehen": {
+      "soccer_id": 285,
+      "soccer_name": "Wehen",
+      "fd_name": "Wehen",
+      "api_football_id": 1319
+    },
+    "Werder Bremen": {
+      "soccer_id": 254,
+      "soccer_name": "Werder Bremen",
+      "fd_name": "Werder Bremen",
+      "api_football_id": 162
+    },
+    "West Brom": {
+      "soccer_id": 26,
+      "soccer_name": "West Brom",
+      "fd_name": "West Brom",
+      "api_football_id": 60
+    },
+    "West Ham": {
+      "soccer_id": 6,
+      "soccer_name": "West Ham",
+      "fd_name": "West Ham",
+      "api_football_id": 48
+    },
+    "Wigan": {
+      "soccer_id": 47,
+      "soccer_name": "Wigan",
+      "fd_name": "Wigan",
+      "api_football_id": 61
+    },
+    "Willem II": {
+      "soccer_id": 1484,
+      "soccer_name": "Willem II",
+      "fd_name": "Willem II",
+      "api_football_id": 195
+    },
+    "Wolfsburg": {
+      "soccer_id": 264,
+      "soccer_name": "Wolfsburg",
+      "fd_name": "Wolfsburg",
+      "api_football_id": 161
+    },
+    "Wolves": {
+      "soccer_id": 20,
+      "soccer_name": "Wolves",
+      "fd_name": "Wolves",
+      "api_football_id": 39
+    },
+    "Wrexham": {
+      "soccer_id": 93,
+      "soccer_name": "Wrexham",
+      "fd_name": "Wrexham",
+      "api_football_id": 1837
+    },
+    "Wycombe": {
+      "soccer_id": 51,
+      "soccer_name": "Wycombe",
+      "fd_name": "Wycombe",
+      "api_football_id": 1358
+    },
+    "Zaragoza": {
+      "soccer_id": 129,
+      "soccer_name": "Zaragoza",
+      "fd_name": "Zaragoza",
+      "api_football_id": 732
+    },
+    "Zwolle": {
+      "soccer_id": 305,
+      "soccer_name": "Zwolle",
+      "fd_name": "Zwolle",
+      "api_football_id": 193
+    }
+  },
+  "unmatched": [
+    "Ath Bilbao B",
+    "Castellon",
+    "Frankfurt FSV",
+    "Wurzburger Kickers"
+  ],
+  "stats": {
+    "fd_total": 269,
+    "matched": 265,
+    "unmatched": 4,
+    "match_rate": 0.9851
+  }
+}

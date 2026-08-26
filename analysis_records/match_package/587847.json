@@ -1,0 +1,136 @@
+{
+ "id": 587847,
+ "league": "欧联",
+ "kickoff": "08-20 23:00",
+ "kickoff_iso": "2026-08-20T15:00:00+00:00",
+ "home": "Kairat Almaty",
+ "away": "RSC Anderlecht",
+ "home_id": 126,
+ "away_id": 240,
+ "pulled_at": "2026-08-20T22:11:31.919892+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 608,
+    "name": "Rafael Urazbakhtin",
+    "short_name": "R. Urazbakhtin",
+    "profile": "defensive",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 26.0,
+    "avg_goals_scored": 0.92,
+    "avg_goals_conceded": 1.35
+   },
+   "away": {
+    "id": 1899,
+    "name": "Vítor Bruno",
+    "short_name": "V. Bruno",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 1.57,
+    "avg_goals_conceded": 1.0
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.37,
+   "draw": 3.39,
+   "away_win": 2.09,
+   "over_15_goals": 1.29,
+   "over_25_goals": 1.92,
+   "over_35_goals": 3.28,
+   "under_15_goals": 3.35,
+   "under_25_goals": 1.82,
+   "under_35_goals": 1.3,
+   "btts_yes": 1.74,
+   "btts_no": 1.99
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 7692,
+    "name": "Ilay Camara",
+    "short_name": "I. Camara",
+    "status": "injured",
+    "reason": "Foot Injury"
+   },
+   {
+    "id": 7343,
+    "name": "Lucas Hey",
+    "short_name": "L. Hey",
+    "status": "injured",
+    "reason": "Broken Leg"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "confirmed",
+  "confidence": {
+   "home": null,
+   "away": null
+  },
+  "formation": {
+   "home": "4-4-1-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-20T02:41:10Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 0.8,
+    "home_ga": 1.092,
+    "away_gf": 0.99,
+    "away_ga": 1.5,
+    "n_home": 6.5,
+    "n_away": 10.0,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 126
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.09,
+    "home_ga": 1.337,
+    "away_gf": 0.947,
+    "away_ga": 1.763,
+    "n_home": 8.9,
+    "n_away": 7.6,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 240
+   }
+  }
+ }
+}

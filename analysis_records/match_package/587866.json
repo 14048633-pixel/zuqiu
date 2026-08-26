@@ -1,0 +1,120 @@
+{
+ "id": 587866,
+ "league": "欧协联",
+ "kickoff": "08-21 01:30",
+ "kickoff_iso": "2026-08-20T17:30:00+00:00",
+ "home": "Klaksvíkar Ítróttarfelag",
+ "away": "Riga FC",
+ "home_id": 3445,
+ "away_id": 2838,
+ "pulled_at": "2026-08-20T22:14:11.205346+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1848,
+    "name": "Magnus Powell",
+    "short_name": "M. Powell",
+    "profile": "defensive",
+    "preferred_formation": "3-4-3",
+    "matches_total": 6.0,
+    "avg_goals_scored": 0.67,
+    "avg_goals_conceded": 0.83
+   },
+   "away": {
+    "id": 1839,
+    "name": "Adrian Gula",
+    "short_name": "A. Gula",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 10.0,
+    "avg_goals_scored": 2.3,
+    "avg_goals_conceded": 1.4
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-3",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.71,
+   "draw": 3.8,
+   "away_win": 1.84,
+   "over_15_goals": 1.18,
+   "over_25_goals": 1.61,
+   "over_35_goals": 2.49,
+   "under_15_goals": 4.34,
+   "under_25_goals": 2.21,
+   "under_35_goals": 1.47,
+   "btts_yes": 1.57,
+   "btts_no": 2.25
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "squad(补拉)",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.418,
+   "away": 0.459
+  },
+  "formation": {
+   "home": "3-4-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-20T08:32:10Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.278,
+    "home_ga": 1.127,
+    "away_gf": 0.698,
+    "away_ga": 1.453,
+    "n_home": 7.9,
+    "n_away": 8.6,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 3445
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.543,
+    "home_ga": 1.049,
+    "away_gf": 1.583,
+    "away_ga": 1.631,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 2838
+   }
+  }
+ }
+}

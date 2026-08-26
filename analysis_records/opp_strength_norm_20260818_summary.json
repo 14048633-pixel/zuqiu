@@ -1,0 +1,119 @@
+{
+ "ts": "2026-08-18 23:32",
+ "data_file": "data/raw/football_data/bsd_team_stats_norm_20260818.json",
+ "n_teams": 92,
+ "excluded_events": 511,
+ "field_level_change": {
+  "up": 58,
+  "down": 76,
+  "zero": 234
+ },
+ "teams_unchanged": 50,
+ "fields_delta_ge_0_05": 12,
+ "max_abs_delta": 0.121,
+ "mean_abs_delta": 0.0087,
+ "top_changes": [
+  {
+   "team": "FC Nordsjælland",
+   "field": "home_gf",
+   "raw": 2.391,
+   "norm": 2.512,
+   "delta": 0.121,
+   "league": "欧协联"
+  },
+  {
+   "team": "Kuopion Palloseura",
+   "field": "home_gf",
+   "raw": 1.329,
+   "norm": 1.218,
+   "delta": -0.111,
+   "league": "欧协联"
+  },
+  {
+   "team": "CSKA Sofia",
+   "field": "home_gf",
+   "raw": 2.036,
+   "norm": 1.94,
+   "delta": -0.096,
+   "league": "欧联"
+  },
+  {
+   "team": "Lech Poznań",
+   "field": "away_gf",
+   "raw": 2.237,
+   "norm": 2.317,
+   "delta": 0.08,
+   "league": "欧联"
+  },
+  {
+   "team": "Kuopion Palloseura",
+   "field": "away_gf",
+   "raw": 1.372,
+   "norm": 1.295,
+   "delta": -0.077,
+   "league": "欧协联"
+  },
+  {
+   "team": "CSKA Sofia",
+   "field": "home_ga",
+   "raw": 1.095,
+   "norm": 1.164,
+   "delta": 0.069,
+   "league": "欧联"
+  },
+  {
+   "team": "Inter Turku",
+   "field": "home_gf",
+   "raw": 1.456,
+   "norm": 1.518,
+   "delta": 0.062,
+   "league": "欧协联"
+  },
+  {
+   "team": "Mjällby AIF",
+   "field": "away_gf",
+   "raw": 1.423,
+   "norm": 1.361,
+   "delta": -0.062,
+   "league": "欧联"
+  },
+  {
+   "team": "Kuopion Palloseura",
+   "field": "away_ga",
+   "raw": 0.733,
+   "norm": 0.792,
+   "delta": 0.059,
+   "league": "欧协联"
+  },
+  {
+   "team": "Lech Poznań",
+   "field": "home_gf",
+   "raw": 1.706,
+   "norm": 1.651,
+   "delta": -0.055,
+   "league": "欧联"
+  },
+  {
+   "team": "Heart of Midlothian",
+   "field": "away_ga",
+   "raw": 2.296,
+   "norm": 2.348,
+   "delta": 0.052,
+   "league": "欧协联"
+  },
+  {
+   "team": "Raków Częstochowa",
+   "field": "away_ga",
+   "raw": 1.18,
+   "norm": 1.128,
+   "delta": -0.052,
+   "league": "欧协联"
+  }
+ ],
+ "v1_limitations": [
+  "同联赛同tier赛程时 coef 在分子分母抵消, 归一=原值 (50/92队零变化)",
+  "跨联赛水平(等级)失真未修复: Levski 保加利亚0.303 vs AEK 希腊0.694 依旧不可比",
+  "防御方向对弱队刷失球无收缩, 单系数只做重要性加权, 不做level平移"
+ ],
+ "v2_proposal": "按赛事图做迭代逐队攻防rating(欧洲赛事为跨联赛桥梁) + 联赛环境level调整 + 样本收缩"
+}

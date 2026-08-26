@@ -1,0 +1,127 @@
+{
+ "id": 211536,
+ "league": "墨超",
+ "kickoff": "08-23 07:07",
+ "kickoff_iso": "2026-08-22T23:07:00+00:00",
+ "home": "CD Guadalajara",
+ "away": "Club Tijuana",
+ "home_id": 320,
+ "away_id": 308,
+ "pulled_at": "2026-08-22T01:17:50.353392+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 444,
+    "name": "Gabriel Milito",
+    "short_name": "G. Milito",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 46.0,
+    "avg_goals_scored": 1.59,
+    "avg_goals_conceded": 1.13
+   },
+   "away": {
+    "id": 211,
+    "name": "Sebastian Abreu",
+    "short_name": "S. Abreu",
+    "profile": "balanced",
+    "preferred_formation": "4-1-4-1",
+    "matches_total": 41.0,
+    "avg_goals_scored": 1.46,
+    "avg_goals_conceded": 1.17
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": "4-1-4-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 10174,
+    "name": "Santiago Sandoval",
+    "short_name": "S. Sandoval",
+    "status": "injured",
+    "reason": "Broken Finger"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.618,
+   "away": 0.782
+  },
+  "formation": {
+   "home": "3-1-4-2",
+   "away": "4-1-4-1"
+  },
+  "updated_at": "2026-08-21T14:34:56Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.617,
+    "home_ga": 0.716,
+    "away_gf": 1.107,
+    "away_ga": 1.202,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 320
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.767,
+    "home_ga": 0.709,
+    "away_gf": 1.101,
+    "away_ga": 1.215,
+    "n_home": 8.6,
+    "n_away": 7.9,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 308
+   }
+  }
+ }
+}

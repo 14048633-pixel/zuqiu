@@ -1,0 +1,105 @@
+{
+  "timestamp": "2026-08-05 11:40:03",
+  "date": "2026-08-05",
+  "league": "中乙",
+  "settlement_date": "2026-08-06",
+  "results": {
+    "上海海港B vs 山西崇德荣海": {"score": "0-1", "note": "陈祥煜1分钟闪击, 山西6连胜"},
+    "兰州陇原 vs 北京理工": {"score": "1-0", "note": ""},
+    "湖北青年星 vs 江西庐山": {"score": "0-1", "note": "绝杀取胜, 江西升至南区第4"},
+    "长春喜都 vs 大连英博B": {"score": "0-1", "note": "44分钟马明伟头球制胜, 大连英博B终结5轮不胜"},
+    "温州 vs 贵州贵阳": {"score": "0-2", "note": ""}
+  },
+  "bets": [
+    {
+      "type": "3串1",
+      "stake": 30,
+      "result": "输",
+      "return": 0,
+      "legs": [
+        {
+          "match": "上海海港B vs 山西崇德荣海",
+          "bet": "小2.25",
+          "odds": 1.73,
+          "prob": 0.852,
+          "score": "0-1",
+          "leg_result": "赢"
+        },
+        {
+          "match": "兰州陇原 vs 北京理工",
+          "bet": "小2.25",
+          "odds": 1.82,
+          "prob": 0.843,
+          "score": "1-0",
+          "leg_result": "赢"
+        },
+        {
+          "match": "湖北青年星 vs 江西庐山",
+          "bet": "主队+0/0.5",
+          "odds": 1.7,
+          "prob": 0.791,
+          "score": "0-1",
+          "leg_result": "输"
+        }
+      ],
+      "combo_prob": 0.568,
+      "combo_odds": 5.35,
+      "potential_return": 160.5
+    },
+    {
+      "type": "5串1",
+      "stake": 20,
+      "result": "输",
+      "return": 0,
+      "legs": [
+        {
+          "match": "上海海港B vs 山西崇德荣海",
+          "bet": "小2.25",
+          "odds": 1.73,
+          "prob": 0.852,
+          "score": "0-1",
+          "leg_result": "赢"
+        },
+        {
+          "match": "长春喜都 vs 大连英博B",
+          "bet": "小1.75",
+          "odds": 1.94,
+          "prob": 0.62,
+          "score": "0-1",
+          "leg_result": "赢"
+        },
+        {
+          "match": "兰州陇原 vs 北京理工",
+          "bet": "小2.25",
+          "odds": 1.82,
+          "prob": 0.843,
+          "score": "1-0",
+          "leg_result": "赢"
+        },
+        {
+          "match": "湖北青年星 vs 江西庐山",
+          "bet": "主队+0/0.5",
+          "odds": 1.7,
+          "prob": 0.791,
+          "score": "0-1",
+          "leg_result": "输"
+        },
+        {
+          "match": "温州 vs 贵州贵阳",
+          "bet": "小2",
+          "odds": 1.84,
+          "prob": 0.689,
+          "score": "0-2",
+          "leg_result": "走水"
+        }
+      ],
+      "combo_prob": 0.243,
+      "combo_odds": 19.11,
+      "potential_return": 382.2
+    }
+  ],
+  "total_stake": 50,
+  "total_return": 0,
+  "total_pnl": -50,
+  "total_potential": 542.7
+}

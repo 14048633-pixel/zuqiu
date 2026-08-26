@@ -1,0 +1,498 @@
+{
+ "n": 1018,
+ "ts": "2026-08-16T17:32:58",
+ "calib_1x2_home": [
+  [
+   0.0,
+   0.1,
+   7,
+   0.0
+  ],
+  [
+   0.1,
+   0.2,
+   54,
+   11.1
+  ],
+  [
+   0.2,
+   0.3,
+   123,
+   26.8
+  ],
+  [
+   0.3,
+   0.4,
+   203,
+   36.9
+  ],
+  [
+   0.4,
+   0.5,
+   250,
+   45.6
+  ],
+  [
+   0.5,
+   0.6,
+   199,
+   58.8
+  ],
+  [
+   0.6,
+   0.7,
+   106,
+   69.8
+  ],
+  [
+   0.7,
+   0.8,
+   47,
+   72.3
+  ],
+  [
+   0.8,
+   0.9,
+   28,
+   85.7
+  ],
+  [
+   0.9,
+   1.0,
+   1,
+   100.0
+  ]
+ ],
+ "calib_over25": [
+  [
+   0.1,
+   0.2,
+   1,
+   100.0
+  ],
+  [
+   0.2,
+   0.3,
+   3,
+   0.0
+  ],
+  [
+   0.3,
+   0.4,
+   75,
+   33.3
+  ],
+  [
+   0.4,
+   0.5,
+   320,
+   43.8
+  ],
+  [
+   0.5,
+   0.6,
+   410,
+   49.3
+  ],
+  [
+   0.6,
+   0.7,
+   187,
+   61.5
+  ],
+  [
+   0.7,
+   0.8,
+   22,
+   86.4
+  ]
+ ],
+ "calib_favorite": [
+  [
+   0.3,
+   0.4,
+   176,
+   39.2
+  ],
+  [
+   0.4,
+   0.5,
+   362,
+   44.2
+  ],
+  [
+   0.5,
+   0.6,
+   258,
+   59.7
+  ],
+  [
+   0.6,
+   0.7,
+   135,
+   65.2
+  ],
+  [
+   0.7,
+   0.8,
+   57,
+   71.9
+  ],
+  [
+   0.8,
+   0.9,
+   29,
+   82.8
+  ],
+  [
+   0.9,
+   1.0,
+   1,
+   100.0
+  ]
+ ],
+ "calib_market_home": [
+  [
+   0.0,
+   0.1,
+   4,
+   0.0
+  ],
+  [
+   0.1,
+   0.2,
+   42,
+   4.8
+  ],
+  [
+   0.2,
+   0.3,
+   94,
+   18.1
+  ],
+  [
+   0.3,
+   0.4,
+   181,
+   38.1
+  ],
+  [
+   0.4,
+   0.5,
+   220,
+   45.0
+  ],
+  [
+   0.5,
+   0.6,
+   175,
+   49.1
+  ],
+  [
+   0.6,
+   0.7,
+   156,
+   61.5
+  ],
+  [
+   0.7,
+   0.8,
+   74,
+   75.7
+  ],
+  [
+   0.8,
+   0.9,
+   37,
+   78.4
+  ],
+  [
+   0.9,
+   1.0,
+   12,
+   91.7
+  ]
+ ],
+ "summary": {
+  "calib_1x2_home": {
+   "prob_avg": 45.3,
+   "hit_avg": 46.9,
+   "bias_pp": -1.6
+  },
+  "calib_over25": {
+   "prob_avg": 52.5,
+   "hit_avg": 49.3,
+   "bias_pp": 3.2
+  },
+  "calib_favorite": {
+   "prob_avg": 51.3,
+   "hit_avg": 52.8,
+   "bias_pp": -1.4
+  },
+  "calib_market_home": {
+   "prob_avg": 49.1,
+   "hit_avg": 46.7,
+   "bias_pp": 2.4
+  }
+ },
+ "league_favorite": {
+  "Conference League": {
+   "n": 140,
+   "prob_avg": 59.1,
+   "hit_avg": 63.6,
+   "bias_pp": -4.5
+  },
+  "USL Championship": {
+   "n": 51,
+   "prob_avg": 48.1,
+   "hit_avg": 54.9,
+   "bias_pp": -6.8
+  },
+  "Europa League": {
+   "n": 43,
+   "prob_avg": 53.8,
+   "hit_avg": 51.2,
+   "bias_pp": 2.6
+  },
+  "MLS": {
+   "n": 42,
+   "prob_avg": 48.0,
+   "hit_avg": 52.4,
+   "bias_pp": -4.4
+  },
+  "Carabao Cup": {
+   "n": 37,
+   "prob_avg": 53.2,
+   "hit_avg": 51.4,
+   "bias_pp": 1.8
+  },
+  "Liga Profesional de Fútbol": {
+   "n": 35,
+   "prob_avg": 45.1,
+   "hit_avg": 42.9,
+   "bias_pp": 2.3
+  },
+  "NWSL": {
+   "n": 34,
+   "prob_avg": 49.0,
+   "hit_avg": 47.1,
+   "bias_pp": 2.0
+  },
+  "Champions League": {
+   "n": 34,
+   "prob_avg": 56.7,
+   "hit_avg": 47.1,
+   "bias_pp": 9.7
+  },
+  "Brasileirão Serie A": {
+   "n": 31,
+   "prob_avg": 49.9,
+   "hit_avg": 32.3,
+   "bias_pp": 17.7
+  },
+  "Categoría Primera A": {
+   "n": 31,
+   "prob_avg": 50.6,
+   "hit_avg": 58.1,
+   "bias_pp": -7.5
+  },
+  "Chinese Super League": {
+   "n": 31,
+   "prob_avg": 49.7,
+   "hit_avg": 64.5,
+   "bias_pp": -14.8
+  },
+  "Brasileirão Serie B": {
+   "n": 30,
+   "prob_avg": 44.9,
+   "hit_avg": 40.0,
+   "bias_pp": 4.9
+  },
+  "Superliga": {
+   "n": 27,
+   "prob_avg": 45.6,
+   "hit_avg": 40.7,
+   "bias_pp": 4.9
+  },
+  "Ekstraklasa": {
+   "n": 27,
+   "prob_avg": 45.7,
+   "hit_avg": 55.6,
+   "bias_pp": -9.8
+  },
+  "Allsvenskan": {
+   "n": 24,
+   "prob_avg": 54.4,
+   "hit_avg": 58.3,
+   "bias_pp": -4.0
+  },
+  "Eliteserien": {
+   "n": 24,
+   "prob_avg": 52.9,
+   "hit_avg": 54.2,
+   "bias_pp": -1.3
+  },
+  "Parva Liga": {
+   "n": 23,
+   "prob_avg": 55.5,
+   "hit_avg": 78.3,
+   "bias_pp": -22.8
+  },
+  "Veikkausliiga": {
+   "n": 20,
+   "prob_avg": 51.0,
+   "hit_avg": 45.0,
+   "bias_pp": 6.0
+  },
+  "K League 1": {
+   "n": 20,
+   "prob_avg": 46.2,
+   "hit_avg": 45.0,
+   "bias_pp": 1.2
+  },
+  "J1 League": {
+   "n": 20,
+   "prob_avg": 45.1,
+   "hit_avg": 60.0,
+   "bias_pp": -14.9
+  },
+  "Liga MX Apertura": {
+   "n": 19,
+   "prob_avg": 52.9,
+   "hit_avg": 31.6,
+   "bias_pp": 21.4
+  },
+  "NPL Queensland": {
+   "n": 19,
+   "prob_avg": 50.1,
+   "hit_avg": 42.1,
+   "bias_pp": 8.0
+  },
+  "Copa Sudamericana": {
+   "n": 18,
+   "prob_avg": 56.1,
+   "hit_avg": 61.1,
+   "bias_pp": -5.0
+  },
+  "Super League": {
+   "n": 18,
+   "prob_avg": 52.3,
+   "hit_avg": 61.1,
+   "bias_pp": -8.8
+  },
+  "Ligue 2": {
+   "n": 18,
+   "prob_avg": 46.0,
+   "hit_avg": 44.4,
+   "bias_pp": 1.5
+  },
+  "Danish Superliga": {
+   "n": 16,
+   "prob_avg": 51.0,
+   "hit_avg": 62.5,
+   "bias_pp": -11.5
+  },
+  "Copa do Brasil": {
+   "n": 16,
+   "prob_avg": 50.7,
+   "hit_avg": 50.0,
+   "bias_pp": 0.7
+  },
+  "Eredivisie": {
+   "n": 14,
+   "prob_avg": 52.7,
+   "hit_avg": 57.1,
+   "bias_pp": -4.4
+  },
+  "Pro League": {
+   "n": 14,
+   "prob_avg": 53.7,
+   "hit_avg": 57.1,
+   "bias_pp": -3.5
+  },
+  "Liga 3": {
+   "n": 14,
+   "prob_avg": 43.8,
+   "hit_avg": 57.1,
+   "bias_pp": -13.4
+  },
+  "Liga Portugal Betclic": {
+   "n": 13,
+   "prob_avg": 57.5,
+   "hit_avg": 46.2,
+   "bias_pp": 11.3
+  },
+  "Liga Portugal 2": {
+   "n": 13,
+   "prob_avg": 44.9,
+   "hit_avg": 53.8,
+   "bias_pp": -9.0
+  },
+  "Scottish Premiership": {
+   "n": 12,
+   "prob_avg": 52.1,
+   "hit_avg": 41.7,
+   "bias_pp": 10.5
+  },
+  "Coppa Italia": {
+   "n": 12,
+   "prob_avg": 59.2,
+   "hit_avg": 83.3,
+   "bias_pp": -24.1
+  },
+  "League One": {
+   "n": 12,
+   "prob_avg": 44.6,
+   "hit_avg": 50.0,
+   "bias_pp": -5.4
+  },
+  "League Two": {
+   "n": 12,
+   "prob_avg": 41.5,
+   "hit_avg": 41.7,
+   "bias_pp": -0.2
+  },
+  "Puchar Polski": {
+   "n": 9,
+   "prob_avg": 53.4,
+   "hit_avg": 66.7,
+   "bias_pp": -13.3
+  },
+  "Saudi Pro League": {
+   "n": 9,
+   "prob_avg": 58.1,
+   "hit_avg": 77.8,
+   "bias_pp": -19.7
+  },
+  "Championship": {
+   "n": 9,
+   "prob_avg": 46.4,
+   "hit_avg": 22.2,
+   "bias_pp": 24.1
+  },
+  "Copa Colombia": {
+   "n": 7,
+   "prob_avg": 51.2,
+   "hit_avg": 57.1,
+   "bias_pp": -6.0
+  },
+  "Copa Libertadores": {
+   "n": 7,
+   "prob_avg": 52.2,
+   "hit_avg": 0.0,
+   "bias_pp": 52.2
+  },
+  "Segunda División": {
+   "n": 5,
+   "prob_avg": 50.5,
+   "hit_avg": 60.0,
+   "bias_pp": -9.5
+  },
+  "Trendyol Super Lig": {
+   "n": 5,
+   "prob_avg": 51.9,
+   "hit_avg": 0.0,
+   "bias_pp": 51.9
+  }
+ }
+}

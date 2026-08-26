@@ -1,0 +1,376 @@
+{
+ "id": 210058,
+ "league": "意甲",
+ "kickoff": "08-24 02:45",
+ "kickoff_iso": "2026-08-23T18:45:00Z",
+ "home": "Atalanta BC",
+ "away": "Sassuolo",
+ "home_id": 71,
+ "away_id": 61,
+ "pulled_at": "2026-08-23T17:38:04.096806+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 313,
+    "name": "Maurizio Sarri",
+    "short_name": "M. Sarri",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 47.0,
+    "avg_goals_scored": 1.17,
+    "avg_goals_conceded": 1.09
+   },
+   "away": {
+    "id": 1039,
+    "name": "Alberto Aquilani",
+    "short_name": "A. Aquilani",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 8.0,
+    "avg_goals_scored": 3.75,
+    "avg_goals_conceded": 1.38
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.51,
+   "draw": 4.3,
+   "away_win": 5.93,
+   "over_15_goals": 1.21,
+   "over_25_goals": 1.7,
+   "over_35_goals": 2.72,
+   "under_15_goals": 4.23,
+   "under_25_goals": 2.15,
+   "under_35_goals": 1.43,
+   "btts_yes": 1.77,
+   "btts_no": 1.97
+  },
+  "best": {
+   "btts": {
+    "yes": {
+     "odds": 1.819,
+     "bookmaker": "pinnacle",
+     "n": 18
+    },
+    "no": {
+     "odds": 2.04,
+     "bookmaker": "pinnacle",
+     "n": 18
+    }
+   },
+   "double_chance": {
+    "1x": {
+     "odds": 1.15,
+     "bookmaker": "1xbet",
+     "n": 8
+    },
+    "x2": {
+     "odds": 2.56,
+     "bookmaker": "1xbet",
+     "n": 8
+    },
+    "12": {
+     "odds": 1.24,
+     "bookmaker": "1xbet",
+     "n": 8
+    }
+   },
+   "draw_no_bet": {
+    "home": {
+     "odds": 1.23,
+     "bookmaker": "betano",
+     "n": 12
+    },
+    "away": {
+     "odds": 4.68,
+     "bookmaker": "pinnacle",
+     "n": 12
+    }
+   },
+   "over_under_15": {
+    "over@1.5": {
+     "odds": 1.22,
+     "bookmaker": "10bet",
+     "n": 6
+    },
+    "under@1.5": {
+     "odds": 4.33,
+     "bookmaker": "betvictor",
+     "n": 6
+    }
+   },
+   "over_under_25": {
+    "over@2.5": {
+     "odds": 1.76,
+     "bookmaker": "1xbet",
+     "n": 9
+    },
+    "under@2.5": {
+     "odds": 2.24,
+     "bookmaker": "1xbet",
+     "n": 9
+    }
+   },
+   "over_under_35": {
+    "over@3.5": {
+     "odds": 2.88,
+     "bookmaker": "betfair",
+     "n": 7
+    },
+    "under@3.5": {
+     "odds": 1.48,
+     "bookmaker": "10bet",
+     "n": 7
+    }
+   },
+   "over_under_05": {
+    "over@0.5": {
+     "odds": 1.04,
+     "bookmaker": "10bet",
+     "n": 5
+    },
+    "under@0.5": {
+     "odds": 14.5,
+     "bookmaker": "1xbet",
+     "n": 5
+    }
+   },
+   "total_corners": {
+    "over@7.5": {
+     "odds": 1.33,
+     "bookmaker": "betfair",
+     "n": 3
+    },
+    "under@7.5": {
+     "odds": 3.05,
+     "bookmaker": "1xbet",
+     "n": 3
+    },
+    "over@8.5": {
+     "odds": 1.6,
+     "bookmaker": "betfair",
+     "n": 4
+    },
+    "under@8.5": {
+     "odds": 2.47,
+     "bookmaker": "pinnacle",
+     "n": 4
+    },
+    "over@9.5": {
+     "odds": 2.0,
+     "bookmaker": "betfair",
+     "n": 5
+    },
+    "under@9.5": {
+     "odds": 1.93,
+     "bookmaker": "pinnacle",
+     "n": 5
+    },
+    "over@10.5": {
+     "odds": 2.75,
+     "bookmaker": "betfair",
+     "n": 5
+    },
+    "under@10.5": {
+     "odds": 1.7,
+     "bookmaker": "10bet",
+     "n": 5
+    },
+    "over@11.5": {
+     "odds": 3.6,
+     "bookmaker": "betfair",
+     "n": 3
+    },
+    "under@11.5": {
+     "odds": 1.28,
+     "bookmaker": "unibet",
+     "n": 3
+    }
+   },
+   "1x2": {
+    "home": {
+     "odds": 1.58,
+     "bookmaker": "1xbet",
+     "n": 19
+    },
+    "draw": {
+     "odds": 4.5,
+     "bookmaker": "ladbrokes",
+     "n": 19
+    },
+    "away": {
+     "odds": 6.5,
+     "bookmaker": "bet365",
+     "n": 19
+    }
+   }
+  },
+  "bookmakers_count": 26,
+  "total_odds": 235
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 1305,
+    "name": "Charles De Ketelaere",
+    "short_name": "C. De Ketelaere",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 4038,
+    "name": "Giorgio Scalvini",
+    "short_name": "G. Scalvini",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 1315,
+    "name": "Honest Ahanor",
+    "short_name": "H. Ahanor",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 1299,
+    "name": "Isak Hien",
+    "short_name": "I. Hien",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 1310,
+    "name": "Kamaldeen Sulemana",
+    "short_name": "K. Sulemana",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 9033,
+    "name": "Mitchel Bakker",
+    "short_name": "M. Bakker",
+    "status": "injured",
+    "reason": "pending_transfer"
+   }
+  ],
+  "away": [
+   {
+    "id": 2852,
+    "name": "Andrea Pinamonti",
+    "short_name": "A. Pinamonti",
+    "status": "injured",
+    "reason": "Physical Discomfort"
+   },
+   {
+    "id": 4562,
+    "name": "Daniel Boloca",
+    "short_name": "D. Boloca",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 2851,
+    "name": "Domenico Berardi",
+    "short_name": "D. Berardi",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 4620,
+    "name": "Edoardo Pieragnolo",
+    "short_name": "E. Pieragnolo",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 2857,
+    "name": "Fali Candé",
+    "short_name": "F. Candé",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 2848,
+    "name": "Ismael Koné",
+    "short_name": "I. Koné",
+    "status": "injured",
+    "reason": "Broken Ankle"
+   },
+   {
+    "id": 2844,
+    "name": "Sebastian Walukiewicz",
+    "short_name": "S. Walukiewicz",
+    "status": "injured",
+    "reason": "Knock Injury"
+   },
+   {
+    "id": 4313,
+    "name": "Yeferson Paz",
+    "short_name": "Y. Paz",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.536,
+   "away": 0.355
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-23T08:32:56Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 1.273,
+    "away_ga": 1.303,
+    "n_home": 0.0,
+    "n_away": 16.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 71
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.291,
+    "home_ga": 1.461,
+    "away_gf": 1.155,
+    "away_ga": 1.598,
+    "n_home": 32.3,
+    "n_away": 32.3,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "id": 588083,
+ "league": "Emperor Cup",
+ "kickoff": "08-26 18:00",
+ "kickoff_iso": "2026-08-26T10:00:00+00:00",
+ "home": "Albirex Niigata",
+ "away": "Kagoshima United",
+ "home_id": 1963,
+ "away_id": 1983,
+ "pulled_at": "2026-08-25T23:47:09.379064+08:00",
+ "missing": [
+  "away教练(coach_cache未命中 id=1333) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1320,
+    "name": "Yuzo Funakoshi",
+    "short_name": "Y. Funakoshi",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 41.0,
+    "avg_goals_scored": 1.0,
+    "avg_goals_conceded": 1.78
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 1.86,
+   "btts_no": 1.84
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.523,
+   "away": 0.059
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-25T14:32:35Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.189,
+    "home_ga": 1.944,
+    "away_gf": 0.933,
+    "away_ga": 2.213,
+    "n_home": 9.0,
+    "n_away": 7.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1963
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.71,
+    "home_ga": 0.871,
+    "away_gf": 0.91,
+    "away_ga": 1.987,
+    "n_home": 3.1,
+    "n_away": 7.8,
+    "n_scored": 16,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1983
+   }
+  }
+ }
+}

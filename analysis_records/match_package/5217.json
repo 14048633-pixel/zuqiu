@@ -1,0 +1,144 @@
+{
+ "id": 5217,
+ "league": "美职",
+ "kickoff": "08-23 07:30",
+ "kickoff_iso": "2026-08-22T23:30:00+00:00",
+ "home": "New York Red Bulls",
+ "away": "Chicago Fire",
+ "home_id": 281,
+ "away_id": 289,
+ "pulled_at": "2026-08-22T01:18:15.818096+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 339,
+    "name": "Michael Bradley",
+    "short_name": "M. Bradley",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 52.0,
+    "avg_goals_scored": 1.48,
+    "avg_goals_conceded": 1.65
+   },
+   "away": {
+    "id": 343,
+    "name": "Gregg Berhalter",
+    "short_name": "G. Berhalter",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 55.0,
+    "avg_goals_scored": 1.93,
+    "avg_goals_conceded": 1.62
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 9792,
+    "name": "Rafael Mosquera",
+    "short_name": "R. Mosquera",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 9735,
+    "name": "André Franco",
+    "short_name": "A. Franco",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 12123,
+    "name": "Mbekezeli Mbokazi",
+    "short_name": "M. Mbokazi",
+    "status": "injured",
+    "reason": "Knock Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.868,
+   "away": 0.818
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-21T14:35:11Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.679,
+    "home_ga": 1.938,
+    "away_gf": 1.274,
+    "away_ga": 1.94,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "美职",
+    "team_id": 281
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.916,
+    "home_ga": 1.368,
+    "away_gf": 1.814,
+    "away_ga": 1.729,
+    "n_home": 9.5,
+    "n_away": 7.0,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "美职",
+    "team_id": 289
+   }
+  }
+ }
+}

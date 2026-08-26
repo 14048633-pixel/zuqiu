@@ -1,0 +1,178 @@
+{
+ "id": 587844,
+ "league": "欧联",
+ "kickoff": "08-21 03:00",
+ "kickoff_iso": "2026-08-20T19:00:00+00:00",
+ "home": "Benfica",
+ "away": "AGF",
+ "home_id": 37,
+ "away_id": 2372,
+ "pulled_at": "2026-08-20T22:13:15.725435+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 553,
+    "name": "Marco Silva",
+    "short_name": "M. Silva",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 50.0,
+    "avg_goals_scored": 1.54,
+    "avg_goals_conceded": 1.26
+   },
+   "away": {
+    "id": 2901,
+    "name": "Jakob Poulsen",
+    "short_name": "J. Poulsen",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 172.0,
+    "avg_goals_scored": 1.51,
+    "avg_goals_conceded": 1.23
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.17,
+   "draw": 7.1,
+   "away_win": 12.5,
+   "over_15_goals": 1.08,
+   "over_25_goals": 1.3,
+   "over_35_goals": 1.8,
+   "under_15_goals": 6.93,
+   "under_25_goals": 3.21,
+   "under_35_goals": 1.94,
+   "btts_yes": 1.82,
+   "btts_no": 1.89
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 63057,
+    "name": "Frederik Tingager",
+    "short_name": "F. Tingager",
+    "status": "injured",
+    "reason": "Foot Injury"
+   },
+   {
+    "id": 63050,
+    "name": "Gift Links",
+    "short_name": "G. Links",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 63052,
+    "name": "Jacob Andersen",
+    "short_name": "J. Andersen",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 54111,
+    "name": "Kevin Yakob",
+    "short_name": "K. Yakob",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 63058,
+    "name": "Luka Callø",
+    "short_name": "L. Callø",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 63051,
+    "name": "Markus Solbakken",
+    "short_name": "M. Solbakken",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 63053,
+    "name": "Nicolai Poulsen",
+    "short_name": "N. Poulsen",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 63059,
+    "name": "Tobias Mølgaard",
+    "short_name": "T. Mølgaard",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "squad(补拉)",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.509,
+   "away": 0.586
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-20T08:32:19Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 3.032,
+    "home_ga": 0.957,
+    "away_gf": 2.417,
+    "away_ga": 0.986,
+    "n_home": 9.3,
+    "n_away": 7.2,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 37
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.05,
+    "home_ga": 1.037,
+    "away_gf": 1.565,
+    "away_ga": 1.6,
+    "n_home": 8.0,
+    "n_away": 8.5,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 2372
+   }
+  }
+ }
+}

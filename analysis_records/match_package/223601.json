@@ -1,0 +1,168 @@
+{
+ "id": 223601,
+ "league": "阿甲",
+ "kickoff": "08-25 08:15",
+ "kickoff_iso": "2026-08-25T00:15:00+00:00",
+ "home": "Talleres",
+ "away": "Rosario Central",
+ "home_id": 2391,
+ "away_id": 792,
+ "pulled_at": "2026-08-24T23:12:14.304750+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 3191,
+    "name": "Jorge Sampaoli",
+    "short_name": "J. Sampaoli",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 20.0,
+    "avg_goals_scored": 1.1,
+    "avg_goals_conceded": 0.9
+   },
+   "away": {
+    "id": 533,
+    "name": "Jorge Almiron",
+    "short_name": "J. Almiron",
+    "profile": "defensive",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 29.0,
+    "avg_goals_scored": 1.31,
+    "avg_goals_conceded": 0.79
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 1.92,
+   "btts_no": 1.8
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 10337,
+    "name": "Diego Valoyes",
+    "short_name": "D. Valoyes",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 90737,
+    "name": "Mateo Caceres",
+    "short_name": "M. Caceres",
+    "status": "injured",
+    "reason": "Shoulder Injury"
+   },
+   {
+    "id": 90738,
+    "name": "Matías Gómez",
+    "short_name": "M. Gómez",
+    "status": "injured",
+    "reason": "Sprained Knee Injury"
+   },
+   {
+    "id": 20152,
+    "name": "Román Riquelme",
+    "short_name": "R. Riquelme",
+    "status": "suspended",
+    "reason": "red_card_suspension"
+   }
+  ],
+  "away": [
+   {
+    "id": 3979,
+    "name": "Franco Cervi",
+    "short_name": "F. Cervi",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 26210,
+    "name": "Juan Giménez",
+    "short_name": "J. Giménez",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 26212,
+    "name": "Marco Rubén",
+    "short_name": "M. Rubén",
+    "status": "injured",
+    "reason": "Calf Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.732,
+   "away": 0.791
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-24T14:32:23Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 1.2,
+    "away_ga": 0.909,
+    "n_home": 0.0,
+    "n_away": 16.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2391
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.364,
+    "home_ga": 0.818,
+    "away_gf": 1.083,
+    "away_ga": 1.0,
+    "n_home": 11.0,
+    "n_away": 12.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "id": 587865,
+ "league": "欧协联",
+ "kickoff": "08-21 01:00",
+ "kickoff_iso": "2026-08-20T17:00:00+00:00",
+ "home": "Tromsø IL",
+ "away": "Brighton & Hove Albion",
+ "home_id": 2086,
+ "away_id": 5,
+ "pulled_at": "2026-08-20T22:14:04.217658+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1506,
+    "name": "Jørgen Vik",
+    "short_name": "J. Vik",
+    "profile": "attacking",
+    "preferred_formation": "5-3-2",
+    "matches_total": 26.0,
+    "avg_goals_scored": 1.88,
+    "avg_goals_conceded": 1.0
+   },
+   "away": {
+    "id": 549,
+    "name": "Fabian Hurzeler",
+    "short_name": "F. Hurzeler",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 44.0,
+    "avg_goals_scored": 1.57,
+    "avg_goals_conceded": 1.18
+   }
+  },
+  "preferred_formation": {
+   "home": "5-3-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 5.52,
+   "draw": 4.06,
+   "away_win": 1.54,
+   "over_15_goals": 1.21,
+   "over_25_goals": 1.69,
+   "over_35_goals": 2.71,
+   "under_15_goals": 3.96,
+   "under_25_goals": 2.06,
+   "under_35_goals": 1.41,
+   "btts_yes": 1.76,
+   "btts_no": 1.94
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 50181,
+    "name": "Leo Cornic",
+    "short_name": "L. Cornic",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 50341,
+    "name": "Viktor Ekblom",
+    "short_name": "V. Ekblom",
+    "status": "injured",
+    "reason": "Groin Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 1068,
+    "name": "Evan Ferguson",
+    "short_name": "E. Ferguson",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 489,
+    "name": "Yankuba Minteh",
+    "short_name": "Y. Minteh",
+    "status": "injured",
+    "reason": "Leg Injury"
+   },
+   {
+    "id": 16017,
+    "name": "Zadok Yohanna",
+    "short_name": "Z. Yohanna",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.523,
+   "away": 0.582
+  },
+  "formation": {
+   "home": "5-3-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-20T08:32:08Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.901,
+    "home_ga": 0.765,
+    "away_gf": 2.429,
+    "away_ga": 1.583,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 2086
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.678,
+    "home_ga": 0.833,
+    "away_gf": 1.213,
+    "away_ga": 1.347,
+    "n_home": 9.0,
+    "n_away": 7.5,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 5
+   }
+  }
+ }
+}

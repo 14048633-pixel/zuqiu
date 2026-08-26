@@ -1,0 +1,143 @@
+{
+ "id": 587713,
+ "league": "欧协联",
+ "kickoff": "08-21 02:30",
+ "kickoff_iso": "2026-08-20T18:30:00+00:00",
+ "home": "Atalanta",
+ "away": "Hapoel Tel Aviv",
+ "home_id": 71,
+ "away_id": 3379,
+ "pulled_at": "2026-08-20T22:15:56.113378+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 313,
+    "name": "Maurizio Sarri",
+    "short_name": "M. Sarri",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 47.0,
+    "avg_goals_scored": 1.17,
+    "avg_goals_conceded": 1.09
+   },
+   "away": {
+    "id": 2968,
+    "name": "Elyaniv Barda",
+    "short_name": "E. Barda",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 1.71,
+    "avg_goals_conceded": 0.86
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.15,
+   "draw": 7.41,
+   "away_win": 14.16,
+   "over_15_goals": 1.1,
+   "over_25_goals": 1.38,
+   "over_35_goals": 1.98,
+   "under_15_goals": 5.85,
+   "under_25_goals": 2.81,
+   "under_35_goals": 1.75,
+   "btts_yes": 2.1,
+   "btts_no": 1.65
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 1315,
+    "name": "Honest Ahanor",
+    "short_name": "H. Ahanor",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 1299,
+    "name": "Isak Hien",
+    "short_name": "I. Hien",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 1310,
+    "name": "Kamaldeen Sulemana",
+    "short_name": "K. Sulemana",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "squad(补拉)"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.523,
+   "away": 0.336
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-20T08:32:15Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.488,
+    "home_ga": 1.105,
+    "away_gf": 1.646,
+    "away_ga": 1.418,
+    "n_home": 8.6,
+    "n_away": 7.9,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 71
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.627,
+    "home_ga": 0.716,
+    "away_gf": 1.347,
+    "away_ga": 1.643,
+    "n_home": 6.7,
+    "n_away": 9.8,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 3379
+   }
+  }
+ }
+}

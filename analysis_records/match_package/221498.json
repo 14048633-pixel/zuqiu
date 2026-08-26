@@ -1,0 +1,154 @@
+{
+ "id": 221498,
+ "league": "丹超",
+ "kickoff": "08-23 20:00",
+ "kickoff_iso": "2026-08-23T12:00:00Z",
+ "home": "AGF Aarhus",
+ "away": "OB Odense BK",
+ "home_id": 2372,
+ "away_id": 3120,
+ "pulled_at": "2026-08-23T17:43:24.449754+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 2901,
+    "name": "Jakob Poulsen",
+    "short_name": "J. Poulsen",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 172.0,
+    "avg_goals_scored": 1.51,
+    "avg_goals_conceded": 1.23
+   },
+   "away": {
+    "id": 469,
+    "name": "Thomas Thomasberg",
+    "short_name": "T. Thomasberg",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 46.0,
+    "avg_goals_scored": 1.46,
+    "avg_goals_conceded": 1.48
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.76,
+   "draw": 3.82,
+   "away_win": 4.04,
+   "over_15_goals": 1.18,
+   "over_25_goals": 1.61,
+   "over_35_goals": 2.56,
+   "under_15_goals": 4.53,
+   "under_25_goals": 2.25,
+   "under_35_goals": 1.48,
+   "btts_yes": 1.59,
+   "btts_no": 2.24
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 63057,
+    "name": "Frederik Tingager",
+    "short_name": "F. Tingager",
+    "status": "injured",
+    "reason": "Foot Injury"
+   },
+   {
+    "id": 63050,
+    "name": "Gift Links",
+    "short_name": "G. Links",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 63052,
+    "name": "Jacob Andersen",
+    "short_name": "J. Andersen",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 63059,
+    "name": "Tobias Mølgaard",
+    "short_name": "T. Mølgaard",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "away": [
+   {
+    "id": 67390,
+    "name": "Fiete Arp",
+    "short_name": "F. Arp",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.641,
+   "away": 0.568
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-23T08:32:14Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 1.291,
+    "away_ga": 1.915,
+    "n_home": 0.0,
+    "n_away": 16.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2372
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.444,
+    "home_ga": 1.556,
+    "away_gf": 0.889,
+    "away_ga": 1.444,
+    "n_home": 9.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

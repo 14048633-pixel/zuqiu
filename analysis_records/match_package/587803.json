@@ -1,0 +1,208 @@
+{
+ "id": 587803,
+ "league": "Carabao Cup",
+ "kickoff": "08-26 02:45",
+ "kickoff_iso": "2026-08-25T18:45:00+00:00",
+ "home": "Stoke City",
+ "away": "Hull City",
+ "home_id": 215,
+ "away_id": 204,
+ "pulled_at": "2026-08-25T23:43:35.659216+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 172,
+    "name": "Mark Robins",
+    "short_name": "M. Robins",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 56.0,
+    "avg_goals_scored": 1.05,
+    "avg_goals_conceded": 1.14
+   },
+   "away": {
+    "id": 186,
+    "name": "Sergej Jakirović",
+    "short_name": "S. Jakirović",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 56.0,
+    "avg_goals_scored": 1.46,
+    "avg_goals_conceded": 1.38
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.86,
+   "draw": 3.21,
+   "away_win": 2.42,
+   "over_15_goals": 1.33,
+   "over_25_goals": 2.01,
+   "over_35_goals": 3.48,
+   "under_15_goals": 3.2,
+   "under_25_goals": 1.77,
+   "under_35_goals": 1.28,
+   "btts_yes": 1.8,
+   "btts_no": 1.93
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 6050,
+    "name": "Aaron Cresswell",
+    "short_name": "A. Cresswell",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 24014,
+    "name": "Ato Ampah",
+    "short_name": "A. Ampah",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 6730,
+    "name": "Junior Tchamadeu",
+    "short_name": "J. Tchamadeu",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 6065,
+    "name": "Lamine Cissé",
+    "short_name": "L. Cissé",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 6185,
+    "name": "Charlie Hughes",
+    "short_name": "C. Hughes",
+    "status": "injured",
+    "reason": "Groin Injury"
+   },
+   {
+    "id": 6197,
+    "name": "Darko Gyabi",
+    "short_name": "D. Gyabi",
+    "status": "injured",
+    "reason": "Groin Injury"
+   },
+   {
+    "id": 13594,
+    "name": "Eliot Matazo",
+    "short_name": "E. Matazo",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 1217,
+    "name": "Hidemasa Morita",
+    "short_name": "H. Morita",
+    "status": "injured",
+    "reason": "Calf Injury"
+   },
+   {
+    "id": 3010,
+    "name": "Jack Butland",
+    "short_name": "J. Butland",
+    "status": "injured",
+    "reason": "Elbow Injury"
+   },
+   {
+    "id": 6803,
+    "name": "Joe Gelhardt",
+    "short_name": "J. Gelhardt",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 6183,
+    "name": "Lewie Coyle",
+    "short_name": "L. Coyle",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 28651,
+    "name": "Óscar Zambrano",
+    "short_name": "Ó. Zambrano",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 8874,
+    "name": "Paddy McNair",
+    "short_name": "P. McNair",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.509,
+   "away": 0.523
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-25T14:32:14Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.417,
+    "home_ga": 1.667,
+    "away_gf": 0.545,
+    "away_ga": 1.364,
+    "n_home": 12.0,
+    "n_away": 11.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.308,
+    "home_ga": 1.231,
+    "away_gf": 1.333,
+    "away_ga": 1.083,
+    "n_home": 13.0,
+    "n_away": 12.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

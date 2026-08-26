@@ -1,0 +1,112 @@
+{
+ "id": 588068,
+ "league": "Emperor Cup",
+ "kickoff": "08-26 17:30",
+ "kickoff_iso": "2026-08-26T09:30:00+00:00",
+ "home": "Yokohama FC",
+ "away": "Criacao Shinjuku",
+ "home_id": 1972,
+ "away_id": 3868,
+ "pulled_at": "2026-08-25T23:46:01.254021+08:00",
+ "missing": [
+  "away教练(coach_cache未命中 id=None) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1328,
+    "name": "Daisuke Sudo",
+    "short_name": "D. Sudo",
+    "profile": "defensive",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 42.0,
+    "avg_goals_scored": 0.83,
+    "avg_goals_conceded": 1.24
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.527,
+   "away": 0.0
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-25T14:32:26Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.939,
+    "home_ga": 1.146,
+    "away_gf": 0.892,
+    "away_ga": 1.313,
+    "n_home": 8.2,
+    "n_away": 8.3,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1972
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 0.5,
+    "away_ga": 2.5,
+    "n_home": 0.0,
+    "n_away": 2.0,
+    "n_scored": 2,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 3868
+   }
+  }
+ }
+}

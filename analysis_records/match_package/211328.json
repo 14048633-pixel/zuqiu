@@ -1,0 +1,117 @@
+{
+ "id": 211328,
+ "league": "比甲",
+ "kickoff": "08-24 00:30",
+ "kickoff_iso": "2026-08-23T16:30:00Z",
+ "home": "Club Brugge",
+ "away": "Cercle Brugge KSV",
+ "home_id": 123,
+ "away_id": 235,
+ "pulled_at": "2026-08-23T17:42:13.664838+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 450,
+    "name": "Ivan Leko",
+    "short_name": "I. Leko",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 60.0,
+    "avg_goals_scored": 2.27,
+    "avg_goals_conceded": 1.4
+   },
+   "away": {
+    "id": 250,
+    "name": "Lars Friis",
+    "short_name": "L. Friis",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 41.0,
+    "avg_goals_scored": 1.46,
+    "avg_goals_conceded": 1.68
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.27,
+   "draw": 5.87,
+   "away_win": 8.38,
+   "over_15_goals": null,
+   "over_25_goals": 1.3,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": 3.5,
+   "under_35_goals": null,
+   "btts_yes": 1.57,
+   "btts_no": 2.27
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.559,
+   "away": 0.55
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-5-2"
+  },
+  "updated_at": "2026-08-23T08:32:42Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.548,
+    "home_ga": 1.036,
+    "away_gf": 1.843,
+    "away_ga": 1.069,
+    "n_home": 42.0,
+    "n_away": 42.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 1.83,
+    "away_ga": 1.867,
+    "n_home": 0.0,
+    "n_away": 16.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 235
+   }
+  }
+ }
+}
