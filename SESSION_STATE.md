@@ -1,4 +1,49 @@
 # 会话状态
+## 🔴 系统代码审查：发现3个数学/定价bug（✅ 2026-08-27, M-20260827-02）
+- **回归基线**: 914通过/0失败（本次审查只读不改代码）
+- **Bug1 四分之一盘概率错误（严重, 影响当前BEST）**: `scan_upcoming.py` 的 `handicap_cover_prob` 与大小球概率把四分之一盘(±0.25/±0.75)当相邻半球盘算——小2.25直接拿小2.5的概率(实测λ1.5/1.2: 代码0.494 vs 正确0.368, **EV虚高约+20pp**)；让球主侧四分之一盘概率全部虚高(受让+0.25拿了+0.5的概率0.702 vs 正确0.569)。账本已结算四分之一让球腿113条(显示±0.2/±0.8/±1.2): 主-7.2%/客-7.0%。**昨夜recalc的3个BEST中2个中招**: Viking大2.75+13.2%(正确约-7%,应掉出)、America de Cali小2.25+20.3%(正确约0%,应掉出)
+- **Bug2 结算端大小球四分之一盘错误（潜伏）**: `settle_batch.py` 让球盘有split_line正确拆盘, 但大小球没有——大2.75比分2-1(总3球)代码判全赢(+0.90), 真实半赢(+0.45)；小2.25@1-1同样全赢vs半赢。当前账本OU全是2.50未触发, 但Viking大2.75若落账结算会**PnL虚记一倍**
+- **Bug3 InferSports合成最优价（虚高EV）**: `fetch_infersports_lines.py` 的 `pick_prices` 跨机构取两侧各自最优价→合成抽水9/42对<1.02(最低1.015, 真实机构1.05-1.08), `parse_snapshots`按最低抽水选机构→合成价永远胜出, EV双虚高(低抽水+高价)。与Bug1叠加(America de Cali小2.25=合成价+四分之一盘双虚高)
+- **次要问题**: ①规则3"让球客标准档降星"是死代码(规则5已物理移除该档腿, elif永不触发) ②让球名"%+.1f"把±0.25显示成±0.2(精度丢失, 结算端靠split_line反推0.2→0.25, 可用但脆弱) ③`implied_lambdas_from_odds`网格0.1粗搜+单遍局部细化, 高λ(>3.7)可能搜不到最优 ④`bsd_odds_merge`的`_pkg=_hc[0]`回退仍可能注入错配伤停包(Botafogo修复只覆盖双侧命中场景) ⑤`_csv_recent_league_avg`按文件序取近30场而非kickoff时间排序 ⑥prediction_v2有122处裸`except Exception`(静默吞错)
+- **正确的部分**: Dixon-Coles τ实现标准正确; 让球结算split_line四分之一盘拆分正确; bsd_odds_merge的h2h_prev保留/totals仅补缺设计合理; API key全部env读取无硬编码; 规则引擎914项回归覆盖扎实
+- **修复建议(待用户确认)**: Bug1=按拆盘方式重算四分之一盘概率(小x.25=0.5×小x.0+0.5×小x.5); Bug2=大小球结算复用split_line; Bug3=pick_prices改为单一机构口径或记录机构名+按机构内抽水; 三项都需改回归断言(湖北小2.25=0.852需改为0.736)并重跑回归; 修复后需重算当前BEST清单
+
+## 伤停情报修复：BSD补拉 + 队名别名（✅ 2026-08-27 00:12, M-20260827-01）
+- **用户问"为什么又没情报"** -> 定位 3 层根因:
+  1. **BSD赛程快照过期/不全**: _bsd_next24h.json 是 08-25 深夜拉的, 没含昨晚新进欧冠/巴西杯 -> 维京/瓦斯科/Rapid 无 match_package; 已用 BSD event id 直接补拉: 587705(Viking)/587785(Vasco)/587902(Rapid)/587710(Celje)
+  2. **队名匹配失败**: InferSports 缩写名 vs BSD 全名不匹配(Vasco DG/Vasco da Gama) -> 补 8 条别名到 teams_alias.json(备份 .bak_20260827_infer): Vasco DG/Barcelona B/New Mexico Utd/Hearts/North Carolina(W)/Angel City(W)/Faisaly Harmah/Kholood
+  3. **BSD 数据源真没有**: 采列/Barcelona B/NWSL/USL 伤停接口无数据(小联赛/女足/美乙不覆盖) -> 需换 Transfermarkt/FotMob
+- **修复后重算** (recalc_infersports_20260827_0010.json): Vasco 伤停3/8(客队8人伤, 大情报), Viking 伤停3/4; New Mexico λ2.82->2.25(攻防注入), NWSL λ2.74->3.30
+- **回归**: 914通过/0失败
+- **遗留**: 采列/巴萨B/NWSL/USL 需其他伤停源; Rapid Wien 包已拉(伤停4/4)但缺盘口(InferSports限流)明天补; 下次批量拉包应先刷新 _bsd_next24h.json(或直接用 BSD /events 当日全量匹配)
+
+## 联赛基准修正（✅ 2026-08-26 23:55, M-20260826-06）
+- **背景**: 用户问"基准都正确吗" -> 审计发现 25 场中杯赛/冷门联赛基准错配: 巴西杯/南美杯/英联杯全套"国内杯3.28"(巴甲实测仅2.47-2.57, 虚高~0.7球); 沙超/哥甲/NWSL/USL/友谊赛无配置走2.6默认
+- **修正** (league_calib.json v5, 备份 league_calib.bak_20260826_basefix.json):
+  - cup_coeffs 新增"巴西杯"(巴甲基准2.572)、"南美杯"(2.60低估); 英联杯 3.28->2.80(英超2.75+英冠2.61加权), home 1.10/away 0.95
+  - leagues 新增: 沙超/哥甲(近30场实测2.67)、NWSL/USL/友谊赛(无实测2.60显式低置信, 仅方向参考)
+- **重算对比** (recalc_infersports_20260826_2354.json): 方向2场变——Atletico Astorga(友谊赛)小2.50->大2.50; America de Cali(哥甲)让球客+22.3%->小2.25+20.3%★2; Al Diriyah让球客 EV+7.4%->无正EV; 其余(欧冠/西甲/巴甲杯)方向不变, 让球方向由市场盘口主导对基准不敏感
+- **回归**: 联赛数断言25->>=25, 新增联赛补history字段 -> **914通过/0失败**
+- **遗留**: 友谊赛/NWSL/USL仍低置信(无实测), 出单前需数据; 沙超/哥甲待样本积累再校准
+
+## InferSports 亚盘数据源接入（✅ 2026-08-26 22:30, M-20260826-05）
+- **用户选定**: InferSports（免费, MCP streamable HTTP: https://api.infersports.dev/mcp）作为亚盘补充源
+- **接入要点**: 正确调用姿势=initialize后 tools/call + name + arguments; find_match **不能传date**(传了反而not_found), 用开赛时间±8h校验; 返回 status=matched/ambiguous 均可用; 队名用简称匹配(Hearts=Heart of Midlothian)需单侧强匹配+时间贴近
+- **新脚本**: prediction_v2/fetch_infersports_lines.py (拉亚盘/大小球/1X2→追加snapshots.csv, 去重, 存档 analysis_records/infersports_lines_*.json) + prediction_v2/recalc_from_snapshots.py (按队名相似度+时间贴近重算指定清单, 输出 analysis_records/recalc_infersports_*.json)
+- **本轮25场结果**: 14场成功写入快照(infer+evt_id事件, 98行, bookmaker=infersports:sharp), 重算15场有方向; 5个BEST: America de Cali让球客+22.3%★3高价值 / Celje小2.50+14.2%★1 / Viking大2.75+13.2%★1 / Al Diriyah让球客+7.4%★2 / Atletico Astorga小2.50+5.0%★1
+- **⚠️ 限制**: 免费无key档 **200请求/天/IP**, 当天额度已用完; 剩下10场(英联杯5/欧冠Lyon/欧协联Rapid/西甲皇马/哥甲2/友谊赛Villanovense)需明日或换IP/注册key后补拉
+- **规则确认**: 今天拉的盘口给明天比赛被既有规则判"隔日快照"否决(需临场重拉), 属预期; 回归914通过/0失败
+- **待办**: ①明日继续补拉剩余场次 ②长期把InferSports并入bsd_odds_merge类双源合并 ③注册key提额(200/天不够批量扫描)
+
+
+## 账本合并方案B：ou_same_opp 方向参考入库 + 模型vs市场结论（✅ 2026-08-26, M-20260826-04）
+- **动作**: 用户选方案B——把 analysis_records/ou_same_opp_settled_20260819.json（74 行"模型vs市场"大小球方向对账, 覆盖08-14~08-17）以"方向参考"身份合并进主账本, 补 08-17~08-21 断档
+- **结果**: 合并脚本 _merge_ousameopp.py 新增 53 条（21 条 team_key 已存在跳过, 去重后 0 重复）, 账本 882→935 行; 备份 analysis_records/bet_ledger_backup_20260826_before_ousameopp.csv
+- **新增批次口径**: src=20260819_ou_same_opp_方向参考, 日期=UTC前10位(ISO格式), bet_name=大/小2.50, odds=对账行odds, result=hit→win/else lose, 全部带比分; 08-15×23 / 08-16×21 / 08-17×7 / 08-14×2; **27胜26负 PnL -4.69 ROI -8.8%**（大2.50 29条 / 小2.50 24条）
+- **模型vs市场谁靠谱**（scan24h 对账 648 条口径）: 市场整体更靠谱; 模型仅在角落可信——**1X2平 +22.4% / 1X2客 +10.6% 为正, 1X2主 -23.8% / 大球 -11.8% / 让球 -5.0% 为负**
+- **"改了有用吗"（in-sample 762条）**: 砍主胜+让球方、保留平局+客胜 → 基准 -1.4% 变 **保留组 +16.5%**, 砍掉组 -13.8%; ⚠️in-sample 事后拟合, 不可当铁律, 需未来 300 场前瞻验证
+- **300场阶段复盘结论**（20260824_stage300_review.md, 305场 ROI -8.7%）: 让球客-0.0禁用; 小球只在λ高估区推; 强预警>=30%回避让球; 让球主优先-0.8盘; 正收益7联赛(英超/丹超/英乙/芬超/美职/巴甲/意甲)正常出单
+- **待办**: ①按需给出合并后整体账本统计（真实实盘 vs 方向参考 vs scan24h对账分类）②下次结算注意小球best_bet合规ROI约-16%(n=49, 差1注到50注周期线) ③SESSION_STATE归档后续_脚本
 
 ## 🔧 全项目审计修正（✅ 2026-08-26 20:xx, M-20260826-03）
 - **审计发现（按严重度）**: ①AGENTS.md"+240% ROI"声称仓库内不可复现（最接近产出物3,865注实测−8.10%）；②账本81行snap_age_h<0（赛后拉盘）违反防泄漏铁律却计入统计（全量+0.10%全靠这81行+20.48%撑着，合规口径实为−1.41%）；③4个预存回归失败常态化；④无版本管理+.env明文密钥3份；⑤date三种格式混用
