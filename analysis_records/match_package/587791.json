@@ -1,0 +1,132 @@
+{
+ "id": 587791,
+ "league": "Carabao Cup",
+ "kickoff": "08-28 02:30",
+ "kickoff_iso": "2026-08-27T18:30:00+00:00",
+ "home": "Chelsea",
+ "away": "Luton Town",
+ "home_id": 13,
+ "away_id": 1251,
+ "pulled_at": "2026-08-27T19:52:26.500826+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1786,
+    "name": "Xabi Alonso",
+    "short_name": "X. Alonso",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 2.57,
+    "avg_goals_conceded": 1.71
+   },
+   "away": {
+    "id": 891,
+    "name": "Jack Wilshere",
+    "short_name": "J. Wilshere",
+    "profile": "attacking",
+    "preferred_formation": "4-1-4-1",
+    "matches_total": 8.0,
+    "avg_goals_scored": 2.25,
+    "avg_goals_conceded": 1.12
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-1-4-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.14,
+   "draw": 8.09,
+   "away_win": 15.83,
+   "over_15_goals": 1.09,
+   "over_25_goals": 1.36,
+   "over_35_goals": 1.92,
+   "under_15_goals": 6.48,
+   "under_25_goals": 3.0,
+   "under_35_goals": 1.87,
+   "btts_yes": 2.09,
+   "btts_no": 1.68
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 474,
+    "name": "Jordan Henderson",
+    "short_name": "J. Henderson",
+    "status": "injured",
+    "reason": "Wrist Injury"
+   },
+   {
+    "id": 22875,
+    "name": "Mykhailo Mudryk",
+    "short_name": "M. Mudryk",
+    "status": "injured",
+    "reason": "doping_violation"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.545,
+   "away": 0.518
+  },
+  "formation": {
+   "home": "3-4-3",
+   "away": "4-1-4-1"
+  },
+  "updated_at": "2026-08-27T08:32:46Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.59,
+    "home_ga": 1.245,
+    "away_gf": 1.583,
+    "away_ga": 1.493,
+    "n_home": 54.6,
+    "n_away": 55.6,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.696,
+    "home_ga": 1.101,
+    "away_gf": 2.349,
+    "away_ga": 1.326,
+    "n_home": 7.9,
+    "n_away": 8.6,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1251
+   }
+  }
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "id": 587897,
+ "league": "Conference League",
+ "kickoff": "08-28 01:00",
+ "kickoff_iso": "2026-08-27T17:00:00+00:00",
+ "home": "FC Hradec Králové",
+ "away": "Panathinaikos FC",
+ "home_id": 2319,
+ "away_id": 149,
+ "pulled_at": "2026-08-27T19:50:28.993467+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1965,
+    "name": "David Horejs",
+    "short_name": "D. Horejs",
+    "profile": "attacking",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 11.0,
+    "avg_goals_scored": 2.18,
+    "avg_goals_conceded": 1.0
+   },
+   "away": {
+    "id": 1760,
+    "name": "Jacob Neestrup",
+    "short_name": "J. Neestrup",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 2.29,
+    "avg_goals_conceded": 1.29
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.25,
+   "draw": 3.34,
+   "away_win": 2.11,
+   "over_15_goals": 1.33,
+   "over_25_goals": 2.04,
+   "over_35_goals": 3.69,
+   "under_15_goals": 3.09,
+   "under_25_goals": 1.73,
+   "under_35_goals": 1.24,
+   "btts_yes": 1.81,
+   "btts_no": 1.9
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.427,
+   "away": 0.641
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-27T08:32:22Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.756,
+    "home_ga": 0.829,
+    "away_gf": 1.75,
+    "away_ga": 1.196,
+    "n_home": 4.1,
+    "n_away": 5.6,
+    "n_scored": 13,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2319
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.783,
+    "home_ga": 1.024,
+    "away_gf": 1.415,
+    "away_ga": 1.451,
+    "n_home": 8.3,
+    "n_away": 8.2,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 149
+   }
+  }
+ }
+}

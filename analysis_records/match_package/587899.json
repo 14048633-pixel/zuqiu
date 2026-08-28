@@ -1,0 +1,179 @@
+{
+ "id": 587899,
+ "league": "Conference League",
+ "kickoff": "08-28 00:45",
+ "kickoff_iso": "2026-08-27T16:45:00+00:00",
+ "home": "SC Freiburg",
+ "away": "Motherwell",
+ "home_id": 89,
+ "away_id": 225,
+ "pulled_at": "2026-08-27T19:49:53.598788+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 245,
+    "name": "Julian Schuster",
+    "short_name": "J. Schuster",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 57.0,
+    "avg_goals_scored": 1.58,
+    "avg_goals_conceded": 1.37
+   },
+   "away": {
+    "id": 1498,
+    "name": "Alfred Johansson",
+    "short_name": "A. Johansson",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 1.57,
+    "avg_goals_conceded": 1.43
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.2,
+   "draw": 6.36,
+   "away_win": 10.96,
+   "over_15_goals": 1.1,
+   "over_25_goals": 1.42,
+   "over_35_goals": 2.1,
+   "under_15_goals": 5.86,
+   "under_25_goals": 2.66,
+   "under_35_goals": 1.69,
+   "btts_yes": 1.99,
+   "btts_no": 1.73
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 27747,
+    "name": "Florent Muslija",
+    "short_name": "F. Muslija",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 5653,
+    "name": "Karl Steinmann",
+    "short_name": "K. Steinmann",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 7379,
+    "name": "Rihito Yamamoto",
+    "short_name": "R. Yamamoto",
+    "status": "injured",
+    "reason": "Lack of Fitness"
+   }
+  ],
+  "away": [
+   {
+    "id": 5960,
+    "name": "Apostolos Stamatelopoulos",
+    "short_name": "A. Stamatelopoulos",
+    "status": "injured",
+    "reason": "Calf Injury"
+   },
+   {
+    "id": 5957,
+    "name": "Callum Hendry",
+    "short_name": "C. Hendry",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 7114,
+    "name": "Jordan McGhee",
+    "short_name": "J. McGhee",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 5949,
+    "name": "Paul McGinn",
+    "short_name": "P. McGinn",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 5961,
+    "name": "Stephen O'Donnell",
+    "short_name": "S. O'Donnell",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.645,
+   "away": 0.536
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-27T08:32:18Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 0.978,
+    "away_gf": 1.257,
+    "away_ga": 1.851,
+    "n_home": 9.1,
+    "n_away": 7.4,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 89
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.633,
+    "home_ga": 0.899,
+    "away_gf": 1.547,
+    "away_ga": 1.256,
+    "n_home": 7.9,
+    "n_away": 8.6,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 225
+   }
+  }
+ }
+}

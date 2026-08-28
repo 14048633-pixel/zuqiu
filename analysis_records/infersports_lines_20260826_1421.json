@@ -1,0 +1,1474 @@
+[
+ {
+  "match": "Al Faisaly vs Al-Fateh",
+  "league": "沙超",
+  "ko": "2026-08-26T16:00:00+00:00",
+  "infer_event": "evt_WB8XH0R6",
+  "snap_eid": null,
+  "infer_names": [
+   "Faisaly Harmah",
+   "Al Fateh"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'Al Faisaly vs Al-Fateh'. Did you mean: Faisaly Harmah vs Al Fateh; Al Arabi Doha vs Al Fateh; Al Nasr Riyadh vs Al Fateh; Al Ula vs Al Fateh? Re-call get_sharp_line with a more spec"
+   },
+   "totals": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'Al Faisaly vs Al-Fateh'. Did you mean: Faisaly Harmah vs Al Fateh; Al Arabi Doha vs Al Fateh; Al Nasr Riyadh vs Al Fateh; Al Ula vs Al Fateh? Re-call get_sharp_line with a more spec"
+   },
+   "1x2": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'Al Faisaly vs Al-Fateh'. Did you mean: Faisaly Harmah vs Al Fateh; Al Arabi Doha vs Al Fateh; Al Nasr Riyadh vs Al Fateh; Al Ula vs Al Fateh? Re-call get_sharp_line with a more spec"
+   }
+  }
+ },
+ {
+  "match": "SK Rapid Wien vs Heart of Midlothian",
+  "league": "欧协联",
+  "ko": "2026-08-26T16:45:00+00:00",
+  "infer_event": "evt_WB82APR6",
+  "snap_eid": null,
+  "infer_names": [
+   "Rapid Wien",
+   "Hearts"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'SK Rapid Wien vs Heart of Midlothian'. Did you mean: Rapid Wien vs Hearts; Rapid Wien vs SCR Altach; Rapid Wien vs SCR Altach; Rapid Wien(w) vs SCR Altach (W)? Re-call get_sharp_lin"
+   },
+   "totals": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'SK Rapid Wien vs Heart of Midlothian'. Did you mean: Rapid Wien vs Hearts; Rapid Wien vs SCR Altach; Rapid Wien vs SCR Altach; Rapid Wien(w) vs SCR Altach (W)? Re-call get_sharp_lin"
+   },
+   "1x2": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'SK Rapid Wien vs Heart of Midlothian'. Did you mean: Rapid Wien vs Hearts; Rapid Wien vs SCR Altach; Rapid Wien vs SCR Altach; Rapid Wien(w) vs SCR Altach (W)? Re-call get_sharp_lin"
+   }
+  }
+ },
+ {
+  "match": "Barcelona Atlètic vs Reus FC Reddis",
+  "league": "友谊赛",
+  "ko": "2026-08-26T17:00:00+00:00",
+  "infer_event": "evt_YTJ7QGBW",
+  "snap_eid": null,
+  "infer_names": [
+   "Barcelona B",
+   "Reus FC Reddis"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:12:03Z",
+    "stale": false,
+    "consensus_line": -0.5,
+    "fair": {
+     "home": 2.066,
+     "away": 1.938
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "sbobet",
+      "price": 1.94,
+      "decimal": 1.94
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 1.82,
+      "decimal": 1.82
+     }
+    ],
+    "book_count": 2
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:12:03Z",
+    "stale": false,
+    "consensus_line": 2.75,
+    "fair": {
+     "over": 2.022,
+     "under": 1.979
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "sbobet",
+      "price": 1.9,
+      "decimal": 1.9
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "crown",
+      "price": 1.89,
+      "decimal": 1.89
+     }
+    ],
+    "book_count": 2
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:12:03Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 2.11,
+     "draw": 4.04,
+     "away": 3.591
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "sbobet",
+      "price": 1.94,
+      "decimal": 1.94
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "crown",
+      "price": 3.6,
+      "decimal": 3.6
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 3.2,
+      "decimal": 3.2
+     }
+    ],
+    "book_count": 2
+   }
+  }
+ },
+ {
+  "match": "Numancia vs Utebo FC",
+  "league": "友谊赛",
+  "ko": "2026-08-26T17:00:00+00:00",
+  "infer_event": "evt_9DNR0RH2",
+  "snap_eid": null,
+  "infer_names": [
+   "Numancia",
+   "Utebo"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:19:56Z",
+    "stale": false,
+    "consensus_line": 0.0,
+    "fair": {
+     "home": 1.958,
+     "away": 2.044
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "sbobet",
+      "price": 1.81,
+      "decimal": 1.81
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 1.98,
+      "decimal": 1.98
+     }
+    ],
+    "book_count": 2
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:19:56Z",
+    "stale": false,
+    "consensus_line": 2.5,
+    "fair": {
+     "over": 2.044,
+     "under": 1.958
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "crown",
+      "price": 1.91,
+      "decimal": 1.91
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "sbobet",
+      "price": 1.81,
+      "decimal": 1.81
+     }
+    ],
+    "book_count": 2
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:19:56Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 2.551,
+     "draw": 3.739,
+     "away": 2.936
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "crown",
+      "price": 2.32,
+      "decimal": 2.32
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "crown",
+      "price": 3.4,
+      "decimal": 3.4
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 2.67,
+      "decimal": 2.67
+     }
+    ],
+    "book_count": 2
+   }
+  }
+ },
+ {
+  "match": "Atlético Astorga vs Salamanca UDS",
+  "league": "友谊赛",
+  "ko": "2026-08-26T17:30:00+00:00",
+  "infer_event": "evt_B63JD9VP",
+  "snap_eid": null,
+  "infer_names": [
+   "Atletico Astorga",
+   "Salamanca CF UDS"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:13Z",
+    "stale": false,
+    "consensus_line": 0.0,
+    "fair": {
+     "home": 2.199,
+     "away": 1.834
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "sbobet",
+      "price": 2.05,
+      "decimal": 2.05
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "sbobet",
+      "price": 1.71,
+      "decimal": 1.71
+     }
+    ],
+    "book_count": 2
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:13Z",
+    "stale": false,
+    "consensus_line": 2.5,
+    "fair": {
+     "over": 2.032,
+     "under": 1.969
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "crown",
+      "price": 2.0,
+      "decimal": 2.0
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "sbobet",
+      "price": 1.85,
+      "decimal": 1.85
+     }
+    ],
+    "book_count": 2
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:13Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 2.973,
+     "draw": 3.744,
+     "away": 2.522
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "crown",
+      "price": 2.7,
+      "decimal": 2.7
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "crown",
+      "price": 3.4,
+      "decimal": 3.4
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 2.29,
+      "decimal": 2.29
+     }
+    ],
+    "book_count": 2
+   }
+  }
+ },
+ {
+  "match": "Al Diriyah vs Al-Kholood",
+  "league": "沙超",
+  "ko": "2026-08-26T18:00:00+00:00",
+  "infer_event": "evt_E2PQ1GF3",
+  "snap_eid": null,
+  "infer_names": [
+   "Al Diriyah",
+   "Kholood"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:13Z",
+    "stale": false,
+    "consensus_line": -0.75,
+    "fair": {
+     "home": 2.307,
+     "away": 1.765
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "m8bet",
+      "price": 2.25,
+      "decimal": 2.25
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "nova88",
+      "price": 1.71,
+      "decimal": 1.71
+     }
+    ],
+    "book_count": 6
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:13Z",
+    "stale": false,
+    "consensus_line": 2.5,
+    "fair": {
+     "over": 1.911,
+     "under": 2.098
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "nova88",
+      "price": 1.85,
+      "decimal": 1.85
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "m8bet",
+      "price": 2.04,
+      "decimal": 2.04
+     }
+    ],
+    "book_count": 6
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:13Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 2.126,
+     "draw": 3.777,
+     "away": 3.777
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "nova88",
+      "price": 1.97,
+      "decimal": 1.97
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "crown",
+      "price": 3.5,
+      "decimal": 3.5
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "hkjc",
+      "price": 3.7,
+      "decimal": 3.7
+     }
+    ],
+    "book_count": 6
+   }
+  }
+ },
+ {
+  "match": "Villanovense vs Club Deportivo Azuaga",
+  "league": "友谊赛",
+  "ko": "2026-08-26T18:30:00+00:00",
+  "status": "not_found"
+ },
+ {
+  "match": "Bradford City vs Burnley",
+  "league": "英联杯",
+  "ko": "2026-08-26T18:45:00+00:00",
+  "status": "not_found"
+ },
+ {
+  "match": "Tottenham Hotspur vs Charlton Athletic",
+  "league": "英联杯",
+  "ko": "2026-08-26T18:45:00+00:00",
+  "status": "not_found"
+ },
+ {
+  "match": "Newcastle United vs West Bromwich Albion",
+  "league": "英联杯",
+  "ko": "2026-08-26T18:45:00+00:00",
+  "status": "not_found"
+ },
+ {
+  "match": "Preston North End vs Everton",
+  "league": "英联杯",
+  "ko": "2026-08-26T19:00:00+00:00",
+  "status": "not_found"
+ },
+ {
+  "match": "NK Celje vs ŠK Slovan Bratislava",
+  "league": "欧冠",
+  "ko": "2026-08-26T19:00:00+00:00",
+  "infer_event": "evt_T9QZM168",
+  "snap_eid": null,
+  "infer_names": [
+   "NK Celje",
+   "Slovan Bratislava"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:25Z",
+    "stale": false,
+    "consensus_line": 0.0,
+    "fair": {
+     "home": 1.804,
+     "away": 2.244
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "nova88",
+      "price": 1.76,
+      "decimal": 1.76
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "m8bet",
+      "price": 2.23,
+      "decimal": 2.23
+     }
+    ],
+    "book_count": 5
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:25Z",
+    "stale": false,
+    "consensus_line": 2.5,
+    "fair": {
+     "over": 2.134,
+     "under": 1.882
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "nova88",
+      "price": 2.08,
+      "decimal": 2.075
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "crown",
+      "price": 1.85,
+      "decimal": 1.85
+     }
+    ],
+    "book_count": 6
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:25Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 2.551,
+     "draw": 3.459,
+     "away": 3.135
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "nova88",
+      "price": 2.47,
+      "decimal": 2.47
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "nova88",
+      "price": 3.25,
+      "decimal": 3.25
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 2.9,
+      "decimal": 2.9
+     }
+    ],
+    "book_count": 6
+   }
+  }
+ },
+ {
+  "match": "AEK Athens vs Levski Sofia",
+  "league": "欧冠",
+  "ko": "2026-08-26T19:00:00+00:00",
+  "infer_event": "evt_WB8K1ER6",
+  "snap_eid": null,
+  "infer_names": [
+   "AEK Athens",
+   "Levski Sofia"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:25Z",
+    "stale": false,
+    "consensus_line": -1.0,
+    "fair": {
+     "home": 1.872,
+     "away": 2.147
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "sbobet",
+      "price": 1.85,
+      "decimal": 1.85
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "nova88",
+      "price": 2.1,
+      "decimal": 2.099
+     }
+    ],
+    "book_count": 6
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:25Z",
+    "stale": false,
+    "consensus_line": 2.5,
+    "fair": {
+     "over": 2.259,
+     "under": 1.795
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "crown",
+      "price": 2.19,
+      "decimal": 2.19
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "hkjc",
+      "price": 1.75,
+      "decimal": 1.75
+     }
+    ],
+    "book_count": 6
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:25Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 1.606,
+     "draw": 4.259,
+     "away": 7.008
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "nova88",
+      "price": 1.49,
+      "decimal": 1.49
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "crown",
+      "price": 4.1,
+      "decimal": 4.1
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "sbobet",
+      "price": 7.0,
+      "decimal": 7.0
+     }
+    ],
+    "book_count": 6
+   }
+  }
+ },
+ {
+  "match": "Olympique Lyonnais vs Fenerbahçe",
+  "league": "欧冠",
+  "ko": "2026-08-26T19:00:00+00:00",
+  "infer_event": "evt_QNA6Z9CS",
+  "snap_eid": null,
+  "infer_names": [
+   "Lyon",
+   "Fenerbahce"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'Olympique Lyonnais vs Fenerbahçe'. Did you mean: Lyon vs Fenerbahce; Oud Heverlee vs Fenerbahce; Genclerbirligi vs Fenerbahce; Sturm Graz vs Fenerbahce? Re-call get_sharp_line with "
+   },
+   "totals": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'Olympique Lyonnais vs Fenerbahçe'. Did you mean: Lyon vs Fenerbahce; Oud Heverlee vs Fenerbahce; Genclerbirligi vs Fenerbahce; Sturm Graz vs Fenerbahce? Re-call get_sharp_line with "
+   },
+   "1x2": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'Olympique Lyonnais vs Fenerbahçe'. Did you mean: Lyon vs Fenerbahce; Oud Heverlee vs Fenerbahce; Genclerbirligi vs Fenerbahce; Sturm Graz vs Fenerbahce? Re-call get_sharp_line with "
+   }
+  }
+ },
+ {
+  "match": "Viking FK vs GNK Dinamo Zagreb",
+  "league": "欧冠",
+  "ko": "2026-08-26T19:00:00+00:00",
+  "infer_event": "evt_E2PJBDF3",
+  "snap_eid": null,
+  "infer_names": [
+   "Viking",
+   "Dinamo Zagreb"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:30Z",
+    "stale": false,
+    "consensus_line": -0.25,
+    "fair": {
+     "home": 2.215,
+     "away": 1.823
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "nova88",
+      "price": 2.16,
+      "decimal": 2.163
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "sbobet",
+      "price": 1.81,
+      "decimal": 1.81
+     }
+    ],
+    "book_count": 6
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:30Z",
+    "stale": false,
+    "consensus_line": 2.75,
+    "fair": {
+     "over": 1.843,
+     "under": 2.187
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "nova88",
+      "price": 1.79,
+      "decimal": 1.79
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "m8bet",
+      "price": 2.13,
+      "decimal": 2.13
+     }
+    ],
+    "book_count": 6
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:30Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 2.668,
+     "draw": 3.835,
+     "away": 2.744
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "sbobet",
+      "price": 2.47,
+      "decimal": 2.47
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "nova88",
+      "price": 3.55,
+      "decimal": 3.55
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 2.67,
+      "decimal": 2.67
+     }
+    ],
+    "book_count": 6
+   }
+  }
+ },
+ {
+  "match": "Real Madrid vs Real Sociedad",
+  "league": "西甲",
+  "ko": "2026-08-26T19:00:00+00:00",
+  "status": "not_found"
+ },
+ {
+  "match": "Boyacá Chicó FC vs Fortaleza FC",
+  "league": "哥甲",
+  "ko": "2026-08-26T21:00:00+00:00",
+  "infer_event": "evt_YTJ739BW",
+  "snap_eid": null,
+  "infer_names": [
+   "Chico",
+   "Fortaleza FC"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'Boyacá Chicó FC vs Fortaleza FC'. Did you mean: Chico vs Fortaleza FC; America de Cali vs Fortaleza FC; Chico vs Fortaleza Ceif; America de Cali vs Fortaleza Ceif? Re-call get_sharp"
+   },
+   "totals": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'Boyacá Chicó FC vs Fortaleza FC'. Did you mean: Chico vs Fortaleza FC; America de Cali vs Fortaleza FC; Chico vs Fortaleza Ceif; America de Cali vs Fortaleza Ceif? Re-call get_sharp"
+   },
+   "1x2": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'Boyacá Chicó FC vs Fortaleza FC'. Did you mean: Chico vs Fortaleza FC; America de Cali vs Fortaleza FC; Chico vs Fortaleza Ceif; America de Cali vs Fortaleza Ceif? Re-call get_sharp"
+   }
+  }
+ },
+ {
+  "match": "América de Cali vs Junior Barranquilla",
+  "league": "哥甲",
+  "ko": "2026-08-26T23:20:00+00:00",
+  "infer_event": "evt_G5Z8C4Y6",
+  "snap_eid": null,
+  "infer_names": [
+   "America de Cali",
+   "Junior Barranquilla"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:12:42Z",
+    "stale": false,
+    "consensus_line": -0.5,
+    "fair": {
+     "home": 1.975,
+     "away": 2.026
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "nova88",
+      "price": 1.96,
+      "decimal": 1.96
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 1.97,
+      "decimal": 1.97
+     }
+    ],
+    "book_count": 5
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:12:42Z",
+    "stale": false,
+    "consensus_line": 2.25,
+    "fair": {
+     "over": 1.776,
+     "under": 2.288
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "sbobet",
+      "price": 1.78,
+      "decimal": 1.78
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "crown",
+      "price": 2.19,
+      "decimal": 2.19
+     }
+    ],
+    "book_count": 5
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:12:42Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 2.077,
+     "draw": 3.677,
+     "away": 4.056
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "nova88",
+      "price": 1.96,
+      "decimal": 1.96
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "nova88",
+      "price": 3.4,
+      "decimal": 3.4
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 3.75,
+      "decimal": 3.75
+     }
+    ],
+    "book_count": 5
+   }
+  }
+ },
+ {
+  "match": "North Carolina Courage vs Angel City FC",
+  "league": "NWSL",
+  "ko": "2026-08-27T00:00:00+00:00",
+  "infer_event": "evt_XZVY1QDH",
+  "snap_eid": null,
+  "infer_names": [
+   "North Carolina(W)",
+   "Angel City(W)"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T12:01:07Z",
+    "stale": true,
+    "consensus_line": -0.5,
+    "fair": {
+     "home": 2.087,
+     "away": 1.92
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "crown",
+      "price": 1.99,
+      "decimal": 1.99
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 1.83,
+      "decimal": 1.83
+     }
+    ],
+    "book_count": 3
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T12:01:07Z",
+    "stale": true,
+    "consensus_line": 2.75,
+    "fair": {
+     "over": 1.939,
+     "under": 2.065
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "crown",
+      "price": 1.84,
+      "decimal": 1.84
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "crown",
+      "price": 1.96,
+      "decimal": 1.96
+     }
+    ],
+    "book_count": 3
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T12:01:07Z",
+    "stale": true,
+    "consensus_line": null,
+    "fair": {
+     "home": 2.232,
+     "draw": 3.925,
+     "away": 3.365
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "crown",
+      "price": 1.99,
+      "decimal": 1.99
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "hkjc",
+      "price": 3.55,
+      "decimal": 3.55
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "hkjc",
+      "price": 3.0,
+      "decimal": 3.0
+     }
+    ],
+    "book_count": 3
+   }
+  }
+ },
+ {
+  "match": "Vasco da Gama vs Vitória",
+  "league": "巴西杯",
+  "ko": "2026-08-27T00:30:00+00:00",
+  "infer_event": "evt_G5Z2RGY6",
+  "snap_eid": null,
+  "infer_names": [
+   "Vasco DG",
+   "Vitoria"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:17:40Z",
+    "stale": false,
+    "consensus_line": -0.5,
+    "fair": {
+     "home": 1.698,
+     "away": 2.434
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "nova88",
+      "price": 1.64,
+      "decimal": 1.64
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 2.4,
+      "decimal": 2.4
+     }
+    ],
+    "book_count": 5
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:17:40Z",
+    "stale": false,
+    "consensus_line": 2.5,
+    "fair": {
+     "over": 2.273,
+     "under": 1.785
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "crown",
+      "price": 2.23,
+      "decimal": 2.23
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "hkjc",
+      "price": 1.76,
+      "decimal": 1.76
+     }
+    ],
+    "book_count": 6
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:17:40Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 1.771,
+     "draw": 3.941,
+     "away": 5.507
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "nova88",
+      "price": 1.64,
+      "decimal": 1.64
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "hkjc",
+      "price": 3.7,
+      "decimal": 3.7
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "hkjc",
+      "price": 5.8,
+      "decimal": 5.8
+     }
+    ],
+    "book_count": 6
+   }
+  }
+ },
+ {
+  "match": "Palmeiras vs Santos",
+  "league": "巴西杯",
+  "ko": "2026-08-27T00:30:00+00:00",
+  "infer_event": "evt_CGXEQYP3",
+  "snap_eid": null,
+  "infer_names": [
+   "Palmeiras",
+   "Santos"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:45Z",
+    "stale": false,
+    "consensus_line": -0.75,
+    "fair": {
+     "home": 1.862,
+     "away": 2.16
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "nova88",
+      "price": 1.81,
+      "decimal": 1.81
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 2.14,
+      "decimal": 2.14
+     }
+    ],
+    "book_count": 5
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:45Z",
+    "stale": false,
+    "consensus_line": 2.5,
+    "fair": {
+     "over": 2.075,
+     "under": 1.93
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "m8bet",
+      "price": 2.03,
+      "decimal": 2.03
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "nova88",
+      "price": 1.87,
+      "decimal": 1.87
+     }
+    ],
+    "book_count": 6
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:45Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 1.713,
+     "draw": 4.148,
+     "away": 5.71
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "crown",
+      "price": 1.6,
+      "decimal": 1.6
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "nova88",
+      "price": 3.85,
+      "decimal": 3.85
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "hkjc",
+      "price": 5.7,
+      "decimal": 5.7
+     }
+    ],
+    "book_count": 6
+   }
+  }
+ },
+ {
+  "match": "River Plate vs Independiente Santa Fe",
+  "league": "南美杯",
+  "ko": "2026-08-27T00:30:00+00:00",
+  "infer_event": "evt_A7BWCFX7",
+  "snap_eid": null,
+  "infer_names": [
+   "River Plate",
+   "Independiente Santa Fe"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:45Z",
+    "stale": false,
+    "consensus_line": -1.25,
+    "fair": {
+     "home": 1.902,
+     "away": 2.108
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "hkjc",
+      "price": 1.86,
+      "decimal": 1.86
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 2.09,
+      "decimal": 2.09
+     }
+    ],
+    "book_count": 6
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:45Z",
+    "stale": false,
+    "consensus_line": 2.5,
+    "fair": {
+     "over": 2.357,
+     "under": 1.737
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "m8bet",
+      "price": 2.28,
+      "decimal": 2.28
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "hkjc",
+      "price": 1.72,
+      "decimal": 1.72
+     }
+    ],
+    "book_count": 6
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:20:45Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 1.407,
+     "draw": 4.887,
+     "away": 11.815
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "m8bet",
+      "price": 1.33,
+      "decimal": 1.33
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "crown",
+      "price": 4.6,
+      "decimal": 4.6
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "nova88",
+      "price": 11.0,
+      "decimal": 11.0
+     }
+    ],
+    "book_count": 6
+   }
+  }
+ },
+ {
+  "match": "El Paso Locomotive FC vs Pittsburgh Riverhounds",
+  "league": "USL",
+  "ko": "2026-08-27T01:00:00+00:00",
+  "infer_event": "evt_XZVG0PDH",
+  "snap_eid": null,
+  "infer_names": [
+   "El Paso Locomotive",
+   "Riverhounds"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T13:47:56Z",
+    "stale": false,
+    "consensus_line": -0.25,
+    "fair": {
+     "home": 1.95,
+     "away": 2.053
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "crown",
+      "price": 1.89,
+      "decimal": 1.89
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 1.99,
+      "decimal": 1.99
+     }
+    ],
+    "book_count": 5
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T13:47:56Z",
+    "stale": false,
+    "consensus_line": 2.25,
+    "fair": {
+     "over": 2.098,
+     "under": 1.911
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "crown",
+      "price": 2.02,
+      "decimal": 2.02
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "crown",
+      "price": 1.84,
+      "decimal": 1.84
+     }
+    ],
+    "book_count": 5
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T13:47:56Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 2.39,
+     "draw": 3.359,
+     "away": 3.524
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "nova88",
+      "price": 2.17,
+      "decimal": 2.17
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "nova88",
+      "price": 3.05,
+      "decimal": 3.05
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "hkjc",
+      "price": 3.35,
+      "decimal": 3.35
+     }
+    ],
+    "book_count": 5
+   }
+  }
+ },
+ {
+  "match": "Atlético Nacional vs Deportivo Cali",
+  "league": "哥甲",
+  "ko": "2026-08-27T01:30:00+00:00",
+  "status": "not_found"
+ },
+ {
+  "match": "New Mexico United vs Lexington SC",
+  "league": "USL",
+  "ko": "2026-08-27T01:30:00+00:00",
+  "infer_event": "evt_2MYRZNAY",
+  "snap_eid": null,
+  "infer_names": [
+   "New Mexico Utd",
+   "Lexington"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:18:05Z",
+    "stale": false,
+    "consensus_line": 0.0,
+    "fair": {
+     "home": 2.042,
+     "away": 1.96
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "crown",
+      "price": 1.98,
+      "decimal": 1.98
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "nova88",
+      "price": 1.9,
+      "decimal": 1.9
+     }
+    ],
+    "book_count": 5
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:18:05Z",
+    "stale": false,
+    "consensus_line": 2.5,
+    "fair": {
+     "over": 1.856,
+     "under": 2.169
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "crown",
+      "price": 1.78,
+      "decimal": 1.78
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "crown",
+      "price": 2.08,
+      "decimal": 2.08
+     }
+    ],
+    "book_count": 5
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:18:05Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 2.781,
+     "draw": 3.737,
+     "away": 2.682
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "crown",
+      "price": 2.53,
+      "decimal": 2.53
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "crown",
+      "price": 3.4,
+      "decimal": 3.4
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 2.44,
+      "decimal": 2.44
+     }
+    ],
+    "book_count": 5
+   }
+  }
+ }
+]

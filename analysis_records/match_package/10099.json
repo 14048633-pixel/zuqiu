@@ -1,0 +1,135 @@
+{
+ "id": 10099,
+ "league": "Brasileirão Serie B",
+ "kickoff": "08-29 06:30",
+ "kickoff_iso": "2026-08-28T22:30:00+00:00",
+ "home": "Goiás",
+ "away": "São Bernardo",
+ "home_id": 809,
+ "away_id": 841,
+ "pulled_at": "2026-08-28T18:52:17.353942+08:00",
+ "missing": [
+  "away教练(coach_cache未命中 id=3402) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 149,
+    "name": "Mozart Santos",
+    "short_name": "M. Santos",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 58.0,
+    "avg_goals_scored": 1.0,
+    "avg_goals_conceded": 1.07
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.86,
+   "draw": 3.2,
+   "away_win": 4.5,
+   "over_15_goals": 1.36,
+   "over_25_goals": 2.25,
+   "over_35_goals": 4.0,
+   "under_15_goals": 3.0,
+   "under_25_goals": 1.61,
+   "under_35_goals": 1.22,
+   "btts_yes": 2.0,
+   "btts_no": 1.73
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 17439,
+    "name": "Tadeu",
+    "short_name": "Tadeu",
+    "status": "injured",
+    "reason": "Broken Leg"
+   }
+  ],
+  "away": [
+   {
+    "id": 17970,
+    "name": "Matheus Salustiano",
+    "short_name": "M. Salustiano",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 17974,
+    "name": "Rodrigo Andrade",
+    "short_name": "R. Andrade",
+    "status": "injured",
+    "reason": "ACL Knee Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.845,
+   "away": 0.836
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-28T08:32:32Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.9,
+    "home_ga": 0.957,
+    "away_gf": 0.916,
+    "away_ga": 1.126,
+    "n_home": 7.0,
+    "n_away": 9.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 809
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.128,
+    "home_ga": 1.291,
+    "away_gf": 1.606,
+    "away_ga": 1.225,
+    "n_home": 8.6,
+    "n_away": 7.1,
+    "n_scored": 36,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 841
+   }
+  }
+ }
+}

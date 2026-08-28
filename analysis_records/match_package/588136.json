@@ -1,0 +1,112 @@
+{
+ "id": 588136,
+ "league": "National League",
+ "kickoff": "08-28 02:45",
+ "kickoff_iso": "2026-08-27T18:45:00+00:00",
+ "home": "Boreham Wood",
+ "away": "Boston United",
+ "home_id": 1868,
+ "away_id": 3876,
+ "pulled_at": "2026-08-27T19:52:32.888184+08:00",
+ "missing": [
+  "away教练(coach_cache未命中 id=2195) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1234,
+    "name": "Luke Garrard",
+    "short_name": "L. Garrard",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 9.0,
+    "avg_goals_scored": 2.56,
+    "avg_goals_conceded": 1.33
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.57,
+   "draw": 4.03,
+   "away_win": 4.66,
+   "over_15_goals": 1.15,
+   "over_25_goals": 1.54,
+   "over_35_goals": 2.34,
+   "under_15_goals": 4.76,
+   "under_25_goals": 2.33,
+   "under_35_goals": 1.52,
+   "btts_yes": 1.6,
+   "btts_no": 2.18
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.377,
+   "away": 0.35
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-3"
+  },
+  "updated_at": "2026-08-27T08:32:51Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.189,
+    "home_ga": 1.322,
+    "away_gf": 2.747,
+    "away_ga": 1.227,
+    "n_home": 9.0,
+    "n_away": 7.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1868
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.923,
+    "home_ga": 0.923,
+    "away_gf": 1.635,
+    "away_ga": 1.311,
+    "n_home": 9.1,
+    "n_away": 7.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 3876
+   }
+  }
+ }
+}

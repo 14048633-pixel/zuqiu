@@ -1,0 +1,120 @@
+{
+ "id": 587853,
+ "league": "Europa League",
+ "kickoff": "08-28 00:00",
+ "kickoff_iso": "2026-08-27T16:00:00+00:00",
+ "home": "FC Ararat-Armenia",
+ "away": "Universitatea Craiova",
+ "home_id": 3298,
+ "away_id": 359,
+ "pulled_at": "2026-08-27T19:49:44.512009+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1838,
+    "name": "Manuel Tulipa",
+    "short_name": "Tulipa",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 10.0,
+    "avg_goals_scored": 1.4,
+    "avg_goals_conceded": 1.0
+   },
+   "away": {
+    "id": 478,
+    "name": "Filipe Coelho",
+    "short_name": "F. Coelho",
+    "profile": "attacking",
+    "preferred_formation": "3-4-3",
+    "matches_total": 55.0,
+    "avg_goals_scored": 1.76,
+    "avg_goals_conceded": 0.96
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "3-4-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.46,
+   "draw": 3.23,
+   "away_win": 2.13,
+   "over_15_goals": 1.33,
+   "over_25_goals": 2.08,
+   "over_35_goals": 3.7,
+   "under_15_goals": 3.09,
+   "under_25_goals": 1.72,
+   "under_35_goals": 1.24,
+   "btts_yes": 1.82,
+   "btts_no": 1.87
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.35,
+   "away": 0.55
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "3-4-3"
+  },
+  "updated_at": "2026-08-27T08:32:12Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.386,
+    "home_ga": 0.771,
+    "away_gf": 1.287,
+    "away_ga": 1.75,
+    "n_home": 8.3,
+    "n_away": 8.0,
+    "n_scored": 39,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 3298
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.32,
+    "home_ga": 0.763,
+    "away_gf": 1.132,
+    "away_ga": 1.353,
+    "n_home": 9.7,
+    "n_away": 6.8,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 359
+   }
+  }
+ }
+}

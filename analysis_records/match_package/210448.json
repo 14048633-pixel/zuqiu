@@ -1,0 +1,152 @@
+{
+ "id": 210448,
+ "league": "Ligue 1",
+ "kickoff": "08-29 02:45",
+ "kickoff_iso": "2026-08-28T18:45:00+00:00",
+ "home": "Lille",
+ "away": "Paris Saint-Germain",
+ "home_id": 106,
+ "away_id": 114,
+ "pulled_at": "2026-08-28T18:51:31.041597+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1778,
+    "name": "Davide Ancelotti",
+    "short_name": "D. Ancelotti",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 5.0,
+    "avg_goals_scored": 2.6,
+    "avg_goals_conceded": 1.4
+   },
+   "away": {
+    "id": 201,
+    "name": "Luis Enrique",
+    "short_name": "L. Enrique",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 55.0,
+    "avg_goals_scored": 2.25,
+    "avg_goals_conceded": 1.04
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 4.54,
+   "draw": 3.87,
+   "away_win": 1.72,
+   "over_15_goals": 1.2,
+   "over_25_goals": 1.7,
+   "over_35_goals": 2.69,
+   "under_15_goals": 4.26,
+   "under_25_goals": 2.16,
+   "under_35_goals": 1.44,
+   "btts_yes": 1.65,
+   "btts_no": 2.14
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 7386,
+    "name": "Loun Srdanovic",
+    "short_name": "L. Srdanovic",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 2261,
+    "name": "Bradley Barcola",
+    "short_name": "B. Barcola",
+    "status": "injured",
+    "reason": "pending_transfer"
+   },
+   {
+    "id": 2255,
+    "name": "Ibrahim Mbaye",
+    "short_name": "I. Mbaye",
+    "status": "injured",
+    "reason": "pending_transfer"
+   },
+   {
+    "id": 3470,
+    "name": "Nuno Mendes",
+    "short_name": "N. Mendes",
+    "status": "suspended",
+    "reason": "red_card_suspension"
+   },
+   {
+    "id": 2253,
+    "name": "Ousmane Dembélé",
+    "short_name": "O. Dembélé",
+    "status": "injured",
+    "reason": "rested"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.582,
+   "away": 0.618
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-28T08:32:26Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.684,
+    "home_ga": 1.024,
+    "away_gf": 1.384,
+    "away_ga": 1.135,
+    "n_home": 41.4,
+    "n_away": 41.4,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.493,
+    "home_ga": 0.923,
+    "away_gf": 2.28,
+    "away_ga": 0.969,
+    "n_home": 41.4,
+    "n_away": 41.4,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

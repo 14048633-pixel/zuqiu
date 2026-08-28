@@ -9,7 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 SNAP = os.path.join(HERE, 'output', 'odds_snapshots', 'snapshots.csv')
 MAP = os.path.join(ROOT, 'analysis_records', 'apifb_fixture_map_20260821.json')
-KEY = 'FOOTBALL_API_KEY_FROM_ENV'
+KEY = os.environ.get("FOOTBALL_API_KEY", "")
 BASE = 'https://v3.football.api-sports.io'
 
 def get(url):

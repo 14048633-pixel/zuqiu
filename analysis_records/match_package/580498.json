@@ -1,0 +1,125 @@
+{
+ "id": 580498,
+ "league": "Ligue 2",
+ "kickoff": "08-29 02:00",
+ "kickoff_iso": "2026-08-28T18:00:00+00:00",
+ "home": "Montpellier",
+ "away": "US Boulogne Côte-d'Opale",
+ "home_id": 1301,
+ "away_id": 1688,
+ "pulled_at": "2026-08-28T18:49:10.913574+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1058,
+    "name": "Zoumana Camara",
+    "short_name": "Z. Camara",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 11.0,
+    "avg_goals_scored": 2.55,
+    "avg_goals_conceded": 1.27
+   },
+   "away": {
+    "id": 1104,
+    "name": "Fabien Dagneaux",
+    "short_name": "F. Dagneaux",
+    "profile": "defensive",
+    "preferred_formation": "5-3-2",
+    "matches_total": 9.0,
+    "avg_goals_scored": 0.78,
+    "avg_goals_conceded": 1.0
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "5-3-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.6,
+   "draw": 3.4,
+   "away_win": 5.0,
+   "over_15_goals": 1.29,
+   "over_25_goals": 1.95,
+   "over_35_goals": 3.25,
+   "under_15_goals": 3.5,
+   "under_25_goals": 1.85,
+   "under_35_goals": 1.33,
+   "btts_yes": 1.9,
+   "btts_no": 1.81
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 29215,
+    "name": "Florian Tardieu",
+    "short_name": "F. Tardieu",
+    "status": "injured",
+    "reason": ""
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.455,
+   "away": 0.309
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "5-3-2"
+  },
+  "updated_at": "2026-08-28T08:32:14Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.556,
+    "home_ga": 1.167,
+    "away_gf": 0.833,
+    "away_ga": 0.611,
+    "n_home": 18.0,
+    "n_away": 18.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.831,
+    "home_ga": 1.442,
+    "away_gf": 0.795,
+    "away_ga": 0.932,
+    "n_home": 7.7,
+    "n_away": 8.8,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1688
+   }
+  }
+ }
+}

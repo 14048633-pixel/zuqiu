@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import os
 """补齐 7 场: the-odds-api(Al-Hazem/Al-Faisaly/Aldosivi/Estudiantes/Betis) + API-Football(Petrolul/Jaguares)"""
 import sys, os, json, io, time, urllib.request
 from datetime import datetime, timezone
@@ -46,7 +47,7 @@ for sp, lst in by_sport.items():
     time.sleep(1.0)
 
 # ---- API-Football 补 2 场 ----
-AFB_KEY = "FOOTBALL_API_KEY_FROM_ENV"
+AFB_KEY = os.environ.get("FOOTBALL_API_KEY", "")
 for eid, fid, h, a in [("214569", 1565227, "Petrolul Ploiesti", "Rapid"), ("220055", 1549740, "Jaguares", "Chico")]:
     url = "https://v3.football.api-sports.io/odds?fixture=%d" % fid
     req = urllib.request.Request(url, headers={"x-apisports-key": AFB_KEY})

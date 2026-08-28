@@ -1,0 +1,2309 @@
+[
+ {
+  "ko_bjt": "08-27 00:00",
+  "ko_utc": "2026-08-26T16:00:00+00:00",
+  "league": "沙超",
+  "home": "Al Faisaly",
+  "away": "Al-Fateh",
+  "lambda": {
+   "home": 1.26,
+   "away": 0.74,
+   "sum": 2.0
+  },
+  "wdl": {
+   "home": 48.9,
+   "draw": 29.3,
+   "away": 21.8
+  },
+  "market_fair": {
+   "home": 36.9,
+   "draw": 27.3,
+   "away": 35.9
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.3247,
+  "dir_odds": 1.8,
+  "dir_ev": -0.4463,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 27.3,
+   "strong": false
+  },
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "客胜高估区(赔率2.57: 真实客胜11%, 押受让+号/避平手)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2主胜",
+     "ev": 12.6
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "大2.50",
+     "ev": -44.6
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "大2.50",
+    "prob": 0.3247,
+    "odds": 1.8,
+    "ev": -0.4463
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.4888,
+    "odds": 2.5,
+    "ev": 0.1262,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2935,
+    "odds": 3.38,
+    "ev": -0.0857,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.2178,
+    "odds": 2.57,
+    "ev": -0.4842,
+    "is_1x2": true,
+    "_overest_1x2": true
+   }
+  ],
+  "notes": [
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+   "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选",
+   "规则6小2.50高EV禁出(按方案A校准前EV): 移除1腿(EV>=20%, 高价值档24注-10.8%, 升级规则②反向标记->禁出)",
+   "规则8赔率高估区: 客胜高估区(赔率2.57: 真实客胜11%, 押受让+号/避平手) (1X2热门方向降权参考, 让球押受让+号)"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 00:45",
+  "ko_utc": "2026-08-26T16:45:00+00:00",
+  "league": "欧协联",
+  "home": "SK Rapid Wien",
+  "away": "Heart of Midlothian",
+  "lambda": {
+   "home": 3.19,
+   "away": 0.82,
+   "sum": 4.01
+  },
+  "wdl": {
+   "home": 75.7,
+   "draw": 14.8,
+   "away": 9.5
+  },
+  "market_fair": {
+   "home": 58.9,
+   "draw": 22.1,
+   "away": 19.0
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.65,
+  "dir_odds": 1.59,
+  "dir_ev": -0.03190944881889757,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "伤停>2人(主4/客4)",
+   "缺亚盘",
+   "λ过高(4.01)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2主胜",
+     "ev": -5.6
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "大2.50",
+     "ev": -3.2
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "小2.50",
+    "prob": 0.238,
+    "odds": 2.28,
+    "ev": -0.4917
+   },
+   {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.59,
+    "ev": -0.03190944881889757,
+    "prob_raw": 0.762
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.65,
+    "odds": 1.57,
+    "ev": -0.05638789800502053,
+    "is_1x2": true,
+    "prob_raw": 0.7569
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.1477,
+    "odds": 4.18,
+    "ev": -0.429,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.0954,
+    "odds": 4.87,
+    "ev": -0.5706,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "数据包伤停: 主队伤停4人(如Andrija Radulović,Claudy Mbuyi,Domin); 客队伤停4人(如Ageu,Craig Halkett,Malachi Fagan-Wal)",
+   "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 01:00",
+  "ko_utc": "2026-08-26T17:00:00+00:00",
+  "league": "友谊赛",
+  "home": "Barcelona Atlètic",
+  "away": "Reus FC Reddis",
+  "lambda": {
+   "home": 1.1,
+   "away": 1.2,
+   "sum": 2.3
+  },
+  "wdl": {
+   "home": 33.4,
+   "draw": 28.3,
+   "away": 38.3
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "客队样本偏少, 攻防向联赛均值收缩"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 01:00",
+  "ko_utc": "2026-08-26T17:00:00+00:00",
+  "league": "友谊赛",
+  "home": "Numancia",
+  "away": "Utebo FC",
+  "lambda": {
+   "home": 1.41,
+   "away": 1.08,
+   "sum": 2.49
+  },
+  "wdl": {
+   "home": 44.3,
+   "draw": 26.6,
+   "away": 29.1
+  },
+  "market_fair": {
+   "home": 42.1,
+   "draw": 26.6,
+   "away": 31.2
+  },
+  "direction": "1X2主胜",
+  "dir_prob": 0.4431,
+  "dir_odds": 2.15,
+  "dir_ev": -0.1372,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 26.6,
+   "strong": false
+  },
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "平局预警(市场去水平局>=26%)",
+   "主胜高估区(赔率2.15: 真实主胜28%, 平局预警下押受让+号)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2主胜",
+     "ev": -13.7
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "1X2主胜",
+    "prob": 0.4431,
+    "odds": 2.15,
+    "ev": -0.1372,
+    "is_1x2": true,
+    "_overest_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2664,
+    "odds": 3.4,
+    "ev": -0.1797,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.2905,
+    "odds": 2.9,
+    "ev": -0.2368,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "规则8赔率高估区: 主胜高估区(赔率2.15: 真实主胜28%, 平局预警下押受让+号) (1X2热门方向降权参考, 让球押受让+号)"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 01:30",
+  "ko_utc": "2026-08-26T17:30:00+00:00",
+  "league": "友谊赛",
+  "home": "Atlético Astorga",
+  "away": "Salamanca UDS",
+  "lambda": {
+   "home": 1.09,
+   "away": 1.23,
+   "sum": 2.32
+  },
+  "wdl": {
+   "home": 32.5,
+   "draw": 28.1,
+   "away": 39.4
+  },
+  "market_fair": {
+   "home": 39.1,
+   "draw": 26.5,
+   "away": 34.4
+  },
+  "direction": "1X2客胜",
+  "dir_prob": 0.3937,
+  "dir_odds": 2.62,
+  "dir_ev": -0.0711,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 26.5,
+   "strong": false
+  },
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "平局预警(市场去水平局>=26%)",
+   "客胜高估区(赔率2.62: 真实客胜11%, 押受让+号/避平手)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2客胜",
+     "ev": -7.1
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "1X2主胜",
+    "prob": 0.3249,
+    "odds": 2.3,
+    "ev": -0.3271,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2814,
+    "odds": 3.4,
+    "ev": -0.1386,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.3937,
+    "odds": 2.62,
+    "ev": -0.0711,
+    "is_1x2": true,
+    "_overest_1x2": true
+   }
+  ],
+  "notes": [
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "规则8赔率高估区: 客胜高估区(赔率2.62: 真实客胜11%, 押受让+号/避平手) (1X2热门方向降权参考, 让球押受让+号)"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 02:00",
+  "ko_utc": "2026-08-26T18:00:00+00:00",
+  "league": "沙超",
+  "home": "Al Diriyah",
+  "away": "Al-Kholood",
+  "lambda": {
+   "home": 1.09,
+   "away": 1.09,
+   "sum": 2.18
+  },
+  "wdl": {
+   "home": 35.4,
+   "draw": 29.3,
+   "away": 35.4
+  },
+  "market_fair": {
+   "home": 52.8,
+   "draw": 24.9,
+   "away": 22.3
+  },
+  "direction": "小2.50",
+  "dir_prob": 0.6281,
+  "dir_odds": 1.97,
+  "dir_ev": 0.1604,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 1,
+  "ev_tier": "标准",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2客胜",
+     "ev": 35.2
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "小2.50",
+     "ev": 16.0
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": {
+   "name": "小2.50",
+   "prob": 0.6281,
+   "odds": 1.97,
+   "ev": 0.1604,
+   "star": 1,
+   "ev_tier": "标准",
+   "stake_factor": 0.35
+  },
+  "bets": [
+   {
+    "name": "小2.50",
+    "prob": 0.6281,
+    "odds": 1.97,
+    "ev": 0.1604,
+    "star": 1,
+    "ev_tier": "标准",
+    "stake_factor": 0.35
+   },
+   {
+    "name": "大2.50",
+    "prob": 0.3719,
+    "odds": 1.79,
+    "ev": -0.3756
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.3535,
+    "odds": 1.75,
+    "ev": -0.4285,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2929,
+    "odds": 3.71,
+    "ev": 0.0039,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.3535,
+    "odds": 4.14,
+    "ev": 0.3521,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "客队样本偏少, 攻防向联赛均值收缩"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 02:30",
+  "ko_utc": "2026-08-26T18:30:00+00:00",
+  "league": "友谊赛",
+  "home": "Villanovense",
+  "away": "Club Deportivo Azuaga",
+  "lambda": {
+   "home": 1.23,
+   "away": 1.29,
+   "sum": 2.52
+  },
+  "wdl": {
+   "home": 35.2,
+   "draw": 26.9,
+   "away": 37.9
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "客队样本偏少, 攻防向联赛均值收缩"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 02:45",
+  "ko_utc": "2026-08-26T18:45:00+00:00",
+  "league": "英联杯",
+  "home": "Bradford City",
+  "away": "Burnley",
+  "lambda": {
+   "home": 0.79,
+   "away": 0.83,
+   "sum": 1.62
+  },
+  "wdl": {
+   "home": 31.9,
+   "draw": 34.7,
+   "away": 33.4
+  },
+  "market_fair": {
+   "home": 28.8,
+   "draw": 28.1,
+   "away": 43.1
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.2713,
+  "dir_odds": 1.95,
+  "dir_ev": -0.502,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 28.1,
+   "strong": false
+  },
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "主队争冠/升级(第1/24, 积6, 近WWLLW)",
+   "客队中游(第18/24, 积1, 近LDWWW)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2平局",
+     "ev": 7.4
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "大2.50",
+     "ev": -50.2
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "大2.50",
+    "prob": 0.2713,
+    "odds": 1.95,
+    "ev": -0.502,
+    "ev_pre_ou_adj": -0.5938,
+    "ou_bucket": "弱弱"
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.3188,
+    "odds": 3.23,
+    "ev": -0.0411,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.3473,
+    "odds": 3.32,
+    "ev": 0.0739,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.3339,
+    "odds": 2.16,
+    "ev": -0.3283,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "客队数据来自E1",
+   "客队跨联赛用E1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "方案A大球校准: 弱弱档 大球概率+5pp(英联杯, 分档拟合实证)",
+   "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+   "规则6小2.50高EV禁出(按方案A校准前EV): 移除1腿(EV>=20%, 高价值档24注-10.8%, 升级规则②反向标记->禁出)",
+   "积分榜主队: 英甲第1/24 积6分 近2场 form=WWLLW",
+   "积分榜客队: 英冠第18/24 积1分 近2场 form=LDWWW"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 02:45",
+  "ko_utc": "2026-08-26T18:45:00+00:00",
+  "league": "英联杯",
+  "home": "Tottenham Hotspur",
+  "away": "Charlton Athletic",
+  "lambda": {
+   "home": 1.13,
+   "away": 1.31,
+   "sum": 2.44
+  },
+  "wdl": {
+   "home": 32.3,
+   "draw": 28.5,
+   "away": 39.3
+  },
+  "market_fair": {
+   "home": 76.7,
+   "draw": 14.8,
+   "away": 8.6
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.4896,
+  "dir_odds": 1.42,
+  "dir_ev": -0.3481,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "伤停>2人(主6/客0)",
+   "缺亚盘",
+   "主队保级(第19/20, 积0, 近LWLDW)",
+   "客队争冠/升级(第3/24, 积6, 近WWLWL)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2客胜",
+     "ev": 294.9
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "大2.50",
+     "ev": -34.8
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "大2.50",
+    "prob": 0.4896,
+    "odds": 1.42,
+    "ev": -0.3481,
+    "ev_pre_ou_adj": -0.4147,
+    "ou_bucket": "弱弱"
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.3227,
+    "odds": 1.21,
+    "ev": -0.6379,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2846,
+    "odds": 6.27,
+    "ev": 0.6548,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.3928,
+    "odds": 10.84,
+    "ev": 2.949,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "数据包伤停: 主队伤停6人(如Dejan Kulusevski,Micky van de Ven,Pa)",
+   "主队数据来自E0",
+   "客队数据来自E2",
+   "主队跨联赛用E0数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "方案A大球校准: 弱弱档 大球概率+5pp(英联杯, 分档拟合实证)",
+   "规则6小2.50高EV禁出(按方案A校准前EV): 移除1腿(EV>=20%, 高价值档24注-10.8%, 升级规则②反向标记->禁出)",
+   "积分榜主队: 英超第19/20 积0分 近1场 form=LWLDW",
+   "积分榜客队: 英冠第3/24 积6分 近2场 form=WWLWL"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 02:45",
+  "ko_utc": "2026-08-26T18:45:00+00:00",
+  "league": "英联杯",
+  "home": "Newcastle United",
+  "away": "West Bromwich Albion",
+  "lambda": {
+   "home": 1.49,
+   "away": 1.03,
+   "sum": 2.53
+  },
+  "wdl": {
+   "home": 44.8,
+   "draw": 27.5,
+   "away": 27.7
+  },
+  "market_fair": {
+   "home": 69.5,
+   "draw": 18.4,
+   "away": 12.1
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.5428,
+  "dir_odds": 1.49,
+  "dir_ev": -0.2426,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "缺亚盘",
+   "主队中游(第11/20, 积1, 近DLWDW)",
+   "客队争冠/升级(第2/24, 积6, 近WWLDW)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2客胜",
+     "ev": 97.8
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "大2.50",
+     "ev": -24.3
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "大2.50",
+    "prob": 0.5428,
+    "odds": 1.49,
+    "ev": -0.2426,
+    "ev_pre_ou_adj": -0.3542,
+    "ou_bucket": "混合"
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.4479,
+    "odds": 1.34,
+    "ev": -0.4414,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2751,
+    "odds": 5.06,
+    "ev": 0.2958,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.277,
+    "odds": 7.67,
+    "ev": 0.9779,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "主队数据来自E0",
+   "客队数据来自E2",
+   "主队跨联赛用E0数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "方案A大球校准: 混合档 大球概率+8pp(英联杯, 分档拟合实证)",
+   "规则6小2.50高EV禁出(按方案A校准前EV): 移除1腿(EV>=20%, 高价值档24注-10.8%, 升级规则②反向标记->禁出)",
+   "积分榜主队: 英超第11/20 积1分 近1场 form=DLWDW",
+   "积分榜客队: 英冠第2/24 积6分 近2场 form=WWLDW"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 03:00",
+  "ko_utc": "2026-08-26T19:00:00+00:00",
+  "league": "英联杯",
+  "home": "Preston North End",
+  "away": "Everton",
+  "lambda": {
+   "home": 1.14,
+   "away": 1.05,
+   "sum": 2.19
+  },
+  "wdl": {
+   "home": 36.8,
+   "draw": 30.0,
+   "away": 33.2
+  },
+  "market_fair": {
+   "home": 16.7,
+   "draw": 22.4,
+   "away": 61.0
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.4251,
+  "dir_odds": 1.7,
+  "dir_ev": -0.3225,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "伤停>2人(主0/客3)",
+   "缺亚盘",
+   "主队保级(第21/24, 积0, 近LLLWL)",
+   "客队中游(第4/20, 积3, 近WLLDD)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2主胜",
+     "ev": 92.4
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "大2.50",
+     "ev": -32.2
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "大2.50",
+    "prob": 0.4251,
+    "odds": 1.7,
+    "ev": -0.3225,
+    "ev_pre_ou_adj": -0.4022,
+    "ou_bucket": "弱弱"
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.3683,
+    "odds": 5.6,
+    "ev": 0.9238,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2997,
+    "odds": 4.17,
+    "ev": 0.166,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.332,
+    "odds": 1.53,
+    "ev": -0.5262,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "数据包伤停: 客队伤停3人(如Christian Nørgaard,James Garner,Tim )",
+   "主队数据来自E2",
+   "客队数据来自E0",
+   "主队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E0数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "方案A大球校准: 弱弱档 大球概率+5pp(英联杯, 分档拟合实证)",
+   "规则6小2.50高EV禁出(按方案A校准前EV): 移除1腿(EV>=20%, 高价值档24注-10.8%, 升级规则②反向标记->禁出)",
+   "积分榜主队: 英冠第21/24 积0分 近2场 form=LLLWL",
+   "积分榜客队: 英超第4/20 积3分 近1场 form=WLLDD"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 03:00",
+  "ko_utc": "2026-08-26T19:00:00+00:00",
+  "league": "欧冠",
+  "home": "NK Celje",
+  "away": "ŠK Slovan Bratislava",
+  "lambda": {
+   "home": 1.28,
+   "away": 0.89,
+   "sum": 2.17
+  },
+  "wdl": {
+   "home": 43.1,
+   "draw": 29.7,
+   "away": 27.3
+  },
+  "market_fair": {
+   "home": 38.9,
+   "draw": 29.6,
+   "away": 31.6
+  },
+  "direction": "小2.50",
+  "dir_prob": 0.6307,
+  "dir_odds": 1.74,
+  "dir_ev": 0.0352,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 29.6,
+   "strong": false
+  },
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2主胜",
+     "ev": -2.7
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "小2.50",
+     "ev": 3.5
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "小2.50",
+    "prob": 0.6307,
+    "odds": 1.74,
+    "ev": 0.0352
+   },
+   {
+    "name": "大2.50",
+    "prob": 0.3693,
+    "odds": 2.06,
+    "ev": -0.2824
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.4306,
+    "odds": 2.41,
+    "ev": -0.0274,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2966,
+    "odds": 3.17,
+    "ev": -0.119,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.2728,
+    "odds": 2.97,
+    "ev": -0.2407,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "杯赛参数: 欧冠(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 03:00",
+  "ko_utc": "2026-08-26T19:00:00+00:00",
+  "league": "欧冠",
+  "home": "AEK Athens",
+  "away": "Levski Sofia",
+  "lambda": {
+   "home": 1.99,
+   "away": 0.55,
+   "sum": 2.54
+  },
+  "wdl": {
+   "home": 64.9,
+   "draw": 22.6,
+   "away": 12.5
+  },
+  "market_fair": {
+   "home": 63.5,
+   "draw": 22.8,
+   "away": 13.8
+  },
+  "direction": "小2.50",
+  "dir_prob": 0.5337,
+  "dir_odds": 1.74,
+  "dir_ev": -0.1261,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "伤停>2人(主1/客5)",
+   "缺亚盘"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2主胜",
+     "ev": -11.0
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "大2.50",
+     "ev": -10.0
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "小2.50",
+    "prob": 0.5337,
+    "odds": 1.74,
+    "ev": -0.1261
+   },
+   {
+    "name": "大2.50",
+    "prob": 0.4663,
+    "odds": 2.05,
+    "ev": -0.1003
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.6491,
+    "odds": 1.47,
+    "ev": -0.1097,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2258,
+    "odds": 4.1,
+    "ev": -0.1361,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.1251,
+    "odds": 6.78,
+    "ev": -0.2085,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "杯赛参数: 欧冠(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "数据包伤停: 客队伤停5人(如Akram Bouras,Mustapha Sangaré,Oliver)",
+   "客队数据来自BG",
+   "客队跨联赛用BG数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队样本偏少, 攻防向联赛均值收缩"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 03:00",
+  "ko_utc": "2026-08-26T19:00:00+00:00",
+  "league": "欧冠",
+  "home": "Olympique Lyonnais",
+  "away": "Fenerbahçe",
+  "lambda": {
+   "home": 1.49,
+   "away": 1.27,
+   "sum": 2.75
+  },
+  "wdl": {
+   "home": 40.5,
+   "draw": 26.9,
+   "away": 32.6
+  },
+  "market_fair": {
+   "home": 48.6,
+   "draw": 26.3,
+   "away": 25.2
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.5186,
+  "dir_odds": 1.77,
+  "dir_ev": -0.132,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 26.3,
+   "strong": false
+  },
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "伤停>2人(主3/客12)",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "主胜高估区(赔率1.93: 真实主胜28%, 平局预警下押受让+号)",
+   "主队中游(第4/18, 积3, 近WLLWW)",
+   "客队中游(第8/18, 积3, 近WLDWW)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2客胜",
+     "ev": 13.7
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "小2.50",
+     "ev": -7.6
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "小2.50",
+    "prob": 0.4814,
+    "odds": 2.03,
+    "ev": -0.0761
+   },
+   {
+    "name": "大2.50",
+    "prob": 0.5186,
+    "odds": 1.77,
+    "ev": -0.132
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.4049,
+    "odds": 1.93,
+    "ev": -0.2677,
+    "is_1x2": true,
+    "_overest_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2688,
+    "odds": 3.57,
+    "ev": -0.1005,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.3263,
+    "odds": 3.72,
+    "ev": 0.1374,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "杯赛参数: 欧冠(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "数据包伤停: 主队伤停3人(如Khalis Merah,Mads Bidstrup,Pavel Šul); 客队伤停12人(如Çağlar Söyüncü,Cengiz Ünder,Diego Ca)",
+   "主队数据来自F1",
+   "客队数据来自TK",
+   "主队跨联赛用F1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用TK数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "规则8赔率高估区: 主胜高估区(赔率1.93: 真实主胜28%, 平局预警下押受让+号) (1X2热门方向降权参考, 让球押受让+号)",
+   "积分榜主队: 法甲第4/18 积3分 近1场 form=WLLWW",
+   "积分榜客队: 土超第8/18 积3分 近2场 form=WLDWW"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 03:00",
+  "ko_utc": "2026-08-26T19:00:00+00:00",
+  "league": "欧冠",
+  "home": "Viking FK",
+  "away": "GNK Dinamo Zagreb",
+  "lambda": {
+   "home": 2.06,
+   "away": 1.42,
+   "sum": 3.48
+  },
+  "wdl": {
+   "home": 48.5,
+   "draw": 23.6,
+   "away": 28.0
+  },
+  "market_fair": {
+   "home": 39.6,
+   "draw": 26.1,
+   "away": 34.3
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.65,
+  "dir_odds": 1.54,
+  "dir_ev": -0.07031412061046083,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 26.1,
+   "strong": false
+  },
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "伤停>2人(主3/客4)",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "客胜高估区(赔率2.74: 真实客胜11%, 押受让+号/避平手)",
+   "主队争冠/升级(第2/16, 积40, 近LWWDW)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2主胜",
+     "ev": 7.8
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "大2.50",
+     "ev": -7.0
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "小2.50",
+    "prob": 0.3251,
+    "odds": 2.34,
+    "ev": -0.2934
+   },
+   {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.54,
+    "ev": -0.07031412061046083,
+    "prob_raw": 0.6749
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.4848,
+    "odds": 2.37,
+    "ev": 0.0783,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2357,
+    "odds": 3.59,
+    "ev": -0.206,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.2796,
+    "odds": 2.74,
+    "ev": -0.2811,
+    "is_1x2": true,
+    "_overest_1x2": true
+   }
+  ],
+  "notes": [
+   "杯赛参数: 欧冠(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "数据包伤停: 主队伤停3人(如Anders Baertelsen,Martin Ove Roseth,); 客队伤停4人(如Aleks Stojaković,Dani Rodríguez,Kiri)",
+   "主队数据来自NO",
+   "主队跨联赛用NO数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+   "规则8赔率高估区: 客胜高估区(赔率2.74: 真实客胜11%, 押受让+号/避平手) (1X2热门方向降权参考, 让球押受让+号)",
+   "积分榜主队: 挪超第2/16 积40分 近17场 form=LWWDW"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 03:00",
+  "ko_utc": "2026-08-26T19:00:00+00:00",
+  "league": "西甲",
+  "home": "Real Madrid",
+  "away": "Real Sociedad",
+  "lambda": {
+   "home": 3.21,
+   "away": 0.71,
+   "sum": 3.92
+  },
+  "wdl": {
+   "home": 78.1,
+   "draw": 13.7,
+   "away": 8.2
+  },
+  "market_fair": {
+   "home": 73.5,
+   "draw": 16.1,
+   "away": 10.4
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.65,
+  "dir_odds": 1.41,
+  "dir_ev": -0.1415619149505215,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "伤停>2人(主6/客4)",
+   "缺亚盘",
+   "主队中游(第7/20, 积3, 近WWWWL)",
+   "客队保级(第19/20, 积0, 近LDLDD)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2主胜",
+     "ev": -20.5
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "大2.50",
+     "ev": -14.2
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "小2.50",
+    "prob": 0.2522,
+    "odds": 2.79,
+    "ev": -0.341
+   },
+   {
+    "name": "大2.50",
+    "prob": 0.65,
+    "odds": 1.41,
+    "ev": -0.1415619149505215,
+    "prob_raw": 0.7478
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.65,
+    "odds": 1.29,
+    "ev": -0.20485275288092186,
+    "is_1x2": true,
+    "prob_raw": 0.781
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.1371,
+    "odds": 5.88,
+    "ev": -0.2354,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.0819,
+    "odds": 9.15,
+    "ev": -0.2896,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "数据包伤停: 主队伤停6人(如Aurélien Tchouaméni,Endrick,Ferland ); 客队伤停4人(如Álvaro Odriozola,Ander Barrenetxea,J)",
+   "概率封顶校准: 2腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+   "积分榜主队: 西甲第7/20 积3分 近1场 form=WWWWL",
+   "积分榜客队: 西甲第19/20 积0分 近1场 form=LDLDD"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 05:00",
+  "ko_utc": "2026-08-26T21:00:00+00:00",
+  "league": "哥甲",
+  "home": "Boyacá Chicó FC",
+  "away": "Fortaleza FC",
+  "lambda": {
+   "home": 1.44,
+   "away": 0.56,
+   "sum": 2.0
+  },
+  "wdl": {
+   "home": 59.0,
+   "draw": 26.8,
+   "away": 14.2
+  },
+  "market_fair": {
+   "home": 34.9,
+   "draw": 31.3,
+   "away": 33.8
+  },
+  "direction": "1X2主胜",
+  "dir_prob": 0.5898,
+  "dir_odds": 2.62,
+  "dir_ev": 0.4137,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 31.3,
+   "strong": true
+  },
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "平局预警-强(市场去水平局>=30%)",
+   "客胜高估区(赔率2.71: 真实客胜11%, 押受让+号/避平手)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2主胜",
+     "ev": 41.4
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "1X2主胜",
+    "prob": 0.5898,
+    "odds": 2.62,
+    "ev": 0.4137,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2679,
+    "odds": 2.92,
+    "ev": -0.2845,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.1423,
+    "odds": 2.71,
+    "ev": -0.6472,
+    "is_1x2": true,
+    "_overest_1x2": true
+   }
+  ],
+  "notes": [
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+   "概率禁带: 1腿让球主/小球概率∈[65%,70%)实测高估, 不纳入候选",
+   "规则7强预警改+号: 强平局预警>=30%+2.50大小球盘移除2腿, 只打+号受让(无正EV+号则无单)",
+   "规则8赔率高估区: 客胜高估区(赔率2.71: 真实客胜11%, 押受让+号/避平手) (1X2热门方向降权参考, 让球押受让+号)"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 07:20",
+  "ko_utc": "2026-08-26T23:20:00+00:00",
+  "league": "哥甲",
+  "home": "América de Cali",
+  "away": "Junior Barranquilla",
+  "lambda": {
+   "home": 1.3,
+   "away": 1.3,
+   "sum": 2.6
+  },
+  "wdl": {
+   "home": 36.8,
+   "draw": 26.4,
+   "away": 36.8
+  },
+  "market_fair": {
+   "home": 49.2,
+   "draw": 27.8,
+   "away": 23.0
+  },
+  "direction": "小2.50",
+  "dir_prob": 0.5184,
+  "dir_odds": 1.72,
+  "dir_ev": -0.1641,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 27.8,
+   "strong": false
+  },
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "主胜高估区(赔率1.87: 真实主胜28%, 平局预警下押受让+号)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2客胜",
+     "ev": 35.9
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "大2.50",
+     "ev": -7.0
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "小2.50",
+    "prob": 0.5184,
+    "odds": 1.72,
+    "ev": -0.1641
+   },
+   {
+    "name": "大2.50",
+    "prob": 0.4816,
+    "odds": 2.06,
+    "ev": -0.0701
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.368,
+    "odds": 1.87,
+    "ev": -0.3664,
+    "is_1x2": true,
+    "_overest_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2639,
+    "odds": 3.31,
+    "ev": -0.1958,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.368,
+    "odds": 4.01,
+    "ev": 0.3587,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "规则8赔率高估区: 主胜高估区(赔率1.87: 真实主胜28%, 平局预警下押受让+号) (1X2热门方向降权参考, 让球押受让+号)"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 08:00",
+  "ko_utc": "2026-08-27T00:00:00+00:00",
+  "league": "NWSL",
+  "home": "North Carolina Courage",
+  "away": "Angel City FC",
+  "lambda": {
+   "home": 2.04,
+   "away": 1.6,
+   "sum": 3.65
+  },
+  "wdl": {
+   "home": 48.1,
+   "draw": 21.3,
+   "away": 30.6
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "客队样本偏少, 攻防向联赛均值收缩"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 08:30",
+  "ko_utc": "2026-08-27T00:30:00+00:00",
+  "league": "巴西杯",
+  "home": "Vasco da Gama",
+  "away": "Vitória",
+  "lambda": {
+   "home": 1.62,
+   "away": 0.79,
+   "sum": 2.41
+  },
+  "wdl": {
+   "home": 52.2,
+   "draw": 26.8,
+   "away": 21.0
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "伤停>2人(主3/客8)",
+   "缺亚盘",
+   "缺大小球",
+   "主队保级(第19/20, 积22, 近LLDDL)",
+   "客队中游(第12/20, 积29, 近LWLLL)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: None(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "数据包伤停: 主队伤停3人(如Brenner,Jair,Johan Rojas); 客队伤停8人(如Alex Bruno,Anderson Pato,Caique Gonç)",
+   "主队数据来自BR",
+   "客队数据来自BR",
+   "主队跨联赛用BR数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用BR数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "积分榜主队: 巴甲第19/20 积22分 近23场 form=LLDDL",
+   "积分榜客队: 巴甲第12/20 积29分 近24场 form=LWLLL"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 08:30",
+  "ko_utc": "2026-08-27T00:30:00+00:00",
+  "league": "巴西杯",
+  "home": "Palmeiras",
+  "away": "Santos",
+  "lambda": {
+   "home": 2.18,
+   "away": 0.57,
+   "sum": 2.75
+  },
+  "wdl": {
+   "home": 67.4,
+   "draw": 20.9,
+   "away": 11.7
+  },
+  "market_fair": {
+   "home": 60.8,
+   "draw": 23.9,
+   "away": 15.3
+  },
+  "direction": "大2.50",
+  "dir_prob": 0.5176,
+  "dir_odds": 2.03,
+  "dir_ev": -0.0095,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "伤停>2人(主6/客4)",
+   "缺亚盘",
+   "主队争冠/升级(第1/20, 积51, 近WLDWL)",
+   "客队中游(第14/20, 积26, 近DWLDL)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2主胜",
+     "ev": -8.7
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "大2.50",
+     "ev": -0.9
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "小2.50",
+    "prob": 0.4824,
+    "odds": 1.76,
+    "ev": -0.1996
+   },
+   {
+    "name": "大2.50",
+    "prob": 0.5176,
+    "odds": 2.03,
+    "ev": -0.0095
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.65,
+    "odds": 1.52,
+    "ev": -0.08714582406171201,
+    "is_1x2": true,
+    "prob_raw": 0.6741
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2091,
+    "odds": 3.86,
+    "ev": -0.2542,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.1168,
+    "odds": 6.05,
+    "ev": -0.3468,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "杯赛参数: None(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "数据包伤停: 主队伤停6人(如Allan,Bruno Fuchs,Jefté,Khellven,Pau); 客队伤停4人(如Gabriel Menino,Gustavinho,Igor Viníc)",
+   "主队数据来自BR",
+   "客队数据来自MX",
+   "主队跨联赛用BR数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用MX数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "概率封顶校准: 1腿概率>65%压至65%(实测高置信档高估, EV同抽水重算)",
+   "积分榜主队: 巴甲第1/20 积51分 近24场 form=WLDWL",
+   "积分榜客队: 巴甲第14/20 积26分 近23场 form=DWLDL"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 08:30",
+  "ko_utc": "2026-08-27T00:30:00+00:00",
+  "league": "南美杯",
+  "home": "River Plate",
+  "away": "Independiente Santa Fe",
+  "lambda": {
+   "home": 1.6,
+   "away": 0.99,
+   "sum": 2.58
+  },
+  "wdl": {
+   "home": 47.8,
+   "draw": 26.8,
+   "away": 25.4
+  },
+  "market_fair": {
+   "home": 65.4,
+   "draw": 22.8,
+   "away": 11.9
+  },
+  "direction": "小2.50",
+  "dir_prob": 0.5228,
+  "dir_odds": 1.6,
+  "dir_ev": -0.2107,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "伤停>2人(主1/客6)",
+   "缺亚盘"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2客胜",
+     "ev": 84.3
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "大2.50",
+     "ev": 3.6
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "小2.50",
+    "prob": 0.5228,
+    "odds": 1.6,
+    "ev": -0.2107
+   },
+   {
+    "name": "大2.50",
+    "prob": 0.4772,
+    "odds": 2.3,
+    "ev": 0.0356
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.4779,
+    "odds": 1.42,
+    "ev": -0.37,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2682,
+    "odds": 4.08,
+    "ev": 0.0159,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.2539,
+    "odds": 7.82,
+    "ev": 0.843,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "杯赛参数: None(league_avg=3.28 home=1.15 away=1.00 fatigue=0.90 rho=0.00)",
+   "数据包伤停: 客队伤停6人(如Andrés Mosquera,Daniel Torres,Kevin )",
+   "主队数据来自AR",
+   "客队数据来自CO",
+   "主队跨联赛用AR数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用CO数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队样本偏少, 攻防向联赛均值收缩"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 09:00",
+  "ko_utc": "2026-08-27T01:00:00+00:00",
+  "league": "USL",
+  "home": "El Paso Locomotive FC",
+  "away": "Pittsburgh Riverhounds",
+  "lambda": {
+   "home": 1.11,
+   "away": 1.16,
+   "sum": 2.27
+  },
+  "wdl": {
+   "home": 34.5,
+   "draw": 28.6,
+   "away": 36.9
+  },
+  "market_fair": {
+   "home": 42.5,
+   "draw": 29.5,
+   "away": 28.0
+  },
+  "direction": "小2.50",
+  "dir_prob": 0.6035,
+  "dir_odds": 1.62,
+  "dir_ev": -0.0896,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 29.5,
+   "strong": false
+  },
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "主胜高估区(赔率2.13: 真实主胜28%, 平局预警下押受让+号)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2客胜",
+     "ev": 7.9
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "小2.50",
+     "ev": -9.0
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "小2.50",
+    "prob": 0.6035,
+    "odds": 1.62,
+    "ev": -0.0896
+   },
+   {
+    "name": "大2.50",
+    "prob": 0.3965,
+    "odds": 2.19,
+    "ev": -0.1914
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.3453,
+    "odds": 2.13,
+    "ev": -0.3342,
+    "is_1x2": true,
+    "_overest_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2857,
+    "odds": 3.07,
+    "ev": -0.2062,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.369,
+    "odds": 3.23,
+    "ev": 0.0788,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "规则8赔率高估区: 主胜高估区(赔率2.13: 真实主胜28%, 平局预警下押受让+号) (1X2热门方向降权参考, 让球押受让+号)"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 09:30",
+  "ko_utc": "2026-08-27T01:30:00+00:00",
+  "league": "哥甲",
+  "home": "Atlético Nacional",
+  "away": "Deportivo Cali",
+  "lambda": {
+   "home": 1.3,
+   "away": 1.25,
+   "sum": 2.55
+  },
+  "wdl": {
+   "home": 37.9,
+   "draw": 26.7,
+   "away": 35.4
+  },
+  "market_fair": {
+   "home": 57.4,
+   "draw": 24.8,
+   "away": 17.8
+  },
+  "direction": "小2.50",
+  "dir_prob": 0.5316,
+  "dir_odds": 1.77,
+  "dir_ev": -0.1186,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "伤停>2人(主2/客4)",
+   "缺亚盘"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2客胜",
+     "ev": 65.5
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "小2.50",
+     "ev": -11.9
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "小2.50",
+    "prob": 0.5316,
+    "odds": 1.77,
+    "ev": -0.1186
+   },
+   {
+    "name": "大2.50",
+    "prob": 0.4684,
+    "odds": 1.99,
+    "ev": -0.1268
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.3788,
+    "odds": 1.59,
+    "ev": -0.4504,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2669,
+    "odds": 3.68,
+    "ev": -0.1037,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.3542,
+    "odds": 5.12,
+    "ev": 0.6549,
+    "is_1x2": true
+   }
+  ],
+  "notes": [
+   "数据包伤停: 客队伤停4人(如Gustavo Cuéllar,Juan Dinenno,Kalazan)",
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "客队样本偏少, 攻防向联赛均值收缩"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-27 09:30",
+  "ko_utc": "2026-08-27T01:30:00+00:00",
+  "league": "USL",
+  "home": "New Mexico United",
+  "away": "Lexington SC",
+  "lambda": {
+   "home": 1.52,
+   "away": 0.96,
+   "sum": 2.47
+  },
+  "wdl": {
+   "home": 50.2,
+   "draw": 25.9,
+   "away": 23.9
+  },
+  "market_fair": {
+   "home": 35.1,
+   "draw": 27.8,
+   "away": 37.1
+  },
+  "direction": "小2.50",
+  "dir_prob": 0.5506,
+  "dir_odds": 2.01,
+  "dir_ev": 0.0322,
+  "vetoed": false,
+  "veto_reason": null,
+  "draw_warn": {
+   "market_draw_prob": 27.8,
+   "strong": false
+  },
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "平局预警(市场去水平局>=26%)",
+   "客胜高估区(赔率2.44: 真实客胜11%, 押受让+号/避平手)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": "1X2主胜",
+     "ev": 17.2
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": "小2.50",
+     "ev": 3.2
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [
+   {
+    "name": "小2.50",
+    "prob": 0.5506,
+    "odds": 2.01,
+    "ev": 0.0322
+   },
+   {
+    "name": "大2.50",
+    "prob": 0.4494,
+    "odds": 1.74,
+    "ev": -0.2707
+   },
+   {
+    "name": "1X2主胜",
+    "prob": 0.5022,
+    "odds": 2.58,
+    "ev": 0.1723,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2平局",
+    "prob": 0.2589,
+    "odds": 3.25,
+    "ev": -0.2385,
+    "is_1x2": true
+   },
+   {
+    "name": "1X2客胜",
+    "prob": 0.2389,
+    "odds": 2.44,
+    "ev": -0.4726,
+    "is_1x2": true,
+    "_overest_1x2": true
+   }
+  ],
+  "notes": [
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "规则8赔率高估区: 客胜高估区(赔率2.44: 真实客胜11%, 押受让+号/避平手) (1X2热门方向降权参考, 让球押受让+号)"
+  ],
+  "error": null
+ }
+]

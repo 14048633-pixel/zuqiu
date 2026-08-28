@@ -49,6 +49,31 @@ def _get(path, tries=2, timeout=20):
     return None
 
 
+def event_settle_scores(j):
+    """BSD event -> 90-minute settle score check.
+    BSD puts the after-extra-time score into home_score/away_score with period=AET/PEN,
+    and does not expose the 90-minute score -> needs_verify=True (fill from authoritative source).
+    Outlier: Larne was mislabelled period=FT/minute=90 while score was actually AET 0:3,
+    so minute>=100 also triggers the AET flag as a fallback.
+    Returns: {period, is_aet, hg_aet, ag_aet, hg_90, ag_90, needs_verify}
+    """
+    period = str(j.get("period") or "FT")
+    minute = j.get("current_minute") or 0
+    try:
+        minute = int(minute)
+    except (TypeError, ValueError):
+        minute = 0
+    is_aet = period in ("AET", "PEN") or minute >= 100
+    hg, ag = j.get("home_score"), j.get("away_score")
+    if not is_aet:
+        return {"period": period, "is_aet": False,
+                "hg_aet": None, "ag_aet": None,
+                "hg_90": hg, "ag_90": ag, "needs_verify": False}
+    return {"period": period, "is_aet": True,
+            "hg_aet": hg, "ag_aet": ag,
+            "hg_90": None, "ag_90": None, "needs_verify": True}
+
+
 def fetch_squad(team_id):
     """-> players 列表; 失败返回 None."""
     j = _get("/api/v2/teams/%d/squad/" % team_id)

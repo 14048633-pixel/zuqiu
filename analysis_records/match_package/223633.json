@@ -1,0 +1,156 @@
+{
+ "id": 223633,
+ "league": "Liga Profesional de Fútbol",
+ "kickoff": "08-29 06:00",
+ "kickoff_iso": "2026-08-28T22:00:00+00:00",
+ "home": "Club Atlético Unión de Santa Fe",
+ "away": "Sarmiento",
+ "home_id": 4620,
+ "away_id": 4999,
+ "pulled_at": "2026-08-28T18:52:10.259805+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 2667,
+    "name": "Leonardo Carol Madelon",
+    "short_name": "L. C. Madelon",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 23.0,
+    "avg_goals_scored": 1.43,
+    "avg_goals_conceded": 1.3
+   },
+   "away": {
+    "id": 3199,
+    "name": "Facundo Sava",
+    "short_name": "F. Sava",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 20.0,
+    "avg_goals_scored": 1.05,
+    "avg_goals_conceded": 1.4
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.76,
+   "draw": 3.2,
+   "away_win": 4.5,
+   "over_15_goals": 1.33,
+   "over_25_goals": 2.1,
+   "over_35_goals": 3.75,
+   "under_15_goals": 3.25,
+   "under_25_goals": 1.7,
+   "under_35_goals": 1.25,
+   "btts_yes": 1.95,
+   "btts_no": 1.78
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 89265,
+    "name": "Ignacio Malcorra",
+    "short_name": "I. Malcorra",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 22801,
+    "name": "Joaquin Mosqueira",
+    "short_name": "J. Mosqueira",
+    "status": "injured",
+    "reason": "Sprained Knee Injury"
+   },
+   {
+    "id": 89267,
+    "name": "Julián Palacios",
+    "short_name": "J. Palacios",
+    "status": "suspended",
+    "reason": "red_card_suspension"
+   },
+   {
+    "id": 89278,
+    "name": "Lautaro Vargas",
+    "short_name": "L. Vargas",
+    "status": "injured",
+    "reason": "Sprained Knee Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 90736,
+    "name": "Joel Godoy",
+    "short_name": "J. Godoy",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.691,
+   "away": 0.732
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-28T08:32:31Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.338,
+    "home_ga": 1.062,
+    "away_gf": 1.4,
+    "away_ga": 1.51,
+    "n_home": 6.5,
+    "n_away": 10.0,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 4620
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.451,
+    "home_ga": 0.934,
+    "away_gf": 0.959,
+    "away_ga": 1.703,
+    "n_home": 9.1,
+    "n_away": 7.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 4999
+   }
+  }
+ }
+}

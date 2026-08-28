@@ -1,0 +1,166 @@
+{
+ "id": 210071,
+ "league": "Serie A",
+ "kickoff": "08-30 02:45",
+ "kickoff_iso": "2026-08-29T18:45:00+00:00",
+ "home": "Juventus",
+ "away": "Parma",
+ "home_id": 73,
+ "away_id": 74,
+ "pulled_at": "2026-08-27T20:29:20.362884+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 471,
+    "name": "Luciano Spalletti",
+    "short_name": "L. Spalletti",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 55.0,
+    "avg_goals_scored": 1.58,
+    "avg_goals_conceded": 1.02
+   },
+   "away": {
+    "id": 314,
+    "name": "Carlos Cuesta",
+    "short_name": "C. Cuesta",
+    "profile": "defensive",
+    "preferred_formation": "3-5-2",
+    "matches_total": 45.0,
+    "avg_goals_scored": 0.78,
+    "avg_goals_conceded": 1.2
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": "3-5-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.21,
+   "draw": 6.47,
+   "away_win": 13.8,
+   "over_15_goals": 1.19,
+   "over_25_goals": 1.64,
+   "over_35_goals": 2.58,
+   "under_15_goals": 4.53,
+   "under_25_goals": 2.24,
+   "under_35_goals": 1.47,
+   "btts_yes": 2.37,
+   "btts_no": 1.53
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 2193,
+    "name": "Federico Gatti",
+    "short_name": "F. Gatti",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 2611,
+    "name": "Jeff Ekhator",
+    "short_name": "J. Ekhator",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 2184,
+    "name": "Kenan Yıldız",
+    "short_name": "K. Yıldız",
+    "status": "injured",
+    "reason": "Foot Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 2557,
+    "name": "Benjamin Cremaschi",
+    "short_name": "B. Cremaschi",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   },
+   {
+    "id": 4817,
+    "name": "Botond Balogh",
+    "short_name": "B. Balogh",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 39501,
+    "name": "Giovanni Daffara",
+    "short_name": "G. Daffara",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 1341,
+    "name": "Hans Nicolussi Caviglia",
+    "short_name": "H. Caviglia",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.591,
+   "away": 0.582
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-5-2"
+  },
+  "updated_at": "2026-08-27T08:37:27Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.693,
+    "home_ga": 0.774,
+    "away_gf": 1.379,
+    "away_ga": 1.007,
+    "n_home": 45.6,
+    "n_away": 45.6,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.037,
+    "home_ga": 1.381,
+    "away_gf": 0.783,
+    "away_ga": 1.3,
+    "n_home": 32.3,
+    "n_away": 32.3,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "id": 205883,
+ "league": "Chinese Super League",
+ "kickoff": "08-28 19:35",
+ "kickoff_iso": "2026-08-28T11:35:00+00:00",
+ "home": "Shanghai Shenhua",
+ "away": "Shandong Taishan",
+ "home_id": 2035,
+ "away_id": 2031,
+ "pulled_at": "2026-08-28T18:47:34.614362+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=3459) 未提取",
+  "away教练(coach_cache未命中 id=3171) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.62,
+   "draw": 4.45,
+   "away_win": 4.16,
+   "over_15_goals": 1.05,
+   "over_25_goals": 1.25,
+   "over_35_goals": 1.67,
+   "under_15_goals": 8.25,
+   "under_25_goals": 3.73,
+   "under_35_goals": 2.15,
+   "btts_yes": 1.31,
+   "btts_no": 3.15
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.886,
+   "away": 0.755
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-28T08:32:06Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.962,
+    "home_ga": 1.7,
+    "away_gf": 1.953,
+    "away_ga": 1.8,
+    "n_home": 8.0,
+    "n_away": 8.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2035
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.333,
+    "home_ga": 1.417,
+    "away_gf": 1.273,
+    "away_ga": 1.909,
+    "n_home": 12.0,
+    "n_away": 11.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "id": 220083,
+ "league": "Categoría Primera A",
+ "kickoff": "08-28 09:15",
+ "kickoff_iso": "2026-08-28T01:15:00+00:00",
+ "home": "Once Caldas",
+ "away": "Deportes Tolima",
+ "home_id": 3891,
+ "away_id": 781,
+ "pulled_at": "2026-08-28T18:47:11.069700+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 2692,
+    "name": "Hernán Herrera",
+    "short_name": "H. D. H. Ramirez",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 29.0,
+    "avg_goals_scored": 1.66,
+    "avg_goals_conceded": 1.07
+   },
+   "away": {
+    "id": 1966,
+    "name": "Sebastián Oliveros",
+    "short_name": "S. Oliveros",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 29.0,
+    "avg_goals_scored": 1.45,
+    "avg_goals_conceded": 1.03
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.14,
+   "draw": 3.06,
+   "away_win": 3.55,
+   "over_15_goals": 1.32,
+   "over_25_goals": 2.01,
+   "over_35_goals": 3.41,
+   "under_15_goals": 3.24,
+   "under_25_goals": 1.77,
+   "under_35_goals": 1.29,
+   "btts_yes": 1.75,
+   "btts_no": 2.0
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 18512,
+    "name": "Brayan Rovira",
+    "short_name": "B. Rovira",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 20056,
+    "name": "Ever Valencia",
+    "short_name": "E. Valencia",
+    "status": "injured",
+    "reason": "Achilles Tendon Injury"
+   },
+   {
+    "id": 22806,
+    "name": "Jherson Mosquera",
+    "short_name": "J. Mosquera",
+    "status": "injured",
+    "reason": "Sprained Ankle"
+   },
+   {
+    "id": 18516,
+    "name": "Luis Sandoval",
+    "short_name": "L. Sandoval",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.7,
+   "away": 0.682
+  },
+  "formation": {
+   "home": "4-1-4-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-27T20:32:14Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 0.5,
+    "away_gf": 1.0,
+    "away_ga": 1.0,
+    "n_home": 2.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 3.0,
+    "home_ga": 1.0,
+    "away_gf": 1.0,
+    "away_ga": 1.0,
+    "n_home": 1.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

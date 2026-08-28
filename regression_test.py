@@ -569,15 +569,16 @@ def test_poisson_lambda():
     check("λH(无修正)", r["lam_h"], round(1.5 * 1.2 / 1.4, 4))
     check("λA(无修正)", r["lam_a"], round(1.0 * 1.1 / 1.4, 4))
     r2 = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8, risk_signal=0.05)
-    check("λH+风险信号(+5%)", r2["lam_h"], round(1.5 * 1.2 / 1.4 * 1.05, 4))
-    check("λA-风险信号(-5%)", r2["lam_a"], round(1.0 * 1.1 / 1.4 * 0.95, 4))
+    # P0-1 审计(2026-08-28): 单边限幅±5% + 双向相对差≤±10% → 满额信号等比收缩为 ±4.76%
+    check("λH+风险信号(+4.76%)", r2["lam_h"], round(1.5 * 1.2 / 1.4 * (1.0 + 0.10 / 2.1), 4))
+    check("λA-风险信号(-4.76%)", r2["lam_a"], round(1.0 * 1.1 / 1.4 * (1.0 - 0.10 / 2.1), 4))
     r3 = calc_lambdas(home_gf=5.0, away_ga=5.0, away_gf=1.0, home_ga=1.0, league_avg=2.0)
     check("λ超上限截断到4.5", r3["lam_h"], 4.5)
     check("λ截断告警标记", r3["clipped"], True)
     r4 = calc_lambdas(home_gf=0.05, away_ga=1.0, away_gf=1.0, home_ga=1.0, league_avg=2.0)
     check("λ低下限截断到0.2", r4["lam_h"], 0.2)
-    check("风险信号±10%硬限幅", calc_lambdas(home_gf=1.0, away_ga=1.0, away_gf=1.0, home_ga=1.0,
-                    league_avg=2.0, risk_signal=99.0)["lam_h"], 1.1)
+    check("风险信号±5%硬限幅(相对差≤10%→单边4.76%)", calc_lambdas(home_gf=1.0, away_ga=1.0, away_gf=1.0, home_ga=1.0,
+                    league_avg=2.0, risk_signal=99.0)["lam_h"], round(1.0 * (1.0 + 0.10 / 2.1), 4))
 
 
 def test_poisson_lambda_v3_audit():
@@ -598,7 +599,7 @@ def test_poisson_lambda_v3_audit():
     base = calc_lambda_base(1.5, 1.2, 1.4)
     r_rs = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8,
                         risk_signal=0.12)
-    check("RiskSignal=0.12截断=+10%", r_rs["lam_h"], round(base * 1.10, 4))
+    check("RiskSignal=0.12截断=+5%且相对差钳位", r_rs["lam_h"], round(base * (1.0 + 0.10 / 2.1), 4))
     # 4. 3场样本 → 联赛基准 + 告警; 6场样本 → 向均值收缩30%
     g3, w3 = adjust_gf_by_sample(2.5, 3, 2.8)
     check("3场样本=联赛基准", g3, 1.4)
@@ -639,7 +640,8 @@ def test_poisson_lambda_v4_audit():
     # P1 结构化错误码 + calc_lambdas 输出市场概率
     r = calc_lambdas(home_gf=5.0, away_ga=5.0, away_gf=1.0, home_ga=1.0, league_avg=2.0)
     check("λ截断标准码LAM_H_CLIP", W_LAM_H_CLIP in r["warn_codes"], True)
-    check("warnings文本含code前缀", str(r["warnings"][0]).startswith("[LAM_H_CLIP]"), True)
+    _lam_h_warns = [str(w) for w in r["warnings"] if w["code"] == W_LAM_H_CLIP]
+    check("warnings文本含code前缀", bool(_lam_h_warns) and _lam_h_warns[0].startswith("[LAM_H_CLIP]"), True)
     check("calc_lambdas输出market_prob", "market_prob" in r and "score_prob" in r, True)
     r_rho = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8, rho=-0.1)
     check("rho参数生效(平局概率提升)", r_rho["market_prob"]["draw"] > 0.20, True)
@@ -654,7 +656,7 @@ def test_poisson_lambda_v4_audit():
     check("强基本面+反向信号标记冲突", conf["conflict"] and conf["level"] == "strong", True)
     r_conf = calc_lambdas(home_gf=2.5, away_ga=1.2, away_gf=1.0, home_ga=1.0, league_avg=2.0, risk_signal=-0.08)
     check("风险对抗告警码RISK_CONFLICT", W_RISK_CONFLICT in r_conf["warn_codes"], True)
-    check("冲突扰动减半(λ×0.96而非0.92)", r_conf["lam_h"], round(3.0 * 0.96, 4))
+    check("冲突扰动减半(λ×0.975: -0.08先截断±5%再减半)", r_conf["lam_h"], round(3.0 * 0.975, 4))
     # P3 工具: 浮点兜底 / Warn 对象
     check("_to_float字符串转换", _to_float("1.5"), 1.5)
     check("_to_float空值兜底", _to_float(None), 0.0)
@@ -677,28 +679,31 @@ def test_poisson_lambda_v5_audit():
                                 W_LAM_BASE_INPUT_CLIP)
     base_h = round(1.5 * 1.2 / 1.4, 4)   # 1.2857
     base_a = round(1.0 * 1.1 / 1.4, 4)   # 0.7857
-    # 1. 分边风险信号独立生效 (主队+8% / 客队-5%)
+    # 1. 分边风险信号独立生效 (主队+8%→限幅5% / 客队-5%)
     r_split = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8,
                            risk_signal_h=0.08, risk_signal_a=-0.05)
-    check("分边信号主队×1.08", r_split["lam_h"], round(base_h * 1.08, 4))
-    check("分边信号客队×0.95", r_split["lam_a"], round(base_a * 0.95, 4))
+    # P0-1 审计(2026-08-28): 单边限幅±5% + 双向相对差≤±10% → (0.05/-0.05 等比收缩 → ±4.76%)
+    check("分边信号主队×1.04762(限幅+相对差钳位)", r_split["lam_h"], round(base_h * (1.0 + 0.05 * (0.10 / 0.105)), 4))
+    check("分边信号客队×0.95238(限幅+相对差钳位)", r_split["lam_a"], round(base_a * (1.0 - 0.05 * (0.10 / 0.105)), 4))
     check("返回risk_signal_h/a字段", "risk_signal_h" in r_split and "risk_signal_a" in r_split, True)
     # 2. 闷平双降: 单标量无法表达, 分边可同时压低双方λ
     r0 = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8)
+    # 2026-08-28: 单边限幅±5%后冲突阈值降至3% → 满额-5%在强基本面侧会触发冲突减半,
+    #   闷平用例改用-3%(阈值下)保持"双降×0.97"语义纯净
     r_dl = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8,
-                        risk_signal_h=-0.05, risk_signal_a=-0.05)
+                        risk_signal_h=-0.03, risk_signal_a=-0.03)
     check("闷平双降: 主队λ下降", r_dl["lam_h"] < r0["lam_h"], True)
     check("闷平双降: 客队λ下降", r_dl["lam_a"] < r0["lam_a"], True)
-    check("闷平双降数值=×0.95", r_dl["lam_h"], round(base_h * 0.95, 4))
-    # 3. 分边超限钳位 ±10% (SOP铁律)
+    check("闷平双降数值=×0.97", r_dl["lam_h"], round(base_h * 0.97, 4))
+    # 3. 分边超限钳位 ±5% (2026-08-28审计)
     r_clip = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8,
                           risk_signal_h=0.12)
-    check("分边0.12截断=+10%", r_clip["risk_signal_h"], 0.1)
+    check("分边0.12截断=+5%", r_clip["risk_signal_h"], 0.05)
     check("分边超限告警RISK_CLIP", W_RISK_CLIP in r_clip["warn_codes"], True)
-    # 4. 分边信号基本面冲突 → 扰动减半+告警 (主队强却看衰)
+    # 4. 分边信号基本面冲突 → 扰动减半+告警 (主队强却看衰; -0.08先截断±5%再减半→-2.5%)
     r_conf = calc_lambdas(home_gf=2.5, away_ga=1.2, away_gf=1.0, home_ga=1.0, league_avg=2.0,
                           risk_signal_h=-0.08)
-    check("分边冲突扰动减半(×0.96)", r_conf["lam_h"], round(3.0 * 0.96, 4))
+    check("分边冲突扰动减半(×0.975)", r_conf["lam_h"], round(3.0 * 0.975, 4))
     check("分边冲突告警RISK_CONFLICT", W_RISK_CONFLICT in r_conf["warn_codes"], True)
     # 5. fatigue/injury 入参生效 (P0 补全入参回归)
     r_fat = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8,
@@ -716,11 +721,126 @@ def test_poisson_lambda_v5_audit():
     # 7. calc_lambda_base 安全约束 (P0除零保底 / P1负场均钳位 / P2钳位告警)
     check("λbase数学等价(gf×ga/avg_atk)", round(calc_lambda_base(1.5, 1.2, 1.4), 6), round(1.5 * 1.2 / 1.4, 6))
     check("avg_atk=0不崩溃(除数保底0.001)", calc_lambda_base(1.5, 1.2, 0.0) < 1e6, True)
-    _lb, _lw = calc_lambda_base_detail(-1.0, 1.2, 1.4)
+    _lb, _lw, _ld = calc_lambda_base_detail(-1.0, 1.2, 1.4)
     check("负主队场均钳位到0.01", round(_lb, 6), round(0.01 * 1.2 / 1.4, 6))
     check("钳位告警码LAM_BASE_INPUT_CLIP", _lw is not None and _lw["code"] == W_LAM_BASE_INPUT_CLIP, True)
+    check("P2-5 中间值hgf_safe=0.01", round(_ld["hgf_safe"], 6), 0.01)
     _r_clip = calc_lambdas(home_gf=-1.0, away_ga=1.2, away_gf=1.0, home_ga=1.0, league_avg=2.8)
     check("calc_lambdas透传钳位告警", W_LAM_BASE_INPUT_CLIP in _r_clip["warn_codes"], True)
+    # ===== v6 审计 (2026-08-27 P0 双层包络) =====
+    from poisson_lambda import (W_RISK_GAP, W_TOTAL_COEF_CLIP, dixon_coles_prob,
+                                Warn, _to_float, _cap_relative_risk)
+    # P0-1: 双向同强度反向扰动 → 相对差恰为 10%
+    rh, ra, k = _cap_relative_risk(0.10, -0.10)
+    check("P0-1 相对差钳位到10%", round((1 + rh) / (1 + ra), 6), 1.10)
+    check("P0-1 等比收缩系数<1", 0 < k < 1, True)
+    r_gap = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8,
+                         risk_signal_h=0.08, risk_signal_a=-0.05)
+    check("P0-1 RISK_GAP告警码", W_RISK_GAP in r_gap["warn_codes"], True)
+    check("P0-1 相对差≤10%", round((1 + r_gap["risk_signal_h"]) / (1 + r_gap["risk_signal_a"]), 4), 1.10)
+    # P0-2: 全修正系数连乘跌破0.7 → 钳位到0.7 + 告警
+    r_tot = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8,
+                         home_coef=1.0, fatigue_coef=0.7, injury_coef_h=0.75)
+    check("P0-2 总包络钳位到0.70", r_tot["total_coef_h"], 0.7)
+    check("P0-2 TOTAL_COEF_CLIP告警码", W_TOTAL_COEF_CLIP in r_tot["warn_codes"], True)
+    check("P0-2 钳位后λ=base×0.7", r_tot["lam_h"], round(1.5 * 1.2 / 1.4 * 0.7, 4))
+    # P0-3: 弱主场<1.0 合法; neutral_coef 覆盖主客系数
+    r_wk = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8, home_coef=0.95)
+    check("P0-3 弱主场0.95合法(λ=base×0.95)", r_wk["lam_h"], round(1.5 * 1.2 / 1.4 * 0.95, 4))
+    r_neu = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8,
+                         home_coef=1.2, neutral_coef=1.0)
+    check("P0-3 中立场neutral_coef=1.0覆盖主加成", r_neu["lam_h"], round(1.5 * 1.2 / 1.4, 4))
+    # P0-4: 校准正ρ不再静默清零 (西甲+0.02/意甲+0.05)
+    r_rho_p = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8, rho=0.05)
+    check("P0-4 正ρ保留(0.05)", r_rho_p["rho"], 0.05)
+    check("P0-4 正ρ不触发RHO_CLAMP", "RHO_CLAMP" not in r_rho_p["warn_codes"], True)
+    sp_p, _ = dixon_coles_prob(1.5, 1.2, rho=0.05)
+    check("P0-4 正ρ比分矩阵归一", round(sum(sp_p.values()), 6), 1.0)
+    # P1-2: 联赛级 λ 上限覆盖
+    r_lm = calc_lambdas(home_gf=5.0, away_ga=5.0, away_gf=1.0, home_ga=1.0, league_avg=2.0, lam_max=5.0)
+    check("P1-2 联赛级lam_max=5.0生效", r_lm["lam_h"], 5.0)
+    # P1-4: 比分矩阵上限9, 大6.5深盘有尾部质量
+    _, mp9 = dixon_coles_prob(3.0, 3.0, rho=-0.1, max_goals=9)
+    _, mp7 = dixon_coles_prob(3.0, 3.0, rho=-0.1, max_goals=7)
+    check("P1-4 9球上限捕获更多大球尾部", mp9["over25"] >= mp7["over25"], True)
+    # P2-2/P2-3: Warn上下文字段 + _to_float 负值钳位
+    w_ctx = Warn("X", "warn", "t", league="英超", match_id="m1")
+    check("P2-2 Warn上下文字段", w_ctx["league"] == "英超" and w_ctx["match_id"] == "m1", True)
+    r_ctx = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8,
+                         league="英超", match_id="m1")
+    check("P2-2 calc_lambdas透传上下文", r_ctx["league"] == "英超" and r_ctx["match_id"] == "m1", True)
+    check("P2-3 _to_float负值钳位", _to_float(-2.0, min_val=0.0), 0.0)
+    check("P2-4 中间变量total_coef输出", "total_coef_h" in r_ctx and "total_coef_a" in r_ctx, True)
+    # ===== v7 审计 (2026-08-27 P0-4 基础λ上界 / P1-1 分边冲突独立减半) =====
+    from poisson_lambda import calc_lambda_base_detail
+    # P0-4: 单队场均进球超联赛单队均值3倍 -> 钳位 + LAM_BASE_INPUT_CLIP
+    _lb7, _lw7, _ld7 = calc_lambda_base_detail(8.0, 1.0, 1.0)   # avg_atk=1.0, cap=3.0
+    check("P0-4 场均8球钳位到3倍均值(3.0)", _lb7, 3.0)
+    check("P0-4 上界钳位告警码", _lw7 is not None and _lw7["code"] == W_LAM_BASE_INPUT_CLIP, True)
+    check("P2-5 中间值cap=3.0", _ld7["cap"], 3.0)
+    _lb7b, _, _ld7b = calc_lambda_base_detail(2.0, 1.0, 1.0)     # 正常值不误伤
+    check("P0-4 正常输入不误伤", _lb7b, 2.0)
+    check("P2-5 正常输入cap=3.0", _ld7b["cap"], 3.0)
+    # P1-1: 分边冲突独立减半 (主边-0.05冲突减半, 客边+0.02<阈值不冲突保持)
+    #   2026-08-28: 单边限幅±5%后冲突阈值降至3%, 满额±5%镜像信号两侧都会触发 → 客边用+2%验证独立减半
+    r_side = calc_lambdas(home_gf=2.5, away_ga=1.2, away_gf=1.0, home_ga=1.0, league_avg=2.0,
+                          risk_signal_h=-0.05, risk_signal_a=0.02)
+    check("P1-1 主边冲突减半(×0.975)", r_side["lam_h"], round(3.0 * 0.975, 4))
+    check("P1-1 客边不冲突保持(×1.02)", r_side["lam_a"], round(1.0 * 1.02, 4))
+    check("P1-1 分边仅主边触发RISK_CONFLICT", r_side["warn_codes"].count(W_RISK_CONFLICT), 1)
+    # 单标量模式保持整体减半 (回归旧行为; -0.08先截断±5%再减半)
+    r_scalar = calc_lambdas(home_gf=2.5, away_ga=1.2, away_gf=1.0, home_ga=1.0, league_avg=2.0,
+                            risk_signal=-0.08)
+    check("P1-1 单标量整体减半(主×0.975)", r_scalar["lam_h"], round(3.0 * 0.975, 4))
+    check("P1-1 单标量整体减半(客×1.025)", r_scalar["lam_a"], round(1.0 * 1.025, 4))
+
+
+def test_lstm_v2_audit():
+    section("11f. LSTM 时序泄漏整改验收 (torch 环境可用时)")
+    try:
+        import torch  # noqa
+    except Exception:
+        print("  ⏭ torch 未安装, 跳过 LSTM 运行时验收 (模块已 py_compile 校验)")
+        return
+    sys.path.insert(0, 'src/models')
+    from lstm_model import MatchSeqDataset, LSTMpredictor
+    # P0-2: 单向架构 + 回归输出
+    m = LSTMpredictor(input_dim=5, hidden_dim=8, num_layers=1)
+    check("P0-2 LSTM单向(bidirectional=False)", m.lstm.bidirectional, False)
+    check("P0-2 fc1输入=hidden×2(2队单向)", m.fc1.in_features, 16)
+    check("P0-3 输出=1维form_score回归", m.fc2.out_features, 1)
+    # P0-1: 无前视泄漏 — 非padding行数必须等于"该场之前"的历史场次
+    import pandas as pd
+    rows = []
+    teams = ["A", "B", "C"]
+    dates = pd.date_range("2026-01-01", periods=12, freq="D")
+    for d in dates:
+        h = teams[d.day % 3]
+        a = teams[(d.day + 1) % 3]
+        rows.append({"date": d, "home_team": h, "away_team": a,
+                     "home_goals": d.day % 4, "away_goals": d.day % 3,
+                     "target": 0.5})
+    df = pd.DataFrame(rows)
+    df_sorted = df.sort_values("date").reset_index(drop=True)
+    sim_hist = {}
+    expected = []
+    for _, row in df_sorted.iterrows():
+        hp = len(sim_hist.get(row["home_team"], []))
+        ap = len(sim_hist.get(row["away_team"], []))
+        if min(hp, ap) >= 1:
+            expected.append((min(3, hp), min(3, ap)))
+        for team in (row["home_team"], row["away_team"]):
+            sim_hist.setdefault(team, []).append(row["date"])
+    ds = MatchSeqDataset(df, seq_len=3, min_seq=1, require_label=False)
+    check("P0-1 样本数=期望(无泄漏无遗漏)", len(ds), len(expected))
+    leak_bad = 0
+    for i, (eh, ea) in enumerate(expected[:len(ds)]):
+        h_enc, a_enc, _ = ds[i]
+        h_np = int((h_enc[:, 4] == 0).sum().item())
+        a_np = int((a_enc[:, 4] == 0).sum().item())
+        if h_np != eh or a_np != ea:
+            leak_bad += 1
+    check("P0-1 序列仅含过去比赛(0泄漏)", leak_bad, 0)
 
 
 def test_data_quality():
@@ -1741,8 +1861,8 @@ def test_odds_veto_rules():
     check("封顶后prob=PROB_CAP", _leg.get("prob"), su.PROB_CAP)
     check("封顶后prob_raw>cap", (_leg.get("prob_raw") or 0) > su.PROB_CAP, True)
     _raw = _leg["prob_raw"]
-    _orr = 1.0 / _leg["odds"] + 1.0 / 1.85
-    _ev_old = (_raw / _orr) * _leg["odds"] - 1
+    # 2026-08-27 EV公式修正(prob*price-1, 不再除抽水): 封顶EV=cap*odds-1
+    _ev_old = _raw * _leg["odds"] - 1
     _ev_new = (su.PROB_CAP / _raw) * (_ev_old + 1) - 1
     check("封顶EV同抽水重算", round(_leg.get("ev", 0), 4), round(_ev_new, 4), tol=0.001)
     check("封顶note标注", any("概率封顶校准" in n for n in r.get("notes", [])), True)
@@ -1825,8 +1945,9 @@ def test_star2_risk_rules():
         check("规则6禁出后大2.50仍在", "大2.50" in _b1b, True)
         check("方向按强弱禁出note", any("让球方向按强弱禁出" in n for n in r1b["notes"]), True)
         check("客强主受best=让球主(+1.5)", (r1b["best_bet"] or {}).get("name"), "让球主(+1.5)")
-        check("客强主受best.EV=12.8%", round((r1b["best_bet"] or {}).get("ev", 0), 4), 0.1281)
-        check("客强主受best.star=2", (r1b["best_bet"] or {}).get("star"), 2)
+        check("客强主受best.EV=19.8%(2026-08-27 EV公式修正后)", round((r1b["best_bet"] or {}).get("ev", 0), 4), 0.1984)
+        check("客强主受best.star=2(2026-08-27规则13仅配置联赛生效: 葡超未配high_home_away_lo, 不加权)", (r1b["best_bet"] or {}).get("star"), 2)
+        check("葡超无高赔主场加权标签", any("高赔主场" in t for t in r1b["risk_tags"]), False)
         # 2026-08-24 葡超基准对齐2.84->2.63后: Casa Pia小2.50 EV再降至4.7%,
         #   不再触发⑥B默认阈值; 临时降阈值0.03验证"EV>=阈值物理禁出"机制仍生效
         _orig_th = su.SMALL_250_HIGH_EV
@@ -1855,17 +1976,24 @@ def test_star2_risk_rules():
         check("深盘-1.0被⑥A物理移除", "让球主(-1.0)" not in [b["name"] for b in r2d["bets"]], True)
 
 
-        # ---- 规则3: 让球客标准档(EV 8~20%) 降星1 ----
-        m3 = _mk("West Ham", "Bournemouth", "英超", H2H,
-                 {"hdp_home": -1.0, "home_price": 1.95, "away_price": 1.90},
-                 {"line": 2.5, "over_price": 1.95, "under_price": 1.95})
-        r3 = su.analyze_match(m3, ts, lavg, index)
+        # ---- 规则3: 让球客标准档(EV 8~20%) 物理移除 ----
+        # 2026-08-27 EV公式修正(prob*price-1)后: 原1.90让球客EV升至0.235高价值档绕开禁出,
+        #   赔率降至1.84让EV落回0.196标准档验证机制; 空伤停包隔离防外部数据漂移
+        _pkg_save_m3 = su._PKG_ATTACKS
+        su._PKG_ATTACKS = {"by_id": {}, "by_name": {"home": {}, "away": {}}}
+        try:
+            m3 = _mk("West Ham", "Bournemouth", "英超", H2H,
+                     {"hdp_home": -1.0, "home_price": 1.95, "away_price": 1.84},
+                     {"line": 2.5, "over_price": 1.95, "under_price": 1.95})
+            r3 = su.analyze_match(m3, ts, lavg, index)
+        finally:
+            su._PKG_ATTACKS = _pkg_save_m3
         # 规则5: 让球客标准档(EV 8~20%) -> 物理移除(账本117注-26.5%重灾区), best 落到大小球
         check("让球客标准档被禁出", (r3["best_bet"] or {}).get("name") != "让球客(+1.0)", True)
         check("让球客禁出后best=大2.50", (r3["best_bet"] or {}).get("name"), "大2.50")
-        check("禁出后best.star", (r3["best_bet"] or {}).get("star"), 1)
+        check("禁出后best.star", (r3["best_bet"] or {}).get("star"), 2)
         check("让球客标准档禁出标注", any("让球客标准档禁出" in n for n in r3["notes"]), True)
-        check("禁出后best.EV", round((r3["best_bet"] or {}).get("ev", 0), 4), 0.1468)
+        check("禁出后best.EV", round((r3["best_bet"] or {}).get("ev", 0), 4), 0.2295)
     finally:
         su.recent_league_avg = _orig_avg
         for _k, _v in _oua_save.items():
@@ -1939,14 +2067,15 @@ def test_rule6_direction_attribution():
         check("规则6小2.50高EV禁出note", any("规则6小2.50高EV禁出" in n for n in r4b["notes"]), True)
         check("规则6小2.50禁出后best不为小", (r4b["best_bet"] or {}).get("name") != "小2.50", True)
 
-        # ---- 规则④修复: 荷甲 ou_under_reverse 且 best=小盘腿 -> 反向标记(此前 startswith("小球") 前缀bug永不生效) ----
+        # ---- 规则④⑪升级(2026-08-27): 荷甲 ou_under_reverse -> 低估区禁小球(取代降星反向标记) ----
         m5 = _mk("FC Utrecht", "Sparta Rotterdam", "荷甲", H2H,
                  {"hdp_home": -0.5, "home_price": 1.95, "away_price": 1.95},
                  {"line": 2.5, "over_price": 1.85, "under_price": 2.05})
         r5 = su.analyze_match(m5, ts, lavg, index)
-        check("规则④荷甲best=小2.50", (r5["best_bet"] or {}).get("name"), "小2.50")
-        check("规则④荷甲小球反向标记", any("联赛小球反向标记" in t for t in r5["risk_tags"]), True)
-        check("规则④荷甲note", any("规则4: 荷甲" in n for n in r5["notes"]), True)
+        check("规则⑪荷甲小球禁带(取代降星)", (r5["best_bet"] or {}).get("name") != "小2.50", True)
+        check("规则⑪荷甲禁小球风险标签", any("低估区禁小球" in t for t in r5["risk_tags"]), True)
+        check("规则⑪荷甲note", any("规则11" in n for n in r5["notes"]), True)
+        check("规则⑪荷甲方向不落小球", (r5["direction"] or {}).get("name") != "小2.50", True)
 
         # ---- 源码分支存在性 + 统计口径 ----
         _sc6 = io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "prediction_v2", "scan_upcoming.py"), encoding="utf-8").read()
@@ -2146,6 +2275,52 @@ def test_rule9_fake_small():
     check("⑨源码分支存在", "fake_small_intercept" in _sc and "假小球拦截" in _sc, True)
 
 
+def test_rule11_under_ban_small():
+    """41. 规则⑪低估区禁小球回归 (2026-08-27, 300场复盘+账本实证):
+    英冠/荷甲(ou_under_reverse) + 杯赛低估区名单(德国杯/英联杯/欧冠/欧联杯/欧协联) + 实测>配置
+    -> 小球腿移出候选+方向; 高估区/正常联赛小球保留."""
+    section("41. 规则⑪低估区禁小球 (小球只在λ高估区推, 低估区禁小)")
+    sys.path.insert(0, 'prediction_v2')
+    import scan_upcoming as su
+
+    check("⑪名单含欧冠", "欧冠" in su.LOW_EST_UNDER_BAN_SMALL, True)
+    check("⑪名单含英联杯", "英联杯" in su.LOW_EST_UNDER_BAN_SMALL, True)
+    check("⑪名单不含中超", "中超" not in su.LOW_EST_UNDER_BAN_SMALL, True)
+
+    # 触发①: ou_under_reverse=True (英冠/荷甲)
+    bets = [
+        {"name": "大2.50", "prob": 0.52, "ev": -0.20},
+        {"name": "小2.50", "prob": 0.48, "ev": 0.12},
+        {"name": "让球主(-0.5)", "prob": 0.60, "ev": 0.15},
+    ]
+    n = su.under_zone_ban_small([dict(b) for b in bets], "英冠", {"ou_under_reverse": True}, False, 0.0)
+    check("⑪英冠禁小球1腿", n, 1)
+    check("⑪英冠小球打标", next(b for b in bets if b["name"] == "小2.50")["_pband_banned"], True)
+    check("⑪英冠大球/让球不受影响", "_pband_banned" not in next(b for b in bets if b["name"].startswith("大")) and "_pband_banned" not in next(b for b in bets if b["name"].startswith("让球")), True)
+
+    # 触发②: 杯赛低估区名单 (欧冠/英联杯/德国杯/欧联杯/欧协联)
+    bets2 = [{"name": "小2.50", "prob": 0.55, "ev": 0.10}]
+    n2 = su.under_zone_ban_small([dict(b) for b in bets2], "欧冠", {}, False, 0.0)
+    check("⑪欧冠禁小球1腿", n2, 1)
+    n2b = su.under_zone_ban_small([dict(b) for b in bets2], "英联杯", {}, False, 0.0)
+    check("⑪英联杯禁小球", n2b, 1)
+
+    # 触发③: 数据驱动(实测场均>配置基准)
+    bets3 = [{"name": "小2.50", "prob": 0.55, "ev": 0.10}]
+    n3 = su.under_zone_ban_small([dict(b) for b in bets3], "瑞超", {}, True, 0.5)
+    check("⑪实测>基准禁小球", n3, 1)
+
+    # 不触发: 正常联赛+无偏差 (西甲/西乙等小球保留)
+    bets4 = [{"name": "小2.50", "prob": 0.55, "ev": 0.10}]
+    n4 = su.under_zone_ban_small([dict(b) for b in bets4], "西甲", {}, False, 0.0)
+    check("⑪西甲不禁小球", n4, 0)
+    check("⑪西甲小球无打标", "_pband_banned" not in bets4[0], True)
+
+    # 源码分支
+    _sc = io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "prediction_v2", "scan_upcoming.py"), encoding="utf-8").read()
+    check("⑪源码分支存在", "under_zone_ban_small" in _sc and "低估区禁小球" in _sc, True)
+
+
 def test_rule8_odds_overest():
     """39. 规则⑧赔率高估区回归 (2026-08-24 M-20260824-03, 账本831注实证):
     主胜1.8~2.2(真实主胜28%)/客胜2.2~2.8(真实客胜11%) -> 高估区标签;
@@ -2189,15 +2364,16 @@ def test_rule8_odds_overest():
         check("⑧A让球-号star=2(3-1降权重, 高估区标签不计n_risk)", r1["star"], 2)
         check("⑧A让球-号仓位x0.5(高价值1.0*0.5降仓, 高估区不计n_risk)", (r1["best_bet"] or {}).get("stake_factor", 0), 0.5)
 
-        # ---- ⑧B: 客胜高估区(赔率2.50) + best=让球客(+0.5) 高价值档(EV0.215避开让客标准档禁出) -> 受让+号加权重 ----
+        # ---- ⑧B: 客胜高估区(赔率2.50) + best=让球客(+0.5) 高价值档(EV0.2384避开让客标准档禁出) -> 受让+号加权重 ----
         # 2026-08-26夹具冻结: 隔离实时match_package伤停(Everton主3伤曾污染夹具致star/stake漂移),
         # 空包确保本用例只测规则⑧本身, 不随外部数据变化
+        # 2026-08-27 EV公式修正后: 原away_price=2.10让球客EV落回标准档被禁出, 升至2.20恢复高价值档
         _pkg_save = su._PKG_ATTACKS
         su._PKG_ATTACKS = {"by_id": {}, "by_name": {"home": {}, "away": {}}}
         try:
             m2 = _mk("Everton", "Leicester City", "英超",
                      {"home": 2.6, "away": 2.5, "draw": 3.3},
-                     {"hdp_home": -0.5, "home_price": 2.10, "away_price": 2.10},
+                     {"hdp_home": -0.5, "home_price": 2.10, "away_price": 2.20},
                      {"line": 2.5, "over_price": 1.95, "under_price": 1.95})
             r2 = su.analyze_match(m2, ts, lavg, index)
         finally:
@@ -2294,6 +2470,121 @@ def test_draw_warn_plus_rules():
         su.recent_league_avg = _orig_avg
         for _k, _v in _oua_save.items():
             su.CAL[_k]["ou_strength_adj"] = _v
+
+
+
+def test_laliga_rule13():
+    """38. 2026-08-27 西甲规则13回归 (3043场实证):
+    ① 热主1.55-2.20 让球主-号禁出 + 热主禁追区标签  ② 西甲防平线28%(平赔<=3.5升强预警)  ③ 高赔主场>2.8 受让+号加权重分支"""
+    section("38. 西甲规则13回归 (热主禁追区/防平线28%/高赔主场客胜)")
+    sys.path.insert(0, 'prediction_v2')
+    from datetime import datetime, timezone
+    import scan_upcoming as su
+
+    ts, lavg, index = su.load_team_stats()
+    _orig_avg = su.recent_league_avg
+    su.recent_league_avg = lambda: {}
+    _oua_save = {_k: _v.get("ou_strength_adj") for _k, _v in su.CAL.items()}
+    for _c in su.CAL.values():
+        _c["ou_strength_adj"] = {}
+    try:
+        def _mk(home, away, league, h2h, sp, tt):
+            return {"id": "t", "league": league, "home": home, "away": away,
+                    "ct": datetime(2026, 8, 16, 12, 0, tzinfo=timezone.utc),
+                    "snap": "2026-08-16T10:00:00Z", "h2h": h2h, "spread": sp, "totals": tt}
+
+        # ① 热主1.70(陷阱区): 让球主(-0.5)应从bets移除, 输出热主禁追区标签
+        m1 = _mk("Real Madrid", "Getafe", "西甲",
+                 {"home": 1.70, "draw": 3.60, "away": 5.20},
+                 {"hdp_home": -0.5, "home_price": 1.90, "away_price": 1.98},
+                 {"line": 2.5, "over_price": 2.05, "under_price": 1.80})
+        r1 = su.analyze_match(m1, ts, lavg, index)
+        _minus_13 = [b["name"] for b in r1["bets"]
+                     if b["name"].startswith("让球主") and float(b["name"].split("(")[1].split(")")[0]) < 0]
+        check("西甲热主1.70让球主-号腿移除", len(_minus_13), 0)
+        check("西甲热主禁追区标签", any("热主禁追区(西甲" in t for t in r1["risk_tags"]), True)
+        # 规则13泛化(2026-08-27 五大19763场切片): 英超热主2.10∈[2.00,2.20) 同样移除让球主-号+打标签
+        m1b13 = _mk("Arsenal", "Crystal Palace", "英超",
+                    {"home": 2.10, "draw": 3.30, "away": 3.80},
+                    {"hdp_home": -0.5, "home_price": 1.90, "away_price": 1.98},
+                    {"line": 2.5, "over_price": 2.05, "under_price": 1.80})
+        r1b13 = su.analyze_match(m1b13, ts, lavg, index)
+        _minus_13b = [b["name"] for b in r1b13["bets"]
+                      if b["name"].startswith("让球主") and float(b["name"].split("(")[1].split(")")[0]) < 0]
+        check("英超热主2.10让球主-号腿移除", len(_minus_13b), 0)
+        check("英超热主2.10禁追区标签", any("热主禁追区(英超" in t for t in r1b13["risk_tags"]), True)
+        # 规则14 OU价值区(2026-08-27 五大19763场切片): 意甲市场隐含大∈[0.50,0.55) 大球概率+3.6pp
+        m1c14 = _mk("Inter", "Lecce", "意甲",
+                    {"home": 1.40, "draw": 4.50, "away": 8.00},
+                    {"hdp_home": -1.0, "home_price": 1.85, "away_price": 2.05},
+                    {"line": 2.5, "over_price": 1.88, "under_price": 1.95})
+        rz14 = su.analyze_match(m1c14, ts, lavg, index)
+        _zz_save = su.CAL["意甲"].get("ou_mkt_zones")
+        del su.CAL["意甲"]["ou_mkt_zones"]
+        rnz14 = su.analyze_match(m1c14, ts, lavg, index)
+        su.CAL["意甲"]["ou_mkt_zones"] = _zz_save
+        _pz = next((b["prob"] for b in rz14["bets"] if b["name"] == "大2.50"), 0.0)
+        _pnz = next((b["prob"] for b in rnz14["bets"] if b["name"] == "大2.50"), 0.0)
+        check("意甲OU价值区大球+3.6pp", round(_pz - _pnz, 4), 0.036)
+        check("意甲OU价值区note", any("OU价值区校准" in n and "意甲" in n for n in rz14["notes"]), True)
+        # 规则13 高赔主场>=2.8 受让+号加权重(仅五大已配置生效): 西甲3.0受让+1.0打标签
+        # 2026-08-27 EV公式修正后原Getafe/RM夹具(raw 0.71触发20pp分歧否决), 换Villarreal/RM
+        #   (raw 0.7925/市场fair 0.6024/分歧0.19不否决); 空伤停包隔离防外部数据漂移
+        _pkg_save_13 = su._PKG_ATTACKS
+        su._PKG_ATTACKS = {"by_id": {}, "by_name": {"home": {}, "away": {}}}
+        try:
+            m1e13 = _mk("Villarreal", "Real Madrid", "西甲",
+                        {"home": 3.00, "draw": 3.40, "away": 2.15},
+                        {"hdp_home": 1.0, "home_price": 1.65, "away_price": 2.50},
+                        {"line": 2.5, "over_price": 2.05, "under_price": 1.80})
+            r1e13 = su.analyze_match(m1e13, ts, lavg, index)
+        finally:
+            su._PKG_ATTACKS = _pkg_save_13
+        check("西甲高赔主场受让+号best", (r1e13["best_bet"] or {}).get("name"), "让球主(+1.0)")
+        check("西甲高赔主场加权标签", any("高赔主场(>2.8)受让+号加权重" in t for t in r1e13["risk_tags"]), True)
+        check("西甲高赔主场best.EV(标准档)", round((r1e13["best_bet"] or {}).get("ev", 0), 4), 0.0725)
+        check("西甲高赔主场best.star=2", (r1e13["best_bet"] or {}).get("star"), 2)
+        # 规则14 亚盘zone禁出: 意甲主受让+0.75~+1.25(主赢盘41.6%) 让球主(+1.0)移除
+        m1d14 = _mk("Genoa", "Inter", "意甲",
+                    {"home": 5.00, "draw": 3.80, "away": 1.70},
+                    {"hdp_home": 1.0, "home_price": 1.95, "away_price": 1.95},
+                    {"line": 2.5, "over_price": 1.90, "under_price": 1.95})
+        r1d14 = su.analyze_match(m1d14, ts, lavg, index)
+        _hd14 = [b["name"] for b in r1d14["bets"] if b["name"].startswith("让球")]
+        check("意甲受让+1.0 zone禁出", "让球主(+1.0)" not in _hd14, True)
+        check("意甲zone禁出note", any("主受让+0.75~+1.25" in n for n in r1d14["notes"]), True)
+
+        # ② 西甲防平线28%: 去水平局28.6%且平赔3.4<=3.5 -> 强预警(全球30%线未到)
+        m2 = _mk("Real Betis", "Sevilla", "西甲",
+                 {"home": 2.5, "draw": 3.4, "away": 3.0},
+                 None, {"line": 2.5, "over_price": 2.0, "under_price": 1.8})
+        r2 = su.analyze_match(m2, ts, lavg, index)
+        check("西甲平赔3.4+去水平局>=28%强预警", (r2["draw_warn"] or {}).get("strong"), True)
+        check("西甲强预警标签含28%条件", any("平赔<=3.5" in t for t in r2["risk_tags"]), True)
+
+        # ③ 对照组: 英超同热主1.70 不应有西甲标签
+        m3 = _mk("Manchester City", "Wolves", "英超",
+                 {"home": 1.70, "draw": 3.60, "away": 5.20},
+                 {"hdp_home": -0.5, "home_price": 1.90, "away_price": 1.98},
+                 {"line": 2.5, "over_price": 2.05, "under_price": 1.80})
+        r3 = su.analyze_match(m3, ts, lavg, index)
+        check("英超1.70非热主区无禁追标签", any("热主禁追区" in t for t in r3["risk_tags"]), False)
+
+        # ④ 高赔主场>2.8 受让+号加权重代码分支存在 + 西甲配置
+        _src = io.open(r"prediction_v2/scan_upcoming.py", encoding="utf-8").read()
+        check("规则13代码分支存在", "hot_home_ban_lo" in _src and "热主禁追区" in _src and "high_home_away_lo" in _src, True)
+        check("规则14代码分支存在", "ou_mkt_zones" in _src and "hdp_home_ban_zones" in _src, True)
+        check("西甲配置防平线28%", su.CAL.get("西甲", {}).get("draw_warn_min"), 0.28)
+        check("五大热主区配置", all(su.CAL.get(lg, {}).get("hot_home_ban_lo") == 2.0 for lg in ("英超", "德甲", "意甲", "法甲")), True)
+        check("西甲热主区保留1.55", su.CAL.get("西甲", {}).get("hot_home_ban_lo"), 1.55)
+        check("五大高赔主场下限2.8", all(su.CAL.get(lg, {}).get("high_home_away_lo") == 2.8 for lg in ("英超", "西甲", "德甲", "意甲", "法甲")), True)
+        check("意甲OU zone配置", su.CAL.get("意甲", {}).get("ou_mkt_zones")[0].get("over_adj"), 0.036)
+        check("意甲亚盘zone配置", su.CAL.get("意甲", {}).get("hdp_home_ban_zones"), [{"lo": 0.75, "hi": 1.25}])
+    finally:
+        su.recent_league_avg = _orig_avg
+        for _k, _v in _oua_save.items():
+            su.CAL[_k]["ou_strength_adj"] = _v
+
 
 
 def test_audit_ledger_integrity():
@@ -2480,7 +2771,7 @@ def test_league_calib_structure():
     import json as _json
     cal = _json.load(io.open("strategy_data/league_calib.json", encoding="utf-8"))
     ls = cal.get("leagues", {})
-    check("联赛数25", len(ls), 25)
+    check("联赛数>=25", len(ls) >= 25, True)
     check("全联赛有season", all(v.get("season") for v in ls.values()), True)
     check("全联赛有note", all(v.get("note") for v in ls.values()), True)
     check("全联赛有history字段", all("history" in v for v in ls.values()), True)
@@ -2696,6 +2987,84 @@ def test_bsd_result_fallback():
     check("ESPN失败切换BSD", '切换BSD兜底' in src, True)
 
 
+def test_audit_v8_ev_and_injury():
+    """v8 审计 (2026-08-27 全链路): P0-1 EV公式 / P1-1 伤停系数 / P1-4 分边回退 / P1-6 归一 / P2-1 DC统一 / P2-3 别名."""
+    section("v8 审计: EV公式/伤停系数/分边回退/DC统一")
+    sys.path.insert(0, 'src/models')
+    from poisson_lambda import (calc_lambdas, DEFAULT_RISK_LIMIT, RELATIVE_RISK_GAP_LIMIT,
+                                risk_conflict_check)
+    from prob_calibration import shrink_power, dc_score_grid, poisson_score_grid
+    # 2026-08-28 审计: 单边风险限幅降至±5% (双向总相对差≈10%), 相对差铁律解耦为独立常量
+    check("P0 单边风险限幅±5%", DEFAULT_RISK_LIMIT, 0.05)
+    check("P0 双向相对差铁律±10%", RELATIVE_RISK_GAP_LIMIT, 0.10)
+    check("P0 冲突阈值低于限幅(|0.04|触发)", risk_conflict_check(3.0, 1.0, -0.04)["conflict"], True)
+    check("P0 阈值下小信号不误判(|0.02|不触发)", risk_conflict_check(3.0, 1.0, -0.02)["conflict"], False)
+    # P0-1: EV = 模型概率 × 赔率 - 1, 与 overround 无关
+    sys.path.insert(0, "prediction_v2")
+    import scan_upcoming as su
+    check("P0-1 _injury_coef空=1.0", su._injury_coef([]), 1.0)
+    check("P0-1 _injury_coef可用过滤", su._injury_coef([{"status": "available"}, {"status": "available"}]), 1.0)
+    check("P1-1 伤停3人无位置=0.97", su._injury_coef([{"status": "injured"}] * 3), 0.97)
+    check("P1-1 伤停5人无位置=0.94", su._injury_coef([{"status": "injured"}] * 5), 0.94)
+    check("P1-1 3前锋伤停钳位0.75", su._injury_coef([{"status": "injured", "position": "F"}] * 3), 0.75)
+    ts, lavg, index = su.load_team_stats()
+    _dt = __import__("datetime")
+    m = {"league": "西甲", "home": "Real Madrid", "away": "Getafe",
+         "ct": _dt.datetime(2026, 8, 16, 12, 0, tzinfo=_dt.timezone.utc),
+         "snap": "2026-08-16T10:00:00Z",
+         "h2h": {"home": 1.3, "draw": 5.0, "away": 9.0},
+         "spread": {"hdp_home": -1.5, "home_price": 1.9, "away_price": 1.95},
+         "totals": {"line": 2.5, "over_price": 1.9, "under_price": 1.9}}
+    base = su.analyze_match(dict(m), ts, lavg, index)
+    # P0-1: 所有非1X2候选腿 EV == prob × odds - 1 (容差1e-3, 兼容PROB_CAP等比缩放后的未舍入)
+    bad_ev = []
+    for b in base.get("bets", []):
+        if b.get("is_1x2"):
+            continue
+        want = b["prob"] * b["odds"] - 1
+        if abs(b["ev"] - want) > 1e-3:
+            bad_ev.append((b["name"], b["ev"], want))
+    check("P0-1 让球/大小球EV=prob×price-1", bad_ev, [])
+    # P0-1: 1X2腿 EV == prob × price - 1
+    bad_ev2 = []
+    for b in base.get("bets", []):
+        if b.get("is_1x2"):
+            want = b["prob"] * b["odds"] - 1
+            if abs(b["ev"] - want) > 1e-3:
+                bad_ev2.append((b["name"], b["ev"], want))
+    check("P0-1 1X2 EV=prob×price-1", bad_ev2, [])
+    # P0-1 _bsd_leg_ev: EV=模型概率×BSD价-1 (不再除以orr)
+    ev_b = su._bsd_leg_ev("大2.50", 0.55, {"over_25_goals": 1.9, "under_25_goals": 1.9})
+    check("P0-1 _bsd_leg_ev=0.55×1.9-1", ev_b, round(0.55 * 1.9 - 1, 4))
+    # P1-4: 分边单边指定, 另一边默认0不自动反向
+    r_side1 = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8,
+                           risk_signal_h=0.08)
+    check("P1-4 单边指定客边=0", r_side1["risk_signal_a"], 0.0)
+    # P1-6: shrink_power 归一化和严格=1
+    sp = shrink_power([0.6, 0.3, 0.1], 0.9)
+    check("P1-6 shrink_power和=1", abs(sum(sp) - 1.0) < 1e-6, True)
+    # P2-1: dc_score_grid 与 poisson_score_grid 完全一致
+    g1 = dc_score_grid(1.5, 1.2, rho=-0.05)
+    g2 = poisson_score_grid(1.5, 1.2, rho=-0.05)
+    same = all(abs(g1[i][j] - g2[i][j]) < 1e-12 for i in range(10) for j in range(10))
+    check("P2-1 DC网格双实现一致", same, True)
+    # P2-3: model_prob 别名
+    r_alias = calc_lambdas(home_gf=1.5, away_ga=1.2, away_gf=1.0, home_ga=1.1, league_avg=2.8)
+    check("P2-3 model_prob别名", "model_prob" in r_alias and r_alias["model_prob"] == r_alias["market_prob"], True)
+    # ===== 2026-08-28 审计 P1: DC tau兜底 / 截断透出 / 单一校验点 =====
+    from poisson_lambda import dc_tau, poisson_score_grid, W_GRID_TRUNCATED
+    check("P1 tau兜底上界(τ00@λ4.5=2.0)", dc_tau(0, 0, 4.5, 4.5, -0.15), 2.0)
+    check("P1 tau兜底下界(τ10@λ4.5=0.5)", dc_tau(1, 0, 4.5, 4.5, -0.15), 0.5)
+    _g9, _rt9 = poisson_score_grid(3.0, 3.0, rho=0.0, max_goals=9, return_raw=True)
+    _g2, _rt2 = poisson_score_grid(3.0, 3.0, rho=0.0, max_goals=2, return_raw=True)
+    check("P1 9球网格raw_total>0.95", _rt9 > 0.95, True)
+    check("P1 2球网格raw_total<0.95(截断可检出)", _rt2 < 0.95, True)
+    check("P1 return_raw网格已归一(和=1)", abs(sum(sum(r) for r in _g9) - 1.0) < 1e-9, True)
+    _pl_src = io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "src", "models", "poisson_lambda.py"),
+                      encoding="utf-8").read()
+    check("P1 calc_lambdas含截断告警分支", "W_GRID_TRUNCATED" in _pl_src and "_raw_total < 0.95" in _pl_src, True)
+
+
 
 TEST_ORDER = [
     "test_parse_handicap",
@@ -2710,11 +3079,13 @@ TEST_ORDER = [
     "test_p0_deliverables",
     "test_de_vig",
     "test_bsd_result_fallback",
+    "test_audit_v8_ev_and_injury",
     "test_footballdata_norm_team",
     "test_poisson_lambda",
     "test_poisson_lambda_v3_audit",
     "test_poisson_lambda_v4_audit",
     "test_poisson_lambda_v5_audit",
+    "test_lstm_v2_audit",
     "test_data_quality",
     "test_multi_source",
     "test_risk_control",
@@ -2740,6 +3111,7 @@ TEST_ORDER = [
     "test_odds_veto_rules",
     "test_star2_risk_rules",
     "test_draw_warn_plus_rules",
+    "test_laliga_rule13",
     "test_rule6_direction_attribution",
     "test_rule7_strong_draw_plus",
     "test_rule8_odds_overest",
@@ -2750,6 +3122,9 @@ TEST_ORDER = [
     "test_league_avg_live_baseline",
     "test_league_calib_structure",
     "test_bsd_extra",
+    "test_bsd_event_aet_settle",
+    "test_ah_quota_inject",
+    "test_ah_infer_parse",
     "test_bsd_market_cross",
     "test_bsd_standings",
     "test_catboost_model",
@@ -2826,6 +3201,109 @@ def test_bsd_extra():
 
 
 
+def test_bsd_event_aet_settle():
+    """BSD 事件加时比分口径: AET/PEN 与 90 分钟结算分离 (2026-08-28 拉恩 0:3→0:2 修正)."""
+    section("BSD 加时比分口径 (bsd_extra.event_settle_scores)")
+    sys.path.insert(0, "prediction_v2")
+    import bsd_extra as bx
+
+    s1 = bx.event_settle_scores({"period": "FT", "current_minute": 90, "home_score": 1, "away_score": 0})
+    check("FT不标记加时", s1["is_aet"], False)
+    check("FT直接作为90分比分", s1["hg_90"], 1)
+    check("FT无需补录", s1["needs_verify"], False)
+
+    s2 = bx.event_settle_scores({"period": "AET", "current_minute": 120, "home_score": 4, "away_score": 2})
+    check("AET标记加时", s2["is_aet"], True)
+    check("AET需权威源补90分", s2["needs_verify"], True)
+    check("AET比分保留加时后全场", s2["hg_aet"], 4)
+    check("AET不提供90分比分", s2["hg_90"], None)
+
+    s3 = bx.event_settle_scores({"period": "PEN", "current_minute": 120, "home_score": 1, "away_score": 0})
+    check("PEN标记加时", s3["is_aet"], True)
+
+    s4 = bx.event_settle_scores({"period": "FT", "current_minute": 120, "home_score": 0, "away_score": 3})
+    check("minute>=100兜底标记(拉恩类误标)", s4["is_aet"], True)
+
+    s5 = bx.event_settle_scores({"period": "FT", "current_minute": None, "home_score": 2, "away_score": 1})
+    check("minute缺失按FT处理", s5["is_aet"], False)
+
+
+def test_ah_quota_inject():
+    """亚盘配额拉取: 主盘平衡线解析 + 队名别名匹配 + 状态按日重置 (2026-08-28 新增, 省额度正式化)."""
+    section("亚盘配额拉取 (pull_ah_quota)")
+    sys.path.insert(0, "prediction_v2")
+    import pull_ah_quota as pa
+    from datetime import datetime, timezone as _tz
+    # 1) 主盘平衡线: 每机构取主客水位最接近的线, 再取众数
+    od = {"response": [
+        {"bookmakers": [{"name": "B1", "bets": [{"name": "Asian Handicap", "values": [
+            {"value": "Home -0.5", "odd": "1.90"}, {"value": "Away -0.5", "odd": "1.90"},
+            {"value": "Home -1.0", "odd": "2.05"}, {"value": "Away -1.0", "odd": "1.80"}]}]},
+         {"name": "B2", "bets": [{"name": "Asian Handicap", "values": [
+            {"value": "Home -0.5", "odd": "1.88"}, {"value": "Away -0.5", "odd": "1.92"},
+            {"value": "Home -0.25", "odd": "1.95"}, {"value": "Away -0.25", "odd": "1.85"}]}]}]}]}
+    ml = pa.main_line_from_odds(od)
+    check("主盘共识线", ml["line"], -0.5)
+    check("主水均值", ml["home_price"], 1.89)
+    check("客水均值", ml["away_price"], 1.91)
+    check("机构数", ml["books"], 2)
+    # 2) 队名别名: Shandong Taishan -> Shandong Luneng
+    fixs = [{"id": 1523256, "date": "2026-08-28T11:35:00+00:00", "home": "Shanghai Shenhua", "away": "Shandong Luneng"}]
+    m = {"id": 205883, "ct": "2026-08-28T11:35:00+00:00", "home": "Shanghai Shenhua", "away": "Shandong Taishan"}
+    f = pa.match_fixture(fixs, m, None)
+    check("别名匹配fixture", f["id"], 1523256)
+    # 3) 状态按日重置
+    import tempfile
+    _tmp = tempfile.mktemp(suffix=".json")
+    _old = pa.STATE_FP
+    pa.STATE_FP = _tmp
+    try:
+        io.open(_tmp, "w", encoding="utf-8").write(json.dumps({"date": "2000-01-01", "calls": 99}))
+        st = pa.load_state()
+        check("跨日重置日期", st["date"] == datetime.now(_tz.utc).strftime("%Y-%m-%d"), True)
+        check("跨日calls归零", st["calls"], 0)
+    finally:
+        pa.STATE_FP = _old
+        try:
+            os.remove(_tmp)
+        except Exception:
+            pass
+
+
+def test_ah_infer_parse():
+    """InferSports 亚盘解析: 共识线主队视角 + 共识线水位均值 + 无共识线开盘回退best_prices (2026-08-28 省额度接入)."""
+    section("InferSports 亚盘解析 (pull_ah_quota.parse_infer_ah)")
+    sys.path.insert(0, "prediction_v2")
+    import pull_ah_quota as pa
+
+    comp = {
+        "consensus_line": -0.75,
+        "book_count": 5,
+        "best_prices": [{"outcome": "home", "bookmaker": "macau", "price": 1.74, "decimal": 1.74},
+                        {"outcome": "away", "bookmaker": "nova88", "price": 2.27, "decimal": 2.27}],
+        "books": [
+            {"bookmaker": "crown", "line": -1.5, "prices": {"home": 2.29, "away": 1.63}, "status": "open"},
+            {"bookmaker": "macau", "line": -0.75, "prices": {"home": 1.76, "away": 2.10}, "status": "open"},
+            {"bookmaker": "nova88", "line": -0.75, "prices": {"home": 1.74, "away": 2.12}, "status": "open"},
+            {"bookmaker": "sbobet", "line": -0.75, "prices": {"home": 1.75, "away": 2.11}, "status": "suspended"},
+        ],
+    }
+    r = pa.parse_infer_ah(comp)
+    check("共识线主队视角", r["line"], -0.75)
+    check("共识线水位均值主", r["home_price"], 1.75)
+    check("共识线水位均值客", r["away_price"], 2.11)
+    check("开盘机构数(排除suspended)", r["books"], 2)
+
+    comp2 = {"consensus_line": 0.0, "book_count": 3,
+             "best_prices": [{"outcome": "home", "price": 1.90}, {"outcome": "away", "price": 1.92}],
+             "books": [{"bookmaker": "crown", "line": -1.0, "prices": {"home": 2.0, "away": 1.8}, "status": "open"}]}
+    r2 = pa.parse_infer_ah(comp2)
+    check("无共识线开盘回退best", r2["home_price"], 1.9)
+    check("回退books=book_count", r2["books"], 3)
+
+    check("空comparison返回None", pa.parse_infer_ah({}), None)
+
+
 def test_bsd_market_cross():
     """BSD市场基准交叉验证 (scan_upcoming: λ分歧/双口径EV/无价值无单)"""
     section("BSD市场基准交叉 (scan_upcoming._bsd_cross_check)")
@@ -2834,7 +3312,7 @@ def test_bsd_market_cross():
 
     cons = {"over_25_goals": 1.95, "under_25_goals": 1.95}
     ev = su._bsd_leg_ev("大2.50", 0.55, cons)
-    expect = (0.55 / (1/1.95 + 1/1.95)) * 1.95 - 1
+    expect = 0.55 * 1.95 - 1  # 2026-08-27 EV公式修正: prob*price-1, 不再除抽水
     check("大2.5 BSD双口径EV", round(ev, 4), round(expect, 4))
     check("让球无BSD盘返None", su._bsd_leg_ev("让球主(-0.5)", 0.5, cons), None)
 

@@ -37,6 +37,10 @@ DRAW_WARN_STAKE_MULT = 0.5                                                     #
 DRAW_WARN_HDP_PLUS_ONLY = True                                                # ① 平局预警激活时, 让球仅保留+号受让方(-号让球腿移除)
 DRAW_WARN_TOTALS_LINE = 2.5                                                    # ③ 整球盘线: 2.50 遇预警降星
 SMALL_250_HIGH_EV = float(os.environ.get("SMALL_250_HIGH_EV", "0.20") or 0.20) # ② 小2.50 高EV反向标记阈值(实证30-44%全错)
+# 规则⑪(2026-08-27 300场复盘+账本实证): 低估区禁小球联赛 — 小球只在λ高估区推, 低估区(模型λ系统性偏低)禁小球
+#   触发: ① league_calib ou_under_reverse=True(英冠/荷甲) ② 杯赛/资格赛实测λ低估区(300场复盘+近期扫描偏差) ③ 实测场均>配置基准(数据驱动)
+#   实证: 300场复盘 英冠小球20%/荷甲0%/德国杯0%; 账本 英冠31%/荷甲22%/英联杯0%/欧冠0%; 08-27 AEK小2.50(4-0)/美洲小2.25(4-2) 出大全灭
+LOW_EST_UNDER_BAN_SMALL = {"德国杯", "英联杯", "欧冠", "欧联杯", "欧协联"}
 # ===== 2026-08-24 用户指令: 让球+/−方向按球队强弱判定(不统一客队; 受让方=弱队+号, 让球方=强队-号) =====
 HDP_PLUS_BY_STRENGTH = True          # 方向按盘口强弱判定开关
 HDP_BAN_DRAW = 0.0                   # 平手盘禁出(陷阱, 账本平手/浅受让-42%)
@@ -52,7 +56,7 @@ OVEREST_RECEIVE_STAR_BOOST = 1        # 高估区受让+号加星
 OVEREST_RECEIVE_STAKE_MULT = 1.5      # 高估区受让+号仓位加成
 OVEREST_GIVE_STAKE_MULT = 0.5         # 高估区让球-号降仓
 
-from poisson_lambda import calc_lambdas
+from poisson_lambda import calc_lambdas, DEFAULT_LAM_MIN, DEFAULT_LAM_MAX, _to_float
 import coach_quant as cq
 from prob_calibration import dc_score_grid, apply_prob_calibration
 from upset_engine_v2 import UpsetEngineV2
@@ -70,7 +74,7 @@ ALL_DIVS = ("E0", "E1", "E2", "E3", "SP1", "SP2", "I1", "I2", "D1", "D2", "F1", 
 CAL = {
     "英超": {"league_avg": 2.8719, "rho": 0.0, "shrink": 0.8, "home": 1.1, "away": 0.95, "fatigue": 0.9},
     "西甲": {"league_avg": 2.5811, "rho": 0.0, "shrink": 0.8, "home": 1.1, "away": 0.95, "fatigue": 0.9},
-    "德甲": {"league_avg": 3.1654, "rho": -0.04, "shrink": 0.8, "home": 1.1, "away": 0.95, "fatigue": 0.9},
+    "德甲": {"league_avg": 3.1654, "rho": -0.04, "shrink": 0.8, "home": 1.1, "away": 0.95, "fatigue": 0.9, "lam_max": 5.0},
     "意甲": {"league_avg": 2.6968, "rho": -0.07, "shrink": 0.8, "home": 1.1, "away": 0.95, "fatigue": 0.9},
     "法甲": {"league_avg": 2.7624, "rho": -0.05, "shrink": 0.8, "home": 1.1, "away": 0.95, "fatigue": 0.9},
 }
@@ -123,7 +127,7 @@ _CAL_DEFAULT = {
     "法甲": {"league_avg": 2.7624, "rho": -0.05, "shrink": 0.8, "home": 1.1, "away": 0.95, "fatigue": 0.9},
     "英冠": {"league_avg": 2.6051, "rho": -0.05, "shrink": 0.8, "home": 1.1, "away": 0.95, "fatigue": 0.9},
     "德乙": {"league_avg": 2.9314, "rho": -0.05, "shrink": 0.8, "home": 1.08, "away": 0.95, "fatigue": 0.9},
-    "荷甲": {"league_avg": 3.1765, "rho": 0.0,   "shrink": 0.8, "home": 1.05, "away": 0.95, "fatigue": 0.9},
+    "荷甲": {"league_avg": 3.1765, "rho": 0.0,   "shrink": 0.8, "home": 1.05, "away": 0.95, "fatigue": 0.9, "lam_max": 5.2},
     "西乙": {"league_avg": 2.6320, "rho": -0.04, "shrink": 0.8, "home": 1.1, "away": 0.95, "fatigue": 0.9},
     "J1": {"league_avg": 3.35, "rho": 0.0, "shrink": 0.8, "home": 1.0, "away": 1.0, "fatigue": 0.9},
     "中超": {"league_avg": 3.035, "rho": -0.04, "shrink": 0.8, "home": 1.13, "away": 0.93, "fatigue": 1.0},
@@ -135,7 +139,8 @@ def handicap_cover_prob(grid, hdp):
     """主队让球覆盖概率(hdp带符号: 负=主让, 正=主受). 整数盘走盘计0.5.
     修复abs归一化丢失符号, 把主让-0.5当主受+0.5算导致EV虚高的问题."""
     def _p(cond):
-        return sum(grid[i][j] for i in range(9) for j in range(9) if cond(i, j))
+        n = len(grid)
+        return sum(grid[i][j] for i in range(n) for j in range(n) if cond(i, j))
     if abs(abs(hdp) - round(abs(hdp))) < 0.01:
         push = _p(lambda i, j: abs((i - j) + hdp) < 0.01)
         return _p(lambda i, j: (i - j) + hdp > 0) + push * 0.5
@@ -507,9 +512,29 @@ def load_team_stats():
     lavg = {d: round(sum(v) / len(v), 4) for d, v in lavg_raw.items() if v}
     return out, lavg, index
 
+
+def _injury_coef(recs):
+    """伤停修正系数 (2026-08-27审计P1-1): 1.0=无影响, 下限0.75.
+    - 有 position 字段时按位置加权: F/M 攻击端核心伤停影响更大
+    - 无位置数据 (当前BSD包) 按人数渐进, 替代旧的">=3一刀切0.96"
+    公式: coef = 1.0 - loss * 0.4, 钳位 [0.75, 1.0] (对齐审计方案)."""
+    recs = [r for r in (recs or []) if r.get("status") not in ("available", "returning", "doubtful_returning")]
+    n = len(recs)
+    if n == 0:
+        return 1.0
+    _ATK_POS = ("F", "M", "FW", "MF", "AM", "ST", "W", "SS")
+    pos_atk = sum(1 for r in recs if str(r.get("position") or "").upper() in _ATK_POS)
+    if pos_atk:
+        loss = min(1.0, pos_atk / max(n, 1) * 1.5)   # 攻击位权重: 全员攻击位伤停=全损
+    else:
+        # 无位置数据: 人数渐进 0-2:1.0 / 3-4:0.97 / 5-6:0.94 / 7+:0.91
+        loss = 0.0 if n <= 2 else 0.075 if n <= 4 else 0.15 if n <= 6 else 0.225
+    return max(0.75, min(1.0, 1.0 - loss * 0.4))
+
+
 def _load_pkg_attacks():
     """match_package/*.json -> {"by_id": {event_id: rec}, "by_name": {"home": {队名: rec}, "away": {队名: rec}}}
-    rec = {home, away, home_inj_n, away_inj_n, home_inj, away_inj}
+    rec = {home, away, home_inj_n, away_inj_n, home_inj, away_inj, home_inj_recs, away_inj_recs}
     供本地攻防库缺失/陈旧的场次增强注入 (PKG_BOOST); by_name 兼容双数据源(event_id 不同)场次."""
     import glob
     by_id, by_name = {}, {"home": {}, "away": {}}
@@ -528,6 +553,7 @@ def _load_pkg_attacks():
             "home_inj_n": len(hi), "away_inj_n": len(ai),
             "home_inj": [x.get("name") or x.get("short_name") for x in hi][:6],
             "away_inj": [x.get("name") or x.get("short_name") for x in ai][:6],
+            "home_inj_recs": hi, "away_inj_recs": ai,
             "consensus": (d.get("odds") or {}).get("consensus") or {},
             "pulled_at": d.get("pulled_at"),
         }
@@ -538,9 +564,17 @@ def _load_pkg_attacks():
             if _eid.startswith("apifb"):
                 by_id[_eid[5:]] = rec
         if rec["home"] or rec["consensus"]:
-            by_name["home"].setdefault(_norm(d.get("home") or ""), []).append(rec)
+            _hk = _norm(d.get("home") or "")
+            by_name["home"].setdefault(_hk, []).append(rec)
+            _hk2 = _norm(_resolve_alias(d.get("home") or "")) or _hk
+            if _hk2 and _hk2 != _hk:
+                by_name["home"].setdefault(_hk2, []).append(rec)
         if rec["away"] or rec["consensus"]:
-            by_name["away"].setdefault(_norm(d.get("away") or ""), []).append(rec)
+            _ak = _norm(d.get("away") or "")
+            by_name["away"].setdefault(_ak, []).append(rec)
+            _ak2 = _norm(_resolve_alias(d.get("away") or "")) or _ak
+            if _ak2 and _ak2 != _ak:
+                by_name["away"].setdefault(_ak2, []).append(rec)
     return {"by_id": by_id, "by_name": by_name}
 
 _PKG_ATTACKS = None
@@ -566,7 +600,8 @@ def _load_match_info_map():
 
 
 def _bsd_leg_ev(name, prob, cons):
-    """方向腿名 -> BSD consensus 双口径EV (prob/orr*price-1). 映射不到返回 None."""
+    """方向腿名 -> BSD consensus 双口径EV (prob*price-1, 2026-08-27审计P0-1修正去水口径).
+    prob 为模型绝对概率, 本身无抽水; 除以 overround 属双重折扣, 已移除. 映射不到返回 None."""
     try:
         if name.startswith("1X2主胜") and cons.get("home_win"):
             _p, _ops = cons["home_win"], [cons.get("draw"), cons.get("away_win")]
@@ -592,8 +627,7 @@ def _bsd_leg_ev(name, prob, cons):
         _ops = [o for o in _ops if o]
         if not _p or not _ops:
             return None
-        _orr = 1.0 / _p + sum(1.0 / o for o in _ops)
-        return round((prob / _orr) * _p - 1, 4)
+        return round(prob * _p - 1, 4)
     except Exception:
         return None
 
@@ -1167,16 +1201,16 @@ def implied_lambdas_from_odds(m, league_avg, rho):
         line = float(tt["line"])
         p_over = (1.0 / tt["over_price"]) / (1.0 / tt["over_price"] + 1.0 / tt["under_price"])
     def probs(lh, la):
-        g = dc_score_grid(lh, la, rho=rho, max_goals=8)
-        win = sum(g[i][j] for i in range(9) for j in range(9) if i > j)
-        drw = sum(g[i][j] for i in range(9) for j in range(9) if i == j)
+        g = dc_score_grid(lh, la, rho=rho, max_goals=9)
+        win = sum(g[i][j] for i in range(10) for j in range(10) if i > j)
+        drw = sum(g[i][j] for i in range(10) for j in range(10) if i == j)
         over = None
         if line is not None:
             if abs(line - round(line)) < 0.01:
-                push = sum(g[i][j] for i in range(9) for j in range(9) if abs(i + j - line) < 0.01)
-                over = sum(g[i][j] for i in range(9) for j in range(9) if i + j > line) + push * 0.5
+                push = sum(g[i][j] for i in range(10) for j in range(10) if abs(i + j - line) < 0.01)
+                over = sum(g[i][j] for i in range(10) for j in range(10) if i + j > line) + push * 0.5
             else:
-                over = sum(g[i][j] for i in range(9) for j in range(9) if i + j > line)
+                over = sum(g[i][j] for i in range(10) for j in range(10) if i + j > line)
         return win, drw, over
     def cost(p):
         lh, la = p
@@ -1301,6 +1335,26 @@ def fake_small_intercept(bets, tt):
                 _b["_pband_banned"] = True
                 ban += 1
     return ban, model_over, mkt_over
+
+
+def under_zone_ban_small(bets, lg, cal, league_avg_shifted, base_dev):
+    """规则⑪(2026-08-27 300场复盘+账本实证): 低估区禁小球.
+    低估区 = 模型λ系统性偏低(实际进球常高于模型) -> 小球是陷阱, 移出候选+方向.
+    触发: ① league_calib ou_under_reverse=True(英冠/荷甲) ② 杯赛/资格赛实测λ低估区名单
+          ③ 实测场均>配置基准(league_avg_shifted且base_dev>0, 数据驱动).
+    实证: 300场复盘 英冠小球20%/荷甲0%/德国杯0%; 账本 英冠31%/荷甲22%/英联杯0%/欧冠0%;
+          08-27 AEK小2.50(4-0)/美洲小2.25(4-2) 出大全灭(采列1-1为BSD修正比分, 小2.50命中).
+    返回: 被禁小球腿数(小球队打 _pband_banned 标记)."""
+    zone = bool((cal or {}).get("ou_under_reverse")) or any(_k in lg for _k in LOW_EST_UNDER_BAN_SMALL) \
+        or (league_avg_shifted and base_dev > 0)
+    if not zone:
+        return 0
+    n = 0
+    for _b in bets:
+        if _b["name"].startswith("小"):
+            _b["_pband_banned"] = True
+            n += 1
+    return n
 
 
 # ===== 积分榜接入 (2026-08-26 M-20260826-01): BSD standings 位置区间标签 + 星级微调 (不改EV) =====
@@ -1440,7 +1494,9 @@ def analyze_match(m, team_stats, lavg, index):
                 if _pkg is None and _hc and _ac:
                     _pkg = {"home": _hc[0]["home"], "away": _ac[0]["away"],
                             "home_inj_n": _hc[0].get("home_inj_n", 0), "away_inj_n": _ac[0].get("away_inj_n", 0),
-                            "home_inj": _hc[0].get("home_inj", []), "away_inj": _ac[0].get("away_inj", [])}
+                            "home_inj": _hc[0].get("home_inj", []), "away_inj": _ac[0].get("away_inj", []),
+                            "home_inj_recs": _hc[0].get("home_inj_recs", []),
+                            "away_inj_recs": _ac[0].get("away_inj_recs", [])}
         except Exception:
             _pkg = None
     _pkg_inj_notes = []
@@ -1467,6 +1523,11 @@ def analyze_match(m, team_stats, lavg, index):
     indep = (h_rec is not None and a_rec is not None
              and h_w >= INDEP_MIN_WEIGHT and a_w >= INDEP_MIN_WEIGHT)
     avg_atk = league_avg / 2.0
+    # P1-2 审计: 联赛级 λ 钳位 (league_calib.json 可选 lam_min/lam_max; 缺省用全局兜底)
+    _lmin = _to_float(cal.get("lam_min"), DEFAULT_LAM_MIN)
+    _lmax = _to_float(cal.get("lam_max"), DEFAULT_LAM_MAX)
+    if _lmin >= _lmax:
+        _lmin, _lmax = DEFAULT_LAM_MIN, DEFAULT_LAM_MAX
 
     def _eff_rate(x, avg, xd, n):
         return effective_rate(x, avg, xd, n)
@@ -1533,28 +1594,29 @@ def analyze_match(m, team_stats, lavg, index):
             note.append("主队攻防仅旧赛季(%s), 低置信" % h_rec.get("src_season"))
         if a_w < INDEP_MIN_WEIGHT:
             note.append("客队攻防仅旧赛季(%s), 低置信" % a_rec.get("src_season"))
-        _inj_h = 1.0 if (not _pkg or _pkg.get("home_inj_n", 0) < 3) else 0.96
-        _inj_a = 1.0 if (not _pkg or _pkg.get("away_inj_n", 0) < 3) else 0.96
+        _inj_h = _injury_coef(_pkg.get("home_inj_recs")) if _pkg else 1.0
+        _inj_a = _injury_coef(_pkg.get("away_inj_recs")) if _pkg else 1.0
         lam_res = calc_lambdas(home_gf=hgf_eff, away_ga=aga_eff, away_gf=agf_eff, home_ga=hga_eff,
                                league_avg=league_avg, home_coef=cal["home"], away_coef=cal["away"],
                                fatigue_coef=cal["fatigue"], injury_coef_h=_inj_h, injury_coef_a=_inj_a,
-                               risk_signal_h=0.0, risk_signal_a=0.0, rho=cal["rho"])
+                               risk_signal_h=0.0, risk_signal_a=0.0, rho=cal["rho"],
+                               lam_min=_lmin, lam_max=_lmax)
         lam_h, lam_a = lam_res["lam_h"], lam_res["lam_a"]
     else:
         # 一方缺数据: 只降级缺侧, 保留有数据侧真实攻防 (修复"整场丢弃"bug)
         implied = implied_lambdas_from_odds(m, league_avg, cal["rho"])
-        _inj_h = 1.0 if (not _pkg or _pkg.get("home_inj_n", 0) < 3) else 0.96
-        _inj_a = 1.0 if (not _pkg or _pkg.get("away_inj_n", 0) < 3) else 0.96
+        _inj_h = _injury_coef(_pkg.get("home_inj_recs")) if _pkg else 1.0
+        _inj_a = _injury_coef(_pkg.get("away_inj_recs")) if _pkg else 1.0
         if h_rec:
-            lam_h = max(0.2, min(4.5, hgf_eff * (aga_eff if a_rec else avg_atk) / avg_atk
-                                 * cal["home"] * cal["fatigue"] * _inj_h))
+            lam_h = max(_lmin, min(_lmax, hgf_eff * (aga_eff if a_rec else avg_atk) / avg_atk
+                                   * cal["home"] * cal["fatigue"] * _inj_h))
         else:
-            lam_h = max(0.2, min(4.5, (implied[0] if implied else league_avg / 2) * _inj_h))
+            lam_h = max(_lmin, min(_lmax, (implied[0] if implied else league_avg / 2) * _inj_h))
         if a_rec:
-            lam_a = max(0.2, min(4.5, agf_eff * (hga_eff if h_rec else avg_atk) / avg_atk
-                                 * cal["away"] * cal["fatigue"] * _inj_a))
+            lam_a = max(_lmin, min(_lmax, agf_eff * (hga_eff if h_rec else avg_atk) / avg_atk
+                                   * cal["away"] * cal["fatigue"] * _inj_a))
         else:
-            lam_a = max(0.2, min(4.5, (implied[1] if implied else league_avg / 2) * _inj_a))
+            lam_a = max(_lmin, min(_lmax, (implied[1] if implied else league_avg / 2) * _inj_a))
         if h_rec is None and a_rec is None:
             note.append("双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)")
             if implied:
@@ -1574,9 +1636,9 @@ def analyze_match(m, team_stats, lavg, index):
         note.append("客队队名模糊匹配(%s), 低置信" % a_q)
     if not indep:
         note.append("非独立数据场次, best_bet禁用")
-    grid = dc_score_grid(lam_h, lam_a, rho=cal["rho"], max_goals=8)
+    grid = dc_score_grid(lam_h, lam_a, rho=cal["rho"], max_goals=9)
     def P(cond):
-        return sum(grid[i][j] for i in range(9) for j in range(9) if cond(i, j))
+        return sum(grid[i][j] for i in range(10) for j in range(10) if cond(i, j))
     raw = [P(lambda i, j: i > j), P(lambda i, j: i == j), P(lambda i, j: i < j)]
     cal_probs = apply_prob_calibration(list(raw), shrink=cal["shrink"]) if cal["shrink"] != 1.0 else list(raw)
     h2h = m.get("h2h") or {}
@@ -1597,19 +1659,25 @@ def analyze_match(m, team_stats, lavg, index):
             _dw_prob = max(_dw_prob, (1 / _h2h_prev["draw"]) / _s2)
         except Exception:
             pass
-    if _dw_prob >= DRAW_WARN_MIN:
-        draw_warn = {"market_draw_prob": round(_dw_prob * 100, 1), "strong": _dw_prob >= DRAW_WARN_STRONG}
+    # 规则13(2026-08-27 西甲3043场实证): 西甲防平预警线 26%->28%(平赔3.0-3.5平局率30-34% vs 基准26.5%);
+    #   平赔<=3.5 且去水平局>=28% 升强预警(奥萨苏纳0-0/瓦伦西亚0-0实证)
+    _dw_min = float(cal.get("draw_warn_min", DRAW_WARN_MIN)) if lg == "西甲" else DRAW_WARN_MIN
+    _dw_strong = float(cal.get("draw_warn_strong", DRAW_WARN_STRONG)) if lg == "西甲" else DRAW_WARN_STRONG
+    if _dw_prob >= _dw_min:
+        _dw_strong_f = _dw_prob >= _dw_strong
+        if lg == "西甲" and h2h.get("draw") and h2h["draw"] <= 3.5 and _dw_prob >= _dw_min:
+            _dw_strong_f = True
+        draw_warn = {"market_draw_prob": round(_dw_prob * 100, 1), "strong": _dw_strong_f}
     bets = []
     sp = m.get("spread")
     if sp and sp.get("home_price") and sp.get("away_price"):
         hdp = sp["hdp_home"]
         home_cov = handicap_cover_prob(grid, hdp)
         away_cov = 1 - home_cov
-        orr = 1 / sp["home_price"] + 1 / sp["away_price"]
         bets.append({"name": "让球主(%+.1f)" % hdp, "prob": round(home_cov, 4), "odds": sp["home_price"],
-                     "ev": round((home_cov / orr) * sp["home_price"] - 1, 4)})
+                     "ev": round(home_cov * sp["home_price"] - 1, 4)})
         bets.append({"name": "让球客(%+.1f)" % (-hdp), "prob": round(away_cov, 4), "odds": sp["away_price"],
-                     "ev": round((away_cov / orr) * sp["away_price"] - 1, 4)})
+                     "ev": round(away_cov * sp["away_price"] - 1, 4)})
     tt = m.get("totals")
     if tt and tt.get("line"):
         line = tt["line"]
@@ -1620,11 +1688,10 @@ def analyze_match(m, team_stats, lavg, index):
         else:
             under_p = P(lambda i, j: i + j < line)
             over_p = 1 - under_p
-        orr = 1 / tt["over_price"] + 1 / tt["under_price"]
         bets.append({"name": "小%.2f" % line, "prob": round(under_p, 4), "odds": tt["under_price"],
-                     "ev": round((under_p / orr) * tt["under_price"] - 1, 4)})
+                     "ev": round(under_p * tt["under_price"] - 1, 4)})
         bets.append({"name": "大%.2f" % line, "prob": round(over_p, 4), "odds": tt["over_price"],
-                     "ev": round((over_p / orr) * tt["over_price"] - 1, 4)})
+                     "ev": round(over_p * tt["over_price"] - 1, 4)})
     # 方案A(2026-08-24): 按对阵强度分段校准大球 — 葡超348场拟合: 独立泊松低估大球(强强+12.5/混合+9.0/弱弱+3.5pp)
     #   触发: 联赛配置 ou_strength_adj {档位: 大球概率修正量(正=上修, 负=下调, 墨超876场实证模型高估大球强强-6.6/混合-3.2pp)};
     #   按双方攻击指数分档(强强>=1.05 / 弱弱<=0.95 / 其余混合)
@@ -1659,11 +1726,46 @@ def analyze_match(m, team_stats, lavg, index):
                 note.append("方案A大球校准: %s档 大球概率%s%.0fpp(%s, 分档拟合实证)" % (_obucket, _o_dir, _oadj * 100, lg))
         except Exception:
             pass
+    # 规则14(2026-08-27 五大19763场切片实证): OU市场价值区 — 按市场隐含大2.5概率区间校准大/小球概率
+    #   偏差=实际大球率-市场隐含: 法甲0.50-0.60 +3.5pp/意甲0.50-0.55 +3.6pp(0.60+ -3.7pp追大亏)/
+    #   西甲0.55-0.60 +3.2pp/德甲0.60-0.70 +3.0pp; 英超≈有效市场不配. 与方案A同机制, 校准后EV重算.
+    _ou_zones = cal.get("ou_mkt_zones") or []
+    if _ou_zones and tt and tt.get("line"):
+        try:
+            _ovp, _unp = float(tt["over_price"]), float(tt["under_price"])
+            if _ovp > 1 and _unp > 1:
+                _imp_over = (1.0 / _ovp) / (1.0 / _ovp + 1.0 / _unp)
+                _z = None
+                for _zo in _ou_zones:
+                    if float(_zo.get("imp_lo", 0.0)) <= _imp_over < float(_zo.get("imp_hi", 1.0)):
+                        _z = _zo
+                        break
+                if _z:
+                    _zadj = float(_z.get("over_adj", 0.0) or 0.0)
+                    if _zadj != 0:
+                        for _b in bets:
+                            if _b.get("ev_pre_ou_adj") is None:
+                                _b["ev_pre_ou_adj"] = _b["ev"]
+                            if _b["name"].startswith("大"):
+                                _po = min(0.95, max(0.05, _b["prob"] + _zadj))
+                                _b["ev"] = round((_po / _b["prob"]) * (_b["ev"] + 1.0) - 1.0, 4)
+                                _b["prob"] = round(_po, 4)
+                                _b["ou_mkt_zone"] = "%.2f-%.2f" % (float(_z["imp_lo"]), float(_z["imp_hi"]))
+                            elif _b["name"].startswith("小"):
+                                _pu = max(0.05, min(0.95, _b["prob"] - _zadj))
+                                _b["ev"] = round((_pu / _b["prob"]) * (_b["ev"] + 1.0) - 1.0, 4)
+                                _b["prob"] = round(_pu, 4)
+                                _b["ou_mkt_zone"] = "%.2f-%.2f" % (float(_z["imp_lo"]), float(_z["imp_hi"]))
+                        note.append("OU价值区校准: %s 市场隐含大%.0f%%∈[%.0f%%-%.0f%%] 大球%s%.0fpp(19763场切片实证)" % (
+                            lg, _imp_over * 100, float(_z["imp_lo"]) * 100, float(_z["imp_hi"]) * 100,
+                            "+" if _zadj > 0 else "", _zadj * 100))
+        except Exception:
+            pass
     if h2h.get("home") and overround_1x2:
         for label, prob, price in (("主胜", cal_probs[0], h2h["home"]),
                                    ("平局", cal_probs[1], h2h["draw"]),
                                    ("客胜", cal_probs[2], h2h["away"])):
-            e = (prob / overround_1x2) * price - 1
+            e = prob * price - 1
             bets.append({"name": "1X2" + label, "prob": round(prob, 4), "odds": price,
                          "ev": round(e, 4), "is_1x2": True})
     # 第五类: 基准偏差联动小球 —— 实测进球高于配置时, 小球概率系统性虚高, 小盘EV按偏差比例校准打折(非风控折损)
@@ -1726,13 +1828,52 @@ def analyze_match(m, team_stats, lavg, index):
                 _hd = float(_b["name"].split("(")[1].split(")")[0])
             except Exception:
                 _hd = 0.0
+            _zone_ban = False
+            for _zb in (cal.get("hdp_home_ban_zones") or []):
+                try:
+                    if float(_zb.get("lo", 0.0)) <= _hd <= float(_zb.get("hi", 0.0)):
+                        _zone_ban = True
+                        break
+                except Exception:
+                    pass
+            if _zone_ban:
+                _n_hdp_dir_ban += 1
+                continue
             if _hd == HDP_BAN_DRAW or _hd <= HDP_BAN_GIVE_DEEP or _hd >= HDP_BAN_RECEIVE_DEEP:
                 _n_hdp_dir_ban += 1
                 continue
         _keep_dir.append(_b)
     if _n_hdp_dir_ban:
         bets = _keep_dir
-        note.append("让球方向按强弱禁出: 移除%d腿(平手/深盘让<=-1.0/深受让>=+1.8, 保留让球方-0.2~-0.8与受让方+号; 主客一视同仁)" % _n_hdp_dir_ban)
+        _hdp_ban_notes = []
+        for _zb in (cal.get("hdp_home_ban_zones") or []):
+            _hdp_ban_notes.append("主受让+%.2f~+%.2f(19763场切片实证主赢盘41.6%%)" % (
+                float(_zb.get("lo", 0.0)), float(_zb.get("hi", 0.0))))
+        note.append("让球方向按强弱禁出: 移除%d腿(平手/深盘让<=-1.0/深受让>=+1.8%s; 保留让球方-0.2~-0.8与受让方+号; 主客一视同仁)" % (
+            _n_hdp_dir_ban, (", " + " ".join(_hdp_ban_notes)) if _hdp_ban_notes else ""))
+    # 规则13(2026-08-27 西甲3043场实证 → 同日泛化五大): 热主价值陷阱区
+    #   西甲[1.55,2.20) 主胜仅48-54%/平30%+; 五大19763场切片 主胜2.00-2.20 实际仅40.8(英超)-48.6%(法甲)% 隐含≈50%+抽水必亏
+    #   处置: 让球主-号(主队让球)腿移出候选; 受让+号/客胜/大小球方向保留(方向自动转反向, 毕尔巴鄂1-3/奥萨苏纳0-0实证)
+    _hot_home_lo = float(cal.get("hot_home_ban_lo") or cal.get("laliga_hot_home_lo") or 0.0)
+    _hot_home_hi = float(cal.get("hot_home_ban_hi") or cal.get("laliga_hot_home_hi") or 0.0)
+    _laliga_hot = bool(h2h.get("home") and _hot_home_lo and _hot_home_hi
+                       and _hot_home_lo <= h2h["home"] < _hot_home_hi)
+    if _laliga_hot:
+        _keep_hot, _n_hot = [], 0
+        for _b in bets:
+            if _b["name"].startswith("让球主"):
+                try:
+                    _hh = float(_b["name"].split("(")[1].split(")")[0])
+                except Exception:
+                    _hh = 0.0
+                if _hh < 0:
+                    _n_hot += 1
+                    continue
+            _keep_hot.append(_b)
+        if _n_hot:
+            bets = _keep_hot
+            note.append("规则13热主禁追(%s): 主胜%.2f∈[%.2f,%.2f), 移除%d个让球主-号腿(五大19763场切片: 主胜2.00-2.20实际40.8-48.6%%/西甲1.55-2.20平30%%+)" % (
+                lg, h2h["home"], _hot_home_lo, _hot_home_hi, _n_hot))
 
     # 规则5残项(2026-08-23 M-20260823-05): 让球客标准档EV8-20%仍禁出(账本18注-26.5%, 独立于方向)
     _n_away_ban = 0
@@ -1794,6 +1935,8 @@ def analyze_match(m, team_stats, lavg, index):
     #   处置: 该小球腿 _pband_banned 移出候选(不出单/不输出方向); 真小球(λ和市场双低)不受影响
     #   实证: 荷甲账本5注小球全灭(高进球联赛逆市场推小=系统性错误)
     _fake_small_ban, _model_over, _mkt_over = fake_small_intercept(bets, tt)
+    # 规则⑪(2026-08-27): 低估区禁小球 — 移出候选+方向(不出单/不输出方向)
+    _under_ban_small = under_zone_ban_small(bets, lg, cal, _league_avg_shifted, _base_dev)
     ev_min = EV_TIER_INTEL if HAS_INTEL else EV_TIER_BATCH
     odds_floor = ODDS_FLOOR_MAIN if lg not in SECONDARY_LEAGUES else ODDS_FLOOR_SEC
     valid = [b for b in bets if not b.get("is_1x2") and not b.get("_pband_banned")
@@ -1825,6 +1968,14 @@ def analyze_match(m, team_stats, lavg, index):
     lam_sum = round(lam_h + lam_a, 2)
     # 第四类: 风控标签只降星级/仓位, 不修改EV原值
     risk_tags = []
+    warn_codes = []
+    # P1-4 审计(2026-08-27): effective_rate 样本分层收缩联动 λ 层告警码
+    if h_low or a_low:
+        _sl_side = ("主" if h_low else "") + ("/客" if a_low else "")
+        _sl_tag = "样本不足(%s队, 攻防收缩30%%)" % _sl_side
+        if _sl_tag not in risk_tags:
+            risk_tags.append(_sl_tag)
+        warn_codes.append("SAMPLE_LOW")
     if not HAS_INTEL:
         _has_bsd_inj = bool(_pkg) and (_pkg.get("home_inj_n", 0) + _pkg.get("away_inj_n", 0)) > 0
         if not _has_bsd_inj:
@@ -1850,17 +2001,31 @@ def analyze_match(m, team_stats, lavg, index):
     if _fake_small_ban:
         risk_tags.append("假小球拦截(%d腿: 模型大%.0f%%>=50%%+市场隐含大>=60%%, λ低估假信号)" % (_fake_small_ban, (_model_over or 0) * 100))
         note.append("规则9: 假小球拦截 %d 腿 — 模型自算大球>=50%%却出小球正EV, λ低估假信号, 移出候选(300场复盘验证)" % _fake_small_ban)
+    if _under_ban_small:
+        _ub_tag = "低估区禁小球(%d腿: %s, 小球只在λ高估区推)" % (_under_ban_small, lg)
+        if _ub_tag not in risk_tags:
+            risk_tags.append(_ub_tag)
+        note.append("规则11: 低估区禁小球 %d 腿 — %s 小球为陷阱, 移出候选+方向(300场复盘英冠20%%/荷甲0%%/德国杯0%%+账本英冠31%%/荷甲22%%/英联杯0%%/欧冠0%%)" % (_under_ban_small, lg))
     # ---- 平局预警(2026-08-19 3万场实证): 市场去水平局概率>=26% -> 平局预警标签(只降星/降仓/标注, 不出平局单) ----
     if draw_warn:
         _dw_tag = "平局预警(市场去水平局>=%.0f%%)" % (DRAW_WARN_MIN * 100)
         if draw_warn["strong"]:
-            _dw_tag = "平局预警-强(市场去水平局>=%.0f%%)" % (DRAW_WARN_STRONG * 100)
+            if lg == "西甲" and draw_warn["market_draw_prob"] < DRAW_WARN_STRONG * 100:
+                _dw_tag = "平局预警-强(西甲: 去水平局%.0f%% 且平赔<=3.5)" % draw_warn["market_draw_prob"]
+            else:
+                _dw_thr = (_dw_strong if lg == "西甲" else DRAW_WARN_STRONG)
+                _dw_tag = "平局预警-强(市场去水平局>=%.0f%%)" % (_dw_thr * 100)
         if _dw_tag not in risk_tags:
             risk_tags.append(_dw_tag)
         if _n_dw_hdp:
             _dw_plus_tag = "平局预警→让球只用+号(受让方)"
             if _dw_plus_tag not in risk_tags:
                 risk_tags.append(_dw_plus_tag)
+    if _laliga_hot:
+        _tg13c = "热主禁追区(%s: 主胜%.2f∈[%.2f,%.2f))" % (
+            lg, h2h["home"], _hot_home_lo, _hot_home_hi)
+        if _tg13c not in risk_tags:
+            risk_tags.append(_tg13c)
     # 规则②(2026-08-23 M-20260823-02): 小2.50高EV反向标记(实证南安普顿+37/西汉姆+35/蒙特利尔+44全错) -> 打反向标签, 自动降星降仓
     _small250_hi = [b for b in bets if b["name"].startswith("小")
                     and abs(float(b["name"][1:]) - DRAW_WARN_TOTALS_LINE) < 0.01
@@ -1922,7 +2087,8 @@ def analyze_match(m, team_stats, lavg, index):
     # ---- 方向输出: 无论是否否决, 都给模型最高概率侧 + 胜平负方向 (仅标注, 不阻断) ----
     direction = None
     if bets:
-        _d_pick = max([b for b in bets if not b.get("is_1x2") and not b.get("_pband_banned")] or bets, key=lambda b: b["prob"])
+        _d_pick = max([b for b in bets if not b.get("is_1x2") and not b.get("_pband_banned")]
+                     or [b for b in bets if not b.get("_pband_banned")] or bets, key=lambda b: b["prob"])
         _d_mkt = None
         _dn = _d_pick["name"]
         try:
@@ -1950,7 +2116,8 @@ def analyze_match(m, team_stats, lavg, index):
     if best:
         _tier, _stake = ev_tier_label(best["ev"])
         # 高估区标签(规则⑧)为方向性信息(实证受让+号加权重/让球-号降权重), 不计入n_risk扣星
-        n_risk = len([t for t in risk_tags if t != "纯数据无伤病情报" and "高估区" not in t])
+        # 样本不足(攻防已收缩30%入λ)同为信息性标签, 不再二次扣星(审计P1-1: 收缩即告警, 双罚失真)
+        n_risk = len([t for t in risk_tags if t != "纯数据无伤病情报" and "样本不足" not in t and "高估区" not in t])
         star = 3 if best["ev"] >= 0.20 else 2 if best["ev"] >= 0.08 else 1
         star = max(1, star - (1 if n_risk >= 1 else 0) - (1 if n_risk >= 3 else 0))
         # 平局预警降级(3万场实证): 市场去水平局>=26% 且 best为"平局会吃掉的方向腿" -> 降1星+仓位减半
@@ -2005,6 +2172,29 @@ def analyze_match(m, team_stats, lavg, index):
                 _oe_tag = None
             if _oe_tag and _oe_tag not in risk_tags:
                 risk_tags.append(_oe_tag)
+        # 规则13(2026-08-27 西甲3043场实证 → 同日泛化五大19763场): ①热主区受让+号加星加仓(主胜仅40.8-48.6%, 反向受让);
+        #   ②高赔主场(>=high_home_away_lo)受让+号加星加仓(五联赛主胜>=2.50后客胜>主胜, 受让+1走水保底)
+        # 2026-08-27 改为仅配置生效(五大已配2.80), 去掉全局2.80默认: 证据仅来自五大19763场切片,
+        #   默认套用到J1/荷甲/土超等无实证联赛会虚高星级(实盘扫描曾误打22场), 见SESSION_STATE
+        _laliga_high_lo = float(cal.get("high_home_away_lo") or cal.get("laliga_high_home_boost_lo") or 0.0)
+        if _laliga_high_lo > 0 and best["name"].startswith("让球主"):
+            try:
+                _h13 = float(best["name"].split("(")[1].split(")")[0])
+            except Exception:
+                _h13 = 0.0
+            if _h13 > 0:
+                if h2h.get("home") and h2h["home"] >= _laliga_high_lo:
+                    star = min(3, star + 1)
+                    _stake *= 1.3
+                    _tg13b = "%s高赔主场(>%.1f)受让+号加权重(五大19763场切片: 客胜>主胜)" % (lg, _laliga_high_lo)
+                    if _tg13b not in risk_tags:
+                        risk_tags.append(_tg13b)
+                elif _laliga_hot:
+                    star = min(3, star + 1)
+                    _stake *= 1.3
+                    _tg13 = "%s热主区受让+号加权重(主胜仅40.8-48.6%%, 反向受让)" % lg
+                    if _tg13 not in risk_tags:
+                        risk_tags.append(_tg13)
         best["star"] = star
         best["ev_tier"] = _tier
         best["stake_factor"] = _stake * (0.5 if n_risk >= 1 else 1.0) * (0.5 if n_risk >= 3 else 1.0)
@@ -2074,7 +2264,7 @@ def analyze_match(m, team_stats, lavg, index):
             "data_src": {"home": h_src, "away": a_src},
             "snap_age_h": snap_age_h,
             "bets": bets, "best_bet": best, "direction": direction, "dir_consistency": calc_dir_consistency(bets),
-            "star": star, "ev_tier": _tier, "risk_tags": risk_tags, "draw_warn": draw_warn,
+            "star": star, "ev_tier": _tier, "risk_tags": risk_tags, "warn_codes": warn_codes, "draw_warn": draw_warn,
             "upset": {"hot": hot_team, "level": upset["level"], "count": upset["triggered_count"],
                       "signals": upset["hot_items"] + upset["cold_items"] + upset["line_items"]
                       + upset["fair_items"] + upset["feature_items"]},

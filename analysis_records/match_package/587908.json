@@ -1,0 +1,113 @@
+{
+ "id": 587908,
+ "league": "Conference League",
+ "kickoff": "08-28 01:00",
+ "kickoff_iso": "2026-08-27T17:00:00+00:00",
+ "home": "Inter Club d'Escaldes",
+ "away": "FC Drita",
+ "home_id": 398,
+ "away_id": 380,
+ "pulled_at": "2026-08-27T19:50:09.374044+08:00",
+ "missing": [
+  "away教练(coach_cache未命中 id=3451) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1663,
+    "name": "Felip Ortiz",
+    "short_name": "F. Ortiz",
+    "profile": "balanced",
+    "preferred_formation": "5-3-2",
+    "matches_total": 6.0,
+    "avg_goals_scored": 1.17,
+    "avg_goals_conceded": 2.33
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "5-3-2",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.94,
+   "draw": 3.47,
+   "away_win": 3.59,
+   "over_15_goals": null,
+   "over_25_goals": 1.85,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": 1.95,
+   "under_35_goals": null,
+   "btts_yes": 1.67,
+   "btts_no": 2.09
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.327,
+   "away": 0.345
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-27T08:32:31Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.544,
+    "home_ga": 1.105,
+    "away_gf": 1.64,
+    "away_ga": 2.384,
+    "n_home": 5.7,
+    "n_away": 8.6,
+    "n_scored": 29,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 398
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.771,
+    "home_ga": 1.343,
+    "away_gf": 1.358,
+    "away_ga": 1.568,
+    "n_home": 7.0,
+    "n_away": 9.5,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 380
+   }
+  }
+ }
+}

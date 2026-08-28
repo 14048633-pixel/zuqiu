@@ -1,0 +1,110 @@
+{
+ "id": 374957,
+ "league": "Liga Portugal 2",
+ "kickoff": "08-29 01:00",
+ "kickoff_iso": "2026-08-28T17:00:00+00:00",
+ "home": "União de Leiria",
+ "away": "Tondela",
+ "home_id": 3516,
+ "away_id": 32,
+ "pulled_at": "2026-08-28T18:48:28.619569+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=2909) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": {
+    "id": 1935,
+    "name": "Ricardo Costa",
+    "short_name": "R. Costa",
+    "profile": "balanced",
+    "preferred_formation": "3-4-3",
+    "matches_total": 6.0,
+    "avg_goals_scored": 1.17,
+    "avg_goals_conceded": 1.17
+   }
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": "3-4-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.1,
+   "draw": 3.19,
+   "away_win": 3.23,
+   "over_15_goals": 1.31,
+   "over_25_goals": 1.99,
+   "over_35_goals": 3.47,
+   "under_15_goals": 3.19,
+   "under_25_goals": 1.76,
+   "under_35_goals": 1.26,
+   "btts_yes": 1.76,
+   "btts_no": 1.94
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.477,
+   "away": 0.295
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-28T08:32:13Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.61,
+    "home_ga": 1.468,
+    "away_gf": 1.784,
+    "away_ga": 1.625,
+    "n_home": 7.7,
+    "n_away": 8.8,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 3516
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.852,
+    "home_ga": 1.148,
+    "away_gf": 0.846,
+    "away_ga": 2.0,
+    "n_home": 27.0,
+    "n_away": 26.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

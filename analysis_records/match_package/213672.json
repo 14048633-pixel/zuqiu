@@ -1,0 +1,156 @@
+{
+ "id": 213672,
+ "league": "Bundesliga",
+ "kickoff": "08-30 00:30",
+ "kickoff_iso": "2026-08-29T16:30:00+00:00",
+ "home": "Borussia Dortmund",
+ "away": "Hamburger SV",
+ "home_id": 92,
+ "away_id": 96,
+ "pulled_at": "2026-08-27T20:28:11.442719+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 284,
+    "name": "Niko Kovač",
+    "short_name": "N. Kovač",
+    "profile": "attacking",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 51.0,
+    "avg_goals_scored": 1.94,
+    "avg_goals_conceded": 1.2
+   },
+   "away": {
+    "id": 239,
+    "name": "Merlin Polzin",
+    "short_name": "M. Polzin",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 41.0,
+    "avg_goals_scored": 1.27,
+    "avg_goals_conceded": 1.56
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": "3-4-2-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.31,
+   "draw": 5.42,
+   "away_win": 8.38,
+   "over_15_goals": 1.13,
+   "over_25_goals": 1.47,
+   "over_35_goals": 2.23,
+   "under_15_goals": 5.53,
+   "under_25_goals": 2.6,
+   "under_35_goals": 1.65,
+   "btts_yes": 1.79,
+   "btts_no": 1.94
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 1876,
+    "name": "Kauã Prates",
+    "short_name": "K. Prates",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 3915,
+    "name": "Maximilian Beier",
+    "short_name": "M. Beier",
+    "status": "injured",
+    "reason": "Bruised Knee"
+   },
+   {
+    "id": 2158,
+    "name": "Nico Schlotterbeck",
+    "short_name": "N. Schlotterbeck",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 1599,
+    "name": "Alexander Røssing-Lelesiit",
+    "short_name": "A. Røssing-Lelesiit",
+    "status": "injured",
+    "reason": "Ankle Injury"
+   },
+   {
+    "id": 4615,
+    "name": "Warmed Omari",
+    "short_name": "W. Omari",
+    "status": "injured",
+    "reason": "Shoulder Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.582,
+   "away": 0.568
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-27T08:36:52Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.426,
+    "home_ga": 1.206,
+    "away_gf": 1.33,
+    "away_ga": 1.206,
+    "n_home": 6.8,
+    "n_away": 9.7,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 92
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.69,
+    "home_ga": 1.476,
+    "away_gf": 1.519,
+    "away_ga": 1.593,
+    "n_home": 8.4,
+    "n_away": 8.1,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 96
+   }
+  }
+ }
+}

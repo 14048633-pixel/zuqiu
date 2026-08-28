@@ -102,15 +102,15 @@ def analyze(o, old, zones):
     bets = []
     sp_orr = 1.0 / hdp["home_odds"] + 1.0 / hdp["away_odds"]
     bets.append({"name": "让球主(%+.1f)" % hdp_line, "prob": hdp_h, "odds": hdp["home_odds"],
-                 "ev": (hdp_h / sp_orr) * hdp["home_odds"] - 1.0})
+                 "ev": hdp_h * hdp["home_odds"] - 1.0})
     bets.append({"name": "让球客(%+.1f)" % (-hdp_line), "prob": 1 - hdp_h, "odds": hdp["away_odds"],
-                 "ev": ((1 - hdp_h) / sp_orr) * hdp["away_odds"] - 1.0})
+                 "ev": (1 - hdp_h) * hdp["away_odds"] - 1.0})
     if tt:
         tt_orr = tt[1]
         bets.append({"name": "大%.1f" % tt_line, "prob": over, "odds": tt[3],
-                     "ev": (over / tt_orr) * tt[3] - 1.0})
+                     "ev": over * tt[3] - 1.0})
         bets.append({"name": "小%.1f" % tt_line, "prob": under, "odds": tt[4],
-                     "ev": (under / tt_orr) * tt[4] - 1.0})
+                     "ev": under * tt[4] - 1.0})
     fair = None
     if ml:
         ml_orr = ml[0]
@@ -120,7 +120,7 @@ def analyze(o, old, zones):
                                  ("客胜", "away", ml[1]["away"])):
             pv = w if pk == "home" else d if pk == "draw" else l
             bets.append({"name": "1X2" + label, "prob": pv, "odds": price,
-                         "ev": (pv / ml_orr) * price - 1.0, "is_1x2": True})
+                         "ev": pv * price - 1.0, "is_1x2": True})
     valid = [b for b in bets if not b.get("is_1x2") and b["ev"] >= EV_TIER_INTEL and b["odds"] >= ODDS_FLOOR]
     best = max(valid, key=lambda b: b["prob"]) if valid else None
     risk = list(oldm.get("step75_risk_signals") or [])

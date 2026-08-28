@@ -1,0 +1,104 @@
+{
+ "id": 601021,
+ "league": "Club Friendlies",
+ "kickoff": "08-28 16:00",
+ "kickoff_iso": "2026-08-28T08:00:00+00:00",
+ "home": "CD Ebro",
+ "away": "Robres CD",
+ "home_id": 1456,
+ "away_id": 8475,
+ "pulled_at": "2026-08-28T18:47:22.258996+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=906) 未提取",
+  "away教练(coach_cache未命中 id=None) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "unavailable",
+  "confidence": {
+   "home": null,
+   "away": null
+  },
+  "formation": {
+   "home": null,
+   "away": null
+  },
+  "updated_at": null
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.37,
+    "home_ga": 1.63,
+    "away_gf": 0.781,
+    "away_ga": 1.219,
+    "n_home": 8.1,
+    "n_away": 3.2,
+    "n_scored": 17,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1456
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 0.0,
+    "away_ga": 2.0,
+    "n_home": 0.0,
+    "n_away": 1.0,
+    "n_scored": 1,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 8475
+   }
+  }
+ }
+}

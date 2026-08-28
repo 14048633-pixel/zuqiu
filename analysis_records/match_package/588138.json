@@ -1,0 +1,117 @@
+{
+ "id": 588138,
+ "league": "National League",
+ "kickoff": "08-29 02:45",
+ "kickoff_iso": "2026-08-28T18:45:00+00:00",
+ "home": "Aldershot Town",
+ "away": "Harrogate Town",
+ "home_id": 1883,
+ "away_id": 1431,
+ "pulled_at": "2026-08-28T18:51:09.066867+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1246,
+    "name": "Scott Davies",
+    "short_name": "S. Davies",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 9.0,
+    "avg_goals_scored": 1.56,
+    "avg_goals_conceded": 0.78
+   },
+   "away": {
+    "id": 877,
+    "name": "Simon Weaver",
+    "short_name": "S. Weaver",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 8.0,
+    "avg_goals_scored": 1.75,
+    "avg_goals_conceded": 1.5
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.22,
+   "draw": 3.52,
+   "away_win": 1.98,
+   "over_15_goals": 1.17,
+   "over_25_goals": 1.62,
+   "over_35_goals": 2.55,
+   "under_15_goals": 4.37,
+   "under_25_goals": 2.19,
+   "under_35_goals": 1.45,
+   "btts_yes": 1.54,
+   "btts_no": 2.27
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.332,
+   "away": 0.309
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-28T08:32:27Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.113,
+    "home_ga": 1.662,
+    "away_gf": 1.426,
+    "away_ga": 0.809,
+    "n_home": 7.1,
+    "n_away": 9.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1883
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.667,
+    "home_ga": 1.5,
+    "away_gf": 1.182,
+    "away_ga": 1.182,
+    "n_home": 12.0,
+    "n_away": 11.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

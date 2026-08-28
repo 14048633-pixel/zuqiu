@@ -1,0 +1,132 @@
+[
+ {
+  "match": "Al Faisaly vs Al-Fateh",
+  "league": "沙超",
+  "ko": "2026-08-26T16:00:00+00:00",
+  "infer_event": "evt_WB8XH0R6",
+  "snap_eid": null,
+  "infer_names": [
+   "Faisaly Harmah",
+   "Al Fateh"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'Al Faisaly vs Al-Fateh'. Did you mean: Faisaly Harmah vs Al Fateh; Al Arabi Doha vs Al Fateh; Al Nasr Riyadh vs Al Fateh; Al Ula vs Al Fateh? Re-call get_sharp_line with a more spec"
+   },
+   "totals": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'Al Faisaly vs Al-Fateh'. Did you mean: Faisaly Harmah vs Al Fateh; Al Arabi Doha vs Al Fateh; Al Nasr Riyadh vs Al Fateh; Al Ula vs Al Fateh? Re-call get_sharp_line with a more spec"
+   },
+   "1x2": {
+    "status": "error",
+    "detail": "Ambiguous fixture 'Al Faisaly vs Al-Fateh'. Did you mean: Faisaly Harmah vs Al Fateh; Al Arabi Doha vs Al Fateh; Al Nasr Riyadh vs Al Fateh; Al Ula vs Al Fateh? Re-call get_sharp_line with a more spec"
+   }
+  }
+ },
+ {
+  "match": "SK Rapid Wien vs Heart of Midlothian",
+  "league": "欧协联",
+  "status": "mismatch",
+  "infer": "Rapid Wien vs Hearts",
+  "sim": [
+   0.86,
+   0.43
+  ]
+ },
+ {
+  "match": "Barcelona Atlètic vs Reus FC Reddis",
+  "league": "友谊赛",
+  "ko": "2026-08-26T17:00:00+00:00",
+  "infer_event": "evt_YTJ7QGBW",
+  "snap_eid": null,
+  "infer_names": [
+   "Barcelona B",
+   "Reus FC Reddis"
+  ],
+  "markets": {
+   "asian_handicap": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:12:03Z",
+    "stale": false,
+    "consensus_line": -0.5,
+    "fair": {
+     "home": 2.066,
+     "away": 1.938
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "sbobet",
+      "price": 1.94,
+      "decimal": 1.94
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 1.82,
+      "decimal": 1.82
+     }
+    ],
+    "book_count": 2
+   },
+   "totals": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:12:03Z",
+    "stale": false,
+    "consensus_line": 2.75,
+    "fair": {
+     "over": 2.022,
+     "under": 1.979
+    },
+    "best_prices": [
+     {
+      "outcome": "over",
+      "bookmaker": "sbobet",
+      "price": 1.9,
+      "decimal": 1.9
+     },
+     {
+      "outcome": "under",
+      "bookmaker": "crown",
+      "price": 1.89,
+      "decimal": 1.89
+     }
+    ],
+    "book_count": 2
+   },
+   "1x2": {
+    "status": "ok",
+    "as_of": "2026-08-26T14:12:03Z",
+    "stale": false,
+    "consensus_line": null,
+    "fair": {
+     "home": 2.11,
+     "draw": 4.04,
+     "away": 3.591
+    },
+    "best_prices": [
+     {
+      "outcome": "home",
+      "bookmaker": "sbobet",
+      "price": 1.94,
+      "decimal": 1.94
+     },
+     {
+      "outcome": "draw",
+      "bookmaker": "crown",
+      "price": 3.6,
+      "decimal": 3.6
+     },
+     {
+      "outcome": "away",
+      "bookmaker": "crown",
+      "price": 3.2,
+      "decimal": 3.2
+     }
+    ],
+    "book_count": 2
+   }
+  }
+ }
+]

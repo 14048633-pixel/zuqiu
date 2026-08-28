@@ -1,0 +1,162 @@
+{
+ "id": 587855,
+ "league": "Europa League",
+ "kickoff": "08-28 01:00",
+ "kickoff_iso": "2026-08-27T17:00:00+00:00",
+ "home": "Red Bull Salzburg",
+ "away": "Mjällby AIF",
+ "home_id": 147,
+ "away_id": 441,
+ "pulled_at": "2026-08-27T19:51:16.727047+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 253,
+    "name": "Danny Röhl",
+    "short_name": "D. Röhl",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 51.0,
+    "avg_goals_scored": 1.53,
+    "avg_goals_conceded": 1.22
+   },
+   "away": {
+    "id": 591,
+    "name": "Karl Marius Aksum",
+    "short_name": "K. M. Aksum",
+    "profile": "attacking",
+    "preferred_formation": "3-4-3",
+    "matches_total": 55.0,
+    "avg_goals_scored": 1.75,
+    "avg_goals_conceded": 1.0
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.21,
+   "draw": 6.38,
+   "away_win": 11.54,
+   "over_15_goals": 1.12,
+   "over_25_goals": 1.45,
+   "over_35_goals": 2.19,
+   "under_15_goals": 5.43,
+   "under_25_goals": 2.57,
+   "under_35_goals": 1.65,
+   "btts_yes": 1.94,
+   "btts_no": 1.78
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 25686,
+    "name": "Anrie Chase",
+    "short_name": "A. Chase",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 3048,
+    "name": "Enrique Aguilar",
+    "short_name": "E. Aguilar",
+    "status": "injured",
+    "reason": "Broken Hand"
+   },
+   {
+    "id": 3052,
+    "name": "Frans Krätzig",
+    "short_name": "F. Krätzig",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 65969,
+    "name": "Johannes Moser",
+    "short_name": "J. Moser",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 3035,
+    "name": "Stefan Lainer",
+    "short_name": "S. Lainer",
+    "status": "injured",
+    "reason": "Heel Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 16081,
+    "name": "Timo Stavitski",
+    "short_name": "T. Stavitski",
+    "status": "injured",
+    "reason": "Back Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.395,
+   "away": 0.609
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-3"
+  },
+  "updated_at": "2026-08-27T08:32:27Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.309,
+    "home_ga": 1.681,
+    "away_gf": 1.986,
+    "away_ga": 1.901,
+    "n_home": 9.4,
+    "n_away": 7.1,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 147
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.63,
+    "home_ga": 0.842,
+    "away_gf": 1.707,
+    "away_ga": 1.113,
+    "n_home": 33.5,
+    "n_away": 33.5,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

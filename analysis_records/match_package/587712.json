@@ -1,0 +1,128 @@
+{
+ "id": 587712,
+ "league": "Europa League",
+ "kickoff": "08-28 01:00",
+ "kickoff_iso": "2026-08-27T17:00:00+00:00",
+ "home": "FC Viktoria Plzeň",
+ "away": "FK Crvena Zvezda",
+ "home_id": 144,
+ "away_id": 131,
+ "pulled_at": "2026-08-27T19:51:26.888293+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 639,
+    "name": "Martin Hysky",
+    "short_name": "M. Hysky",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 21.0,
+    "avg_goals_scored": 1.62,
+    "avg_goals_conceded": 1.14
+   },
+   "away": {
+    "id": 410,
+    "name": "Albert Riera",
+    "short_name": "A. Riera",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 44.0,
+    "avg_goals_scored": 1.75,
+    "avg_goals_conceded": 1.98
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.05,
+   "draw": 3.64,
+   "away_win": 3.23,
+   "over_15_goals": 1.17,
+   "over_25_goals": 1.58,
+   "over_35_goals": 2.43,
+   "under_15_goals": 4.59,
+   "under_25_goals": 2.32,
+   "under_35_goals": 1.52,
+   "btts_yes": 1.5,
+   "btts_no": 2.41
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 22931,
+    "name": "Viktor Baier",
+    "short_name": "V. Baier",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.527,
+   "away": 0.4
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-27T08:32:25Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.644,
+    "home_ga": 1.168,
+    "away_gf": 1.234,
+    "away_ga": 1.594,
+    "n_home": 10.1,
+    "n_away": 6.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 144
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.844,
+    "home_ga": 1.177,
+    "away_gf": 1.232,
+    "away_ga": 1.246,
+    "n_home": 9.6,
+    "n_away": 6.9,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 131
+   }
+  }
+ }
+}

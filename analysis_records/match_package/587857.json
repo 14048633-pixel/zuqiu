@@ -1,0 +1,136 @@
+{
+ "id": 587857,
+ "league": "Europa League",
+ "kickoff": "08-28 01:00",
+ "kickoff_iso": "2026-08-27T17:00:00+00:00",
+ "home": "Lillestrøm SK",
+ "away": "KF Egnatia",
+ "home_id": 2081,
+ "away_id": 401,
+ "pulled_at": "2026-08-27T19:51:07.624023+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1501,
+    "name": "Hans Erik Odegaard",
+    "short_name": "H. E. Odegaard",
+    "profile": "attacking",
+    "preferred_formation": "4-1-4-1",
+    "matches_total": 29.0,
+    "avg_goals_scored": 1.79,
+    "avg_goals_conceded": 1.52
+   },
+   "away": {
+    "id": 1662,
+    "name": "Nevil Dede",
+    "short_name": "N. Dede",
+    "profile": "attacking",
+    "preferred_formation": "3-5-2",
+    "matches_total": 9.0,
+    "avg_goals_scored": 2.11,
+    "avg_goals_conceded": 2.11
+   }
+  },
+  "preferred_formation": {
+   "home": "4-1-4-1",
+   "away": "3-5-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.46,
+   "draw": 4.27,
+   "away_win": 6.37,
+   "over_15_goals": 1.23,
+   "over_25_goals": 1.79,
+   "over_35_goals": 2.98,
+   "under_15_goals": 3.85,
+   "under_25_goals": 2.0,
+   "under_35_goals": 1.36,
+   "btts_yes": 1.93,
+   "btts_no": 1.78
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 50242,
+    "name": "Camil Jebara",
+    "short_name": "C. Jebara",
+    "status": "injured",
+    "reason": "Groin Injury"
+   },
+   {
+    "id": 50331,
+    "name": "Eric Kitolano",
+    "short_name": "E. Kitolano",
+    "status": "injured",
+    "reason": "Broken Ankle"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.65,
+   "away": 0.368
+  },
+  "formation": {
+   "home": "4-1-4-1",
+   "away": "3-5-2"
+  },
+  "updated_at": "2026-08-27T08:32:33Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.875,
+    "home_ga": 1.682,
+    "away_gf": 0.701,
+    "away_ga": 1.623,
+    "n_home": 8.8,
+    "n_away": 7.7,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 2081
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 3.263,
+    "home_ga": 1.86,
+    "away_gf": 1.147,
+    "away_ga": 1.515,
+    "n_home": 5.7,
+    "n_away": 6.8,
+    "n_scored": 20,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 401
+   }
+  }
+ }
+}

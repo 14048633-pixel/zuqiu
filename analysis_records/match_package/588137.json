@@ -1,0 +1,112 @@
+{
+ "id": 588137,
+ "league": "National League",
+ "kickoff": "08-29 02:45",
+ "kickoff_iso": "2026-08-28T18:45:00+00:00",
+ "home": "AFC Fylde",
+ "away": "Forest Green Rovers",
+ "home_id": 4103,
+ "away_id": 1893,
+ "pulled_at": "2026-08-28T18:51:16.243035+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=2193) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": {
+    "id": 1259,
+    "name": "Robbie Savage",
+    "short_name": "R. Savage",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 2.14,
+    "avg_goals_conceded": 2.71
+   }
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.72,
+   "draw": 3.6,
+   "away_win": 2.19,
+   "over_15_goals": 1.12,
+   "over_25_goals": 1.48,
+   "over_35_goals": 2.22,
+   "under_15_goals": 5.23,
+   "under_25_goals": 2.48,
+   "under_35_goals": 1.6,
+   "btts_yes": 1.42,
+   "btts_no": 2.63
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.277,
+   "away": 0.318
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-28T08:32:22Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.197,
+    "home_ga": 2.066,
+    "away_gf": 1.09,
+    "away_ga": 1.674,
+    "n_home": 7.6,
+    "n_away": 8.9,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 4103
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.096,
+    "home_ga": 2.117,
+    "away_gf": 1.507,
+    "away_ga": 1.254,
+    "n_home": 9.4,
+    "n_away": 7.1,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1893
+   }
+  }
+ }
+}

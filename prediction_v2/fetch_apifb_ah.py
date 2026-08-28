@@ -9,7 +9,7 @@ ROOT = r'D:\足球分析'
 HERE = os.path.join(ROOT, 'prediction_v2')
 SNAP = os.path.join(HERE, 'output', 'odds_snapshots', 'snapshots.csv')
 MAP = os.path.join(ROOT, 'analysis_records', 'apifb_fixture_map_20260821.json')
-KEY = 'FOOTBALL_API_KEY_FROM_ENV'
+KEY = os.environ.get("FOOTBALL_API_KEY", "")
 
 def get(url):
     req = urllib.request.Request(url, headers={'x-apisports-key': KEY})

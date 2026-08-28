@@ -1,0 +1,145 @@
+{
+ "id": 211885,
+ "league": "Ekstraklasa",
+ "kickoff": "08-29 00:00",
+ "kickoff_iso": "2026-08-28T16:00:00+00:00",
+ "home": "Wisła Płock",
+ "away": "MKS Korona Kielce",
+ "home_id": 425,
+ "away_id": 426,
+ "pulled_at": "2026-08-28T18:48:12.239086+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1898,
+    "name": "Adam Majewski",
+    "short_name": "A. Majewski",
+    "profile": "attacking",
+    "preferred_formation": "3-5-2",
+    "matches_total": 13.0,
+    "avg_goals_scored": 1.77,
+    "avg_goals_conceded": 0.85
+   },
+   "away": {
+    "id": 481,
+    "name": "Jacek Zielinski",
+    "short_name": "J. Zielinski",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 47.0,
+    "avg_goals_scored": 1.19,
+    "avg_goals_conceded": 0.98
+   }
+  },
+  "preferred_formation": {
+   "home": "3-5-2",
+   "away": "3-4-2-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.64,
+   "draw": 3.21,
+   "away_win": 2.52,
+   "over_15_goals": 1.31,
+   "over_25_goals": 2.02,
+   "over_35_goals": 3.55,
+   "under_15_goals": 3.22,
+   "under_25_goals": 1.76,
+   "under_35_goals": 1.26,
+   "btts_yes": 1.79,
+   "btts_no": 1.93
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 13797,
+    "name": "Dani Pacheco",
+    "short_name": "D. Pacheco",
+    "status": "injured",
+    "reason": "Shoulder Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 13738,
+    "name": "Dawid Błanik",
+    "short_name": "D. Błanik",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 13742,
+    "name": "Hubert Zwozny",
+    "short_name": "H. Zwozny",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 12737,
+    "name": "Simon Gustafson",
+    "short_name": "S. Gustafson",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.491,
+   "away": 0.518
+  },
+  "formation": {
+   "home": "3-5-2",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-28T08:32:10Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 2.0,
+    "away_ga": 1.0,
+    "n_home": 0.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 1.0,
+    "away_ga": 1.0,
+    "n_home": 0.0,
+    "n_away": 1.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

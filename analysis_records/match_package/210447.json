@@ -1,0 +1,158 @@
+{
+ "id": 210447,
+ "league": "Ligue 1",
+ "kickoff": "08-30 02:45",
+ "kickoff_iso": "2026-08-29T18:45:00+00:00",
+ "home": "Auxerre",
+ "away": "Angers",
+ "home_id": 109,
+ "away_id": 107,
+ "pulled_at": "2026-08-27T20:29:15.947247+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=1901) 未提取",
+  "away教练(coach_cache未命中 id=1834) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.93,
+   "draw": 3.44,
+   "away_win": 3.92,
+   "over_15_goals": 1.32,
+   "over_25_goals": 2.02,
+   "over_35_goals": 3.51,
+   "under_15_goals": 3.24,
+   "under_25_goals": 1.8,
+   "under_35_goals": 1.28,
+   "btts_yes": 1.84,
+   "btts_no": 1.88
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 2104,
+    "name": "Assane Dioussé",
+    "short_name": "A. Dioussé",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 8936,
+    "name": "Christ Makosso",
+    "short_name": "C. Makosso",
+    "status": "suspended",
+    "reason": "red_card_suspension"
+   },
+   {
+    "id": 4285,
+    "name": "Lasso Coulibaly",
+    "short_name": "L. Coulibaly",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 4008,
+    "name": "Marvin Senaya",
+    "short_name": "M. Senaya",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 7306,
+    "name": "Sekou Fofana",
+    "short_name": "S. Fofana",
+    "status": "injured",
+    "reason": "Groin Injury"
+   },
+   {
+    "id": 4627,
+    "name": "Telli Siwe",
+    "short_name": "T. Siwe",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 1391,
+    "name": "Haris Belkebla",
+    "short_name": "H. Belkebla",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 1394,
+    "name": "Louis Mouton",
+    "short_name": "L. Mouton",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.427,
+   "away": 0.414
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-27T08:37:21Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.174,
+    "home_ga": 1.055,
+    "away_gf": 1.107,
+    "away_ga": 1.768,
+    "n_home": 32.7,
+    "n_away": 32.7,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.066,
+    "home_ga": 1.52,
+    "away_gf": 0.737,
+    "away_ga": 1.566,
+    "n_home": 34.6,
+    "n_away": 34.6,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

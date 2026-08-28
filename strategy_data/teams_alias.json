@@ -1,7 +1,10 @@
 {
- "version": 9,
- "note": "共享别名库(批量扫描/单场共用): 快照/外部队名 -> 数据源标准队名. v5新增中超(CSL)英文官方名->中文标准名, 与csl_results_2026唯一匹配. v9新增BSD事件名方向别名(Amed SK/Erzurum BB, 土超ESPN无覆盖不受影响); 2026-08-23 补英超英文标准名->football-data大表简称",
+ "version": 10,
+ "note": "共享别名库(批量扫描/单场共用): 快照/外部队名 -> 数据源标准队名. v5新增中超(CSL)英文官方名->中文标准名, 与csl_results_2026唯一匹配. v9新增BSD事件名方向别名(Amed SK/Erzurum BB, 土超ESPN无覆盖不受影响); 2026-08-23 补英超英文标准名->football-data大表简称 | 2026-08-27 补 InferSports 队名->BSD/本地全名映射(Vasco DG/Vasco da Gama 等), 修复伤停包匹配失败 | v10 2026-08-27 补西甲BSD/快照队名->football-data标准名(FC Barcelona->Barcelona, Athletic Club/Athletic Bilbao->Ath Bilbao), 修复巴萨vs毕尔巴鄂 BSD共识+攻防包匹配失败",
  "alias": {
+  "FC Barcelona": "Barcelona",
+  "Athletic Club": "Ath Bilbao",
+  "Athletic Bilbao": "Ath Bilbao",
   "Fortuna Sittard": "For Sittard",
   "Espanyol": "Espanol",
   "VfL Osnabrück": "Osnabruck",
@@ -147,7 +150,15 @@
   "Nottingham Forest": "Nottm Forest",
   "Leicester City": "Leicester",
   "Crystal Palace": "Crystal Palace",
-  "AFC Bournemouth": "Bournemouth"
+  "AFC Bournemouth": "Bournemouth",
+  "Vasco DG": "Vasco da Gama",
+  "Barcelona B": "Barcelona Atlètic",
+  "New Mexico Utd": "New Mexico United",
+  "Hearts": "Heart of Midlothian",
+  "North Carolina(W)": "North Carolina Courage",
+  "Angel City(W)": "Angel City FC",
+  "Faisaly Harmah": "Al Faisaly",
+  "Kholood": "Al-Kholood"
  },
- "updated": "2026-08-23"
+ "updated": "2026-08-27"
 }

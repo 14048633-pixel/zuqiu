@@ -1,0 +1,172 @@
+{
+ "id": 587705,
+ "league": "Champions League",
+ "kickoff": "08-27 03:00",
+ "kickoff_iso": "2026-08-26T19:00:00+00:00",
+ "home": "Viking FK",
+ "away": "GNK Dinamo Zagreb",
+ "home_id": 2076,
+ "away_id": 133,
+ "pulled_at": "2026-08-27T00:07:53.992328+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1496,
+    "name": "Morten Jensen",
+    "short_name": "M. Jensen",
+    "profile": "attacking",
+    "preferred_formation": "4-1-4-1",
+    "matches_total": 24.0,
+    "avg_goals_scored": 2.54,
+    "avg_goals_conceded": 0.88
+   },
+   "away": {
+    "id": 683,
+    "name": "Mario Kovačević",
+    "short_name": "M. Kovačević",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 18.0,
+    "avg_goals_scored": 2.33,
+    "avg_goals_conceded": 1.61
+   }
+  },
+  "preferred_formation": {
+   "home": "4-1-4-1",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.37,
+   "draw": 3.59,
+   "away_win": 2.74,
+   "over_15_goals": 1.16,
+   "over_25_goals": 1.54,
+   "over_35_goals": 2.38,
+   "under_15_goals": 4.83,
+   "under_25_goals": 2.34,
+   "under_35_goals": 1.55,
+   "btts_yes": 1.46,
+   "btts_no": 2.54
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 50282,
+    "name": "Anders Baertelsen",
+    "short_name": "A. Baertelsen",
+    "status": "injured",
+    "reason": "Broken Foot"
+   },
+   {
+    "id": 52532,
+    "name": "Martin Ove Roseth",
+    "short_name": "M. Roseth",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 50349,
+    "name": "Veton Berisha",
+    "short_name": "V. Berisha",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 67483,
+    "name": "Aleks Stojaković",
+    "short_name": "A. Stojaković",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 8690,
+    "name": "Dani Rodríguez",
+    "short_name": "D. Rodríguez",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 81254,
+    "name": "Kirill Kravtsov",
+    "short_name": "K. Kravtsov",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 8482,
+    "name": "Noah Nsoki",
+    "short_name": "N. Nsoki",
+    "status": "injured",
+    "reason": ""
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.709,
+   "away": 0.545
+  },
+  "formation": {
+   "home": "4-1-4-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-26T14:32:16Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 3.212,
+    "home_ga": 0.97,
+    "away_gf": 1.606,
+    "away_ga": 1.02,
+    "n_home": 6.6,
+    "n_away": 9.9,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧冠",
+    "team_id": 2076
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.105,
+    "home_ga": 1.337,
+    "away_gf": 2.291,
+    "away_ga": 1.38,
+    "n_home": 8.6,
+    "n_away": 7.9,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧冠",
+    "team_id": 133
+   }
+  }
+ }
+}

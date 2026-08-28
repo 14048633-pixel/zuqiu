@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
+import os
 import json, sys, io, urllib.request
 sys.stdout.reconfigure(encoding='utf-8')
-KEY = 'FOOTBALL_API_KEY_FROM_ENV'
+KEY = os.environ.get("FOOTBALL_API_KEY", "")
 def get(url):
     req = urllib.request.Request(url, headers={'x-apisports-key': KEY})
     with urllib.request.urlopen(req, timeout=45) as r:

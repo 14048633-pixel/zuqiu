@@ -1,0 +1,170 @@
+{
+ "id": 210452,
+ "league": "Ligue 1",
+ "kickoff": "08-29 23:15",
+ "kickoff_iso": "2026-08-29T15:15:00+00:00",
+ "home": "RC Strasbourg",
+ "away": "RC Lens",
+ "home_id": 112,
+ "away_id": 99,
+ "pulled_at": "2026-08-27T20:28:01.790770+08:00",
+ "missing": [
+  "away教练(coach_cache未命中 id=1835) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 7,
+    "name": "Hugo Oliveira",
+    "short_name": "H. F. C. Oliveira",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 38.0,
+    "avg_goals_scored": 1.16,
+    "avg_goals_conceded": 1.18
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.4,
+   "draw": 3.54,
+   "away_win": 2.06,
+   "over_15_goals": 1.19,
+   "over_25_goals": 1.65,
+   "over_35_goals": 2.55,
+   "under_15_goals": 4.42,
+   "under_25_goals": 2.22,
+   "under_35_goals": 1.49,
+   "btts_yes": 1.54,
+   "btts_no": 2.34
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 1707,
+    "name": "Ismael Doukouré",
+    "short_name": "I. Doukouré",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 1711,
+    "name": "Joaquin Panichelli",
+    "short_name": "J. Panichelli",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 4780,
+    "name": "Maxi Oyedele",
+    "short_name": "M. Oyedele",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 1706,
+    "name": "Samir El Mourabet",
+    "short_name": "S. E. Mourabet",
+    "status": "suspended",
+    "reason": "red_card_suspension"
+   }
+  ],
+  "away": [
+   {
+    "id": 4457,
+    "name": "Jhoanner Chávez",
+    "short_name": "Jhoanner Chávez",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 5138,
+    "name": "Kyllian Antonio",
+    "short_name": "K. Antonio",
+    "status": "suspended",
+    "reason": "red_card_suspension"
+   },
+   {
+    "id": 8423,
+    "name": "Nidal Čelik",
+    "short_name": "N. Čelik",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   },
+   {
+    "id": 1408,
+    "name": "Samson Baidoo",
+    "short_name": "S. Baidoo",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.486,
+   "away": 0.491
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-4-2-1"
+  },
+  "updated_at": "2026-08-27T08:36:30Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.587,
+    "home_ga": 2.037,
+    "away_gf": 1.047,
+    "away_ga": 2.082,
+    "n_home": 8.0,
+    "n_away": 8.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 112
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.734,
+    "home_ga": 1.17,
+    "away_gf": 2.31,
+    "away_ga": 1.155,
+    "n_home": 9.4,
+    "n_away": 7.1,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 99
+   }
+  }
+ }
+}

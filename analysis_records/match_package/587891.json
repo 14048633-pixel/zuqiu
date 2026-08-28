@@ -1,0 +1,162 @@
+{
+ "id": 587891,
+ "league": "Conference League",
+ "kickoff": "08-28 00:45",
+ "kickoff_iso": "2026-08-27T16:45:00+00:00",
+ "home": "AS Monaco",
+ "away": "Górnik Zabrze",
+ "home_id": 101,
+ "away_id": 429,
+ "pulled_at": "2026-08-27T19:49:57.786287+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1919,
+    "name": "Filipe Luís",
+    "short_name": "Filipe Luís",
+    "profile": "attacking",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 5.0,
+    "avg_goals_scored": 2.2,
+    "avg_goals_conceded": 1.6
+   },
+   "away": {
+    "id": 271,
+    "name": "Michal Gasparik",
+    "short_name": "M. Gasparik",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 53.0,
+    "avg_goals_scored": 1.53,
+    "avg_goals_conceded": 0.94
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.36,
+   "draw": 4.89,
+   "away_win": 7.14,
+   "over_15_goals": 1.14,
+   "over_25_goals": 1.5,
+   "over_35_goals": 2.31,
+   "under_15_goals": 5.01,
+   "under_25_goals": 2.42,
+   "under_35_goals": 1.58,
+   "btts_yes": 1.75,
+   "btts_no": 1.96
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 2234,
+    "name": "Ansu Fati",
+    "short_name": "A. Fati",
+    "status": "injured",
+    "reason": "Calf Injury"
+   },
+   {
+    "id": 7266,
+    "name": "Edan Diop",
+    "short_name": "E. Diop",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 2232,
+    "name": "Folarin Balogun",
+    "short_name": "F. Balogun",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 2227,
+    "name": "Jordan Teze",
+    "short_name": "J. Teze",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 1134,
+    "name": "Matthis Abline",
+    "short_name": "M. Abline",
+    "status": "injured",
+    "reason": "Foot Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 13985,
+    "name": "Jarosław Kubicki",
+    "short_name": "J. Kubicki",
+    "status": "injured",
+    "reason": "Broken Hand"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.541,
+   "away": 0.668
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-27T08:32:19Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.792,
+    "home_ga": 1.236,
+    "away_gf": 1.634,
+    "away_ga": 2.086,
+    "n_home": 7.2,
+    "n_away": 9.3,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 101
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 3.0,
+    "home_ga": 0.0,
+    "away_gf": 0.0,
+    "away_ga": 0.0,
+    "n_home": 1.0,
+    "n_away": 0.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

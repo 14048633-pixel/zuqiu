@@ -1,0 +1,225 @@
+{
+ "id": 587706,
+ "league": "Champions League",
+ "kickoff": "08-27 03:00",
+ "kickoff_iso": "2026-08-26T19:00:00+00:00",
+ "home": "Olympique Lyonnais",
+ "away": "Fenerbahçe",
+ "home_id": 100,
+ "away_id": 134,
+ "pulled_at": "2026-08-26T21:48:18.109675+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 380,
+    "name": "Paulo Fonseca",
+    "short_name": "P. Fonseca",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 55.0,
+    "avg_goals_scored": 1.76,
+    "avg_goals_conceded": 1.18
+   },
+   "away": {
+    "id": 1821,
+    "name": "İsmail Kartal",
+    "short_name": "I. Kartal",
+    "profile": "attacking",
+    "preferred_formation": "4-1-4-1",
+    "matches_total": 6.0,
+    "avg_goals_scored": 2.5,
+    "avg_goals_conceded": 0.33
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-1-4-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.93,
+   "draw": 3.57,
+   "away_win": 3.72,
+   "over_15_goals": 1.22,
+   "over_25_goals": 1.77,
+   "over_35_goals": 2.86,
+   "under_15_goals": 3.93,
+   "under_25_goals": 2.03,
+   "under_35_goals": 1.39,
+   "btts_yes": 1.64,
+   "btts_no": 2.13
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 1119,
+    "name": "Khalis Merah",
+    "short_name": "K. Merah",
+    "status": "injured",
+    "reason": "Sprained Ankle"
+   },
+   {
+    "id": 3040,
+    "name": "Mads Bidstrup",
+    "short_name": "M. Bidstrup",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 1112,
+    "name": "Pavel Šulc",
+    "short_name": "P. Šulc",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 4174,
+    "name": "Çağlar Söyüncü",
+    "short_name": "Ç. Söyüncü",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 6784,
+    "name": "Cengiz Ünder",
+    "short_name": "C. Ünder",
+    "status": "injured",
+    "reason": "pending_transfer"
+   },
+   {
+    "id": 2824,
+    "name": "Diego Carlos",
+    "short_name": "D. Carlos",
+    "status": "injured",
+    "reason": "pending_transfer"
+   },
+   {
+    "id": 1053,
+    "name": "Dominik Livaković",
+    "short_name": "D. Livaković",
+    "status": "injured",
+    "reason": "pending_transfer"
+   },
+   {
+    "id": 4171,
+    "name": "Jayden Oosterwolde",
+    "short_name": "J. Oosterwolde",
+    "status": "injured",
+    "reason": "Achilles Tendon Injury"
+   },
+   {
+    "id": 3415,
+    "name": "Kerem Aktürkoğlu",
+    "short_name": "K. Aktürkoğlu",
+    "status": "injured",
+    "reason": "Contusion"
+   },
+   {
+    "id": 3414,
+    "name": "Marco Asensio",
+    "short_name": "M. Asensio",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 5842,
+    "name": "Mert Günok",
+    "short_name": "M. Günok",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 16893,
+    "name": "Ognjen Mimović",
+    "short_name": "O. Mimović",
+    "status": "injured",
+    "reason": "pending_transfer"
+   },
+   {
+    "id": 6811,
+    "name": "Rodrigo Becão",
+    "short_name": "R. Becão",
+    "status": "injured",
+    "reason": "pending_transfer"
+   },
+   {
+    "id": 8676,
+    "name": "Romelu Lukaku",
+    "short_name": "R. Lukaku",
+    "status": "injured",
+    "reason": "Physical Discomfort"
+   },
+   {
+    "id": 2985,
+    "name": "Sofyan Amrabat",
+    "short_name": "S. Amrabat",
+    "status": "injured",
+    "reason": "Physical Discomfort"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.536,
+   "away": 0.632
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-26T08:32:39Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.272,
+    "home_ga": 1.5,
+    "away_gf": 1.247,
+    "away_ga": 1.425,
+    "n_home": 9.2,
+    "n_away": 7.3,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧冠",
+    "team_id": 100
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.333,
+    "home_ga": 1.333,
+    "away_gf": 2.0,
+    "away_ga": 1.444,
+    "n_home": 9.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

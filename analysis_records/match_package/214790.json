@@ -1,0 +1,117 @@
+{
+ "id": 214790,
+ "league": "Segunda División",
+ "kickoff": "08-29 03:00",
+ "kickoff_iso": "2026-08-28T19:00:00+00:00",
+ "home": "CD Tenerife",
+ "away": "Sporting Gijón",
+ "home_id": 1388,
+ "away_id": 1267,
+ "pulled_at": "2026-08-28T18:51:42.178124+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 830,
+    "name": "Alvaro Cervera",
+    "short_name": "A. Cervera",
+    "profile": "balanced",
+    "preferred_formation": "4-4-2",
+    "matches_total": 51.0,
+    "avg_goals_scored": 1.1,
+    "avg_goals_conceded": 1.22
+   },
+   "away": {
+    "id": 349,
+    "name": "Nicolas Larcamon",
+    "short_name": "N. Larcamon",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 1.86,
+    "avg_goals_conceded": 1.43
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.17,
+   "draw": 3.09,
+   "away_win": 3.32,
+   "over_15_goals": 1.38,
+   "over_25_goals": 2.23,
+   "over_35_goals": 4.17,
+   "under_15_goals": 2.86,
+   "under_25_goals": 1.62,
+   "under_35_goals": 1.2,
+   "btts_yes": 1.91,
+   "btts_no": 1.8
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.309,
+   "away": 0.432
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-28T08:32:29Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.054,
+    "home_ga": 0.745,
+    "away_gf": 0.762,
+    "away_ga": 1.5,
+    "n_home": 29.4,
+    "n_away": 29.4,
+    "src_w": 0.7,
+    "src_season": "2024/2025",
+    "src_tag": "prev"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.468,
+    "home_ga": 1.078,
+    "away_gf": 1.693,
+    "away_ga": 1.5,
+    "n_home": 7.7,
+    "n_away": 8.8,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1267
+   }
+  }
+ }
+}

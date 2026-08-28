@@ -1,0 +1,119 @@
+{
+ "id": 588147,
+ "league": "National League",
+ "kickoff": "08-29 02:45",
+ "kickoff_iso": "2026-08-28T18:45:00+00:00",
+ "home": "Wealdstone",
+ "away": "Carlisle United",
+ "home_id": 1878,
+ "away_id": 1882,
+ "pulled_at": "2026-08-28T18:50:05.466285+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1244,
+    "name": "Gary Waddock",
+    "short_name": "G. Waddock",
+    "profile": "balanced",
+    "preferred_formation": "3-5-2",
+    "matches_total": 8.0,
+    "avg_goals_scored": 1.12,
+    "avg_goals_conceded": 1.25
+   },
+   "away": {
+    "id": 1247,
+    "name": "Robert Elliot",
+    "short_name": "R. Elliot",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 6.0,
+    "avg_goals_scored": 1.83,
+    "avg_goals_conceded": 2.5
+   }
+  },
+  "preferred_formation": {
+   "home": "3-5-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 3.42,
+   "draw": 3.59,
+   "away_win": 1.89,
+   "over_15_goals": 1.16,
+   "over_25_goals": 1.57,
+   "over_35_goals": 2.42,
+   "under_15_goals": 4.59,
+   "under_25_goals": 2.29,
+   "under_35_goals": 1.49,
+   "btts_yes": 1.51,
+   "btts_no": 2.36
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.314,
+   "away": 0.455
+  },
+  "formation": {
+   "home": "3-5-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-28T08:32:27Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.765,
+    "home_ga": 1.309,
+    "away_gf": 0.964,
+    "away_ga": 1.714,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1878
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.1,
+    "home_ga": 1.4,
+    "away_gf": 1.753,
+    "away_ga": 1.4,
+    "n_home": 8.0,
+    "n_away": 8.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1882
+   }
+  }
+ }
+}

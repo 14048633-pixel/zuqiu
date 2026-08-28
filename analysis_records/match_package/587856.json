@@ -1,0 +1,120 @@
+{
+ "id": 587856,
+ "league": "Europa League",
+ "kickoff": "08-28 01:00",
+ "kickoff_iso": "2026-08-27T17:00:00+00:00",
+ "home": "Omonia Nicosia",
+ "away": "Sint-Truidense VV",
+ "home_id": 2346,
+ "away_id": 244,
+ "pulled_at": "2026-08-27T19:51:11.698342+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 2076,
+    "name": "Henning Berg",
+    "short_name": "H. Berg",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 1.14,
+    "avg_goals_conceded": 0.86
+   },
+   "away": {
+    "id": 1924,
+    "name": "Frédéric De Meyer",
+    "short_name": "F. D. Meyer",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 9.0,
+    "avg_goals_scored": 1.78,
+    "avg_goals_conceded": 0.78
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.94,
+   "draw": 3.47,
+   "away_win": 3.72,
+   "over_15_goals": 1.31,
+   "over_25_goals": 2.04,
+   "over_35_goals": 3.58,
+   "under_15_goals": 3.2,
+   "under_25_goals": 1.76,
+   "under_35_goals": 1.26,
+   "btts_yes": 1.83,
+   "btts_no": 1.88
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.414,
+   "away": 0.273
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-27T08:32:28Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.626,
+    "home_ga": 0.659,
+    "away_gf": 1.014,
+    "away_ga": 1.149,
+    "n_home": 9.1,
+    "n_away": 7.4,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧联",
+    "team_id": 2346
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.262,
+    "home_ga": 0.708,
+    "away_gf": 1.83,
+    "away_ga": 1.29,
+    "n_home": 6.5,
+    "n_away": 10.0,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 244
+   }
+  }
+ }
+}

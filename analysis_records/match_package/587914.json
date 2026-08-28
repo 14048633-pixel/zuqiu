@@ -1,0 +1,93 @@
+{
+ "id": 587914,
+ "league": "Nigeria Premier Football League",
+ "kickoff": "08-28 23:00",
+ "kickoff_iso": "2026-08-28T15:00:00+00:00",
+ "home": "Shooting Stars",
+ "away": "Inter Lagos FC",
+ "home_id": 577,
+ "away_id": 8255,
+ "pulled_at": "2026-08-28T18:47:51.914464+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=None) 未提取",
+  "away教练(coach_cache未命中 id=None) 未提取",
+  "away攻防历史 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.42,
+   "draw": 3.5,
+   "away_win": 8.0,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 2.84,
+   "btts_no": 1.38
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.482,
+   "away": null
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": null
+  },
+  "updated_at": "2026-08-28T08:32:09Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.931,
+    "home_ga": 0.828,
+    "away_gf": 0.462,
+    "away_ga": 1.436,
+    "n_home": 8.7,
+    "n_away": 7.8,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 577
+   }
+  },
+  "away": {
+   "have": false,
+   "src": null,
+   "stats": null
+  }
+ }
+}

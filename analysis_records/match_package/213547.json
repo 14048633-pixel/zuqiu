@@ -1,0 +1,147 @@
+{
+ "id": 213547,
+ "league": "La Liga",
+ "kickoff": "08-29 01:00",
+ "kickoff_iso": "2026-08-28T17:00:00+00:00",
+ "home": "Real Racing Club",
+ "away": "Elche",
+ "home_id": 1400,
+ "away_id": 55,
+ "pulled_at": "2026-08-28T18:48:39.056269+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 822,
+    "name": "José Alberto López",
+    "short_name": "J. A. López",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 96.0,
+    "avg_goals_scored": 1.8,
+    "avg_goals_conceded": 1.4
+   },
+   "away": {
+    "id": 1869,
+    "name": "Martin Anselmi",
+    "short_name": "M. Anselmi",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 8.0,
+    "avg_goals_scored": 2.12,
+    "avg_goals_conceded": 0.88
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.1,
+   "draw": 3.45,
+   "away_win": 3.44,
+   "over_15_goals": 1.25,
+   "over_25_goals": 1.81,
+   "over_35_goals": 2.91,
+   "under_15_goals": 3.81,
+   "under_25_goals": 2.01,
+   "under_35_goals": 1.38,
+   "btts_yes": 1.6,
+   "btts_no": 2.23
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 16400,
+    "name": "Giorgi Guliashvili",
+    "short_name": "G. Guliashvili",
+    "status": "injured",
+    "reason": "Fibula"
+   }
+  ],
+  "away": [
+   {
+    "id": 2780,
+    "name": "Adam Boayar",
+    "short_name": "A. Boayar",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 2764,
+    "name": "Grady Diangana",
+    "short_name": "G. Diangana",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 2773,
+    "name": "Yago Santiago",
+    "short_name": "Y. Santiago",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.459,
+   "away": 0.491
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "3-5-2"
+  },
+  "updated_at": "2026-08-28T08:32:12Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.319,
+    "home_ga": 1.505,
+    "away_gf": 0.878,
+    "away_ga": 1.635,
+    "n_home": 9.1,
+    "n_away": 7.4,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1400
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 1.0,
+    "away_ga": 1.0,
+    "n_home": 0,
+    "n_away": 1,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  }
+ }
+}

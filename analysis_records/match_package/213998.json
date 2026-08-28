@@ -1,0 +1,138 @@
+{
+ "id": 213998,
+ "league": "Championship",
+ "kickoff": "08-29 03:00",
+ "kickoff_iso": "2026-08-28T19:00:00+00:00",
+ "home": "Wrexham",
+ "away": "Birmingham City",
+ "home_id": 206,
+ "away_id": 199,
+ "pulled_at": "2026-08-28T18:51:48.094120+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 175,
+    "name": "Phil Parkinson",
+    "short_name": "P. Parkinson",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 59.0,
+    "avg_goals_scored": 1.49,
+    "avg_goals_conceded": 1.42
+   },
+   "away": {
+    "id": 176,
+    "name": "Chris Davies",
+    "short_name": "C. Davies",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 57.0,
+    "avg_goals_scored": 1.35,
+    "avg_goals_conceded": 1.14
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.41,
+   "draw": 3.29,
+   "away_win": 2.89,
+   "over_15_goals": 1.31,
+   "over_25_goals": 1.98,
+   "over_35_goals": 3.4,
+   "under_15_goals": 3.27,
+   "under_25_goals": 1.8,
+   "under_35_goals": 1.29,
+   "btts_yes": 1.74,
+   "btts_no": 2.0
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 6551,
+    "name": "Josh Windass",
+    "short_name": "J. Windass",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 6946,
+    "name": "Liberato Cacace",
+    "short_name": "L. Cacace",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 6097,
+    "name": "Marc Leonard",
+    "short_name": "M. Leonard",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.668,
+   "away": 0.545
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-28T08:32:29Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 1.0,
+    "away_ga": 1.0,
+    "n_home": 0,
+    "n_away": 1,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.364,
+    "home_ga": 1.0,
+    "away_gf": 0.833,
+    "away_ga": 1.167,
+    "n_home": 11.0,
+    "n_away": 12.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

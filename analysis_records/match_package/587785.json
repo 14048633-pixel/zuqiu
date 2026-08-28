@@ -1,0 +1,194 @@
+{
+ "id": 587785,
+ "league": "Copa do Brasil",
+ "kickoff": "08-27 08:30",
+ "kickoff_iso": "2026-08-27T00:30:00+00:00",
+ "home": "Vasco da Gama",
+ "away": "Vitória",
+ "home_id": 164,
+ "away_id": 157,
+ "pulled_at": "2026-08-27T00:08:02.748338+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 290,
+    "name": "Pedro Emanuel",
+    "short_name": "P. Emanuel",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 43.0,
+    "avg_goals_scored": 1.21,
+    "avg_goals_conceded": 1.42
+   },
+   "away": {
+    "id": 144,
+    "name": "Jair Ventura",
+    "short_name": "J. Ventura",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 64.0,
+    "avg_goals_scored": 1.0,
+    "avg_goals_conceded": 1.39
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": null,
+   "draw": null,
+   "away_win": null,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": 2.05,
+   "btts_no": 1.7
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 9167,
+    "name": "Brenner",
+    "short_name": "Brenner",
+    "status": "injured",
+    "reason": "Toe Injury"
+   },
+   {
+    "id": 4755,
+    "name": "Jair",
+    "short_name": "Jair",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 10276,
+    "name": "Johan Rojas",
+    "short_name": "J. Rojas",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 20251,
+    "name": "Alex Bruno",
+    "short_name": "A. Bruno",
+    "status": "injured",
+    "reason": "other"
+   },
+   {
+    "id": 13628,
+    "name": "Anderson Pato",
+    "short_name": "A. Pato",
+    "status": "injured",
+    "reason": "Knee Surgery"
+   },
+   {
+    "id": 2688,
+    "name": "Caique Gonçalves",
+    "short_name": "Caique",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 13704,
+    "name": "Diego Tarzia",
+    "short_name": "D. Tarzia",
+    "status": "suspended",
+    "reason": "yellow_card_accumulation_suspension"
+   },
+   {
+    "id": 277,
+    "name": "Nathan Mendes",
+    "short_name": "N. Mendes",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 12324,
+    "name": "Riccieli",
+    "short_name": "Riccieli",
+    "status": "injured",
+    "reason": "Calf Injury"
+   },
+   {
+    "id": 5002,
+    "name": "Rúben Ramos Ismael",
+    "short_name": "Ismael",
+    "status": "injured",
+    "reason": "Knee Surgery"
+   },
+   {
+    "id": 239,
+    "name": "Tomás Pochettino",
+    "short_name": "T. Pochettino",
+    "status": "injured",
+    "reason": "other"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.814,
+   "away": 0.745
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-26T14:32:24Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.083,
+    "home_ga": 1.417,
+    "away_gf": 1.0,
+    "away_ga": 1.7,
+    "n_home": 12,
+    "n_away": 10,
+    "src_season": "footballdata",
+    "src_w": 1.0,
+    "src_tag": "footballdata"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.26,
+    "home_ga": 0.841,
+    "away_gf": 0.791,
+    "away_ga": 1.909,
+    "n_home": 45.3,
+    "n_away": 47.3,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

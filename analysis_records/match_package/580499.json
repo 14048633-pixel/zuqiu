@@ -1,0 +1,125 @@
+{
+ "id": 580499,
+ "league": "Ligue 2",
+ "kickoff": "08-29 02:00",
+ "kickoff_iso": "2026-08-28T18:00:00+00:00",
+ "home": "Nancy",
+ "away": "USL Dunkerque",
+ "home_id": 1620,
+ "away_id": 1640,
+ "pulled_at": "2026-08-28T18:49:05.403508+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1986,
+    "name": "Oswald Tanchot",
+    "short_name": "O. Tanchot",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 10.0,
+    "avg_goals_scored": 2.8,
+    "avg_goals_conceded": 1.1
+   },
+   "away": {
+    "id": 1077,
+    "name": "Albert Sánchez",
+    "short_name": "A. Sánchez",
+    "profile": "attacking",
+    "preferred_formation": "4-1-4-1",
+    "matches_total": 8.0,
+    "avg_goals_scored": 2.0,
+    "avg_goals_conceded": 1.12
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-1-4-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.45,
+   "draw": 3.1,
+   "away_win": 2.55,
+   "over_15_goals": 1.25,
+   "over_25_goals": 1.8,
+   "over_35_goals": 3.0,
+   "under_15_goals": 3.75,
+   "under_25_goals": 2.0,
+   "under_35_goals": 1.36,
+   "btts_yes": 1.64,
+   "btts_no": 2.12
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 6052,
+    "name": "Steven​ N'Zonzi",
+    "short_name": "S. N'Zonzi",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.259,
+   "away": 0.418
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-1-4-1"
+  },
+  "updated_at": "2026-08-28T08:32:16Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.889,
+    "home_ga": 1.667,
+    "away_gf": 1.056,
+    "away_ga": 1.278,
+    "n_home": 18.0,
+    "n_away": 18.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.196,
+    "home_ga": 1.216,
+    "away_gf": 2.159,
+    "away_ga": 1.984,
+    "n_home": 10.2,
+    "n_away": 6.3,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1640
+   }
+  }
+ }
+}

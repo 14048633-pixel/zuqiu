@@ -1,0 +1,119 @@
+{
+ "id": 588139,
+ "league": "National League",
+ "kickoff": "08-29 02:45",
+ "kickoff_iso": "2026-08-28T18:45:00+00:00",
+ "home": "Altrincham FC",
+ "away": "FC Halifax Town",
+ "home_id": 1896,
+ "away_id": 1889,
+ "pulled_at": "2026-08-28T18:51:01.944840+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 3261,
+    "name": "Lee Jones",
+    "short_name": "L. Jones",
+    "profile": "balanced",
+    "preferred_formation": "3-4-2-1",
+    "matches_total": 5.0,
+    "avg_goals_scored": 1.2,
+    "avg_goals_conceded": 1.8
+   },
+   "away": {
+    "id": 1942,
+    "name": "John McGrath",
+    "short_name": "J. McGrath",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 9.0,
+    "avg_goals_scored": 2.0,
+    "avg_goals_conceded": 2.44
+   }
+  },
+  "preferred_formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.31,
+   "draw": 3.34,
+   "away_win": 2.71,
+   "over_15_goals": 1.22,
+   "over_25_goals": 1.76,
+   "over_35_goals": 2.92,
+   "under_15_goals": 3.76,
+   "under_25_goals": 1.97,
+   "under_35_goals": 1.35,
+   "btts_yes": 1.6,
+   "btts_no": 2.18
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.441,
+   "away": 0.232
+  },
+  "formation": {
+   "home": "3-4-2-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-28T08:32:25Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.436,
+    "home_ga": 1.551,
+    "away_gf": 0.828,
+    "away_ga": 1.391,
+    "n_home": 7.8,
+    "n_away": 8.7,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1896
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.925,
+    "home_ga": 2.275,
+    "away_gf": 1.965,
+    "away_ga": 1.541,
+    "n_home": 8.0,
+    "n_away": 8.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1889
+   }
+  }
+ }
+}

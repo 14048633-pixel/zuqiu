@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import os
 """08-22 凌晨 27 场最新赔率: the-odds-api(13联赛23场) + API-Football(4场兜底)"""
 import sys, os, json, io, time, unicodedata, urllib.request
 from datetime import datetime, timezone
@@ -86,7 +87,7 @@ for sp, tlist in by_sport.items():
     time.sleep(1.0)
 
 # ---- Part B: API-Football 兜底 4 场 ----
-AFB_KEY = "FOOTBALL_API_KEY_FROM_ENV"
+AFB_KEY = os.environ.get("FOOTBALL_API_KEY", "")
 fixture_map = {m["home"]: m for m in json.load(io.open(os.path.join(ROOT, "analysis_records", "apifb_fixture_map_20260821.json"), encoding="utf-8"))["matches"]}
 fallback = []
 for t in targets:

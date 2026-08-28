@@ -1,0 +1,165 @@
+{
+ "id": 587709,
+ "league": "Champions League",
+ "kickoff": "08-27 03:00",
+ "kickoff_iso": "2026-08-26T19:00:00+00:00",
+ "home": "AEK Athens",
+ "away": "Levski Sofia",
+ "home_id": 329,
+ "away_id": 348,
+ "pulled_at": "2026-08-26T21:48:12.553132+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 436,
+    "name": "Marko Nikolić",
+    "short_name": "M. Nikolić",
+    "profile": "attacking",
+    "preferred_formation": "4-4-2",
+    "matches_total": 39.0,
+    "avg_goals_scored": 1.85,
+    "avg_goals_conceded": 0.67
+   },
+   "away": {
+    "id": 392,
+    "name": "Julio Velazquez",
+    "short_name": "J. Velazquez",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 58.0,
+    "avg_goals_scored": 1.93,
+    "avg_goals_conceded": 0.64
+   }
+  },
+  "preferred_formation": {
+   "home": "4-4-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.47,
+   "draw": 4.1,
+   "away_win": 6.78,
+   "over_15_goals": 1.33,
+   "over_25_goals": 2.05,
+   "over_35_goals": 3.72,
+   "under_15_goals": 3.07,
+   "under_25_goals": 1.74,
+   "under_35_goals": 1.24,
+   "btts_yes": 2.2,
+   "btts_no": 1.61
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 11169,
+    "name": "Mijat Gaćinović",
+    "short_name": "M. Gaćinović",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 11249,
+    "name": "Akram Bouras",
+    "short_name": "A. Bouras",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 11264,
+    "name": "Mustapha Sangaré",
+    "short_name": "M. Sangaré",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 11267,
+    "name": "Oliver Kamdem",
+    "short_name": "O. Kamdem",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 11261,
+    "name": "Radoslav Kirilov",
+    "short_name": "R. Kirilov",
+    "status": "injured",
+    "reason": ""
+   },
+   {
+    "id": 12172,
+    "name": "Stipe Vulikić",
+    "short_name": "S. Vulikić",
+    "status": "injured",
+    "reason": ""
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.377,
+   "away": 0.605
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-26T08:32:40Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.232,
+    "home_ga": 0.707,
+    "away_gf": 1.675,
+    "away_ga": 0.964,
+    "n_home": 8.2,
+    "n_away": 8.3,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧冠",
+    "team_id": 329
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.32,
+    "home_ga": 0.32,
+    "away_gf": 1.565,
+    "away_ga": 0.968,
+    "n_home": 10.3,
+    "n_away": 6.2,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧冠",
+    "team_id": 348
+   }
+  }
+ }
+}

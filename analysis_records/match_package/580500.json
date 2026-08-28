@@ -1,0 +1,110 @@
+{
+ "id": 580500,
+ "league": "Ligue 2",
+ "kickoff": "08-29 02:00",
+ "kickoff_iso": "2026-08-28T18:00:00+00:00",
+ "home": "Rodez AF",
+ "away": "Pau FC",
+ "home_id": 1699,
+ "away_id": 1659,
+ "pulled_at": "2026-08-28T18:48:59.409131+08:00",
+ "missing": [
+  "away教练(coach_cache未命中 id=1089) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1112,
+    "name": "Didier Santini",
+    "short_name": "D. Santini",
+    "profile": "attacking",
+    "preferred_formation": "5-3-2",
+    "matches_total": 10.0,
+    "avg_goals_scored": 2.3,
+    "avg_goals_conceded": 1.5
+   },
+   "away": null
+  },
+  "preferred_formation": {
+   "home": "5-3-2",
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.66,
+   "draw": 3.83,
+   "away_win": 4.36,
+   "over_15_goals": 1.19,
+   "over_25_goals": 1.67,
+   "over_35_goals": 2.61,
+   "under_15_goals": 4.13,
+   "under_25_goals": 2.12,
+   "under_35_goals": 1.42,
+   "btts_yes": 1.68,
+   "btts_no": 2.07
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.559,
+   "away": 0.309
+  },
+  "formation": {
+   "home": "5-3-2",
+   "away": "5-3-2"
+  },
+  "updated_at": "2026-08-28T08:32:13Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.167,
+    "home_ga": 1.033,
+    "away_gf": 1.867,
+    "away_ga": 1.648,
+    "n_home": 6.0,
+    "n_away": 10.5,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1699
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.204,
+    "home_ga": 1.415,
+    "away_gf": 1.348,
+    "away_ga": 1.933,
+    "n_home": 29.9,
+    "n_away": 29.9,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

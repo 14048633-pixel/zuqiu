@@ -1,0 +1,119 @@
+{
+ "id": 588142,
+ "league": "National League",
+ "kickoff": "08-29 02:45",
+ "kickoff_iso": "2026-08-28T18:45:00+00:00",
+ "home": "Hartlepool United",
+ "away": "Eastleigh",
+ "home_id": 2778,
+ "away_id": 1872,
+ "pulled_at": "2026-08-28T18:50:41.248929+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 870,
+    "name": "Lee Clark",
+    "short_name": "L. Clark",
+    "profile": "defensive",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 5.0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.2
+   },
+   "away": {
+    "id": 1583,
+    "name": "Matt Gray",
+    "short_name": "M. Gray",
+    "profile": "defensive",
+    "preferred_formation": "5-4-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 0.43,
+    "avg_goals_conceded": 2.29
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "5-4-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.76,
+   "draw": 3.46,
+   "away_win": 4.09,
+   "over_15_goals": 1.24,
+   "over_25_goals": 1.81,
+   "over_35_goals": 3.02,
+   "under_15_goals": 3.62,
+   "under_25_goals": 1.92,
+   "under_35_goals": 1.33,
+   "btts_yes": 1.73,
+   "btts_no": 1.98
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.359,
+   "away": 0.273
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "5-3-2"
+  },
+  "updated_at": "2026-08-28T08:32:22Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.273,
+    "home_ga": 1.182,
+    "away_gf": 1.545,
+    "away_ga": 1.75,
+    "n_home": 7.7,
+    "n_away": 8.8,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2778
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.307,
+    "home_ga": 2.023,
+    "away_gf": 0.818,
+    "away_ga": 1.649,
+    "n_home": 8.8,
+    "n_away": 7.7,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1872
+   }
+  }
+ }
+}

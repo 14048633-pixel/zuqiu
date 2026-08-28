@@ -1,0 +1,123 @@
+{
+ "id": 210070,
+ "league": "Serie A",
+ "kickoff": "08-30 00:30",
+ "kickoff_iso": "2026-08-29T16:30:00+00:00",
+ "home": "Fiorentina",
+ "away": "Frosinone",
+ "home_id": 68,
+ "away_id": 1277,
+ "pulled_at": "2026-08-27T20:28:27.741103+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 235,
+    "name": "Fabio Grosso",
+    "short_name": "F. Grosso",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 45.0,
+    "avg_goals_scored": 1.36,
+    "avg_goals_conceded": 1.33
+   },
+   "away": {
+    "id": 1021,
+    "name": "Massimiliano Alvini",
+    "short_name": "M. Alvini",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 1.14,
+    "avg_goals_conceded": 1.29
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.63,
+   "draw": 3.97,
+   "away_win": 5.06,
+   "over_15_goals": 1.24,
+   "over_25_goals": 1.79,
+   "over_35_goals": 2.91,
+   "under_15_goals": 3.95,
+   "under_25_goals": 2.02,
+   "under_35_goals": 1.39,
+   "btts_yes": 1.79,
+   "btts_no": 1.95
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 1329,
+    "name": "Fabiano Parisi",
+    "short_name": "F. Parisi",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.495,
+   "away": 0.377
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-27T08:36:51Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.491,
+    "home_ga": 1.07,
+    "away_gf": 1.226,
+    "away_ga": 1.36,
+    "n_home": 45.6,
+    "n_away": 45.6,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.182,
+    "home_ga": 0.727,
+    "away_gf": 2.0,
+    "away_ga": 1.111,
+    "n_home": 11.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

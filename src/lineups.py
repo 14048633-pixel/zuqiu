@@ -1,3 +1,4 @@
+import os
 """
 阵容数据抓取 — API-Football
 开赛前约1小时可获取首发阵容
@@ -5,7 +6,7 @@
 import requests
 from datetime import datetime
 
-API_KEY = "FOOTBALL_API_KEY_FROM_ENV"
+API_KEY = os.environ.get("FOOTBALL_API_KEY", "")
 BASE = "https://v3.football.api-sports.io"
 
 

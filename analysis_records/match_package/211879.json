@@ -1,0 +1,145 @@
+{
+ "id": 211879,
+ "league": "Ekstraklasa",
+ "kickoff": "08-29 02:30",
+ "kickoff_iso": "2026-08-28T18:30:00+00:00",
+ "home": "Legia Warszawa",
+ "away": "Śląsk Wrocław",
+ "home_id": 403,
+ "away_id": 1384,
+ "pulled_at": "2026-08-28T18:50:00.498951+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 470,
+    "name": "Marek Papszun",
+    "short_name": "M. Papszun",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 57.0,
+    "avg_goals_scored": 1.37,
+    "avg_goals_conceded": 1.11
+   },
+   "away": {
+    "id": 1133,
+    "name": "Ante Šimundža",
+    "short_name": "A. Šimundža",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 16.0,
+    "avg_goals_scored": 2.75,
+    "avg_goals_conceded": 1.06
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.51,
+   "draw": 4.16,
+   "away_win": 5.55,
+   "over_15_goals": 1.19,
+   "over_25_goals": 1.63,
+   "over_35_goals": 2.58,
+   "under_15_goals": 4.36,
+   "under_25_goals": 2.2,
+   "under_35_goals": 1.46,
+   "btts_yes": 1.73,
+   "btts_no": 1.99
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 14073,
+    "name": "Antonio Čolak",
+    "short_name": "A. Čolak",
+    "status": "injured",
+    "reason": "Broken Cheekbone"
+   },
+   {
+    "id": 12605,
+    "name": "Petar Stojanović",
+    "short_name": "P. Stojanović",
+    "status": "injured",
+    "reason": "Tendon Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 29433,
+    "name": "Damian Warchoł",
+    "short_name": "D. Warchoł",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 29448,
+    "name": "Michał Mokrzycki",
+    "short_name": "M. Mokrzycki",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.614,
+   "away": 0.468
+  },
+  "formation": {
+   "home": "3-1-4-2",
+   "away": "5-3-2"
+  },
+  "updated_at": "2026-08-28T08:32:22Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.0,
+    "home_ga": 0.0,
+    "away_gf": 0.0,
+    "away_ga": 0.0,
+    "n_home": 1.0,
+    "n_away": 0.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 0.0,
+    "home_ga": 0.0,
+    "away_gf": 0.0,
+    "away_ga": 0.0,
+    "n_home": 1.0,
+    "n_away": 0.0,
+    "src_w": 1.0,
+    "src_season": "2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

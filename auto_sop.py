@@ -2221,11 +2221,11 @@ DeepSeek提供的数据:
                     pass
                 sys.path.insert(0, 'src/models')
                 from prob_calibration import dc_score_grid as _dcg_rec
-                _grid_rec = _dcg_rec(lam_h, lam_a, rho=_rho_rec, max_goals=8)
+                _grid_rec = _dcg_rec(lam_h, lam_a, rho=_rho_rec, max_goals=9)
                 # 主队结算 = (主队进球 - 客队进球) + hdp_val, >0 主队赢盘
                 # 含走水处理 (整盘/半球盘); 与 Step31 共用 ρ 修正网格, 口径一致
-                hdp_full = sum(_grid_rec[i][j] for i in range(9) for j in range(9) if (i-j) + hdp_val > 0)
-                hdp_half = sum(_grid_rec[i][j] for i in range(9) for j in range(9) if abs((i-j) + hdp_val) < 0.01)
+                hdp_full = sum(_grid_rec[i][j] for i in range(10) for j in range(10) if (i-j) + hdp_val > 0)
+                hdp_half = sum(_grid_rec[i][j] for i in range(10) for j in range(10) if abs((i-j) + hdp_val) < 0.01)
                 hdp_win_p = hdp_full + hdp_half * 0.5
                 hdp_lose_p = 1 - hdp_win_p
                 hdp_dir = "让胜" if hdp_win_p >= 0.5 else "让负"
@@ -2610,9 +2610,9 @@ DeepSeek提供的数据:
                 pass
             sys.path.insert(0, 'src/models')
             from prob_calibration import dc_score_grid as _dc_grid
-            _grid31 = _dc_grid(lam_h, lam_a, rho=_rho_step31, max_goals=8)
+            _grid31 = _dc_grid(lam_h, lam_a, rho=_rho_step31, max_goals=9)
             def prob_cond(cond):
-                return sum(_grid31[i][j] for i in range(9) for j in range(9) if cond(i, j))
+                return sum(_grid31[i][j] for i in range(10) for j in range(10) if cond(i, j))
 
             # 候选投注: 主队受让赢盘 / 客队让球赢盘 / 小球 / 大球
             hdp_is_int = abs(abs(hdp_val) - round(abs(hdp_val))) < 0.01
@@ -2654,7 +2654,7 @@ DeepSeek提供的数据:
             # EV计算 (去水后公平EV = 模型概率/Overround × 原始赔率 - 1)
             results = []
             for name, prob, odds, orr in bets:
-                ev = ((prob / orr) * odds - 1) if orr > 1.0 else (prob * odds - 1)
+                ev = prob * odds - 1
                 stars = 0
                 if ev >= 0.30: stars = 5
                 elif ev >= 0.20: stars = 4

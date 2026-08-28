@@ -1,3 +1,4 @@
+import os
 """
 从 API-Football 获取比赛统计数据（射门、控球率等）
 用于构建比单纯进球更稳定的预测特征
@@ -7,7 +8,7 @@ import pandas as pd
 import time
 from pathlib import Path
 
-API_KEY = "FOOTBALL_API_KEY_FROM_ENV"
+API_KEY = os.environ.get("FOOTBALL_API_KEY", "")
 BASE = "https://v3.football.api-sports.io"
 STATS_CACHE = Path(__file__).resolve().parents[1] / "data" / "stat_cache"
 STATS_CACHE.mkdir(parents=True, exist_ok=True)

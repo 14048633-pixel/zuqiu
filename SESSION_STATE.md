@@ -1,4 +1,87 @@
 # 会话状态
+## 错单复盘记录：Pafos/Larne（📌 2026-08-28 记录, 待300场终局调参）
+- **背景**: 27号47场临盘重跑(BSD 41/41)后拉取赛果, 11场BEST对账=7中2错2未结束; 逐场拉链路复盘两场错单
+- **Pafos 4:2 Dinamo City** (让客+1.5 ❌★3): 模型高估弱客队(客胜23.8% vs 市场10%, 主胜50.7% vs 71.4%); 客队样本不足仅收缩30%, 弱队刷弱对手虚高; 方向组「1X2客胜EV+120%」异常; **否决漏判**: 分歧检查只查让球腿, 1X2主胜差20.7pp超线未触发
+- **Larne 0:3 Lincoln Red Imps** (让主-0.5 ❌★1): 模型低估客队(客胜16% vs 市场28.2%); risk_tags已标「主胜高估区」「高估区让球-号降权重」仍出让主并给BEST→**标签只降权重未硬禁出**; 疑Lincoln Red Imps模糊错配林肯城(积分榜英冠第20/24污染判断)
+- **共性**: 均「模型vs市场弱强定位分歧」, 方向站模型侧市场连续正确; 属风控执行不彻底, 非泊松数学问题
+- **待调整3条**(已写入 analysis_records/20260828_two_miss_review.md, 300场后统一调参):
+  1. 分歧否决扩展至1X2全局(>20pp触发, 不只让球腿)
+  2. 高估区让球-号标签升硬禁出(不只降权重)
+  3. Lincoln类队名白名单/跨联赛校验(防积分榜/攻防来源错配)
+## Dixon-Coles模块审计整改（✅ 2026-08-28, M-20260828-02）
+- **背景**: 用户提交DC模块审查报告——核心数学公式符合标准Dixon-Coles模型无P0级错误, 问题集中在工程一致性/边界处理/命名
+- **核实结论**: 双实现统一(dc_score_grid委托poisson_score_grid)、DC_MAX_GOALS=9、model_prob别名——前几轮已落地; 本轮真改动=tau兜底/去静默rho钳位/截断透出
+- **本轮改动** (working tree, 全部 py_compile + 回归全绿):
+  1. `dc_tau` 值域兜底 [0.5,2.0] (P1-4): 极端λ+ρ场景(λ4.5/ρ-0.15 时 τ(0,0)≈4.04)修正幅度失控 → 限制低比分修正幅度
+  2. `poisson_score_grid` 移除内部 rho 静默钳位 (P1-1): 本函数只做计算, 参数校验统一由上游 validate_rho 完成(单一校验点), 避免上游告警被下游静默覆盖; 保留 _to_float(None/NaN→0) 鲁棒性
+  3. 截断可观测 (P1-3): `poisson_score_grid(return_raw=True)` 返回 (grid, raw_total); `dixon_coles_prob(return_raw=True)` 返回 (norm_score, model_prob, raw_total); `calc_lambdas` 在 raw_total<0.95 时追加 `W_GRID_TRUNCATED` 告警(新错误码)
+  4. 命名收口 (P2-1): dixon_coles_prob 内部变量 market_prob→model_prob; calc_lambdas 返回 model_prob 为主, market_prob 兼容别名保留
+- **接口不变**: poisson_score_grid/dixon_coles_prob/dc_score_grid 默认返回签名不变(return_raw 仅可选开启); 字符串比分键 "0-0" 保留(P2-3 不破坏兼容)
+- **回归**: v8审计新增6断言(tau上下界/9球raw_total>0.95/2球截断可检出/归一化和=1/源码分支存在) → **995通过/0失败**
+- **遗留**: 四分之一盘概率Bug1待修(见M-20260827-02); calc_lambdas 内 W_GRID_TRUNCATED 实际触发需 λ>4.5(受 LAM_MAX=4.5 钳位, 常规扫描不会触发, 属安全网)
+
+## 风险链路P0整改：单边限幅±5%落地（✅ 2026-08-28, M-20260828-01）
+- **背景**: 用户提交风险链路整改方案(风险双向放大超22%/多系数叠加超包络/分边语义歧义/冲突单边误判/可观测性字段), 要求保持原有接口/风格/告警机制
+- **核实结论**: 分边默认0、冲突分边独立减半、总包络[0.7,1.3]钳位、`total_coef_h/a`返回、`model_prob`别名、`home_coef(0.92,1.30)`、基础λ上界3×——前几轮已落地; 本轮真改动=**单边风险限幅 ±10%→±5%**
+- **本轮改动** (working tree, 全部 py_compile + 回归全绿):
+  1. `poisson_lambda.py`: `DEFAULT_RISK_LIMIT 0.10→0.05`(单边最大±5%, 双向叠加总相对差≈10%满足SOP铁律); 新增 `RELATIVE_RISK_GAP_LIMIT=0.10` 与单边限幅解耦, `_cap_relative_risk` 默认改用该常量(RISK_GAP告警文案同步修正, 不再误印±5%)
+  2. `risk_conflict_check` 默认 `min_signal 0.05→0.03`: 单边限幅降至±5%后, 阈值必须低于上限, 否则钳位后的满额信号(±0.05)永远无法触发冲突检测, RISK_CONFLICT 机制会失效
+  3. 回归断言更新: 0.12截断0.10→0.05; 分边(0.08/-0.05)→限幅后(0.05/-0.05)等比收缩±4.76%; 冲突减半0.96→0.975; 闷平双降用例改用-3%(满额-5%在强基本面侧会触发冲突减半); P1-1独立减半用例改(-0.05/0.02)验证"仅主边冲突"
+  4. v8审计新增4断言: 单边限幅±5% / 相对差铁律±10% / 冲突阈值0.03(|0.04|触发|0.02|不触发)
+- **接口不变**: `calc_lambdas` 签名/返回键(`market_prob`兼容别名保留)/告警码全部未动; auto_sop冷门引擎±10%为独立路径(`check_upset_risk_conflict`, min_signal=0.07)不受影响
+- **回归**: **989通过/0失败** (v8审计 12→16 断言)
+- **遗留**: 四分之一盘概率Bug1待修(见M-20260827-02); 冲突阈值0.03与限幅0.05的配合需在实盘账本验证"冲突减半"实际触发率
+
+## 审计P0/P1/P2第三轮：EV公式修正落地（✅ 2026-08-27 深夜, M-20260827-06）
+- **背景**: 用户提交第三轮审计(攻防→λ→比分概率→EV), 核心新项=EV公式数学错误/伤停系数/分边回退/归一化/DC统一; 多数条目前几轮已覆盖
+- **本轮改动** (working tree, 全部 py_compile + 回归全绿):
+  1. **EV公式核心修正(P0-1)**: `prob/orr*price-1` → `prob*price-1`——模型概率已是去水绝对概率, 再除 orr 属双重折扣、EV系统性失真; 影响: EV整体变化→星级/档位/禁出规则位移, 连带更新7处回归断言
+     - `prediction_v2/scan_upcoming.py`: 让球/大小球/1X2三处 + `_bsd_leg_ev`; `gen_full_directions.py`: `ev_of`修正+新增`fair_value(prob,price,orr)=prob*price*orr`价值参考; `scan_csl.py`/`scan_j1.py`: 多处EV; `auto_sop.py`
+  2. **分边风险回退语义(P1-4)**: 分边模式未指定侧默认0, 不再自动取`-risk_signal`反向(poisson_lambda.py:338-340)
+  3. **伤停系数渐进化(P1-1)**: 新增`_injury_coef(recs)`——有position(F/M×1.5)按攻击核心损失; 无位置按人数渐进(0-2:1.0/3-4:0.97/5-6:0.94/7+:0.91), 钳位[0.75,1.0], 替代旧「≥3一刀切0.96」; `_load_pkg_attacks`新增`home_inj_recs/away_inj_recs`透传
+  4. **归一化二次收口(P1-6)**: `prob_calibration.py` shrink_power sum偏差>1e-6 二次归一
+  5. **DC统一(P2-1)**: `dc_corrected_probs/dc_score_grid`统一委托`poisson_lambda.poisson_score_grid`, 不再导入dc_tau; `calc_lambda_base_detail`返回三元组
+- **数据限制(P1-1身价加权不可行)**: 审计核实 BSD match_package 的 lineups 仅 lineup_status/confidence/formation, injuries 仅 name/status/reason——无身价/位置字段, 故用人数渐进+位置权重替代
+- **回归**: 新增 `test_audit_v8_ev_and_injury`(12断言) + 更新7处旧断言(新EV口径: CasaPia EV 0.1279→0.1984; 让球客禁出夹具赔率1.90→1.84使EV落回标准档; ⑧B away_price 2.10→2.20恢复高价值档; 西甲rule13换Villarreal/RM夹具+空伤停包; 封顶EV与BSD双口径期望改为`prob*price-1`) → **985通过/0失败**
+- **遗留**: EV抬高后高价值档(≥20%)场次增多, 需在实盘账本按新EV口径观察"标准档禁出"边界命中; 四分之一盘概率Bug1待修(见M-20260827-02)
+
+## 审计 P0/P1/P2 修复收尾（✅ 2026-08-27 晚, M-20260827-05）
+- **背景**: 用户提交第二轮审计(P0致命/P1设计/P2优化), 核心: LSTM 时序泄漏 + λ 链路数学失真
+- **核实结论**: ①`src/models/lstm_model.py`(torch版)为全仓零调用死代码, 三项指控(未来泄漏/双向/分类输出)全部属实 → 已整体重写(单向LSTM+5维特征含padding/对手强度+回归1维form_score+时间截断增量历史+EarlyStopping/AdamW/裁剪); ②生产 form_score 在 `form_phase0/`(numpy版)已核实无未来泄漏, 不受影响
+- **本轮修复** (working tree, 全部已 py_compile + 回归全绿):
+  1. `poisson_lambda.py`: 统一上界 cap=3.0×avg_atk_safe(超界钳位+LAM_BASE_INPUT_CLIP); 分边风险冲突独立减半(单标量模式保持整体减半); v5审计46断言全过
+  2. `prob_calibration.py`: dc_tau 从 poisson_lambda 导入去重; dc_corrected_probs/dc_score_grid 默认 max_goals=9
+  3. `scan_upcoming.py`: 样本收缩联动 SAMPLE_LOW 告警码; **样本不足标签不计入 n_risk 扣星**(攻防已收缩30%入λ, 双罚失真; 对齐审计P1-1"收缩即告警"); 修复后 J1 负ROI观察标签恢复触发(star=2)
+  4. `src/models/lstm_model.py`: MatchSeqDataset 修复 min_seq 判定——原按填充后长度(恒=seq_len)导致 0 历史全 padding 空样本进训练集, 改为统计真实历史场次(审计P0-1边界)
+  5. `regression_test.py`: 注册 `test_lstm_v2_audit` 进 TEST_ORDER; v4断言改为按 code 匹配 LAM_H_CLIP 警告(输入上界钳位先于λ截断入列, warnings[0]不再保证是LAM_H_CLIP)
+- **回归**: **963 通过 / 0 失败** (torch 未安装, LSTM 运行时验收自动跳过, 模块已 py_compile)
+- **torch 验收(✅ 后续)**: 用户安装 torch 2.13.0+cpu 后, `python regression_test.py --only lstm_v2_audit` 5 断言全过(单向/回归/无泄漏); 真实前向冒烟 fit+predict 正常; 补充两处: num_layers=1 时 dropout 置 0(消除警告), fc2 输出加 sigmoid 收口 form_score∈[0,1](对齐框架契约)
+- **最终回归**: **968 通过 / 0 失败**
+- **遗留**: 旧 `_tmp_*.py` 探针文件未清理(属当日会话工作文件)
+
+## 08-27 25场全量入账（✅ 2026-08-27 20:00, M-20260827-04）
+- **比分源**: BSD 晚盘权威 (results_bsd_20260827_1929.json); 采列/Rapid 采用修正后 1-1 (早盘1-2/2-2作废, 同事件ID数据不稳定, 已建议人工核对)
+- **入账** (bet_ledger.csv 备份 .bak_20260827_before_settle.csv): 新增 8 行 = 3 BEST(已结算) + 5 方向参考; 台账 943 行
+  - ✅ Celje 小2.50★1 (1-1) +0.85 | ✅ Viking 大2.75★1 (3-1) +0.79 | ❌ America de Cali 小2.25★2 (4-2) -1.00
+  - 方向参考: ✅Al Diriyah 让客+0.8(+0.71) ✅Palmeiras 让主-0.8(+0.81) ✅River 让客+1.2(+1.09) ❌Numancia 小2.50(-1.00) ❌El Paso 让客+0.2(-1.00)
+  - BEST 2中1错, 合计 PnL = +1.25
+- **口径修正**: recalc best_bet.ev 为百分数(14.2), 账本 ev 列存小数(0.142), 已修 3 行; 结算用 settle_batch.settle_leg(四分之一盘拆盘) + pnl_for_result
+- **回归**: 915通过/0失败
+- **遗留**: Bug1 四分之一盘概率(América 小2.25 EV 20.3% 虚高约+20pp)待修; 采列/Rapid 官方比分待人工核
+
+## 低估区禁小球 规则⑪（✅ 2026-08-27 09:00, M-20260827-03）
+- **背景**: 用户反馈"命中率很差" -> 早盘对账曾判 3中3错, 但**采列比分BSD早上误报1-2、晚间权威修正1-1**(同事件ID两次返回不一致), 修正后: 方向6中4错(60%), ★BEST 2中1错(67%, 采列小2.50★1实为命中); 小球方向仍1W3L(AEK 4-0/美洲4-2/努曼西亚2-1 出大), 禁小逻辑成立但"全灭"表述作废
+- **数据核实**: 账本762已结算: 小球★1+ 命中43%(n=42) vs 大球★1+ 69%(n=36); 按联赛: 英冠小球31%/荷甲22%/英联杯0%/欧冠0%; 300场复盘原文: 英冠20%/荷甲0%/德国杯0% 全灭; 近期扫描λ偏差: 英联杯-1.29/欧冠-1.36/德国杯-1.18(模型λ系统性低于实际 -> 推小即陷阱)
+- **发现误判**: 交接给的"λ<2.6禁小"方案被数据否定(近期★小球赢单λ 2.14-2.41, 与输单2.18-2.68重叠); 真区分维度是**联赛级λ偏差**(300场复盘结论"小球只在λ高估区推, 低估区禁小")
+- **落地** (scan_upcoming.py, 备份 .bak_20260827_underban.py): 新增模块函数 `under_zone_ban_small` + 常量 `LOW_EST_UNDER_BAN_SMALL={德国杯,英联杯,欧冠,欧联杯,欧协联}`
+  - 触发: ① league_calib ou_under_reverse=True(英冠/荷甲) ② 杯赛低估区名单 ③ 实测场均>配置基准(数据驱动)
+  - 处置: 小球队 `_pband_banned` 移出候选+方向(不出单/不输出方向); 风险标签+note
+  - 中超/西乙/J1/西甲 小球实测>50% 明确**不禁**
+- **重算对比** (recalc_infersports_20260827_0832.json): Celje 小2.50★1->**大2.50**(BSD修正后实际1-1, 原小2.50其实命中, 新方向大2.50也命中——两版都对); AEK 小2.50->**大2.50**(实际4-0 出大✓, 修正有效); Viking 大2.75 保持✓; America de Cali 小2.25★2 保留(哥甲高估区, 但受已知Bug1四分之一盘影响, 待修)
+- **⚠️数据完整性**: BSD 对同一事件ID(采列587710/Rapid587902) 早盘返回1-2/2-2、晚间返回1-1/1-1, 已采信晚间(两次独立调用一致); 建议用户人工核对这两场官方比分
+- **回归**: 规则⑪新增测试(test_rule11_under_ban_small)+规则④荷甲用例升级为禁带断言 -> **915通过/0失败**
+- **遗留**: ①友谊赛/无数据杯赛不在名单(Numancia 方向仍小, 但EV+2.2%非实单) ②America de Cali 小2.25 需等 Bug1 四分之一盘修复 ③联赛基准自动平移方向疑点(实测>配置时 λ 被压低)已记录, 待单独验证
+
 ## 🔴 系统代码审查：发现3个数学/定价bug（✅ 2026-08-27, M-20260827-02）
 - **回归基线**: 914通过/0失败（本次审查只读不改代码）
 - **Bug1 四分之一盘概率错误（严重, 影响当前BEST）**: `scan_upcoming.py` 的 `handicap_cover_prob` 与大小球概率把四分之一盘(±0.25/±0.75)当相邻半球盘算——小2.25直接拿小2.5的概率(实测λ1.5/1.2: 代码0.494 vs 正确0.368, **EV虚高约+20pp**)；让球主侧四分之一盘概率全部虚高(受让+0.25拿了+0.5的概率0.702 vs 正确0.569)。账本已结算四分之一让球腿113条(显示±0.2/±0.8/±1.2): 主-7.2%/客-7.0%。**昨夜recalc的3个BEST中2个中招**: Viking大2.75+13.2%(正确约-7%,应掉出)、America de Cali小2.25+20.3%(正确约0%,应掉出)
@@ -444,3 +527,104 @@ egression_test.py.bak_20260824_rule8; mistake_log 新增 M-20260824-03
   - 注意: 大3.00用BSD over_35(3.5线)近似已标注; 亚盘BSD无, 需API-Football补
 - 文件: _replay_live_feature.py + _replay_live_feature_out.json; best_live_confirm_*.json; live_feature_report_20260825.md
 - 下一步: 账本加 live_ev/delta_ev/live_snap 字段, 结算后按 临场确认vs掉出 分组验证
+# ===== 追加: 2026-08-27 西甲队名别名修复 =====
+## 巴萨 vs 毕尔巴鄂 BSD共识合并失败修复（✅ 2026-08-27 22:4x）
+- 问题: 全量扫描 scan_upcoming.py 对巴萨场回退 08-23 旧 the-odds 快照(1.42/5.28/8.10, 过期99h),
+  且客队 Athletic 匹配不到本地攻防("Athletic Bilbao" vs "Ath Bilbao" 子集/模糊均失败) → "客队无独立数据"
+- 根因: ① 别名库缺西甲 BSD/快照名→football-data 标准名映射 ② _load_pkg_attacks 只按包原始名注册 by_name 键
+- 修复:
+  1) strategy_data/teams_alias.json v10: FC Barcelona->Barcelona; Athletic Club->Ath Bilbao; Athletic Bilbao->Ath Bilbao
+  2) prediction_v2/scan_upcoming.py _load_pkg_attacks: by_name 同时注册 _norm(原名) 与 _norm(_resolve_alias(原名)) 双键
+- 验证: _match_team 全变 exact; bsd_odds_merge 单测命中(1.24/6.45/10.7, snap刷新19:53); 全量重扫确认;
+  回归测试 922 通过 / 0 失败
+- 效果: 巴萨场 market_fair 76.4/14.7/8.9(BSD共识), 模型主胜79.2% vs 市场76.4%(一致, 消除此前客胜EV+114%假分歧), 无BEST
+- 涉及文件: strategy_data/teams_alias.json, prediction_v2/scan_upcoming.py
+
+# ===== 追加: 2026-08-27 五大历史切片规则13/14落地 =====
+## 规则13/14 泛化五大 (五大19763场去重切片实证) ✅ 回归937全绿
+- 实证结论(五大19763场):
+  - 1X2: 主胜2.00-2.20五大全陷阱(实际命中40.8~48.6%); 主胜>=2.50 -> 客胜53%+
+  - 大小球(市场隐含大2.5概率区校准): 法甲0.50-0.60 +3.5pp / 意甲0.50-0.55 +3.6pp、0.60+ -3.7pp追大亏 / 西甲0.55-0.60 +3.2pp / 德甲0.60-0.70 +3.0pp; 英超≈有效市场不配
+  - 亚盘: 意甲主受让+0.75~+1.25 主赢盘仅41.6%(n=294) -> 禁出
+- 代码改动(prediction_v2/scan_upcoming.py):
+  1) OU市场价值区校准(规则14): 读 cal.ou_mkt_zones(imp_lo/imp_hi/over_adj), 按市场隐含大2.5概率校准大/小球概率+EV重算, 记 ev_pre_ou_adj/ou_mkt_zone
+  2) 热主禁追泛化(规则13): 读 cal.hot_home_ban_lo/hi, 移除让球主-号腿 + 打"热主禁追区(联赛: 主胜x∈[a,b))"标签
+  3) 高赔主场受让+号加权: 读 cal.high_home_away_lo, 仅"已配置联赛"生效(默认0.0=不生效), best为让球主(+号)且主胜>=下限 -> star+1/stake*1.3
+  4) 亚盘zone禁出(规则14): 读 cal.hdp_home_ban_zones(list[{lo,hi}]), 命中区间移除该让球腿+动态note
+- 配置(strategy_data/league_calib.json): 五大均加 hot_home_ban_lo/hi=2.00/2.20(西甲保留1.55/2.20更严), high_home_away_lo=2.80;
+  法甲ou_mkt_zones=[0.50-0.60 +0.035]; 意甲=[0.50-0.55 +0.036, 0.60-0.70 -0.037]+hdp_home_ban_zones=[0.75-1.25];
+  西甲=[0.55-0.60 +0.032]; 德甲=[0.60-0.70 +0.030]; 英超不配
+- 回归: 922 -> 937 全绿(新增规则14覆盖: 英超热主2.10/意甲OU+3.6pp/意甲受让+1.0禁出/西甲高赔主场加权标签/配置断言)
+- 全量扫描验证(20260827_scan_upcoming.json, 809场): 热主禁追区=西甲13/英超1/德甲1; OU价值区校准=西甲2/法甲4/意甲5/德甲10; 高赔加权当前窗口无五大触发场次
+- 重要修正: 原补丁"or 2.80"全局默认曾把高赔加权误套到J1/荷甲/土超/英乙等22场(无实证), 已改为仅配置联赛生效
+- 备份: prediction_v2/scan_upcoming.py.bak_20260827_big5, strategy_data/league_calib.json.bak_20260827_big5
+
+## 2026-08-27 P0/P1 审计整改 (λ内核双层包络) - 已落地
+- src/models/poisson_lambda.py:
+  1) P0-1 RiskSignal 双向叠加: 新增 _cap_relative_risk, 相对差 (1+rH)/(1+rA) 钳位 ±10% (单边限幅外再收)
+  2) P0-2 全修正系数连乘总包络 [0.7,1.3]: _clamp_total_coef + TOTAL_COEF_CLIP; 返回 total_coef_h/a 中间变量
+  3) P0-3 home_coef 域 (0.92,1.30) 允许弱主场; 新增 neutral_coef=1.0 中立场覆盖
+  4) P0-4 DEFAULT_RHO_MAX 0.0 -> 0.15 (西甲+0.02/意甲+0.05 校准正ρ不再被静默清零)
+  5) P1-4 DC_MAX_GOALS 7 -> 9; scan_upcoming/auto_sop 网格 max_goals=9 + range(10)
+  6) P2-2 Warn/告警带 league/match_id 上下文; P2-3 _to_float(min_val=) 负值钳位
+- prediction_v2/scan_upcoming.py: 联赛级 lam_min/lam_max 读取(league_calib.json 可选), 两个λ分支均传入
+- strategy_data/league_calib.json: 德甲 lam_max=5.0 / 荷甲 lam_max=5.2 / 阿甲 lam_min=0.15
+- 审计失真项(未改): P0-4"ρ无应用逻辑"不成立(dc_tau已落地); P1-3"小样本收缩缺入口"不成立
+  (scan effective_rate + auto_sop adjust_gf_by_sample 均已实现3档); P1-1 时间衰减已实现并测试,
+  生产scan走聚合场均无逐场序列, 衰减未接线(需逐场序列数据)
+- 回归: 937 -> 955 全绿 (旧断言按相对差钳位更新, 新增v6断言18条)
+
+# ===== 追加: 2026-08-28 加时比分口径修正（P0 数据层） =====
+## 拉恩0:3应为0:2 → 同批9场加时赛全场比分误当常规比分
+- 触发: 用户指正「拉恩 0:3 林肯红魔 应是 0:2」；核实拉恩90分钟0:2(82/85'进球), 加时120+1'再进→AET 0:3
+- 核查: 27号47场存档(results_scan_20260827_47_20260828_0818.json)中 **9场加时赛**比分全部为加时后全场, 已按权威源改为90分钟口径
+- 9场修正(90min): Jablonec 1:0(点球4-3) / Qarabağ 1:2(AET 1:4) / Escaldes 0:0(点球4-2) / Pafos 2:2(AET 4:2) /
+  Raków 2:2(AET 2:3) / Hradec 1:1(AET 1:2) / Lillestrøm 1:1(AET 2:1) / Plzeň 4:1(AET 5:1) / Larne 0:2(AET 0:3)
+- 存档: home_score/away_score=90分钟, 新增 home_score_90/away_score_90/aet_score/settle_note, 备份 .backup_aet.json
+- 11场BEST对账重算(系统settle_leg, 90分钟): 已定9场=赢4/半赢3/走水1/输1; 命中率61.1%; 未输率88.9%; 2场待定(Internacional 0:0 84'未结束, Llaneros 0:2 85'未结束)
+- 关键改判: **Pafos 让客(+1.5) 由「错」→「赢」**(90' 2:2); Raków 让客(+0.2) 2:2 半赢; Riga 让客(+1.2) 2:1 半赢; Thun 让主(+0.2) 2:2 半赢; Boreham 让客(+1.0) 走水; Larne 让主(-0.5) 0:2 仍输(唯一错单)
+- 复盘: analysis_records/20260828_two_miss_review.md (Pafos改判说明+Larne根因保留)
+- 待办(数据层P0): 拉取脚本加 `minute>=100` 加时检测, 90分钟与AET比分分离存储, 结算一律90分钟
+
+# ===== 追加: 2026-08-28 18:52 未开赛临场刷新 =====
+## 51场未开赛 BSD 实时盘刷新 + 重扫
+- 动作: prediction_v2/pull_match_package.py --all --force (55包强制重拉, 0失败) -> _scan24h_generic.py 重扫
+- 关键发现: 早前通用扫描的"BSD共识"实为读 match_package 缓存(08:23建的包), 非实时; 本次 --force 后 pulled_at=18:52 才真刷新
+- 结果: BEST 从 0 -> 12 场(全部★1, 8小/4大, EV+7.5%~+24.8%); 否决 16 -> 4(仅剩"模型与市场分歧>20pp"真风控)
+- 12场BEST: 沙超Al-Fayha大+24.8/葡乙Leiria大+21.7/法乙Montpellier小+16.7/土超Genclerbirligi大+10.5/波甲Legia小+14.1/
+  英议联Scunthorpe小+7.5/Hornchurch小+7.5/Hartlepool小+8.2/Barrow大+17.4/Aldershot小+16.4/法甲Lille小+11.2/英冠Wrexham大+11.5
+- 存档: analysis_records/scan_next24h_20260828_1052.json; 中超3场临场快照 prematch_snap_*_20260828_1842.json
+- 亚盘(API-Football, 仅中超3场): 申花-1.0@1.90/1.87(7家) | 英博+0.25@1.94/1.81(国安让0.25) | 新鹏城+0.25@1.87/1.88(海港让0.25)
+- 注意: BSD免费档无亚盘/无机构级赔率(403需Football Unlimited); 扫描仍标"缺亚盘", 亚盘需API-Football另拉
+
+# ===== 追加: 2026-08-28 中超3场亚盘注入重算 =====
+## 注入API-Football主盘共识(申花-1.0/英博+0.25/新鹏城+0.25) 重算让球腿EV
+- 申花: 让客(+1.0) EV-21.0%(模型看申花大胜, 受让无价值); 让主(-1.0)深盘禁出 -> 无正EV, 无BEST
+- 英博: 让主(+0.2) EV+26.1% 但 模型70% vs 市场48% 分歧21.7pp -> 硬否决
+- 新鹏城: 让主(+0.2) EV+21.6% 但 模型80% vs 市场50% 分歧30pp -> 硬否决
+- 结论: 注入亚盘后3场仍全部无单; 两场正EV让球腿恰是模型与市场严重对立场次, 系统硬否决(复盘市场常对)
+- 验证: 亚盘注入路径可行(ev["spread"]+analyze_match), 但BEST仍需过 1X2排除/深盘禁出/分歧否决
+
+
+# ===== 追加: 2026-08-28 亚盘配额正式化(省额度) + 回归全绿 =====
+## pull_ah_quota.py 落地, 亚盘注入批量扫描
+- 新脚本 prediction_v2/pull_ah_quota.py: 逐响应读 x-ratelimit-requests-remaining(日)/x-ratelimit-remaining(分), 日剩<=reserve或分剩<=2硬停;
+  --window只拉N小时内/--budget今日硬上限/--ttl同场不重拉; fixture按日期缓存(每天1次); 输出 ah_spread_latest.json
+- _scan24h_generic.py 已按事件id注入 ah_spread_latest.json -> ev["spread"] + ev["ah_src"]
+- regression_test.py 新增 test_ah_quota_inject(7断言: 主盘平衡线/队名别名/跨日重置), 已修复测试数据括号, 全量回归 1012 通过 0 失败
+- 实测: --window 1 --budget 5 拉中超3场(申花-1.0@1.90/1.87 | 英博+0.25@1.94/1.81 | 新鹏城+0.25@1.87/1.88, 各7家), AH模块今日已用4次
+- 提醒: API-Football Free档日限额=100次(非200), /status 显示 limit_day=100; 今日整体已用约20+、剩约80, 亚盘模块务必 --window 3 临场才拉
+
+
+# ===== 追加: 2026-08-28 InferSports 免费亚盘接入(省API-Football额度) =====
+## 用户提示「还有一个网站可以拉亚盘」→ 实测确认为 InferSports (免费, 6家亚庄)
+- 排查结论: the-odds-api 不支持 asian_handicap(实测422 INVALID_MARKET); Odds-API.io 只有Spread(曾标 orr<1 弃用);
+  BSD免费档无亚盘(403需Football Unlimited); 唯一免费可用的亚盘源 = InferSports MCP (api.infersports.dev/mcp)
+- the-odds-api 11个key额度盘点(2026-08-28): 有效5个(_5剩17/_6剩236/_7剩420/_8剩450/_9剩432), 其余0-1或401
+- 接入: pull_ah_quota.py 新增 _InferMCP(纯标准库) + infer_find_match + parse_infer_ah + infer_ah
+  - 流程: 默认先 InferSports(免费) -> 拉不到才走 API-Football(额度)
+  - 新参数: --infer-only(完全0消耗API-Football) / --no-infer(跳过InferSports)
+  - 输出: ah_spread_latest.json src="infersports" + infer_event, 扫描注入逻辑不变
+- 实测: 申花vs泰山 共识线-0.75 @1.70/2.17 (5家), event evt_QNAKJNCS; 与API-Football -1.0 有差异(跨源校准待观察)
+- 回归: 新增 test_ah_infer_parse(7断言), 全量 1019 通过 0 失败
+- 推荐用法: python prediction_v2/pull_ah_quota.py --window 3 --infer-only (临场亚盘0额度)

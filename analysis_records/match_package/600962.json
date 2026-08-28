@@ -1,0 +1,104 @@
+{
+ "id": 600962,
+ "league": "Club Friendlies",
+ "kickoff": "08-27 01:30",
+ "kickoff_iso": "2026-08-26T17:30:00+00:00",
+ "home": "Atlético Astorga",
+ "away": "Salamanca UDS",
+ "home_id": 1474,
+ "away_id": 3519,
+ "pulled_at": "2026-08-26T21:47:20.490736+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=925) 未提取",
+  "away教练(coach_cache未命中 id=None) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.3,
+   "draw": 3.4,
+   "away_win": 2.62,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.125,
+   "away": 0.134
+  },
+  "formation": {
+   "home": "3-4-1-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-26T08:32:31Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.0,
+    "home_ga": 1.2,
+    "away_gf": 1.0,
+    "away_ga": 5.0,
+    "n_home": 5.0,
+    "n_away": 0.7,
+    "n_scored": 6,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1474
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 0.5,
+    "home_ga": 3.5,
+    "away_gf": 0.0,
+    "away_ga": 5.0,
+    "n_home": 2.0,
+    "n_away": 1.0,
+    "n_scored": 3,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 3519
+   }
+  }
+ }
+}

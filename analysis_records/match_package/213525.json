@@ -1,0 +1,184 @@
+{
+ "id": 213525,
+ "league": "La Liga",
+ "kickoff": "08-28 03:00",
+ "kickoff_iso": "2026-08-27T19:00:00+00:00",
+ "home": "FC Barcelona",
+ "away": "Athletic Club",
+ "home_id": 44,
+ "away_id": 51,
+ "pulled_at": "2026-08-27T19:53:08.389946+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 320,
+    "name": "Hans-Dieter Flick",
+    "short_name": "H. Flick",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 59.0,
+    "avg_goals_scored": 2.42,
+    "avg_goals_conceded": 1.1
+   },
+   "away": {
+    "id": 1992,
+    "name": "Edin Terzić",
+    "short_name": "E. Terzić",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 7.0,
+    "avg_goals_scored": 3.57,
+    "avg_goals_conceded": 0.71
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.24,
+   "draw": 6.45,
+   "away_win": 10.7,
+   "over_15_goals": 1.09,
+   "over_25_goals": 1.38,
+   "over_35_goals": 2.01,
+   "under_15_goals": 6.44,
+   "under_25_goals": 2.94,
+   "under_35_goals": 1.81,
+   "btts_yes": 1.78,
+   "btts_no": 1.97
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 3662,
+    "name": "Frenkie de Jong",
+    "short_name": "F. de Jong",
+    "status": "injured",
+    "reason": "Meniscus Injury"
+   },
+   {
+    "id": 4900,
+    "name": "Gavi",
+    "short_name": "Gavi",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 752,
+    "name": "Marc Casadó",
+    "short_name": "M. Casadó",
+    "status": "injured",
+    "reason": "pending_transfer"
+   },
+   {
+    "id": 759,
+    "name": "Roony Bardghji",
+    "short_name": "R. Bardghji",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 4344,
+    "name": "Toni Fernández",
+    "short_name": "T. Fernández",
+    "status": "injured",
+    "reason": "pending_transfer"
+   }
+  ],
+  "away": [
+   {
+    "id": 4777,
+    "name": "Beñat Prados",
+    "short_name": "B. Prados",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   },
+   {
+    "id": 564,
+    "name": "Dani Vivian",
+    "short_name": "D. Vivian",
+    "status": "injured",
+    "reason": "Groin Injury"
+   },
+   {
+    "id": 21658,
+    "name": "Unai Eguíluz",
+    "short_name": "U. Eguíluz",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 579,
+    "name": "Yuri Berchiche",
+    "short_name": "Y. Berchiche",
+    "status": "suspended",
+    "reason": "red_card_suspension"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.514,
+   "away": 0.414
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-27T08:32:58Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.608,
+    "home_ga": 0.703,
+    "away_gf": 2.143,
+    "away_ga": 1.209,
+    "n_home": 7.4,
+    "n_away": 9.1,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 44
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.2,
+    "home_ga": 1.564,
+    "away_gf": 2.273,
+    "away_ga": 1.364,
+    "n_home": 5.5,
+    "n_away": 11.0,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 51
+   }
+  }
+ }
+}

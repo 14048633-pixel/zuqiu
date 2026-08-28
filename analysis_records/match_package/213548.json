@@ -1,0 +1,161 @@
+{
+ "id": 213548,
+ "league": "La Liga",
+ "kickoff": "08-30 01:00",
+ "kickoff_iso": "2026-08-29T17:00:00+00:00",
+ "home": "Real Sociedad",
+ "away": "Espanyol",
+ "home_id": 48,
+ "away_id": 53,
+ "pulled_at": "2026-08-27T20:28:38.311073+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 229,
+    "name": "Pellegrino Matarazzo",
+    "short_name": "P. Matarazzo",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 52.0,
+    "avg_goals_scored": 1.62,
+    "avg_goals_conceded": 1.48
+   },
+   "away": {
+    "id": 288,
+    "name": "Manolo Gonzalez",
+    "short_name": "M. Gonzalez",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 46.0,
+    "avg_goals_scored": 1.28,
+    "avg_goals_conceded": 1.43
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.89,
+   "draw": 3.61,
+   "away_win": 3.97,
+   "over_15_goals": 1.26,
+   "over_25_goals": 1.84,
+   "over_35_goals": 3.0,
+   "under_15_goals": 3.71,
+   "under_25_goals": 1.98,
+   "under_35_goals": 1.37,
+   "btts_yes": 1.71,
+   "btts_no": 2.06
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 1759,
+    "name": "Álvaro Odriozola",
+    "short_name": "Á. Odriozola",
+    "status": "injured",
+    "reason": "ACL Knee Injury"
+   },
+   {
+    "id": 1752,
+    "name": "Ander Barrenetxea",
+    "short_name": "A. Barrenetxea",
+    "status": "injured",
+    "reason": "Knock Injury"
+   },
+   {
+    "id": 1746,
+    "name": "Jon Gorrotxategi",
+    "short_name": "J. Gorrotxategi",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 1763,
+    "name": "Pablo Marín",
+    "short_name": "P. Marín",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 4508,
+    "name": "Javi Puado",
+    "short_name": "J. Puado",
+    "status": "injured",
+    "reason": "ACL Knee Injury"
+   },
+   {
+    "id": 1277,
+    "name": "Leandro Cabrera",
+    "short_name": "L. Cabrera",
+    "status": "suspended",
+    "reason": "red_card_suspension"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.505,
+   "away": 0.464
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-27T08:36:59Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.733,
+    "home_ga": 1.578,
+    "away_gf": 1.3,
+    "away_ga": 1.858,
+    "n_home": 4.5,
+    "n_away": 12.0,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 48
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.231,
+    "home_ga": 1.203,
+    "away_gf": 1.063,
+    "away_ga": 1.655,
+    "n_home": 39.0,
+    "n_away": 38.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

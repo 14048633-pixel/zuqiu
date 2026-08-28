@@ -1,3 +1,4 @@
+import os
 """
 低级别联赛分析器 v2 — 时间衰减 + 贝叶斯收缩 + 主客拆分
 """
@@ -11,7 +12,7 @@ _HEADERS = {"User-Agent": "infersports-skill/1.0"}
 TIMEOUT = 10
 
 # ---- API-Football (fallback data source) ----
-APIF_KEY = "FOOTBALL_API_KEY_FROM_ENV"
+APIF_KEY = os.environ.get("FOOTBALL_API_KEY", "")
 APIF_BASE = "https://v3.football.api-sports.io"
 APIF_HEADERS = {"x-apisports-key": APIF_KEY}
 _APIF_TEAM_CACHE = {}

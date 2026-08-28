@@ -59,7 +59,16 @@ def parse_rho(m):
 
 def ev_of(prob, price, overround):
     if not price or prob is None: return None
-    return (prob / overround) * price - 1.0
+    # 2026-08-27审计P0-1: 模型概率无抽水, EV=prob*price-1 (不再除以overround)
+    return prob * price - 1.0
+
+
+def fair_value(prob, price, overround):
+    """相对市场公平概率的价值优势 = 模型概率/市场公平隐含概率 = prob*price*overround.
+    仅供价值排序参考, 不作为绝对EV/出单阈值."""
+    if not price or prob is None or not overround or overround <= 0:
+        return None
+    return prob * price * overround
 
 def h2h_odds(sp, home, away):
     h2h = (sp or {}).get("h2h") or {}

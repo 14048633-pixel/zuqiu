@@ -1,0 +1,148 @@
+{
+ "id": 211330,
+ "league": "Pro League",
+ "kickoff": "08-29 02:45",
+ "kickoff_iso": "2026-08-28T18:45:00+00:00",
+ "home": "KRC Genk",
+ "away": "SK Beveren",
+ "home_id": 146,
+ "away_id": 2414,
+ "pulled_at": "2026-08-28T18:51:23.881628+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 687,
+    "name": "Jess Thorup",
+    "short_name": "J. Thorup",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 11.0,
+    "avg_goals_scored": 1.82,
+    "avg_goals_conceded": 2.09
+   },
+   "away": {
+    "id": 1925,
+    "name": "Tim Bakens",
+    "short_name": "T. Bakens",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 6.0,
+    "avg_goals_scored": 2.5,
+    "avg_goals_conceded": 2.33
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.47,
+   "draw": 4.45,
+   "away_win": 5.93,
+   "over_15_goals": null,
+   "over_25_goals": 1.57,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": 2.35,
+   "under_35_goals": null,
+   "btts_yes": 1.65,
+   "btts_no": 2.13
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 3135,
+    "name": "Adrian Palacios",
+    "short_name": "A. Palacios",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 58905,
+    "name": "Christian Akpan",
+    "short_name": "C. Akpan",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 52529,
+    "name": "Kenan Haroun",
+    "short_name": "K. Haroun",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 4160,
+    "name": "Ken Nkuba",
+    "short_name": "K. Nkuba",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.418,
+   "away": 0.423
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-28T08:32:23Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.939,
+    "home_ga": 1.091,
+    "away_gf": 1.646,
+    "away_ga": 2.141,
+    "n_home": 6.6,
+    "n_away": 9.9,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 146
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.232,
+    "home_ga": 1.71,
+    "away_gf": 1.823,
+    "away_ga": 2.354,
+    "n_home": 6.9,
+    "n_away": 9.6,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2414
+   }
+  }
+ }
+}

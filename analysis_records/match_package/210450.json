@@ -1,0 +1,155 @@
+{
+ "id": 210450,
+ "league": "Ligue 1",
+ "kickoff": "08-30 02:45",
+ "kickoff_iso": "2026-08-29T18:45:00+00:00",
+ "home": "Olympique Lyonnais",
+ "away": "Le Havre",
+ "home_id": 100,
+ "away_id": 102,
+ "pulled_at": "2026-08-27T20:29:05.366272+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 380,
+    "name": "Paulo Fonseca",
+    "short_name": "P. Fonseca",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 55.0,
+    "avg_goals_scored": 1.76,
+    "avg_goals_conceded": 1.18
+   },
+   "away": {
+    "id": 406,
+    "name": "Didier Digard",
+    "short_name": "D. Digard",
+    "profile": "defensive",
+    "preferred_formation": "4-3-3",
+    "matches_total": 40.0,
+    "avg_goals_scored": 0.95,
+    "avg_goals_conceded": 1.35
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.46,
+   "draw": 4.4,
+   "away_win": 6.5,
+   "over_15_goals": 1.21,
+   "over_25_goals": 1.75,
+   "over_35_goals": 2.81,
+   "under_15_goals": 4.07,
+   "under_25_goals": 2.08,
+   "under_35_goals": 1.41,
+   "btts_yes": 1.86,
+   "btts_no": 1.87
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 1119,
+    "name": "Khalis Merah",
+    "short_name": "K. Merah",
+    "status": "injured",
+    "reason": "Sprained Ankle"
+   },
+   {
+    "id": 3040,
+    "name": "Mads Bidstrup",
+    "short_name": "M. Bidstrup",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 1112,
+    "name": "Pavel Šulc",
+    "short_name": "P. Šulc",
+    "status": "injured",
+    "reason": "Knee Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 1440,
+    "name": "Felix Mambimbi",
+    "short_name": "F. Mambimbi",
+    "status": "injured",
+    "reason": "Achilles Tendon Injury"
+   },
+   {
+    "id": 1430,
+    "name": "Yanis Zouaoui",
+    "short_name": "Y. Zouaoui",
+    "status": "injured",
+    "reason": "Thigh Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.605,
+   "away": 0.314
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-27T08:37:25Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 2.272,
+    "home_ga": 1.5,
+    "away_gf": 1.247,
+    "away_ga": 1.425,
+    "n_home": 9.2,
+    "n_away": 7.3,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧冠",
+    "team_id": 100
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.056,
+    "home_ga": 1.521,
+    "away_gf": 1.006,
+    "away_ga": 1.608,
+    "n_home": 35.7,
+    "n_away": 35.7,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

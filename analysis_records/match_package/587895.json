@@ -1,0 +1,143 @@
+{
+ "id": 587895,
+ "league": "Conference League",
+ "kickoff": "08-28 01:00",
+ "kickoff_iso": "2026-08-27T17:00:00+00:00",
+ "home": "FC København",
+ "away": "Inter Turku",
+ "home_id": 124,
+ "away_id": 2098,
+ "pulled_at": "2026-08-27T19:50:40.532933+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 640,
+    "name": "Bo Svensson",
+    "short_name": "B. Svensson",
+    "profile": "attacking",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 189.0,
+    "avg_goals_scored": 1.95,
+    "avg_goals_conceded": 1.15
+   },
+   "away": {
+    "id": 1528,
+    "name": "Vesa Vasara",
+    "short_name": "V. Vasara",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 32.0,
+    "avg_goals_scored": 1.59,
+    "avg_goals_conceded": 0.84
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.27,
+   "draw": 5.36,
+   "away_win": 9.46,
+   "over_15_goals": 1.16,
+   "over_25_goals": 1.59,
+   "over_35_goals": 2.46,
+   "under_15_goals": 4.62,
+   "under_25_goals": 2.26,
+   "under_35_goals": 1.49,
+   "btts_yes": 2.0,
+   "btts_no": 1.73
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 4244,
+    "name": "Andreas Cornelius",
+    "short_name": "A. Cornelius",
+    "status": "injured",
+    "reason": "Unknown"
+   },
+   {
+    "id": 3557,
+    "name": "Dominik Kotarski",
+    "short_name": "D. Kotarski",
+    "status": "injured",
+    "reason": "Leg Injury"
+   },
+   {
+    "id": 3561,
+    "name": "Marcos López",
+    "short_name": "M. López",
+    "status": "injured",
+    "reason": "Unknown"
+   }
+  ],
+  "away": [],
+  "home_covered": true,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.755,
+   "away": 0.559
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-27T08:32:24Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 3.063,
+    "home_ga": 1.278,
+    "away_gf": 2.535,
+    "away_ga": 1.395,
+    "n_home": 7.9,
+    "n_away": 8.6,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 124
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.506,
+    "home_ga": 0.772,
+    "away_gf": 1.663,
+    "away_ga": 1.151,
+    "n_home": 7.9,
+    "n_away": 8.6,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 2098
+   }
+  }
+ }
+}

@@ -143,7 +143,8 @@ def probs_from_grid(grid, hdp=None, tt_line=None):
     return out
 
 def ev(p, price, orr):
-    return (p / orr) * price - 1.0
+    # 2026-08-27审计P0-1: 模型概率无抽水, EV=prob*price-1; orr 参数保留兼容调用, 不再使用
+    return p * price - 1.0
 
 def tier_label(ev):
     for _l, _th, _s in EV_TIERS:

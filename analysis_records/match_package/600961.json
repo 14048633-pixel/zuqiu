@@ -1,0 +1,104 @@
+{
+ "id": 600961,
+ "league": "Club Friendlies",
+ "kickoff": "08-27 01:00",
+ "kickoff_iso": "2026-08-26T17:00:00+00:00",
+ "home": "Numancia",
+ "away": "Utebo FC",
+ "home_id": 1457,
+ "away_id": 1516,
+ "pulled_at": "2026-08-26T21:47:13.809732+08:00",
+ "missing": [
+  "home教练(coach_cache未命中 id=941) 未提取",
+  "away教练(coach_cache未命中 id=None) 未提取"
+ ],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": null,
+   "away": null
+  },
+  "preferred_formation": {
+   "home": null,
+   "away": null
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.15,
+   "draw": 3.4,
+   "away_win": 2.9,
+   "over_15_goals": null,
+   "over_25_goals": null,
+   "over_35_goals": null,
+   "under_15_goals": null,
+   "under_25_goals": null,
+   "under_35_goals": null,
+   "btts_yes": null,
+   "btts_no": null
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.1,
+   "away": 0.179
+  },
+  "formation": {
+   "home": "4-4-2",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-26T08:32:30Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.406,
+    "home_ga": 1.085,
+    "away_gf": 1.017,
+    "away_ga": 1.695,
+    "n_home": 10.6,
+    "n_away": 5.9,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1457
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 1.362,
+    "home_ga": 2.426,
+    "away_gf": 0.0,
+    "away_ga": 2.0,
+    "n_home": 4.7,
+    "n_away": 1.0,
+    "n_scored": 6,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 1516
+   }
+  }
+ }
+}

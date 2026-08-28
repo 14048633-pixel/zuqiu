@@ -1,0 +1,173 @@
+{
+ "id": 209554,
+ "league": "Premier League",
+ "kickoff": "08-30 00:30",
+ "kickoff_iso": "2026-08-29T16:30:00+00:00",
+ "home": "Tottenham Hotspur",
+ "away": "Newcastle United",
+ "home_id": 9,
+ "away_id": 4,
+ "pulled_at": "2026-08-27T20:28:32.589554+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 563,
+    "name": "Roberto De Zerbi",
+    "short_name": "R. D. Zerbi",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 56.0,
+    "avg_goals_scored": 1.45,
+    "avg_goals_conceded": 1.39
+   },
+   "away": {
+    "id": 281,
+    "name": "Matthias Jaissle",
+    "short_name": "M. Jaissle",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 40.0,
+    "avg_goals_scored": 2.05,
+    "avg_goals_conceded": 0.88
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.27,
+   "draw": 3.61,
+   "away_win": 2.91,
+   "over_15_goals": 1.19,
+   "over_25_goals": 1.67,
+   "over_35_goals": 2.63,
+   "under_15_goals": 4.22,
+   "under_25_goals": 2.21,
+   "under_35_goals": 1.45,
+   "btts_yes": 1.54,
+   "btts_no": 2.36
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [
+   {
+    "id": 24019,
+    "name": "Dejan Kulusevski",
+    "short_name": "D. Kulusevski",
+    "status": "injured",
+    "reason": "Knee Injury"
+   },
+   {
+    "id": 30733,
+    "name": "James Maddison",
+    "short_name": "J. Maddison",
+    "status": "injured",
+    "reason": "Shoulder Injury"
+   },
+   {
+    "id": 736,
+    "name": "Micky van de Ven",
+    "short_name": "M. van de Ven",
+    "status": "injured",
+    "reason": "Physical Discomfort"
+   },
+   {
+    "id": 724,
+    "name": "Pape Matar Sarr",
+    "short_name": "P. Sarr",
+    "status": "injured",
+    "reason": "Hamstring Injury"
+   },
+   {
+    "id": 719,
+    "name": "Pedro Porro",
+    "short_name": "P. Porro",
+    "status": "injured",
+    "reason": "Physical Discomfort"
+   },
+   {
+    "id": 733,
+    "name": "Wilson Odobert",
+    "short_name": "W. Odobert",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   },
+   {
+    "id": 729,
+    "name": "Xavi Simons",
+    "short_name": "X. Simons",
+    "status": "injured",
+    "reason": "Cruciate Ligament Injury"
+   }
+  ],
+  "away": [
+   {
+    "id": 705,
+    "name": "Joelinton",
+    "short_name": "Joelinton",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": true,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.373,
+   "away": 0.391
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-27T08:36:49Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.1,
+    "home_ga": 2.0,
+    "away_gf": 1.0,
+    "away_ga": 1.4,
+    "n_home": 10.0,
+    "n_away": 10.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 2.0,
+    "home_ga": 1.8,
+    "away_gf": 0.778,
+    "away_ga": 1.444,
+    "n_home": 10.0,
+    "n_away": 9.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}

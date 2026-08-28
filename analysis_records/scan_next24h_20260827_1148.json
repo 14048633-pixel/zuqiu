@@ -1,0 +1,3056 @@
+[
+ {
+  "ko_bjt": "08-27 23:00",
+  "ko_utc": "2026-08-27T15:00:00+00:00",
+  "league": "欧协联",
+  "home": "Kuopion Palloseura",
+  "away": "Shamrock Rovers",
+  "lambda": {
+   "home": 1.2,
+   "away": 1.35,
+   "sum": 2.55
+  },
+  "wdl": {
+   "home": 33.4,
+   "draw": 27.9,
+   "away": 38.8
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "客队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 00:00",
+  "ko_utc": "2026-08-27T16:00:00+00:00",
+  "league": "欧协联",
+  "home": "Maccabi Tel Aviv",
+  "away": "FC Lugano",
+  "lambda": {
+   "home": 1.35,
+   "away": 1.35,
+   "sum": 2.7
+  },
+  "wdl": {
+   "home": 36.4,
+   "draw": 27.2,
+   "away": 36.4
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 00:00",
+  "ko_utc": "2026-08-27T16:00:00+00:00",
+  "league": "欧协联",
+  "home": "FK Jablonec",
+  "away": "Rangers",
+  "lambda": {
+   "home": 1.35,
+   "away": 0.84,
+   "sum": 2.19
+  },
+  "wdl": {
+   "home": 45.5,
+   "draw": 29.2,
+   "away": 25.3
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "队名模糊匹配"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "客队队名模糊匹配(subset), 低置信",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 00:00",
+  "ko_utc": "2026-08-27T16:00:00+00:00",
+  "league": "欧协联",
+  "home": "Qarabağ FK",
+  "away": "FC Twente",
+  "lambda": {
+   "home": 1.35,
+   "away": 1.33,
+   "sum": 2.68
+  },
+  "wdl": {
+   "home": 36.7,
+   "draw": 27.3,
+   "away": 36.0
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "客队中游(第12/18, 积3, 近WLLWD)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用",
+   "积分榜客队: 荷甲第12/18 积3分 近2场 form=WLLWD"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 00:00",
+  "ko_utc": "2026-08-27T16:00:00+00:00",
+  "league": "欧联杯",
+  "home": "FC Ararat-Armenia",
+  "away": "Universitatea Craiova",
+  "lambda": {
+   "home": 1.45,
+   "away": 1.17,
+   "sum": 2.62
+  },
+  "wdl": {
+   "home": 41.4,
+   "draw": 27.4,
+   "away": 31.2
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 00:00",
+  "ko_utc": "2026-08-27T16:00:00+00:00",
+  "league": "欧联杯",
+  "home": "FC Iberia 1999",
+  "away": "Jagiellonia Białystok",
+  "lambda": {
+   "home": 1.45,
+   "away": 1.17,
+   "sum": 2.62
+  },
+  "wdl": {
+   "home": 41.4,
+   "draw": 27.4,
+   "away": 31.2
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 00:45",
+  "ko_utc": "2026-08-27T16:45:00+00:00",
+  "league": "欧协联",
+  "home": "SC Freiburg",
+  "away": "Motherwell",
+  "lambda": {
+   "home": 1.52,
+   "away": 1.35,
+   "sum": 2.87
+  },
+  "wdl": {
+   "home": 39.7,
+   "draw": 26.4,
+   "away": 33.9
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "队名模糊匹配"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "客队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "主队队名模糊匹配(subset), 低置信",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 00:45",
+  "ko_utc": "2026-08-27T16:45:00+00:00",
+  "league": "欧协联",
+  "home": "AS Monaco",
+  "away": "Górnik Zabrze",
+  "lambda": {
+   "home": 1.61,
+   "away": 0.98,
+   "sum": 2.59
+  },
+  "wdl": {
+   "home": 48.2,
+   "draw": 26.7,
+   "away": 25.1
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "队名模糊匹配",
+   "主队中游(第5/18, 积3, 近WLLWD)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队数据来自F1",
+   "客队数据来自PL",
+   "主队跨联赛用F1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用PL数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "主队队名模糊匹配(subset), 低置信",
+   "积分榜主队: 法甲第5/18 积3分 近1场 form=WLLWD"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 01:00",
+  "ko_utc": "2026-08-27T17:00:00+00:00",
+  "league": "友谊赛",
+  "home": "CD Ebro",
+  "away": "S.S. Reyes",
+  "lambda": {
+   "home": 1.3,
+   "away": 1.3,
+   "sum": 2.6
+  },
+  "wdl": {
+   "home": 36.1,
+   "draw": 27.7,
+   "away": 36.1
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 01:00",
+  "ko_utc": "2026-08-27T17:00:00+00:00",
+  "league": "欧协联",
+  "home": "Inter Club d'Escaldes",
+  "away": "FC Drita",
+  "lambda": {
+   "home": 1.84,
+   "away": 1.35,
+   "sum": 3.19
+  },
+  "wdl": {
+   "home": 45.7,
+   "draw": 24.8,
+   "away": 29.5
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "队名模糊匹配",
+   "主队争冠/升级(第2/20, 积3, 近WDDWW)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "客队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "主队队名模糊匹配(subset), 低置信",
+   "非独立数据场次, best_bet禁用",
+   "积分榜主队: 意甲第2/20 积3分 近1场 form=WDDWW"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 01:00",
+  "ko_utc": "2026-08-27T17:00:00+00:00",
+  "league": "欧协联",
+  "home": "Pafos FC",
+  "away": "Dinamo City",
+  "lambda": {
+   "home": 1.35,
+   "away": 1.35,
+   "sum": 2.7
+  },
+  "wdl": {
+   "home": 36.4,
+   "draw": 27.2,
+   "away": 36.4
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 01:00",
+  "ko_utc": "2026-08-27T17:00:00+00:00",
+  "league": "欧协联",
+  "home": "Raków Częstochowa",
+  "away": "HNK Hajduk Split",
+  "lambda": {
+   "home": 1.2,
+   "away": 1.35,
+   "sum": 2.55
+  },
+  "wdl": {
+   "home": 33.4,
+   "draw": 27.9,
+   "away": 38.8
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "客队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 01:00",
+  "ko_utc": "2026-08-27T17:00:00+00:00",
+  "league": "欧协联",
+  "home": "FC Hradec Králové",
+  "away": "Panathinaikos FC",
+  "lambda": {
+   "home": 1.35,
+   "away": 1.35,
+   "sum": 2.7
+  },
+  "wdl": {
+   "home": 36.4,
+   "draw": 27.2,
+   "away": 36.4
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 01:00",
+  "ko_utc": "2026-08-27T17:00:00+00:00",
+  "league": "欧协联",
+  "home": "FC København",
+  "away": "Inter Turku",
+  "lambda": {
+   "home": 2.16,
+   "away": 0.96,
+   "sum": 3.12
+  },
+  "wdl": {
+   "home": 58.5,
+   "draw": 22.5,
+   "away": 18.9
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "队名模糊匹配",
+   "主队中游(第5/12, 积9, 近LWWWW)",
+   "客队争冠/升级(第2/20, 积3, 近WDDWW)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队数据来自DK",
+   "客队数据来自FI",
+   "主队跨联赛用DK数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用FI数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "主队队名模糊匹配(fuzzy), 低置信",
+   "积分榜主队: 丹超第5/12 积9分 近4场 form=LWWWW",
+   "积分榜客队: 意甲第2/20 积3分 近1场 form=WDDWW"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 01:00",
+  "ko_utc": "2026-08-27T17:00:00+00:00",
+  "league": "欧协联",
+  "home": "Riga FC",
+  "away": "Klaksvíkar Ítróttarfelag",
+  "lambda": {
+   "home": 1.35,
+   "away": 1.35,
+   "sum": 2.7
+  },
+  "wdl": {
+   "home": 36.4,
+   "draw": 27.2,
+   "away": 36.4
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 01:00",
+  "ko_utc": "2026-08-27T17:00:00+00:00",
+  "league": "欧协联",
+  "home": "SK Brann",
+  "away": "PAOK",
+  "lambda": {
+   "home": 1.54,
+   "away": 1.35,
+   "sum": 2.89
+  },
+  "wdl": {
+   "home": 40.2,
+   "draw": 26.3,
+   "away": 33.5
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "主队中游(第6/16, 积25, 近WWLWW)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "客队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用",
+   "积分榜主队: 挪超第6/16 积25分 近17场 form=WWLWW"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 01:00",
+  "ko_utc": "2026-08-27T17:00:00+00:00",
+  "league": "欧联杯",
+  "home": "Lillestrøm SK",
+  "away": "KF Egnatia",
+  "lambda": {
+   "home": 1.45,
+   "away": 1.45,
+   "sum": 2.9
+  },
+  "wdl": {
+   "home": 36.8,
+   "draw": 26.4,
+   "away": 36.8
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "主队中游(第5/16, 积26, 近DLLLW)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+   "非独立数据场次, best_bet禁用",
+   "积分榜主队: 挪超第5/16 积26分 近17场 form=DLLLW"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 01:00",
+  "ko_utc": "2026-08-27T17:00:00+00:00",
+  "league": "欧联杯",
+  "home": "Omonia Nicosia",
+  "away": "Sint-Truidense VV",
+  "lambda": {
+   "home": 1.45,
+   "away": 1.45,
+   "sum": 2.9
+  },
+  "wdl": {
+   "home": 36.8,
+   "draw": 26.4,
+   "away": 36.8
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "客队中游(第12/18, 积2, 近DDWLD)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+   "非独立数据场次, best_bet禁用",
+   "积分榜客队: 比甲第12/18 积2分 近2场 form=DDWLD"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 01:00",
+  "ko_utc": "2026-08-27T17:00:00+00:00",
+  "league": "欧联杯",
+  "home": "Red Bull Salzburg",
+  "away": "Mjällby AIF",
+  "lambda": {
+   "home": 1.45,
+   "away": 1.32,
+   "sum": 2.77
+  },
+  "wdl": {
+   "home": 38.9,
+   "draw": 26.9,
+   "away": 34.2
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "客队中游(第11/16, 积20, 近WLLDL)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用",
+   "积分榜客队: 瑞超第11/16 积20分 近16场 form=WLLDL"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 01:00",
+  "ko_utc": "2026-08-27T17:00:00+00:00",
+  "league": "欧联杯",
+  "home": "FK Kauno Žalgiris",
+  "away": "Beşiktaş JK",
+  "lambda": {
+   "home": 1.45,
+   "away": 1.27,
+   "sum": 2.72
+  },
+  "wdl": {
+   "home": 39.7,
+   "draw": 27.1,
+   "away": 33.2
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "队名模糊匹配",
+   "客队中游(第12/18, 积3, 近LWDLW)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "客队队名模糊匹配(subset), 低置信",
+   "非独立数据场次, best_bet禁用",
+   "积分榜客队: 土超第12/18 积3分 近2场 form=LWDLW"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 01:00",
+  "ko_utc": "2026-08-27T17:00:00+00:00",
+  "league": "欧联杯",
+  "home": "FC Viktoria Plzeň",
+  "away": "FK Crvena Zvezda",
+  "lambda": {
+   "home": 1.45,
+   "away": 1.45,
+   "sum": 2.9
+  },
+  "wdl": {
+   "home": 36.8,
+   "draw": 26.4,
+   "away": 36.8
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:00",
+  "ko_utc": "2026-08-27T18:00:00+00:00",
+  "league": "欧协联",
+  "home": "FC St. Gallen 1879",
+  "away": "FC Nordsjælland",
+  "lambda": {
+   "home": 1.35,
+   "away": 1.1,
+   "sum": 2.45
+  },
+  "wdl": {
+   "home": 40.5,
+   "draw": 28.3,
+   "away": 31.2
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "客队争冠/升级(第3/12, 积10, 近WWWDW)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用",
+   "积分榜客队: 丹超第3/12 积10分 近4场 form=WWWDW"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:00",
+  "ko_utc": "2026-08-27T18:00:00+00:00",
+  "league": "欧协联",
+  "home": "AFC Ajax",
+  "away": "FC Sion",
+  "lambda": {
+   "home": 1.79,
+   "away": 1.35,
+   "sum": 3.14
+  },
+  "wdl": {
+   "home": 44.8,
+   "draw": 25.1,
+   "away": 30.1
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "队名模糊匹配",
+   "主队中游(第6/18, 积4, 近DWDWD)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "客队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "主队队名模糊匹配(subset), 低置信",
+   "非独立数据场次, best_bet禁用",
+   "积分榜主队: 荷甲第6/18 积4分 近2场 form=DWDWD"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:00",
+  "ko_utc": "2026-08-27T18:00:00+00:00",
+  "league": "欧联杯",
+  "home": "FC Thun",
+  "away": "Lech Poznań",
+  "lambda": {
+   "home": 1.45,
+   "away": 1.17,
+   "sum": 2.62
+  },
+  "wdl": {
+   "home": 41.4,
+   "draw": 27.4,
+   "away": 31.2
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:00",
+  "ko_utc": "2026-08-27T18:00:00+00:00",
+  "league": "欧联杯",
+  "home": "CSKA Sofia",
+  "away": "OFI Crete",
+  "lambda": {
+   "home": 1.29,
+   "away": 1.45,
+   "sum": 2.74
+  },
+  "wdl": {
+   "home": 33.7,
+   "draw": 27.0,
+   "away": 39.3
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "客队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:00",
+  "ko_utc": "2026-08-27T18:00:00+00:00",
+  "league": "欧联杯",
+  "home": "AGF",
+  "away": "Benfica",
+  "lambda": {
+   "home": 1.21,
+   "away": 1.14,
+   "sum": 2.35
+  },
+  "wdl": {
+   "home": 36.8,
+   "draw": 29.0,
+   "away": 34.2
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "主队保级(第10/12, 积3, 近DLDDW)",
+   "客队中游(第7/18, 积4, 近WDWDD)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队数据来自DK",
+   "客队数据来自P1",
+   "主队跨联赛用DK数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用P1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "积分榜主队: 丹超第10/12 积3分 近4场 form=DLDDW",
+   "积分榜客队: 蓡超第7/18 积4分 近2场 form=WDWDD"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:00",
+  "ko_utc": "2026-08-27T18:00:00+00:00",
+  "league": "欧协联",
+  "home": "Hapoel Tel Aviv",
+  "away": "Atalanta",
+  "lambda": {
+   "home": 1.35,
+   "away": 1.27,
+   "sum": 2.62
+  },
+  "wdl": {
+   "home": 37.6,
+   "draw": 27.6,
+   "away": 34.8
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "客队中游(第6/20, 积3, 近WDLWD)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用",
+   "积分榜客队: 意甲第6/20 积3分 近1场 form=WDLWD"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:30",
+  "ko_utc": "2026-08-27T18:30:00+00:00",
+  "league": "欧协联",
+  "home": "FK Borac Banja Luka",
+  "away": "Víkingur Reykjavík",
+  "lambda": {
+   "home": 1.35,
+   "away": 1.35,
+   "sum": 2.7
+  },
+  "wdl": {
+   "home": 36.4,
+   "draw": 27.2,
+   "away": 36.4
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:30",
+  "ko_utc": "2026-08-27T18:30:00+00:00",
+  "league": "欧协联",
+  "home": "FK Austria Wien",
+  "away": "Sporting Braga",
+  "lambda": {
+   "home": 1.35,
+   "away": 1.35,
+   "sum": 2.7
+  },
+  "wdl": {
+   "home": 36.4,
+   "draw": 27.2,
+   "away": 36.4
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "客队中游(第13/18, 积1, 近DDDDL)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+   "非独立数据场次, best_bet禁用",
+   "积分榜客队: 蓡超第13/18 积1分 近1场 form=DDDDL"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:30",
+  "ko_utc": "2026-08-27T18:30:00+00:00",
+  "league": "欧协联",
+  "home": "Brighton & Hove Albion",
+  "away": "Tromsø IL",
+  "lambda": {
+   "home": 1.24,
+   "away": 1.35,
+   "sum": 2.59
+  },
+  "wdl": {
+   "home": 34.0,
+   "draw": 27.7,
+   "away": 38.2
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "主队争冠/升级(第1/20, 积3, 近WLLWL)",
+   "客队争冠/升级(第3/16, 积34, 近LWWWD)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "客队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用",
+   "积分榜主队: 英超第1/20 积3分 近1场 form=WLLWL",
+   "积分榜客队: 挪超第3/16 积34分 近17场 form=LWWWD"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:30",
+  "ko_utc": "2026-08-27T18:30:00+00:00",
+  "league": "欧联杯",
+  "home": "RSC Anderlecht",
+  "away": "Kairat Almaty",
+  "lambda": {
+   "home": 1.52,
+   "away": 1.45,
+   "sum": 2.97
+  },
+  "wdl": {
+   "home": 38.2,
+   "draw": 26.1,
+   "away": 35.7
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "队名模糊匹配",
+   "主队中游(第10/18, 积3, 近LWLWD)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "客队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "主队队名模糊匹配(subset), 低置信",
+   "非独立数据场次, best_bet禁用",
+   "积分榜主队: 比甲第10/18 积3分 近2场 form=LWLWD"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:30",
+  "ko_utc": "2026-08-27T18:30:00+00:00",
+  "league": "欧联杯",
+  "home": "Ferencváros TC",
+  "away": "Trabzonspor",
+  "lambda": {
+   "home": 1.45,
+   "away": 1.31,
+   "sum": 2.76
+  },
+  "wdl": {
+   "home": 39.0,
+   "draw": 26.9,
+   "away": 34.1
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "客队中游(第4/18, 积4, 近WDLWD)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧联杯(league_avg=2.90 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用",
+   "积分榜客队: 土超第4/18 积4分 近2场 form=WDLWD"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:30",
+  "ko_utc": "2026-08-27T18:30:00+00:00",
+  "league": "西甲",
+  "home": "Celta Vigo",
+  "away": "Osasuna",
+  "lambda": {
+   "home": 1.77,
+   "away": 0.69,
+   "sum": 2.46
+  },
+  "wdl": {
+   "home": 57.5,
+   "draw": 24.9,
+   "away": 17.6
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "主队中游(第11/20, 积1, 近DWDLW)",
+   "客队中游(第12/20, 积1, 近DLLLL)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "积分榜主队: 西甲第11/20 积1分 近1场 form=DWDLW",
+   "积分榜客队: 西甲第12/20 积1分 近1场 form=DLLLL"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:30",
+  "ko_utc": "2026-08-27T18:30:00+00:00",
+  "league": "英联杯",
+  "home": "Chelsea",
+  "away": "Luton Town",
+  "lambda": {
+   "home": 1.77,
+   "away": 0.86,
+   "sum": 2.62
+  },
+  "wdl": {
+   "home": 53.8,
+   "draw": 25.5,
+   "away": 20.7
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "队名模糊匹配",
+   "主队中游(第6/20, 积3, 近WLWDL)",
+   "客队争冠/升级(第3/24, 积4, 近DWWWW)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=2.80 home=1.10 away=0.95 fatigue=0.90 rho=0.00)",
+   "主队数据来自E0",
+   "客队数据来自E1",
+   "主队跨联赛用E0数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E1数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队队名模糊匹配(subset), 低置信",
+   "方案A大球校准: 混合档 大球概率+8pp(英联杯, 分档拟合实证)",
+   "积分榜主队: 英超第6/20 积3分 近1场 form=WLWDL",
+   "积分榜客队: 英甲第3/24 积4分 近2场 form=DWWWW"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:45",
+  "ko_utc": "2026-08-27T18:45:00+00:00",
+  "league": "National League",
+  "home": "Boreham Wood",
+  "away": "Boston United",
+  "lambda": {
+   "home": 1.3,
+   "away": 1.3,
+   "sum": 2.6
+  },
+  "wdl": {
+   "home": 36.8,
+   "draw": 26.4,
+   "away": 36.8
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "双方无独立攻防, 用市场隐含λ/联赛基准(无独立信号, 不出单)",
+   "非独立数据场次, best_bet禁用"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 02:45",
+  "ko_utc": "2026-08-27T18:45:00+00:00",
+  "league": "欧协联",
+  "home": "HNK Rijeka",
+  "away": "FC Midtjylland",
+  "lambda": {
+   "home": 1.35,
+   "away": 1.39,
+   "sum": 2.74
+  },
+  "wdl": {
+   "home": 35.7,
+   "draw": 27.0,
+   "away": 37.3
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "客队中游(第4/12, 积10, 近WDWWL)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用",
+   "积分榜客队: 丹超第4/12 积10分 近4场 form=WDWWL"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 03:00",
+  "ko_utc": "2026-08-27T19:00:00+00:00",
+  "league": "欧协联",
+  "home": "Larne FC",
+  "away": "Lincoln Red Imps",
+  "lambda": {
+   "home": 1.35,
+   "away": 1.09,
+   "sum": 2.44
+  },
+  "wdl": {
+   "home": 40.8,
+   "draw": 28.3,
+   "away": 30.9
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "队名模糊匹配",
+   "客队保级(第20/24, 积0, 近LL)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "客队队名模糊匹配(subset), 低置信",
+   "非独立数据场次, best_bet禁用",
+   "积分榜客队: 英冠第20/24 积0分 近2场 form=LL"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 03:00",
+  "ko_utc": "2026-08-27T19:00:00+00:00",
+  "league": "欧协联",
+  "home": "Hibernian",
+  "away": "KAA Gent",
+  "lambda": {
+   "home": 1.35,
+   "away": 1.0,
+   "sum": 2.35
+  },
+  "wdl": {
+   "home": 42.4,
+   "draw": 28.7,
+   "away": 28.9
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "队名模糊匹配",
+   "客队中游(第5/18, 积6, 近WWDLD)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "客队队名模糊匹配(subset), 低置信",
+   "非独立数据场次, best_bet禁用",
+   "积分榜客队: 比甲第5/18 积6分 近2场 form=WWDLD"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 03:00",
+  "ko_utc": "2026-08-27T19:00:00+00:00",
+  "league": "欧协联",
+  "home": "FK Partizan",
+  "away": "Getafe",
+  "lambda": {
+   "home": 1.35,
+   "away": 0.81,
+   "sum": 2.16
+  },
+  "wdl": {
+   "home": 46.1,
+   "draw": 29.3,
+   "away": 24.6
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "客队中游(第8/20, 积3, 近WLWLW)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 欧协联杯(league_avg=2.70 home=1.05 away=0.95 fatigue=0.85 rho=0.00)",
+   "主队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "非独立数据场次, best_bet禁用",
+   "积分榜客队: 西甲第8/20 积3分 近2场 form=WLWLW"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 03:00",
+  "ko_utc": "2026-08-27T19:00:00+00:00",
+  "league": "英联杯",
+  "home": "Fulham",
+  "away": "AFC Wimbledon",
+  "lambda": {
+   "home": 1.48,
+   "away": 1.1,
+   "sum": 2.58
+  },
+  "wdl": {
+   "home": 43.3,
+   "draw": 27.4,
+   "away": 29.3
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "主队中游(第12/20, 积0, 近LWDLL)",
+   "客队保级(第23/24, 积1, 近DLLWL)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 英联杯(league_avg=2.80 home=1.10 away=0.95 fatigue=0.90 rho=0.00)",
+   "主队数据来自E0",
+   "客队数据来自E2",
+   "主队跨联赛用E0数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用E2数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "方案A大球校准: 混合档 大球概率+8pp(英联杯, 分档拟合实证)",
+   "积分榜主队: 英超第12/20 积0分 近1场 form=LWDLL",
+   "积分榜客队: 英甲第23/24 积1分 近2场 form=DLLWL"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 03:00",
+  "ko_utc": "2026-08-27T19:00:00+00:00",
+  "league": "西甲",
+  "home": "FC Barcelona",
+  "away": "Athletic Club",
+  "lambda": {
+   "home": 2.88,
+   "away": 1.29,
+   "sum": 4.17
+  },
+  "wdl": {
+   "home": 63.3,
+   "draw": 18.6,
+   "away": 18.0
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "λ过高(4.17)",
+   "非独立数据",
+   "队名/数据缺失",
+   "队名模糊匹配",
+   "主队中游(第6/20, 积3, 近WLWLW)",
+   "客队保级(第19/20, 积0, 近LLDLL)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "客队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "主队队名模糊匹配(subset), 低置信",
+   "非独立数据场次, best_bet禁用",
+   "积分榜主队: 西甲第6/20 积3分 近1场 form=WLWLW",
+   "积分榜客队: 西甲第19/20 积0分 近1场 form=LLDLL"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 07:00",
+  "ko_utc": "2026-08-27T23:00:00+00:00",
+  "league": "巴西杯",
+  "home": "Internacional",
+  "away": "Grêmio",
+  "lambda": {
+   "home": 1.43,
+   "away": 0.7,
+   "sum": 2.13
+  },
+  "wdl": {
+   "home": 49.7,
+   "draw": 29.7,
+   "away": 20.5
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "伤停>2人(主7/客5)",
+   "缺亚盘",
+   "缺大小球",
+   "主队中游(第15/20, 积25, 近DDDDL)",
+   "客队中游(第16/20, 积25, 近LLWDL)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "杯赛参数: 巴西杯(league_avg=2.57 home=1.08 away=0.95 fatigue=0.90 rho=-0.05)",
+   "数据包伤停: 主队伤停7人(如Benjamin Arhin,Kayky,Matheus Bahia,R); 客队伤停5人(如Dodi,Gustavo Martins,João Pedro,Juan)",
+   "主队数据来自BR",
+   "客队数据来自BR",
+   "主队跨联赛用BR数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "客队跨联赛用BR数据(快照联赛与数据联赛不符), 攻防收缩30%",
+   "积分榜主队: 巴甲第15/20 积25分 近24场 form=DDDDL",
+   "积分榜客队: 巴甲第16/20 积25分 近23场 form=LLWDL"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 07:10",
+  "ko_utc": "2026-08-27T23:10:00+00:00",
+  "league": "哥甲",
+  "home": "Llaneros FC",
+  "away": "Millonarios",
+  "lambda": {
+   "home": 1.3,
+   "away": 1.14,
+   "sum": 2.44
+  },
+  "wdl": {
+   "home": 38.3,
+   "draw": 29.3,
+   "away": 32.4
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "客队样本偏少, 攻防向联赛均值收缩"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 09:15",
+  "ko_utc": "2026-08-28T01:15:00+00:00",
+  "league": "哥甲",
+  "home": "Once Caldas",
+  "away": "Deportes Tolima",
+  "lambda": {
+   "home": 1.3,
+   "away": 1.14,
+   "sum": 2.44
+  },
+  "wdl": {
+   "home": 38.3,
+   "draw": 29.3,
+   "away": 32.4
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "客队样本偏少, 攻防向联赛均值收缩"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 09:15",
+  "ko_utc": "2026-08-28T01:15:00+00:00",
+  "league": "哥甲",
+  "home": "Internacional de Bogotá",
+  "away": "Deportivo Pasto",
+  "lambda": {
+   "home": 1.3,
+   "away": 1.14,
+   "sum": 2.44
+  },
+  "wdl": {
+   "home": 38.3,
+   "draw": 29.3,
+   "away": 32.4
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "主队中游(第15/20, 积25, 近DDDDL)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "主队样本偏少, 攻防向联赛均值收缩",
+   "客队样本偏少, 攻防向联赛均值收缩",
+   "积分榜主队: 巴甲第15/20 积25分 近24场 form=DDDDL"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 19:35",
+  "ko_utc": "2026-08-28T11:35:00+00:00",
+  "league": "中超",
+  "home": "Shanghai Shenhua",
+  "away": "Shandong Taishan",
+  "lambda": {
+   "home": 2.96,
+   "away": 1.36,
+   "sum": 4.32
+  },
+  "wdl": {
+   "home": 62.8,
+   "draw": 19.1,
+   "away": 18.1
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "λ过高(4.32)",
+   "队名模糊匹配",
+   "主队中游(第9/16, 积28, 近WLWWL)",
+   "客队中游(第6/16, 积33, 近LWWWL)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "主队队名模糊匹配(subset), 低置信",
+   "方案A大球校准: 混合档 大球概率+9pp(中超, 分档拟合实证)",
+   "积分榜主队: 中超第9/16 积28分 近24场 form=WLWWL",
+   "积分榜客队: 中超第6/16 积33分 近24场 form=LWWWL"
+  ],
+  "error": null
+ },
+ {
+  "ko_bjt": "08-28 19:35",
+  "ko_utc": "2026-08-28T11:35:00+00:00",
+  "league": "中超",
+  "home": "Dalian Yingbo FC",
+  "away": "Beijing Guoan",
+  "lambda": {
+   "home": 2.05,
+   "away": 1.52,
+   "sum": 3.57
+  },
+  "wdl": {
+   "home": 46.4,
+   "draw": 24.1,
+   "away": 29.5
+  },
+  "market_fair": {
+   "home": null,
+   "draw": null,
+   "away": null
+  },
+  "direction": null,
+  "dir_prob": null,
+  "dir_odds": null,
+  "dir_ev": null,
+  "vetoed": null,
+  "veto_reason": null,
+  "draw_warn": null,
+  "star": 0,
+  "ev_tier": "垃圾",
+  "risk_tags": [
+   "纯数据无伤病情报",
+   "缺亚盘",
+   "缺大小球",
+   "非独立数据",
+   "队名/数据缺失",
+   "队名模糊匹配",
+   "主队中游(第4/16, 积36, 近WDLWD)",
+   "客队争冠/升级(第2/16, 积36, 近DWWWW)"
+  ],
+  "dir_consistency": {
+   "groups": {
+    "1X2": {
+     "dir": null,
+     "ev": null
+    },
+    "让球": {
+     "dir": null,
+     "ev": null
+    },
+    "大小球": {
+     "dir": null,
+     "ev": null
+    }
+   },
+   "level": "无正EV"
+  },
+  "best_bet": null,
+  "bets": [],
+  "notes": [
+   "客队无近期独立数据, λ用市场隐含/基准(仅该侧降级)",
+   "主队队名模糊匹配(subset), 低置信",
+   "非独立数据场次, best_bet禁用",
+   "方案A大球校准: 混合档 大球概率+9pp(中超, 分档拟合实证)",
+   "积分榜主队: 中超第4/16 积36分 近24场 form=WDLWD",
+   "积分榜客队: 中超第2/16 积36分 近24场 form=DWWWW"
+  ],
+  "error": null
+ }
+]

@@ -1,0 +1,461 @@
+{
+ "id": 587906,
+ "league": "Conference League",
+ "kickoff": "08-28 02:30",
+ "kickoff_iso": "2026-08-27T18:30:00+00:00",
+ "home": "FK Borac Banja Luka",
+ "away": "Víkingur Reykjavík",
+ "home_id": 2313,
+ "away_id": 3452,
+ "pulled_at": "2026-08-27T19:51:58.649707+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1837,
+    "name": "Vinko Marinović",
+    "short_name": "V. Marinović",
+    "profile": "attacking",
+    "preferred_formation": "4-3-3",
+    "matches_total": 13.0,
+    "avg_goals_scored": 1.92,
+    "avg_goals_conceded": 1.15
+   },
+   "away": {
+    "id": 1840,
+    "name": "Solvi Geir",
+    "short_name": "S. Geir",
+    "profile": "balanced",
+    "preferred_formation": "4-3-3",
+    "matches_total": 5.0,
+    "avg_goals_scored": 1.0,
+    "avg_goals_conceded": 1.6
+   }
+  },
+  "preferred_formation": {
+   "home": "4-3-3",
+   "away": "4-3-3"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 1.96,
+   "draw": 3.79,
+   "away_win": 3.24,
+   "over_15_goals": 1.15,
+   "over_25_goals": 1.53,
+   "over_35_goals": 2.38,
+   "under_15_goals": 4.8,
+   "under_25_goals": 2.36,
+   "under_35_goals": 1.55,
+   "btts_yes": 1.55,
+   "btts_no": 2.31
+  },
+  "best": {
+   "asian_handicap": {
+    "home@-1.75": {
+     "odds": 4.2,
+     "bookmaker": "marathon",
+     "n": 4
+    },
+    "away@-1.75": {
+     "odds": 1.22,
+     "bookmaker": "bet365",
+     "n": 4
+    },
+    "home@-1.25": {
+     "odds": 3.04,
+     "bookmaker": "marathon",
+     "n": 4
+    },
+    "away@-1.25": {
+     "odds": 1.375,
+     "bookmaker": "bet365",
+     "n": 4
+    },
+    "home@-0.75": {
+     "odds": 2.25,
+     "bookmaker": "bet365",
+     "n": 5
+    },
+    "away@-0.75": {
+     "odds": 1.65,
+     "bookmaker": "unibet",
+     "n": 5
+    },
+    "home@0.25": {
+     "odds": 1.425,
+     "bookmaker": "bet365",
+     "n": 5
+    },
+    "away@0.25": {
+     "odds": 2.85,
+     "bookmaker": "novibet",
+     "n": 5
+    },
+    "home@0.75": {
+     "odds": 1.25,
+     "bookmaker": "bet365",
+     "n": 4
+    },
+    "away@0.75": {
+     "odds": 4.0,
+     "bookmaker": "unibet",
+     "n": 4
+    },
+    "home@1.25": {
+     "odds": 1.125,
+     "bookmaker": "bet365",
+     "n": 3
+    },
+    "away@1.25": {
+     "odds": 5.9,
+     "bookmaker": "marathon",
+     "n": 3
+    },
+    "home@1.75": {
+     "odds": 1.018,
+     "bookmaker": "marathon",
+     "n": 2
+    },
+    "away@1.75": {
+     "odds": 8.1,
+     "bookmaker": "marathon",
+     "n": 2
+    },
+    "home@-2.25": {
+     "odds": 6.4,
+     "bookmaker": "bet365",
+     "n": 1
+    },
+    "away@-2.25": {
+     "odds": 1.115,
+     "bookmaker": "bet365",
+     "n": 1
+    },
+    "home@-1.5": {
+     "odds": 3.45,
+     "bookmaker": "bet365",
+     "n": 5
+    },
+    "away@-1.5": {
+     "odds": 1.3,
+     "bookmaker": "fonbet",
+     "n": 5
+    },
+    "home@-2.5": {
+     "odds": 6.8,
+     "bookmaker": "bet365",
+     "n": 4
+    },
+    "away@-2.5": {
+     "odds": 1.11,
+     "bookmaker": "bet365",
+     "n": 4
+    },
+    "home@1.5": {
+     "odds": 1.115,
+     "bookmaker": "bet365",
+     "n": 4
+    },
+    "away@1.5": {
+     "odds": 6.4,
+     "bookmaker": "bet365",
+     "n": 4
+    },
+    "home@-0.5": {
+     "odds": 2.0,
+     "bookmaker": "interwetten",
+     "n": 8
+    },
+    "away@-0.5": {
+     "odds": 1.83,
+     "bookmaker": "unibet",
+     "n": 8
+    },
+    "home@0.0": {
+     "odds": 1.556,
+     "bookmaker": "1xbet",
+     "n": 7
+    },
+    "away@0.0": {
+     "odds": 2.505,
+     "bookmaker": "1xbet",
+     "n": 7
+    },
+    "home@0.5": {
+     "odds": 1.35,
+     "bookmaker": "bet365",
+     "n": 3
+    },
+    "away@0.5": {
+     "odds": 3.35,
+     "bookmaker": "interwetten",
+     "n": 3
+    },
+    "home@-2.0": {
+     "odds": 5.9,
+     "bookmaker": "marathon",
+     "n": 5
+    },
+    "away@-2.0": {
+     "odds": 1.13,
+     "bookmaker": "bet365",
+     "n": 5
+    },
+    "home@-1.0": {
+     "odds": 2.75,
+     "bookmaker": "novibet",
+     "n": 7
+    },
+    "away@-1.0": {
+     "odds": 1.45,
+     "bookmaker": "fonbet",
+     "n": 7
+    },
+    "home@1.0": {
+     "odds": 1.15,
+     "bookmaker": "bet365",
+     "n": 5
+    },
+    "away@1.0": {
+     "odds": 5.75,
+     "bookmaker": "unibet",
+     "n": 5
+    },
+    "home@-0.25": {
+     "odds": 1.779,
+     "bookmaker": "1xbet",
+     "n": 6
+    },
+    "away@-0.25": {
+     "odds": 2.085,
+     "bookmaker": "1xbet",
+     "n": 6
+    }
+   },
+   "btts": {
+    "yes": {
+     "odds": 1.6,
+     "bookmaker": "betway",
+     "n": 15
+    },
+    "no": {
+     "odds": 2.47,
+     "bookmaker": "1xbet",
+     "n": 15
+    }
+   },
+   "double_chance": {
+    "1x": {
+     "odds": 1.36,
+     "bookmaker": "10bet",
+     "n": 6
+    },
+    "x2": {
+     "odds": 1.82,
+     "bookmaker": "1xbet",
+     "n": 6
+    },
+    "12": {
+     "odds": 1.25,
+     "bookmaker": "william-hill",
+     "n": 6
+    }
+   },
+   "draw_no_bet": {
+    "home": {
+     "odds": 1.533,
+     "bookmaker": "10bet",
+     "n": 10
+    },
+    "away": {
+     "odds": 2.55,
+     "bookmaker": "betsson",
+     "n": 10
+    }
+   },
+   "over_under_15": {
+    "over@1.5": {
+     "odds": 1.17,
+     "bookmaker": "10bet",
+     "n": 4
+    },
+    "under@1.5": {
+     "odds": 5.0,
+     "bookmaker": "10bet",
+     "n": 4
+    }
+   },
+   "over_under_25": {
+    "over@2.5": {
+     "odds": 1.57,
+     "bookmaker": "bet365",
+     "n": 6
+    },
+    "under@2.5": {
+     "odds": 2.45,
+     "bookmaker": "10bet",
+     "n": 6
+    }
+   },
+   "over_under_35": {
+    "over@3.5": {
+     "odds": 2.45,
+     "bookmaker": "betfair",
+     "n": 5
+    },
+    "under@3.5": {
+     "odds": 1.6,
+     "bookmaker": "1xbet",
+     "n": 5
+    }
+   },
+   "over_under_05": {
+    "over@0.5": {
+     "odds": 1.03,
+     "bookmaker": "10bet",
+     "n": 3
+    },
+    "under@0.5": {
+     "odds": 15.0,
+     "bookmaker": "betfair",
+     "n": 3
+    }
+   },
+   "total_corners": {
+    "over@7.5": {
+     "odds": 1.25,
+     "bookmaker": "unibet",
+     "n": 2
+    },
+    "under@7.5": {
+     "odds": 3.5,
+     "bookmaker": "unibet",
+     "n": 2
+    },
+    "over@8.5": {
+     "odds": 1.46,
+     "bookmaker": "pinnacle",
+     "n": 3
+    },
+    "under@8.5": {
+     "odds": 2.55,
+     "bookmaker": "unibet",
+     "n": 3
+    },
+    "over@9.5": {
+     "odds": 1.82,
+     "bookmaker": "1xbet",
+     "n": 4
+    },
+    "under@9.5": {
+     "odds": 1.98,
+     "bookmaker": "unibet",
+     "n": 4
+    },
+    "over@10.5": {
+     "odds": 2.23,
+     "bookmaker": "pinnacle",
+     "n": 3
+    },
+    "under@10.5": {
+     "odds": 1.62,
+     "bookmaker": "unibet",
+     "n": 3
+    },
+    "over@11.5": {
+     "odds": 2.88,
+     "bookmaker": "1xbet",
+     "n": 2
+    },
+    "under@11.5": {
+     "odds": 1.38,
+     "bookmaker": "unibet",
+     "n": 2
+    }
+   },
+   "1x2": {
+    "home": {
+     "odds": 2.05,
+     "bookmaker": "unibet",
+     "n": 17
+    },
+    "draw": {
+     "odds": 4.2,
+     "bookmaker": "10bet",
+     "n": 17
+    },
+    "away": {
+     "odds": 3.4,
+     "bookmaker": "mansionbet",
+     "n": 17
+    }
+   }
+  },
+  "bookmakers_count": 25,
+  "total_odds": 347
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.382,
+   "away": 0.559
+  },
+  "formation": {
+   "home": "4-3-3",
+   "away": "4-3-3"
+  },
+  "updated_at": "2026-08-27T08:32:50Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.295,
+    "home_ga": 0.784,
+    "away_gf": 1.584,
+    "away_ga": 1.818,
+    "n_home": 8.8,
+    "n_away": 7.7,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "欧协联",
+    "team_id": 2313
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.368,
+    "home_ga": 1.149,
+    "away_gf": 0.744,
+    "away_ga": 1.923,
+    "n_home": 8.7,
+    "n_away": 7.8,
+    "n_scored": 42,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 3452
+   }
+  }
+ }
+}

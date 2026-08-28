@@ -1,0 +1,120 @@
+{
+ "id": 205877,
+ "league": "Chinese Super League",
+ "kickoff": "08-28 19:35",
+ "kickoff_iso": "2026-08-28T11:35:00+00:00",
+ "home": "Dalian Yingbo FC",
+ "away": "Beijing Guoan",
+ "home_id": 2036,
+ "away_id": 2044,
+ "pulled_at": "2026-08-28T18:47:40.679145+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 1382,
+    "name": "Guoxu Li",
+    "short_name": "G. Li",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 53.0,
+    "avg_goals_scored": 1.19,
+    "avg_goals_conceded": 1.58
+   },
+   "away": {
+    "id": 1390,
+    "name": "Nick Montgomery",
+    "short_name": "N. Montgomery",
+    "profile": "attacking",
+    "preferred_formation": "4-4-2",
+    "matches_total": 111.0,
+    "avg_goals_scored": 2.03,
+    "avg_goals_conceded": 1.29
+   }
+  },
+  "preferred_formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 2.92,
+   "draw": 3.74,
+   "away_win": 2.09,
+   "over_15_goals": 1.11,
+   "over_25_goals": 1.42,
+   "over_35_goals": 2.09,
+   "under_15_goals": 5.73,
+   "under_25_goals": 2.69,
+   "under_35_goals": 1.71,
+   "btts_yes": 1.4,
+   "btts_no": 2.75
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [],
+  "home_covered": false,
+  "away_covered": false,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.841,
+   "away": 0.877
+  },
+  "formation": {
+   "home": "4-2-3-1",
+   "away": "4-4-2"
+  },
+  "updated_at": "2026-08-28T08:32:07Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_bsd",
+   "stats": {
+    "home_gf": 1.679,
+    "home_ga": 1.136,
+    "away_gf": 1.083,
+    "away_ga": 2.048,
+    "n_home": 8.1,
+    "n_away": 8.4,
+    "n_scored": 40,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "league": "中超",
+    "team_id": 2036
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "bsd_pulled",
+   "stats": {
+    "home_gf": 2.323,
+    "home_ga": 1.387,
+    "away_gf": 2.292,
+    "away_ga": 1.444,
+    "n_home": 9.3,
+    "n_away": 7.2,
+    "n_scored": 60,
+    "src_season": "BSD",
+    "src_w": 1.0,
+    "src_tag": "bsd",
+    "team_id": 2044
+   }
+  }
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "id": 587813,
+ "league": "Carabao Cup",
+ "kickoff": "08-27 03:00",
+ "kickoff_iso": "2026-08-26T19:00:00+00:00",
+ "home": "Preston North End",
+ "away": "Everton",
+ "home_id": 214,
+ "away_id": 20,
+ "pulled_at": "2026-08-26T21:47:59.773103+08:00",
+ "missing": [],
+ "schedule": {
+  "venue": null,
+  "round": null,
+  "group": null,
+  "coaches": {
+   "home": {
+    "id": 178,
+    "name": "Paul Heckingbottom",
+    "short_name": "P. Heckingbottom",
+    "profile": "balanced",
+    "preferred_formation": "3-5-2",
+    "matches_total": 56.0,
+    "avg_goals_scored": 1.2,
+    "avg_goals_conceded": 1.41
+   },
+   "away": {
+    "id": 551,
+    "name": "David Moyes",
+    "short_name": "D. Moyes",
+    "profile": "balanced",
+    "preferred_formation": "4-2-3-1",
+    "matches_total": 46.0,
+    "avg_goals_scored": 1.24,
+    "avg_goals_conceded": 1.26
+   }
+  },
+  "preferred_formation": {
+   "home": "3-5-2",
+   "away": "4-2-3-1"
+  }
+ },
+ "odds": {
+  "consensus": {
+   "home_win": 5.6,
+   "draw": 4.17,
+   "away_win": 1.53,
+   "over_15_goals": 1.22,
+   "over_25_goals": 1.7,
+   "over_35_goals": 2.76,
+   "under_15_goals": 3.98,
+   "under_25_goals": 2.09,
+   "under_35_goals": 1.41,
+   "btts_yes": 1.8,
+   "btts_no": 1.92
+  },
+  "best": {},
+  "bookmakers_count": 0,
+  "total_odds": 0
+ },
+ "injuries": {
+  "home": [],
+  "away": [
+   {
+    "id": 459,
+    "name": "Christian Nørgaard",
+    "short_name": "C. Nørgaard",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   },
+   {
+    "id": 804,
+    "name": "James Garner",
+    "short_name": "J. Garner",
+    "status": "injured",
+    "reason": "Groin Injury"
+   },
+   {
+    "id": 808,
+    "name": "Tim Iroegbunam",
+    "short_name": "T. Iroegbunam",
+    "status": "injured",
+    "reason": "Muscle Injury"
+   }
+  ],
+  "home_covered": false,
+  "away_covered": true,
+  "sources": {
+   "home": "bsd_lineups",
+   "away": "bsd_lineups"
+  }
+ },
+ "lineups": {
+  "lineup_status": "predicted",
+  "confidence": {
+   "home": 0.423,
+   "away": 0.568
+  },
+  "formation": {
+   "home": "5-3-2",
+   "away": "4-2-3-1"
+  },
+  "updated_at": "2026-08-26T08:32:38Z"
+ },
+ "attack": {
+  "home": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.091,
+    "home_ga": 1.636,
+    "away_gf": 1.083,
+    "away_ga": 1.75,
+    "n_home": 11.0,
+    "n_away": 12.0,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  },
+  "away": {
+   "have": true,
+   "src": "local_csv",
+   "stats": {
+    "home_gf": 1.329,
+    "home_ga": 1.353,
+    "away_gf": 1.037,
+    "away_ga": 1.355,
+    "n_home": 55.6,
+    "n_away": 54.6,
+    "src_w": 1.0,
+    "src_season": "2025/2026",
+    "src_tag": "cur"
+   }
+  }
+ }
+}
