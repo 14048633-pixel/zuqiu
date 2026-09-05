@@ -1,0 +1,42 @@
+{
+  "match": "巴恩斯利 vs 维冈竞技",
+  "tournament": "英格兰联赛杯首轮",
+  "date": "2026-08-08",
+  "kickoff": "22:00 GMT+8",
+  "odds": {
+    "home": 2.38,
+    "draw": 3.55,
+    "away": 2.62
+  },
+  "best_bet": {
+    "name": "大2.5",
+    "prob": 0.774,
+    "odds": 1.83,
+    "ev": 0.416
+  },
+  "second_bet": {
+    "name": "主队0(平手盘)",
+    "prob": 0.76,
+    "odds": 1.84,
+    "ev": 0.399
+  },
+  "lambda": {
+    "home": 2.01,
+    "away": 0.79
+  },
+  "ml_goals": 3.41,
+  "ml_confidence": 4,
+  "direction": {
+    "signal": "home",
+    "home_attack": 2,
+    "away_attack": -1,
+    "home_defense": 3,
+    "away_defense": -2,
+    "strength_diff": 7,
+    "over_hint": -2
+  },
+  "upset": "轻度风险(防平)",
+  "cross_review": "一致(主胜)",
+  "key": "巴恩斯利主场攻防强(2.1/1.0) + 维冈客场拉胯(1.2/1.7)+轮换避战 → 主胜+大球",
+  "settlement": "待定"
+}

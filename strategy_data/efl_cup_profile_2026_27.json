@@ -1,0 +1,101 @@
+{
+  "tournament": "英格兰联赛杯（EFL卡拉宝杯）",
+  "season": "2026/27",
+  "source": "用户提供完整赛事基准 (2026-08-08)",
+  "core_base": {
+    "avg_goals": 2.80,
+    "over25": 0.505,
+    "under25": 0.495,
+    "over35": 0.42,
+    "draw": 0.215,
+    "home_win": 0.398,
+    "away_win": 0.387,
+    "avg_home_goals": 1.33,
+    "avg_away_goals": 1.46,
+    "avg_home_against": 1.46,
+    "avg_away_against": 1.33,
+    "half_0_0": 0.31,
+    "half_1_0": 0.24,
+    "half_0_0_to_under_full": 0.60
+  },
+  "format": {
+    "teams": "英超+英冠+英甲+英乙共92队",
+    "rounds": 7,
+    "round1": "英冠降级队+英甲+英乙70队, 英超轮空",
+    "round2": "上轮胜者+非欧战英超13队",
+    "round3": "剩余7支欧战英超豪门入局",
+    "round4_qf": "单场决胜",
+    "semi": "主客场两回合 (唯一双回合), 计算客场进球, 平则加时+点球",
+    "final": "温布利中立场地单场, 周日开赛",
+    "draw_rule": "除半决赛外90分钟平局直接点球决胜(无加时), 大幅提升冷门概率",
+    "reward": "冠军获下赛季欧协联正赛资格"
+  },
+  "matchoutcome_by_round": {
+    "r1_r2": {
+      "note": "英系低级别内战",
+      "avg_goals": 2.65,
+      "under25": 0.53,
+      "home_adv": "正常"
+    },
+    "r3": {
+      "note": "英超豪门首次登场, 爆冷峰值",
+      "avg_goals": 2.92,
+      "underdog_rate": 0.55,
+      "low_level_upset": 0.28
+    },
+    "qf": {
+      "note": "强队战意提升",
+      "favorite_win_rate": 0.60
+    },
+    "semi": {
+      "note": "回归联赛逻辑, 主场优势重新生效",
+      "home_qualify_rate": 0.62,
+      "under25": 0.55
+    },
+    "after_qf": {
+      "note": "豪门逐步上主力",
+      "favorite_win_rate": 0.75
+    }
+  },
+  "motivation_tiers": {
+    "tier1_full": {
+      "teams": ["利物浦", "曼城", "纽卡", "曼联"],
+      "note": "联赛杯低成本冠军+欧战资格捷径, 半决赛/决赛必全主力",
+      "history": "利物浦10冠/曼城9冠/曼联6冠, 历史垄断性强"
+    },
+    "tier2_selective": {
+      "teams": ["阿森纳", "热刺", "切尔西", "维拉"],
+      "note": "联赛优先级>联赛杯, 第3-4轮轮换, 八强后视赛程定主力"
+    },
+    "tier3_full_cup": {
+      "teams": ["英冠强队(米堡/桑德兰/考文垂等)"],
+      "note": "无欧战压力, 闯入八强提升曝光, 基本全程主力, 主要冷门来源"
+    },
+    "tier4_training": {
+      "teams": ["英超中下游保级队", "英甲英乙队"],
+      "note": "锻炼新人/省体能, 战意极低"
+    }
+  },
+  "handicap_rules": {
+    "pl_vs_champ": {"line": "主让1-1.25球"},
+    "pl_vs_l1_l2": {"line": "主让1.5-2球"},
+    "deep_handicap_fail_rate": 0.57,
+    "note": "豪门轮换导致深盘上盘打不出率57%, 联赛杯最经典特征"
+  },
+  "upset_scenarios": {
+    "midweek_pl_big_match_3days": "周中比赛+豪门3天内有英超硬仗",
+    "heavy_rotation_6plus": "豪门大面积轮换6名以上主力",
+    "champ_home_vs_pl_mid": "英冠主场对阵英超中游球队"
+  },
+  "draw_penalty": {
+    "draw_rate": 0.215,
+    "low_level_knockout_majority": 0.70,
+    "note": "7成平局由低级别球队点球淘汰豪门"
+  },
+  "historic": {
+    "no_curse": "无卫冕魔咒, 曼城曾连续4年夺冠",
+    "only_l3_champion": "仅女王公园巡游者(英丙)一支第三级别球队夺冠",
+    "avg_reds": 0.08,
+    "style": "节奏快, 对抗强度低于足总杯"
+  }
+}

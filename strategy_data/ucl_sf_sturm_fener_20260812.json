@@ -1,0 +1,48 @@
+{
+ "match": "Sturm Graz vs Fenerbahce",
+ "tournament": "欧冠资格赛半决赛次回合",
+ "date": "2026-08-12 02:30 GMT+8",
+ "leg": "次回合 (首回合 Fenerbahce 2-0 Sturm)",
+ "data_source": "football-data.co.uk (真实单赛季数据)",
+ "team_stats": {
+  "Sturm Graz": {
+   "league": "奥地利超",
+   "season": "2025/2026",
+   "home": "16场 进1.06/失1.06",
+   "away": "16场 进2.12/失1.12"
+  },
+  "Fenerbahce": {
+   "league": "土超",
+   "season": "2425",
+   "home": "18场 进2.33/失1.00",
+   "away": "18场 进2.67/失1.17"
+  }
+ },
+ "lambda": {
+  "home": 1.11,
+  "away": 1.86,
+  "total": 2.98,
+  "method": "攻防均值法 (Sturm主场进1.06+Fener客场失1.17)/2=1.11; (Fener客场进2.67+Sturm主场失1.06)/2=1.86"
+ },
+ "monte_carlo": {
+  "home_win": 0.22,
+  "draw": 0.23,
+  "away_win": 0.55,
+  "over25": 0.57,
+  "home_cover_05": 0.22,
+  "top_scores": [
+   "1-1",
+   "0-1",
+   "0-2",
+   "1-2",
+   "1-3"
+  ]
+ },
+ "comeback_prob": 0.08,
+ "complement": {
+  "verdict": "neutral",
+  "reason": "TG=2.98大小球不够明确(大2.5仅57%), 让球方向Sturm主让0.5仅22% → 放弃"
+ },
+ "recommend": "不推荐下注 - Fenerbahce晋级概率92%, 大2.5仅57%不够明确",
+ "corrected_from": "原分析误用2赛季平均(Sturm主场1.88), 正确单赛季(2025/2026)为1.06"
+}

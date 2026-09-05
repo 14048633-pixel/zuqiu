@@ -1,0 +1,87 @@
+{
+ "match": "重庆铜梁龙 vs 上海海港",
+ "tournament": "中超第22轮",
+ "date": "2026-08-09",
+ "kickoff": "19:35 GMT+8",
+ "odds": {
+  "home": 2.94,
+  "draw": 3.45,
+  "away": 2.19,
+  "hdp_home_025": "+0/0.5 @1.99",
+  "hdp_away_025": "-0/0.5 @1.87",
+  "hdp_home_05": "+0.5 @1.70",
+  "hdp_away_05": "-0.5 @2.19",
+  "hdp_even": "平手 双方2.29",
+  "ou_over_225": "2/2.5 @1.59",
+  "ou_over_25": "2.5 @1.80",
+  "ou_under_25": "2.5 @2.04",
+  "ou_over_275": "2.5/3 @2.04",
+  "ou_under_275": "2.5/3 @1.80"
+ },
+ "poisson": {
+  "lambda_home": 1.95,
+  "lambda_away": 1.15,
+  "total": 3.1,
+  "home_win": 0.558,
+  "draw": 0.219,
+  "away_win": 0.223,
+  "home_plus05": 0.777,
+  "over25": 0.599
+ },
+ "elo": {
+  "home": 1479,
+  "away": 1552,
+  "diff": -73,
+  "method": "中超ELO阈值100"
+ },
+ "agent_risk_signals": {
+  "home_attack_risk": 0.7,
+  "away_attack_risk": 0.4,
+  "home_defense_risk": 0.2,
+  "away_defense_risk": 0.8,
+  "deadlock_prob": 0.35,
+  "home_adv_lost": 0.1,
+  "direction": "home"
+ },
+ "decision_chain": {
+  "verdict": "高级别/均势",
+  "recommend": "受让客 + 小球",
+  "confidence": "中",
+  "method": "elo"
+ },
+ "signal_consensus": {
+  "主队方向": [
+   "泊松主胜55.8%",
+   "Agent判home",
+   "海港3主力缺阵",
+   "重庆主场防守稳",
+   "重庆阵容完整",
+   "交锋爆冷胜",
+   "重庆冲亚冠主场止颓"
+  ],
+  "客队方向": [
+   "盘口客胜2.19",
+   "海港保级战意5星",
+   "ELO客强72分"
+  ],
+  "主队vs客队": "7:3 主队压倒",
+  "大小球": "大球(泊松59.9%+盘口1.59) vs 闷平(Agent deadlock0.35) 分歧",
+  "agent_arbitration": "Agent判home, 若best_bet客队方向则降权"
+ },
+ "final_recommend": {
+  "verdict": "多源共识7:3支持主队重庆不败",
+  "让球": "重庆+0.5(受让半球) 77.7% 最稳 — 海港客场胜率3成+3主力缺阵",
+  "大小球": "分歧, 不宜重注; 海港后防崩偏大 vs 重庆攻坚弱偏闷平",
+  "风险": "重庆进攻哑火(5轮3球), 赢球难, 更可能平局或小胜; 大球与闷平信号矛盾",
+  "建议": "重庆+0.5 或 平局方向; 海港-0.5(让半球)赔率2.19高但有价值需谨慎",
+  "new_scheme_note": "TG中性放弃大小球; 重庆受让方有保护, 重庆+0.5方向维持"
+ },
+ "data_source": "user_provided (直播吧/Goal/东方体育日报/重庆本地宝/俱乐部发布会)",
+ "settlement": "2-3 海港客胜",
+ "new_scheme": {
+  "蒙特卡洛": "主胜47% 大2.5=42% TG=2.37→neutral",
+  "交叉校验": "通过",
+  "新结论": "TG中性放弃大小球; 重庆受让方有保护, 重庆+0.5方向维持"
+ },
+ "final_score": "2-3"
+}

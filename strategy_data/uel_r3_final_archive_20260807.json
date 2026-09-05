@@ -1,0 +1,211 @@
+{
+  "tournament": "欧联资格赛第三轮·首回合",
+  "date": "2026-08-07",
+  "season": "2026/27",
+  "system_version": "特征提取器结构化重写 + 深度信号(身价差/防线受损/主客场胜率/大2.5率/魔鬼主场/新帅) + 回归测试95项",
+  "summary": {
+    "win": 4,
+    "lose": 5,
+    "push": 1,
+    "winrate": "44%"
+  },
+  "matches": [
+    {
+      "match": "波兹南莱赫 vs 克拉克斯维克",
+      "score": "1-0",
+      "lambda": {
+        "home": 1.64,
+        "away": 1.26
+      },
+      "best_bet": "客队+2/2.5",
+      "result": "全赢",
+      "upset": "高危大冷",
+      "cross_review": "爆冷高危-降星级",
+      "deep_signals": {
+        "value_ratio": null,
+        "away_def_deg": 0,
+        "home_winrate": null,
+        "away_winrate": null,
+        "home_over25": 67
+      }
+    },
+    {
+      "match": "古比斯 vs 克拉约瓦大学",
+      "score": "1-1",
+      "lambda": {
+        "home": 1.76,
+        "away": 1.6
+      },
+      "best_bet": "大2.25",
+      "result": "输",
+      "upset": "低风险",
+      "cross_review": "一致",
+      "deep_signals": {
+        "value_ratio": null,
+        "away_def_deg": 0,
+        "home_winrate": null,
+        "away_winrate": null,
+        "home_over25": null
+      }
+    },
+    {
+      "match": "乔治罗尼亚 vs 流浪者",
+      "score": "2-1",
+      "lambda": {
+        "home": 1.82,
+        "away": 1.08
+      },
+      "best_bet": "主队+0/0.5",
+      "result": "全赢",
+      "upset": "低风险",
+      "cross_review": "一致",
+      "deep_signals": {
+        "value_ratio": 1.0,
+        "away_def_deg": 0,
+        "home_winrate": null,
+        "away_winrate": 40,
+        "home_over25": null
+      }
+    },
+    {
+      "match": "特拉维夫马卡比 vs 索菲亚中央陆军",
+      "score": "0-3",
+      "lambda": {
+        "home": 1.55,
+        "away": 1.35
+      },
+      "best_bet": "客队+0.5",
+      "result": "全赢",
+      "upset": "低风险",
+      "cross_review": "一致",
+      "deep_signals": {
+        "value_ratio": null,
+        "away_def_deg": 0,
+        "home_winrate": 70,
+        "away_winrate": null,
+        "home_over25": null
+      }
+    },
+    {
+      "match": "林肯红魔 vs 奥莫尼亚",
+      "score": "1-1",
+      "lambda": {
+        "home": 1.84,
+        "away": 1.06
+      },
+      "best_bet": "主队+1",
+      "result": "全赢",
+      "upset": "低风险",
+      "cross_review": "一致",
+      "deep_signals": {
+        "value_ratio": null,
+        "away_def_deg": 35,
+        "home_winrate": 83,
+        "away_winrate": 67,
+        "home_over25": null
+      }
+    },
+    {
+      "match": "赫拉德茨克拉洛韦 vs 贝西克塔斯",
+      "score": "0-1",
+      "lambda": {
+        "home": 1.92,
+        "away": 0.98
+      },
+      "best_bet": "主队+0.5",
+      "result": "全输",
+      "upset": "低风险",
+      "cross_review": "一致",
+      "deep_signals": {
+        "value_ratio": null,
+        "away_def_deg": 0,
+        "home_winrate": 100,
+        "away_winrate": 33,
+        "home_over25": 60
+      }
+    },
+    {
+      "match": "萨尔茨堡红牛 vs 帕福斯",
+      "score": "1-0",
+      "lambda": {
+        "home": 2.19,
+        "away": 0.71
+      },
+      "best_bet": "主队-1",
+      "result": "走水",
+      "upset": "中度风险",
+      "cross_review": "爆冷中度-降星级",
+      "deep_signals": {
+        "value_ratio": null,
+        "away_def_deg": 35,
+        "home_winrate": 67,
+        "away_winrate": 17,
+        "home_over25": 67
+      }
+    },
+    {
+      "match": "塞萨洛尼基 vs 安德莱赫特",
+      "score": "0-1",
+      "lambda": {
+        "home": 2.34,
+        "away": 0.56
+      },
+      "best_bet": "主队-0.5/1",
+      "result": "输半",
+      "upset": "轻度风险",
+      "cross_review": "一致",
+      "deep_signals": {
+        "value_ratio": null,
+        "away_def_deg": 40,
+        "home_winrate": 83,
+        "away_winrate": 17,
+        "home_over25": 67
+      }
+    },
+    {
+      "match": "图恩 vs 维京古",
+      "score": "3-0",
+      "lambda": {
+        "home": 1.28,
+        "away": 1.62
+      },
+      "best_bet": "客队+1",
+      "result": "全输",
+      "upset": "轻度风险",
+      "cross_review": "矛盾-数据警告",
+      "deep_signals": {
+        "value_ratio": null,
+        "away_def_deg": 0,
+        "home_winrate": 33,
+        "away_winrate": 17,
+        "home_over25": 70
+      }
+    },
+    {
+      "match": "本菲卡 vs 哈茨",
+      "score": "6-1",
+      "lambda": {
+        "home": 2.56,
+        "away": 0.34
+      },
+      "best_bet": "小3.75",
+      "result": "输",
+      "upset": "轻度风险",
+      "cross_review": "一致",
+      "deep_signals": {
+        "value_ratio": null,
+        "away_def_deg": 40,
+        "home_winrate": 83,
+        "away_winrate": 17,
+        "home_over25": 70
+      }
+    }
+  ],
+  "lessons": [
+    "1. 欧联首回合大小球不可靠(10场仅对2场20%): 实际总进球两极分化(1球闷/7球打花), 系统中间λ2.9无法区分",
+    "2. 强队主场大热(赔率≤1.60)更信碾压大球, 受让深盘(+2以上)对强队不可靠(本菲卡6-1/图恩3-0打穿)",
+    "3. 冷门等级与胜负无强相关: 高危大冷(波兹南)全赢, 低风险(赫拉德茨)全输",
+    "4. 数据里的身价差距/防线受损/主客场胜率是比场均进失球更硬的方向信号(本菲卡13.85倍身价差)",
+    "5. 特征提取器必须结构化解析+解析明细可视化, 不能打正则补丁(15正则→统一扫描+合理性校验+日志)"
+  ]
+}

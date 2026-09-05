@@ -1,0 +1,112 @@
+{
+  "tournament": "巴西甲级联赛 (Brazilian Serie A)",
+  "season": "2022-2026",
+  "source": "用户提供完整赛事基准 (2026-08-09, CBF官方+FootyStats+OneFootball+7M体育, 1600+场)",
+  "half_time": {
+    "note": "巴甲慢热开局, 半场小球, 下半场56%进球爆发",
+    "ht_avg_goals": 0.93,
+    "ht_00_rate": 0.372,
+    "ht_over05": 0.628,
+    "ht_over1": 0.357,
+    "ht_over15": 0.164,
+    "ht_home_avg": 0.55,
+    "ht_away_avg": 0.38,
+    "ht_home_00": 0.341,
+    "ht_away_00": 0.415,
+    "first_half_share": 0.44,
+    "second_half_share": 0.56,
+    "goal_burst_minute": "76-90分钟+补时",
+    "first15min_00": 0.58,
+    "half_line_logic": {
+      "strong_home_vs_weak": "半场平手/主让0.25, 半场赢盘率仅39%, 半场平全场主胜是主流",
+      "mid_war": "中游互搏/保级内战半场0-0率43%+, 半场≤1球主流",
+      "away_strong": "客场豪门半场全受让, 半场打穿上盘率<33%"
+    }
+  },
+  "cards": {
+    "avg_cards": 2.76,
+    "home_cards": 1.43,
+    "away_cards": 1.33,
+    "derby_cards": "3.8~4.7张(德比/保级生死战暴涨)",
+    "most_booked_teams": ["科林蒂安", "维多利亚"],
+    "most_booked_avg": 3.2,
+    "fouls_per_card": 5.85,
+    "fouls_per_match": 25.9,
+    "avg_possession_home": 0.51,
+    "avg_possession_away": 0.49,
+    "pace_tiers": {
+      "slow_possession": ["圣保罗", "科林蒂安", "巴拉纳竞技"],
+      "fast_wing": ["弗拉门戈", "博塔弗戈", "布拉甘蒂诺红牛"]
+    }
+  },
+  "red_cards": {
+    "avg_reds": 0.18,
+    "red_rate": "约5.5场1张",
+    "spike_scenes": ["同城德比", "保级6分战", "里约/圣保罗赛区裁判尺度严"],
+    "upset_conditions_any2": [
+      "豪门周中打完解放者杯/巴西杯, 联赛轮换3名以上主力",
+      "下游保级队主场死守0-0拖入下半场乱战",
+      "豪门客场遇交锋魔咒主场",
+      "当轮多场红牌打乱强队部署"
+    ],
+    "away_upset_share": 0.78,
+    "note": "巴甲客场冷门占78%, 主场爆冷概率极低"
+  },
+  "brazil_cup_rules": {
+    "rounds_1_4": "单场决胜, 90分钟平局直接点球(无加时)",
+    "r16_to_semi": "双回合总比分平, 无客场进球, 90分钟平直接点球, 全程无加时",
+    "final": "中立场地单场, 90分钟平直接点球, 无加时",
+    "why_upset_engine": "无加时→弱队守住90分钟即进点球, 巴丙/巴丁球队多次点球淘汰巴甲豪门",
+    "favorite_priority": "帕尔梅拉斯/弗拉门戈优先解放者杯, 巴西杯常大面积轮换青年军"
+  },
+  "round_goals": {
+    "r1_12": {"note": "开局阶段休赛期状态未满, 小球居多, 平局31%", "avg_goals": 2.18},
+    "r13_26": {"note": "中段一周双赛轮换多, 保级队拼命, 大开大合", "avg_goals": 2.47},
+    "r27_38_champion": {"note": "争冠集团注重稳守", "avg_goals": 2.22},
+    "r27_38_relegation": {"note": "降级区6分生死战动作激进", "avg_goals": 2.61},
+    "cup_early_rounds": {"note": "巴西杯前2轮低级别队主场敢攻", "avg_goals": 2.73},
+    "cup_after_r16": {"note": "巴西杯16强后巴甲豪门登场, 防守优先", "avg_goals": 2.21}
+  },
+  "motivation_tiers": {
+    "S_full": {
+      "teams": ["帕尔梅拉斯", "弗拉门戈", "巴拉纳竞技", "弗鲁米嫩塞"],
+      "note": "无解放者杯密集赛程则联赛全主力, 主场对下游胜率78%+"
+    },
+    "A_selective": {
+      "teams": ["科林蒂安", "博塔弗戈", "巴伊亚", "布拉甘蒂诺红牛", "圣保罗"],
+      "note": "主场全力, 客场对强队轮换部分主力"
+    },
+    "B_float": {
+      "teams": ["克鲁塞罗", "米内罗竞技", "科里蒂巴"],
+      "note": "无欲无求轮换常态化, 极易输下盘"
+    },
+    "C_relegation": {
+      "teams": ["桑托斯", "格雷米奥", "瓦斯科达伽马", "沙佩科恩斯"],
+      "note": "每场6分战, 主场死守反击, 客场只求1分"
+    },
+    "liber_rotation": "球队3天内有解放者杯则联赛必轮换≥4主力; 巴西杯优先级<解放者杯>普通联赛"
+  },
+  "handicap_rules": {
+    "strong_home_vs_relegation": {"line": "-1 ~ -1.25", "cover_rate": 0.423, "note": "豪门主场大量只赢1球走盘, 巴甲最大特点"},
+    "strong_home_vs_mid": {"line": "-0.75", "cover_rate": 0.481},
+    "strong_away": {"line": "最多-0.5", "cover_rate": 0.296, "note": "客场极少深让, 打穿率低"},
+    "key_insights": [
+      "豪门主场让一球盘最容易走盘(赢1球), 勿盲目追大胜",
+      "豪门要打解放者杯时, 主场让一球打穿率暴跌至27%, 防平/小胜",
+      "主场连续2轮赢盘的豪门第3轮大概率打不穿(机构造热)"
+    ]
+  },
+  "historical_curse": {
+    "sao_paulo_derby": "科林蒂安曾10场德比不胜(6负4平); 圣保罗客场造访科林蒂安近7年只赢1场",
+    "rio_derby": "博塔弗戈近12次客场马拉卡纳仅赢2场; 2020年后圣保罗未在马拉卡纳胜弗拉门戈",
+    "corinthians_vs_atleticopr": "科林蒂安主场对巴拉纳竞技近5年7次全胜",
+    "remo_vs_bahia": "雷莫30余年未击败巴伊亚(7次3负4平)",
+    "mirassol_vs_gremio": "米拉斯索尔历史2次对格雷米奥全胜",
+    "general": [
+      "巴甲卫冕冠军次年胜率必降12~18%",
+      "升班马首个赛季客场赢球率<22%",
+      "保级队连续2主场零封后, 下主场90%无法继续零封"
+    ]
+  },
+  "summary": "巴甲本质=慢热联赛, 上半场小球/下半场进球集中, 豪门主场擅长赢球不打穿。冷门两大来源: 巴西杯无加时点球规则+豪门解放者杯轮换。判盘关键: 先看球队3天后有无解放者杯, 其次核历史主场交锋魔咒"
+}

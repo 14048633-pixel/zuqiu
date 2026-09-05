@@ -1,0 +1,105 @@
+{
+ "matches": [
+  {
+   "match": "曼斯菲尔德 vs 谢菲尔德联",
+   "tournament": "英格兰联赛杯首轮",
+   "date": "2026-08-09",
+   "best_bet": {
+    "name": "主队+0.5",
+    "prob": 0.77,
+    "odds": 1.87,
+    "ev": 0.4398
+   },
+   "lambda": {
+    "home": 1.56,
+    "away": 0.95
+   },
+   "ml_goals": 3.2100000381469727,
+   "deadlock": 0.3,
+   "upset": "低风险",
+   "record_file": "analysis_records\\20260809_002012_曼斯菲尔德_谢菲尔德联.json",
+   "settlement": "待定",
+   "full_system_20260809": {
+    "verdict": "中性",
+    "home_cover": 0.52,
+    "note": "主队+0.5可轻仓(平局赢盘)"
+   }
+  },
+  {
+   "match": "罗瑟汉姆 vs 西布罗姆维奇",
+   "tournament": "英格兰联赛杯首轮",
+   "date": "2026-08-09",
+   "best_bet": {
+    "name": "客队-1",
+    "prob": 0.5604,
+    "odds": 2.08,
+    "ev": 0.1656
+   },
+   "lambda": {
+    "home": 0.59,
+    "away": 1.92
+   },
+   "ml_goals": 3.309999942779541,
+   "deadlock": 0.25,
+   "upset": "低风险",
+   "record_file": "analysis_records\\20260809_002257_罗瑟汉姆_西布罗姆维奇.json",
+   "settlement": "待定",
+   "full_system_20260809": {
+    "verdict": "主队受让1球",
+    "home_cover": 0.94,
+    "note": "方向反转, 强烈推主队受让(西布朗需赢2球)"
+   }
+  },
+  {
+   "match": "切尔滕汉姆 vs 查尔顿",
+   "tournament": "英格兰联赛杯首轮",
+   "date": "2026-08-09",
+   "best_bet": {
+    "name": "主队+0.5/1",
+    "prob": 0.7367,
+    "odds": 2.04,
+    "ev": 0.5028
+   },
+   "lambda": {
+    "home": 1.48,
+    "away": 1.03
+   },
+   "ml_goals": 3.259999990463257,
+   "deadlock": 0.3,
+   "upset": "低风险",
+   "record_file": "analysis_records\\20260809_002539_切尔滕汉姆_查尔顿.json",
+   "settlement": "待定",
+   "full_system_20260809": {
+    "verdict": "中性",
+    "home_cover": 0.47,
+    "note": "谨慎"
+   }
+  },
+  {
+   "match": "科尔切斯特联 vs 南安普顿",
+   "tournament": "英格兰联赛杯首轮",
+   "date": "2026-08-09",
+   "best_bet": {
+    "name": "主队+1.5",
+    "prob": 0.6939,
+    "odds": 1.83,
+    "ev": 0.2699
+   },
+   "lambda": {
+    "home": 0.86,
+    "away": 1.65
+   },
+   "ml_goals": 3.2300000190734863,
+   "deadlock": 0.25,
+   "upset": "轻度风险",
+   "record_file": "analysis_records\\20260809_002833_科尔切斯特联_南安普顿.json",
+   "settlement": "待定",
+   "full_system_20260809": {
+    "verdict": "客队",
+    "home_cover": 0.06,
+    "note": "方向反转, 推南安普顿-1.5"
+   }
+  }
+ ],
+ "note": "修复后系统(ML+泊松融合+联赛基准2.51+Agent闷平抑制)"
+}

@@ -1,0 +1,440 @@
+{
+ "英冠": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.02,
+   "home_bets": 254,
+   "home_rate": 0.610236220472441,
+   "away_bets": 15,
+   "away_rate": 0.6,
+   "total_bets": 269,
+   "total_rate": 0.6096654275092936,
+   "profit": 34.4,
+   "roi": 0.128
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.02,
+   "home_bets": 259,
+   "home_rate": 0.61003861003861,
+   "away_bets": 14,
+   "away_rate": 0.5714285714285714,
+   "total_bets": 273,
+   "total_rate": 0.608058608058608,
+   "profit": 34.1,
+   "roi": 0.125
+  }
+ },
+ "英甲": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.03,
+   "home_bets": 218,
+   "home_rate": 0.6376146788990825,
+   "away_bets": 16,
+   "away_rate": 0.5625,
+   "total_bets": 234,
+   "total_rate": 0.6324786324786325,
+   "profit": 39.8,
+   "roi": 0.17
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.03,
+   "home_bets": 223,
+   "home_rate": 0.6322869955156951,
+   "away_bets": 15,
+   "away_rate": 0.6,
+   "total_bets": 238,
+   "total_rate": 0.6302521008403361,
+   "profit": 39.5,
+   "roi": 0.166
+  }
+ },
+ "西乙": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.06,
+   "home_bets": 81,
+   "home_rate": 0.6049382716049383,
+   "away_bets": 0,
+   "away_rate": 0,
+   "total_bets": 81,
+   "total_rate": 0.6049382716049383,
+   "profit": 9.6,
+   "roi": 0.119
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.05,
+   "home_bets": 102,
+   "home_rate": 0.5882352941176471,
+   "away_bets": 0,
+   "away_rate": 0,
+   "total_bets": 102,
+   "total_rate": 0.5882352941176471,
+   "profit": 9.0,
+   "roi": 0.088
+  }
+ },
+ "意乙": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.02,
+   "home_bets": 102,
+   "home_rate": 0.5,
+   "away_bets": 9,
+   "away_rate": 0.4444444444444444,
+   "total_bets": 111,
+   "total_rate": 0.4954954954954955,
+   "profit": -9.3,
+   "roi": -0.083
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.03,
+   "home_bets": 78,
+   "home_rate": 0.5,
+   "away_bets": 8,
+   "away_rate": 0.375,
+   "total_bets": 86,
+   "total_rate": 0.4883720930232558,
+   "profit": -8.3,
+   "roi": -0.097
+  }
+ },
+ "英超": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.03,
+   "home_bets": 333,
+   "home_rate": 0.6486486486486487,
+   "away_bets": 37,
+   "away_rate": 0.7567567567567568,
+   "total_bets": 370,
+   "total_rate": 0.6594594594594595,
+   "profit": 81.4,
+   "roi": 0.22
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.02,
+   "home_bets": 359,
+   "home_rate": 0.6462395543175488,
+   "away_bets": 45,
+   "away_rate": 0.7333333333333333,
+   "total_bets": 404,
+   "total_rate": 0.655940594059406,
+   "profit": 86.3,
+   "roi": 0.213
+  },
+  "1.0": {
+   "depth": 1.0,
+   "threshold": 0.03,
+   "home_bets": 84,
+   "home_rate": 0.5595238095238095,
+   "away_bets": 3,
+   "away_rate": 0.6666666666666666,
+   "total_bets": 87,
+   "total_rate": 0.5632183908045977,
+   "profit": 3.6,
+   "roi": 0.042
+  }
+ },
+ "西甲": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.02,
+   "home_bets": 260,
+   "home_rate": 0.7153846153846154,
+   "away_bets": 23,
+   "away_rate": 0.43478260869565216,
+   "total_bets": 283,
+   "total_rate": 0.6925795053003534,
+   "profit": 79.6,
+   "roi": 0.281
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.02,
+   "home_bets": 263,
+   "home_rate": 0.714828897338403,
+   "away_bets": 22,
+   "away_rate": 0.4090909090909091,
+   "total_bets": 285,
+   "total_rate": 0.6912280701754386,
+   "profit": 79.4,
+   "roi": 0.279
+  }
+ },
+ "意甲": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.06,
+   "home_bets": 162,
+   "home_rate": 0.6975308641975309,
+   "away_bets": 11,
+   "away_rate": 0.7272727272727273,
+   "total_bets": 173,
+   "total_rate": 0.6994219653179191,
+   "profit": 50.9,
+   "roi": 0.294
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.02,
+   "home_bets": 257,
+   "home_rate": 0.6498054474708171,
+   "away_bets": 33,
+   "away_rate": 0.6363636363636364,
+   "total_bets": 290,
+   "total_rate": 0.6482758620689655,
+   "profit": 57.8,
+   "roi": 0.199
+  }
+ },
+ "法乙": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.05,
+   "home_bets": 72,
+   "home_rate": 0.6111111111111112,
+   "away_bets": 13,
+   "away_rate": 0.38461538461538464,
+   "total_bets": 85,
+   "total_rate": 0.5764705882352941,
+   "profit": 5.6,
+   "roi": 0.066
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.02,
+   "home_bets": 110,
+   "home_rate": 0.5727272727272728,
+   "away_bets": 22,
+   "away_rate": 0.5,
+   "total_bets": 132,
+   "total_rate": 0.5606060606060606,
+   "profit": 4.9,
+   "roi": 0.037
+  }
+ },
+ "土超": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.02,
+   "home_bets": 283,
+   "home_rate": 0.6925795053003534,
+   "away_bets": 56,
+   "away_rate": 0.6607142857142857,
+   "total_bets": 339,
+   "total_rate": 0.6873156342182891,
+   "profit": 92.0,
+   "roi": 0.272
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.02,
+   "home_bets": 279,
+   "home_rate": 0.6917562724014337,
+   "away_bets": 58,
+   "away_rate": 0.6724137931034483,
+   "total_bets": 337,
+   "total_rate": 0.6884272997032641,
+   "profit": 92.2,
+   "roi": 0.274
+  }
+ },
+ "法甲": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.05,
+   "home_bets": 102,
+   "home_rate": 0.6666666666666666,
+   "away_bets": 39,
+   "away_rate": 0.6410256410256411,
+   "total_bets": 141,
+   "total_rate": 0.6595744680851063,
+   "profit": 31.1,
+   "roi": 0.22
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.02,
+   "home_bets": 153,
+   "home_rate": 0.6143790849673203,
+   "away_bets": 59,
+   "away_rate": 0.6271186440677966,
+   "total_bets": 212,
+   "total_rate": 0.6179245283018868,
+   "profit": 30.4,
+   "roi": 0.143
+  }
+ },
+ "巴西甲": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.03,
+   "home_bets": 200,
+   "home_rate": 0.66,
+   "away_bets": 29,
+   "away_rate": 0.6206896551724138,
+   "total_bets": 229,
+   "total_rate": 0.6550218340611353,
+   "profit": 48.5,
+   "roi": 0.212
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.03,
+   "home_bets": 197,
+   "home_rate": 0.6649746192893401,
+   "away_bets": 27,
+   "away_rate": 0.5925925925925926,
+   "total_bets": 224,
+   "total_rate": 0.65625,
+   "profit": 48.0,
+   "roi": 0.214
+  }
+ },
+ "德乙": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.03,
+   "home_bets": 166,
+   "home_rate": 0.6024096385542169,
+   "away_bets": 3,
+   "away_rate": 0.3333333333333333,
+   "total_bets": 169,
+   "total_rate": 0.5976331360946746,
+   "profit": 17.9,
+   "roi": 0.106
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.04,
+   "home_bets": 146,
+   "home_rate": 0.6095890410958904,
+   "away_bets": 1,
+   "away_rate": 1.0,
+   "total_bets": 147,
+   "total_rate": 0.6122448979591837,
+   "profit": 19.5,
+   "roi": 0.133
+  }
+ },
+ "荷甲": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.04,
+   "home_bets": 246,
+   "home_rate": 0.7113821138211383,
+   "away_bets": 52,
+   "away_rate": 0.7115384615384616,
+   "total_bets": 298,
+   "total_rate": 0.7114093959731543,
+   "profit": 94.2,
+   "roi": 0.316
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.02,
+   "home_bets": 285,
+   "home_rate": 0.6912280701754386,
+   "away_bets": 69,
+   "away_rate": 0.6666666666666666,
+   "total_bets": 354,
+   "total_rate": 0.6864406779661016,
+   "profit": 95.5,
+   "roi": 0.27
+  },
+  "1.0": {
+   "depth": 1.0,
+   "threshold": 0.03,
+   "home_bets": 95,
+   "home_rate": 0.6631578947368421,
+   "away_bets": 8,
+   "away_rate": 0.5,
+   "total_bets": 103,
+   "total_rate": 0.6504854368932039,
+   "profit": 21.0,
+   "roi": 0.203
+  }
+ },
+ "葡超": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.02,
+   "home_bets": 197,
+   "home_rate": 0.7614213197969543,
+   "away_bets": 45,
+   "away_rate": 0.7555555555555555,
+   "total_bets": 242,
+   "total_rate": 0.7603305785123967,
+   "profit": 98.4,
+   "roi": 0.407
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.02,
+   "home_bets": 195,
+   "home_rate": 0.7692307692307693,
+   "away_bets": 44,
+   "away_rate": 0.75,
+   "total_bets": 239,
+   "total_rate": 0.7656903765690377,
+   "profit": 99.5,
+   "roi": 0.417
+  },
+  "1.0": {
+   "depth": 1.0,
+   "threshold": 0.02,
+   "home_bets": 97,
+   "home_rate": 0.6185567010309279,
+   "away_bets": 2,
+   "away_rate": 0.5,
+   "total_bets": 99,
+   "total_rate": 0.6161616161616161,
+   "profit": 13.8,
+   "roi": 0.14
+  }
+ },
+ "德甲": {
+  "0.5": {
+   "depth": 0.5,
+   "threshold": 0.03,
+   "home_bets": 292,
+   "home_rate": 0.636986301369863,
+   "away_bets": 26,
+   "away_rate": 0.5769230769230769,
+   "total_bets": 318,
+   "total_rate": 0.6320754716981132,
+   "profit": 53.9,
+   "roi": 0.169
+  },
+  "0.75": {
+   "depth": 0.75,
+   "threshold": 0.06,
+   "home_bets": 218,
+   "home_rate": 0.6743119266055045,
+   "away_bets": 18,
+   "away_rate": 0.4444444444444444,
+   "total_bets": 236,
+   "total_rate": 0.6567796610169492,
+   "profit": 50.8,
+   "roi": 0.215
+  },
+  "1.0": {
+   "depth": 1.0,
+   "threshold": 0.02,
+   "home_bets": 79,
+   "home_rate": 0.6075949367088608,
+   "away_bets": 10,
+   "away_rate": 0.3,
+   "total_bets": 89,
+   "total_rate": 0.5730337078651685,
+   "profit": 5.3,
+   "roi": 0.06
+  }
+ }
+}

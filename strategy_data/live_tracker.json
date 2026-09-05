@@ -1,0 +1,881 @@
+[
+  {
+    "id": "2026-08-28_E0_Arsenal_vs_Chelsea",
+    "date": "2026-08-28",
+    "league": "E0",
+    "home": "Arsenal",
+    "away": "Chelsea",
+    "pick": "主胜",
+    "pick_idx": 0,
+    "model_prob": [
+      0.7188,
+      0.1678,
+      0.1134
+    ],
+    "market_prob": [
+      0.6314,
+      0.2223,
+      0.1463
+    ],
+    "odds": [
+      1.5536759510119136,
+      4.320570166379217,
+      6.455185820812977
+    ],
+    "odds_source": "estimated",
+    "odds_missing": false,
+    "edge": 0.0874,
+    "ev": 0.1167,
+    "stars": 3,
+    "status": "void",
+    "actual_hg": null,
+    "actual_ag": null,
+    "settled_date": "2026-09-03",
+    "profit_pct": null,
+    "note": "BSD无此真实赛事(疑似测试/虚拟), 作废不计ROI"
+  },
+  {
+    "id": "2026-08-29_E0_Crystal Palace_vs_Man City",
+    "date": "2026-08-29",
+    "league": "E0",
+    "home": "Crystal Palace",
+    "away": "Man City",
+    "pick": "主胜",
+    "pick_idx": 0,
+    "model_prob": [
+      0.2528,
+      0.2232,
+      0.5241
+    ],
+    "market_prob": [
+      0.1873,
+      0.2292,
+      0.5835
+    ],
+    "odds": [
+      4.9638,
+      4.1012,
+      1.6604
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0654,
+    "ev": 0.2547,
+    "stars": 3,
+    "status": "lost",
+    "actual_hg": 1,
+    "actual_ag": 4,
+    "settled_date": "2026-09-03",
+    "profit_pct": -1.0
+  },
+  {
+    "id": "2026-09-03_F1_Toulouse_vs_Lille",
+    "date": "2026-09-03",
+    "league": "F1",
+    "home": "Toulouse",
+    "away": "Lille",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.553
+    ],
+    "market_prob": [
+      0.5525
+    ],
+    "odds": [
+      1.81
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0514,
+    "ev": 0.001,
+    "stars": 1,
+    "status": "won",
+    "actual_hg": 0,
+    "actual_ag": 1,
+    "settled_date": "2026-09-04",
+    "profit_pct": 0.81
+  },
+  {
+    "id": "2026-09-03_I1_Cagliari_vs_Hellas Verona",
+    "date": "2026-09-03",
+    "league": "I1",
+    "home": "Cagliari",
+    "away": "Hellas Verona",
+    "pick": "大2.5",
+    "pick_idx": 0,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.503
+    ],
+    "market_prob": [
+      0.4808
+    ],
+    "odds": [
+      2.08
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 2.2231,
+    "ev": 0.046,
+    "stars": 1,
+    "status": "won",
+    "actual_hg": 1,
+    "actual_ag": 2,
+    "settled_date": "2026-09-04",
+    "profit_pct": 1.08
+  },
+  {
+    "id": "2026-09-03_Puchar Polski_GKS Tychy_vs_ŁKS Łódź#ou",
+    "date": "2026-09-03",
+    "league": "Puchar Polski",
+    "home": "GKS Tychy",
+    "away": "ŁKS Łódź",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.481,
+      0.519,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.12
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.099,
+    "stars": 1,
+    "status": "won",
+    "actual_hg": 1,
+    "actual_ag": 0,
+    "settled_date": "2026-09-04",
+    "profit_pct": 1.12
+  },
+  {
+    "id": "2026-09-03_Saudi Pro League_Al-Fayha_vs_Al-Kholood#ou",
+    "date": "2026-09-03",
+    "league": "Saudi Pro League",
+    "home": "Al-Fayha",
+    "away": "Al-Kholood",
+    "pick": "大2.5",
+    "pick_idx": 0,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.516,
+      0.484,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.12
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.093,
+    "stars": 1,
+    "status": "won",
+    "actual_hg": 2,
+    "actual_ag": 2,
+    "settled_date": "2026-09-04",
+    "profit_pct": 1.12
+  },
+  {
+    "id": "2026-09-04_Coppa Italia_Palermo_vs_Mantova#ou",
+    "date": "2026-09-04",
+    "league": "Coppa Italia",
+    "home": "Palermo",
+    "away": "Mantova",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.474,
+      0.526,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.03
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.067,
+    "stars": 1,
+    "status": "lost",
+    "actual_hg": 5,
+    "actual_ag": 2,
+    "settled_date": "2026-09-04",
+    "profit_pct": -1.0
+  },
+  {
+    "id": "2026-09-04_Ekstraklasa_Raków Częstochowa_vs_Górnik Zabrze#ou",
+    "date": "2026-09-04",
+    "league": "Ekstraklasa",
+    "home": "Raków Częstochowa",
+    "away": "Górnik Zabrze",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.361,
+      0.639,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      1.98
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.265,
+    "stars": 3,
+    "status": "lost",
+    "actual_hg": 1,
+    "actual_ag": 2,
+    "settled_date": "2026-09-04",
+    "profit_pct": -1.0
+  },
+  {
+    "id": "2026-09-04_Saudi Pro League_Neom SC_vs_Al-Khaleej#ou",
+    "date": "2026-09-04",
+    "league": "Saudi Pro League",
+    "home": "Neom SC",
+    "away": "Al-Khaleej",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.493,
+      0.507,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.02
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.024,
+    "stars": 1,
+    "status": "lost",
+    "actual_hg": 3,
+    "actual_ag": 0,
+    "settled_date": "2026-09-04",
+    "profit_pct": -1.0
+  },
+  {
+    "id": "2026-09-04_Danish Superliga_FC København_vs_FC Nordsjælland#ou",
+    "date": "2026-09-04",
+    "league": "Danish Superliga",
+    "home": "FC København",
+    "away": "FC Nordsjælland",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.601,
+      0.399,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.74
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.094,
+    "stars": 1,
+    "status": "won",
+    "actual_hg": 2,
+    "actual_ag": 0,
+    "settled_date": "2026-09-04",
+    "profit_pct": 1.74
+  },
+  {
+    "id": "2026-09-04_Pro League_KAA Gent_vs_Oud-Heverlee Leuven#ou",
+    "date": "2026-09-04",
+    "league": "Pro League",
+    "home": "KAA Gent",
+    "away": "Oud-Heverlee Leuven",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.439,
+      0.561,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      1.95
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.095,
+    "stars": 1,
+    "status": "won",
+    "actual_hg": 1,
+    "actual_ag": 0,
+    "settled_date": "2026-09-04",
+    "profit_pct": 0.95
+  },
+  {
+    "id": "2026-09-04_Puchar Polski_Śląsk Wrocław_vs_Pogoń Szczecin#ou",
+    "date": "2026-09-04",
+    "league": "Puchar Polski",
+    "home": "Śląsk Wrocław",
+    "away": "Pogoń Szczecin",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.405,
+      0.595,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      1.94
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.154,
+    "stars": 3,
+    "status": "lost",
+    "actual_hg": 2,
+    "actual_ag": 1,
+    "settled_date": "2026-09-04",
+    "profit_pct": -1.0
+  },
+  {
+    "id": "2026-09-04_Pro League_RSC Anderlecht_vs_KV Kortrijk#ou",
+    "date": "2026-09-04",
+    "league": "Pro League",
+    "home": "RSC Anderlecht",
+    "away": "KV Kortrijk",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.483,
+      0.517,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.35
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.216,
+    "stars": 3,
+    "status": "won",
+    "actual_hg": 1,
+    "actual_ag": 0,
+    "settled_date": "2026-09-04",
+    "profit_pct": 1.35
+  },
+  {
+    "id": "2026-09-04_Super League_FC Lugano_vs_Servette FC#ou",
+    "date": "2026-09-04",
+    "league": "Super League",
+    "home": "FC Lugano",
+    "away": "Servette FC",
+    "pick": "大2.5",
+    "pick_idx": 0,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.751,
+      0.249,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      1.6
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.202,
+    "stars": 3,
+    "status": "lost",
+    "actual_hg": 1,
+    "actual_ag": 0,
+    "settled_date": "2026-09-04",
+    "profit_pct": -1.0
+  },
+  {
+    "id": "2026-09-04_Super League_Basel_vs_FC Sion#ou",
+    "date": "2026-09-04",
+    "league": "Super League",
+    "home": "Basel",
+    "away": "FC Sion",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.455,
+      0.545,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.57
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.4,
+    "stars": 3,
+    "status": "lost",
+    "actual_hg": 1,
+    "actual_ag": 2,
+    "settled_date": "2026-09-04",
+    "profit_pct": -1.0
+  },
+  {
+    "id": "2026-09-04_La Liga_Real Sociedad_vs_Celta Vigo#ou",
+    "date": "2026-09-04",
+    "league": "La Liga",
+    "home": "Real Sociedad",
+    "away": "Celta Vigo",
+    "pick": "大2.5",
+    "pick_idx": 0,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.604,
+      0.396,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      1.89
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.141,
+    "stars": 2,
+    "status": "lost",
+    "actual_hg": 0,
+    "actual_ag": 0,
+    "settled_date": "2026-09-04",
+    "profit_pct": -1.0
+  },
+  {
+    "id": "2026-09-05_Danish Superliga_Viborg FF_vs_Lyngby#ou",
+    "date": "2026-09-05",
+    "league": "Danish Superliga",
+    "home": "Viborg FF",
+    "away": "Lyngby",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.521,
+      0.479,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.41
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.154,
+    "stars": 3,
+    "status": "won",
+    "actual_hg": 0,
+    "actual_ag": 2,
+    "settled_date": "2026-09-05",
+    "profit_pct": 1.41
+  },
+  {
+    "id": "2026-09-05_Trendyol Super Lig_Başakşehir FK_vs_Galatasaray#ou",
+    "date": "2026-09-05",
+    "league": "Trendyol Super Lig",
+    "home": "Başakşehir FK",
+    "away": "Galatasaray",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.437,
+      0.563,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.6
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.465,
+    "stars": 3,
+    "status": "lost",
+    "actual_hg": 2,
+    "actual_ag": 3,
+    "settled_date": "2026-09-05",
+    "profit_pct": -1.0
+  },
+  {
+    "id": "2026-09-05_Ligue 1_Olympique Lyonnais_vs_Auxerre#ou",
+    "date": "2026-09-05",
+    "league": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "Auxerre",
+    "pick": "大2.5",
+    "pick_idx": 0,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.645,
+      0.355,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      1.67
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.078,
+    "stars": 1,
+    "status": "won",
+    "actual_hg": 3,
+    "actual_ag": 1,
+    "settled_date": "2026-09-05",
+    "profit_pct": 0.67
+  },
+  {
+    "id": "2026-09-05_Eliteserien_Fredrikstad FK_vs_Bodø/Glimt#ou",
+    "date": "2026-09-05",
+    "league": "Eliteserien",
+    "home": "Fredrikstad FK",
+    "away": "Bodø/Glimt",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.603,
+      0.397,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.96
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.175,
+    "stars": 3,
+    "status": "lost",
+    "actual_hg": 1,
+    "actual_ag": 2,
+    "settled_date": "2026-09-05",
+    "profit_pct": -1.0
+  },
+  {
+    "id": "2026-09-05_Eredivisie_Sparta Rotterdam_vs_PEC Zwolle#ou",
+    "date": "2026-09-05",
+    "league": "Eredivisie",
+    "home": "Sparta Rotterdam",
+    "away": "PEC Zwolle",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.598,
+      0.402,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.67
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.074,
+    "stars": 1,
+    "status": "lost",
+    "actual_hg": 2,
+    "actual_ag": 2,
+    "settled_date": "2026-09-05",
+    "profit_pct": -1.0
+  },
+  {
+    "id": "2026-09-05_Segunda División_UD Las Palmas_vs_Leganés#ou",
+    "date": "2026-09-05",
+    "league": "Segunda División",
+    "home": "UD Las Palmas",
+    "away": "Leganés",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.413,
+      0.587,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      1.71
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.004,
+    "stars": 1,
+    "status": "won",
+    "actual_hg": 0,
+    "actual_ag": 0,
+    "settled_date": "2026-09-05",
+    "profit_pct": 0.71
+  },
+  {
+    "id": "2026-09-05_Bundesliga_VfB Stuttgart_vs_1. FC Köln#ou",
+    "date": "2026-09-05",
+    "league": "Bundesliga",
+    "home": "VfB Stuttgart",
+    "away": "1. FC Köln",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.591,
+      0.409,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      3.05
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.248,
+    "stars": 3,
+    "status": "lost",
+    "actual_hg": 4,
+    "actual_ag": 1,
+    "settled_date": "2026-09-05",
+    "profit_pct": -1.0
+  },
+  {
+    "id": "2026-09-05_Pro League_Lommel SK_vs_Club Brugge KV#ou",
+    "date": "2026-09-05",
+    "league": "Pro League",
+    "home": "Lommel SK",
+    "away": "Club Brugge KV",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.445,
+      0.555,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      3.4
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.888,
+    "stars": 3,
+    "status": "won",
+    "actual_hg": 0,
+    "actual_ag": 1,
+    "settled_date": "2026-09-05",
+    "profit_pct": 2.4
+  },
+  {
+    "id": "2026-09-05_Serie A_Genoa_vs_Como#ou",
+    "date": "2026-09-05",
+    "league": "Serie A",
+    "home": "Genoa",
+    "away": "Como",
+    "pick": "大2.5",
+    "pick_idx": 0,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.478,
+      0.522,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.31
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.103,
+    "stars": 2,
+    "status": "won",
+    "actual_hg": 1,
+    "actual_ag": 4,
+    "settled_date": "2026-09-05",
+    "profit_pct": 1.31
+  },
+  {
+    "id": "2026-09-05_La Liga_Real Betis_vs_Real Madrid#ou",
+    "date": "2026-09-05",
+    "league": "La Liga",
+    "home": "Real Betis",
+    "away": "Real Madrid",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.417,
+      0.583,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.99
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.742,
+    "stars": 3,
+    "status": "won",
+    "actual_hg": 1,
+    "actual_ag": 0,
+    "settled_date": "2026-09-05",
+    "profit_pct": 1.99
+  },
+  {
+    "id": "2026-09-05_Premier League_Ipswich Town_vs_Liverpool FC#ou",
+    "date": "2026-09-05",
+    "league": "Premier League",
+    "home": "Ipswich Town",
+    "away": "Liverpool FC",
+    "pick": "大2.5",
+    "pick_idx": 0,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.785,
+      0.215,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      1.4
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.099,
+    "stars": 1,
+    "status": "lost",
+    "actual_hg": 0,
+    "actual_ag": 2,
+    "settled_date": "2026-09-05",
+    "profit_pct": -1.0
+  },
+  {
+    "id": "2026-09-05_Eliteserien_Sandefjord Fotball_vs_Viking FK#ou",
+    "date": "2026-09-05",
+    "league": "Eliteserien",
+    "home": "Sandefjord Fotball",
+    "away": "Viking FK",
+    "pick": "小2.5",
+    "pick_idx": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.507,
+      0.493,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      2.63
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.296,
+    "stars": 3,
+    "status": "won",
+    "actual_hg": 1,
+    "actual_ag": 1,
+    "settled_date": "2026-09-05",
+    "profit_pct": 1.63
+  },
+  {
+    "id": "2026-09-05_Ligue 1_Paris Saint-Germain_vs_AS Monaco#ou",
+    "date": "2026-09-05",
+    "league": "Ligue 1",
+    "home": "Paris Saint-Germain",
+    "away": "AS Monaco",
+    "pick": "大2.5",
+    "pick_idx": 0,
+    "mkt": "ou",
+    "line": 2.5,
+    "model_prob": [
+      0.723,
+      0.277,
+      0.0
+    ],
+    "market_prob": null,
+    "odds": [
+      1.41
+    ],
+    "odds_source": "live",
+    "odds_missing": false,
+    "edge": 0.0,
+    "ev": 0.019,
+    "stars": 1,
+    "status": "won",
+    "actual_hg": 1,
+    "actual_ag": 2,
+    "settled_date": "2026-09-05",
+    "profit_pct": 0.41
+  }
+]

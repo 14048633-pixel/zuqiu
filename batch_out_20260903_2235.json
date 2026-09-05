@@ -1,0 +1,727 @@
+[
+ {
+  "ko_bjt": "09-03 23:30",
+  "league": "Puchar Polski",
+  "home": "GKS Tychy",
+  "away": "ŁKS Łódź",
+  "model_wdl": [
+   61.7,
+   19.4,
+   18.9
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   3.33,
+   0.77,
+   4.11
+  ],
+  "over25": 48.1,
+  "data_warnings": [
+   "主队'GKS Tychy'无Elo历史(用默认1500)",
+   "主队'GKS Tychy'无主场近8场数据",
+   "主队'GKS Tychy'无POL联赛数据(用联赛均值)",
+   "主队'GKS Tychy'本地无匹配(用联赛均值兜底)"
+  ],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 51.9,
+    "odds": 2.12,
+    "ev": 9.9,
+    "star": 1,
+    "mkt": "ou",
+    "note_data_ou": "数据缺失场放行OU"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 51.9,
+   "odds": 2.12,
+   "ev": 9.9,
+   "star": 1,
+   "mkt": "ou",
+   "note_data_ou": "数据缺失场放行OU"
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-03 23:55",
+  "league": "Saudi Pro League",
+  "home": "Al-Fayha",
+  "away": "Al-Kholood",
+  "model_wdl": [
+   35.0,
+   28.2,
+   36.8
+  ],
+  "market_wdl": [
+   32.9,
+   29.0,
+   38.1
+  ],
+  "xg": [
+   1.22,
+   1.26,
+   2.48
+  ],
+  "over25": 51.6,
+  "data_warnings": [],
+  "draw_warn_pct": 29.0,
+  "bets": [
+   {
+    "name": "大2.5",
+    "prob": 51.6,
+    "odds": 2.12,
+    "ev": 9.3,
+    "star": 1,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "大2.5",
+   "prob": 51.6,
+   "odds": 2.12,
+   "ev": 9.3,
+   "star": 1,
+   "mkt": "ou"
+  },
+  "odds_estimated": false,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 00:00",
+  "league": "Coppa Italia",
+  "home": "Palermo",
+  "away": "Mantova",
+  "model_wdl": [
+   49.2,
+   25.0,
+   25.8
+  ],
+  "market_wdl": [
+   58.0,
+   23.3,
+   18.6
+  ],
+  "xg": [
+   1.35,
+   1.17,
+   2.52
+  ],
+  "over25": 47.4,
+  "data_warnings": [
+   "主队'Palermo'无I1联赛数据(用联赛均值)",
+   "客队'Mantova'无I1联赛数据(用联赛均值)"
+  ],
+  "draw_warn_pct": 23.3,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 52.6,
+    "odds": 2.03,
+    "ev": 6.7,
+    "star": 1,
+    "mkt": "ou",
+    "note_data_ou": "数据缺失场放行OU"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 52.6,
+   "odds": 2.03,
+   "ev": 6.7,
+   "star": 1,
+   "mkt": "ou",
+   "note_data_ou": "数据缺失场放行OU"
+  },
+  "odds_estimated": false,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 00:00",
+  "league": "Ekstraklasa",
+  "home": "Raków Częstochowa",
+  "away": "Górnik Zabrze",
+  "model_wdl": [
+   40.2,
+   28.8,
+   31.0
+  ],
+  "market_wdl": [
+   37.3,
+   26.8,
+   35.9
+  ],
+  "xg": [
+   1.18,
+   0.91,
+   2.09
+  ],
+  "over25": 36.1,
+  "data_warnings": [],
+  "draw_warn_pct": 26.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 63.9,
+    "odds": 1.98,
+    "ev": 26.5,
+    "star": 3,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 63.9,
+   "odds": 1.98,
+   "ev": 26.5,
+   "star": 3,
+   "mkt": "ou"
+  },
+  "odds_estimated": false,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 00:30",
+  "league": "Saudi Pro League",
+  "home": "Neom SC",
+  "away": "Al-Khaleej",
+  "model_wdl": [
+   46.3,
+   26.3,
+   27.4
+  ],
+  "market_wdl": [
+   55.4,
+   24.4,
+   20.2
+  ],
+  "xg": [
+   1.23,
+   1.14,
+   2.37
+  ],
+  "over25": 49.3,
+  "data_warnings": [],
+  "draw_warn_pct": 24.4,
+  "bets": [
+   {
+    "name": "客胜",
+    "prob": 27.4,
+    "odds": 4.42,
+    "ev": 21.1,
+    "star": 3,
+    "mkt": "1x2"
+   },
+   {
+    "name": "小2.5",
+    "prob": 50.7,
+    "odds": 2.02,
+    "ev": 2.4,
+    "star": 1,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "客胜",
+   "prob": 27.4,
+   "odds": 4.42,
+   "ev": 21.1,
+   "star": 3,
+   "mkt": "1x2"
+  },
+  "odds_estimated": false,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 02:00",
+  "league": "Saudi Pro League",
+  "home": "Al Diriyah",
+  "away": "Al-Qadsiah",
+  "model_wdl": [
+   25.6,
+   22.8,
+   51.6
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   1.0,
+   2.52,
+   3.53
+  ],
+  "over25": 62.7,
+  "data_warnings": [
+   "主队'Al Diriyah'无Elo历史(用默认1500)",
+   "主队'Al Diriyah'无主场近8场数据",
+   "主队'Al Diriyah'无SAU联赛数据(用联赛均值)",
+   "主队'Al Diriyah'本地无匹配(用联赛均值兜底)"
+  ],
+  "draw_warn_pct": 28.8,
+  "bets": [],
+  "best": null,
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 02:00",
+  "league": "Danish Superliga",
+  "home": "FC København",
+  "away": "FC Nordsjælland",
+  "model_wdl": [
+   53.1,
+   23.4,
+   23.4
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   2.42,
+   0.99,
+   3.41
+  ],
+  "over25": 60.1,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 39.9,
+    "odds": 2.74,
+    "ev": 9.4,
+    "star": 1,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 39.9,
+   "odds": 2.74,
+   "ev": 9.4,
+   "star": 1,
+   "mkt": "ou"
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 02:30",
+  "league": "Pro League",
+  "home": "KAA Gent",
+  "away": "Oud-Heverlee Leuven",
+  "model_wdl": [
+   42.2,
+   27.1,
+   30.7
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   1.6,
+   1.14,
+   2.74
+  ],
+  "over25": 43.9,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 56.1,
+    "odds": 1.95,
+    "ev": 9.5,
+    "star": 1,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 56.1,
+   "odds": 1.95,
+   "ev": 9.5,
+   "star": 1,
+   "mkt": "ou"
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 02:30",
+  "league": "Ekstraklasa",
+  "home": "Lech Poznań",
+  "away": "Jagiellonia Białystok",
+  "model_wdl": [
+   59.2,
+   21.3,
+   19.5
+  ],
+  "market_wdl": [
+   58.0,
+   21.2,
+   20.7
+  ],
+  "xg": [
+   2.11,
+   1.09,
+   3.2
+  ],
+  "over25": 57.3,
+  "data_warnings": [],
+  "draw_warn_pct": 21.2,
+  "bets": [],
+  "best": null,
+  "odds_estimated": false,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 02:30",
+  "league": "Puchar Polski",
+  "home": "Śląsk Wrocław",
+  "away": "Pogoń Szczecin",
+  "model_wdl": [
+   46.3,
+   27.6,
+   26.0
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   1.55,
+   0.84,
+   2.38
+  ],
+  "over25": 40.5,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 59.5,
+    "odds": 1.94,
+    "ev": 15.4,
+    "star": 3,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 59.5,
+   "odds": 1.94,
+   "ev": 15.4,
+   "star": 3,
+   "mkt": "ou"
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 02:30",
+  "league": "Pro League",
+  "home": "RSC Anderlecht",
+  "away": "KV Kortrijk",
+  "model_wdl": [
+   56.4,
+   22.9,
+   20.7
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   2.33,
+   0.61,
+   2.93
+  ],
+  "over25": 48.3,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 51.7,
+    "odds": 2.35,
+    "ev": 21.6,
+    "star": 3,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 51.7,
+   "odds": 2.35,
+   "ev": 21.6,
+   "star": 3,
+   "mkt": "ou"
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 02:30",
+  "league": "Super League",
+  "home": "FC Lugano",
+  "away": "Servette FC",
+  "model_wdl": [
+   52.7,
+   23.9,
+   23.4
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   2.42,
+   0.96,
+   3.38
+  ],
+  "over25": 75.1,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "大2.5",
+    "prob": 75.1,
+    "odds": 1.6,
+    "ev": 20.2,
+    "star": 3,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "大2.5",
+   "prob": 75.1,
+   "odds": 1.6,
+   "ev": 20.2,
+   "star": 3,
+   "mkt": "ou"
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 02:30",
+  "league": "Super League",
+  "home": "Basel",
+  "away": "FC Sion",
+  "model_wdl": [
+   46.3,
+   24.4,
+   29.3
+  ],
+  "market_wdl": [
+   37.8,
+   24.9,
+   37.2
+  ],
+  "xg": [
+   1.83,
+   1.1,
+   2.93
+  ],
+  "over25": 45.5,
+  "data_warnings": [],
+  "draw_warn_pct": 24.9,
+  "bets": [
+   {
+    "name": "主胜",
+    "prob": 46.3,
+    "odds": 2.46,
+    "ev": 13.8,
+    "star": 2,
+    "mkt": "1x2"
+   },
+   {
+    "name": "小2.5",
+    "prob": 54.5,
+    "odds": 2.57,
+    "ev": 40.0,
+    "star": 3,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 54.5,
+   "odds": 2.57,
+   "ev": 40.0,
+   "star": 3,
+   "mkt": "ou"
+  },
+  "odds_estimated": false,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 02:45",
+  "league": "Ligue 1",
+  "home": "Toulouse",
+  "away": "Lille",
+  "model_wdl": [
+   22.4,
+   26.1,
+   51.6
+  ],
+  "market_wdl": [
+   24.2,
+   27.2,
+   48.6
+  ],
+  "xg": [
+   0.86,
+   1.68,
+   2.54
+  ],
+  "over25": 45.5,
+  "data_warnings": [],
+  "draw_warn_pct": 27.2,
+  "bets": [],
+  "best": null,
+  "odds_estimated": false,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 03:00",
+  "league": "Coppa Italia",
+  "home": "Cagliari",
+  "away": "Hellas Verona",
+  "model_wdl": [
+   51.7,
+   26.7,
+   21.5
+  ],
+  "market_wdl": [
+   48.9,
+   27.7,
+   23.3
+  ],
+  "xg": [
+   1.58,
+   0.78,
+   2.36
+  ],
+  "over25": 46.9,
+  "data_warnings": [],
+  "draw_warn_pct": 27.7,
+  "bets": [],
+  "best": null,
+  "odds_estimated": false,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 03:00",
+  "league": "La Liga",
+  "home": "Real Sociedad",
+  "away": "Celta Vigo",
+  "model_wdl": [
+   42.0,
+   24.0,
+   34.0
+  ],
+  "market_wdl": [
+   53.3,
+   25.3,
+   21.4
+  ],
+  "xg": [
+   1.51,
+   1.94,
+   3.45
+  ],
+  "over25": 60.4,
+  "data_warnings": [],
+  "draw_warn_pct": 25.3,
+  "bets": [
+   {
+    "name": "客胜",
+    "prob": 34.0,
+    "odds": 4.3824,
+    "ev": 48.9,
+    "star": 3,
+    "mkt": "1x2"
+   },
+   {
+    "name": "大2.5",
+    "prob": 60.4,
+    "odds": 1.89,
+    "ev": 14.1,
+    "star": 2,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "客胜",
+   "prob": 34.0,
+   "odds": 4.3824,
+   "ev": 48.9,
+   "star": 3,
+   "mkt": "1x2"
+  },
+  "odds_estimated": false,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-04 07:00",
+  "league": "Copa do Brasil",
+  "home": "Grêmio",
+  "away": "Internacional",
+  "model_wdl": [
+   57.1,
+   22.6,
+   20.4
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   2.4,
+   0.63,
+   3.04
+  ],
+  "over25": 48.4,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "大2.5",
+    "prob": 48.4,
+    "odds": 2.4,
+    "ev": 16.2,
+    "star": 3,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "大2.5",
+   "prob": 48.4,
+   "odds": 2.4,
+   "ev": 16.2,
+   "star": 3,
+   "mkt": "ou"
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ }
+]

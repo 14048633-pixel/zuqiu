@@ -1,0 +1,2043 @@
+[
+ {
+  "ko_bjt": "09-05 00:00",
+  "league": "Saudi Pro League",
+  "home": "Abha",
+  "away": "Al-Ettifaq",
+  "model_wdl": [
+   30.7,
+   23.3,
+   45.9
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   0.96,
+   1.69,
+   2.65
+  ],
+  "over25": 48.9,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 51.1,
+    "odds": 2.09,
+    "ev": 6.7,
+    "star": 1,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 51.1,
+   "odds": 2.09,
+   "ev": 6.7,
+   "star": 1,
+   "mkt": "ou"
+  },
+  "injury_coef": [
+   1.0,
+   1.0
+  ],
+  "injury_note": null,
+  "injury_detail": {
+   "home": [],
+   "away": []
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 01:00",
+  "league": "Danish Superliga",
+  "home": "Viborg FF",
+  "away": "Lyngby",
+  "model_wdl": [
+   47.9,
+   25.9,
+   26.2
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   1.96,
+   0.87,
+   2.83
+  ],
+  "over25": 51.7,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 48.3,
+    "odds": 2.41,
+    "ev": 16.4,
+    "star": 3,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 48.3,
+   "odds": 2.41,
+   "ev": 16.4,
+   "star": 3,
+   "mkt": "ou"
+  },
+  "injury_coef": [
+   1.0,
+   1.0
+  ],
+  "injury_note": null,
+  "injury_detail": {
+   "home": [],
+   "away": []
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 01:00",
+  "league": "Trendyol Super Lig",
+  "home": "Başakşehir FK",
+  "away": "Galatasaray",
+  "model_wdl": [
+   38.1,
+   23.7,
+   38.2
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   0.95,
+   1.6,
+   2.55
+  ],
+  "over25": 43.7,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 56.3,
+    "odds": 2.6,
+    "ev": 46.3,
+    "star": 3,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 56.3,
+   "odds": 2.6,
+   "ev": 46.3,
+   "star": 3,
+   "mkt": "ou"
+  },
+  "injury_coef": [
+   1.014,
+   0.993
+  ],
+  "injury_note": "伤停λ修正 主x1.014 客x0.993 (1人)",
+  "injury_detail": {
+   "home": [],
+   "away": [
+    {
+     "name": "Günay Güvenç",
+     "pos": "门将",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.014
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 01:00",
+  "league": "Ligue 1",
+  "home": "Olympique Lyonnais",
+  "away": "Auxerre",
+  "model_wdl": [
+   47.8,
+   23.6,
+   28.6
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   2.31,
+   1.13,
+   3.43
+  ],
+  "over25": 67.9,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "大2.5",
+    "prob": 67.9,
+    "odds": 1.67,
+    "ev": 13.3,
+    "star": 2,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "大2.5",
+   "prob": 67.9,
+   "odds": 1.67,
+   "ev": 13.3,
+   "star": 2,
+   "mkt": "ou"
+  },
+  "injury_coef": [
+   1.0145895,
+   0.9964265
+  ],
+  "injury_note": "伤停λ修正 主x1.015 客x0.996 (10人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Julien Duranville",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Khalis Merah",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Pavel Šulc",
+     "pos": "前锋",
+     "weight": 1.0,
+     "tag": "主力(首发100%)",
+     "atk": 0.04,
+     "def": 0.0
+    }
+   ],
+   "away": [
+    {
+     "name": "Assane Dioussé",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Axel Tuanzebe",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Fredrik Oppegård",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Lasso Coulibaly",
+     "pos": "?",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.003,
+     "def": 0.003
+    },
+    {
+     "name": "Marvin Senaya",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Sekou Fofana",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Telli Siwe",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 01:00",
+  "league": "Eliteserien",
+  "home": "Fredrikstad FK",
+  "away": "Bodø/Glimt",
+  "model_wdl": [
+   45.2,
+   24.8,
+   30.0
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   0.73,
+   2.4,
+   3.14
+  ],
+  "over25": 57.2,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 42.8,
+    "odds": 2.96,
+    "ev": 26.8,
+    "star": 2,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 42.8,
+   "odds": 2.96,
+   "ev": 26.8,
+   "star": 2,
+   "mkt": "ou"
+  },
+  "injury_coef": [
+   1.02116,
+   1.005048
+  ],
+  "injury_note": "伤停λ修正 主x1.021 客x1.005 (7人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Kennedy Ikechukwu Okpaleke",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Sondre Sørløkk",
+     "pos": "中场",
+     "weight": 1.0,
+     "tag": "主力(首发100%)",
+     "atk": 0.02,
+     "def": 0.02
+    }
+   ],
+   "away": [
+    {
+     "name": "August Mikkelsen",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Haitam Aleesami",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Håkon Evjen",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Jostein Gundersen",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Magnus Riisnæs",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 01:00",
+  "league": "Eliteserien",
+  "home": "Aalesunds FK",
+  "away": "IK Start",
+  "model_wdl": [
+   47.0,
+   25.2,
+   27.8
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   2.46,
+   2.35,
+   4.81
+  ],
+  "over25": 62.9,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [],
+  "best": null,
+  "injury_coef": [
+   0.996255,
+   1.0175
+  ],
+  "injury_note": "伤停λ修正 主x0.996 客x1.018 (4人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Aleksander Kjelsen",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Davíð Snær Jóhannsson",
+     "pos": "?",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.003,
+     "def": 0.003
+    },
+    {
+     "name": "Paul Ngongo Iversen",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    }
+   ],
+   "away": [
+    {
+     "name": "Kristoffer Tønnessen",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 02:00",
+  "league": "Saudi Pro League",
+  "home": "Al-Shabab",
+  "away": "Al-Hilal",
+  "model_wdl": [
+   36.7,
+   30.7,
+   32.6
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   1.04,
+   4.4,
+   5.44
+  ],
+  "over25": 56.0,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "平局",
+    "prob": 30.7,
+    "odds": 3.3,
+    "ev": 1.2,
+    "star": 1,
+    "mkt": "1x2"
+   },
+   {
+    "name": "小2.5",
+    "prob": 44.0,
+    "odds": 3.03,
+    "ev": 33.3,
+    "star": 2,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 44.0,
+   "odds": 3.03,
+   "ev": 33.3,
+   "star": 2,
+   "mkt": "ou"
+  },
+  "injury_coef": [
+   1.0416569999999998,
+   1.013853
+  ],
+  "injury_note": "伤停λ修正 主x1.042 客x1.014 (6人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Dhari Sayyar Al-Anazi",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Mohammed Essa Harbush",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ],
+   "away": [
+    {
+     "name": "Ali Lajami",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Salem Al-Dawsari",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Theo Hernández",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Yusuf Akçiçek",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 02:00",
+  "league": "Saudi Pro League",
+  "home": "Al-Ahli",
+  "away": "Al-Riyadh",
+  "model_wdl": [
+   51.0,
+   21.8,
+   27.2
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   4.79,
+   0.61,
+   5.4
+  ],
+  "over25": 56.0,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 44.0,
+    "odds": 2.68,
+    "ev": 17.9,
+    "star": 2,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 44.0,
+   "odds": 2.68,
+   "ev": 17.9,
+   "star": 2,
+   "mkt": "ou"
+  },
+  "injury_coef": [
+   1.0,
+   1.014
+  ],
+  "injury_note": "伤停λ修正 主x1.000 客x1.014 (1人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Merih Demiral",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ],
+   "away": []
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 02:00",
+  "league": "Eredivisie",
+  "home": "Sparta Rotterdam",
+  "away": "PEC Zwolle",
+  "model_wdl": [
+   36.8,
+   25.6,
+   37.6
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   2.54,
+   1.03,
+   3.57
+  ],
+  "over25": 62.3,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 37.7,
+    "odds": 2.67,
+    "ev": 0.7,
+    "star": 1,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 37.7,
+   "odds": 2.67,
+   "ev": 0.7,
+   "star": 1,
+   "mkt": "ou"
+  },
+  "injury_coef": [
+   1.006902,
+   1.007
+  ],
+  "injury_note": "伤停λ修正 主x1.007 客x1.007 (2人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Robin van Cruijsen",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    }
+   ],
+   "away": [
+    {
+     "name": "Jan Bürger",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 02:30",
+  "league": "Segunda División",
+  "home": "UD Las Palmas",
+  "away": "Leganés",
+  "model_wdl": [
+   44.3,
+   28.4,
+   27.2
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   2.24,
+   0.44,
+   2.67
+  ],
+  "over25": 43.9,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [],
+  "best": null,
+  "injury_coef": [
+   0.999804,
+   1.014
+  ],
+  "injury_note": "伤停λ修正 主x1.000 客x1.014 (3人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Jesé Rodríguez",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Marvin Park",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ],
+   "away": [
+    {
+     "name": "Enric Franquesa",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 02:30",
+  "league": "Bundesliga",
+  "home": "VfB Stuttgart",
+  "away": "1. FC Köln",
+  "model_wdl": [
+   52.8,
+   24.5,
+   22.7
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   2.48,
+   0.76,
+   3.23
+  ],
+  "over25": 59.8,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 40.2,
+    "odds": 3.05,
+    "ev": 22.7,
+    "star": 2,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 40.2,
+   "odds": 3.05,
+   "ev": 22.7,
+   "star": 2,
+   "mkt": "ou"
+  },
+  "injury_coef": [
+   0.9740300000000001,
+   1.043442
+  ],
+  "injury_note": "伤停λ修正 主x0.974 客x1.043 (13人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Dan Zagadou",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Dennis Seimen",
+     "pos": "门将",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.014
+    },
+    {
+     "name": "Jeremy Arevalo",
+     "pos": "?",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.003,
+     "def": 0.003
+    },
+    {
+     "name": "Justin Diehl",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Leo Sauer",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Lorenz Assignon",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Luca Jaquez",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Nikolas Nartey",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Tiago Tomás",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    }
+   ],
+   "away": [
+    {
+     "name": "Luca Waldschmidt",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Sebastian Sebulonsen",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Thijs Dallinga",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Timo Hübers",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 02:30",
+  "league": "Ekstraklasa",
+  "home": "Piast Gliwice",
+  "away": "GKS Katowice",
+  "model_wdl": [
+   41.8,
+   27.7,
+   30.5
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   2.02,
+   1.17,
+   3.19
+  ],
+  "over25": 50.3,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 49.7,
+    "odds": 2.18,
+    "ev": 8.4,
+    "star": 1,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 49.7,
+   "odds": 2.18,
+   "ev": 8.4,
+   "star": 1,
+   "mkt": "ou"
+  },
+  "injury_coef": [
+   1.034,
+   0.986622
+  ],
+  "injury_note": "伤停λ修正 主x1.034 客x0.987 (3人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Igor Drapiński",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ],
+   "away": [
+    {
+     "name": "Borja Galán",
+     "pos": "中场",
+     "weight": 1.0,
+     "tag": "主力(首发100%)",
+     "atk": 0.02,
+     "def": 0.02
+    },
+    {
+     "name": "Rafał Strączek",
+     "pos": "门将",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.014
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 02:45",
+  "league": "Pro League",
+  "home": "Lommel SK",
+  "away": "Club Brugge KV",
+  "model_wdl": [
+   42.2,
+   24.3,
+   33.5
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   1.3,
+   1.34,
+   2.65
+  ],
+  "over25": 51.7,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 48.3,
+    "odds": 3.5,
+    "ev": 69.0,
+    "star": 2,
+    "mkt": "ou",
+    "note_big_div": "模型vs市场大分歧(20pp)封顶2星"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 48.3,
+   "odds": 3.5,
+   "ev": 69.0,
+   "star": 2,
+   "mkt": "ou",
+   "note_big_div": "模型vs市场大分歧(20pp)封顶2星"
+  },
+  "injury_coef": [
+   0.9999509999999999,
+   1.0416569999999998
+  ],
+  "injury_note": "伤停λ修正 主x1.000 客x1.042 (5人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Henry Oware",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Jesper Tolinsson",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Jhon Banguera",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Sverre Nypan",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    }
+   ],
+   "away": [
+    {
+     "name": "Carlos Forbs",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 02:45",
+  "league": "Serie A",
+  "home": "Genoa",
+  "away": "Como",
+  "model_wdl": [
+   31.2,
+   27.5,
+   41.4
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   0.74,
+   1.77,
+   2.51
+  ],
+  "over25": 48.1,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [],
+  "best": null,
+  "injury_coef": [
+   0.9929019999999998,
+   0.993
+  ],
+  "injury_note": "伤停λ修正 主x0.993 客x0.993 (2人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Elias Havel",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    }
+   ],
+   "away": [
+    {
+     "name": "Jayden Addai",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 03:00",
+  "league": "La Liga",
+  "home": "Real Betis",
+  "away": "Real Madrid",
+  "model_wdl": [
+   37.5,
+   26.9,
+   35.6
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   1.02,
+   1.72,
+   2.74
+  ],
+  "over25": 43.8,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 56.2,
+    "odds": 3.06,
+    "ev": 71.9,
+    "star": 2,
+    "mkt": "ou",
+    "note_big_div": "模型vs市场大分歧(23pp)封顶2星"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 56.2,
+   "odds": 3.06,
+   "ev": 71.9,
+   "star": 2,
+   "mkt": "ou",
+   "note_big_div": "模型vs市场大分歧(23pp)封顶2星"
+  },
+  "injury_coef": [
+   1.00553,
+   0.998236
+  ],
+  "injury_note": "伤停λ修正 主x1.006 客x0.998 (11人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Abdessamad Ezzalzouli",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Aitor Ruibal",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Diego Conde",
+     "pos": "门将",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.014
+    },
+    {
+     "name": "Giovani Lo Celso",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Gonzalo Petit",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    }
+   ],
+   "away": [
+    {
+     "name": "Aurélien Tchouaméni",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Endrick",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Ferland Mendy",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Raúl Asencio",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Rodrygo",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Thiago Pitarch",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 03:00",
+  "league": "Premier League",
+  "home": "Ipswich Town",
+  "away": "Liverpool FC",
+  "model_wdl": [
+   47.3,
+   23.2,
+   29.5
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   0.97,
+   2.93,
+   3.9
+  ],
+  "over25": 77.6,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "大2.5",
+    "prob": 77.6,
+    "odds": 1.4,
+    "ev": 8.7,
+    "star": 1,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "大2.5",
+   "prob": 77.6,
+   "odds": 1.4,
+   "ev": 8.7,
+   "star": 1,
+   "mkt": "ou"
+  },
+  "injury_coef": [
+   1.020118,
+   0.9924119999999998
+  ],
+  "injury_note": "伤停λ修正 主x1.020 客x0.992 (8人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Azor Matusiwa",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Jack Taylor",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Jaden Philogene-Bidace",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    }
+   ],
+   "away": [
+    {
+     "name": "Bradley Barcola",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Conor Bradley",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Giovanni Leoni",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Hugo Ekitiké",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Joe Gomez",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 03:00",
+  "league": "Eliteserien",
+  "home": "Sandefjord Fotball",
+  "away": "Viking FK",
+  "model_wdl": [
+   44.7,
+   24.6,
+   30.7
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   0.63,
+   1.83,
+   2.47
+  ],
+  "over25": 52.4,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 47.6,
+    "odds": 2.63,
+    "ev": 25.2,
+    "star": 3,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 47.6,
+   "odds": 2.63,
+   "ev": 25.2,
+   "star": 3,
+   "mkt": "ou"
+  },
+  "injury_coef": [
+   1.006412,
+   1.0205099999999998
+  ],
+  "injury_note": "伤停λ修正 主x1.006 客x1.021 (7人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Devon Koswal",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Filip Loftesnes Bjune",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Marcus Melchior",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Nikolaj Möller",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    }
+   ],
+   "away": [
+    {
+     "name": "Anders Baertelsen",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Martin Ove Roseth",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Veton Berisha",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 03:05",
+  "league": "Ligue 1",
+  "home": "Paris Saint-Germain",
+  "away": "AS Monaco",
+  "model_wdl": [
+   53.6,
+   22.2,
+   24.2
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   3.13,
+   1.09,
+   4.22
+  ],
+  "over25": 75.5,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [
+   {
+    "name": "大2.5",
+    "prob": 75.5,
+    "odds": 1.34,
+    "ev": 1.2,
+    "star": 1,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "大2.5",
+   "prob": 75.5,
+   "odds": 1.34,
+   "ev": 1.2,
+   "star": 1,
+   "mkt": "ou"
+  },
+  "injury_coef": [
+   1.0067059999999999,
+   0.99202
+  ],
+  "injury_note": "伤停λ修正 主x1.007 客x0.992 (7人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Ibrahim Mbaye",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Lucas Digne",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Nuno Mendes",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ],
+   "away": [
+    {
+     "name": "Ansu Fati",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Edan Diop",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Jordan Teze",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Takumi Minamino",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 03:15",
+  "league": "Liga Portugal Betclic",
+  "home": "FC Porto",
+  "away": "Moreirense",
+  "model_wdl": [
+   52.9,
+   18.7,
+   28.4
+  ],
+  "market_wdl": [
+   38.3,
+   28.8,
+   32.9
+  ],
+  "xg": [
+   2.75,
+   0.31,
+   3.06
+  ],
+  "over25": 58.7,
+  "data_warnings": [],
+  "draw_warn_pct": 28.8,
+  "bets": [],
+  "best": null,
+  "injury_coef": [
+   0.957216,
+   1.027412
+  ],
+  "injury_note": "伤停λ修正 主x0.957 客x1.027 (9人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Alan Varela",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Martim Fernandes",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Oskar Pietuszewski",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Samu Aghehowa",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Santiago Giménez",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Seko Fofana",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Zaidu Sanusi",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ],
+   "away": [
+    {
+     "name": "Janderson",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Yan Maranhão",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    }
+   ]
+  },
+  "odds_estimated": true,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 07:30",
+  "league": "MLS",
+  "home": "New York City FC",
+  "away": "Nashville SC",
+  "model_wdl": [
+   51.5,
+   24.2,
+   24.3
+  ],
+  "market_wdl": [
+   27.4,
+   34.5,
+   38.1
+  ],
+  "xg": [
+   1.36,
+   1.17,
+   2.53
+  ],
+  "over25": 54.0,
+  "data_warnings": [],
+  "draw_warn_pct": 34.5,
+  "bets": [],
+  "best": null,
+  "injury_coef": [
+   0.944,
+   1.027412
+  ],
+  "injury_note": "伤停λ修正 主x0.944 客x1.027 (8人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Aiden O'Neill",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Alonso Martínez",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Andrew Baiera",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    },
+    {
+     "name": "Arnau  Farnos",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Hannes Wolf",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Kai Trewin",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Talles Magno",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    }
+   ],
+   "away": [
+    {
+     "name": "Warren Madrigal",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    }
+   ]
+  },
+  "odds_estimated": false,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 09:00",
+  "league": "Liga MX Apertura",
+  "home": "Club Puebla",
+  "away": "CD Toluca",
+  "model_wdl": [
+   41.6,
+   25.9,
+   32.6
+  ],
+  "market_wdl": [
+   19.6,
+   22.5,
+   57.9
+  ],
+  "xg": [
+   1.54,
+   1.45,
+   3.0
+  ],
+  "over25": 49.0,
+  "data_warnings": [],
+  "draw_warn_pct": 22.5,
+  "bets": [
+   {
+    "name": "主胜",
+    "prob": 41.6,
+    "odds": 4.4466,
+    "ev": 84.8,
+    "star": 2,
+    "mkt": "1x2",
+    "note_big_div": "模型vs市场大分歧(22pp)封顶2星"
+   },
+   {
+    "name": "平局",
+    "prob": 25.9,
+    "odds": 3.93,
+    "ev": 1.7,
+    "star": 1,
+    "mkt": "1x2"
+   },
+   {
+    "name": "小2.5",
+    "prob": 51.0,
+    "odds": 2.36,
+    "ev": 20.4,
+    "star": 3,
+    "mkt": "ou"
+   }
+  ],
+  "best": {
+   "name": "主胜",
+   "prob": 41.6,
+   "odds": 4.4466,
+   "ev": 84.8,
+   "star": 2,
+   "mkt": "1x2",
+   "note_big_div": "模型vs市场大分歧(22pp)封顶2星"
+  },
+  "injury_coef": [
+   1.021,
+   0.979
+  ],
+  "injury_note": "伤停λ修正 主x1.021 客x0.979 (3人)",
+  "injury_detail": {
+   "home": [],
+   "away": [
+    {
+     "name": "Ivan López",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Marcel Ruíz",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    },
+    {
+     "name": "Santiago Simón",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014
+    }
+   ]
+  },
+  "odds_estimated": false,
+  "odds_src": "composite"
+ },
+ {
+  "ko_bjt": "09-05 11:00",
+  "league": "Liga MX Apertura",
+  "home": "FC Juárez",
+  "away": "CF Pachuca",
+  "model_wdl": [
+   41.5,
+   25.7,
+   32.7
+  ],
+  "market_wdl": [
+   25.3,
+   27.2,
+   47.5
+  ],
+  "xg": [
+   1.39,
+   1.88,
+   3.27
+  ],
+  "over25": 53.7,
+  "data_warnings": [],
+  "draw_warn_pct": 27.2,
+  "bets": [],
+  "best": null,
+  "injury_coef": [
+   0.9858529999999999,
+   0.9999509999999999
+  ],
+  "injury_note": "伤停λ修正 主x0.986 客x1.000 (3人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Luca Martínez Dupuy",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0
+    },
+    {
+     "name": "Lucas Romero",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    }
+   ],
+   "away": [
+    {
+     "name": "Alexei Domínguez",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007
+    }
+   ]
+  },
+  "odds_estimated": false,
+  "odds_src": "composite"
+ }
+]

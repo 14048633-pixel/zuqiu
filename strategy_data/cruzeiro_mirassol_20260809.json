@@ -1,0 +1,87 @@
+{
+ "match": "克鲁塞罗 vs 米拉索尔",
+ "tournament": "2026巴甲第22轮",
+ "date": "2026-08-09",
+ "kickoff": "22:00 GMT+8",
+ "odds": {
+  "home": 1.76,
+  "draw": 3.75,
+  "away": 4.5,
+  "hdp_home_05": "-0.5 @1.76",
+  "hdp_away_05": "+0.5 @2.16",
+  "hdp_home_075": "-0.5/1 @2.01",
+  "hdp_away_075": "+0.5/1 @1.89",
+  "hdp_home_1": "-1 @2.40",
+  "hdp_away_1": "+1 @1.61",
+  "ou_over_225": "2/2.5 @1.73",
+  "ou_over_25": "2.5 @1.99",
+  "ou_under_25": "2.5 @1.89",
+  "ht_home": 2.36,
+  "ht_draw": 2.13,
+  "ht_away": 5.2
+ },
+ "poisson": {
+  "lambda_home": 2.31,
+  "lambda_away": 1.5,
+  "total": 3.81,
+  "home_win": 0.558,
+  "draw": 0.197,
+  "away_win": 0.245,
+  "over25": 0.733,
+  "home_minus05": 0.558,
+  "home_minus075": 0.662,
+  "home_minus1": 0.349
+ },
+ "elo": {
+  "home": 1546,
+  "away": 1512,
+  "diff": 34,
+  "method": "巴西甲ELO"
+ },
+ "agent_risk_signals": {
+  "home_attack_risk": 0.7,
+  "away_attack_risk": 0.8,
+  "home_defense_risk": 0.1,
+  "away_defense_risk": 0.6,
+  "deadlock_prob": 0.35,
+  "home_adv_lost": 0.4,
+  "direction": "home"
+ },
+ "decision_chain": {
+  "verdict": "高级别/均势",
+  "recommend": "受让客 + 小球",
+  "confidence": "中",
+  "method": "elo"
+ },
+ "signal_consensus": {
+  "大球": [
+   "泊松73.3%",
+   "盘口大2/2.5=1.73",
+   "交锋3场全有球"
+  ],
+  "闷平/小球": [
+   "Agent deadlock=0.35",
+   "克鲁塞罗B级佛系不压上",
+   "米拉索尔541死守",
+   "前场双伤缺",
+   "巴西甲半场0-0率37.2%"
+  ],
+  "仲裁": "泊松大球73%被米拉索尔客场失2.33驱动, 但本场伤缺+死守+克鲁塞罗不压上 → 大球失真, 转向小球/受让客",
+  "让球规律": "巴西甲强主让1打穿率仅42.3% → 主队大胜难"
+ },
+ "final_recommend": {
+  "verdict": "多源仲裁: 大球失真, 小球/受让客更稳",
+  "让球": "客队+1(65.1%) 或 主胜但不追深盘(打穿率42.3%)",
+  "大小球": "不追大2.5(73%被Agent闷平质疑), 小球方向更符合战术",
+  "半场": "偏闷平(巴西甲37.2%+半场平2.13)",
+  "风险": "克鲁塞罗B级佛系轮换风险; 米拉索尔客场失2.33可能真被打穿(大球72%盘口也支持)",
+  "new_scheme_note": "客+1受让55%确认(盘口1.61有价值); Agent死守0.6与大球冲突仍存"
+ },
+ "data_source": "user_provided (FBref/Sports Mole/CBF/Whoscored/米纳斯体育报)",
+ "settlement": "待定",
+ "new_scheme": {
+  "蒙特卡洛": "主胜56% 大2.5=73% TG=3.81→over 客+1受让55%",
+  "交叉校验": "通过",
+  "新结论": "客+1受让55%确认(盘口1.61有价值); Agent死守0.6与大球冲突仍存"
+ }
+}
