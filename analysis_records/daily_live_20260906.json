@@ -45,6 +45,4434 @@
    "round_time": "14:33",
    "matches": [],
    "note": "空轮(白天时段)"
+  },
+  {
+   "round_time": "22:06",
+   "matches": [
+    {
+     "event_id": 214806,
+     "league": "Segunda División",
+     "kickoff": "22:15",
+     "home": "Real Oviedo",
+     "away": "Burgos Club de Fútbol",
+     "status": "notstarted",
+     "odds_bsd": {
+      "home_win": 1.92,
+      "draw": 3.09,
+      "away_win": 4.17,
+      "over_15_goals": 1.5,
+      "over_25_goals": 2.55,
+      "over_35_goals": 5.14,
+      "under_15_goals": 2.49,
+      "under_25_goals": 1.49,
+      "under_35_goals": 1.14,
+      "btts_yes": 2.22,
+      "btts_no": 1.59
+     },
+     "lineups": {
+      "home": {
+       "team_id": 42,
+       "team_name": "Real Oviedo",
+       "formation": "4-4-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 1964,
+         "name": "Aarón Escandell",
+         "short_name": "A. Escandell",
+         "position": "G",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 31874,
+         "name": "Aisar Ahmed",
+         "short_name": "A. Ahmed",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1975,
+         "name": "Dani Calvo",
+         "short_name": "D. Calvo",
+         "position": "D",
+         "jersey_number": 12,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 1270,
+         "name": "Carlos Domínguez",
+         "short_name": "C. Domínguez",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 66123,
+         "name": "Samu Rodríguez",
+         "short_name": "S. Rodríguez",
+         "position": "D",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 27892,
+         "name": "Pablo Sáenz",
+         "short_name": "P. Sáenz",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30517,
+         "name": "Daniel Villahermosa",
+         "short_name": "D. Villahermosa",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30256,
+         "name": "Aritz Aldasoro",
+         "short_name": "A. Aldasoro",
+         "position": "M",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 27129,
+         "name": "Jacobo González",
+         "short_name": "Jacobo González",
+         "position": "M",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1979,
+         "name": "Alberto Reina",
+         "short_name": "A. Reina",
+         "position": "F",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11715,
+         "name": "Alexandru Ișfan",
+         "short_name": "A. Ișfan",
+         "position": "F",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 4972,
+         "name": "Miguel Narvaez",
+         "short_name": "M. Narvaez",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50435,
+         "name": "Juan Cruz",
+         "short_name": "C. Juan",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4651,
+         "name": "Marco Esteban",
+         "short_name": "M. Esteban",
+         "position": "D",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4609,
+         "name": "David Jiménez",
+         "short_name": "D. Jiménez",
+         "position": "D",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30552,
+         "name": "Youness Lachhab",
+         "short_name": "Y. Lachhab",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 66787,
+         "name": "Enzo Pérez",
+         "short_name": "E. Pérez",
+         "position": "M",
+         "jersey_number": 32,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5224,
+         "name": "Diego Menendez",
+         "short_name": "D. Menendez",
+         "position": "M",
+         "jersey_number": 28,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1755,
+         "name": "Mikel Goti",
+         "short_name": "M. Goti",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 66122,
+         "name": "Víctor Mingo",
+         "short_name": "V. Mingo",
+         "position": "F",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28215,
+         "name": "Estanis Pedrola",
+         "short_name": "E. Pedrola",
+         "position": "M",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 1401,
+       "team_name": "Burgos Club de Fútbol",
+       "formation": "4-4-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 30383,
+         "name": "Ander Cantero",
+         "short_name": "A. Cantero",
+         "position": "G",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30244,
+         "name": "Alberto Dadie",
+         "short_name": "A. Dadie",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30310,
+         "name": "Sergio González",
+         "short_name": "S. González",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30386,
+         "name": "Grego Sierra",
+         "short_name": "G. Sierra",
+         "position": "D",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 27146,
+         "name": "Ignasi Vilarrasa",
+         "short_name": "I. Vilarrasa",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30388,
+         "name": "David González",
+         "short_name": "D. González",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 27290,
+         "name": "José Gragera",
+         "short_name": "J. Gragera",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 35480,
+         "name": "Pablo Galdames",
+         "short_name": "P. Galdames",
+         "position": "M",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2656,
+         "name": "Javi Llabrés",
+         "short_name": "J. Llabrés",
+         "position": "M",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30472,
+         "name": "Curro Sánchez",
+         "short_name": "C. Sanchez",
+         "position": "F",
+         "jersey_number": 16,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 1976,
+         "name": "Álex Forés",
+         "short_name": "Á. Forés",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 26531,
+         "name": "Bruno Iribarne",
+         "short_name": "B. Iribarne",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30406,
+         "name": "Brais Martínez",
+         "short_name": "B. Martínez",
+         "position": "D",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30613,
+         "name": "Saúl del Cerro",
+         "short_name": "S. d. Cerro",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 31388,
+         "name": "Iván Martínez",
+         "short_name": "I. Martínez",
+         "position": "D",
+         "jersey_number": 36,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3929,
+         "name": "Unai Vencedor",
+         "short_name": "U. Vencedor",
+         "position": "M",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17136,
+         "name": "Kevin Appin",
+         "short_name": "K. Appin",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30395,
+         "name": "Marcelo Expósito",
+         "short_name": "M. Expósito",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 31383,
+         "name": "Fermín García",
+         "short_name": "F. García",
+         "position": "F",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30473,
+         "name": "Mario Cantero",
+         "short_name": "M. Cantero",
+         "position": "M",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 31384,
+         "name": "Víctor Mollejo",
+         "short_name": "V. Mollejo",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4387,
+         "name": "Jon Karrikaburu",
+         "short_name": "J. Karrikaburu",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30603,
+         "name": "Irian Ribas",
+         "short_name": "I. Ribas",
+         "position": "F",
+         "jersey_number": 31,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "未开赛",
+      "minute": null,
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null
+     },
+     "theodds_match": null
+    },
+    {
+     "event_id": 213558,
+     "league": "La Liga",
+     "kickoff": "22:15",
+     "home": "Valencia",
+     "away": "FC Barcelona",
+     "status": "notstarted",
+     "odds_bsd": {
+      "home_win": 9.43,
+      "draw": 6.08,
+      "away_win": 1.27,
+      "over_15_goals": 1.08,
+      "over_25_goals": 1.36,
+      "over_35_goals": 1.96,
+      "under_15_goals": 6.84,
+      "under_25_goals": 3.05,
+      "under_35_goals": 1.86,
+      "btts_yes": 1.68,
+      "btts_no": 2.11
+     },
+     "lineups": {
+      "home": {
+       "team_id": 47,
+       "team_name": "Valencia",
+       "formation": "5-3-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 939,
+         "name": "Stole Dimitrievski",
+         "short_name": "S. Dimitrievski",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2638,
+         "name": "Pablo Maffeo",
+         "short_name": "P. Maffeo",
+         "position": "D",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1038,
+         "name": "Arnau Martínez",
+         "short_name": "A. Martínez",
+         "position": "D",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 929,
+         "name": "Pepelu",
+         "short_name": "Pepelu",
+         "position": "D",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4549,
+         "name": "Mouctar Diakhaby",
+         "short_name": "M. Diakhaby",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 941,
+         "name": "Jesús Vázquez",
+         "short_name": "J. Vázquez",
+         "position": "D",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 945,
+         "name": "David Otorbi",
+         "short_name": "D. Otorbi",
+         "position": "M",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 14680,
+         "name": "Aliou Dieng",
+         "short_name": "A. Dieng",
+         "position": "M",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 935,
+         "name": "Filip Ugrinić",
+         "short_name": "F. Ugrinić",
+         "position": "M",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 934,
+         "name": "Arnaut Danjuma",
+         "short_name": "A. Danjuma",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 928,
+         "name": "Javier Guerra",
+         "short_name": "J. Guerra",
+         "position": "F",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 5406,
+         "name": "Kayne van Oevelen",
+         "short_name": "K. v. Oevelen",
+         "position": "G",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 927,
+         "name": "José Luis Gayà",
+         "short_name": "J. L. Gayà",
+         "position": "D",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 31811,
+         "name": "Iker Cordoba",
+         "short_name": "I. Córdoba",
+         "position": "D",
+         "jersey_number": 36,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 116502,
+         "name": "Rodrigo Gamón",
+         "short_name": "R. Gamón",
+         "position": "D",
+         "jersey_number": 31,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 925,
+         "name": "César Tárrega",
+         "short_name": "C. Tárrega",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 116503,
+         "name": "Jaume Durá",
+         "short_name": "J. Durá",
+         "position": "M",
+         "jersey_number": 38,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 12043,
+         "name": "Aaron Mayol",
+         "short_name": "A. Mayol",
+         "position": "D",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3194,
+         "name": "Harvey Elliott",
+         "short_name": "H. Elliott",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17236,
+         "name": "Ryunosuke Sato",
+         "short_name": "R. Sato",
+         "position": "M",
+         "jersey_number": 39,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 933,
+         "name": "Hugo Duro",
+         "short_name": "H. Duro",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4837,
+         "name": "Aimar Blazquez",
+         "short_name": "A. Blázquez",
+         "position": "F",
+         "jersey_number": 37,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 938,
+         "name": "Dani Raba",
+         "short_name": "D. Raba",
+         "position": "F",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 44,
+       "team_name": "FC Barcelona",
+       "formation": "4-2-3-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 738,
+         "name": "Joan García",
+         "short_name": "J. García",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 743,
+         "name": "Eric García",
+         "short_name": "E. García",
+         "position": "D",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 740,
+         "name": "Pau Cubarsí",
+         "short_name": "P. Cubarsí",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 741,
+         "name": "Gerard Martín",
+         "short_name": "G. Martín",
+         "position": "D",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3980,
+         "name": "Xavi Espart",
+         "short_name": "X. Espart",
+         "position": "D",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 744,
+         "name": "Pedri",
+         "short_name": "Pedri",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4267,
+         "name": "Rodri",
+         "short_name": "Rodri",
+         "position": "M",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 745,
+         "name": "Lamine Yamal",
+         "short_name": "L. Yamal",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3663,
+         "name": "Fermín López",
+         "short_name": "F. López",
+         "position": "M",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 711,
+         "name": "Anthony Gordon",
+         "short_name": "A. Gordon",
+         "position": "M",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 747,
+         "name": "Raphinha",
+         "short_name": "Raphinha",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": true,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 754,
+         "name": "Wojciech Szczęsny",
+         "short_name": "W. Szczęsny",
+         "position": "G",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1053,
+         "name": "Dominik Livaković",
+         "short_name": "D. Livaković",
+         "position": "G",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8331,
+         "name": "João Cancelo",
+         "short_name": "J. Cancelo",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 742,
+         "name": "Alejandro Balde",
+         "short_name": "A. Balde",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 739,
+         "name": "Jules Koundé",
+         "short_name": "J. Koundé",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 753,
+         "name": "Andreas Christensen",
+         "short_name": "A. Christensen",
+         "position": "D",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 757,
+         "name": "Marc Bernal",
+         "short_name": "M. Bernal",
+         "position": "M",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4900,
+         "name": "Gavi",
+         "short_name": "Gavi",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 746,
+         "name": "Dani Olmo",
+         "short_name": "D. Olmo",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2163,
+         "name": "Karim Adeyemi",
+         "short_name": "K. Adeyemi",
+         "position": "F",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15835,
+         "name": "Hamza Abdelkarim",
+         "short_name": "H. Abdelkarim",
+         "position": "F",
+         "jersey_number": 29,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 461,
+         "name": "Gabriel Jesus",
+         "short_name": "G. Jesus",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [
+       "S. Canos(Missing Fixture)",
+       "J. Copete(Missing Fixture)",
+       "J. De Haas(Missing Fixture)",
+       "D. Foulquier(Missing Fixture)",
+       "D. Lopez(Missing Fixture)",
+       "L. Rioja(Missing Fixture)",
+       "G. Rodriguez(Missing Fixture)",
+       "U. Sadiq(Missing Fixture)",
+       "S. Canos(Missing Fixture)",
+       "J. Copete(Missing Fixture)",
+       "J. De Haas(Missing Fixture)",
+       "D. Foulquier(Missing Fixture)",
+       "D. Lopez(Missing Fixture)",
+       "L. Rioja(Missing Fixture)",
+       "G. Rodriguez(Missing Fixture)",
+       "U. Sadiq(Missing Fixture)"
+      ],
+      "away": [
+       "R. Bardghji(Missing Fixture)",
+       "J. Bisiwu(Missing Fixture)",
+       "F. de Jong(Missing Fixture)",
+       "R. Bardghji(Missing Fixture)",
+       "J. Bisiwu(Missing Fixture)",
+       "F. de Jong(Missing Fixture)"
+      ]
+     },
+     "live": {
+      "score": "未开赛",
+      "minute": null,
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null
+     },
+     "theodds_match": null
+    },
+    {
+     "event_id": 375030,
+     "league": "Liga Portugal 2",
+     "kickoff": "22:30",
+     "home": "Leixões SC",
+     "away": "Amarante FC",
+     "status": "notstarted",
+     "odds_bsd": {
+      "home_win": 1.86,
+      "draw": 3.31,
+      "away_win": 3.87,
+      "over_15_goals": 1.33,
+      "over_25_goals": 2.08,
+      "over_35_goals": 3.72,
+      "under_15_goals": 3.02,
+      "under_25_goals": 1.7,
+      "under_35_goals": 1.24,
+      "btts_yes": 1.91,
+      "btts_no": 1.79
+     },
+     "lineups": {
+      "home": {
+       "team_id": 3334,
+       "team_name": "Leixões SC",
+       "formation": "4-4-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 2732,
+         "name": "Simão",
+         "short_name": "Simão",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87933,
+         "name": "Paulinho",
+         "short_name": "Paulinho",
+         "position": "D",
+         "jersey_number": 77,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 87935,
+         "name": "Matheus Costa",
+         "short_name": "M. Costa",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87932,
+         "name": "Lourenco Henriques",
+         "short_name": "L. Henriques",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87931,
+         "name": "Serif Nhaga",
+         "short_name": "S. Nhaga",
+         "position": "D",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87924,
+         "name": "Salvador Agra",
+         "short_name": "S. Agra",
+         "position": "M",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87926,
+         "name": "Amadu Balde",
+         "short_name": "A. Baldé",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87927,
+         "name": "Cláudio Araújo",
+         "short_name": "C. Araújo",
+         "position": "M",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2727,
+         "name": "Rafael Barbosa",
+         "short_name": "R. Barbosa",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87920,
+         "name": "Luccas Paraizo Feitosa",
+         "short_name": "L. Paraizo",
+         "position": "F",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 57273,
+         "name": "Bryan Róchez",
+         "short_name": "B. Róchez",
+         "position": "F",
+         "jersey_number": 35,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 2318,
+         "name": "Caio Secco",
+         "short_name": "C. Secco",
+         "position": "G",
+         "jersey_number": 26,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87939,
+         "name": "Igor Stefanović",
+         "short_name": "I. Stefanović",
+         "position": "G",
+         "jersey_number": 51,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87934,
+         "name": "Fernando Fonseca",
+         "short_name": "F. Fonseca",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 29338,
+         "name": "Alysson Silva",
+         "short_name": "A. Silva",
+         "position": "D",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87937,
+         "name": "Simãozinho",
+         "short_name": "Simãozinho",
+         "position": "D",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4292,
+         "name": "Semeu Commey",
+         "short_name": "S. Commey",
+         "position": "D",
+         "jersey_number": 44,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87936,
+         "name": "Hugo Faria",
+         "short_name": "H. Faria",
+         "position": "D",
+         "jersey_number": 63,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2280,
+         "name": "Miguel Sousa",
+         "short_name": "M. Sousa",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 127749,
+         "name": "Arthur Baggio",
+         "short_name": "A. Baggio",
+         "position": "M",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87930,
+         "name": "Agustin De Armas",
+         "short_name": "A. D. Armas",
+         "position": "M",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87925,
+         "name": "Ruben Pina",
+         "short_name": "R. Pina",
+         "position": "M",
+         "jersey_number": 88,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 25133,
+         "name": "Kaique",
+         "short_name": "Kaique",
+         "position": "F",
+         "jersey_number": 71,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 4829,
+       "team_name": "Amarante FC",
+       "formation": "3-4-3",
+       "confidence": null,
+       "players": [
+        {
+         "id": 75323,
+         "name": "Didi",
+         "short_name": "D. Figueiredo",
+         "position": "G",
+         "jersey_number": 65,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 75217,
+         "name": "Feliciano Mendes",
+         "short_name": "F. Mendes",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 75219,
+         "name": "João Filipe",
+         "short_name": "J. Filipe",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 65015,
+         "name": "Gonçalo Cunha",
+         "short_name": "G. Cunha",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5169,
+         "name": "Diogo Pereira",
+         "short_name": "D. Pereira",
+         "position": "M",
+         "jersey_number": 28,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 75230,
+         "name": "Faissal Zangre",
+         "short_name": "F. Zangre",
+         "position": "F",
+         "jersey_number": 26,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 94648,
+         "name": "Ruben Alves",
+         "short_name": "R. Alves",
+         "position": "M",
+         "jersey_number": 88,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 75189,
+         "name": "João Ricardo",
+         "short_name": "J. Ricardo",
+         "position": "F",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 36855,
+         "name": "Nito",
+         "short_name": "Nito",
+         "position": "M",
+         "jersey_number": 85,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8859,
+         "name": "Edgar Melvin Costa",
+         "short_name": "M. Costa",
+         "position": "F",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 119157,
+         "name": "Luís Machado",
+         "short_name": "L. Machado",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 75238,
+         "name": "Rafael Flores",
+         "short_name": "R. Flores",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 88664,
+         "name": "Diogo Fernandes",
+         "short_name": "D. Fernandes",
+         "position": "G",
+         "jersey_number": 51,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 75724,
+         "name": "Oluwatimilehin Adeniyi",
+         "short_name": "O. Adeniyi",
+         "position": "D",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 29842,
+         "name": "Rodrigo Beirao",
+         "short_name": "R. Beirão",
+         "position": "D",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 69611,
+         "name": "Ian Custódio",
+         "short_name": "I. Custódio",
+         "position": "D",
+         "jersey_number": 36,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87552,
+         "name": "Rodrigo Guedes",
+         "short_name": "R. Guedes",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 87553,
+         "name": "Jose Campelo Doria",
+         "short_name": "T. Dória",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 63544,
+         "name": "Simao Silva",
+         "short_name": "S. Silva",
+         "position": "M",
+         "jersey_number": 78,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 75236,
+         "name": "Cardoso",
+         "short_name": "Cardoso",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 75226,
+         "name": "Arome",
+         "short_name": "Arome",
+         "position": "F",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 125295,
+         "name": "Kenneth Ikugar",
+         "short_name": "K. Ikugar",
+         "position": "F",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 9038,
+         "name": "Rudi Almeida",
+         "short_name": "R. Almeida",
+         "position": "F",
+         "jersey_number": 91,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "未开赛",
+      "minute": null,
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null
+     },
+     "theodds_match": null
+    },
+    {
+     "event_id": 215533,
+     "league": "Liga Portugal Betclic",
+     "kickoff": "22:30",
+     "home": "Santa Clara",
+     "away": "Rio Ave",
+     "status": "notstarted",
+     "odds_bsd": {
+      "home_win": 1.87,
+      "draw": 3.29,
+      "away_win": 4.38,
+      "over_15_goals": 1.39,
+      "over_25_goals": 2.21,
+      "over_35_goals": 4.12,
+      "under_15_goals": 2.83,
+      "under_25_goals": 1.64,
+      "under_35_goals": 1.2,
+      "btts_yes": 1.99,
+      "btts_no": 1.73
+     },
+     "lineups": {
+      "home": {
+       "team_id": 28,
+       "team_name": "Santa Clara",
+       "formation": "4-1-2-3",
+       "confidence": null,
+       "players": [
+        {
+         "id": 2046,
+         "name": "Lucas França",
+         "short_name": "L. França",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1529,
+         "name": "Lucas Soares",
+         "short_name": "L. Soares",
+         "position": "M",
+         "jersey_number": 42,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 27677,
+         "name": "Emanuel Fernandes",
+         "short_name": "E. Fernandes",
+         "position": "D",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4991,
+         "name": "Pedro Pacheco",
+         "short_name": "P. Pacheco",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8969,
+         "name": "Guilherme Romão",
+         "short_name": "G. Romão",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1533,
+         "name": "Pedro Ferreira",
+         "short_name": "P. Ferreira",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1538,
+         "name": "José Tavares",
+         "short_name": "J. Tavares",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 27669,
+         "name": "Tiago Ribeiro",
+         "short_name": "T. Ribeiro",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1535,
+         "name": "Brenner",
+         "short_name": "Brenner",
+         "position": "F",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 131,
+         "name": "Gonçalo Paciência",
+         "short_name": "G. Paciência",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4045,
+         "name": "Vinícius Lopes",
+         "short_name": "V. Lopes",
+         "position": "F",
+         "jersey_number": 70,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": []
+      },
+      "away": {
+       "team_id": 38,
+       "team_name": "Rio Ave",
+       "formation": "4-2-3-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 9002,
+         "name": "Ennio Van Der Gouw",
+         "short_name": "E. Van Der Gouw",
+         "position": "G",
+         "jersey_number": 99,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1509,
+         "name": "Marios Vrousai",
+         "short_name": "M. Vrousai",
+         "position": "M",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1506,
+         "name": "Francisco Petrasso",
+         "short_name": "F. Petrasso",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4870,
+         "name": "Gustavo Mancha",
+         "short_name": "G. Mancha",
+         "position": "D",
+         "jersey_number": 39,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1020,
+         "name": "Pedro Amaral",
+         "short_name": "P. Amaral",
+         "position": "D",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1510,
+         "name": "Andreas Ndoj",
+         "short_name": "A. Ndoj",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1524,
+         "name": "Tamás Nikitscher",
+         "short_name": "T. Nikitscher",
+         "position": "M",
+         "jersey_number": 44,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8597,
+         "name": "Diogo Bezerra",
+         "short_name": "D. Bezerra",
+         "position": "M",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 9004,
+         "name": "Jalen Blesa",
+         "short_name": "J. Blesa",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1516,
+         "name": "Dario Špikić",
+         "short_name": "D. Špikić",
+         "position": "F",
+         "jersey_number": 77,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 9003,
+         "name": "Tamblé Monteiro",
+         "short_name": "T. Monteiro",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": []
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "未开赛",
+      "minute": null,
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null
+     },
+     "theodds_match": null
+    },
+    {
+     "event_id": 211407,
+     "league": "Super League",
+     "kickoff": "22:30",
+     "home": "FC Sion",
+     "away": "FC Thun",
+     "status": "notstarted",
+     "odds_bsd": {
+      "home_win": 1.68,
+      "draw": 4.11,
+      "away_win": 4.18,
+      "over_15_goals": 1.1,
+      "over_25_goals": 1.4,
+      "over_35_goals": 2.0,
+      "under_15_goals": 6.11,
+      "under_25_goals": 2.81,
+      "under_35_goals": 1.78,
+      "btts_yes": 1.43,
+      "btts_no": 2.64
+     },
+     "lineups": {
+      "home": {
+       "team_id": 247,
+       "team_name": "FC Sion",
+       "formation": "4-1-4-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 7512,
+         "name": "Anthony Racioppi",
+         "short_name": "A. Racioppi",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7513,
+         "name": "Numa Lavanchy",
+         "short_name": "N. Lavanchy",
+         "position": "D",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7539,
+         "name": "Noé Sow",
+         "short_name": "N. Sow",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7516,
+         "name": "Jan Kronig",
+         "short_name": "J. Kronig",
+         "position": "D",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7537,
+         "name": "Marquinhos Cipriano",
+         "short_name": "M. Cipriano",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7520,
+         "name": "Ali Kabacalman",
+         "short_name": "A. Kabacalman",
+         "position": "M",
+         "jersey_number": 88,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 7529,
+         "name": "Donat Rrudhani",
+         "short_name": "D. Rrudhani",
+         "position": "M",
+         "jersey_number": 77,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3895,
+         "name": "Fode Sylla",
+         "short_name": "F. Sylla",
+         "position": "M",
+         "jersey_number": 37,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7521,
+         "name": "Baltazar",
+         "short_name": "Baltazar",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7482,
+         "name": "Franck Surdez",
+         "short_name": "F. Surdez",
+         "position": "M",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7534,
+         "name": "Winsley Boteli Mokango",
+         "short_name": "W. Boteli Mokango",
+         "position": "F",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 7536,
+         "name": "Francesco Ruberto",
+         "short_name": "F. Ruberto",
+         "position": "G",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 39516,
+         "name": "Lorenzo Villa",
+         "short_name": "L. Villa",
+         "position": "D",
+         "jersey_number": 55,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7518,
+         "name": "Nias Hefti",
+         "short_name": "N. Hefti",
+         "position": "D",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7672,
+         "name": "Josias Lukembila",
+         "short_name": "J. Lukembila",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7519,
+         "name": "Liam Scott Chipperfield",
+         "short_name": "L. Chipperfield",
+         "position": "M",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7526,
+         "name": "Ylyas Chouaref",
+         "short_name": "Y. Chouaref",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7528,
+         "name": "Benjamin Kololli",
+         "short_name": "B. Kololli",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7831,
+         "name": "Adrien Llukes",
+         "short_name": "A. Llukes",
+         "position": "M",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7525,
+         "name": "Rilind Nivokazi",
+         "short_name": "R. Nivokazi",
+         "position": "F",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 255,
+       "team_name": "FC Thun",
+       "formation": "4-4-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 7393,
+         "name": "Niklas Steffen",
+         "short_name": "N. Steffen",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7415,
+         "name": "Fabio Fehr",
+         "short_name": "F. Fehr",
+         "position": "D",
+         "jersey_number": 47,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7396,
+         "name": "Jan Bamert",
+         "short_name": "J. Bamert",
+         "position": "D",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7398,
+         "name": "Marco Bürki",
+         "short_name": "M. Bürki",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 4390,
+         "name": "Olivier Mambwa",
+         "short_name": "O. Mambwa",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7413,
+         "name": "Nils Reichmuth",
+         "short_name": "N. Reichmuth",
+         "position": "M",
+         "jersey_number": 70,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7815,
+         "name": "Mattias Käit",
+         "short_name": "M. Käit",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30080,
+         "name": "Fabio Saiz",
+         "short_name": "F. Saiz",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 27434,
+         "name": "Dorian Derbaci",
+         "short_name": "D. Derbaci",
+         "position": "M",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7409,
+         "name": "Brighton Labeau",
+         "short_name": "B. Labeau",
+         "position": "F",
+         "jersey_number": 96,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 12057,
+         "name": "Furkan Dursun",
+         "short_name": "F. Dursun",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 3161,
+         "name": "Tim Spycher",
+         "short_name": "T. Spycher",
+         "position": "G",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7394,
+         "name": "Lucien Dähler",
+         "short_name": "L. Dähler",
+         "position": "D",
+         "jersey_number": 37,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 62237,
+         "name": "Nicolas Bürgy",
+         "short_name": "N. Bürgy",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50165,
+         "name": "Tom Strannegård",
+         "short_name": "T. Strannegård",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 27436,
+         "name": "Nassim Zoukit",
+         "short_name": "N. Zoukit",
+         "position": "M",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7403,
+         "name": "Justin Roth",
+         "short_name": "J. Roth",
+         "position": "M",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30880,
+         "name": "Nico Maier",
+         "short_name": "N. Maier",
+         "position": "M",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15818,
+         "name": "Noah Christoffersson",
+         "short_name": "N. Christoffersson",
+         "position": "F",
+         "jersey_number": 26,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 63977,
+         "name": "Simon Lengen",
+         "short_name": "S. Lengen",
+         "position": "F",
+         "jersey_number": 80,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "未开赛",
+      "minute": null,
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null
+     },
+     "theodds_match": {
+      "commence_time": "2026-09-06T14:30:00Z",
+      "bookmakers": [
+       {
+        "key": "leovegas_se",
+        "title": "LeoVegas (SE)",
+        "last_update": "2026-09-06T14:06:44Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.61
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.1
+           },
+           {
+            "name": "Draw",
+            "price": 3.95
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.87,
+            "point": 3.5
+           },
+           {
+            "name": "Under",
+            "price": 1.77,
+            "point": 3.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "pmu_fr",
+        "title": "PMU (FR)",
+        "last_update": "2026-09-06T14:06:44Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.57
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.1
+           },
+           {
+            "name": "Draw",
+            "price": 3.95
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.81,
+            "point": 3.5
+           },
+           {
+            "name": "Under",
+            "price": 1.71,
+            "point": 3.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2026-09-06T14:06:09Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:09Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.65
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.2
+           },
+           {
+            "name": "Draw",
+            "price": 4.05
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:09Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.35,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 2.95,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "unibet_nl",
+        "title": "Unibet (NL)",
+        "last_update": "2026-09-06T14:06:43Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:43Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.66
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.3
+           },
+           {
+            "name": "Draw",
+            "price": 4.2
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:43Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.88,
+            "point": 3.5
+           },
+           {
+            "name": "Under",
+            "price": 1.79,
+            "point": 3.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2026-09-06T14:06:08Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:08Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.65
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.2
+           },
+           {
+            "name": "Draw",
+            "price": 4.05
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:08Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.35,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 2.95,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "unibet_se",
+        "title": "Unibet (SE)",
+        "last_update": "2026-09-06T14:06:45Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.66
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.3
+           },
+           {
+            "name": "Draw",
+            "price": 4.2
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.88,
+            "point": 3.5
+           },
+           {
+            "name": "Under",
+            "price": 1.79,
+            "point": 3.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "betclic_fr",
+        "title": "Betclic (FR)",
+        "last_update": "2026-09-06T14:05:56Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:05:56Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.62
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.15
+           },
+           {
+            "name": "Draw",
+            "price": 4.1
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "codere_it",
+        "title": "Codere (IT)",
+        "last_update": "2026-09-06T14:06:42Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:42Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.68
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.3
+           },
+           {
+            "name": "Draw",
+            "price": 4.3
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:42Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.84,
+            "point": 3.5
+           },
+           {
+            "name": "Under",
+            "price": 1.83,
+            "point": 3.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "winamax_fr",
+        "title": "Winamax (FR)",
+        "last_update": "2026-09-06T14:06:09Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:09Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.6
+           },
+           {
+            "name": "FC Thun",
+            "price": 3.9
+           },
+           {
+            "name": "Draw",
+            "price": 4.1
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "winamax_de",
+        "title": "Winamax (DE)",
+        "last_update": "2026-09-06T14:06:46Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:46Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.64
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.0
+           },
+           {
+            "name": "Draw",
+            "price": 4.2
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2026-09-06T14:06:09Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:09Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.68
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.29
+           },
+           {
+            "name": "Draw",
+            "price": 4.2
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:09Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.91,
+            "point": 3.5
+           },
+           {
+            "name": "Under",
+            "price": 1.86,
+            "point": 3.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "gtbets",
+        "title": "GTbets",
+        "last_update": "2026-09-06T14:06:44Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.7
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.24
+           },
+           {
+            "name": "Draw",
+            "price": 4.24
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.97,
+            "point": 3.5
+           },
+           {
+            "name": "Under",
+            "price": 1.81,
+            "point": 3.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "coolbet",
+        "title": "Coolbet",
+        "last_update": "2026-09-06T14:06:12Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:12Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.67
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.4
+           },
+           {
+            "name": "Draw",
+            "price": 4.5
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:12Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 2.0,
+            "point": 3.5
+           },
+           {
+            "name": "Under",
+            "price": 1.82,
+            "point": 3.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-09-06T14:06:43Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:43Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.69
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.4
+           },
+           {
+            "name": "Draw",
+            "price": 4.2
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:43Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 2.12,
+            "point": 3.75
+           },
+           {
+            "name": "Under",
+            "price": 1.7,
+            "point": 3.75
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2026-09-06T14:06:44Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.66
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.33
+           },
+           {
+            "name": "Draw",
+            "price": 4.2
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2026-09-06T14:06:43Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:43Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.67
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.2
+           },
+           {
+            "name": "Draw",
+            "price": 3.9
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2026-09-06T14:06:12Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:12Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.67
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.2
+           },
+           {
+            "name": "Draw",
+            "price": 3.9
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:12Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.35,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 3.0,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "unibet_fr",
+        "title": "Unibet (FR)",
+        "last_update": "2026-09-06T14:06:10Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:10Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.59
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.0
+           },
+           {
+            "name": "Draw",
+            "price": 4.0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "betfair_ex_eu",
+        "title": "Betfair",
+        "last_update": "2026-09-06T14:06:44Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.77
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.6
+           },
+           {
+            "name": "Draw",
+            "price": 4.4
+           }
+          ]
+         },
+         {
+          "key": "h2h_lay",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.79
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.8
+           },
+           {
+            "name": "Draw",
+            "price": 4.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "tipico_de",
+        "title": "Tipico",
+        "last_update": "2026-09-06T14:06:43Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:43Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.67
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.2
+           },
+           {
+            "name": "Draw",
+            "price": 4.3
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:43Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.85,
+            "point": 3.5
+           },
+           {
+            "name": "Under",
+            "price": 1.87,
+            "point": 3.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2026-09-06T14:06:43Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:43Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.71
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.59
+           },
+           {
+            "name": "Draw",
+            "price": 4.29
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:43Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.98,
+            "point": 3.5
+           },
+           {
+            "name": "Under",
+            "price": 1.91,
+            "point": 3.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "betanysports",
+        "title": "BetAnything",
+        "last_update": "2026-09-06T14:06:44Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.69
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.4
+           },
+           {
+            "name": "Draw",
+            "price": 4.2
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 2.13,
+            "point": 3.75
+           },
+           {
+            "name": "Under",
+            "price": 1.7,
+            "point": 3.75
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "matchbook",
+        "title": "Matchbook",
+        "last_update": "2026-09-06T14:06:43Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:43Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.77
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.6
+           },
+           {
+            "name": "Draw",
+            "price": 4.4
+           }
+          ]
+         },
+         {
+          "key": "h2h_lay",
+          "last_update": "2026-09-06T14:06:43Z",
+          "outcomes": [
+           {
+            "name": "FC Sion",
+            "price": 1.78
+           },
+           {
+            "name": "FC Thun",
+            "price": 4.8
+           },
+           {
+            "name": "Draw",
+            "price": 4.5
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:43Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.99,
+            "point": 3.5
+           },
+           {
+            "name": "Under",
+            "price": 1.97,
+            "point": 3.5
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "event_id": 211406,
+     "league": "Super League",
+     "kickoff": "22:30",
+     "home": "Basel",
+     "away": "FC Lugano",
+     "status": "notstarted",
+     "odds_bsd": {
+      "home_win": 2.69,
+      "draw": 3.59,
+      "away_win": 2.34,
+      "over_15_goals": 1.16,
+      "over_25_goals": 1.56,
+      "over_35_goals": 2.37,
+      "under_15_goals": 4.78,
+      "under_25_goals": 2.35,
+      "under_35_goals": 1.53,
+      "btts_yes": 1.47,
+      "btts_no": 2.51
+     },
+     "lineups": {
+      "home": {
+       "team_id": 137,
+       "team_name": "Basel",
+       "formation": "4-3-3",
+       "confidence": null,
+       "players": [
+        {
+         "id": 4307,
+         "name": "Jonas Omlin",
+         "short_name": "J. Omlin",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3145,
+         "name": "Keigo Tsunemoto",
+         "short_name": "K. Tsunemoto",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3147,
+         "name": "Flavius Daniliuc",
+         "short_name": "F. Daniliuc",
+         "position": "D",
+         "jersey_number": 24,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 31103,
+         "name": "Akpe Victory",
+         "short_name": "A. Victory",
+         "position": "D",
+         "jersey_number": 55,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3162,
+         "name": "Nicolas Vouilloz",
+         "short_name": "N. Vouilloz",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 39525,
+         "name": "Jonas Harder",
+         "short_name": "J. Harder",
+         "position": "M",
+         "jersey_number": 44,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 13545,
+         "name": "Bećir Omeragić",
+         "short_name": "B. Omeragić",
+         "position": "M",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 16082,
+         "name": "Ludwig Thorell",
+         "short_name": "L. Thorell",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 62949,
+         "name": "Asane Sow",
+         "short_name": "A. Sow",
+         "position": "F",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7143,
+         "name": "Žan Celar",
+         "short_name": "Ž. Celar",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6618,
+         "name": "Kazeem Olaigbe",
+         "short_name": "K. Olaigbe",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 3160,
+         "name": "Mirko Salvi",
+         "short_name": "M. Salvi",
+         "position": "G",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3164,
+         "name": "Kevin Rüegg",
+         "short_name": "K. Rüegg",
+         "position": "D",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 24322,
+         "name": "Aaron Malouda",
+         "short_name": "A. Malouda",
+         "position": "F",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3151,
+         "name": "Andrej Bačanin",
+         "short_name": "A. Bačanin",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3150,
+         "name": "Metinho",
+         "short_name": "Metinho",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 64953,
+         "name": "Jean Doucoure",
+         "short_name": "J. Doucoure",
+         "position": "M",
+         "jersey_number": 41,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3158,
+         "name": "Xherdan Shaqiri",
+         "short_name": "X. Shaqiri",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3154,
+         "name": "Philip Otele",
+         "short_name": "P. Otele",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8901,
+         "name": "Giacomo Koloto",
+         "short_name": "G. Koloto",
+         "position": "F",
+         "jersey_number": 37,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 254,
+       "team_name": "FC Lugano",
+       "formation": "3-5-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 7826,
+         "name": "David von Ballmoos",
+         "short_name": "D. von Ballmoos",
+         "position": "G",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7251,
+         "name": "Antonios Papadopoulos",
+         "short_name": "A. Papadopoulos",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7480,
+         "name": "Lars Lukas Mai",
+         "short_name": "L. Mai",
+         "position": "D",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8568,
+         "name": "Hannes Delcroix",
+         "short_name": "H. Delcroix",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 59413,
+         "name": "Bekhruz Karimov",
+         "short_name": "B. Karimov",
+         "position": "M",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7265,
+         "name": "Daniel Dos Santos",
+         "short_name": "D. Dos Santos",
+         "position": "M",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7256,
+         "name": "Anto Grgić",
+         "short_name": "A. Grgić",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7254,
+         "name": "Uran Bislimi",
+         "short_name": "U. Bislimi",
+         "position": "M",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7253,
+         "name": "Yanis Cimignani",
+         "short_name": "Y. Cimignani",
+         "position": "M",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7259,
+         "name": "Renato Steffen",
+         "short_name": "R. Steffen",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 17177,
+         "name": "Dereck Moncada",
+         "short_name": "D. Moncada",
+         "position": "F",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 41784,
+         "name": "Felix Gebhardt",
+         "short_name": "F. Gebhardt",
+         "position": "G",
+         "jersey_number": 28,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 42085,
+         "name": "Joel Bichsel",
+         "short_name": "J. Bichsel",
+         "position": "D",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7250,
+         "name": "Damian Kelvin",
+         "short_name": "D. Kelvin",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 9992,
+         "name": "Carbone",
+         "short_name": "Carbone",
+         "position": "D",
+         "jersey_number": 44,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 52179,
+         "name": "Gjan Ajdin",
+         "short_name": "G. Ajdin",
+         "position": "M",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 19451,
+         "name": "Beckham Castro",
+         "short_name": "B. Castro",
+         "position": "F",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7267,
+         "name": "Ahmed Kendouci",
+         "short_name": "A. Kendouci",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3156,
+         "name": "Albian Ajeti",
+         "short_name": "A. Ajeti",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7276,
+         "name": "Elias Pihlström",
+         "short_name": "E. Pihlstrom",
+         "position": "F",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "未开赛",
+      "minute": null,
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null
+     },
+     "theodds_match": null
+    },
+    {
+     "event_id": 46458,
+     "league": "Allsvenskan",
+     "kickoff": "22:30",
+     "home": "IF Brommapojkarna",
+     "away": "IF Elfsborg",
+     "status": "notstarted",
+     "odds_bsd": {
+      "home_win": 3.3,
+      "draw": 3.52,
+      "away_win": 2.03,
+      "over_15_goals": 1.21,
+      "over_25_goals": 1.73,
+      "over_35_goals": 2.77,
+      "under_15_goals": 4.07,
+      "under_25_goals": 2.06,
+      "under_35_goals": 1.4,
+      "btts_yes": 1.6,
+      "btts_no": 2.19
+     },
+     "lineups": {
+      "home": {
+       "team_id": 437,
+       "team_name": "IF Brommapojkarna",
+       "formation": "4-2-3-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 16245,
+         "name": "Leo Cavallius",
+         "short_name": "L. Cavallius",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15935,
+         "name": "Simon Strand",
+         "short_name": "S. Strand",
+         "position": "M",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 16246,
+         "name": "Oskar Cotton",
+         "short_name": "O. Cotton",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 24881,
+         "name": "Andreas Troelsen",
+         "short_name": "A. Troelsen",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15965,
+         "name": "Oliver Zandén",
+         "short_name": "O. Zandén",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 16299,
+         "name": "Wilmer Odefalk",
+         "short_name": "W. Odefalk",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15968,
+         "name": "Kaare Barslund",
+         "short_name": "K. Barslund",
+         "position": "M",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3306,
+         "name": "Mads Hansen",
+         "short_name": "M. K. Hansen",
+         "position": "M",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 16145,
+         "name": "Anton Kurochkin",
+         "short_name": "A. Kurochkin",
+         "position": "F",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15930,
+         "name": "Obilor Denzel Okeke",
+         "short_name": "O. Okeke",
+         "position": "M",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 16310,
+         "name": "David Isso",
+         "short_name": "D. Isso",
+         "position": "F",
+         "jersey_number": 34,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": []
+      },
+      "away": {
+       "team_id": 440,
+       "team_name": "IF Elfsborg",
+       "formation": "4-2-3-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 15942,
+         "name": "Isak Pettersson",
+         "short_name": "I. Pettersson",
+         "position": "G",
+         "jersey_number": 31,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5750,
+         "name": "Alexander Jensen",
+         "short_name": "A. Jensen",
+         "position": "M",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15945,
+         "name": "Rasmus Wikström",
+         "short_name": "R. Wikström",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 16002,
+         "name": "Thomas Isherwood",
+         "short_name": "T. Isherwood",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15946,
+         "name": "Niklas Hult",
+         "short_name": "N. Hult",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15948,
+         "name": "Julius Magnusson",
+         "short_name": "J. Magnusson",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15949,
+         "name": "Simon Olsson",
+         "short_name": "S. Olsson",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 24885,
+         "name": "Momoh Ibrahim Kamara",
+         "short_name": "M. I. Kamara",
+         "position": "M",
+         "jersey_number": 29,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2982,
+         "name": "Julius Beck",
+         "short_name": "J. Beck",
+         "position": "M",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15953,
+         "name": "Arbër Zeneli",
+         "short_name": "A. Zeneli",
+         "position": "M",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15955,
+         "name": "Leo Östman",
+         "short_name": "L. Östman",
+         "position": "F",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": []
+      }
+     },
+     "injuries": {
+      "home": [
+       "O. Berg(Missing Fixture)",
+       "L. Bjorklund(Missing Fixture)",
+       "J. Simpson(Missing Fixture)",
+       "O. Berg(Missing Fixture)",
+       "L. Bjorklund(Missing Fixture)",
+       "J. Simpson(Missing Fixture)"
+      ],
+      "away": [
+       "P. Frick(Missing Fixture)",
+       "L. Hagg(Missing Fixture)",
+       "D. Krasniqi(Missing Fixture)",
+       "M. Rohden(Missing Fixture)",
+       "S. Holmen(Questionable)",
+       "P. Frick(Missing Fixture)",
+       "L. Hagg(Missing Fixture)",
+       "D. Krasniqi(Missing Fixture)",
+       "M. Rohden(Missing Fixture)",
+       "S. Holmen(Questionable)"
+      ]
+     },
+     "live": {
+      "score": "未开赛",
+      "minute": null,
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null
+     },
+     "theodds_match": {
+      "commence_time": "2026-09-06T14:30:00Z",
+      "bookmakers": [
+       {
+        "key": "pmu_fr",
+        "title": "PMU (FR)",
+        "last_update": "2026-09-06T14:06:45Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.4
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.88
+           },
+           {
+            "name": "Draw",
+            "price": 3.35
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.64,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 1.89,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "leovegas_se",
+        "title": "LeoVegas (SE)",
+        "last_update": "2026-09-06T14:06:10Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:10Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.6
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.95
+           },
+           {
+            "name": "Draw",
+            "price": 3.55
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:10Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.77,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 2.04,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "unibet_nl",
+        "title": "Unibet (NL)",
+        "last_update": "2026-09-06T14:06:46Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.6
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.95
+           },
+           {
+            "name": "Draw",
+            "price": 3.55
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.72,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 1.97,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "unibet_se",
+        "title": "Unibet (SE)",
+        "last_update": "2026-09-06T14:06:45Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.75
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 2.02
+           },
+           {
+            "name": "Draw",
+            "price": 3.7
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.72,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 1.97,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "unibet_fr",
+        "title": "Unibet (FR)",
+        "last_update": "2026-09-06T14:06:44Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.45
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.78
+           },
+           {
+            "name": "Draw",
+            "price": 3.45
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "betclic_fr",
+        "title": "Betclic (FR)",
+        "last_update": "2026-09-06T14:02:52Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:02:52Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.6
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.9
+           },
+           {
+            "name": "Draw",
+            "price": 3.63
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2026-09-06T14:06:44Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.63
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.94
+           },
+           {
+            "name": "Draw",
+            "price": 3.62
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.7,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 2.11,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "winamax_fr",
+        "title": "Winamax (FR)",
+        "last_update": "2026-09-06T14:06:11Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:11Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.35
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.84
+           },
+           {
+            "name": "Draw",
+            "price": 3.55
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "winamax_de",
+        "title": "Winamax (DE)",
+        "last_update": "2026-09-06T14:06:11Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:11Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.45
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.88
+           },
+           {
+            "name": "Draw",
+            "price": 3.65
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "gtbets",
+        "title": "GTbets",
+        "last_update": "2026-09-06T14:06:46Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:46Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.59
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 2.0
+           },
+           {
+            "name": "Draw",
+            "price": 3.56
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:46Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.76,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 2.04,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2026-09-06T14:06:14Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:14Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.7
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.92
+           },
+           {
+            "name": "Draw",
+            "price": 3.5
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:14Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.68,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 2.12,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2026-09-06T14:05:08Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:05:08Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.7
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.92
+           },
+           {
+            "name": "Draw",
+            "price": 3.5
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:05:08Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.7,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 2.08,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-09-06T14:06:45Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.85
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.93
+           },
+           {
+            "name": "Draw",
+            "price": 3.6
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 2.16,
+            "point": 3.0
+           },
+           {
+            "name": "Under",
+            "price": 1.67,
+            "point": 3.0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "betfair_ex_eu",
+        "title": "Betfair",
+        "last_update": "2026-09-06T14:06:45Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.95
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 2.0
+           },
+           {
+            "name": "Draw",
+            "price": 3.85
+           }
+          ]
+         },
+         {
+          "key": "h2h_lay",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 4.1
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 2.04
+           },
+           {
+            "name": "Draw",
+            "price": 3.9
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2026-09-06T14:06:44Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.5
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.95
+           },
+           {
+            "name": "Draw",
+            "price": 3.4
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2026-09-06T14:06:45Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.5
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.95
+           },
+           {
+            "name": "Draw",
+            "price": 3.4
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:45Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.67,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 2.1,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "tipico_de",
+        "title": "Tipico",
+        "last_update": "2026-09-06T14:06:09Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:09Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.8
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.83
+           },
+           {
+            "name": "Draw",
+            "price": 3.6
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:09Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.62,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 2.15,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2026-09-06T14:06:44Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.84
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.95
+           },
+           {
+            "name": "Draw",
+            "price": 3.69
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:44Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.92,
+            "point": 2.75
+           },
+           {
+            "name": "Under",
+            "price": 1.93,
+            "point": 2.75
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "coolbet",
+        "title": "Coolbet",
+        "last_update": "2026-09-06T14:06:13Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:13Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.8
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.96
+           },
+           {
+            "name": "Draw",
+            "price": 3.75
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:13Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.73,
+            "point": 2.5
+           },
+           {
+            "name": "Under",
+            "price": 2.13,
+            "point": 2.5
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "matchbook",
+        "title": "Matchbook",
+        "last_update": "2026-09-06T14:06:47Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:47Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 4.0
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 2.0
+           },
+           {
+            "name": "Draw",
+            "price": 3.85
+           }
+          ]
+         },
+         {
+          "key": "h2h_lay",
+          "last_update": "2026-09-06T14:06:47Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 4.1
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 2.02
+           },
+           {
+            "name": "Draw",
+            "price": 3.9
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "key": "betanysports",
+        "title": "BetAnything",
+        "last_update": "2026-09-06T14:06:47Z",
+        "markets": [
+         {
+          "key": "h2h",
+          "last_update": "2026-09-06T14:06:47Z",
+          "outcomes": [
+           {
+            "name": "IF Brommapojkarna",
+            "price": 3.75
+           },
+           {
+            "name": "IF Elfsborg",
+            "price": 1.91
+           },
+           {
+            "name": "Draw",
+            "price": 3.6
+           }
+          ]
+         },
+         {
+          "key": "totals",
+          "last_update": "2026-09-06T14:06:47Z",
+          "outcomes": [
+           {
+            "name": "Over",
+            "price": 1.88,
+            "point": 2.75
+           },
+           {
+            "name": "Under",
+            "price": 1.85,
+            "point": 2.75
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ]
   }
  ]
 }
