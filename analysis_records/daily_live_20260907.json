@@ -17543,6 +17543,6755 @@
      }
     }
    ]
+  },
+  {
+   "round_time": "01:31",
+   "matches": [
+    {
+     "event_id": 223669,
+     "league": "Liga Profesional de Fútbol",
+     "kickoff": "01:45",
+     "home": "Rosario Central",
+     "away": "Newell's Old Boys",
+     "status": "notstarted",
+     "odds_bsd": {
+      "home_win": 1.62,
+      "draw": 3.2,
+      "away_win": 7.0,
+      "over_15_goals": 1.5,
+      "over_25_goals": 2.6,
+      "over_35_goals": 5.0,
+      "under_15_goals": 2.5,
+      "under_25_goals": 1.48,
+      "under_35_goals": 1.17,
+      "btts_yes": 2.38,
+      "btts_no": 1.52
+     },
+     "lineups": {
+      "home": {
+       "team_id": 792,
+       "team_name": "Rosario Central",
+       "formation": "4-2-3-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 23752,
+         "name": "Jeremías Ledesma",
+         "short_name": "C. Ledesma",
+         "position": "G",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 23753,
+         "name": "Emanuel Coronel",
+         "short_name": "E. Coronel",
+         "position": "D",
+         "jersey_number": 32,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 23754,
+         "name": "Ignacio Ovando",
+         "short_name": "I. Ovando",
+         "position": "D",
+         "jersey_number": 46,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 233,
+         "name": "Gastón Ávila",
+         "short_name": "G. Ávila",
+         "position": "D",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 23755,
+         "name": "Agustín Sández",
+         "short_name": "A. Sández",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 23756,
+         "name": "Franco Ibarra",
+         "short_name": "F. Ibarra",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 23757,
+         "name": "Vicente Pizarro",
+         "short_name": "V. Pizarro",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 166,
+         "name": "Alan Rodríguez",
+         "short_name": "Á. Rodríguez",
+         "position": "M",
+         "jersey_number": 88,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 23759,
+         "name": "Ángel Di María",
+         "short_name": "Á. Di María",
+         "position": "M",
+         "jersey_number": 11,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 16391,
+         "name": "Jaminton Campaz",
+         "short_name": "J. Campaz",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 23761,
+         "name": "Enzo Copetti",
+         "short_name": "E. Copetti",
+         "position": "F",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 66127,
+         "name": "Axel Werner",
+         "short_name": "A. Werner",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 20130,
+         "name": "Sebastián Zaracho",
+         "short_name": "S. Zaracho",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 48700,
+         "name": "Elías Verón",
+         "short_name": "E. Verón",
+         "position": "D",
+         "jersey_number": 42,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 26210,
+         "name": "Juan Giménez",
+         "short_name": "J. Giménez",
+         "position": "D",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 26209,
+         "name": "Facundo Mallo",
+         "short_name": "F. Mallo",
+         "position": "D",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 23765,
+         "name": "Alexis Soto",
+         "short_name": "A. Soto",
+         "position": "D",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 23768,
+         "name": "Federico Navarro",
+         "short_name": "F. Navarro",
+         "position": "M",
+         "jersey_number": 31,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3979,
+         "name": "Franco Cervi",
+         "short_name": "F. Cervi",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5077,
+         "name": "Pol Fernández",
+         "short_name": "G. Fernández",
+         "position": "M",
+         "jersey_number": 28,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 23767,
+         "name": "Giovanni Cantizano",
+         "short_name": "G. Cantizano",
+         "position": "F",
+         "jersey_number": 26,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10273,
+         "name": "Tomás Badaloni",
+         "short_name": "T. Badaloni",
+         "position": "F",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 26212,
+         "name": "Marco Rubén",
+         "short_name": "M. Rubén",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 4997,
+       "team_name": "Newell's Old Boys",
+       "formation": "4-2-3-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 90511,
+         "name": "Josué Reinatti",
+         "short_name": "J. Reinatti",
+         "position": "G",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 90729,
+         "name": "Martín Ortega",
+         "short_name": "M. Ortega",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6584,
+         "name": "Lautaro Giannetti",
+         "short_name": "L. Giannetti",
+         "position": "D",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 82480,
+         "name": "Lucas Carrizo",
+         "short_name": "L. Carrizo",
+         "position": "D",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 9787,
+         "name": "Franco Escobar",
+         "short_name": "F. Escobar",
+         "position": "D",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 90730,
+         "name": "Rodrigo Herrera",
+         "short_name": "R. Herrera",
+         "position": "M",
+         "jersey_number": 26,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 90515,
+         "name": "Luca Regiardo",
+         "short_name": "L. Regiardo",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 90516,
+         "name": "Walter Mazzantti",
+         "short_name": "W. Mazzantti",
+         "position": "M",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 90518,
+         "name": "Facundo Guch",
+         "short_name": "F. Gauch",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 22742,
+         "name": "Santiago Solari",
+         "short_name": "S. Solari",
+         "position": "M",
+         "jersey_number": 32,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10316,
+         "name": "Matías Cóccaro",
+         "short_name": "M. Cóccaro",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 56501,
+         "name": "Gabriel Arias",
+         "short_name": "G. Arias",
+         "position": "G",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 90512,
+         "name": "Bruno Cabrera",
+         "short_name": "B. Cabrera",
+         "position": "D",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 90524,
+         "name": "Óscar Salomón",
+         "short_name": "O. Salomón",
+         "position": "D",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 90521,
+         "name": "Jeronimo Russo",
+         "short_name": "J. Russo",
+         "position": "F",
+         "jersey_number": 28,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 22138,
+         "name": "Alan Soñora",
+         "short_name": "A. Soñora",
+         "position": "M",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 20163,
+         "name": "Lucas Gómez",
+         "short_name": "L. Gómez",
+         "position": "M",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10390,
+         "name": "Mateo García",
+         "short_name": "M. García",
+         "position": "F",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 90727,
+         "name": "Jerónimo Gómez Mattar",
+         "short_name": "J. G. Mattar",
+         "position": "M",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 90520,
+         "name": "Lautaro Rios",
+         "short_name": "L. Rios",
+         "position": "M",
+         "jersey_number": 39,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 137,
+         "name": "Juan Ignacio Ramírez",
+         "short_name": "J. I. Ramírez",
+         "position": "F",
+         "jersey_number": 99,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 90519,
+         "name": "Walter Nuñez",
+         "short_name": "W. Nuñez",
+         "position": "F",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 90522,
+         "name": "Francisco Scarpeccio",
+         "short_name": "F. Scarpeccio",
+         "position": "F",
+         "jersey_number": 36,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "未开赛",
+      "minute": null,
+      "ht_score": null,
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "窗口"
+     }
+    },
+    {
+     "event_id": 216436,
+     "league": "NWSL",
+     "kickoff": "02:00",
+     "home": "Denver Summit FC",
+     "away": "NJ/NY Gotham FC",
+     "status": "notstarted",
+     "odds_bsd": {
+      "home_win": 2.8,
+      "draw": 3.4,
+      "away_win": 2.15,
+      "over_15_goals": null,
+      "over_25_goals": null,
+      "over_35_goals": null,
+      "under_15_goals": null,
+      "under_25_goals": null,
+      "under_35_goals": null,
+      "btts_yes": 1.64,
+      "btts_no": 2.08
+     },
+     "lineups": {
+      "home": {
+       "team_id": 3933,
+       "team_name": "Denver Summit FC",
+       "formation": "4-3-3",
+       "confidence": null,
+       "players": [
+        {
+         "id": 65632,
+         "name": "Kat Asman",
+         "short_name": "K. Asman",
+         "position": "G",
+         "jersey_number": 36,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65669,
+         "name": "Ayo Oke",
+         "short_name": "A. Oke",
+         "position": "D",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65625,
+         "name": "Megan Reid",
+         "short_name": "M. Reid",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65626,
+         "name": "Kaleigh Kurtz",
+         "short_name": "K. Kurtz",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65622,
+         "name": "Janine Sonis",
+         "short_name": "J. Sonis",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65610,
+         "name": "Lindsey Heaps",
+         "short_name": "L. Heaps",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 65616,
+         "name": "Delanie Sheehan",
+         "short_name": "D. Sheehan",
+         "position": "M",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65614,
+         "name": "Emma Regan",
+         "short_name": "E. Regan",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65613,
+         "name": "Yuzuki Yamamoto",
+         "short_name": "Y. Yamamoto",
+         "position": "F",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65670,
+         "name": "Klara Melissa Kössler",
+         "short_name": "K. M. Kössler",
+         "position": "F",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65612,
+         "name": "Yazmeen Ryan",
+         "short_name": "Y. Ryan",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 65631,
+         "name": "Jordan  Nytes",
+         "short_name": "J. Nytes",
+         "position": "G",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65624,
+         "name": "Carson Pickett",
+         "short_name": "C. Pickett",
+         "position": "D",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65623,
+         "name": "Eva Gaetino",
+         "short_name": "E. Gaetino",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65619,
+         "name": "Meg Boade",
+         "short_name": "M. Boade",
+         "position": "M",
+         "jersey_number": 34,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65617,
+         "name": "Yuna McCormack",
+         "short_name": "Y. McCormack",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65621,
+         "name": "Devin Lynch",
+         "short_name": "D. Lynch",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65618,
+         "name": "Natalie Means",
+         "short_name": "N. Means",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65608,
+         "name": "Olivia Thomas",
+         "short_name": "O. Thomas",
+         "position": "F",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65606,
+         "name": "Natasha Flint",
+         "short_name": "N. Flint",
+         "position": "F",
+         "jersey_number": 26,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 3929,
+       "team_name": "NJ/NY Gotham FC",
+       "formation": "4-3-3",
+       "confidence": null,
+       "players": [
+        {
+         "id": 65174,
+         "name": "Ann-Katrin Berger",
+         "short_name": "A. Berger",
+         "position": "G",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65189,
+         "name": "Bruninha",
+         "short_name": "Bruninha",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65175,
+         "name": "Jess Carter",
+         "short_name": "J. Carter",
+         "position": "D",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65177,
+         "name": "Tierna Davidson",
+         "short_name": "T. Davidson",
+         "position": "D",
+         "jersey_number": 15,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 65178,
+         "name": "Guro Reiten",
+         "short_name": "G. Reiten",
+         "position": "D",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 73880,
+         "name": "Denise O'Sullivan",
+         "short_name": "D. O'Sullivan",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65179,
+         "name": "Jae Howell",
+         "short_name": "J. Howell",
+         "position": "M",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65186,
+         "name": "Margaret Purce",
+         "short_name": "M. Purce",
+         "position": "M",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65181,
+         "name": "Jordynn Dudley",
+         "short_name": "J. Dudley",
+         "position": "F",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 66329,
+         "name": "Sam Kerr",
+         "short_name": "S. Kerr",
+         "position": "F",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65183,
+         "name": "Jaedyn Shaw",
+         "short_name": "J. Shaw",
+         "position": "F",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 66341,
+         "name": "Teagan Wy",
+         "short_name": "T. Wy",
+         "position": "G",
+         "jersey_number": 31,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65190,
+         "name": "Shelby Hogan",
+         "short_name": "S. Hogan",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65187,
+         "name": "Mandy Freeman",
+         "short_name": "M. Freeman",
+         "position": "D",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65180,
+         "name": "Savannah McCaskill",
+         "short_name": "S. McCaskill",
+         "position": "M",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65191,
+         "name": "Andrea Kitahata",
+         "short_name": "A. Kitahata",
+         "position": "F",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 96195,
+         "name": "Meredith Speck",
+         "short_name": "M. Speck",
+         "position": "M",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65271,
+         "name": "Tess Boade",
+         "short_name": "T. Boade",
+         "position": "F",
+         "jersey_number": 28,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 89110,
+         "name": "Taryn Torres",
+         "short_name": "T. Torres",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65192,
+         "name": "Talia Sommer",
+         "short_name": "T. Sommer",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "未开赛",
+      "minute": null,
+      "ht_score": null,
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "窗口"
+     }
+    },
+    {
+     "event_id": 213555,
+     "league": "La Liga",
+     "kickoff": "00:30",
+     "home": "Málaga CF",
+     "away": "Levante UD",
+     "status": "halftime",
+     "odds_bsd": {
+      "home_win": 2.4,
+      "draw": 3.27,
+      "away_win": 2.96,
+      "over_15_goals": 1.3,
+      "over_25_goals": 1.94,
+      "over_35_goals": 3.27,
+      "under_15_goals": 3.38,
+      "under_25_goals": 1.87,
+      "under_35_goals": 1.31,
+      "btts_yes": 1.7,
+      "btts_no": 2.07
+     },
+     "lineups": {
+      "home": {
+       "team_id": 1259,
+       "team_name": "Málaga CF",
+       "formation": "4-4-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 28433,
+         "name": "Alfonso Herrero",
+         "short_name": "A. Herrero",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 28431,
+         "name": "Rafa Garrido",
+         "short_name": "R. Garrido",
+         "position": "D",
+         "jersey_number": 31,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28432,
+         "name": "Ángel Recio",
+         "short_name": "Á. Recio",
+         "position": "D",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28425,
+         "name": "Einar Galilea",
+         "short_name": "E. Galilea",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1289,
+         "name": "Jose Salinas",
+         "short_name": "J. Salinas",
+         "position": "D",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28412,
+         "name": "David Larrubia",
+         "short_name": "D. Larrubia",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4353,
+         "name": "Pablo Martínez",
+         "short_name": "P. Martínez",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28417,
+         "name": "Dani Lorenzo",
+         "short_name": "D. Lorenzo",
+         "position": "M",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28257,
+         "name": "Juan Cruz",
+         "short_name": "J. Cruz",
+         "position": "M",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28413,
+         "name": "Carlos Dotor",
+         "short_name": "C. Dotor",
+         "position": "F",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28406,
+         "name": "Chupete",
+         "short_name": "Chupete",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 28434,
+         "name": "Carlos Lopez",
+         "short_name": "C. Lopez",
+         "position": "G",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28426,
+         "name": "Carlos Puga",
+         "short_name": "C. Puga",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 9636,
+         "name": "Juan Berrocal",
+         "short_name": "J. Berrocal",
+         "position": "D",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28428,
+         "name": "Álex Pastor",
+         "short_name": "Á. Pastor",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 819,
+         "name": "Adam Aznou",
+         "short_name": "A. Aznou",
+         "position": "D",
+         "jersey_number": 39,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28415,
+         "name": "Izan Merino",
+         "short_name": "I. Merino",
+         "position": "M",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28410,
+         "name": "Joaquín Muñoz",
+         "short_name": "J. Muñoz",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28418,
+         "name": "Rafa Rodriguez",
+         "short_name": "R. Rodríguez",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28420,
+         "name": "Ramón Enríquez",
+         "short_name": "R. Enríquez",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6149,
+         "name": "Jens-Lys Cajuste",
+         "short_name": "J. Cajuste",
+         "position": "M",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28411,
+         "name": "Eneko Jauregi",
+         "short_name": "E. Jauregi",
+         "position": "F",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 46,
+       "team_name": "Levante UD",
+       "formation": "4-3-3",
+       "confidence": null,
+       "players": [
+        {
+         "id": 2111,
+         "name": "Mathew Ryan",
+         "short_name": "M. Ryan",
+         "position": "G",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4898,
+         "name": "Nacho Pérez",
+         "short_name": "N. Pérez",
+         "position": "D",
+         "jersey_number": 29,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3928,
+         "name": "Adrián de la Fuente",
+         "short_name": "Adri",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1448,
+         "name": "Aïssa Mandi",
+         "short_name": "A. Mandi",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2115,
+         "name": "Manuel Sánchez",
+         "short_name": "M. Sánchez",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 38082,
+         "name": "Enzo Bardeli",
+         "short_name": "E. Bardeli",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2118,
+         "name": "Oriol Rey",
+         "short_name": "O. Rey",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2119,
+         "name": "Jon Ander Olasagasti",
+         "short_name": "J. A. Olasagasti",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2123,
+         "name": "Roger Brugué",
+         "short_name": "R. Brugué",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 2124,
+         "name": "Iván Romero",
+         "short_name": "I. Romero",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8878,
+         "name": "Thiago Fernández",
+         "short_name": "T. Fernández",
+         "position": "F",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 86361,
+         "name": "Pablo Cunat Campos",
+         "short_name": "P. C. Campos",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2112,
+         "name": "Jeremy Toljan",
+         "short_name": "J. Toljan",
+         "position": "D",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 67178,
+         "name": "Marc Santos",
+         "short_name": "M. Santos",
+         "position": "D",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4593,
+         "name": "Axel Tape",
+         "short_name": "A. Tape",
+         "position": "M",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2122,
+         "name": "Jorge Cabello",
+         "short_name": "J. Cabello",
+         "position": "D",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30944,
+         "name": "Ifeanyi Ndukwe",
+         "short_name": "I. Ndukwe",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 27139,
+         "name": "Daniel Requena",
+         "short_name": "D. Requena",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1271,
+         "name": "Hugo Sotelo",
+         "short_name": "H. Sotelo",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2125,
+         "name": "Víctor García",
+         "short_name": "V. García",
+         "position": "D",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 67455,
+         "name": "Yanis Musuayi",
+         "short_name": "Y. Musuayi",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4851,
+         "name": "Paco Cortés",
+         "short_name": "P. Cortés",
+         "position": "F",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3045,
+         "name": "Petar Ratkov",
+         "short_name": "P. Ratkov",
+         "position": "F",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "0-0",
+      "minute": 45,
+      "ht_score": "0-0",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    },
+    {
+     "event_id": 213551,
+     "league": "La Liga",
+     "kickoff": "00:30",
+     "home": "Deportivo Alavés",
+     "away": "Osasuna",
+     "status": "halftime",
+     "odds_bsd": {
+      "home_win": 2.26,
+      "draw": 3.05,
+      "away_win": 3.43,
+      "over_15_goals": 1.47,
+      "over_25_goals": 2.49,
+      "over_35_goals": 4.82,
+      "under_15_goals": 2.58,
+      "under_25_goals": 1.53,
+      "under_35_goals": 1.16,
+      "btts_yes": 2.02,
+      "btts_no": 1.73
+     },
+     "lineups": {
+      "home": {
+       "team_id": 45,
+       "team_name": "Deportivo Alavés",
+       "formation": "4-4-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 2343,
+         "name": "Antonio Sivera",
+         "short_name": "A. Sivera",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8845,
+         "name": "Ángel Pérez",
+         "short_name": "Á. Pérez",
+         "position": "D",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2345,
+         "name": "Nahuel Tenaglia",
+         "short_name": "N. Tenaglia",
+         "position": "D",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 13547,
+         "name": "Ville Koski",
+         "short_name": "V. Koski",
+         "position": "D",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2344,
+         "name": "Jonny Otto",
+         "short_name": "J. Otto",
+         "position": "D",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2354,
+         "name": "Carles Aleñá",
+         "short_name": "C. Aleñá",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2350,
+         "name": "Pablo Ibáñez",
+         "short_name": "P. Ibáñez",
+         "position": "M",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2348,
+         "name": "Antonio Blanco",
+         "short_name": "A. Blanco",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 2352,
+         "name": "Abderrahman Rebbach",
+         "short_name": "A. Rebbach",
+         "position": "M",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2353,
+         "name": "Lucas Boyé",
+         "short_name": "L. Boyé",
+         "position": "F",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2364,
+         "name": "Mariano Díaz",
+         "short_name": "M. Díaz",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 29087,
+         "name": "Adrián Rodríguez",
+         "short_name": "A. Rodríguez",
+         "position": "G",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2363,
+         "name": "Youssef Enriquez",
+         "short_name": "Y. Enriquez",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5636,
+         "name": "Xanet Olaiz",
+         "short_name": "X. Olaiz",
+         "position": "D",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2615,
+         "name": "Nicolás Valentini",
+         "short_name": "N. Valentini",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 36667,
+         "name": "Hugo Novoa",
+         "short_name": "H. N. Ramos",
+         "position": "F",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2362,
+         "name": "Carlos Benavídez",
+         "short_name": "C. Benavídez",
+         "position": "M",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2351,
+         "name": "Denis Suárez",
+         "short_name": "D. Suárez",
+         "position": "M",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 31393,
+         "name": "Selu Diallo",
+         "short_name": "S. Diallo",
+         "position": "M",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2996,
+         "name": "Miguel Rodríguez",
+         "short_name": "M. Rodríguez",
+         "position": "F",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2356,
+         "name": "Ander Guevara",
+         "short_name": "A. Guevara",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5139,
+         "name": "Aitor Mañas",
+         "short_name": "A. Mañas",
+         "position": "F",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2365,
+         "name": "Izei Hernandez",
+         "short_name": "I. Hernandez",
+         "position": "F",
+         "jersey_number": 29,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 58,
+       "team_name": "Osasuna",
+       "formation": "4-4-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 2660,
+         "name": "Sergio Herrera",
+         "short_name": "S. Herrera",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3889,
+         "name": "Iñigo Arguibide",
+         "short_name": "I. Arguibide",
+         "position": "D",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2661,
+         "name": "Enzo Boyomo",
+         "short_name": "E. Boyomo",
+         "position": "D",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3888,
+         "name": "Alejandro Catena",
+         "short_name": "A. Catena",
+         "position": "D",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2667,
+         "name": "Abel Bretones",
+         "short_name": "A. Bretones",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2670,
+         "name": "Rubén García",
+         "short_name": "R. García",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 2664,
+         "name": "Jon Moncayola",
+         "short_name": "J. Moncayola",
+         "position": "M",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2678,
+         "name": "Iker Muñoz",
+         "short_name": "I. Muñoz",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2671,
+         "name": "Moi Gómez",
+         "short_name": "M. Gómez",
+         "position": "M",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2672,
+         "name": "Raúl García de Haro",
+         "short_name": "R. García",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2669,
+         "name": "Ante Budimir",
+         "short_name": "A. Budimir",
+         "position": "F",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 2676,
+         "name": "Aitor Fernández",
+         "short_name": "A. Fernández",
+         "position": "G",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2663,
+         "name": "Asier Osambela",
+         "short_name": "A. Osambela",
+         "position": "M",
+         "jersey_number": 29,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 16142,
+         "name": "Rockson Yeboah",
+         "short_name": "R. Yeboah",
+         "position": "D",
+         "jersey_number": 48,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 31467,
+         "name": "Unai Santos",
+         "short_name": "U. Santos",
+         "position": "D",
+         "jersey_number": 35,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2747,
+         "name": "Diego Rico",
+         "short_name": "D. Rico",
+         "position": "D",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 29533,
+         "name": "Jonathan Dubasin",
+         "short_name": "J. Dubasin",
+         "position": "F",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4656,
+         "name": "Mauro Echegoyen",
+         "short_name": "M. Echegoyen",
+         "position": "M",
+         "jersey_number": 26,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3780,
+         "name": "Raúl Moro",
+         "short_name": "R. Moro",
+         "position": "F",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1728,
+         "name": "Romain Del Castillo",
+         "short_name": "R. Del Castillo",
+         "position": "F",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2665,
+         "name": "Lucas Torró",
+         "short_name": "L. Torró",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 78115,
+         "name": "Asier Bonel",
+         "short_name": "A. Bonel",
+         "position": "F",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2673,
+         "name": "Kike Barja",
+         "short_name": "K. Barja",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "2-0",
+      "minute": 45,
+      "ht_score": "2-0",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    },
+    {
+     "event_id": 210078,
+     "league": "Serie A",
+     "kickoff": "00:00",
+     "home": "Bologna",
+     "away": "Sassuolo",
+     "status": "2nd_half",
+     "odds_bsd": {
+      "home_win": 2.02,
+      "draw": 3.41,
+      "away_win": 3.69,
+      "over_15_goals": 1.31,
+      "over_25_goals": 1.99,
+      "over_35_goals": 3.37,
+      "under_15_goals": 3.33,
+      "under_25_goals": 1.82,
+      "under_35_goals": 1.3,
+      "btts_yes": 1.71,
+      "btts_no": 2.05
+     },
+     "lineups": {
+      "home": {
+       "team_id": 66,
+       "team_name": "Bologna",
+       "formation": "4-2-3-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 4033,
+         "name": "Łukasz Skorupski",
+         "short_name": "Ł. Skorupski",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 960,
+         "name": "Emil Holm",
+         "short_name": "E. Holm",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 957,
+         "name": "Torbjørn Heggem",
+         "short_name": "T. Heggem",
+         "position": "D",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1349,
+         "name": "Arthur Theate",
+         "short_name": "A. Theate",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1968,
+         "name": "Abdel Rahim",
+         "short_name": "A. R. Alhassane",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 951,
+         "name": "Tommaso Pobega",
+         "short_name": "T. Pobega",
+         "position": "M",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 966,
+         "name": "Lewis Ferguson",
+         "short_name": "L. Ferguson",
+         "position": "M",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 961,
+         "name": "Federico Bernardeschi",
+         "short_name": "F. Bernardeschi",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 954,
+         "name": "Jens Odgaard",
+         "short_name": "J. Odgaard",
+         "position": "M",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 958,
+         "name": "Nicolò Cambiaghi",
+         "short_name": "N. Cambiaghi",
+         "position": "M",
+         "jersey_number": 28,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1331,
+         "name": "Roberto Piccoli",
+         "short_name": "R. Piccoli",
+         "position": "F",
+         "jersey_number": 91,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 3920,
+         "name": "Ukko Happonen",
+         "short_name": "U. Happonen",
+         "position": "G",
+         "jersey_number": 72,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 962,
+         "name": "Massimo Pessina",
+         "short_name": "M. Pessina",
+         "position": "G",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3288,
+         "name": "Eivind Helland",
+         "short_name": "E. Helland",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 947,
+         "name": "Nadir Zortea",
+         "short_name": "N. Zortea",
+         "position": "D",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3033,
+         "name": "Martin Vitík",
+         "short_name": "M. Vitík",
+         "position": "D",
+         "jersey_number": 41,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 965,
+         "name": "Lorenzo De Silvestri",
+         "short_name": "L. De Silvestri",
+         "position": "D",
+         "jersey_number": 29,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 950,
+         "name": "Juan Miranda",
+         "short_name": "J. Miranda",
+         "position": "D",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 60560,
+         "name": "Marco Libra",
+         "short_name": "M. Libra",
+         "position": "D",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 22392,
+         "name": "Mikel Amondarain",
+         "short_name": "M. Amondarain",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 952,
+         "name": "Nikola Moro",
+         "short_name": "N. Moro",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2509,
+         "name": "Samuel Mbangula",
+         "short_name": "S. Mbangula",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4000,
+         "name": "Artem Dovbyk",
+         "short_name": "A. Dovbyk",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 12261,
+         "name": "Jay Enem",
+         "short_name": "J. Enem",
+         "position": "F",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 61,
+       "team_name": "Sassuolo",
+       "formation": "4-3-3",
+       "confidence": null,
+       "players": [
+        {
+         "id": 2843,
+         "name": "Arijanet Murić",
+         "short_name": "A. Murić",
+         "position": "G",
+         "jersey_number": 49,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5217,
+         "name": "Simone Cinquegrano",
+         "short_name": "S. Cinquegrano",
+         "position": "D",
+         "jersey_number": 46,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2845,
+         "name": "Jay Idzes",
+         "short_name": "J. Idzes",
+         "position": "D",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3758,
+         "name": "Fedde Leysen",
+         "short_name": "F. Leysen",
+         "position": "D",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2847,
+         "name": "Josh Doig",
+         "short_name": "J. Doig",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2196,
+         "name": "Vasilije Adžić",
+         "short_name": "V. Adžić",
+         "position": "M",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2849,
+         "name": "Nemanja Matić",
+         "short_name": "N. Matić",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3805,
+         "name": "Luca Lipani",
+         "short_name": "L. Lipani",
+         "position": "M",
+         "jersey_number": 35,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2854,
+         "name": "Cristian Volpato",
+         "short_name": "C. Volpato",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5897,
+         "name": "Kieron Bowie",
+         "short_name": "K. Bowie",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2853,
+         "name": "Armand Laurienté",
+         "short_name": "A. Laurienté",
+         "position": "F",
+         "jersey_number": 45,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 4039,
+         "name": "Stefano Turati",
+         "short_name": "S. Turati",
+         "position": "G",
+         "jersey_number": 80,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2859,
+         "name": "Giacomo Satalino",
+         "short_name": "G. Satalino",
+         "position": "G",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2840,
+         "name": "Ignace Van der Brempt",
+         "short_name": "I. Van der Brempt",
+         "position": "D",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2862,
+         "name": "Cas Odenthal",
+         "short_name": "C. Odenthal",
+         "position": "D",
+         "jersey_number": 26,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1758,
+         "name": "Duje Ćaleta-Car",
+         "short_name": "D. Ćaleta-Car",
+         "position": "D",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 967,
+         "name": "Ibrahim Sulemana",
+         "short_name": "I. Sulemana",
+         "position": "M",
+         "jersey_number": 55,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 955,
+         "name": "Benjamín Domínguez",
+         "short_name": "B. Domínguez",
+         "position": "F",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3789,
+         "name": "Rafael Obrador",
+         "short_name": "R. Obrador",
+         "position": "D",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4855,
+         "name": "Andrea Ghion",
+         "short_name": "A. Ghion",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2850,
+         "name": "Kristian Thorstvedt",
+         "short_name": "K. Thorstvedt",
+         "position": "M",
+         "jersey_number": 42,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2208,
+         "name": "Sebastiano Esposito",
+         "short_name": "S. Esposito",
+         "position": "F",
+         "jersey_number": 94,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4470,
+         "name": "Laurs Skjellerup",
+         "short_name": "L. Skjellerup",
+         "position": "F",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2865,
+         "name": "Nicholas Pierini",
+         "short_name": "N. Pierini",
+         "position": "F",
+         "jersey_number": 77,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2851,
+         "name": "Domenico Berardi",
+         "short_name": "D. Berardi",
+         "position": "F",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "1-2",
+      "minute": 71,
+      "ht_score": "0-1",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    },
+    {
+     "event_id": 211347,
+     "league": "Pro League",
+     "kickoff": "01:15",
+     "home": "SK Beveren",
+     "away": "Oud-Heverlee Leuven",
+     "status": "1st_half",
+     "odds_bsd": {
+      "home_win": 2.34,
+      "draw": 3.53,
+      "away_win": 2.74,
+      "over_15_goals": null,
+      "over_25_goals": 1.6,
+      "over_35_goals": null,
+      "under_15_goals": null,
+      "under_25_goals": 2.3,
+      "under_35_goals": null,
+      "btts_yes": 1.5,
+      "btts_no": 2.43
+     },
+     "lineups": {
+      "home": {
+       "team_id": 2414,
+       "team_name": "SK Beveren",
+       "formation": "4-1-3-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 41575,
+         "name": "Johannes Schenk",
+         "short_name": "J. Schenk",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 54160,
+         "name": "Laurent Jans",
+         "short_name": "L. Jans",
+         "position": "D",
+         "jersey_number": 21,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 74897,
+         "name": "Yoni Gomis",
+         "short_name": "Y. Gomis",
+         "position": "D",
+         "jersey_number": 35,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65535,
+         "name": "Bruno Godeau",
+         "short_name": "B. Godeau",
+         "position": "D",
+         "jersey_number": 31,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65537,
+         "name": "Christophe Janssens",
+         "short_name": "C. Janssens",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65530,
+         "name": "Sieben Dewaele",
+         "short_name": "S. Dewaele",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 31011,
+         "name": "Cheick Oumar Condé",
+         "short_name": "C. O. Condé",
+         "position": "M",
+         "jersey_number": 44,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65527,
+         "name": "Chris Lokesa",
+         "short_name": "C. Lokesa",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 22233,
+         "name": "Jearl Margaritha",
+         "short_name": "J. Margaritha",
+         "position": "M",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65523,
+         "name": "Christian Brüls",
+         "short_name": "C. Brüls",
+         "position": "F",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65520,
+         "name": "Lennart Mertens",
+         "short_name": "L. Mertens",
+         "position": "F",
+         "jersey_number": 92,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 65539,
+         "name": "Josua Lusamba Tshiolola",
+         "short_name": "J. L. Tshiolola",
+         "position": "G",
+         "jersey_number": 84,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5991,
+         "name": "Dominic Thompson",
+         "short_name": "D. Thompson",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3838,
+         "name": "Jannik Thomas Robatsch",
+         "short_name": "J. T. Robatsch",
+         "position": "D",
+         "jersey_number": 48,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65529,
+         "name": "Kurt Abrahams",
+         "short_name": "K. Abrahams",
+         "position": "F",
+         "jersey_number": 34,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5266,
+         "name": "Arno Verschueren",
+         "short_name": "A. Verschueren",
+         "position": "M",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65531,
+         "name": "Guillaume De Schryver",
+         "short_name": "G. D. Schryver",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7633,
+         "name": "Léandre Kuavita",
+         "short_name": "L. Kuavita",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65524,
+         "name": "Ferre Slegers",
+         "short_name": "F. Slegers",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15934,
+         "name": "Moise Kaboré",
+         "short_name": "M. Kaboré",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 242,
+       "team_name": "Oud-Heverlee Leuven",
+       "formation": "3-4-2-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 3551,
+         "name": "Dani van den Heuvel",
+         "short_name": "D. v. d. Heuvel",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7192,
+         "name": "Ewoud Pletinckx",
+         "short_name": "E. Pletinckx",
+         "position": "D",
+         "jersey_number": 28,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7195,
+         "name": "Noë Dussenne",
+         "short_name": "N. Dussenne",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30838,
+         "name": "Jamie Lawrence",
+         "short_name": "J. Lawrence",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7203,
+         "name": "Óscar Gil",
+         "short_name": "Ó. Gil",
+         "position": "M",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7228,
+         "name": "Wouter George",
+         "short_name": "W. George",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7789,
+         "name": "Siebe Schrijvers",
+         "short_name": "S. Schrijvers",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 7201,
+         "name": "Birger Verstraete",
+         "short_name": "B. Verstraete",
+         "position": "M",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 45398,
+         "name": "Takuya Ogiwara",
+         "short_name": "T. Ogiwara",
+         "position": "F",
+         "jersey_number": 26,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7214,
+         "name": "Chukwubuikem Ikwuemesi",
+         "short_name": "C. Ikwuemesi",
+         "position": "F",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5742,
+         "name": "Shin Yamada",
+         "short_name": "S. Yamada",
+         "position": "F",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 8642,
+         "name": "Owen Jochmans",
+         "short_name": "O. Jochmans",
+         "position": "G",
+         "jersey_number": 61,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7198,
+         "name": "Roggerio Nyakossi",
+         "short_name": "R. Nyakossi",
+         "position": "D",
+         "jersey_number": 34,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7219,
+         "name": "Davis Opoku",
+         "short_name": "D. Opoku",
+         "position": "D",
+         "jersey_number": 99,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 49336,
+         "name": "Alessandro Fontanarosa",
+         "short_name": "A. Fontanarosa",
+         "position": "D",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7206,
+         "name": "Łukasz Łakomy",
+         "short_name": "Ł. Łakomy",
+         "position": "M",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 13648,
+         "name": "Bryang Kayo",
+         "short_name": "B. Kayo",
+         "position": "M",
+         "jersey_number": 48,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7790,
+         "name": "William Balikwisha",
+         "short_name": "W. Balikwisha",
+         "position": "F",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7242,
+         "name": "Abdoul Karim Traoré",
+         "short_name": "A. K. Traoré",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3134,
+         "name": "Robin Mirisola",
+         "short_name": "R. Mirisola",
+         "position": "F",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7553,
+         "name": "Kyan Vaesen",
+         "short_name": "K. Vaesen",
+         "position": "F",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "0-0",
+      "minute": 15,
+      "ht_score": "0-0",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    },
+    {
+     "event_id": 375036,
+     "league": "Liga Portugal 2",
+     "kickoff": "01:00",
+     "home": "União de Leiria",
+     "away": "Portimonense SAD",
+     "status": "1st_half",
+     "odds_bsd": {
+      "home_win": 1.86,
+      "draw": 3.43,
+      "away_win": 3.69,
+      "over_15_goals": 1.24,
+      "over_25_goals": 1.81,
+      "over_35_goals": 2.95,
+      "under_15_goals": 3.6,
+      "under_25_goals": 1.94,
+      "under_35_goals": 1.34,
+      "btts_yes": 1.7,
+      "btts_no": 2.02
+     },
+     "lineups": {
+      "home": {
+       "team_id": 3516,
+       "team_name": "União de Leiria",
+       "formation": "4-2-3-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 85744,
+         "name": "Jakob Odehnal",
+         "short_name": "J. Odehnal",
+         "position": "G",
+         "jersey_number": 99,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 85741,
+         "name": "Maga",
+         "short_name": "Maga",
+         "position": "D",
+         "jersey_number": 68,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2304,
+         "name": "Marcelo",
+         "short_name": "Marcelo",
+         "position": "D",
+         "jersey_number": 44,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 85743,
+         "name": "Zé Pedro",
+         "short_name": "Z. Pedro",
+         "position": "D",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 90259,
+         "name": "Hugo Masaki",
+         "short_name": "H. Masaki",
+         "position": "D",
+         "jersey_number": 70,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30425,
+         "name": "Albert Lottin",
+         "short_name": "A. Lottin",
+         "position": "M",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28450,
+         "name": "Ibrahima Guirassy",
+         "short_name": "I. Guirassy",
+         "position": "M",
+         "jersey_number": 98,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 85729,
+         "name": "Pablo Fernández",
+         "short_name": "P. Fernández",
+         "position": "F",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 85728,
+         "name": "Juan Muñoz",
+         "short_name": "J. Muñoz",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 15543,
+         "name": "José Nabil",
+         "short_name": "J. N. Ondo",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 29325,
+         "name": "Jaiminho",
+         "short_name": "Jaiminho",
+         "position": "F",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 29555,
+         "name": "Christian Sanchez",
+         "short_name": "C. Sanchez",
+         "position": "G",
+         "jersey_number": 80,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4066,
+         "name": "Miguel Nóbrega",
+         "short_name": "M. Nóbrega",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 85732,
+         "name": "Kouassi Eboue",
+         "short_name": "K. Eboue",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 85736,
+         "name": "Reko",
+         "short_name": "Reko",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 85735,
+         "name": "Jair da Silva",
+         "short_name": "J. d. Silva",
+         "position": "M",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 85740,
+         "name": "Tharlley",
+         "short_name": "Tharlley",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 85734,
+         "name": "Bernardo Martim Aguiar Gomes",
+         "short_name": "B. Aguiar Gomes",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 85738,
+         "name": "Martim Almeida",
+         "short_name": "M. Almeida",
+         "position": "M",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 85737,
+         "name": "Diogo Amado",
+         "short_name": "D. Amado",
+         "position": "M",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2300,
+         "name": "Diogo Martins",
+         "short_name": "D. Martins",
+         "position": "M",
+         "jersey_number": 88,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 121044,
+         "name": "Pedro Oliveira",
+         "short_name": "P. Oliveira",
+         "position": "F",
+         "jersey_number": 79,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 92609,
+         "name": "Samuel Ntanda",
+         "short_name": "S. Ntanda",
+         "position": "F",
+         "jersey_number": 82,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 1313,
+       "team_name": "Portimonense SAD",
+       "formation": "3-4-3",
+       "confidence": null,
+       "players": [
+        {
+         "id": 10622,
+         "name": "Dudu",
+         "short_name": "Dudu",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28931,
+         "name": "Jarleysom Amurim",
+         "short_name": "J. Amurim",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28936,
+         "name": "Samy",
+         "short_name": "Samy",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28934,
+         "name": "Marlon Junior",
+         "short_name": "M. Junior",
+         "position": "D",
+         "jersey_number": 73,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4990,
+         "name": "Edney Henrique",
+         "short_name": "Edney",
+         "position": "M",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28918,
+         "name": "Xavier",
+         "short_name": "Xavier",
+         "position": "M",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28927,
+         "name": "João Casimiro",
+         "short_name": "J. Casimiro",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28924,
+         "name": "João Reis",
+         "short_name": "J. Reis",
+         "position": "M",
+         "jersey_number": 17,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 28917,
+         "name": "Mamede",
+         "short_name": "T. Ferreira",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 115070,
+         "name": "Midana Cassamá",
+         "short_name": "M. Cassamá",
+         "position": "F",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 45938,
+         "name": "Shoya Nakajima",
+         "short_name": "S. Nakajima",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 28942,
+         "name": "Wellington Luiz Santana",
+         "short_name": "W. L. Santana",
+         "position": "G",
+         "jersey_number": 65,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 100136,
+         "name": "Italo Cabelinho",
+         "short_name": "Italo",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 23950,
+         "name": "Georgiy Tunguliyadi",
+         "short_name": "G. Tunguliyadi",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28930,
+         "name": "Thauan Lara",
+         "short_name": "Thauan Lara",
+         "position": "D",
+         "jersey_number": 36,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 63325,
+         "name": "Duda",
+         "short_name": "Duda",
+         "position": "M",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 204971,
+         "name": "Caleb Okereke",
+         "short_name": "C. Okereke",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4159,
+         "name": "Yanis da Rocha",
+         "short_name": "Y. d. Rocha",
+         "position": "M",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17391,
+         "name": "Jader Gentil",
+         "short_name": "J. Gentil",
+         "position": "M",
+         "jersey_number": 88,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28914,
+         "name": "Danio Djassi",
+         "short_name": "D. Djassi",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 35702,
+         "name": "Wermeson",
+         "short_name": "Wermeson",
+         "position": "F",
+         "jersey_number": 38,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 75199,
+         "name": "Gonçalo Águas",
+         "short_name": "G. Águas",
+         "position": "F",
+         "jersey_number": 70,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28916,
+         "name": "Welinton Junior",
+         "short_name": "W. Junior",
+         "position": "F",
+         "jersey_number": 93,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "0-0",
+      "minute": 28,
+      "ht_score": "0-0",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    },
+    {
+     "event_id": 215985,
+     "league": "Trendyol Super Lig",
+     "kickoff": "01:00",
+     "home": "Trabzonspor",
+     "away": "Gençlerbirliği",
+     "status": "1st_half",
+     "odds_bsd": {
+      "home_win": 1.55,
+      "draw": 4.08,
+      "away_win": 5.45,
+      "over_15_goals": 1.21,
+      "over_25_goals": 1.73,
+      "over_35_goals": 2.82,
+      "under_15_goals": 4.03,
+      "under_25_goals": 2.06,
+      "under_35_goals": 1.39,
+      "btts_yes": 1.77,
+      "btts_no": 1.95
+     },
+     "lineups": {
+      "home": {
+       "team_id": 197,
+       "team_name": "Trabzonspor",
+       "formation": "4-2-3-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 4827,
+         "name": "André Onana",
+         "short_name": "A. Onana",
+         "position": "G",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6789,
+         "name": "Wagner Pina",
+         "short_name": "W. Pina",
+         "position": "D",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8629,
+         "name": "Chibuike Nwaiwu",
+         "short_name": "C. Nwaiwu",
+         "position": "D",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6620,
+         "name": "Stefan Savić",
+         "short_name": "S. Savić",
+         "position": "D",
+         "jersey_number": 15,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 6613,
+         "name": "Mustafa Eskihellaç",
+         "short_name": "M. Eskihellaç",
+         "position": "D",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6610,
+         "name": "Ozan Tufan",
+         "short_name": "O. Tufan",
+         "position": "M",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8156,
+         "name": "Fabinho",
+         "short_name": "Fabinho",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 333,
+         "name": "Mohamed Salah",
+         "short_name": "M. Salah",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6617,
+         "name": "Ernest Muçi",
+         "short_name": "E. Muçi",
+         "position": "M",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3256,
+         "name": "Aral Şimşir",
+         "short_name": "A. Şimşir",
+         "position": "M",
+         "jersey_number": 58,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6790,
+         "name": "Paul Onuachu",
+         "short_name": "P. Onuachu",
+         "position": "F",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 6624,
+         "name": "Onuralp Çevikkan",
+         "short_name": "O. Çevikkan",
+         "position": "G",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6625,
+         "name": "Ahmet Doğan Yıldırım",
+         "short_name": "A. D. Yıldırım",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5850,
+         "name": "Samet Akaydın",
+         "short_name": "S. Akaydın",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2519,
+         "name": "Cenk Özkaçar",
+         "short_name": "C. Özkaçar",
+         "position": "D",
+         "jersey_number": 39,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1235,
+         "name": "Sidny Lopes Cabral",
+         "short_name": "S. L. Cabral",
+         "position": "D",
+         "jersey_number": 55,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6890,
+         "name": "Melih Kabasakal",
+         "short_name": "M. Kabasakal",
+         "position": "M",
+         "jersey_number": 57,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6755,
+         "name": "Metehan Mimaroğlu",
+         "short_name": "M. Mimaroğlu",
+         "position": "F",
+         "jersey_number": 77,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6490,
+         "name": "Umut Nayir",
+         "short_name": "U. Nayir",
+         "position": "F",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3250,
+         "name": "Franculino Djú",
+         "short_name": "F. Djú",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 26723,
+         "name": "Ali Habeşoğlu",
+         "short_name": "A. Habeşoğlu",
+         "position": "F",
+         "jersey_number": 99,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 185,
+       "team_name": "Gençlerbirliği",
+       "formation": "4-1-4-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 3422,
+         "name": "İrfan Can Eğribayat",
+         "short_name": "İ. C. Eğribayat",
+         "position": "G",
+         "jersey_number": 70,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6747,
+         "name": "Pedro Pereira",
+         "short_name": "P. Pereira",
+         "position": "D",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6748,
+         "name": "Dimitris Goutas",
+         "short_name": "D. Goutas",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 6761,
+         "name": "Fıratcan Üzüm",
+         "short_name": "F. Üzüm",
+         "position": "D",
+         "jersey_number": 88,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6750,
+         "name": "Thalisson",
+         "short_name": "Thalisson",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10600,
+         "name": "Ousmane Diabate",
+         "short_name": "O. Diabate",
+         "position": "M",
+         "jersey_number": 42,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7057,
+         "name": "Adama Malouda Traoré",
+         "short_name": "A. M. Traoré",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6888,
+         "name": "Oğulcan Ülgün",
+         "short_name": "O. Ülgün",
+         "position": "M",
+         "jersey_number": 35,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6754,
+         "name": "Franco Tongya",
+         "short_name": "F. Tongya",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1493,
+         "name": "Tiago Gouveia",
+         "short_name": "T. Gouveia",
+         "position": "M",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6752,
+         "name": "Sekou Koita",
+         "short_name": "S. Koita",
+         "position": "F",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 6985,
+         "name": "Gökhan Akkan",
+         "short_name": "G. Akkan",
+         "position": "G",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6762,
+         "name": "Abdurrahim Dursun",
+         "short_name": "A. Dursun",
+         "position": "D",
+         "jersey_number": 77,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4220,
+         "name": "Metehan Baltacı",
+         "short_name": "M. Baltacı",
+         "position": "D",
+         "jersey_number": 90,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 74967,
+         "name": "Ensar Çavuşoğlu",
+         "short_name": "E. Çavuşoğlu",
+         "position": "D",
+         "jersey_number": 53,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5840,
+         "name": "Salih Uçan",
+         "short_name": "S. Uçan",
+         "position": "M",
+         "jersey_number": 48,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1720,
+         "name": "Rafael Luis",
+         "short_name": "R. Luís",
+         "position": "M",
+         "jersey_number": 83,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7157,
+         "name": "Peter Etebo",
+         "short_name": "P. Etebo",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 52335,
+         "name": "Erk Arda Aslan",
+         "short_name": "E. A. Aslan",
+         "position": "M",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 37795,
+         "name": "Victor Orakpo",
+         "short_name": "V. Orakpo",
+         "position": "F",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 39198,
+         "name": "Pedro Mendes",
+         "short_name": "P. Mendes",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "3-0",
+      "minute": 30,
+      "ht_score": "3-0",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    },
+    {
+     "event_id": 215984,
+     "league": "Trendyol Super Lig",
+     "kickoff": "01:00",
+     "home": "Kocaelispor",
+     "away": "Samsunspor",
+     "status": "1st_half",
+     "odds_bsd": {
+      "home_win": 2.5,
+      "draw": 3.05,
+      "away_win": 2.92,
+      "over_15_goals": 1.36,
+      "over_25_goals": 2.18,
+      "over_35_goals": 3.96,
+      "under_15_goals": 2.94,
+      "under_25_goals": 1.65,
+      "under_35_goals": 1.22,
+      "btts_yes": 1.87,
+      "btts_no": 1.84
+     },
+     "lineups": {
+      "home": {
+       "team_id": 198,
+       "team_name": "Kocaelispor",
+       "formation": "4-1-4-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 8761,
+         "name": "Serhat Öztaşdelen",
+         "short_name": "S. Öztaşdelen",
+         "position": "G",
+         "jersey_number": 83,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6576,
+         "name": "Anfernee Jamal Dijksteel",
+         "short_name": "A. Dijksteel",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3196,
+         "name": "Tanguy Zoukrou",
+         "short_name": "T. Zoukrou",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 27241,
+         "name": "Matej Maglica",
+         "short_name": "M. Maglica",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6564,
+         "name": "Massadio Haïdara",
+         "short_name": "M. Haïdara",
+         "position": "D",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6658,
+         "name": "Show",
+         "short_name": "Show",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6567,
+         "name": "Dan Agyei",
+         "short_name": "D. Agyei",
+         "position": "M",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6881,
+         "name": "Uğur Kaan Yıldız",
+         "short_name": "U. K. Yıldız",
+         "position": "M",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4219,
+         "name": "Berkan Kutlu",
+         "short_name": "B. Kutlu",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 13706,
+         "name": "Gonçalo Sousa",
+         "short_name": "G. Sousa",
+         "position": "M",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7609,
+         "name": "Florian Ayé",
+         "short_name": "F. Ayé",
+         "position": "F",
+         "jersey_number": 97,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 6515,
+         "name": "Onurcan Piri",
+         "short_name": "O. Piri",
+         "position": "G",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7103,
+         "name": "Onur Öztonga",
+         "short_name": "O. Öztonga",
+         "position": "D",
+         "jersey_number": 41,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6578,
+         "name": "Muharrem Cinan",
+         "short_name": "M. Cinan",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6343,
+         "name": "Emir Ortakaya",
+         "short_name": "E. Ortakaya",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5945,
+         "name": "Mahamadou Susoho",
+         "short_name": "M. Susoho",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11290,
+         "name": "Makana Baku",
+         "short_name": "M. Baku",
+         "position": "M",
+         "jersey_number": 32,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6991,
+         "name": "Ege Bilim",
+         "short_name": "E. Bilim",
+         "position": "M",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6360,
+         "name": "Metehan Altunbaş",
+         "short_name": "M. Altunbaş",
+         "position": "F",
+         "jersey_number": 26,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 16304,
+         "name": "Tobias Fjeld Gulliksen",
+         "short_name": "T. Gulliksen",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6568,
+         "name": "Tayfur Bingöl",
+         "short_name": "T. Bingöl",
+         "position": "D",
+         "jersey_number": 75,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 184,
+       "team_name": "Samsunspor",
+       "formation": "4-4-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 5724,
+         "name": "Okan Kocuk",
+         "short_name": "O. Koçuk",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6851,
+         "name": "Josafat Mendes",
+         "short_name": "J. Mendes",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 27382,
+         "name": "Gabriele Guarino",
+         "short_name": "G. Guarino",
+         "position": "D",
+         "jersey_number": 34,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5737,
+         "name": "Yunus Emre Çift",
+         "short_name": "Y. E. Çift",
+         "position": "D",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5734,
+         "name": "Logi Tomasson",
+         "short_name": "L. Tómasson",
+         "position": "D",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5732,
+         "name": "Emre Kılınç",
+         "short_name": "E. Kılınç",
+         "position": "M",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 38085,
+         "name": "Antoine Sekongo",
+         "short_name": "A. Sekongo",
+         "position": "M",
+         "jersey_number": 42,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6348,
+         "name": "Yalçın Kayan",
+         "short_name": "Y. Kayan",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6891,
+         "name": "Celil Yüksel",
+         "short_name": "C. Yüksel",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6758,
+         "name": "Samed Onur",
+         "short_name": "S. Onur",
+         "position": "F",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8628,
+         "name": "Saikuba Jarju",
+         "short_name": "S. Jarju",
+         "position": "F",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 6501,
+         "name": "Bilal Bayazit",
+         "short_name": "B. Bayazit",
+         "position": "G",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 13613,
+         "name": "Efe Yiğit Üstün",
+         "short_name": "E. Y. Üstün",
+         "position": "G",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 13925,
+         "name": "Igor Drapiński",
+         "short_name": "I. Drapiński",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 12260,
+         "name": "Strahinja Eraković",
+         "short_name": "S. Eraković",
+         "position": "D",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8965,
+         "name": "Enes Albak",
+         "short_name": "E. Albak",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65985,
+         "name": "Haluk Mustafa Tan",
+         "short_name": "H. M. Tan",
+         "position": "D",
+         "jersey_number": 29,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "1-0",
+      "minute": 29,
+      "ht_score": "1-0",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    },
+    {
+     "event_id": 211346,
+     "league": "Pro League",
+     "kickoff": "00:30",
+     "home": "RSC Anderlecht",
+     "away": "KRC Genk",
+     "status": "halftime",
+     "odds_bsd": {
+      "home_win": 2.41,
+      "draw": 3.51,
+      "away_win": 2.71,
+      "over_15_goals": null,
+      "over_25_goals": 1.66,
+      "over_35_goals": null,
+      "under_15_goals": null,
+      "under_25_goals": 2.15,
+      "under_35_goals": null,
+      "btts_yes": 1.48,
+      "btts_no": 2.52
+     },
+     "lineups": {
+      "home": {
+       "team_id": 240,
+       "team_name": "RSC Anderlecht",
+       "formation": "4-4-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 7334,
+         "name": "Colin Coosemans",
+         "short_name": "C. Coosemans",
+         "position": "G",
+         "jersey_number": 26,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 7336,
+         "name": "Ali Maamar",
+         "short_name": "A. Maamar",
+         "position": "D",
+         "jersey_number": 79,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3489,
+         "name": "Giulian Biancone",
+         "short_name": "G. Biancone",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2762,
+         "name": "Léo Pétrot",
+         "short_name": "L. Pétrot",
+         "position": "D",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7744,
+         "name": "Ludwig Augustinsson",
+         "short_name": "L. Augustinsson",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3023,
+         "name": "Oliver Antman",
+         "short_name": "O. Antman",
+         "position": "M",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 27779,
+         "name": "Ilias Koutsoupias",
+         "short_name": "I. Koutsoupias",
+         "position": "M",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7743,
+         "name": "Marco Kana",
+         "short_name": "M. Kana",
+         "position": "M",
+         "jersey_number": 55,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 121647,
+         "name": "Noa Cobiella",
+         "short_name": "N. Cobiella",
+         "position": "M",
+         "jersey_number": 53,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 29643,
+         "name": "Tawfik Bentayeb",
+         "short_name": "T. Bentayeb",
+         "position": "F",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6621,
+         "name": "Danylo Sikan",
+         "short_name": "D. Sikan",
+         "position": "F",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 13533,
+         "name": "Mattis Seghers",
+         "short_name": "M. Seghers",
+         "position": "G",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8779,
+         "name": "Justin Heekeren",
+         "short_name": "J. Heekeren",
+         "position": "G",
+         "jersey_number": 32,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 89166,
+         "name": "Kaïs Barry",
+         "short_name": "K. Barry",
+         "position": "D",
+         "jersey_number": 50,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1703,
+         "name": "Andrew Omobamidele",
+         "short_name": "A. Omobamidele",
+         "position": "D",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 13974,
+         "name": "Lukáš Ambros",
+         "short_name": "L. Ambros",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7350,
+         "name": "Enric Llansana",
+         "short_name": "E. Llansana",
+         "position": "M",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 22622,
+         "name": "Joshua Nga Kana",
+         "short_name": "J. Nga Kana",
+         "position": "M",
+         "jersey_number": 61,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 77247,
+         "name": "Noah Kalonji",
+         "short_name": "N. Kalonji",
+         "position": "M",
+         "jersey_number": 68,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 66085,
+         "name": "Jayden Onia Seke",
+         "short_name": "J. O. Seke",
+         "position": "F",
+         "jersey_number": 49,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7356,
+         "name": "Tristan Degreef",
+         "short_name": "T. Degreef",
+         "position": "M",
+         "jersey_number": 83,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 41317,
+         "name": "Marten Winkler",
+         "short_name": "M. Winkler",
+         "position": "F",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7354,
+         "name": "Mihajlo Cvetković",
+         "short_name": "M. Cvetković",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 146,
+       "team_name": "KRC Genk",
+       "formation": "4-2-3-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 4419,
+         "name": "Lucca Brughmans",
+         "short_name": "L. Brughmans",
+         "position": "G",
+         "jersey_number": 28,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 25126,
+         "name": "Kevin Amaro",
+         "short_name": "K. Amaro",
+         "position": "D",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3124,
+         "name": "Matte Smets",
+         "short_name": "M. Smets",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3139,
+         "name": "Josue Ndenge Kongolo",
+         "short_name": "J. N. Kongolo",
+         "position": "D",
+         "jersey_number": 44,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4161,
+         "name": "Joris Kayembe",
+         "short_name": "Kayembe",
+         "position": "D",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3127,
+         "name": "Bryan Heynen",
+         "short_name": "B. Heynen",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 3136,
+         "name": "Ibrahima Sory Bangoura",
+         "short_name": "I. S. Bangoura",
+         "position": "M",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4564,
+         "name": "Junya Ito",
+         "short_name": "J. Ito",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7501,
+         "name": "Jeppe Erenbjerg",
+         "short_name": "J. Erenbjerg",
+         "position": "M",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3141,
+         "name": "Ayumu Yokoyama",
+         "short_name": "A. Yokoyama",
+         "position": "M",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3228,
+         "name": "Rafiu Durosinmi",
+         "short_name": "R. Durosinmi",
+         "position": "F",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 7189,
+         "name": "Tobe Leysen",
+         "short_name": "T. Leysen",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3125,
+         "name": "Yaimar Medina",
+         "short_name": "Y. Medina",
+         "position": "D",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 12991,
+         "name": "Milan Roganović",
+         "short_name": "M. Roganović",
+         "position": "D",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7249,
+         "name": "Christiaan Ravych",
+         "short_name": "C. Ravych",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 26812,
+         "name": "Benjamin Tahirović",
+         "short_name": "B. Tahirović",
+         "position": "M",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3129,
+         "name": "Daan Heymans",
+         "short_name": "D. Heymans",
+         "position": "M",
+         "jersey_number": 38,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3132,
+         "name": "Noah Adedeji-Sternberg",
+         "short_name": "N. Adedeji-Sternberg",
+         "position": "F",
+         "jersey_number": 32,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3142,
+         "name": "Aaron Bibout",
+         "short_name": "A. Bibout",
+         "position": "F",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7585,
+         "name": "Jerry Afriyie",
+         "short_name": "J. Afriyie",
+         "position": "F",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "0-0",
+      "minute": 45,
+      "ht_score": "0-0",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    },
+    {
+     "event_id": 207062,
+     "league": "Eliteserien",
+     "kickoff": "01:15",
+     "home": "Kristiansund BK",
+     "away": "Tromsø IL",
+     "status": "1st_half",
+     "odds_bsd": {
+      "home_win": 4.49,
+      "draw": 3.9,
+      "away_win": 1.66,
+      "over_15_goals": 1.2,
+      "over_25_goals": 1.7,
+      "over_35_goals": 2.74,
+      "under_15_goals": 4.13,
+      "under_25_goals": 2.1,
+      "under_35_goals": 1.41,
+      "btts_yes": 1.66,
+      "btts_no": 2.11
+     },
+     "lineups": {
+      "home": {
+       "team_id": 2079,
+       "team_name": "Kristiansund BK",
+       "formation": "4-3-3",
+       "confidence": null,
+       "players": [
+        {
+         "id": 50212,
+         "name": "Michael Lansing",
+         "short_name": "M. Lansing",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50208,
+         "name": "Jesper Isaksen",
+         "short_name": "J. Isaksen",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50199,
+         "name": "Julius Mar Juliusson",
+         "short_name": "J. M. Júlíusson",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50200,
+         "name": "Dan Peter Ulvestad",
+         "short_name": "D. P. Ulvestad",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 50249,
+         "name": "John Kitolano",
+         "short_name": "J. Kitolano",
+         "position": "D",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 9866,
+         "name": "Heine Gikling Bruseth",
+         "short_name": "H. G. Bruseth",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 28160,
+         "name": "Marius Elvius",
+         "short_name": "M. Elvius",
+         "position": "M",
+         "jersey_number": 59,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 27491,
+         "name": "Gustav Christensen",
+         "short_name": "G. Christensen",
+         "position": "M",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8650,
+         "name": "Sander Svendsen",
+         "short_name": "S. Svendsen",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50205,
+         "name": "Leander Alvheim",
+         "short_name": "L. Alvheim",
+         "position": "F",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11947,
+         "name": "Zymer Bytyqi",
+         "short_name": "Z. Bytyqi",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 50198,
+         "name": "Adrian Sæther",
+         "short_name": "A. Sæther",
+         "position": "G",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50317,
+         "name": "Max Normann Williamsen",
+         "short_name": "M. N. Williamsen",
+         "position": "D",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50201,
+         "name": "Frederik Flex",
+         "short_name": "F. Flex",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50203,
+         "name": "Wilfred George Igor",
+         "short_name": "W. G. Igor",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50316,
+         "name": "Syver Skundberg Skeide",
+         "short_name": "S. S. Skeide",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50202,
+         "name": "Adrian Kurd Rønning",
+         "short_name": "A. K. Rønning",
+         "position": "F",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50207,
+         "name": "Tobias Hammer Svendsen",
+         "short_name": "T. H. Svendsen",
+         "position": "M",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 52635,
+         "name": "David Tufekcic",
+         "short_name": "D. Tufekcic",
+         "position": "M",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50215,
+         "name": "Haakon Haugen",
+         "short_name": "H. Haugen",
+         "position": "D",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 2086,
+       "team_name": "Tromsø IL",
+       "formation": "5-3-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 50180,
+         "name": "Jakob Haugaard",
+         "short_name": "J. Haugaard",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 50192,
+         "name": "Sander Innvær",
+         "short_name": "S. Innvær",
+         "position": "D",
+         "jersey_number": 37,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3552,
+         "name": "Vince Osuji",
+         "short_name": "V. Osuji",
+         "position": "D",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15982,
+         "name": "Leon Hien",
+         "short_name": "L. Hien",
+         "position": "D",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50191,
+         "name": "Isak Vadebu",
+         "short_name": "I. Vadebu",
+         "position": "D",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50184,
+         "name": "Alexander Warneryd",
+         "short_name": "A. Warneryd",
+         "position": "D",
+         "jersey_number": 29,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50185,
+         "name": "David Edvardsson",
+         "short_name": "D. Edvardsson",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 6487,
+         "name": "Morten Bjørlo",
+         "short_name": "M. Bjorlo",
+         "position": "M",
+         "jersey_number": 70,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 5615,
+         "name": "Lars Olden Larsen",
+         "short_name": "L. O. Larsen",
+         "position": "M",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50188,
+         "name": "Troy Nyhammer",
+         "short_name": "T. Nyhammer",
+         "position": "F",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50189,
+         "name": "Heine Asen Larsen",
+         "short_name": "H. A. Larsen",
+         "position": "F",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 50193,
+         "name": "Ole Lauvli",
+         "short_name": "O. Lauvli",
+         "position": "G",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": null,
+         "name": "E. Molund",
+         "short_name": "E. Molund",
+         "position": "D",
+         "jersey_number": 40,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 50195,
+         "name": "Mads Mikkelsen",
+         "short_name": "M. Mikkelsen",
+         "position": "M",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 25521,
+         "name": "Musa Jatta",
+         "short_name": "M. Jatta",
+         "position": "D",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 53817,
+         "name": "Jesper Andreas Grundt",
+         "short_name": "J. A. Grundt",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15817,
+         "name": "Isak Dahlqvist",
+         "short_name": "I. Dahlqvist",
+         "position": "M",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 119614,
+         "name": "Nikolay Jakobsen Hristov",
+         "short_name": "N. J. Hristov",
+         "position": "F",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 29028,
+         "name": "Vegard Erlien",
+         "short_name": "V. Erlien",
+         "position": "F",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "1-0",
+      "minute": 15,
+      "ht_score": "1-0",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    },
+    {
+     "event_id": 219754,
+     "league": "Stoiximan Super League",
+     "kickoff": "01:00",
+     "home": "APO Levadiakos",
+     "away": "GFS Panetolikos",
+     "status": "1st_half",
+     "odds_bsd": {
+      "home_win": 1.82,
+      "draw": 3.43,
+      "away_win": 4.11,
+      "over_15_goals": 1.3,
+      "over_25_goals": 2.0,
+      "over_35_goals": 3.52,
+      "under_15_goals": 3.23,
+      "under_25_goals": 1.77,
+      "under_35_goals": 1.26,
+      "btts_yes": 1.94,
+      "btts_no": 1.77
+     },
+     "lineups": {
+      "home": {
+       "team_id": 334,
+       "team_name": "APO Levadiakos",
+       "formation": "4-2-3-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 10758,
+         "name": "Lucas Anacker",
+         "short_name": "L. Anacker",
+         "position": "G",
+         "jersey_number": 33,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 3092,
+         "name": "Alexandru Grigoras Pantea",
+         "short_name": "A. Pantea",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11116,
+         "name": "Panagiotis Liagas",
+         "short_name": "P. Liagas",
+         "position": "D",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10763,
+         "name": "Giannis Tsivelekidis",
+         "short_name": "G. Tsivelekidis",
+         "position": "D",
+         "jersey_number": 37,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10730,
+         "name": "Marios Vichos",
+         "short_name": "M. Vichos",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10733,
+         "name": "Giannis Kosti",
+         "short_name": "G. Kosti",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3084,
+         "name": "Adrian Șut",
+         "short_name": "A. Șut",
+         "position": "M",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 96182,
+         "name": "Agustín Urzi",
+         "short_name": "A. Urzi",
+         "position": "M",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10750,
+         "name": "Georgios Nikas",
+         "short_name": "G. Nikas",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10909,
+         "name": "Dimitrios Emmanouilidis",
+         "short_name": "D. Emmanouilidis",
+         "position": "M",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 80860,
+         "name": "Moses David Cobnan",
+         "short_name": "M. Cobnan",
+         "position": "F",
+         "jersey_number": 99,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 13037,
+         "name": "Niv Eliasi",
+         "short_name": "N. Eliasi",
+         "position": "G",
+         "jersey_number": 55,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10723,
+         "name": "Georgios Kornezos",
+         "short_name": "G. Kornezos",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 99285,
+         "name": "Nikolaos Tsaras",
+         "short_name": "N. Tsaras",
+         "position": "D",
+         "jersey_number": 95,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10765,
+         "name": "Konstantinos Goumas",
+         "short_name": "K. Goumas",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10770,
+         "name": "Christos Papadopoulos",
+         "short_name": "C. Papadopoulos",
+         "position": "M",
+         "jersey_number": 74,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 139126,
+         "name": "Mohamed Ndiaye",
+         "short_name": "M. Ndiaye",
+         "position": "M",
+         "jersey_number": 66,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 22977,
+         "name": "Gregorio Rodriguez",
+         "short_name": "G. Rodríguez",
+         "position": "F",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65699,
+         "name": "Georgios Vrakas",
+         "short_name": "G. Vrakas",
+         "position": "F",
+         "jersey_number": 77,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 19427,
+         "name": "Juan Bauza",
+         "short_name": "J. Bauza",
+         "position": "M",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10768,
+         "name": "Georgios Manthatis",
+         "short_name": "G. Manthatis",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10753,
+         "name": "Ognjen Ožegović",
+         "short_name": "O. Ozegović",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11039,
+         "name": "Mahamadou Balde",
+         "short_name": "M. Balde",
+         "position": "F",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 326,
+       "team_name": "GFS Panetolikos",
+       "formation": "4-1-4-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 6919,
+         "name": "Yevhenii Kucherenko",
+         "short_name": "Y. Kucherenko",
+         "position": "G",
+         "jersey_number": 99,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 11358,
+         "name": "Charis Mavrias",
+         "short_name": "C. Mavrias",
+         "position": "D",
+         "jersey_number": 35,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10808,
+         "name": "Gustav Granath",
+         "short_name": "G. Granath",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11629,
+         "name": "Nikola Stajić",
+         "short_name": "N. Stajić",
+         "position": "D",
+         "jersey_number": 49,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10835,
+         "name": "Apostolos Apostolopoulos",
+         "short_name": "A. Apostolopoulos",
+         "position": "D",
+         "jersey_number": 65,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 9685,
+         "name": "Amine Bassi",
+         "short_name": "A. Bassi",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 16758,
+         "name": "Novica Eraković",
+         "short_name": "N. Eraković",
+         "position": "M",
+         "jersey_number": 44,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10815,
+         "name": "Diego Esteban",
+         "short_name": "D. Esteban",
+         "position": "M",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10805,
+         "name": "Giannis Satsias",
+         "short_name": "G. Satsias",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 97982,
+         "name": "Moussa Djenepo",
+         "short_name": "M. Djenepo",
+         "position": "M",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10827,
+         "name": "Youssouph Badji",
+         "short_name": "Y. Badji",
+         "position": "F",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 11452,
+         "name": "Michalis Pardalos",
+         "short_name": "M. Pardalos",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11263,
+         "name": "Vasilios Xenopoulos",
+         "short_name": "V. Xenopoulos",
+         "position": "G",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10813,
+         "name": "Christian Manrique",
+         "short_name": "C. Manrique",
+         "position": "D",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10850,
+         "name": "Lazar Kojić",
+         "short_name": "L. Kojić",
+         "position": "M",
+         "jersey_number": 28,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65956,
+         "name": "Athanasios Prodromitis",
+         "short_name": "A. Prodromitis",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 14175,
+         "name": "Elias Olsson",
+         "short_name": "E. Olsson",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10855,
+         "name": "Vangelis Nikolaou",
+         "short_name": "V. Nikolaou",
+         "position": "M",
+         "jersey_number": 77,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2960,
+         "name": "Adriano Bregou",
+         "short_name": "A. Bregou",
+         "position": "M",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8998,
+         "name": "Marvelous Nakamba",
+         "short_name": "M. Nakamba",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 9607,
+         "name": "Kwadwo Opoku",
+         "short_name": "K. Opoku",
+         "position": "F",
+         "jersey_number": 90,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2937,
+         "name": "Salifou Soumah",
+         "short_name": "S. Soumah",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10831,
+         "name": "Kosta Aleksić",
+         "short_name": "K. Aleksić",
+         "position": "F",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "0-0",
+      "minute": 30,
+      "ht_score": "0-0",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    },
+    {
+     "event_id": 215535,
+     "league": "Liga Portugal Betclic",
+     "kickoff": "01:00",
+     "home": "Vitória SC",
+     "away": "Casa Pia",
+     "status": "1st_half",
+     "odds_bsd": {
+      "home_win": 1.46,
+      "draw": 3.8,
+      "away_win": 6.5,
+      "over_15_goals": 1.3,
+      "over_25_goals": 2.0,
+      "over_35_goals": 3.5,
+      "under_15_goals": 3.4,
+      "under_25_goals": 1.8,
+      "under_35_goals": 1.29,
+      "btts_yes": 2.05,
+      "btts_no": 1.7
+     },
+     "lineups": {
+      "home": {
+       "team_id": 36,
+       "team_name": "Vitória SC",
+       "formation": "4-2-3-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 13987,
+         "name": "Oliwier Zych",
+         "short_name": "O. Zych",
+         "position": "G",
+         "jersey_number": 48,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2710,
+         "name": "Tony Strata",
+         "short_name": "T. Strata",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 29750,
+         "name": "Franck Ahmed Sidibé",
+         "short_name": "F. A. Sidibé",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2714,
+         "name": "Thiago Balieiro",
+         "short_name": "T. Balieiro",
+         "position": "D",
+         "jersey_number": 28,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2700,
+         "name": "João Mendes",
+         "short_name": "J. Mendes",
+         "position": "D",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2702,
+         "name": "Beni Mukendi",
+         "short_name": "B. Mukendi",
+         "position": "M",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2082,
+         "name": "Lohann Doucet",
+         "short_name": "L. Doucet",
+         "position": "M",
+         "jersey_number": 44,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4687,
+         "name": "Gustavo Silva",
+         "short_name": "G. Silva",
+         "position": "M",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2707,
+         "name": "Samu",
+         "short_name": "Samu",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 4065,
+         "name": "Miguel Nogueira",
+         "short_name": "M. Nogueira",
+         "position": "M",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2709,
+         "name": "Alioune Ndoye",
+         "short_name": "A. Ndoye",
+         "position": "F",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 2696,
+         "name": "Juan Castillo",
+         "short_name": "J. Castillo",
+         "position": "G",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2698,
+         "name": "Óscar Rivas",
+         "short_name": "Ó. Rivas",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 13712,
+         "name": "Francisco Dias",
+         "short_name": "F. Dias",
+         "position": "D",
+         "jersey_number": 82,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2697,
+         "name": "Miguel Maga",
+         "short_name": "M. Maga",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2703,
+         "name": "Gonçalo Nogueira",
+         "short_name": "G. Nogueira",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 75190,
+         "name": "Santi Verdi",
+         "short_name": "S. Verdi",
+         "position": "M",
+         "jersey_number": 56,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 16313,
+         "name": "Victor Andersson",
+         "short_name": "V. Andersson",
+         "position": "M",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2701,
+         "name": "Telmo Arcanjo",
+         "short_name": "T. Arcanjo",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2711,
+         "name": "Matija Mitrović",
+         "short_name": "M. Mitrović",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2706,
+         "name": "Oumar Camara",
+         "short_name": "O. Camara",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 37786,
+         "name": "Patrick Ouotro",
+         "short_name": "P. Ouotro",
+         "position": "F",
+         "jersey_number": 29,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 56594,
+         "name": "Arnel Jakupović",
+         "short_name": "A. Jakupović",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 21,
+       "team_name": "Casa Pia",
+       "formation": "4-3-3",
+       "confidence": null,
+       "players": [
+        {
+         "id": 2282,
+         "name": "André Gomes",
+         "short_name": "A. Gomes",
+         "position": "G",
+         "jersey_number": 31,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2265,
+         "name": "André Geraldes",
+         "short_name": "A. Geraldes",
+         "position": "D",
+         "jersey_number": 18,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 4636,
+         "name": "Domingos Jose Gabriel Bandeira",
+         "short_name": "Kaly",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3975,
+         "name": "David Sousa",
+         "short_name": "David Sousa",
+         "position": "D",
+         "jersey_number": 43,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 9017,
+         "name": "Pedro Rosas",
+         "short_name": "P. Rosas",
+         "position": "D",
+         "jersey_number": 75,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4844,
+         "name": "Lawrence Ofori",
+         "short_name": "L. Ofori",
+         "position": "M",
+         "jersey_number": 80,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30266,
+         "name": "Selvi Clúa",
+         "short_name": "S. Clúa",
+         "position": "M",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2070,
+         "name": "João Rêgo",
+         "short_name": "J. Rêgo",
+         "position": "M",
+         "jersey_number": 70,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 36765,
+         "name": "Alassana Jatta",
+         "short_name": "A. Jatta",
+         "position": "F",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8962,
+         "name": "Benjamin Pauwels",
+         "short_name": "B. Pauwels",
+         "position": "F",
+         "jersey_number": 77,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3976,
+         "name": "Kevin Prieto",
+         "short_name": "K. Prieto",
+         "position": "F",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 8926,
+         "name": "Ivan Mandić",
+         "short_name": "I. Mandić",
+         "position": "G",
+         "jersey_number": 95,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2278,
+         "name": "João Goulart",
+         "short_name": "J. Goulart",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2267,
+         "name": "Sebastián Pérez",
+         "short_name": "S. Pérez",
+         "position": "M",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65742,
+         "name": "Gabi Pereira",
+         "short_name": "G. Pereira",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 22664,
+         "name": "Abdu Dafe",
+         "short_name": "A. Dafe",
+         "position": "M",
+         "jersey_number": 59,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 12282,
+         "name": "JP",
+         "short_name": "JP",
+         "position": "M",
+         "jersey_number": 98,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 42143,
+         "name": "Mohamed Salah El Boukammiri",
+         "short_name": "M. S. E. Boukammiri",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4340,
+         "name": "Rochinha",
+         "short_name": "Rochinha",
+         "position": "F",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 3790,
+         "name": "Henrique Araújo",
+         "short_name": "H. Araújo",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 48592,
+         "name": "Evans Fabrice Maurin",
+         "short_name": "E. F. Maurin",
+         "position": "F",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 150226,
+         "name": "Aymen Zouin",
+         "short_name": "A. Zouin",
+         "position": "F",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2271,
+         "name": "Cassiano",
+         "short_name": "Cassiano",
+         "position": "F",
+         "jersey_number": 90,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "0-0",
+      "minute": 27,
+      "ht_score": "0-0",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    },
+    {
+     "event_id": 219757,
+     "league": "Stoiximan Super League",
+     "kickoff": "00:30",
+     "home": "OFI Crete",
+     "away": "AE Kifisia",
+     "status": "halftime",
+     "odds_bsd": {
+      "home_win": 2.13,
+      "draw": 3.17,
+      "away_win": 3.36,
+      "over_15_goals": 1.34,
+      "over_25_goals": 2.09,
+      "over_35_goals": 3.72,
+      "under_15_goals": 3.06,
+      "under_25_goals": 1.71,
+      "under_35_goals": 1.24,
+      "btts_yes": 1.83,
+      "btts_no": 1.89
+     },
+     "lineups": {
+      "home": {
+       "team_id": 332,
+       "team_name": "OFI Crete",
+       "formation": "3-4-2-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 11089,
+         "name": "Nikolaos Christogeorgos",
+         "short_name": "N. Christogeorgos",
+         "position": "G",
+         "jersey_number": 31,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 11049,
+         "name": "Konstantinos Kostoulas",
+         "short_name": "K. Kostoulas",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11051,
+         "name": "Achilleas Poungouras",
+         "short_name": "A. Poungouras",
+         "position": "D",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 39267,
+         "name": "Dimitrios Nikolaou",
+         "short_name": "D. Nikolaou",
+         "position": "D",
+         "jersey_number": 43,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 39265,
+         "name": "Lorenzo Dickmann",
+         "short_name": "L. Dickmann",
+         "position": "M",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11073,
+         "name": "Athanasios Androutsos",
+         "short_name": "A. Androutsos",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10819,
+         "name": "Andreas Bouchalakis",
+         "short_name": "A. Bouchalakis",
+         "position": "M",
+         "jersey_number": 41,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 1512,
+         "name": "Nikolaos Athanasiou",
+         "short_name": "N. Athanasiou",
+         "position": "M",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11077,
+         "name": "Taxiarchis Fountas",
+         "short_name": "T. Fountas",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11441,
+         "name": "Thiago Nuss",
+         "short_name": "T. Nuss",
+         "position": "F",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 29056,
+         "name": "Kenan Kodro",
+         "short_name": "K. Kodro",
+         "position": "F",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 11046,
+         "name": "Klidman Lilo",
+         "short_name": "K. Lilo",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11086,
+         "name": "Panagiotis Katsikas",
+         "short_name": "P. Katsikas",
+         "position": "G",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11054,
+         "name": "Krešimir Krizmanić",
+         "short_name": "K. Krizmanić",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11094,
+         "name": "Pavlos Kenourgiakis",
+         "short_name": "P. Kenourgiakis",
+         "position": "D",
+         "jersey_number": 90,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11081,
+         "name": "Borja Gonzalez",
+         "short_name": "B. Gonzalez",
+         "position": "D",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 308,
+         "name": "Aitor Cantalapiedra",
+         "short_name": "A. Cantalapiedra",
+         "position": "F",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11607,
+         "name": "Thanasis Sitmalidis",
+         "short_name": "T. Sitmalidis",
+         "position": "F",
+         "jersey_number": 71,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11060,
+         "name": "Giannis Apostolakis",
+         "short_name": "G. Apostolakis",
+         "position": "M",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11058,
+         "name": "Georgios Kanellopoulos",
+         "short_name": "G. Kanellopoulos",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11472,
+         "name": "Zisis Karachalios",
+         "short_name": "Z. Karachalios",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11101,
+         "name": "Thiago Romano",
+         "short_name": "T. Romano",
+         "position": "F",
+         "jersey_number": 30,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11068,
+         "name": "Giannis Theodosoulakis",
+         "short_name": "G. Theodosoulakis",
+         "position": "F",
+         "jersey_number": 46,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 324,
+       "team_name": "AE Kifisia",
+       "formation": "4-4-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 11237,
+         "name": "Moisés Ramírez",
+         "short_name": "M. Ramírez",
+         "position": "G",
+         "jersey_number": 99,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 1914,
+         "name": "Tiago Manso",
+         "short_name": "T. Manso",
+         "position": "D",
+         "jersey_number": 48,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 40756,
+         "name": "Clément Jolibois",
+         "short_name": "C. Jolibois",
+         "position": "D",
+         "jersey_number": 34,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11240,
+         "name": "Hugo Sousa",
+         "short_name": "H. Sousa",
+         "position": "D",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10649,
+         "name": "Leroy Abanda",
+         "short_name": "L. Abanda",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11250,
+         "name": "Gerson Sousa",
+         "short_name": "G. Sousa",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15915,
+         "name": "Imam Jagne",
+         "short_name": "I. Jagne",
+         "position": "M",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11273,
+         "name": "Konstantinos Roukounakis",
+         "short_name": "K. Roukounakis",
+         "position": "M",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11253,
+         "name": "Jeremy Antonisse",
+         "short_name": "J. Antonisse",
+         "position": "M",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11333,
+         "name": "Ángelo Sagal",
+         "short_name": "Á. Sagal",
+         "position": "F",
+         "jersey_number": 28,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11251,
+         "name": "Jorge Pombo",
+         "short_name": "J. Pombo",
+         "position": "F",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 11326,
+         "name": "Alexandros Anagnostopoulos",
+         "short_name": "A. Anagnostopoulos",
+         "position": "G",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11414,
+         "name": "Alex Petkov",
+         "short_name": "A. Petkov",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 8825,
+         "name": "Nektarios Kaloskamis",
+         "short_name": "N. Kaloskamis",
+         "position": "D",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 93004,
+         "name": "Konstantinos Polykratis",
+         "short_name": "K. Polykratis",
+         "position": "D",
+         "jersey_number": 26,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11351,
+         "name": "Konstantinos Apostolakis",
+         "short_name": "K. Apostolakis",
+         "position": "M",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 144621,
+         "name": "Vaggelis Manganas",
+         "short_name": "V. Magganas",
+         "position": "M",
+         "jersey_number": 44,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11130,
+         "name": "Giannis Doiranlis",
+         "short_name": "G. Doiranlis",
+         "position": "M",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 2307,
+         "name": "Benny",
+         "short_name": "B. Martins",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 31818,
+         "name": "Jordi Mboula",
+         "short_name": "J. Mboula",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 16417,
+         "name": "Ioannis Kousoulos",
+         "short_name": "I. Kousoulos",
+         "position": "M",
+         "jersey_number": 31,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11413,
+         "name": "Apostolos Christopoulos",
+         "short_name": "A. Christopoulos",
+         "position": "F",
+         "jersey_number": 72,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11258,
+         "name": "Dimitris Theodoridis",
+         "short_name": "D. Theodoridis",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "2-0",
+      "minute": 45,
+      "ht_score": "2-0",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    },
+    {
+     "event_id": 215238,
+     "league": "Liga F",
+     "kickoff": "00:30",
+     "home": "Logroño United",
+     "away": "Athletic Club",
+     "status": "halftime",
+     "odds_bsd": {
+      "home_win": null,
+      "draw": null,
+      "away_win": null,
+      "over_15_goals": null,
+      "over_25_goals": null,
+      "over_35_goals": null,
+      "under_15_goals": null,
+      "under_25_goals": null,
+      "under_35_goals": null,
+      "btts_yes": 1.86,
+      "btts_no": 1.79
+     },
+     "lineups": {
+      "home": {
+       "team_id": 925,
+       "team_name": "Logroño United",
+       "formation": "4-3-3",
+       "confidence": null,
+       "players": [
+        {
+         "id": 17722,
+         "name": "María Miralles",
+         "short_name": "M. Miralles",
+         "position": "G",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17723,
+         "name": "Justina Morcillo",
+         "short_name": "J. Morcillo",
+         "position": "D",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17724,
+         "name": "Rebeca Costa da Silva",
+         "short_name": "R. C. d. Silva",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 23963,
+         "name": "Marta Masferrer Cruz",
+         "short_name": "M. M. Cruz",
+         "position": "D",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17729,
+         "name": "Annelie Leitner",
+         "short_name": "A. Leitner",
+         "position": "D",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17730,
+         "name": "Catalina Ongaro",
+         "short_name": "C. Ongaro",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17728,
+         "name": "Daiana Falfán",
+         "short_name": "D. Falfán",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17731,
+         "name": "Isina",
+         "short_name": "Isina",
+         "position": "M",
+         "jersey_number": 10,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 17854,
+         "name": "Ana Franco",
+         "short_name": "A. Franco",
+         "position": "F",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17733,
+         "name": "Mía Asenjo",
+         "short_name": "M. Asenjo",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17776,
+         "name": "Maria Barquero",
+         "short_name": "M. Barquero",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 17642,
+         "name": "Olatz Santana",
+         "short_name": "O. Santana",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17740,
+         "name": "Comfort Yeboah",
+         "short_name": "C. Yeboah",
+         "position": "D",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 90984,
+         "name": "Valentina Donolato",
+         "short_name": "V. Donolato",
+         "position": "M",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 21248,
+         "name": "Alena Pěčková",
+         "short_name": "A. Pěčková",
+         "position": "D",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 206654,
+         "name": "Nicole Stoop",
+         "short_name": "N. Stoop",
+         "position": "D",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17737,
+         "name": "Andrea Colomina",
+         "short_name": "A. Colomina",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17735,
+         "name": "Laura Martínez",
+         "short_name": "L. Martínez",
+         "position": "D",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17734,
+         "name": "Margarita Giménez",
+         "short_name": "M. Giménez",
+         "position": "F",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17727,
+         "name": "Ximena Velazco",
+         "short_name": "X. Velazco",
+         "position": "M",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 206655,
+         "name": "Olufolasade Adamolekun",
+         "short_name": "O. Adamolekun",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17736,
+         "name": "Flavine Mawete",
+         "short_name": "F. Mawete",
+         "position": "F",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 48263,
+         "name": "Cristina Redondo",
+         "short_name": "C. Redondo",
+         "position": "F",
+         "jersey_number": 25,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 911,
+       "team_name": "Athletic Club",
+       "formation": "3-5-2",
+       "confidence": null,
+       "players": [
+        {
+         "id": 17627,
+         "name": "Adriana Nanclares",
+         "short_name": "A. Nanclares",
+         "position": "G",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17629,
+         "name": "Naia Landaluze",
+         "short_name": "N. Landaluze",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17646,
+         "name": "Maddi Torre",
+         "short_name": "M. Torre",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 21253,
+         "name": "Bibiane Schulze Solano",
+         "short_name": "B. S. Solano",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17645,
+         "name": "Maitane Vilariño",
+         "short_name": "M. Vilariño",
+         "position": "M",
+         "jersey_number": 19,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17633,
+         "name": "Clara Pinedo",
+         "short_name": "C. Pinedo",
+         "position": "M",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17639,
+         "name": "Irene Oguiza",
+         "short_name": "I. Oguiza",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 17632,
+         "name": "Maite Valero",
+         "short_name": "M. Valero",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17644,
+         "name": "Nerea Benito",
+         "short_name": "N. Benito",
+         "position": "M",
+         "jersey_number": 27,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17638,
+         "name": "Ane Campos",
+         "short_name": "A. Campos",
+         "position": "F",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17637,
+         "name": "Jone Amezaga Martinez",
+         "short_name": "J. A. Martinez",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 17803,
+         "name": "Eunate Astralaga",
+         "short_name": "E. Astralaga",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17824,
+         "name": "Amaia Martínez",
+         "short_name": "A. Martínez",
+         "position": "D",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17801,
+         "name": "Marina Artero",
+         "short_name": "M. Artero",
+         "position": "M",
+         "jersey_number": 21,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17808,
+         "name": "Garazi Facila",
+         "short_name": "G. Facila",
+         "position": "D",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17630,
+         "name": "Eider Arana",
+         "short_name": "E. Arana",
+         "position": "D",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17631,
+         "name": "Sara Ortega‌ Ruiz",
+         "short_name": "S. O. Ruiz",
+         "position": "F",
+         "jersey_number": 18,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17816,
+         "name": "Amaia Iribarren",
+         "short_name": "A. Iribarren",
+         "position": "M",
+         "jersey_number": 16,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 17636,
+         "name": "Ane Azkona",
+         "short_name": "A. Azkona",
+         "position": "F",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 21287,
+         "name": "Patricia Zugasti",
+         "short_name": "P. Zugasti",
+         "position": "F",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "0-1",
+      "minute": 45,
+      "ht_score": "0-1",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    }
+   ]
   }
  ]
 }
