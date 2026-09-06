@@ -250,6 +250,9 @@ class RecentAvgSource(OddsSource):
                 "note": "近期均盘近似, 请以实时盘口核实"}
 
 
+_THEODDS_RESP_CACHE = {}  # 进程内缓存: url -> payload(全量响应), 批量预测避免逐场重复请求
+
+
 class TheOddsAPISource(OddsSource):
     """TheOddsAPI 实时盘口源(https://the-odds-api.com)。
 
@@ -290,23 +293,28 @@ class TheOddsAPISource(OddsSource):
         # 请求 + 429 限流退避重试
         retries = int(ODDS.get("retries", 2))
         timeout = int(ODDS.get("timeout", 10))
-        payload = None
-        last_err = None
-        for attempt in range(retries + 1):
-            try:
-                with urllib.request.urlopen(url, timeout=timeout) as r:
-                    payload = json.loads(r.read().decode("utf-8", "replace"))
-                break
-            except urllib.error.HTTPError as e:
-                if e.code == 429:
-                    last_err = "HTTP 429 限流"
-                    time.sleep(2 * (attempt + 1))
-                    continue
-                raise OddsFetchError(f"TheOddsAPI HTTP {e.code}: {e.reason}")
-            except Exception as e:
-                raise OddsFetchError(f"TheOddsAPI 请求失败: {e}")
+        payload = _THEODDS_RESP_CACHE.get(url)
         if payload is None:
-            raise OddsFetchError(f"TheOddsAPI 请求失败: {last_err}")
+            # 请求 + 429 限流退避重试
+            retries = int(ODDS.get("retries", 2))
+            timeout = int(ODDS.get("timeout", 10))
+            last_err = None
+            for attempt in range(retries + 1):
+                try:
+                    with urllib.request.urlopen(url, timeout=timeout) as r:
+                        payload = json.loads(r.read().decode("utf-8", "replace"))
+                    break
+                except urllib.error.HTTPError as e:
+                    if e.code == 429:
+                        last_err = "HTTP 429 限流"
+                        time.sleep(2 * (attempt + 1))
+                        continue
+                    raise OddsFetchError(f"TheOddsAPI HTTP {e.code}: {e.reason}")
+                except Exception as e:
+                    raise OddsFetchError(f"TheOddsAPI 请求失败: {e}")
+            if payload is None:
+                raise OddsFetchError(f"TheOddsAPI 请求失败: {last_err}")
+            _THEODDS_RESP_CACHE[url] = payload
         if not isinstance(payload, list) or not payload:
             raise OddsFetchError(f"TheOddsAPI 联赛 {sport} 当前无 h2h 盘口(响应为空)")
 
