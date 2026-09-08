@@ -1,0 +1,831 @@
+{
+ "date": "2026-09-09",
+ "source": "bsd-consensus(备胎), the-odds额度耗尽缺失",
+ "count": 0,
+ "matches": [],
+ "error": "{\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-api.com\",\"error_code\":\"OUT_OF_USAGE_CREDITS\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.htm",
+ "the_odds_status": "OUT_OF_USAGE_CREDITS(免费档额度耗尽, key有效)",
+ "bsd_consensus_count": 41,
+ "bsd_consensus": [
+  {
+   "event_id": 10118,
+   "home": "Cuiabá",
+   "away": "Athletic Club",
+   "league_id": 34,
+   "event_date": "2026-09-08T23:30:00+00:00",
+   "odds": {
+    "home_win": 1.88,
+    "draw": 3.03,
+    "away_win": 4.46,
+    "over_15_goals": 1.52,
+    "over_25_goals": 2.57,
+    "over_35_goals": 5.25,
+    "under_15_goals": 2.46,
+    "under_25_goals": 1.46,
+    "under_35_goals": 1.14,
+    "btts_yes": 2.3,
+    "btts_no": 1.56
+   }
+  },
+  {
+   "event_id": 10117,
+   "home": "Criciúma",
+   "away": "Juventude",
+   "league_id": 34,
+   "event_date": "2026-09-09T00:00:00+00:00",
+   "odds": {
+    "home_win": 2.01,
+    "draw": 3.1,
+    "away_win": 4.0,
+    "over_15_goals": null,
+    "over_25_goals": null,
+    "over_35_goals": null,
+    "under_15_goals": null,
+    "under_25_goals": null,
+    "under_35_goals": null,
+    "btts_yes": 2.19,
+    "btts_no": 1.61
+   }
+  },
+  {
+   "event_id": 588063,
+   "home": "Boca Juniors",
+   "away": "São Paulo",
+   "league_id": 33,
+   "event_date": "2026-09-09T00:30:00+00:00",
+   "odds": {
+    "home_win": 1.75,
+    "draw": 3.25,
+    "away_win": 4.75,
+    "over_15_goals": 1.44,
+    "over_25_goals": 2.4,
+    "over_35_goals": 5.0,
+    "under_15_goals": 2.62,
+    "under_25_goals": 1.53,
+    "under_35_goals": 1.17,
+    "btts_yes": 2.23,
+    "btts_no": 1.59
+   }
+  },
+  {
+   "event_id": 205159,
+   "home": "Pohang Steelers",
+   "away": "Gimcheon Sangmu FC",
+   "league_id": 50,
+   "event_date": "2026-09-09T10:30:00+00:00",
+   "odds": {
+    "home_win": 2.34,
+    "draw": 3.13,
+    "away_win": 2.9,
+    "over_15_goals": 1.35,
+    "over_25_goals": 2.12,
+    "over_35_goals": 3.9,
+    "under_15_goals": 3.01,
+    "under_25_goals": 1.67,
+    "under_35_goals": 1.23,
+    "btts_yes": 1.84,
+    "btts_no": 1.86
+   }
+  },
+  {
+   "event_id": 205158,
+   "home": "Gwangju FC",
+   "away": "Jeju SK",
+   "league_id": 50,
+   "event_date": "2026-09-09T10:30:00+00:00",
+   "odds": {
+    "home_win": 3.74,
+    "draw": 3.37,
+    "away_win": 1.9,
+    "over_15_goals": 1.32,
+    "over_25_goals": 2.01,
+    "over_35_goals": 3.55,
+    "under_15_goals": 3.21,
+    "under_25_goals": 1.76,
+    "under_35_goals": 1.26,
+    "btts_yes": 1.83,
+    "btts_no": 1.86
+   }
+  },
+  {
+   "event_id": 205157,
+   "home": "Gangwon FC",
+   "away": "Jeonbuk Hyundai Motors",
+   "league_id": 50,
+   "event_date": "2026-09-09T10:30:00+00:00",
+   "odds": {
+    "home_win": 2.53,
+    "draw": 3.1,
+    "away_win": 2.67,
+    "over_15_goals": 1.36,
+    "over_25_goals": 2.15,
+    "over_35_goals": 3.95,
+    "under_15_goals": 2.95,
+    "under_25_goals": 1.66,
+    "under_35_goals": 1.22,
+    "btts_yes": 1.84,
+    "btts_no": 1.86
+   }
+  },
+  {
+   "event_id": 205156,
+   "home": "Daejeon Hana Citizen",
+   "away": "FC Anyang",
+   "league_id": 50,
+   "event_date": "2026-09-09T10:30:00+00:00",
+   "odds": {
+    "home_win": 1.56,
+    "draw": 3.94,
+    "away_win": 5.09,
+    "over_15_goals": 1.23,
+    "over_25_goals": 1.76,
+    "over_35_goals": 2.94,
+    "under_15_goals": 3.89,
+    "under_25_goals": 2.02,
+    "under_35_goals": 1.37,
+    "btts_yes": 1.78,
+    "btts_no": 1.92
+   }
+  },
+  {
+   "event_id": 601958,
+   "home": "HJK",
+   "away": "Inter Turku",
+   "league_id": 55,
+   "event_date": "2026-09-09T15:00:00+00:00",
+   "odds": {
+    "home_win": 2.53,
+    "draw": 3.27,
+    "away_win": 2.58,
+    "over_15_goals": 1.28,
+    "over_25_goals": 1.9,
+    "over_35_goals": 3.25,
+    "under_15_goals": 3.46,
+    "under_25_goals": 1.85,
+    "under_35_goals": 1.31,
+    "btts_yes": 1.69,
+    "btts_no": 2.05
+   }
+  },
+  {
+   "event_id": 222659,
+   "home": "Al-Kholood",
+   "away": "Al-Shabab",
+   "league_id": 17,
+   "event_date": "2026-09-09T15:55:00+00:00",
+   "odds": {
+    "home_win": 2.81,
+    "draw": 3.44,
+    "away_win": 2.27,
+    "over_15_goals": 1.22,
+    "over_25_goals": 1.74,
+    "over_35_goals": 2.86,
+    "under_15_goals": 3.94,
+    "under_25_goals": 2.02,
+    "under_35_goals": 1.38,
+    "btts_yes": 1.59,
+    "btts_no": 2.21
+   }
+  },
+  {
+   "event_id": 601165,
+   "home": "VfB Stuttgart",
+   "away": "Viking FK",
+   "league_id": 7,
+   "event_date": "2026-09-09T16:45:00+00:00",
+   "odds": {
+    "home_win": 1.24,
+    "draw": 6.82,
+    "away_win": 10.13,
+    "over_15_goals": 1.05,
+    "over_25_goals": 1.26,
+    "over_35_goals": 1.66,
+    "under_15_goals": 8.55,
+    "under_25_goals": 3.72,
+    "under_35_goals": 2.19,
+    "btts_yes": 1.58,
+    "btts_no": 2.27
+   }
+  },
+  {
+   "event_id": 601029,
+   "home": "FC Barcelona",
+   "away": "Feyenoord",
+   "league_id": 7,
+   "event_date": "2026-09-09T16:45:00+00:00",
+   "odds": {
+    "home_win": 1.08,
+    "draw": 12.22,
+    "away_win": 23.26,
+    "over_15_goals": 1.03,
+    "over_25_goals": 1.15,
+    "over_35_goals": 1.43,
+    "under_15_goals": 12.6,
+    "under_25_goals": 5.11,
+    "under_35_goals": 2.7,
+    "btts_yes": 1.8,
+    "btts_no": 1.94
+   }
+  },
+  {
+   "event_id": 210824,
+   "home": "FC Twente",
+   "away": "SC Telstar",
+   "league_id": 10,
+   "event_date": "2026-09-09T16:45:00+00:00",
+   "odds": {
+    "home_win": 1.23,
+    "draw": 6.53,
+    "away_win": 9.57,
+    "over_15_goals": 1.07,
+    "over_25_goals": 1.28,
+    "over_35_goals": 1.77,
+    "under_15_goals": 7.56,
+    "under_25_goals": 3.43,
+    "under_35_goals": 2.02,
+    "btts_yes": 1.62,
+    "btts_no": 2.18
+   }
+  },
+  {
+   "event_id": 222661,
+   "home": "Al-Nassr",
+   "away": "Abha",
+   "league_id": 17,
+   "event_date": "2026-09-09T18:00:00+00:00",
+   "odds": {
+    "home_win": 1.2,
+    "draw": 6.75,
+    "away_win": 10.19,
+    "over_15_goals": 1.06,
+    "over_25_goals": 1.29,
+    "over_35_goals": 1.77,
+    "under_15_goals": 7.62,
+    "under_25_goals": 3.36,
+    "under_35_goals": 1.96,
+    "btts_yes": 1.76,
+    "btts_no": 1.95
+   }
+  },
+  {
+   "event_id": 222660,
+   "home": "Al-Fateh",
+   "away": "Diriyah",
+   "league_id": 17,
+   "event_date": "2026-09-09T18:00:00+00:00",
+   "odds": {
+    "home_win": 3.58,
+    "draw": 3.61,
+    "away_win": 1.89,
+    "over_15_goals": 1.19,
+    "over_25_goals": 1.65,
+    "over_35_goals": 2.61,
+    "under_15_goals": 4.3,
+    "under_25_goals": 2.15,
+    "under_35_goals": 1.45,
+    "btts_yes": 1.58,
+    "btts_no": 2.22
+   }
+  },
+  {
+   "event_id": 602451,
+   "home": "AFC Whyteleafe",
+   "away": "Crowborough Athletic",
+   "league_id": 39,
+   "event_date": "2026-09-09T18:45:00+00:00",
+   "odds": {
+    "home_win": 1.53,
+    "draw": 4.33,
+    "away_win": 4.33,
+    "over_15_goals": null,
+    "over_25_goals": 1.5,
+    "over_35_goals": null,
+    "under_15_goals": null,
+    "under_25_goals": 2.5,
+    "under_35_goals": null,
+    "btts_yes": 1.57,
+    "btts_no": 2.23
+   }
+  },
+  {
+   "event_id": 602450,
+   "home": "Bishop Auckland",
+   "away": "Emley AFC",
+   "league_id": 39,
+   "event_date": "2026-09-09T18:45:00+00:00",
+   "odds": {
+    "home_win": null,
+    "draw": null,
+    "away_win": null,
+    "over_15_goals": null,
+    "over_25_goals": null,
+    "over_35_goals": null,
+    "under_15_goals": null,
+    "under_25_goals": null,
+    "under_35_goals": null,
+    "btts_yes": null,
+    "btts_no": null
+   }
+  },
+  {
+   "event_id": 602449,
+   "home": "Exmouth Town",
+   "away": "Banbury United",
+   "league_id": 39,
+   "event_date": "2026-09-09T18:45:00+00:00",
+   "odds": {
+    "home_win": 3.6,
+    "draw": 3.6,
+    "away_win": 1.8,
+    "over_15_goals": null,
+    "over_25_goals": 1.75,
+    "over_35_goals": null,
+    "under_15_goals": null,
+    "under_25_goals": 2.05,
+    "under_35_goals": null,
+    "btts_yes": 1.6,
+    "btts_no": 2.2
+   }
+  },
+  {
+   "event_id": 601425,
+   "home": "Rangers",
+   "away": "St. Mirren",
+   "league_id": 13,
+   "event_date": "2026-09-09T18:45:00+00:00",
+   "odds": {
+    "home_win": 1.31,
+    "draw": 5.39,
+    "away_win": 8.04,
+    "over_15_goals": 1.11,
+    "over_25_goals": 1.41,
+    "over_35_goals": 2.09,
+    "under_15_goals": 5.9,
+    "under_25_goals": 2.76,
+    "under_35_goals": 1.71,
+    "btts_yes": 1.72,
+    "btts_no": 2.03
+   }
+  },
+  {
+   "event_id": 214043,
+   "home": "Norwich City",
+   "away": "Birmingham City",
+   "league_id": 12,
+   "event_date": "2026-09-09T18:45:00+00:00",
+   "odds": {
+    "home_win": 1.9,
+    "draw": 3.61,
+    "away_win": 3.71,
+    "over_15_goals": 1.22,
+    "over_25_goals": 1.74,
+    "over_35_goals": 2.81,
+    "under_15_goals": 3.92,
+    "under_25_goals": 2.05,
+    "under_35_goals": 1.39,
+    "btts_yes": 1.63,
+    "btts_no": 2.16
+   }
+  },
+  {
+   "event_id": 214042,
+   "home": "Derby County",
+   "away": "West Bromwich Albion",
+   "league_id": 12,
+   "event_date": "2026-09-09T18:45:00+00:00",
+   "odds": {
+    "home_win": 2.9,
+    "draw": 3.35,
+    "away_win": 2.33,
+    "over_15_goals": 1.27,
+    "over_25_goals": 1.89,
+    "over_35_goals": 3.17,
+    "under_15_goals": 3.51,
+    "under_25_goals": 1.89,
+    "under_35_goals": 1.32,
+    "btts_yes": 1.7,
+    "btts_no": 2.05
+   }
+  },
+  {
+   "event_id": 601851,
+   "home": "St. Johnstone",
+   "away": "Celtic",
+   "league_id": 13,
+   "event_date": "2026-09-09T19:00:00+00:00",
+   "odds": {
+    "home_win": 5.67,
+    "draw": 4.55,
+    "away_win": 1.46,
+    "over_15_goals": 1.14,
+    "over_25_goals": 1.48,
+    "over_35_goals": 2.23,
+    "under_15_goals": 5.39,
+    "under_25_goals": 2.54,
+    "under_35_goals": 1.62,
+    "btts_yes": 1.61,
+    "btts_no": 2.19
+   }
+  },
+  {
+   "event_id": 601545,
+   "home": "Chelsea",
+   "away": "Leeds United",
+   "league_id": 40,
+   "event_date": "2026-09-09T19:00:00+00:00",
+   "odds": {
+    "home_win": 1.64,
+    "draw": 3.99,
+    "away_win": 4.66,
+    "over_15_goals": 1.2,
+    "over_25_goals": 1.66,
+    "over_35_goals": 2.63,
+    "under_15_goals": 4.26,
+    "under_25_goals": 2.17,
+    "under_35_goals": 1.45,
+    "btts_yes": 1.67,
+    "btts_no": 2.1
+   }
+  },
+  {
+   "event_id": 601138,
+   "home": "Sporting CP",
+   "away": "Galatasaray",
+   "league_id": 7,
+   "event_date": "2026-09-09T19:00:00+00:00",
+   "odds": {
+    "home_win": 1.83,
+    "draw": 3.83,
+    "away_win": 4.02,
+    "over_15_goals": 1.19,
+    "over_25_goals": 1.63,
+    "over_35_goals": 2.54,
+    "under_15_goals": 4.4,
+    "under_25_goals": 2.27,
+    "under_35_goals": 1.48,
+    "btts_yes": 1.58,
+    "btts_no": 2.28
+   }
+  },
+  {
+   "event_id": 601086,
+   "home": "SSC Napoli",
+   "away": "Arsenal",
+   "league_id": 7,
+   "event_date": "2026-09-09T19:00:00+00:00",
+   "odds": {
+    "home_win": 4.7,
+    "draw": 3.68,
+    "away_win": 1.75,
+    "over_15_goals": 1.29,
+    "over_25_goals": 1.92,
+    "over_35_goals": 3.22,
+    "under_15_goals": 3.46,
+    "under_25_goals": 1.88,
+    "under_35_goals": 1.32,
+    "btts_yes": 1.85,
+    "btts_no": 1.9
+   }
+  },
+  {
+   "event_id": 601065,
+   "home": "Paris Saint-Germain",
+   "away": "ŠK Slovan Bratislava",
+   "league_id": 7,
+   "event_date": "2026-09-09T19:00:00+00:00",
+   "odds": {
+    "home_win": 1.04,
+    "draw": 16.78,
+    "away_win": 36.89,
+    "over_15_goals": 1.04,
+    "over_25_goals": 1.17,
+    "over_35_goals": 1.5,
+    "under_15_goals": 9.94,
+    "under_25_goals": 4.69,
+    "under_35_goals": 2.51,
+    "btts_yes": 2.5,
+    "btts_no": 1.49
+   }
+  },
+  {
+   "event_id": 601048,
+   "home": "Liverpool FC",
+   "away": "Atlético Madrid",
+   "league_id": 7,
+   "event_date": "2026-09-09T19:00:00+00:00",
+   "odds": {
+    "home_win": 1.7,
+    "draw": 4.02,
+    "away_win": 4.52,
+    "over_15_goals": 1.17,
+    "over_25_goals": 1.6,
+    "over_35_goals": 2.49,
+    "under_15_goals": 4.64,
+    "under_25_goals": 2.32,
+    "under_35_goals": 1.5,
+    "btts_yes": 1.59,
+    "btts_no": 2.28
+   }
+  },
+  {
+   "event_id": 214045,
+   "home": "Charlton Athletic",
+   "away": "Queens Park Rangers",
+   "league_id": 12,
+   "event_date": "2026-09-09T19:00:00+00:00",
+   "odds": {
+    "home_win": 3.05,
+    "draw": 3.31,
+    "away_win": 2.26,
+    "over_15_goals": 1.29,
+    "over_25_goals": 1.93,
+    "over_35_goals": 3.31,
+    "under_15_goals": 3.35,
+    "under_25_goals": 1.84,
+    "under_35_goals": 1.3,
+    "btts_yes": 1.72,
+    "btts_no": 2.03
+   }
+  },
+  {
+   "event_id": 215514,
+   "home": "Moreirense",
+   "away": "Benfica",
+   "league_id": 2,
+   "event_date": "2026-09-09T19:45:00+00:00",
+   "odds": {
+    "home_win": 15.46,
+    "draw": 7.52,
+    "away_win": 1.16,
+    "over_15_goals": 1.12,
+    "over_25_goals": 1.44,
+    "over_35_goals": 2.13,
+    "under_15_goals": 5.53,
+    "under_25_goals": 2.63,
+    "under_35_goals": 1.67,
+    "btts_yes": 2.22,
+    "btts_no": 1.6
+   }
+  },
+  {
+   "event_id": 599510,
+   "home": "Santos",
+   "away": "Atlético Mineiro",
+   "league_id": 33,
+   "event_date": "2026-09-09T22:00:00+00:00",
+   "odds": {
+    "home_win": 2.27,
+    "draw": 3.12,
+    "away_win": 3.17,
+    "over_15_goals": 1.4,
+    "over_25_goals": 2.3,
+    "over_35_goals": 4.29,
+    "under_15_goals": 2.8,
+    "under_25_goals": 1.6,
+    "under_35_goals": 1.2,
+    "btts_yes": 1.94,
+    "btts_no": 1.78
+   }
+  },
+  {
+   "event_id": 599509,
+   "home": "Palmeiras",
+   "away": "LDU",
+   "league_id": 32,
+   "event_date": "2026-09-09T22:00:00+00:00",
+   "odds": {
+    "home_win": 1.25,
+    "draw": 5.25,
+    "away_win": 12.85,
+    "over_15_goals": 1.28,
+    "over_25_goals": 1.91,
+    "over_35_goals": 3.3,
+    "under_15_goals": 3.45,
+    "under_25_goals": 1.86,
+    "under_35_goals": 1.3,
+    "btts_yes": 2.66,
+    "btts_no": 1.43
+   }
+  },
+  {
+   "event_id": 10119,
+   "home": "Fortaleza",
+   "away": "Avaí",
+   "league_id": 34,
+   "event_date": "2026-09-09T22:30:00+00:00",
+   "odds": {
+    "home_win": 1.55,
+    "draw": 3.7,
+    "away_win": 5.69,
+    "over_15_goals": 1.33,
+    "over_25_goals": 2.05,
+    "over_35_goals": 3.72,
+    "under_15_goals": 3.15,
+    "under_25_goals": 1.73,
+    "under_35_goals": 1.25,
+    "btts_yes": 2.08,
+    "btts_no": 1.67
+   }
+  },
+  {
+   "event_id": 10116,
+   "home": "Botafogo-SP",
+   "away": "Grêmio Novorizontino",
+   "league_id": 34,
+   "event_date": "2026-09-09T22:30:00+00:00",
+   "odds": {
+    "home_win": 2.83,
+    "draw": 3.0,
+    "away_win": 2.46,
+    "over_15_goals": 1.43,
+    "over_25_goals": 2.37,
+    "over_35_goals": 4.54,
+    "under_15_goals": 2.64,
+    "under_25_goals": 1.55,
+    "under_35_goals": 1.18,
+    "btts_yes": 1.97,
+    "btts_no": 1.75
+   }
+  },
+  {
+   "event_id": 601015,
+   "home": "Real Cundinamarca",
+   "away": "Internacional de Bogotá",
+   "league_id": 81,
+   "event_date": "2026-09-09T23:00:00+00:00",
+   "odds": {
+    "home_win": 3.0,
+    "draw": 3.0,
+    "away_win": 2.25,
+    "over_15_goals": 1.36,
+    "over_25_goals": 2.2,
+    "over_35_goals": 4.0,
+    "under_15_goals": 3.0,
+    "under_25_goals": 1.65,
+    "under_35_goals": 1.22,
+    "btts_yes": 1.84,
+    "btts_no": 1.84
+   }
+  },
+  {
+   "event_id": 223994,
+   "home": "América de Cali",
+   "away": "Deportivo Pereira",
+   "league_id": 81,
+   "event_date": "2026-09-09T23:00:00+00:00",
+   "odds": {
+    "home_win": 1.17,
+    "draw": 6.5,
+    "away_win": 11.0,
+    "over_15_goals": null,
+    "over_25_goals": null,
+    "over_35_goals": null,
+    "under_15_goals": null,
+    "under_25_goals": null,
+    "under_35_goals": null,
+    "btts_yes": 2.3,
+    "btts_no": 1.54
+   }
+  },
+  {
+   "event_id": 10120,
+   "home": "Operário-PR",
+   "away": "Clube De Regatas Brasil",
+   "league_id": 34,
+   "event_date": "2026-09-09T23:30:00+00:00",
+   "odds": {
+    "home_win": 2.25,
+    "draw": 3.1,
+    "away_win": 3.1,
+    "over_15_goals": null,
+    "over_25_goals": null,
+    "over_35_goals": null,
+    "under_15_goals": null,
+    "under_25_goals": null,
+    "under_35_goals": null,
+    "btts_yes": null,
+    "btts_no": null
+   }
+  },
+  {
+   "event_id": 10114,
+   "home": "América Mineiro",
+   "away": "Náutico",
+   "league_id": 34,
+   "event_date": "2026-09-09T23:30:00+00:00",
+   "odds": {
+    "home_win": 2.5,
+    "draw": 3.1,
+    "away_win": 2.65,
+    "over_15_goals": 1.3,
+    "over_25_goals": 2.05,
+    "over_35_goals": 3.5,
+    "under_15_goals": 3.4,
+    "under_25_goals": 1.75,
+    "under_35_goals": 1.29,
+    "btts_yes": 1.8,
+    "btts_no": 1.91
+   }
+  },
+  {
+   "event_id": 5264,
+   "home": "CF Montréal",
+   "away": "Charlotte FC",
+   "league_id": 18,
+   "event_date": "2026-09-09T23:30:00+00:00",
+   "odds": {
+    "home_win": 2.27,
+    "draw": 3.75,
+    "away_win": 2.73,
+    "over_15_goals": 1.15,
+    "over_25_goals": 1.52,
+    "over_35_goals": 2.31,
+    "under_15_goals": 5.06,
+    "under_25_goals": 2.41,
+    "under_35_goals": 1.56,
+    "btts_yes": 1.46,
+    "btts_no": 2.54
+   }
+  },
+  {
+   "event_id": 5262,
+   "home": "DC United",
+   "away": "Columbus Crew",
+   "league_id": 18,
+   "event_date": "2026-09-09T23:30:00+00:00",
+   "odds": {
+    "home_win": 2.36,
+    "draw": 3.63,
+    "away_win": 2.67,
+    "over_15_goals": 1.19,
+    "over_25_goals": 1.62,
+    "over_35_goals": 2.57,
+    "under_15_goals": 4.43,
+    "under_25_goals": 2.2,
+    "under_35_goals": 1.48,
+    "btts_yes": 1.52,
+    "btts_no": 2.4
+   }
+  },
+  {
+   "event_id": 5261,
+   "home": "Toronto FC",
+   "away": "Nashville SC",
+   "league_id": 18,
+   "event_date": "2026-09-09T23:30:00+00:00",
+   "odds": {
+    "home_win": 2.86,
+    "draw": 3.71,
+    "away_win": 2.19,
+    "over_15_goals": 1.17,
+    "over_25_goals": 1.57,
+    "over_35_goals": 2.45,
+    "under_15_goals": 4.79,
+    "under_25_goals": 2.3,
+    "under_35_goals": 1.51,
+    "btts_yes": 1.49,
+    "btts_no": 2.47
+   }
+  },
+  {
+   "event_id": 5260,
+   "home": "Atlanta United",
+   "away": "Orlando City SC",
+   "league_id": 18,
+   "event_date": "2026-09-09T23:30:00+00:00",
+   "odds": {
+    "home_win": 2.08,
+    "draw": 3.88,
+    "away_win": 2.98,
+    "over_15_goals": 1.13,
+    "over_25_goals": 1.45,
+    "over_35_goals": 2.13,
+    "under_15_goals": 5.69,
+    "under_25_goals": 2.64,
+    "under_35_goals": 1.66,
+    "btts_yes": 1.41,
+    "btts_no": 2.71
+   }
+  },
+  {
+   "event_id": 5259,
+   "home": "Philadelphia Union",
+   "away": "FC Cincinnati",
+   "league_id": 18,
+   "event_date": "2026-09-09T23:45:00+00:00",
+   "odds": {
+    "home_win": 1.7,
+    "draw": 4.3,
+    "away_win": 3.98,
+    "over_15_goals": 1.09,
+    "over_25_goals": 1.34,
+    "over_35_goals": 1.87,
+    "under_15_goals": 7.06,
+    "under_25_goals": 3.12,
+    "under_35_goals": 1.86,
+    "btts_yes": 1.38,
+    "btts_no": 2.84
+   }
+  }
+ ]
+}
