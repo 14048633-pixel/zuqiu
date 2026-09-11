@@ -25121,6 +25121,454 @@
     }
    ],
    "source": ""
+  },
+  {
+   "round_time": "22:31",
+   "matches": [
+    {
+     "event_id": 214592,
+     "league": "Superliga",
+     "kickoff": "23:00",
+     "home": "FCV Farul Constanța",
+     "away": "UTA Arad",
+     "status": "notstarted",
+     "odds_bsd": {
+      "home_win": 2.28,
+      "draw": 3.16,
+      "away_win": 2.96,
+      "over_15_goals": 1.31,
+      "over_25_goals": 2.01,
+      "over_35_goals": 3.5,
+      "under_15_goals": 3.21,
+      "under_25_goals": 1.76,
+      "under_35_goals": 1.26,
+      "btts_yes": 1.79,
+      "btts_no": 1.92
+     },
+     "lineups": {
+      "home": {
+       "team_id": 366,
+       "team_name": "FCV Farul Constanța",
+       "formation": "3-4-3",
+       "confidence": null,
+       "players": [
+        {
+         "id": 11721,
+         "name": "Rafael Munteanu",
+         "short_name": "R. Munteanu",
+         "position": "G",
+         "jersey_number": 12,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 65828,
+         "name": "Sofyane Bouzamoucha",
+         "short_name": "S. Bouzamoucha",
+         "position": "D",
+         "jersey_number": 24,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 81262,
+         "name": "Nabil Aberdin",
+         "short_name": "N. Aberdin",
+         "position": "D",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11722,
+         "name": "Gustavo Marins",
+         "short_name": "G. Marins",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11847,
+         "name": "Cristian Sima",
+         "short_name": "C. Sima",
+         "position": "M",
+         "jersey_number": 28,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 40590,
+         "name": "Tony Njiké",
+         "short_name": "T. Njiké",
+         "position": "M",
+         "jersey_number": 23,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 15457,
+         "name": "Matteo Ahlinvi",
+         "short_name": "M. Ahlinvi",
+         "position": "M",
+         "jersey_number": 70,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11717,
+         "name": "Cristian Ganea",
+         "short_name": "C. Ganea",
+         "position": "M",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11783,
+         "name": "Alexandru Goncear",
+         "short_name": "A. Goncear",
+         "position": "F",
+         "jersey_number": 29,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 4181,
+         "name": "Denis Alibec",
+         "short_name": "D. Alibec",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 11713,
+         "name": "Eduard Radaslavescu",
+         "short_name": "E. Radaslavescu",
+         "position": "F",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 11706,
+         "name": "Alexandru Buzbuchi",
+         "short_name": "A. Buzbuchi",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11157,
+         "name": "Valentin Țicu",
+         "short_name": "V. Țicu",
+         "position": "D",
+         "jersey_number": 3,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 30753,
+         "name": "João Ferreira",
+         "short_name": "J. Ferreira",
+         "position": "D",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11953,
+         "name": "Ionuț Cercel",
+         "short_name": "I. Cercel",
+         "position": "D",
+         "jersey_number": 13,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11708,
+         "name": "Ionuț Larie",
+         "short_name": "I. Larie",
+         "position": "D",
+         "jersey_number": 17,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11711,
+         "name": "Victor Dican",
+         "short_name": "V. Dican",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11994,
+         "name": "Nicolas Popescu",
+         "short_name": "N. Popescu",
+         "position": "M",
+         "jersey_number": 80,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11900,
+         "name": "Răzvan Marincean",
+         "short_name": "R. Marincean",
+         "position": "F",
+         "jersey_number": 99,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11714,
+         "name": "Răzvan Tănasă",
+         "short_name": "R. A. Tănasă",
+         "position": "M",
+         "jersey_number": 71,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 38087,
+         "name": "Eddy Sylvestre",
+         "short_name": "E. Sylvestre",
+         "position": "F",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      },
+      "away": {
+       "team_id": 358,
+       "team_name": "UTA Arad",
+       "formation": "4-2-3-1",
+       "confidence": null,
+       "players": [
+        {
+         "id": 11394,
+         "name": "Márcio Rosa",
+         "short_name": "M. Rosa",
+         "position": "G",
+         "jersey_number": 1,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11684,
+         "name": "Andrei Dorobanțu",
+         "short_name": "A. Dorobanțu",
+         "position": "D",
+         "jersey_number": 2,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 37692,
+         "name": "Peter Ouaneh",
+         "short_name": "P. Ouaneh",
+         "position": "D",
+         "jersey_number": 15,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11678,
+         "name": "Alexandru Benga",
+         "short_name": "A. Benga",
+         "position": "D",
+         "jersey_number": 4,
+         "captain": true,
+         "ai_score": null
+        },
+        {
+         "id": 11849,
+         "name": "Andrea Padula",
+         "short_name": "A. Padula",
+         "position": "D",
+         "jersey_number": 72,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11673,
+         "name": "Sota Mino",
+         "short_name": "S. Mino",
+         "position": "M",
+         "jersey_number": 5,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11669,
+         "name": "Roman Alin",
+         "short_name": "R. Alin",
+         "position": "M",
+         "jersey_number": 8,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11671,
+         "name": "Hakim Abdallah",
+         "short_name": "H. Abdallah",
+         "position": "M",
+         "jersey_number": 11,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11691,
+         "name": "Jayson Papeau",
+         "short_name": "J. Papeau",
+         "position": "M",
+         "jersey_number": 77,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 62672,
+         "name": "Denis Țăroi",
+         "short_name": "D. Țăroi",
+         "position": "M",
+         "jersey_number": 20,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11682,
+         "name": "Marius Coman",
+         "short_name": "M. Coman",
+         "position": "F",
+         "jersey_number": 9,
+         "captain": false,
+         "ai_score": null
+        }
+       ],
+       "substitutes": [
+        {
+         "id": 11787,
+         "name": "Andrei Gorcea",
+         "short_name": "A. Gorcea",
+         "position": "G",
+         "jersey_number": 33,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10845,
+         "name": "Robert Bădescu",
+         "short_name": "R. Bădescu",
+         "position": "D",
+         "jersey_number": 22,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 10682,
+         "name": "Omar El Sawy",
+         "short_name": "O. E. Sawy",
+         "position": "M",
+         "jersey_number": 42,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 7579,
+         "name": "Samuel Gueulette",
+         "short_name": "S. Gueulette",
+         "position": "M",
+         "jersey_number": 14,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11676,
+         "name": "Marinos Tzionis",
+         "short_name": "M. Tzionis",
+         "position": "F",
+         "jersey_number": 10,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 11759,
+         "name": "Antoni Ivanov",
+         "short_name": "A. Ivanov",
+         "position": "M",
+         "jersey_number": 6,
+         "captain": false,
+         "ai_score": null
+        },
+        {
+         "id": 64500,
+         "name": "Ismet Sinani",
+         "short_name": "I. Sinani",
+         "position": "F",
+         "jersey_number": 7,
+         "captain": false,
+         "ai_score": null
+        }
+       ]
+      }
+     },
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "未开赛",
+      "minute": null,
+      "ht_score": null,
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "窗口"
+     }
+    },
+    {
+     "event_id": 587746,
+     "league": "CAF Champions League",
+     "kickoff": "22:00",
+     "home": "SOBEMAP FC",
+     "away": "Enugu Rangers International",
+     "status": "1st_half",
+     "odds_bsd": {
+      "home_win": 3.05,
+      "draw": 2.97,
+      "away_win": 2.24,
+      "over_15_goals": null,
+      "over_25_goals": null,
+      "over_35_goals": null,
+      "under_15_goals": null,
+      "under_25_goals": null,
+      "under_35_goals": null,
+      "btts_yes": 2.46,
+      "btts_no": 1.48
+     },
+     "lineups": {},
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "live": {
+      "score": "0-1",
+      "minute": 31,
+      "ht_score": "0-0",
+      "red_cards": null,
+      "substitutions": null,
+      "possession": null,
+      "type": "已开赛"
+     }
+    }
+   ],
+   "source": ""
   }
  ]
 }
