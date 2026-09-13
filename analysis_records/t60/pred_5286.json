@@ -1,0 +1,308 @@
+[
+ {
+  "ko_bjt": "09-14 06:30",
+  "league": "MLS",
+  "home": "Vancouver Whitecaps",
+  "away": "Austin FC",
+  "model_wdl": [
+   41.8,
+   26.0,
+   32.2
+  ],
+  "market_wdl": [
+   77.3,
+   14.5,
+   8.2
+  ],
+  "xg": [
+   3.36,
+   0.73,
+   4.09
+  ],
+  "over25": 86.1,
+  "ou_line": 3.5,
+  "ou_quote": {
+   "line": 3.5,
+   "over": 2.0,
+   "under": 1.73,
+   "src": "bsd"
+  },
+  "data_warnings": [],
+  "draw_warn_pct": 14.5,
+  "bets": [
+   {
+    "name": "大3.5",
+    "prob": 58.3,
+    "fair_prob": 46.4,
+    "fair_src": "two_way_devig",
+    "odds": 2.0,
+    "ev": 16.6,
+    "star": 0,
+    "mkt": "ou",
+    "line": 3.5,
+    "side": "over",
+    "win_prob": 58.3,
+    "push_prob": 0.0,
+    "loss_prob": 41.7,
+    "line_src": "bsd",
+    "model_calibrated": false,
+    "calibration_src": null,
+    "ou_gate_applied": false,
+    "note_non25": "非2.5线(无2.5校准/无BSD闸门)星级封顶2",
+    "bsd_ou_gate": false,
+    "note_line": "非2.5主盘线，未独立校准",
+    "production_allowed": false
+   }
+  ],
+  "best": {
+   "name": "大3.5",
+   "prob": 58.3,
+   "fair_prob": 46.4,
+   "fair_src": "two_way_devig",
+   "odds": 2.0,
+   "ev": 16.6,
+   "star": 0,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "over",
+   "win_prob": 58.3,
+   "push_prob": 0.0,
+   "loss_prob": 41.7,
+   "line_src": "bsd",
+   "model_calibrated": false,
+   "calibration_src": null,
+   "ou_gate_applied": false,
+   "note_non25": "非2.5线(无2.5校准/无BSD闸门)星级封顶2",
+   "bsd_ou_gate": false,
+   "note_line": "非2.5主盘线，未独立校准",
+   "production_allowed": false
+  },
+  "injury_coef": [
+   0.985852,
+   1.011852
+  ],
+  "injury_note": "伤停λ修正 主x0.986 客x1.012 (7人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Belal Halbouni",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Kenji Cabrera",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Kwasi Poku",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Thomas Müller",
+     "pos": "中场",
+     "weight": 1.0,
+     "tag": "主力(首发88%)",
+     "atk": 0.02,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    }
+   ],
+   "away": [
+    {
+     "name": "Christopher Applewhite",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Mikkel Desler",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(38%)",
+     "atk": 0.0,
+     "def": 0.014,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Myrto Uzuni",
+     "pos": "前锋",
+     "weight": 0.7,
+     "tag": "常规(50%)",
+     "atk": 0.028,
+     "def": 0.0,
+     "replacement_coef": 1.0
+    }
+   ]
+  },
+  "odds_estimated": false,
+  "odds_src": "composite",
+  "odds_sources": [
+   "infersports",
+   "bsd"
+  ],
+  "odds_n_sources": 2,
+  "odds_dispersion": 0.0022,
+  "odds_note": "复合源共识(2源: infersports,bsd); 分歧指数=0.002; 失败: theoddsapi: TheOddsAPI HTTP 401: Unauthorized",
+  "ev_basis": {
+   "probability_source": "model_only",
+   "decision_basis": "model_only",
+   "market_weight": 0.5,
+   "note": "EV 使用不含市场先验的校准模型概率(model_1x2); ensemble(市场权重0.50)仅用于展示与一致性审计",
+   "calibration_mode": "time_holdout",
+   "calibration_mode_detail": "holdout_partial(oos=17/fallback=21/uncalibrated=2)",
+   "calibration_src": "holdout",
+   "model_calibrated": true,
+   "low_confidence_calibration": false,
+   "calibration_policy": "downgrade",
+   "calibration_coverage": {
+    "mode": "time_holdout",
+    "mode_detail": null,
+    "n_leagues_total": 40,
+    "n_leagues_calibrated": 38,
+    "n_holdout_oos": 17,
+    "n_in_sample_fallback": 21,
+    "n_uncalibrated": 2,
+    "uncalibrated_leagues": [
+     "E3",
+     "SC1"
+    ],
+    "unlabeled_leagues": [],
+    "fallback_leagues": [
+     "AUS",
+     "AUT",
+     "CAFCL",
+     "COL1",
+     "D1",
+     "D2",
+     "DNK",
+     "E2",
+     "F1",
+     "G1",
+     "I2",
+     "JP1",
+     "KR1",
+     "LIB",
+     "NO1",
+     "P1",
+     "SUD",
+     "SW1",
+     "SWE",
+     "T1",
+     "UCL"
+    ],
+    "ou_src": {
+     "ARG": "holdout",
+     "AUS": "holdout",
+     "AUT": "holdout",
+     "B1": "holdout",
+     "BR": "holdout",
+     "BR2": "holdout",
+     "CAFCL": "holdout",
+     "COL1": "holdout",
+     "CSL": "holdout",
+     "D1": "holdout",
+     "D2": "holdout",
+     "DNK": "holdout",
+     "E0": "holdout",
+     "E1": "holdout",
+     "E2": "holdout",
+     "E3": "holdout",
+     "F1": "holdout",
+     "F2": "holdout",
+     "G1": "holdout",
+     "I1": "holdout",
+     "I2": "holdout",
+     "KR1": "holdout",
+     "LIB": "holdout",
+     "MLS": "holdout",
+     "MX1": "holdout",
+     "N1": "holdout",
+     "NO1": "holdout",
+     "P1": "holdout",
+     "POL": "holdout",
+     "ROU": "holdout",
+     "SAU": "holdout",
+     "SC1": "holdout",
+     "SP1": "holdout",
+     "SP2": "holdout",
+     "SUD": "holdout",
+     "SW1": "holdout",
+     "SWE": "holdout",
+     "T1": "holdout",
+     "UCL": "holdout"
+    }
+   }
+  },
+  "bsd_over25": null,
+  "bsd_ou_gate": {
+   "applied": false,
+   "conflict": false,
+   "gap_pp": null
+  },
+  "event_id": 5286,
+  "bsd_prediction": {
+   "model_version": "dc-blend-v1",
+   "confidence": 0.7459,
+   "created_at": "2026-09-07T02:15:21Z",
+   "markets": {
+    "match_result": {
+     "prob_home": 74.6,
+     "prob_draw": 15.8,
+     "prob_away": 9.6,
+     "predicted": "H"
+    },
+    "expected_goals": {
+     "home": 2.34,
+     "away": 0.82
+    },
+    "over_under": {
+     "prob_over_15": 85.0,
+     "prob_over_25": 66.9,
+     "prob_over_35": 43.9
+    },
+    "btts": {
+     "prob_yes": 52.8
+    },
+    "score": {
+     "most_likely": "2-0"
+    },
+    "draw_no_bet": {
+     "prob_home": 88.8
+    },
+    "corners": {
+     "prob_over_85": 64.1,
+     "prob_over_95": 52.5,
+     "prob_over_105": 41.2
+    }
+   },
+   "recommendations": {
+    "favorite": "H",
+    "favorite_prob": 74.6,
+    "bet_favorite": false,
+    "over_15": false,
+    "over_25": false,
+    "over_35": false,
+    "btts": false,
+    "winner": false
+   }
+  },
+  "bsd_odds_best": null
+ }
+]
