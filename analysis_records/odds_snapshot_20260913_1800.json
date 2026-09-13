@@ -1,0 +1,5583 @@
+{
+ "date": "2026-09-13",
+ "tomorrow": "2026-09-14",
+ "the_odds": {
+  "status": "HTTP 401 {\"message\":\"Usage quota has been reached. See usage plans at https://the-odds-ap",
+  "data": "缺失"
+ },
+ "bsd_count": 199,
+ "bsd": {
+  "220150": {
+   "league": "Categoría Primera A",
+   "league_id": 80,
+   "home": "Once Caldas",
+   "away": "Deportivo Cali",
+   "kickoff": "2026-09-13T23:10:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 220150,
+    "odds": {
+     "home_win": 2.02,
+     "draw": 3.17,
+     "away_win": 3.56,
+     "over_15_goals": 1.37,
+     "over_25_goals": 2.16,
+     "over_35_goals": 4.0,
+     "under_15_goals": 2.91,
+     "under_25_goals": 1.65,
+     "under_35_goals": 1.21,
+     "btts_yes": 1.91,
+     "btts_no": 1.8
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "216448": {
+   "league": "NWSL",
+   "league_id": 72,
+   "home": "Portland Thorns FC",
+   "away": "Chicago Stars FC",
+   "kickoff": "2026-09-13T23:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 216448,
+    "odds": {
+     "home_win": 1.27,
+     "draw": 5.75,
+     "away_win": 7.0,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 1.68,
+     "btts_no": 2.03
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:22Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "5286": {
+   "league": "MLS",
+   "league_id": 18,
+   "home": "Vancouver Whitecaps",
+   "away": "Austin FC",
+   "kickoff": "2026-09-13T22:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 5286,
+    "odds": {
+     "home_win": 1.22,
+     "draw": 5.75,
+     "away_win": 9.5,
+     "over_15_goals": 1.11,
+     "over_25_goals": 1.4,
+     "over_35_goals": 2.0,
+     "under_15_goals": 6.5,
+     "under_25_goals": 2.88,
+     "under_35_goals": 1.73,
+     "btts_yes": 1.75,
+     "btts_no": 1.98
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:22Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "223697": {
+   "league": "Liga Profesional de Fútbol",
+   "league_id": 85,
+   "home": "CA Independiente",
+   "away": "San Lorenzo",
+   "kickoff": "2026-09-13T22:15:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 223697,
+    "odds": {
+     "home_win": 1.96,
+     "draw": 2.85,
+     "away_win": 4.5,
+     "over_15_goals": 1.57,
+     "over_25_goals": 2.88,
+     "over_35_goals": 6.0,
+     "under_15_goals": 2.25,
+     "under_25_goals": 1.4,
+     "under_35_goals": 1.12,
+     "btts_yes": 2.25,
+     "btts_no": 1.58
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:22Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "10130": {
+   "league": "Brasileirão Serie B",
+   "league_id": 34,
+   "home": "Grêmio Novorizontino",
+   "away": "Cuiabá",
+   "kickoff": "2026-09-13T21:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 10130,
+    "odds": {
+     "home_win": 1.67,
+     "draw": 3.36,
+     "away_win": 5.13,
+     "over_15_goals": 1.41,
+     "over_25_goals": 2.32,
+     "over_35_goals": 4.42,
+     "under_15_goals": 2.72,
+     "under_25_goals": 1.57,
+     "under_35_goals": 1.18,
+     "btts_yes": 2.16,
+     "btts_no": 1.62
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "10129": {
+   "league": "Brasileirão Serie B",
+   "league_id": 34,
+   "home": "Fortaleza",
+   "away": "Ceará",
+   "kickoff": "2026-09-13T21:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 10129,
+    "odds": {
+     "home_win": 1.78,
+     "draw": 3.27,
+     "away_win": 4.4,
+     "over_15_goals": 1.39,
+     "over_25_goals": 2.23,
+     "over_35_goals": 4.17,
+     "under_15_goals": 2.83,
+     "under_25_goals": 1.62,
+     "under_35_goals": 1.2,
+     "btts_yes": 2.08,
+     "btts_no": 1.67
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "5287": {
+   "league": "MLS",
+   "league_id": 18,
+   "home": "Chicago Fire",
+   "away": "New England Revolution",
+   "kickoff": "2026-09-13T21:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 5287,
+    "odds": {
+     "home_win": 1.62,
+     "draw": 4.1,
+     "away_win": 4.2,
+     "over_15_goals": 1.12,
+     "over_25_goals": 1.44,
+     "over_35_goals": 2.0,
+     "under_15_goals": 6.0,
+     "under_25_goals": 2.7,
+     "under_35_goals": 1.73,
+     "btts_yes": 1.46,
+     "btts_no": 2.55
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:19Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "220149": {
+   "league": "Categoría Primera A",
+   "league_id": 80,
+   "home": "Atlético Nacional",
+   "away": "Rionegro Águilas Doradas",
+   "kickoff": "2026-09-13T21:05:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 220149,
+    "odds": {
+     "home_win": 1.37,
+     "draw": 4.31,
+     "away_win": 7.69,
+     "over_15_goals": 1.22,
+     "over_25_goals": 1.74,
+     "over_35_goals": 2.81,
+     "under_15_goals": 3.92,
+     "under_25_goals": 2.02,
+     "under_35_goals": 1.39,
+     "btts_yes": 1.99,
+     "btts_no": 1.73
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "10131": {
+   "league": "Brasileirão Serie B",
+   "league_id": 34,
+   "home": "Juventude",
+   "away": "Athletic Club",
+   "kickoff": "2026-09-13T21:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 10131,
+    "odds": {
+     "home_win": 1.66,
+     "draw": 3.3,
+     "away_win": 5.3,
+     "over_15_goals": 1.44,
+     "over_25_goals": 2.38,
+     "over_35_goals": 4.55,
+     "under_15_goals": 2.62,
+     "under_25_goals": 1.55,
+     "under_35_goals": 1.18,
+     "btts_yes": 2.24,
+     "btts_no": 1.58
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "7259": {
+   "league": "Brasileirão Serie A",
+   "league_id": 9,
+   "home": "Flamengo",
+   "away": "Corinthians",
+   "kickoff": "2026-09-13T20:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 7259,
+    "odds": {
+     "home_win": 1.36,
+     "draw": 4.63,
+     "away_win": 8.61,
+     "over_15_goals": 1.27,
+     "over_25_goals": 1.87,
+     "over_35_goals": 3.23,
+     "under_15_goals": 3.53,
+     "under_25_goals": 1.91,
+     "under_35_goals": 1.32,
+     "btts_yes": 2.18,
+     "btts_no": 1.62
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "223693": {
+   "league": "Liga Profesional de Fútbol",
+   "league_id": 85,
+   "home": "Argentinos Juniors",
+   "away": "Gimnasia y Esgrima",
+   "kickoff": "2026-09-13T20:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 223693,
+    "odds": {
+     "home_win": 1.68,
+     "draw": 3.3,
+     "away_win": 5.25,
+     "over_15_goals": 1.36,
+     "over_25_goals": 2.2,
+     "over_35_goals": 4.0,
+     "under_15_goals": 3.0,
+     "under_25_goals": 1.65,
+     "under_35_goals": 1.22,
+     "btts_yes": 2.05,
+     "btts_no": 1.69
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:23Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "220860": {
+   "league": "Liga 3",
+   "league_id": 82,
+   "home": "USC Paredes",
+   "away": "AD Fafe",
+   "kickoff": "2026-09-13T19:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 220860,
+    "odds": {
+     "home_win": 2.06,
+     "draw": 2.99,
+     "away_win": 3.46,
+     "over_15_goals": 1.33,
+     "over_25_goals": 2.1,
+     "over_35_goals": 3.5,
+     "under_15_goals": 2.99,
+     "under_25_goals": 1.68,
+     "under_35_goals": 1.22,
+     "btts_yes": 1.82,
+     "btts_no": 1.85
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "213421": {
+   "league": "Liga Portugal Betclic",
+   "league_id": 2,
+   "home": "Famalicão",
+   "away": "Sporting CP",
+   "kickoff": "2026-09-13T19:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 213421,
+    "odds": {
+     "home_win": 5.58,
+     "draw": 4.22,
+     "away_win": 1.52,
+     "over_15_goals": 1.23,
+     "over_25_goals": 1.77,
+     "over_35_goals": 2.88,
+     "under_15_goals": 3.86,
+     "under_25_goals": 2.02,
+     "under_35_goals": 1.37,
+     "btts_yes": 1.84,
+     "btts_no": 1.87
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "220144": {
+   "league": "Categoría Primera A",
+   "league_id": 80,
+   "home": "Deportivo Pereira",
+   "away": "Atlético Bucaramanga",
+   "kickoff": "2026-09-13T19:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 220144,
+    "odds": {
+     "home_win": 4.39,
+     "draw": 3.38,
+     "away_win": 1.78,
+     "over_15_goals": 1.4,
+     "over_25_goals": 2.23,
+     "over_35_goals": 4.29,
+     "under_15_goals": 2.77,
+     "under_25_goals": 1.61,
+     "under_35_goals": 1.19,
+     "btts_yes": 2.06,
+     "btts_no": 1.69
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "214811": {
+   "league": "Segunda División",
+   "league_id": 38,
+   "home": "CD Tenerife",
+   "away": "Leganés",
+   "kickoff": "2026-09-13T19:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 214811,
+    "odds": {
+     "home_win": 2.45,
+     "draw": 2.98,
+     "away_win": 2.97,
+     "over_15_goals": 1.44,
+     "over_25_goals": 2.42,
+     "over_35_goals": 4.73,
+     "under_15_goals": 2.6,
+     "under_25_goals": 1.53,
+     "under_35_goals": 1.17,
+     "btts_yes": 2.02,
+     "btts_no": 1.72
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "213567": {
+   "league": "La Liga",
+   "league_id": 3,
+   "home": "Real Sociedad",
+   "away": "Atlético Madrid",
+   "kickoff": "2026-09-13T19:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 213567,
+    "odds": {
+     "home_win": 2.86,
+     "draw": 3.51,
+     "away_win": 2.33,
+     "over_15_goals": 1.2,
+     "over_25_goals": 1.66,
+     "over_35_goals": 2.62,
+     "under_15_goals": 4.28,
+     "under_25_goals": 2.21,
+     "under_35_goals": 1.47,
+     "btts_yes": 1.52,
+     "btts_no": 2.42
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "10125": {
+   "league": "Brasileirão Serie B",
+   "league_id": 34,
+   "home": "Atlético Goianiense",
+   "away": "Criciúma",
+   "kickoff": "2026-09-13T19:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 10125,
+    "odds": {
+     "home_win": 2.05,
+     "draw": 3.0,
+     "away_win": 3.7,
+     "over_15_goals": 1.53,
+     "over_25_goals": 2.7,
+     "over_35_goals": 5.5,
+     "under_15_goals": 2.38,
+     "under_25_goals": 1.44,
+     "under_35_goals": 1.14,
+     "btts_yes": 2.09,
+     "btts_no": 1.66
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:24Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "7261": {
+   "league": "Brasileirão Serie A",
+   "league_id": 9,
+   "home": "Mirassol",
+   "away": "Vitória",
+   "kickoff": "2026-09-13T19:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 7261,
+    "odds": {
+     "home_win": 1.71,
+     "draw": 3.5,
+     "away_win": 4.75,
+     "over_15_goals": 1.29,
+     "over_25_goals": 1.95,
+     "over_35_goals": 3.4,
+     "under_15_goals": 3.75,
+     "under_25_goals": 1.85,
+     "under_35_goals": 1.33,
+     "btts_yes": 1.82,
+     "btts_no": 1.91
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:24Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "210471": {
+   "league": "Ligue 1",
+   "league_id": 6,
+   "home": "Stade Brestois",
+   "away": "Paris Saint-Germain",
+   "kickoff": "2026-09-13T18:45:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 210471,
+    "odds": {
+     "home_win": 9.57,
+     "draw": 6.13,
+     "away_win": 1.26,
+     "over_15_goals": 1.1,
+     "over_25_goals": 1.4,
+     "over_35_goals": 2.04,
+     "under_15_goals": 6.17,
+     "under_25_goals": 2.88,
+     "under_35_goals": 1.78,
+     "btts_yes": 1.76,
+     "btts_no": 1.98
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "210094": {
+   "league": "Serie A",
+   "league_id": 4,
+   "home": "Sassuolo",
+   "away": "Juventus",
+   "kickoff": "2026-09-13T18:45:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 210094,
+    "odds": {
+     "home_win": 5.16,
+     "draw": 3.9,
+     "away_win": 1.64,
+     "over_15_goals": 1.25,
+     "over_25_goals": 1.81,
+     "over_35_goals": 3.01,
+     "under_15_goals": 3.9,
+     "under_25_goals": 2.0,
+     "under_35_goals": 1.37,
+     "btts_yes": 1.79,
+     "btts_no": 1.96
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "219766": {
+   "league": "Stoiximan Super League",
+   "league_id": 24,
+   "home": "Panathinaikos FC",
+   "away": "GFS Panetolikos",
+   "kickoff": "2026-09-13T18:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 219766,
+    "odds": {
+     "home_win": 1.3,
+     "draw": 4.82,
+     "away_win": 8.9,
+     "over_15_goals": 1.23,
+     "over_25_goals": 1.75,
+     "over_35_goals": 2.9,
+     "under_15_goals": 3.82,
+     "under_25_goals": 2.02,
+     "under_35_goals": 1.37,
+     "btts_yes": 2.16,
+     "btts_no": 1.63
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "601932": {
+   "league": "Saudi Pro League",
+   "league_id": 17,
+   "home": "Diriyah",
+   "away": "Abha",
+   "kickoff": "2026-09-13T18:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 601932,
+    "odds": {
+     "home_win": 1.5,
+     "draw": 4.15,
+     "away_win": 5.5,
+     "over_15_goals": 1.2,
+     "over_25_goals": 1.67,
+     "over_35_goals": 2.64,
+     "under_15_goals": 4.16,
+     "under_25_goals": 2.14,
+     "under_35_goals": 1.43,
+     "btts_yes": 1.8,
+     "btts_no": 1.91
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "601931": {
+   "league": "Saudi Pro League",
+   "league_id": 17,
+   "home": "Al-Riyadh",
+   "away": "Al-Kholood",
+   "kickoff": "2026-09-13T18:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 601931,
+    "odds": {
+     "home_win": 2.99,
+     "draw": 3.36,
+     "away_win": 2.19,
+     "over_15_goals": 1.25,
+     "over_25_goals": 1.84,
+     "over_35_goals": 3.05,
+     "under_15_goals": 3.63,
+     "under_25_goals": 1.9,
+     "under_35_goals": 1.33,
+     "btts_yes": 1.69,
+     "btts_no": 2.04
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "219763": {
+   "league": "Stoiximan Super League",
+   "league_id": 24,
+   "home": "PAOK",
+   "away": "Aris Thessaloniki",
+   "kickoff": "2026-09-13T18:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 219763,
+    "odds": {
+     "home_win": 1.49,
+     "draw": 4.17,
+     "away_win": 5.71,
+     "over_15_goals": 1.22,
+     "over_25_goals": 1.75,
+     "over_35_goals": 2.85,
+     "under_15_goals": 3.9,
+     "under_25_goals": 2.02,
+     "under_35_goals": 1.38,
+     "btts_yes": 1.86,
+     "btts_no": 1.86
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "219760": {
+   "league": "Stoiximan Super League",
+   "league_id": 24,
+   "home": "AE Kifisia",
+   "away": "APO Levadiakos",
+   "kickoff": "2026-09-13T18:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 219760,
+    "odds": {
+     "home_win": 2.41,
+     "draw": 3.08,
+     "away_win": 2.92,
+     "over_15_goals": 1.34,
+     "over_25_goals": 2.11,
+     "over_35_goals": 3.82,
+     "under_15_goals": 3.06,
+     "under_25_goals": 1.68,
+     "under_35_goals": 1.23,
+     "btts_yes": 1.82,
+     "btts_no": 1.89
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "210850": {
+   "league": "Eredivisie",
+   "league_id": 10,
+   "home": "PSV Eindhoven",
+   "away": "Sparta Rotterdam",
+   "kickoff": "2026-09-13T18:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 210850,
+    "odds": {
+     "home_win": 1.17,
+     "draw": 7.9,
+     "away_win": 11.88,
+     "over_15_goals": 1.04,
+     "over_25_goals": 1.19,
+     "over_35_goals": 1.52,
+     "under_15_goals": 10.56,
+     "under_25_goals": 4.44,
+     "under_35_goals": 2.43,
+     "btts_yes": 1.55,
+     "btts_no": 2.3
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "223707": {
+   "league": "Liga Profesional de Fútbol",
+   "league_id": 85,
+   "home": "Tigre",
+   "away": "Rosario Central",
+   "kickoff": "2026-09-13T17:45:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 223707,
+    "odds": {
+     "home_win": 2.82,
+     "draw": 2.75,
+     "away_win": 2.65,
+     "over_15_goals": 1.44,
+     "over_25_goals": 2.5,
+     "over_35_goals": 5.0,
+     "under_15_goals": 2.62,
+     "under_25_goals": 1.5,
+     "under_35_goals": 1.17,
+     "btts_yes": 2.13,
+     "btts_no": 1.65
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:25Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "223706": {
+   "league": "Liga Profesional de Fútbol",
+   "league_id": 85,
+   "home": "Sarmiento",
+   "away": "Club Atlético Belgrano",
+   "kickoff": "2026-09-13T17:45:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 223706,
+    "odds": {
+     "home_win": 3.2,
+     "draw": 2.85,
+     "away_win": 2.35,
+     "over_15_goals": 1.5,
+     "over_25_goals": 2.6,
+     "over_35_goals": 5.5,
+     "under_15_goals": 2.5,
+     "under_25_goals": 1.48,
+     "under_35_goals": 1.14,
+     "btts_yes": 2.06,
+     "btts_no": 1.69
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:25Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "215251": {
+   "league": "Liga F",
+   "league_id": 36,
+   "home": "SD Eibar",
+   "away": "FC Badalona",
+   "kickoff": "2026-09-13T17:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 215251,
+    "odds": {
+     "home_win": 3.25,
+     "draw": 3.1,
+     "away_win": 2.05,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 1.95,
+     "btts_no": 1.73
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:26Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "214591": {
+   "league": "Superliga",
+   "league_id": 23,
+   "home": "FC Corvinul Hunedoara",
+   "away": "Universitatea Craiova",
+   "kickoff": "2026-09-13T17:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 214591,
+    "odds": {
+     "home_win": 3.93,
+     "draw": 3.37,
+     "away_win": 1.84,
+     "over_15_goals": 1.29,
+     "over_25_goals": 1.95,
+     "over_35_goals": 3.39,
+     "under_15_goals": 3.31,
+     "under_25_goals": 1.8,
+     "under_35_goals": 1.28,
+     "btts_yes": 1.81,
+     "btts_no": 1.89
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211707": {
+   "league": "Parva Liga",
+   "league_id": 22,
+   "home": "Botev Plovdiv",
+   "away": "Lokomotiv Plovdiv",
+   "kickoff": "2026-09-13T17:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211707,
+    "odds": {
+     "home_win": 1.74,
+     "draw": 3.42,
+     "away_win": 4.35,
+     "over_15_goals": 1.29,
+     "over_25_goals": 1.94,
+     "over_35_goals": 3.44,
+     "under_15_goals": 3.32,
+     "under_25_goals": 1.81,
+     "under_35_goals": 1.27,
+     "btts_yes": 1.83,
+     "btts_no": 1.86
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211356": {
+   "league": "Pro League",
+   "league_id": 14,
+   "home": "RAAL La Louvière",
+   "away": "KV Kortrijk",
+   "kickoff": "2026-09-13T17:15:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211356,
+    "odds": {
+     "home_win": 2.35,
+     "draw": 3.2,
+     "away_win": 2.8,
+     "over_15_goals": 1.29,
+     "over_25_goals": 1.95,
+     "over_35_goals": 3.4,
+     "under_15_goals": 3.5,
+     "under_25_goals": 1.85,
+     "under_35_goals": 1.3,
+     "btts_yes": 1.71,
+     "btts_no": 2.04
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:27Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "207069": {
+   "league": "Eliteserien",
+   "league_id": 54,
+   "home": "Fredrikstad FK",
+   "away": "Sarpsborg 08",
+   "kickoff": "2026-09-13T17:15:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 207069,
+    "odds": {
+     "home_win": 2.38,
+     "draw": 3.5,
+     "away_win": 2.63,
+     "over_15_goals": 1.2,
+     "over_25_goals": 1.67,
+     "over_35_goals": 2.62,
+     "under_15_goals": 4.33,
+     "under_25_goals": 2.15,
+     "under_35_goals": 1.44,
+     "btts_yes": 1.57,
+     "btts_no": 2.27
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:27Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "587767": {
+   "league": "CAF Champions League",
+   "league_id": 29,
+   "home": "Teungueth FC",
+   "away": "FC Canchungo",
+   "kickoff": "2026-09-13T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 587767,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 2.0,
+     "btts_no": 1.71
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:27Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "587761": {
+   "league": "CAF Champions League",
+   "league_id": 29,
+   "home": "FC Nouadhibou",
+   "away": "Vipers SC",
+   "kickoff": "2026-09-13T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 587761,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:26Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "587751": {
+   "league": "CAF Champions League",
+   "league_id": 29,
+   "home": "Pyramids FC",
+   "away": "Gor Mahia FC",
+   "kickoff": "2026-09-13T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 587751,
+    "odds": {
+     "home_win": 1.2,
+     "draw": 5.0,
+     "away_win": 13.0,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 2.36,
+     "btts_no": 1.51
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:27Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "216447": {
+   "league": "NWSL",
+   "league_id": 72,
+   "home": "Washington Spirit",
+   "away": "Boston Legacy FC",
+   "kickoff": "2026-09-13T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 216447,
+    "odds": {
+     "home_win": 1.53,
+     "draw": 3.9,
+     "away_win": 4.75,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 1.56,
+     "btts_no": 2.21
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:27Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "215992": {
+   "league": "Trendyol Super Lig",
+   "league_id": 11,
+   "home": "Galatasaray",
+   "away": "Kocaelispor",
+   "kickoff": "2026-09-13T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 215992,
+    "odds": {
+     "home_win": 1.31,
+     "draw": 5.24,
+     "away_win": 8.31,
+     "over_15_goals": 1.13,
+     "over_25_goals": 1.49,
+     "over_35_goals": 2.25,
+     "under_15_goals": 5.12,
+     "under_25_goals": 2.44,
+     "under_35_goals": 1.59,
+     "btts_yes": 1.83,
+     "btts_no": 1.89
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "215989": {
+   "league": "Trendyol Super Lig",
+   "league_id": 11,
+   "home": "Amed Sportif Faaliyetler",
+   "away": "Başakşehir FK",
+   "kickoff": "2026-09-13T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 215989,
+    "odds": {
+     "home_win": 2.51,
+     "draw": 3.4,
+     "away_win": 2.62,
+     "over_15_goals": 1.23,
+     "over_25_goals": 1.79,
+     "over_35_goals": 2.97,
+     "under_15_goals": 3.86,
+     "under_25_goals": 1.99,
+     "under_35_goals": 1.36,
+     "btts_yes": 1.62,
+     "btts_no": 2.18
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "213425": {
+   "league": "Liga Portugal Betclic",
+   "league_id": 2,
+   "home": "FC Arouca",
+   "away": "Santa Clara",
+   "kickoff": "2026-09-13T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 213425,
+    "odds": {
+     "home_win": 2.58,
+     "draw": 3.07,
+     "away_win": 2.75,
+     "over_15_goals": 1.4,
+     "over_25_goals": 2.29,
+     "over_35_goals": 4.22,
+     "under_15_goals": 2.77,
+     "under_25_goals": 1.6,
+     "under_35_goals": 1.2,
+     "btts_yes": 1.9,
+     "btts_no": 1.82
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "213420": {
+   "league": "Liga Portugal Betclic",
+   "league_id": 2,
+   "home": "Benfica",
+   "away": "Gil Vicente",
+   "kickoff": "2026-09-13T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 213420,
+    "odds": {
+     "home_win": 1.13,
+     "draw": 8.04,
+     "away_win": 18.74,
+     "over_15_goals": 1.13,
+     "over_25_goals": 1.46,
+     "over_35_goals": 2.21,
+     "under_15_goals": 5.2,
+     "under_25_goals": 2.52,
+     "under_35_goals": 1.62,
+     "btts_yes": 2.5,
+     "btts_no": 1.48
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603044": {
+   "league": "",
+   "league_id": 95,
+   "home": "Chaves B",
+   "away": "CD Celoricense",
+   "kickoff": "2026-09-13T16:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603044,
+    "odds": {
+     "home_win": 2.55,
+     "draw": 3.0,
+     "away_win": 2.55,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:28Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "214818": {
+   "league": "Segunda División",
+   "league_id": 38,
+   "home": "Mallorca",
+   "away": "CE Sabadell",
+   "kickoff": "2026-09-13T16:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 214818,
+    "odds": {
+     "home_win": 1.8,
+     "draw": 3.4,
+     "away_win": 4.36,
+     "over_15_goals": 1.35,
+     "over_25_goals": 2.07,
+     "over_35_goals": 3.85,
+     "under_15_goals": 3.05,
+     "under_25_goals": 1.72,
+     "under_35_goals": 1.24,
+     "btts_yes": 1.9,
+     "btts_no": 1.8
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "213562": {
+   "league": "La Liga",
+   "league_id": 3,
+   "home": "Getafe",
+   "away": "Deportivo de A Coruña",
+   "kickoff": "2026-09-13T16:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 213562,
+    "odds": {
+     "home_win": 2.3,
+     "draw": 2.88,
+     "away_win": 3.5,
+     "over_15_goals": 1.67,
+     "over_25_goals": 3.2,
+     "over_35_goals": 6.5,
+     "under_15_goals": 2.2,
+     "under_25_goals": 1.36,
+     "under_35_goals": 1.11,
+     "btts_yes": 2.26,
+     "btts_no": 1.58
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:28Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211355": {
+   "league": "Pro League",
+   "league_id": 14,
+   "home": "SV Zulte Waregem",
+   "away": "RC Sporting Charleroi",
+   "kickoff": "2026-09-13T16:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211355,
+    "odds": {
+     "home_win": 2.52,
+     "draw": 3.44,
+     "away_win": 2.57,
+     "over_15_goals": 1.2,
+     "over_25_goals": 1.72,
+     "over_35_goals": 2.62,
+     "under_15_goals": 4.33,
+     "under_25_goals": 2.07,
+     "under_35_goals": 1.44,
+     "btts_yes": 1.6,
+     "btts_no": 2.2
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "601930": {
+   "league": "Saudi Pro League",
+   "league_id": 17,
+   "home": "Neom SC",
+   "away": "Al-Fateh",
+   "kickoff": "2026-09-13T16:20:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 601930,
+    "odds": {
+     "home_win": 1.66,
+     "draw": 3.86,
+     "away_win": 4.27,
+     "over_15_goals": 1.17,
+     "over_25_goals": 1.58,
+     "over_35_goals": 2.46,
+     "under_15_goals": 4.62,
+     "under_25_goals": 2.29,
+     "under_35_goals": 1.48,
+     "btts_yes": 1.59,
+     "btts_no": 2.2
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "587765": {
+   "league": "CAF Champions League",
+   "league_id": 29,
+   "home": "Horoya",
+   "away": "JS Saoura",
+   "kickoff": "2026-09-13T16:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 587765,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:29Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "587764": {
+   "league": "CAF Champions League",
+   "league_id": 29,
+   "home": "ASEC Mimosas",
+   "away": "ASC Kara",
+   "kickoff": "2026-09-13T16:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 587764,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:29Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "587762": {
+   "league": "CAF Champions League",
+   "league_id": 29,
+   "home": "Stade Malien",
+   "away": "Colombe FC",
+   "kickoff": "2026-09-13T16:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 587762,
+    "odds": {
+     "home_win": 2.0,
+     "draw": 3.0,
+     "away_win": 3.6,
+     "over_15_goals": 1.44,
+     "over_25_goals": 2.4,
+     "over_35_goals": 4.5,
+     "under_15_goals": 2.62,
+     "under_25_goals": 1.53,
+     "under_35_goals": 1.18,
+     "btts_yes": 2.12,
+     "btts_no": 1.62
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:29Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "587749": {
+   "league": "CAF Champions League",
+   "league_id": 29,
+   "home": "Sidama Bunna FC",
+   "away": "Aiglons FC N'Djamena",
+   "kickoff": "2026-09-13T16:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 587749,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:29Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "221518": {
+   "league": "Danish Superliga",
+   "league_id": 84,
+   "home": "FC Nordsjælland",
+   "away": "AGF",
+   "kickoff": "2026-09-13T16:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 221518,
+    "odds": {
+     "home_win": 1.78,
+     "draw": 3.95,
+     "away_win": 3.74,
+     "over_15_goals": 1.12,
+     "over_25_goals": 1.42,
+     "over_35_goals": 2.11,
+     "under_15_goals": 5.71,
+     "under_25_goals": 2.72,
+     "under_35_goals": 1.69,
+     "btts_yes": 1.44,
+     "btts_no": 2.59
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "220863": {
+   "league": "Liga 3",
+   "league_id": 82,
+   "home": "Caldas SC",
+   "away": "GD Vitória Sernache",
+   "kickoff": "2026-09-13T16:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 220863,
+    "odds": {
+     "home_win": 1.8,
+     "draw": 3.25,
+     "away_win": 4.0,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 1.93,
+     "btts_no": 1.75
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:29Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "220859": {
+   "league": "Liga 3",
+   "league_id": 82,
+   "home": "Paços de Ferreira",
+   "away": "SC São João Ver",
+   "kickoff": "2026-09-13T16:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 220859,
+    "odds": {
+     "home_win": 2.0,
+     "draw": 3.2,
+     "away_win": 3.25,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 1.82,
+     "btts_no": 1.85
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:30Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "219761": {
+   "league": "Stoiximan Super League",
+   "league_id": 24,
+   "home": "Asteras Aktor",
+   "away": "AEK Athens",
+   "kickoff": "2026-09-13T16:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 219761,
+    "odds": {
+     "home_win": 7.69,
+     "draw": 4.35,
+     "away_win": 1.38,
+     "over_15_goals": 1.26,
+     "over_25_goals": 1.87,
+     "over_35_goals": 3.18,
+     "under_15_goals": 3.54,
+     "under_25_goals": 1.88,
+     "under_35_goals": 1.32,
+     "btts_yes": 2.1,
+     "btts_no": 1.66
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "210093": {
+   "league": "Serie A",
+   "league_id": 4,
+   "home": "SSC Napoli",
+   "away": "Bologna",
+   "kickoff": "2026-09-13T16:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 210093,
+    "odds": {
+     "home_win": 1.81,
+     "draw": 3.53,
+     "away_win": 4.45,
+     "over_15_goals": 1.32,
+     "over_25_goals": 2.03,
+     "over_35_goals": 3.54,
+     "under_15_goals": 3.27,
+     "under_25_goals": 1.8,
+     "under_35_goals": 1.28,
+     "btts_yes": 1.87,
+     "btts_no": 1.89
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "213693": {
+   "league": "Bundesliga",
+   "league_id": 5,
+   "home": "SV 07 Elversberg",
+   "away": "FC Bayern München",
+   "kickoff": "2026-09-13T15:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 213693,
+    "odds": {
+     "home_win": 12.79,
+     "draw": 8.36,
+     "away_win": 1.16,
+     "over_15_goals": 1.05,
+     "over_25_goals": 1.16,
+     "over_35_goals": 1.46,
+     "under_15_goals": 11.17,
+     "under_25_goals": 4.89,
+     "under_35_goals": 2.62,
+     "btts_yes": 1.53,
+     "btts_no": 2.39
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211897": {
+   "league": "Ekstraklasa",
+   "league_id": 25,
+   "home": "Legia Warszawa",
+   "away": "Widzew Łódź",
+   "kickoff": "2026-09-13T15:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211897,
+    "odds": {
+     "home_win": 1.83,
+     "draw": 3.48,
+     "away_win": 3.98,
+     "over_15_goals": 1.27,
+     "over_25_goals": 1.9,
+     "over_35_goals": 3.25,
+     "under_15_goals": 3.47,
+     "under_25_goals": 1.86,
+     "under_35_goals": 1.31,
+     "btts_yes": 1.78,
+     "btts_no": 1.94
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "209572": {
+   "league": "Premier League",
+   "league_id": 1,
+   "home": "Manchester United",
+   "away": "Manchester City",
+   "kickoff": "2026-09-13T15:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 209572,
+    "odds": {
+     "home_win": 3.11,
+     "draw": 3.8,
+     "away_win": 2.11,
+     "over_15_goals": 1.14,
+     "over_25_goals": 1.5,
+     "over_35_goals": 2.25,
+     "under_15_goals": 5.3,
+     "under_25_goals": 2.53,
+     "under_35_goals": 1.64,
+     "btts_yes": 1.45,
+     "btts_no": 2.6
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "210466": {
+   "league": "Ligue 1",
+   "league_id": 6,
+   "home": "Le Mans",
+   "away": "RC Lens",
+   "kickoff": "2026-09-13T15:15:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 210466,
+    "odds": {
+     "home_win": 4.68,
+     "draw": 4.05,
+     "away_win": 1.65,
+     "over_15_goals": 1.2,
+     "over_25_goals": 1.66,
+     "over_35_goals": 2.61,
+     "under_15_goals": 4.35,
+     "under_25_goals": 2.22,
+     "under_35_goals": 1.47,
+     "btts_yes": 1.64,
+     "btts_no": 2.16
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603043": {
+   "league": "",
+   "league_id": 95,
+   "home": "SU Sintrense",
+   "away": "Santa Clara Azores B",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603043,
+    "odds": {
+     "home_win": 1.73,
+     "draw": 3.2,
+     "away_win": 4.33,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:32Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603042": {
+   "league": "",
+   "league_id": 95,
+   "home": "SC Maria da Fonte",
+   "away": "SC Braga B",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603042,
+    "odds": {
+     "home_win": 2.7,
+     "draw": 3.2,
+     "away_win": 2.3,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:31Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602457": {
+   "league": "Tunisian Ligue Professionnelle 1",
+   "league_id": 47,
+   "home": "Olympique Béja",
+   "away": "PS Sakiet Eddaïer",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 602457,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 2.24,
+     "btts_no": 1.56
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:31Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602456": {
+   "league": "Tunisian Ligue Professionnelle 1",
+   "league_id": 47,
+   "home": "JS Omrane",
+   "away": "ES Métlaoui",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 602456,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 2.23,
+     "btts_no": 1.57
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:31Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602455": {
+   "league": "Tunisian Ligue Professionnelle 1",
+   "league_id": 47,
+   "home": "CS Hammam-Lif",
+   "away": "Espérance Sportive De Tunis",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 602455,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 2.47,
+     "btts_no": 1.46
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:32Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602420": {
+   "league": "Nigeria Premier Football League",
+   "league_id": 28,
+   "home": "Shooting Stars",
+   "away": "Kano Pillars",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "postponed",
+   "odds": {
+    "event_id": 602420,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:32Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602419": {
+   "league": "Nigeria Premier Football League",
+   "league_id": 28,
+   "home": "Rivers United",
+   "away": "Warri Wolves FC",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "postponed",
+   "odds": {
+    "event_id": 602419,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:32Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602418": {
+   "league": "Nigeria Premier Football League",
+   "league_id": 28,
+   "home": "Niger Tornadoes",
+   "away": "Plateau United",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 602418,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 2.64,
+     "btts_no": 1.4
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:32Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602417": {
+   "league": "Nigeria Premier Football League",
+   "league_id": 28,
+   "home": "Kwara United",
+   "away": "Katsina United",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 602417,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:33Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602416": {
+   "league": "Nigeria Premier Football League",
+   "league_id": 28,
+   "home": "Inter Lagos FC",
+   "away": "Sporting Lagos FC",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 602416,
+    "odds": {
+     "home_win": 1.67,
+     "draw": 3.2,
+     "away_win": 4.75,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 2.19,
+     "btts_no": 1.56
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:33Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602415": {
+   "league": "Nigeria Premier Football League",
+   "league_id": 28,
+   "home": "Enugu Rangers International",
+   "away": "Nasarawa United",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "postponed",
+   "odds": {
+    "event_id": 602415,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:33Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602414": {
+   "league": "Nigeria Premier Football League",
+   "league_id": 28,
+   "home": "Bendel Insurance FC",
+   "away": "Kun Khalifat FC",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 602414,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:33Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602413": {
+   "league": "Nigeria Premier Football League",
+   "league_id": 28,
+   "home": "Barau FC",
+   "away": "Ranchers Bees",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 602413,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 2.45,
+     "btts_no": 1.46
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:33Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602412": {
+   "league": "Nigeria Premier Football League",
+   "league_id": 28,
+   "home": "Abia Warriors",
+   "away": "Ikorodu City",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 602412,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:33Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "587766": {
+   "league": "CAF Champions League",
+   "league_id": 29,
+   "home": "Rivers United",
+   "away": "FC San Pedro",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 587766,
+    "odds": {
+     "home_win": 1.73,
+     "draw": 3.1,
+     "away_win": 4.75,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 2.38,
+     "btts_no": 1.5
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:33Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "219765": {
+   "league": "Stoiximan Super League",
+   "league_id": 24,
+   "home": "PS Kalamata",
+   "away": "NPS Volos",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 219765,
+    "odds": {
+     "home_win": 2.44,
+     "draw": 3.07,
+     "away_win": 2.83,
+     "over_15_goals": 1.41,
+     "over_25_goals": 2.3,
+     "over_35_goals": 4.34,
+     "under_15_goals": 2.75,
+     "under_25_goals": 1.58,
+     "under_35_goals": 1.19,
+     "btts_yes": 1.92,
+     "btts_no": 1.8
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "215245": {
+   "league": "Liga F",
+   "league_id": 36,
+   "home": "Logroño United",
+   "away": "Valencia",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 215245,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 1.94,
+     "btts_no": 1.75
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:34Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "207072": {
+   "league": "Eliteserien",
+   "league_id": 54,
+   "home": "KFUM Oslo",
+   "away": "Aalesunds FK",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 207072,
+    "odds": {
+     "home_win": 2.3,
+     "draw": 3.65,
+     "away_win": 2.68,
+     "over_15_goals": 1.16,
+     "over_25_goals": 1.56,
+     "over_35_goals": 2.37,
+     "under_15_goals": 4.87,
+     "under_25_goals": 2.35,
+     "under_35_goals": 1.53,
+     "btts_yes": 1.47,
+     "btts_no": 2.52
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "207071": {
+   "league": "Eliteserien",
+   "league_id": 54,
+   "home": "IK Start",
+   "away": "SK Brann",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 207071,
+    "odds": {
+     "home_win": 3.22,
+     "draw": 3.71,
+     "away_win": 1.98,
+     "over_15_goals": 1.15,
+     "over_25_goals": 1.54,
+     "over_35_goals": 2.33,
+     "under_15_goals": 5.0,
+     "under_25_goals": 2.4,
+     "under_35_goals": 1.55,
+     "btts_yes": 1.49,
+     "btts_no": 2.45
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "207070": {
+   "league": "Eliteserien",
+   "league_id": 54,
+   "home": "HamKam",
+   "away": "Molde FK",
+   "kickoff": "2026-09-13T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 207070,
+    "odds": {
+     "home_win": 4.24,
+     "draw": 4.13,
+     "away_win": 1.67,
+     "over_15_goals": 1.12,
+     "over_25_goals": 1.43,
+     "over_35_goals": 2.11,
+     "under_15_goals": 5.75,
+     "under_25_goals": 2.69,
+     "under_35_goals": 1.69,
+     "btts_yes": 1.48,
+     "btts_no": 2.51
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211708": {
+   "league": "Parva Liga",
+   "league_id": 22,
+   "home": "Botev Vratsa",
+   "away": "Levski Sofia",
+   "kickoff": "2026-09-13T14:45:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211708,
+    "odds": {
+     "home_win": 6.85,
+     "draw": 4.04,
+     "away_win": 1.43,
+     "over_15_goals": 1.29,
+     "over_25_goals": 1.93,
+     "over_35_goals": 3.38,
+     "under_15_goals": 3.36,
+     "under_25_goals": 1.81,
+     "under_35_goals": 1.28,
+     "btts_yes": 2.1,
+     "btts_no": 1.66
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "210852": {
+   "league": "Eredivisie",
+   "league_id": 10,
+   "home": "PEC Zwolle",
+   "away": "Feyenoord",
+   "kickoff": "2026-09-13T14:45:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 210852,
+    "odds": {
+     "home_win": 6.18,
+     "draw": 5.11,
+     "away_win": 1.41,
+     "over_15_goals": 1.08,
+     "over_25_goals": 1.33,
+     "over_35_goals": 1.86,
+     "under_15_goals": 7.13,
+     "under_25_goals": 3.17,
+     "under_35_goals": 1.91,
+     "btts_yes": 1.49,
+     "btts_no": 2.46
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "375040": {
+   "league": "Liga Portugal 2",
+   "league_id": 88,
+   "home": "Amarante FC",
+   "away": "União de Leiria",
+   "kickoff": "2026-09-13T14:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 375040,
+    "odds": {
+     "home_win": 2.8,
+     "draw": 3.09,
+     "away_win": 2.37,
+     "over_15_goals": 1.34,
+     "over_25_goals": 2.08,
+     "over_35_goals": 3.72,
+     "under_15_goals": 2.96,
+     "under_25_goals": 1.69,
+     "under_35_goals": 1.23,
+     "btts_yes": 1.82,
+     "btts_no": 1.87
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211413": {
+   "league": "Super League",
+   "league_id": 15,
+   "home": "FC Luzern",
+   "away": "Basel",
+   "kickoff": "2026-09-13T14:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211413,
+    "odds": {
+     "home_win": 2.06,
+     "draw": 3.84,
+     "away_win": 2.93,
+     "over_15_goals": 1.1,
+     "over_25_goals": 1.39,
+     "over_35_goals": 1.97,
+     "under_15_goals": 6.35,
+     "under_25_goals": 2.83,
+     "under_35_goals": 1.78,
+     "btts_yes": 1.36,
+     "btts_no": 2.89
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211412": {
+   "league": "Super League",
+   "league_id": 15,
+   "home": "FC Lausanne-Sport",
+   "away": "Servette FC",
+   "kickoff": "2026-09-13T14:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211412,
+    "odds": {
+     "home_win": 3.14,
+     "draw": 3.54,
+     "away_win": 2.07,
+     "over_15_goals": 1.18,
+     "over_25_goals": 1.64,
+     "over_35_goals": 2.55,
+     "under_15_goals": 4.49,
+     "under_25_goals": 2.19,
+     "under_35_goals": 1.47,
+     "btts_yes": 1.54,
+     "btts_no": 2.33
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "46471": {
+   "league": "Allsvenskan",
+   "league_id": 26,
+   "home": "Malmö FF",
+   "away": "Örgryte IS",
+   "kickoff": "2026-09-13T14:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 46471,
+    "odds": {
+     "home_win": 1.36,
+     "draw": 5.0,
+     "away_win": 6.77,
+     "over_15_goals": 1.11,
+     "over_25_goals": 1.42,
+     "over_35_goals": 2.08,
+     "under_15_goals": 5.83,
+     "under_25_goals": 2.73,
+     "under_35_goals": 1.71,
+     "btts_yes": 1.65,
+     "btts_no": 2.12
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "214819": {
+   "league": "Segunda División",
+   "league_id": 38,
+   "home": "Real Valladolid",
+   "away": "Real Oviedo",
+   "kickoff": "2026-09-13T14:15:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 214819,
+    "odds": {
+     "home_win": 2.41,
+     "draw": 2.93,
+     "away_win": 3.02,
+     "over_15_goals": 1.49,
+     "over_25_goals": 2.52,
+     "over_35_goals": 5.02,
+     "under_15_goals": 2.53,
+     "under_25_goals": 1.49,
+     "under_35_goals": 1.15,
+     "btts_yes": 2.06,
+     "btts_no": 1.68
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "213563": {
+   "league": "La Liga",
+   "league_id": 3,
+   "home": "Levante UD",
+   "away": "FC Barcelona",
+   "kickoff": "2026-09-13T14:15:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 213563,
+    "odds": {
+     "home_win": 14.52,
+     "draw": 8.56,
+     "away_win": 1.15,
+     "over_15_goals": 1.06,
+     "over_25_goals": 1.27,
+     "over_35_goals": 1.72,
+     "under_15_goals": 8.36,
+     "under_25_goals": 3.65,
+     "under_35_goals": 2.13,
+     "btts_yes": 1.76,
+     "btts_no": 1.98
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603041": {
+   "league": "",
+   "league_id": 95,
+   "home": "Vitória de Setúbal",
+   "away": "Juventude SC",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603041,
+    "odds": {
+     "home_win": 2.38,
+     "draw": 3.25,
+     "away_win": 2.62,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:36Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603040": {
+   "league": "",
+   "league_id": 95,
+   "home": "Real SC",
+   "away": "JD Lajense",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603040,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:36Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603039": {
+   "league": "",
+   "league_id": 95,
+   "home": "GD Portel",
+   "away": "SC Mineiro Aljustrelense",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603039,
+    "odds": {
+     "home_win": 2.45,
+     "draw": 3.2,
+     "away_win": 2.55,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:37Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603038": {
+   "league": "",
+   "league_id": 95,
+   "home": "GD Lagoa",
+   "away": "FC Serpa",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603038,
+    "odds": {
+     "home_win": 1.95,
+     "draw": 3.25,
+     "away_win": 3.4,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:37Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603037": {
+   "league": "",
+   "league_id": 95,
+   "home": "GD Alcochetense",
+   "away": "Imortal Deportivo Clube",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603037,
+    "odds": {
+     "home_win": 2.15,
+     "draw": 3.1,
+     "away_win": 3.0,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:37Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603036": {
+   "league": "",
+   "league_id": 95,
+   "home": "1º Dezembro",
+   "away": "Amora FC",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603036,
+    "odds": {
+     "home_win": 2.5,
+     "draw": 3.3,
+     "away_win": 2.45,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:37Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603035": {
+   "league": "",
+   "league_id": 95,
+   "home": "União Desportiva da Serra",
+   "away": "Mortágua",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603035,
+    "odds": {
+     "home_win": 2.05,
+     "draw": 3.2,
+     "away_win": 3.2,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:37Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603034": {
+   "league": "",
+   "league_id": 95,
+   "home": "Sertanense",
+   "away": "At. Malveira",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603034,
+    "odds": {
+     "home_win": 1.75,
+     "draw": 3.4,
+     "away_win": 4.0,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:38Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603033": {
+   "league": "",
+   "league_id": 95,
+   "home": "Gd Nazarenos",
+   "away": "CF Marialvas",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603033,
+    "odds": {
+     "home_win": 3.2,
+     "draw": 3.2,
+     "away_win": 2.05,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:37Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603032": {
+   "league": "",
+   "league_id": 95,
+   "home": "CD Fátima",
+   "away": "Oliveira Hospital",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603032,
+    "odds": {
+     "home_win": 2.88,
+     "draw": 3.0,
+     "away_win": 2.3,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:37Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603031": {
+   "league": "",
+   "league_id": 95,
+   "home": "Benfica Castelo Branco",
+   "away": "AD Nogueirense",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603031,
+    "odds": {
+     "home_win": 2.4,
+     "draw": 3.1,
+     "away_win": 2.7,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:38Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603030": {
+   "league": "",
+   "league_id": 95,
+   "home": "Associação Naval 1893",
+   "away": "FC Alverca B",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603030,
+    "odds": {
+     "home_win": 1.8,
+     "draw": 3.3,
+     "away_win": 4.0,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:38Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603029": {
+   "league": "",
+   "league_id": 95,
+   "home": "AD Fazendense",
+   "away": "O Elvas CAD",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603029,
+    "odds": {
+     "home_win": 2.38,
+     "draw": 3.25,
+     "away_win": 2.62,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:38Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603028": {
+   "league": "",
+   "league_id": 95,
+   "home": "UD Sousense",
+   "away": "CF União de Lamas",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603028,
+    "odds": {
+     "home_win": 3.0,
+     "draw": 3.1,
+     "away_win": 2.15,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:38Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603027": {
+   "league": "",
+   "league_id": 95,
+   "home": "Sport Comércio e Salgueiros",
+   "away": "CD Cinfães",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603027,
+    "odds": {
+     "home_win": 2.25,
+     "draw": 3.0,
+     "away_win": 3.0,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:38Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603026": {
+   "league": "",
+   "league_id": 95,
+   "home": "SC Beira-Mar",
+   "away": "AD Castro Daire",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603026,
+    "odds": {
+     "home_win": 2.15,
+     "draw": 3.1,
+     "away_win": 3.1,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:39Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603025": {
+   "league": "",
+   "league_id": 95,
+   "home": "Florgrade FC",
+   "away": "AD Sanjoanense",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603025,
+    "odds": {
+     "home_win": 2.55,
+     "draw": 3.2,
+     "away_win": 2.4,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:38Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603024": {
+   "league": "",
+   "league_id": 95,
+   "home": "FC Alpendorada",
+   "away": "AD Machico",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603024,
+    "odds": {
+     "home_win": 2.2,
+     "draw": 3.1,
+     "away_win": 3.0,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:39Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603023": {
+   "league": "",
+   "league_id": 95,
+   "home": "Estrela Calheta FC",
+   "away": "AD Ovarense",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603023,
+    "odds": {
+     "home_win": 4.5,
+     "draw": 3.5,
+     "away_win": 1.61,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:39Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603022": {
+   "league": "",
+   "league_id": 95,
+   "home": "Grupo Desportivo de Bragança",
+   "away": "AD Ponte da Barca",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603022,
+    "odds": {
+     "home_win": 1.44,
+     "draw": 3.9,
+     "away_win": 6.25,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:39Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603021": {
+   "league": "",
+   "league_id": 95,
+   "home": "FC Tirsense",
+   "away": "Brito SC",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603021,
+    "odds": {
+     "home_win": 1.73,
+     "draw": 3.3,
+     "away_win": 4.2,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:39Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603020": {
+   "league": "",
+   "league_id": 95,
+   "home": "CDC Montalegre",
+   "away": "FC Maia Lidador",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603020,
+    "odds": {
+     "home_win": 2.25,
+     "draw": 3.1,
+     "away_win": 2.88,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:40Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603019": {
+   "league": "",
+   "league_id": 95,
+   "home": "AC Vila Meã",
+   "away": "FC Vinhais",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 603019,
+    "odds": {
+     "home_win": 1.57,
+     "draw": 3.6,
+     "away_win": 5.0,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:40Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "221520": {
+   "league": "Danish Superliga",
+   "league_id": 84,
+   "home": "Randers FC",
+   "away": "Odense Boldklub",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 221520,
+    "odds": {
+     "home_win": 2.15,
+     "draw": 3.47,
+     "away_win": 3.07,
+     "over_15_goals": 1.2,
+     "over_25_goals": 1.68,
+     "over_35_goals": 2.64,
+     "under_15_goals": 4.27,
+     "under_25_goals": 2.13,
+     "under_35_goals": 1.45,
+     "btts_yes": 1.53,
+     "btts_no": 2.36
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "215994": {
+   "league": "Trendyol Super Lig",
+   "league_id": 11,
+   "home": "Gençlerbirliği",
+   "away": "Kasımpaşa",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 215994,
+    "odds": {
+     "home_win": 2.27,
+     "draw": 3.21,
+     "away_win": 3.08,
+     "over_15_goals": 1.34,
+     "over_25_goals": 2.11,
+     "over_35_goals": 3.79,
+     "under_15_goals": 3.08,
+     "under_25_goals": 1.7,
+     "under_35_goals": 1.23,
+     "btts_yes": 1.82,
+     "btts_no": 1.89
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211354": {
+   "league": "Pro League",
+   "league_id": 14,
+   "home": "KRC Genk",
+   "away": "KAA Gent",
+   "kickoff": "2026-09-13T14:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211354,
+    "odds": {
+     "home_win": 2.0,
+     "draw": 3.43,
+     "away_win": 3.58,
+     "over_15_goals": 1.22,
+     "over_25_goals": 1.8,
+     "over_35_goals": 2.75,
+     "under_15_goals": 4.0,
+     "under_25_goals": 2.0,
+     "under_35_goals": 1.4,
+     "btts_yes": 1.66,
+     "btts_no": 2.13
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "213691": {
+   "league": "Bundesliga",
+   "league_id": 5,
+   "home": "RB Leipzig",
+   "away": "Hamburger SV",
+   "kickoff": "2026-09-13T13:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 213691,
+    "odds": {
+     "home_win": 1.35,
+     "draw": 5.32,
+     "away_win": 7.5,
+     "over_15_goals": 1.1,
+     "over_25_goals": 1.39,
+     "over_35_goals": 2.03,
+     "under_15_goals": 6.29,
+     "under_25_goals": 2.88,
+     "under_35_goals": 1.79,
+     "btts_yes": 1.57,
+     "btts_no": 2.31
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "587745": {
+   "league": "CAF Champions League",
+   "league_id": 29,
+   "home": "Simba SC",
+   "away": "Mighty Mukuru Wanderers",
+   "kickoff": "2026-09-13T13:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 587745,
+    "odds": {
+     "home_win": 1.25,
+     "draw": 4.5,
+     "away_win": 11.0,
+     "over_15_goals": 1.2,
+     "over_25_goals": 1.7,
+     "over_35_goals": 2.62,
+     "under_15_goals": 4.33,
+     "under_25_goals": 2.1,
+     "under_35_goals": 1.44,
+     "btts_yes": 2.71,
+     "btts_no": 1.39
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:41Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "375045": {
+   "league": "Liga Portugal 2",
+   "league_id": 88,
+   "home": "Chaves",
+   "away": "Feirense",
+   "kickoff": "2026-09-13T13:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 375045,
+    "odds": {
+     "home_win": 2.04,
+     "draw": 3.13,
+     "away_win": 3.43,
+     "over_15_goals": 1.35,
+     "over_25_goals": 2.12,
+     "over_35_goals": 3.88,
+     "under_15_goals": 2.95,
+     "under_25_goals": 1.65,
+     "under_35_goals": 1.23,
+     "btts_yes": 1.86,
+     "btts_no": 1.83
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "210467": {
+   "league": "Ligue 1",
+   "league_id": 6,
+   "home": "Lille",
+   "away": "Troyes",
+   "kickoff": "2026-09-13T13:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 210467,
+    "odds": {
+     "home_win": 1.41,
+     "draw": 4.69,
+     "away_win": 6.99,
+     "over_15_goals": 1.21,
+     "over_25_goals": 1.67,
+     "over_35_goals": 2.69,
+     "under_15_goals": 4.26,
+     "under_25_goals": 2.19,
+     "under_35_goals": 1.44,
+     "btts_yes": 1.87,
+     "btts_no": 1.87
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "210092": {
+   "league": "Serie A",
+   "league_id": 4,
+   "home": "Lecce",
+   "away": "Monza",
+   "kickoff": "2026-09-13T13:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 210092,
+    "odds": {
+     "home_win": 2.62,
+     "draw": 3.08,
+     "away_win": 2.8,
+     "over_15_goals": 1.4,
+     "over_25_goals": 2.28,
+     "over_35_goals": 4.31,
+     "under_15_goals": 2.85,
+     "under_25_goals": 1.62,
+     "under_35_goals": 1.21,
+     "btts_yes": 1.91,
+     "btts_no": 1.83
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "209568": {
+   "league": "Premier League",
+   "league_id": 1,
+   "home": "Coventry City",
+   "away": "Brighton & Hove Albion",
+   "kickoff": "2026-09-13T13:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 209568,
+    "odds": {
+     "home_win": 3.88,
+     "draw": 3.68,
+     "away_win": 1.89,
+     "over_15_goals": 1.23,
+     "over_25_goals": 1.77,
+     "over_35_goals": 2.91,
+     "under_15_goals": 3.88,
+     "under_25_goals": 2.05,
+     "under_35_goals": 1.39,
+     "btts_yes": 1.65,
+     "btts_no": 2.15
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211898": {
+   "league": "Ekstraklasa",
+   "league_id": 25,
+   "home": "Pogoń Szczecin",
+   "away": "Wieczysta Kraków",
+   "kickoff": "2026-09-13T12:45:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211898,
+    "odds": {
+     "home_win": 1.95,
+     "draw": 3.4,
+     "away_win": 3.5,
+     "over_15_goals": 1.18,
+     "over_25_goals": 1.65,
+     "over_35_goals": 2.5,
+     "under_15_goals": 4.5,
+     "under_25_goals": 2.2,
+     "under_35_goals": 1.5,
+     "btts_yes": 1.55,
+     "btts_no": 2.31
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:42Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "210848": {
+   "league": "Eredivisie",
+   "league_id": 10,
+   "home": "SC Heerenveen",
+   "away": "SC Telstar",
+   "kickoff": "2026-09-13T12:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 210848,
+    "odds": {
+     "home_win": 1.62,
+     "draw": 4.33,
+     "away_win": 4.46,
+     "over_15_goals": 1.11,
+     "over_25_goals": 1.4,
+     "over_35_goals": 2.05,
+     "under_15_goals": 6.1,
+     "under_25_goals": 2.87,
+     "under_35_goals": 1.76,
+     "btts_yes": 1.44,
+     "btts_no": 2.64
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "207075": {
+   "league": "Eliteserien",
+   "league_id": 54,
+   "home": "Viking FK",
+   "away": "Kristiansund BK",
+   "kickoff": "2026-09-13T12:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 207075,
+    "odds": {
+     "home_win": 1.26,
+     "draw": 6.02,
+     "away_win": 8.5,
+     "over_15_goals": 1.09,
+     "over_25_goals": 1.34,
+     "over_35_goals": 1.89,
+     "under_15_goals": 6.84,
+     "under_25_goals": 3.08,
+     "under_35_goals": 1.87,
+     "btts_yes": 1.63,
+     "btts_no": 2.15
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211713": {
+   "league": "Parva Liga",
+   "league_id": 22,
+   "home": "Slavia Sofia",
+   "away": "FK Spartak Varna",
+   "kickoff": "2026-09-13T12:15:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211713,
+    "odds": {
+     "home_win": 2.02,
+     "draw": 3.15,
+     "away_win": 3.49,
+     "over_15_goals": 1.36,
+     "over_25_goals": 2.17,
+     "over_35_goals": 3.97,
+     "under_15_goals": 2.94,
+     "under_25_goals": 1.63,
+     "under_35_goals": 1.21,
+     "btts_yes": 1.9,
+     "btts_no": 1.8
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "601963": {
+   "league": "Veikkausliiga",
+   "league_id": 55,
+   "home": "Kuopion Palloseura",
+   "away": "HJK",
+   "kickoff": "2026-09-13T12:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 601963,
+    "odds": {
+     "home_win": 2.13,
+     "draw": 3.38,
+     "away_win": 3.07,
+     "over_15_goals": 1.2,
+     "over_25_goals": 1.69,
+     "over_35_goals": 2.71,
+     "under_15_goals": 4.19,
+     "under_25_goals": 2.09,
+     "under_35_goals": 1.42,
+     "btts_yes": 1.57,
+     "btts_no": 2.25
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "587772": {
+   "league": "CAF Champions League",
+   "league_id": 29,
+   "home": "KVZ FC",
+   "away": "Swehly SC",
+   "kickoff": "2026-09-13T12:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 587772,
+    "odds": {
+     "home_win": 5.0,
+     "draw": 3.6,
+     "away_win": 1.57,
+     "over_15_goals": null,
+     "over_25_goals": 2.5,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": 1.5,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:42Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "221521": {
+   "league": "Danish Superliga",
+   "league_id": 84,
+   "home": "Silkeborg IF",
+   "away": "Viborg FF",
+   "kickoff": "2026-09-13T12:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 221521,
+    "odds": {
+     "home_win": 3.7,
+     "draw": 3.92,
+     "away_win": 1.82,
+     "over_15_goals": 1.14,
+     "over_25_goals": 1.51,
+     "over_35_goals": 2.27,
+     "under_15_goals": 5.27,
+     "under_25_goals": 2.48,
+     "under_35_goals": 1.6,
+     "btts_yes": 1.49,
+     "btts_no": 2.45
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "221519": {
+   "league": "Danish Superliga",
+   "league_id": 84,
+   "home": "Lyngby",
+   "away": "Sønderjyske Fodbold",
+   "kickoff": "2026-09-13T12:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 221519,
+    "odds": {
+     "home_win": 1.6,
+     "draw": 4.04,
+     "away_win": 4.86,
+     "over_15_goals": 1.17,
+     "over_25_goals": 1.57,
+     "over_35_goals": 2.45,
+     "under_15_goals": 4.75,
+     "under_25_goals": 2.3,
+     "under_35_goals": 1.53,
+     "btts_yes": 1.6,
+     "btts_no": 2.2
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "214820": {
+   "league": "Segunda División",
+   "league_id": 38,
+   "home": "Sporting Gijón",
+   "away": "CD Eldense",
+   "kickoff": "2026-09-13T12:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 214820,
+    "odds": {
+     "home_win": 1.7,
+     "draw": 3.49,
+     "away_win": 4.82,
+     "over_15_goals": 1.33,
+     "over_25_goals": 2.08,
+     "over_35_goals": 3.68,
+     "under_15_goals": 3.14,
+     "under_25_goals": 1.71,
+     "under_35_goals": 1.25,
+     "btts_yes": 1.96,
+     "btts_no": 1.75
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "214590": {
+   "league": "Superliga",
+   "league_id": 23,
+   "home": "FC Argeș Pitești",
+   "away": "FC Botoșani",
+   "kickoff": "2026-09-13T12:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 214590,
+    "odds": {
+     "home_win": 2.32,
+     "draw": 3.11,
+     "away_win": 2.92,
+     "over_15_goals": 1.35,
+     "over_25_goals": 2.11,
+     "over_35_goals": 3.88,
+     "under_15_goals": 2.96,
+     "under_25_goals": 1.68,
+     "under_35_goals": 1.22,
+     "btts_yes": 1.82,
+     "btts_no": 1.88
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "213561": {
+   "league": "La Liga",
+   "league_id": 3,
+   "home": "Celta Vigo",
+   "away": "Málaga CF",
+   "kickoff": "2026-09-13T12:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 213561,
+    "odds": {
+     "home_win": 1.72,
+     "draw": 3.61,
+     "away_win": 4.87,
+     "over_15_goals": 1.34,
+     "over_25_goals": 2.08,
+     "over_35_goals": 3.63,
+     "under_15_goals": 3.19,
+     "under_25_goals": 1.76,
+     "under_35_goals": 1.27,
+     "btts_yes": 1.96,
+     "btts_no": 1.79
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211411": {
+   "league": "Super League",
+   "league_id": 15,
+   "home": "FC Zürich",
+   "away": "FC Vaduz",
+   "kickoff": "2026-09-13T12:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211411,
+    "odds": {
+     "home_win": 2.31,
+     "draw": 3.69,
+     "away_win": 2.65,
+     "over_15_goals": 1.1,
+     "over_25_goals": 1.4,
+     "over_35_goals": 2.01,
+     "under_15_goals": 6.15,
+     "under_25_goals": 2.8,
+     "under_35_goals": 1.76,
+     "btts_yes": 1.35,
+     "btts_no": 2.95
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "46468": {
+   "league": "Allsvenskan",
+   "league_id": 26,
+   "home": "IF Elfsborg",
+   "away": "Kalmar FF",
+   "kickoff": "2026-09-13T12:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 46468,
+    "odds": {
+     "home_win": 1.83,
+     "draw": 3.54,
+     "away_win": 3.93,
+     "over_15_goals": 1.25,
+     "over_25_goals": 1.82,
+     "over_35_goals": 3.03,
+     "under_15_goals": 3.71,
+     "under_25_goals": 1.94,
+     "under_35_goals": 1.35,
+     "btts_yes": 1.72,
+     "btts_no": 2.01
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "46467": {
+   "league": "Allsvenskan",
+   "league_id": 26,
+   "home": "Hammarby IF",
+   "away": "IF Brommapojkarna",
+   "kickoff": "2026-09-13T12:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 46467,
+    "odds": {
+     "home_win": 1.2,
+     "draw": 6.59,
+     "away_win": 10.26,
+     "over_15_goals": 1.08,
+     "over_25_goals": 1.33,
+     "over_35_goals": 1.88,
+     "under_15_goals": 6.99,
+     "under_25_goals": 3.13,
+     "under_35_goals": 1.87,
+     "btts_yes": 1.77,
+     "btts_no": 1.94
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602667": {
+   "league": "",
+   "league_id": 94,
+   "home": "VfL Osnabrück",
+   "away": "Hertha BSC",
+   "kickoff": "2026-09-13T11:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 602667,
+    "odds": {
+     "home_win": 3.13,
+     "draw": 3.65,
+     "away_win": 2.07,
+     "over_15_goals": 1.16,
+     "over_25_goals": 1.55,
+     "over_35_goals": 2.4,
+     "under_15_goals": 4.8,
+     "under_25_goals": 2.34,
+     "under_35_goals": 1.54,
+     "btts_yes": 1.47,
+     "btts_no": 2.51
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602666": {
+   "league": "",
+   "league_id": 94,
+   "home": "Karlsruher SC",
+   "away": "Energie Cottbus",
+   "kickoff": "2026-09-13T11:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 602666,
+    "odds": {
+     "home_win": 1.7,
+     "draw": 4.1,
+     "away_win": 4.2,
+     "over_15_goals": 1.1,
+     "over_25_goals": 1.36,
+     "over_35_goals": 1.83,
+     "under_15_goals": 7.0,
+     "under_25_goals": 3.1,
+     "under_35_goals": 1.83,
+     "btts_yes": 1.36,
+     "btts_no": 2.91
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:44Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "602665": {
+   "league": "",
+   "league_id": 94,
+   "home": "1. FC Heidenheim",
+   "away": "Holstein Kiel",
+   "kickoff": "2026-09-13T11:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 602665,
+    "odds": {
+     "home_win": 2.11,
+     "draw": 3.71,
+     "away_win": 3.03,
+     "over_15_goals": 1.13,
+     "over_25_goals": 1.47,
+     "over_35_goals": 2.18,
+     "under_15_goals": 5.43,
+     "under_25_goals": 2.55,
+     "under_35_goals": 1.64,
+     "btts_yes": 1.42,
+     "btts_no": 2.64
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211353": {
+   "league": "Pro League",
+   "league_id": 14,
+   "home": "Club Brugge KV",
+   "away": "Royal Antwerp FC",
+   "kickoff": "2026-09-13T11:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211353,
+    "odds": {
+     "home_win": 1.25,
+     "draw": 6.02,
+     "away_win": 9.24,
+     "over_15_goals": 1.12,
+     "over_25_goals": 1.4,
+     "over_35_goals": 2.0,
+     "under_15_goals": 6.0,
+     "under_25_goals": 2.87,
+     "under_35_goals": 1.73,
+     "btts_yes": 1.75,
+     "btts_no": 1.98
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "214057": {
+   "league": "Championship",
+   "league_id": 12,
+   "home": "Sheffield United",
+   "away": "Wolverhampton",
+   "kickoff": "2026-09-13T11:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 214057,
+    "odds": {
+     "home_win": 3.44,
+     "draw": 3.56,
+     "away_win": 2.03,
+     "over_15_goals": 1.21,
+     "over_25_goals": 1.69,
+     "over_35_goals": 2.73,
+     "under_15_goals": 4.1,
+     "under_25_goals": 2.12,
+     "under_35_goals": 1.42,
+     "btts_yes": 1.58,
+     "btts_no": 2.25
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211902": {
+   "league": "Ekstraklasa",
+   "league_id": 25,
+   "home": "Wisła Płock",
+   "away": "KS Cracovia",
+   "kickoff": "2026-09-13T10:15:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211902,
+    "odds": {
+     "home_win": 2.47,
+     "draw": 3.26,
+     "away_win": 2.67,
+     "over_15_goals": 1.28,
+     "over_25_goals": 1.91,
+     "over_35_goals": 3.3,
+     "under_15_goals": 3.45,
+     "under_25_goals": 1.85,
+     "under_35_goals": 1.3,
+     "btts_yes": 1.7,
+     "btts_no": 2.05
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "210849": {
+   "league": "Eredivisie",
+   "league_id": 10,
+   "home": "Excelsior",
+   "away": "FC Utrecht",
+   "kickoff": "2026-09-13T10:15:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 210849,
+    "odds": {
+     "home_win": 2.2,
+     "draw": 3.67,
+     "away_win": 2.96,
+     "over_15_goals": 1.18,
+     "over_25_goals": 1.57,
+     "over_35_goals": 2.48,
+     "under_15_goals": 4.65,
+     "under_25_goals": 2.31,
+     "under_35_goals": 1.52,
+     "btts_yes": 1.49,
+     "btts_no": 2.48
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "603018": {
+   "league": "",
+   "league_id": 95,
+   "home": "Guarda FC",
+   "away": "AD Camacha",
+   "kickoff": "2026-09-13T10:00:00+00:00",
+   "status": "1st_half",
+   "odds": {
+    "event_id": 603018,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": null,
+     "btts_no": null
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:45Z",
+    "update_interval_seconds": 900,
+    "update_reason": "match is in play"
+   }
+  },
+  "375038": {
+   "league": "Liga Portugal 2",
+   "league_id": 88,
+   "home": "AVS - Futebol SAD",
+   "away": "SC Farense",
+   "kickoff": "2026-09-13T10:00:00+00:00",
+   "status": "1st_half",
+   "odds": {
+    "event_id": 375038,
+    "odds": {
+     "home_win": 2.93,
+     "draw": 3.03,
+     "away_win": 2.33,
+     "over_15_goals": 1.38,
+     "over_25_goals": 2.2,
+     "over_35_goals": 4.05,
+     "under_15_goals": 2.83,
+     "under_25_goals": 1.61,
+     "under_35_goals": 1.21,
+     "btts_yes": 1.84,
+     "btts_no": 1.86
+    },
+    "last_update_at": "2026-09-13T09:38:05Z",
+    "next_update_at": "2026-09-13T10:10:46Z",
+    "update_interval_seconds": 900,
+    "update_reason": "match is in play"
+   }
+  },
+  "220862": {
+   "league": "Liga 3",
+   "league_id": 82,
+   "home": "C.F. Os Belenenses",
+   "away": "Atletico CP",
+   "kickoff": "2026-09-13T10:00:00+00:00",
+   "status": "1st_half",
+   "odds": {
+    "event_id": 220862,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 1.87,
+     "btts_no": 1.81
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:46Z",
+    "update_interval_seconds": 900,
+    "update_reason": "match is in play"
+   }
+  },
+  "215250": {
+   "league": "Liga F",
+   "league_id": 36,
+   "home": "Real Sociedad",
+   "away": "Costa Adeje Tenerife",
+   "kickoff": "2026-09-13T10:00:00+00:00",
+   "status": "1st_half",
+   "odds": {
+    "event_id": 215250,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 1.7,
+     "btts_no": 2.02
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:46Z",
+    "update_interval_seconds": 900,
+    "update_reason": "match is in play"
+   }
+  },
+  "215246": {
+   "league": "Liga F",
+   "league_id": 36,
+   "home": "Deportivo Alavés",
+   "away": "Granada Club de Fútbol",
+   "kickoff": "2026-09-13T10:00:00+00:00",
+   "status": "1st_half",
+   "odds": {
+    "event_id": 215246,
+    "odds": {
+     "home_win": null,
+     "draw": null,
+     "away_win": null,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 1.76,
+     "btts_no": 1.94
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:46Z",
+    "update_interval_seconds": 900,
+    "update_reason": "match is in play"
+   }
+  },
+  "205165": {
+   "league": "K League 1",
+   "league_id": 50,
+   "home": "Gwangju FC",
+   "away": "FC Anyang",
+   "kickoff": "2026-09-13T10:00:00+00:00",
+   "status": "1st_half",
+   "odds": {
+    "event_id": 205165,
+    "odds": {
+     "home_win": 3.33,
+     "draw": 3.32,
+     "away_win": 2.04,
+     "over_15_goals": 1.3,
+     "over_25_goals": 1.95,
+     "over_35_goals": 3.45,
+     "under_15_goals": 3.3,
+     "under_25_goals": 1.82,
+     "under_35_goals": 1.28,
+     "btts_yes": 1.76,
+     "btts_no": 1.96
+    },
+    "last_update_at": "2026-09-13T09:38:05Z",
+    "next_update_at": "2026-09-13T10:10:46Z",
+    "update_interval_seconds": 900,
+    "update_reason": "match is in play"
+   }
+  },
+  "212251": {
+   "league": "J1 League",
+   "league_id": 49,
+   "home": "Urawa Red Diamonds",
+   "away": "Fagiano Okayama",
+   "kickoff": "2026-09-13T09:30:00+00:00",
+   "status": "1st_half",
+   "odds": {
+    "event_id": 212251,
+    "odds": {
+     "home_win": 2.32,
+     "draw": 3.36,
+     "away_win": 2.89,
+     "over_15_goals": 1.28,
+     "over_25_goals": 1.91,
+     "over_35_goals": 3.29,
+     "under_15_goals": 3.48,
+     "under_25_goals": 1.87,
+     "under_35_goals": 1.3,
+     "btts_yes": 1.71,
+     "btts_no": 2.03
+    },
+    "last_update_at": "2026-09-13T09:08:05Z",
+    "next_update_at": "2026-09-13T10:10:10Z",
+    "update_interval_seconds": 900,
+    "update_reason": "match is in play"
+   }
+  },
+  "212250": {
+   "league": "J1 League",
+   "league_id": 49,
+   "home": "Tokyo Verdy",
+   "away": "JEF United Chiba",
+   "kickoff": "2026-09-13T09:00:00+00:00",
+   "status": "2nd_half",
+   "odds": {
+    "event_id": 212250,
+    "odds": {
+     "home_win": 2.21,
+     "draw": 3.2,
+     "away_win": 3.24,
+     "over_15_goals": 1.38,
+     "over_25_goals": 2.21,
+     "over_35_goals": 4.17,
+     "under_15_goals": 2.85,
+     "under_25_goals": 1.63,
+     "under_35_goals": 1.2,
+     "btts_yes": 1.91,
+     "btts_no": 1.8
+    },
+    "last_update_at": "2026-09-13T08:38:07Z",
+    "next_update_at": "2026-09-13T10:10:07Z",
+    "update_interval_seconds": 900,
+    "update_reason": "match is in play"
+   }
+  },
+  "205164": {
+   "league": "K League 1",
+   "league_id": 50,
+   "home": "Gimcheon Sangmu FC",
+   "away": "Gangwon FC",
+   "kickoff": "2026-09-13T07:30:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 205164,
+    "odds": {
+     "home_win": 2.52,
+     "draw": 3.12,
+     "away_win": 2.68,
+     "over_15_goals": 1.36,
+     "over_25_goals": 2.15,
+     "over_35_goals": 4.05,
+     "under_15_goals": 2.95,
+     "under_25_goals": 1.66,
+     "under_35_goals": 1.21,
+     "btts_yes": 1.84,
+     "btts_no": 1.85
+    },
+    "last_update_at": "2026-09-13T07:08:06Z",
+    "next_update_at": "2026-09-13T10:10:47Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211565": {
+   "league": "Liga MX Apertura",
+   "league_id": 19,
+   "home": "Cruz Azul",
+   "away": "Club América",
+   "kickoff": "2026-09-13T03:15:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 211565,
+    "odds": {
+     "home_win": 2.67,
+     "draw": 3.38,
+     "away_win": 2.43,
+     "over_15_goals": 1.25,
+     "over_25_goals": 1.8,
+     "over_35_goals": 3.08,
+     "under_15_goals": 3.66,
+     "under_25_goals": 1.97,
+     "under_35_goals": 1.34,
+     "btts_yes": 1.61,
+     "btts_no": 2.18
+    },
+    "last_update_at": "2026-09-13T03:08:06Z",
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "5285": {
+   "league": "MLS",
+   "league_id": 18,
+   "home": "San Jose Earthquakes",
+   "away": "Houston Dynamo",
+   "kickoff": "2026-09-13T02:30:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 5285,
+    "odds": {
+     "home_win": 2.25,
+     "draw": 3.6,
+     "away_win": 2.7,
+     "over_15_goals": 1.2,
+     "over_25_goals": 1.65,
+     "over_35_goals": 2.62,
+     "under_15_goals": 4.33,
+     "under_25_goals": 2.2,
+     "under_35_goals": 1.44,
+     "btts_yes": 1.56,
+     "btts_no": 2.29
+    },
+    "last_update_at": null,
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "5284": {
+   "league": "MLS",
+   "league_id": 18,
+   "home": "LA Galaxy",
+   "away": "Seattle Sounders FC",
+   "kickoff": "2026-09-13T02:30:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 5284,
+    "odds": {
+     "home_win": 1.96,
+     "draw": 3.75,
+     "away_win": 3.3,
+     "over_15_goals": 1.17,
+     "over_25_goals": 1.53,
+     "over_35_goals": 2.25,
+     "under_15_goals": 5.0,
+     "under_25_goals": 2.4,
+     "under_35_goals": 1.57,
+     "btts_yes": 1.43,
+     "btts_no": 2.66
+    },
+    "last_update_at": null,
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "207810": {
+   "league": "USL Championship",
+   "league_id": 57,
+   "home": "Sacramento Republic FC",
+   "away": "Detroit City FC",
+   "kickoff": "2026-09-13T02:00:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 207810,
+    "odds": {
+     "home_win": 1.96,
+     "draw": 3.11,
+     "away_win": 3.66,
+     "over_15_goals": 1.42,
+     "over_25_goals": 2.29,
+     "over_35_goals": 4.36,
+     "under_15_goals": 2.62,
+     "under_25_goals": 1.56,
+     "under_35_goals": 1.17,
+     "btts_yes": 2.05,
+     "btts_no": 1.69
+    },
+    "last_update_at": "2026-09-13T01:38:07Z",
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "207809": {
+   "league": "USL Championship",
+   "league_id": 57,
+   "home": "Phoenix Rising FC",
+   "away": "FC Tulsa",
+   "kickoff": "2026-09-13T02:00:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 207809,
+    "odds": {
+     "home_win": 1.94,
+     "draw": 3.44,
+     "away_win": 3.34,
+     "over_15_goals": 1.23,
+     "over_25_goals": 1.75,
+     "over_35_goals": 2.84,
+     "under_15_goals": 3.67,
+     "under_25_goals": 2.0,
+     "under_35_goals": 1.36,
+     "btts_yes": 1.64,
+     "btts_no": 2.11
+    },
+    "last_update_at": "2026-09-13T01:38:07Z",
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "207808": {
+   "league": "USL Championship",
+   "league_id": 57,
+   "home": "Orange County SC",
+   "away": "Las Vegas Lights",
+   "kickoff": "2026-09-13T02:00:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 207808,
+    "odds": {
+     "home_win": 2.25,
+     "draw": 3.53,
+     "away_win": 2.64,
+     "over_15_goals": 1.18,
+     "over_25_goals": 1.61,
+     "over_35_goals": 2.55,
+     "under_15_goals": 4.31,
+     "under_25_goals": 2.17,
+     "under_35_goals": 1.46,
+     "btts_yes": 1.51,
+     "btts_no": 2.4
+    },
+    "last_update_at": "2026-09-13T01:38:07Z",
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "207807": {
+   "league": "USL Championship",
+   "league_id": 57,
+   "home": "Oakland Roots SC",
+   "away": "Lexington SC",
+   "kickoff": "2026-09-13T02:00:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 207807,
+    "odds": {
+     "home_win": 2.19,
+     "draw": 3.45,
+     "away_win": 2.79,
+     "over_15_goals": 1.18,
+     "over_25_goals": 1.68,
+     "over_35_goals": 2.68,
+     "under_15_goals": 4.3,
+     "under_25_goals": 2.09,
+     "under_35_goals": 1.41,
+     "btts_yes": 1.55,
+     "btts_no": 2.28
+    },
+    "last_update_at": "2026-09-13T01:38:07Z",
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "5283": {
+   "league": "MLS",
+   "league_id": 18,
+   "home": "Colorado Rapids",
+   "away": "CF Montréal",
+   "kickoff": "2026-09-13T01:30:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 5283,
+    "odds": {
+     "home_win": 1.57,
+     "draw": 4.0,
+     "away_win": 4.75,
+     "over_15_goals": 1.17,
+     "over_25_goals": 1.57,
+     "over_35_goals": 2.38,
+     "under_15_goals": 5.0,
+     "under_25_goals": 2.35,
+     "under_35_goals": 1.53,
+     "btts_yes": 1.62,
+     "btts_no": 2.17
+    },
+    "last_update_at": null,
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "5282": {
+   "league": "MLS",
+   "league_id": 18,
+   "home": "Real Salt Lake",
+   "away": "New York City FC",
+   "kickoff": "2026-09-13T01:30:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 5282,
+    "odds": {
+     "home_win": 1.79,
+     "draw": 3.75,
+     "away_win": 3.8,
+     "over_15_goals": 1.18,
+     "over_25_goals": 1.61,
+     "over_35_goals": 2.5,
+     "under_15_goals": 4.5,
+     "under_25_goals": 2.25,
+     "under_35_goals": 1.5,
+     "btts_yes": 1.55,
+     "btts_no": 2.33
+    },
+    "last_update_at": null,
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "220143": {
+   "league": "Categoría Primera A",
+   "league_id": 80,
+   "home": "Alianza Valledupar FC",
+   "away": "Junior Barranquilla",
+   "kickoff": "2026-09-13T01:20:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 220143,
+    "odds": {
+     "home_win": 3.05,
+     "draw": 3.26,
+     "away_win": 2.21,
+     "over_15_goals": 1.33,
+     "over_25_goals": 2.06,
+     "over_35_goals": 3.7,
+     "under_15_goals": 3.12,
+     "under_25_goals": 1.72,
+     "under_35_goals": 1.24,
+     "btts_yes": 1.79,
+     "btts_no": 1.92
+    },
+    "last_update_at": "2026-09-13T01:08:07Z",
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "211569": {
+   "league": "Liga MX Apertura",
+   "league_id": 19,
+   "home": "CF Monterrey",
+   "away": "Tigres UANL",
+   "kickoff": "2026-09-13T01:10:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 211569,
+    "odds": {
+     "home_win": 2.14,
+     "draw": 3.39,
+     "away_win": 3.11,
+     "over_15_goals": 1.2,
+     "over_25_goals": 1.69,
+     "over_35_goals": 2.7,
+     "under_15_goals": 4.19,
+     "under_25_goals": 2.11,
+     "under_35_goals": 1.42,
+     "btts_yes": 1.6,
+     "btts_no": 2.21
+    },
+    "last_update_at": "2026-09-13T01:08:07Z",
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "216446": {
+   "league": "NWSL",
+   "league_id": 72,
+   "home": "Houston Dash",
+   "away": "Utah Royals FC",
+   "kickoff": "2026-09-13T00:45:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 216446,
+    "odds": {
+     "home_win": 2.45,
+     "draw": 3.4,
+     "away_win": 2.45,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 1.59,
+     "btts_no": 2.19
+    },
+    "last_update_at": null,
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "5281": {
+   "league": "MLS",
+   "league_id": 18,
+   "home": "St.Louis City",
+   "away": "Minnesota United",
+   "kickoff": "2026-09-13T00:30:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 5281,
+    "odds": {
+     "home_win": 1.96,
+     "draw": 3.7,
+     "away_win": 3.3,
+     "over_15_goals": 1.14,
+     "over_25_goals": 1.53,
+     "over_35_goals": 2.25,
+     "under_15_goals": 5.5,
+     "under_25_goals": 2.4,
+     "under_35_goals": 1.57,
+     "btts_yes": 1.47,
+     "btts_no": 2.52
+    },
+    "last_update_at": null,
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "5280": {
+   "league": "MLS",
+   "league_id": 18,
+   "home": "FC Dallas",
+   "away": "Portland Timbers",
+   "kickoff": "2026-09-13T00:30:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 5280,
+    "odds": {
+     "home_win": 1.71,
+     "draw": 4.1,
+     "away_win": 3.9,
+     "over_15_goals": 1.1,
+     "over_25_goals": 1.36,
+     "over_35_goals": 1.83,
+     "under_15_goals": 7.0,
+     "under_25_goals": 3.1,
+     "under_35_goals": 1.83,
+     "btts_yes": 1.38,
+     "btts_no": 2.81
+    },
+    "last_update_at": null,
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "5279": {
+   "league": "MLS",
+   "league_id": 18,
+   "home": "Sporting Kansas City",
+   "away": "Los Angeles FC",
+   "kickoff": "2026-09-13T00:30:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 5279,
+    "odds": {
+     "home_win": 4.75,
+     "draw": 4.2,
+     "away_win": 1.56,
+     "over_15_goals": 1.14,
+     "over_25_goals": 1.5,
+     "over_35_goals": 2.2,
+     "under_15_goals": 5.5,
+     "under_25_goals": 2.5,
+     "under_35_goals": 1.61,
+     "btts_yes": 1.54,
+     "btts_no": 2.33
+    },
+    "last_update_at": null,
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "207806": {
+   "league": "USL Championship",
+   "league_id": 57,
+   "home": "SC Jacksonville",
+   "away": "Rhode Island FC",
+   "kickoff": "2026-09-13T00:15:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 207806,
+    "odds": {
+     "home_win": 4.84,
+     "draw": 4.07,
+     "away_win": 1.54,
+     "over_15_goals": 1.19,
+     "over_25_goals": 1.61,
+     "over_35_goals": 2.52,
+     "under_15_goals": 4.29,
+     "under_25_goals": 2.2,
+     "under_35_goals": 1.46,
+     "btts_yes": 1.66,
+     "btts_no": 2.07
+    },
+    "last_update_at": "2026-09-12T22:38:05Z",
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "216445": {
+   "league": "NWSL",
+   "league_id": 72,
+   "home": "Seattle Reign FC",
+   "away": "Bay FC",
+   "kickoff": "2026-09-13T00:00:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 216445,
+    "odds": {
+     "home_win": 2.2,
+     "draw": 3.4,
+     "away_win": 2.7,
+     "over_15_goals": null,
+     "over_25_goals": null,
+     "over_35_goals": null,
+     "under_15_goals": null,
+     "under_25_goals": null,
+     "under_35_goals": null,
+     "btts_yes": 1.59,
+     "btts_no": 2.17
+    },
+    "last_update_at": null,
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "7263": {
+   "league": "Brasileirão Serie A",
+   "league_id": 9,
+   "home": "Santos",
+   "away": "Cruzeiro",
+   "kickoff": "2026-09-13T00:00:00+00:00",
+   "status": "finished",
+   "odds": {
+    "event_id": 7263,
+    "odds": {
+     "home_win": 2.74,
+     "draw": 3.33,
+     "away_win": 2.5,
+     "over_15_goals": 1.28,
+     "over_25_goals": 1.87,
+     "over_35_goals": 3.25,
+     "under_15_goals": 3.54,
+     "under_25_goals": 1.91,
+     "under_35_goals": 1.32,
+     "btts_yes": 1.65,
+     "btts_no": 2.13
+    },
+    "last_update_at": "2026-09-12T23:38:05Z",
+    "next_update_at": null,
+    "update_interval_seconds": null,
+    "update_reason": "no further updates scheduled"
+   }
+  },
+  "7255": {
+   "league": "Brasileirão Serie A",
+   "league_id": 9,
+   "home": "Bahia",
+   "away": "Remo",
+   "kickoff": "2026-09-14T23:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 7255,
+    "odds": {
+     "home_win": 1.42,
+     "draw": 4.55,
+     "away_win": 6.73,
+     "over_15_goals": 1.2,
+     "over_25_goals": 1.66,
+     "over_35_goals": 2.64,
+     "under_15_goals": 4.34,
+     "under_25_goals": 2.17,
+     "under_35_goals": 1.46,
+     "btts_yes": 1.82,
+     "btts_no": 1.91
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "10127": {
+   "league": "Brasileirão Serie B",
+   "league_id": 34,
+   "home": "Botafogo-SP",
+   "away": "Goiás",
+   "kickoff": "2026-09-14T22:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 10127,
+    "odds": {
+     "home_win": 2.23,
+     "draw": 2.91,
+     "away_win": 3.29,
+     "over_15_goals": 1.5,
+     "over_25_goals": 2.51,
+     "over_35_goals": 5.06,
+     "under_15_goals": 2.49,
+     "under_25_goals": 1.48,
+     "under_35_goals": 1.15,
+     "btts_yes": 2.08,
+     "btts_no": 1.69
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "10124": {
+   "league": "Brasileirão Serie B",
+   "league_id": 34,
+   "home": "América Mineiro",
+   "away": "São Bernardo",
+   "kickoff": "2026-09-14T22:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 10124,
+    "odds": {
+     "home_win": 2.3,
+     "draw": 3.1,
+     "away_win": 3.0,
+     "over_15_goals": 1.4,
+     "over_25_goals": 2.3,
+     "over_35_goals": 4.33,
+     "under_15_goals": 2.75,
+     "under_25_goals": 1.6,
+     "under_35_goals": 1.2,
+     "btts_yes": 1.91,
+     "btts_no": 1.8
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:50Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "223700": {
+   "league": "Liga Profesional de Fútbol",
+   "league_id": 85,
+   "home": "Deportivo Riestra",
+   "away": "CA Lanús",
+   "kickoff": "2026-09-14T22:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 223700,
+    "odds": {
+     "home_win": 3.0,
+     "draw": 2.65,
+     "away_win": 2.7,
+     "over_15_goals": 1.67,
+     "over_25_goals": 3.1,
+     "over_35_goals": 6.5,
+     "under_15_goals": 2.1,
+     "under_25_goals": 1.36,
+     "under_35_goals": 1.11,
+     "btts_yes": 2.38,
+     "btts_no": 1.53
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:51Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "223695": {
+   "league": "Liga Profesional de Fútbol",
+   "league_id": 85,
+   "home": "Banfield",
+   "away": "Barracas Central",
+   "kickoff": "2026-09-14T22:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 223695,
+    "odds": {
+     "home_win": 2.3,
+     "draw": 2.7,
+     "away_win": 3.5,
+     "over_15_goals": 1.61,
+     "over_25_goals": 3.1,
+     "over_35_goals": 6.5,
+     "under_15_goals": 2.2,
+     "under_25_goals": 1.36,
+     "under_35_goals": 1.11,
+     "btts_yes": 2.25,
+     "btts_no": 1.57
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:51Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "213423": {
+   "league": "Liga Portugal Betclic",
+   "league_id": 2,
+   "home": "Sporting Braga",
+   "away": "Estoril Praia",
+   "kickoff": "2026-09-14T19:45:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 213423,
+    "odds": {
+     "home_win": 1.46,
+     "draw": 4.32,
+     "away_win": 6.5,
+     "over_15_goals": 1.2,
+     "over_25_goals": 1.71,
+     "over_35_goals": 2.74,
+     "under_15_goals": 4.11,
+     "under_25_goals": 2.09,
+     "under_35_goals": 1.4,
+     "btts_yes": 1.82,
+     "btts_no": 1.91
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "213427": {
+   "league": "Liga Portugal Betclic",
+   "league_id": 2,
+   "home": "Moreirense",
+   "away": "CS Marítimo",
+   "kickoff": "2026-09-14T19:15:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 213427,
+    "odds": {
+     "home_win": 2.44,
+     "draw": 3.12,
+     "away_win": 2.91,
+     "over_15_goals": 1.39,
+     "over_25_goals": 2.23,
+     "over_35_goals": 4.22,
+     "under_15_goals": 2.8,
+     "under_25_goals": 1.62,
+     "under_35_goals": 1.2,
+     "btts_yes": 1.9,
+     "btts_no": 1.83
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "213569": {
+   "league": "La Liga",
+   "league_id": 3,
+   "home": "Villarreal",
+   "away": "Real Betis",
+   "kickoff": "2026-09-14T19:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 213569,
+    "odds": {
+     "home_win": 1.9,
+     "draw": 3.79,
+     "away_win": 3.68,
+     "over_15_goals": 1.16,
+     "over_25_goals": 1.58,
+     "over_35_goals": 2.41,
+     "under_15_goals": 4.86,
+     "under_25_goals": 2.37,
+     "under_35_goals": 1.54,
+     "btts_yes": 1.52,
+     "btts_no": 2.42
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "209570": {
+   "league": "Premier League",
+   "league_id": 1,
+   "home": "Leeds United",
+   "away": "Newcastle United",
+   "kickoff": "2026-09-14T19:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 209570,
+    "odds": {
+     "home_win": 2.35,
+     "draw": 3.48,
+     "away_win": 2.88,
+     "over_15_goals": 1.24,
+     "over_25_goals": 1.78,
+     "over_35_goals": 2.89,
+     "under_15_goals": 3.92,
+     "under_25_goals": 2.02,
+     "under_35_goals": 1.39,
+     "btts_yes": 1.62,
+     "btts_no": 2.22
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "601007": {
+   "league": "Ligue 2",
+   "league_id": 89,
+   "home": "Red Star FC",
+   "away": "Metz",
+   "kickoff": "2026-09-14T18:45:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 601007,
+    "odds": {
+     "home_win": 2.35,
+     "draw": 3.25,
+     "away_win": 2.8,
+     "over_15_goals": 1.28,
+     "over_25_goals": 1.91,
+     "over_35_goals": 3.26,
+     "under_15_goals": 3.45,
+     "under_25_goals": 1.86,
+     "under_35_goals": 1.31,
+     "btts_yes": 1.71,
+     "btts_no": 2.04
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "210090": {
+   "league": "Serie A",
+   "league_id": 4,
+   "home": "Inter",
+   "away": "Udinese",
+   "kickoff": "2026-09-14T18:45:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 210090,
+    "odds": {
+     "home_win": 1.25,
+     "draw": 5.96,
+     "away_win": 11.03,
+     "over_15_goals": 1.15,
+     "over_25_goals": 1.52,
+     "over_35_goals": 2.34,
+     "under_15_goals": 5.1,
+     "under_25_goals": 2.45,
+     "under_35_goals": 1.59,
+     "btts_yes": 1.97,
+     "btts_no": 1.77
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "214812": {
+   "league": "Segunda División",
+   "league_id": 38,
+   "home": "Celta Fortuna",
+   "away": "Eibar",
+   "kickoff": "2026-09-14T18:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 214812,
+    "odds": {
+     "home_win": 3.4,
+     "draw": 3.2,
+     "away_win": 2.05,
+     "over_15_goals": 1.36,
+     "over_25_goals": 2.15,
+     "over_35_goals": 3.75,
+     "under_15_goals": 3.0,
+     "under_25_goals": 1.67,
+     "under_35_goals": 1.25,
+     "btts_yes": 1.83,
+     "btts_no": 1.83
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:52Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "214595": {
+   "league": "Superliga",
+   "league_id": 23,
+   "home": "FCSB",
+   "away": "FC Petrolul Ploiești",
+   "kickoff": "2026-09-14T18:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 214595,
+    "odds": {
+     "home_win": 1.42,
+     "draw": 4.34,
+     "away_win": 6.39,
+     "over_15_goals": 1.19,
+     "over_25_goals": 1.68,
+     "over_35_goals": 2.68,
+     "under_15_goals": 4.22,
+     "under_25_goals": 2.1,
+     "under_35_goals": 1.41,
+     "btts_yes": 1.83,
+     "btts_no": 1.86
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "213426": {
+   "league": "Liga Portugal Betclic",
+   "league_id": 2,
+   "home": "Rio Ave",
+   "away": "CF Estrela Amadora",
+   "kickoff": "2026-09-14T17:45:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 213426,
+    "odds": {
+     "home_win": 2.72,
+     "draw": 3.31,
+     "away_win": 2.47,
+     "over_15_goals": 1.29,
+     "over_25_goals": 1.96,
+     "over_35_goals": 3.39,
+     "under_15_goals": 3.37,
+     "under_25_goals": 1.82,
+     "under_35_goals": 1.29,
+     "btts_yes": 1.73,
+     "btts_no": 2.01
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "211712": {
+   "league": "Parva Liga",
+   "league_id": 22,
+   "home": "Ludogorets",
+   "away": "FK Septemvri Sofia",
+   "kickoff": "2026-09-14T17:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211712,
+    "odds": {
+     "home_win": 1.19,
+     "draw": 5.88,
+     "away_win": 11.93,
+     "over_15_goals": 1.16,
+     "over_25_goals": 1.55,
+     "over_35_goals": 2.37,
+     "under_15_goals": 4.75,
+     "under_25_goals": 2.29,
+     "under_35_goals": 1.53,
+     "btts_yes": 2.19,
+     "btts_no": 1.6
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "375043": {
+   "league": "Liga Portugal 2",
+   "league_id": 88,
+   "home": "Sporting CP B",
+   "away": "Lusitânia Lourosa",
+   "kickoff": "2026-09-14T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 375043,
+    "odds": {
+     "home_win": 2.07,
+     "draw": 3.05,
+     "away_win": 3.44,
+     "over_15_goals": 1.33,
+     "over_25_goals": 2.15,
+     "over_35_goals": 3.5,
+     "under_15_goals": 3.25,
+     "under_25_goals": 1.66,
+     "under_35_goals": 1.29,
+     "btts_yes": 1.83,
+     "btts_no": 1.83
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "375041": {
+   "league": "Liga Portugal 2",
+   "league_id": 88,
+   "home": "FC Porto B",
+   "away": "Vizela",
+   "kickoff": "2026-09-14T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 375041,
+    "odds": {
+     "home_win": 3.63,
+     "draw": 3.23,
+     "away_win": 1.94,
+     "over_15_goals": 1.34,
+     "over_25_goals": 2.07,
+     "over_35_goals": 3.75,
+     "under_15_goals": 3.01,
+     "under_25_goals": 1.69,
+     "under_35_goals": 1.23,
+     "btts_yes": 1.83,
+     "btts_no": 1.84
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "221517": {
+   "league": "Danish Superliga",
+   "league_id": 84,
+   "home": "FC Midtjylland",
+   "away": "Brøndby IF",
+   "kickoff": "2026-09-14T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 221517,
+    "odds": {
+     "home_win": 1.86,
+     "draw": 3.61,
+     "away_win": 3.76,
+     "over_15_goals": 1.17,
+     "over_25_goals": 1.58,
+     "over_35_goals": 2.44,
+     "under_15_goals": 4.68,
+     "under_25_goals": 2.31,
+     "under_35_goals": 1.52,
+     "btts_yes": 1.54,
+     "btts_no": 2.35
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "215993": {
+   "league": "Trendyol Super Lig",
+   "league_id": 11,
+   "home": "Gaziantep FK",
+   "away": "Fenerbahçe",
+   "kickoff": "2026-09-14T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 215993,
+    "odds": {
+     "home_win": 5.38,
+     "draw": 4.1,
+     "away_win": 1.55,
+     "over_15_goals": 1.21,
+     "over_25_goals": 1.71,
+     "over_35_goals": 2.76,
+     "under_15_goals": 4.1,
+     "under_25_goals": 2.08,
+     "under_35_goals": 1.41,
+     "btts_yes": 1.77,
+     "btts_no": 1.95
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "211899": {
+   "league": "Ekstraklasa",
+   "league_id": 25,
+   "home": "Radomiak Radom",
+   "away": "Piast Gliwice",
+   "kickoff": "2026-09-14T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211899,
+    "odds": {
+     "home_win": 2.32,
+     "draw": 3.46,
+     "away_win": 2.74,
+     "over_15_goals": 1.19,
+     "over_25_goals": 1.65,
+     "over_35_goals": 2.64,
+     "under_15_goals": 4.27,
+     "under_25_goals": 2.16,
+     "under_35_goals": 1.44,
+     "btts_yes": 1.54,
+     "btts_no": 2.35
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "207068": {
+   "league": "Eliteserien",
+   "league_id": 54,
+   "home": "Bodø/Glimt",
+   "away": "Sandefjord Fotball",
+   "kickoff": "2026-09-14T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 207068,
+    "odds": {
+     "home_win": 1.17,
+     "draw": 7.63,
+     "away_win": 11.92,
+     "over_15_goals": 1.06,
+     "over_25_goals": 1.25,
+     "over_35_goals": 1.68,
+     "under_15_goals": 8.38,
+     "under_25_goals": 3.68,
+     "under_35_goals": 2.11,
+     "btts_yes": 1.7,
+     "btts_no": 2.03
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "46470": {
+   "league": "Allsvenskan",
+   "league_id": 26,
+   "home": "IK Sirius",
+   "away": "Degerfors IF",
+   "kickoff": "2026-09-14T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 46470,
+    "odds": {
+     "home_win": 1.4,
+     "draw": 4.55,
+     "away_win": 6.71,
+     "over_15_goals": 1.16,
+     "over_25_goals": 1.53,
+     "over_35_goals": 2.36,
+     "under_15_goals": 4.92,
+     "under_25_goals": 2.38,
+     "under_35_goals": 1.55,
+     "btts_yes": 1.71,
+     "btts_no": 2.02
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "46466": {
+   "league": "Allsvenskan",
+   "league_id": 26,
+   "home": "Djurgårdens IF",
+   "away": "GAIS",
+   "kickoff": "2026-09-14T17:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 46466,
+    "odds": {
+     "home_win": 1.56,
+     "draw": 4.01,
+     "away_win": 5.1,
+     "over_15_goals": 1.17,
+     "over_25_goals": 1.59,
+     "over_35_goals": 2.46,
+     "under_15_goals": 4.65,
+     "under_25_goals": 2.29,
+     "under_35_goals": 1.5,
+     "btts_yes": 1.62,
+     "btts_no": 2.16
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "210095": {
+   "league": "Serie A",
+   "league_id": 4,
+   "home": "Torino",
+   "away": "AS Roma",
+   "kickoff": "2026-09-14T16:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 210095,
+    "odds": {
+     "home_win": 5.68,
+     "draw": 4.03,
+     "away_win": 1.57,
+     "over_15_goals": 1.25,
+     "over_25_goals": 1.79,
+     "over_35_goals": 3.04,
+     "under_15_goals": 3.83,
+     "under_25_goals": 2.04,
+     "under_35_goals": 1.37,
+     "btts_yes": 1.83,
+     "btts_no": 1.93
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "210088": {
+   "league": "Serie A",
+   "league_id": 4,
+   "home": "Como",
+   "away": "Parma",
+   "kickoff": "2026-09-14T16:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 210088,
+    "odds": {
+     "home_win": 1.22,
+     "draw": 6.11,
+     "away_win": 13.06,
+     "over_15_goals": 1.21,
+     "over_25_goals": 1.66,
+     "over_35_goals": 2.67,
+     "under_15_goals": 4.25,
+     "under_25_goals": 2.21,
+     "under_35_goals": 1.45,
+     "btts_yes": 2.34,
+     "btts_no": 1.56
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "601964": {
+   "league": "Veikkausliiga",
+   "league_id": 55,
+   "home": "Inter Turku",
+   "away": "VPS",
+   "kickoff": "2026-09-14T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 601964,
+    "odds": {
+     "home_win": 1.7,
+     "draw": 3.55,
+     "away_win": 4.57,
+     "over_15_goals": 1.28,
+     "over_25_goals": 1.91,
+     "over_35_goals": 3.25,
+     "under_15_goals": 3.39,
+     "under_25_goals": 1.85,
+     "under_35_goals": 1.3,
+     "btts_yes": 1.82,
+     "btts_no": 1.89
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "214594": {
+   "league": "Superliga",
+   "league_id": 23,
+   "home": "FC Universitatea Cluj",
+   "away": "SC Oțelul Galați",
+   "kickoff": "2026-09-14T15:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 214594,
+    "odds": {
+     "home_win": 1.75,
+     "draw": 3.55,
+     "away_win": 4.16,
+     "over_15_goals": 1.24,
+     "over_25_goals": 1.8,
+     "over_35_goals": 3.05,
+     "under_15_goals": 3.76,
+     "under_25_goals": 1.95,
+     "under_35_goals": 1.34,
+     "btts_yes": 1.74,
+     "btts_no": 1.99
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T14:08:06Z",
+    "update_interval_seconds": 14400,
+    "update_reason": "pre-match, more than a day out"
+   }
+  },
+  "220151": {
+   "league": "Categoría Primera A",
+   "league_id": 80,
+   "home": "Cúcuta Deportivo",
+   "away": "Millonarios",
+   "kickoff": "2026-09-14T01:15:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 220151,
+    "odds": {
+     "home_win": 4.75,
+     "draw": 3.4,
+     "away_win": 1.8,
+     "over_15_goals": 1.33,
+     "over_25_goals": 2.05,
+     "over_35_goals": 3.5,
+     "under_15_goals": 3.25,
+     "under_25_goals": 1.75,
+     "under_35_goals": 1.29,
+     "btts_yes": 1.84,
+     "btts_no": 1.86
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:55Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211567": {
+   "league": "Liga MX Apertura",
+   "league_id": 19,
+   "home": "CD Guadalajara",
+   "away": "Pumas UNAM",
+   "kickoff": "2026-09-14T01:07:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211567,
+    "odds": {
+     "home_win": 1.48,
+     "draw": 4.2,
+     "away_win": 5.66,
+     "over_15_goals": 1.2,
+     "over_25_goals": 1.66,
+     "over_35_goals": 2.67,
+     "under_15_goals": 4.24,
+     "under_25_goals": 2.15,
+     "under_35_goals": 1.43,
+     "btts_yes": 1.75,
+     "btts_no": 1.97
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "211568": {
+   "league": "Liga MX Apertura",
+   "league_id": 19,
+   "home": "Santos Laguna",
+   "away": "FC Juárez",
+   "kickoff": "2026-09-14T01:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 211568,
+    "odds": {
+     "home_win": 1.97,
+     "draw": 3.58,
+     "away_win": 3.3,
+     "over_15_goals": 1.17,
+     "over_25_goals": 1.58,
+     "over_35_goals": 2.45,
+     "under_15_goals": 4.6,
+     "under_25_goals": 2.27,
+     "under_35_goals": 1.51,
+     "btts_yes": 1.53,
+     "btts_no": 2.34
+    },
+    "last_update_at": "2026-09-13T10:08:06Z",
+    "next_update_at": "2026-09-13T10:38:06Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "5288": {
+   "league": "MLS",
+   "league_id": 18,
+   "home": "San Diego FC",
+   "away": "Philadelphia Union",
+   "kickoff": "2026-09-14T01:00:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 5288,
+    "odds": {
+     "home_win": 2.45,
+     "draw": 3.75,
+     "away_win": 2.45,
+     "over_15_goals": 1.14,
+     "over_25_goals": 1.48,
+     "over_35_goals": 2.1,
+     "under_15_goals": 5.5,
+     "under_25_goals": 2.6,
+     "under_35_goals": 1.67,
+     "btts_yes": 1.42,
+     "btts_no": 2.69
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:55Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  },
+  "223702": {
+   "league": "Liga Profesional de Fútbol",
+   "league_id": 85,
+   "home": "Huracán",
+   "away": "Racing Club",
+   "kickoff": "2026-09-14T00:30:00+00:00",
+   "status": "notstarted",
+   "odds": {
+    "event_id": 223702,
+    "odds": {
+     "home_win": 2.55,
+     "draw": 2.7,
+     "away_win": 3.0,
+     "over_15_goals": 1.61,
+     "over_25_goals": 3.1,
+     "over_35_goals": 6.5,
+     "under_15_goals": 2.2,
+     "under_25_goals": 1.36,
+     "under_35_goals": 1.11,
+     "btts_yes": 2.38,
+     "btts_no": 1.53
+    },
+    "last_update_at": null,
+    "next_update_at": "2026-09-13T10:10:55Z",
+    "update_interval_seconds": 1800,
+    "update_reason": "kick-off within 24 hours"
+   }
+  }
+ }
+}
