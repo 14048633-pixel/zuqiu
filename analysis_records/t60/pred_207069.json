@@ -1,41 +1,73 @@
 [
  {
-  "ko_bjt": "09-14 01:00",
-  "league": "CAF Champions League",
-  "home": "Teungueth FC",
-  "away": "FC Canchungo",
+  "ko_bjt": "09-14 01:15",
+  "league": "Eliteserien",
+  "home": "Fredrikstad FK",
+  "away": "Sarpsborg 08",
   "model_wdl": [
-   16.9,
-   40.2,
-   42.8
+   43.5,
+   25.2,
+   31.2
   ],
   "market_wdl": [
-   62.7,
-   23.2,
-   14.1
+   37.6,
+   26.1,
+   36.3
   ],
   "xg": [
-   0.63,
-   0.6,
-   1.23
+   1.35,
+   1.18,
+   2.53
   ],
-  "over25": 44.6,
+  "over25": 54.4,
   "ou_line": 2.5,
-  "ou_quote": null,
-  "data_warnings": [
-   "客队'FC Canchungo'无客场近8场数据"
-  ],
-  "draw_warn_pct": 23.2,
+  "ou_quote": {
+   "line": 2.5,
+   "over": 1.67,
+   "under": 2.15,
+   "src": "bsd"
+  },
+  "data_warnings": [],
+  "draw_warn_pct": 26.1,
   "bets": [],
   "best": null,
   "injury_coef": [
-   1.0,
-   1.0
+   1.03,
+   1.0098
   ],
-  "injury_note": null,
+  "injury_note": "伤停λ修正 主x1.030 客x1.010 (3人)",
   "injury_detail": {
-   "home": [],
-   "away": []
+   "home": [
+    {
+     "name": "Kennedy Ikechukwu Okpaleke",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    }
+   ],
+   "away": [
+    {
+     "name": "Frederik Carstensen",
+     "pos": "中场",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.01,
+     "def": 0.01,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Sigurd Rosted",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    }
+   ]
   },
   "odds_estimated": false,
   "odds_src": "composite(infersports)",
@@ -44,7 +76,7 @@
   ],
   "odds_n_sources": 1,
   "odds_dispersion": null,
-  "odds_note": "复合源单源命中(infersports); 失败: theoddsapi: 联赛 CAFCL 未配置 league_map(需在 config.ODDS['league_map'] 补充); bsd: BSD Teungueth FC vs FC Canchungo 共识赔率缺失: {'home_win': None, 'draw': None, 'away_win': None, 'over_15_goals': None, 'over_25_goals': None, 'over_35_goals': None, 'under_15_goals': None, 'under_25_goals': None, 'under_35_goals': None, 'btts_yes': 1.97, 'btts_no': 1.72}",
+  "odds_note": "复合源单源命中(infersports); 失败: theoddsapi: TheOddsAPI HTTP 401: Unauthorized; bsd: BSD 未找到 Fredrikstad FK vs Sarpsborg 08(2026-09-13)",
   "ev_basis": {
    "probability_source": "model_only",
    "decision_basis": "model_only",
@@ -141,8 +173,53 @@
    "conflict": false,
    "gap_pp": null
   },
-  "event_id": 587767,
-  "bsd_prediction": null,
+  "event_id": 207069,
+  "bsd_prediction": {
+   "model_version": "dc-blend-v1",
+   "confidence": 0.3869,
+   "created_at": "2026-09-07T02:15:21Z",
+   "markets": {
+    "match_result": {
+     "prob_home": 38.7,
+     "prob_draw": 26.3,
+     "prob_away": 35.0,
+     "predicted": "H"
+    },
+    "expected_goals": {
+     "home": 1.51,
+     "away": 1.39
+    },
+    "over_under": {
+     "prob_over_15": 78.2,
+     "prob_over_25": 56.2,
+     "prob_over_35": 34.5
+    },
+    "btts": {
+     "prob_yes": 58.9
+    },
+    "score": {
+     "most_likely": "1-1"
+    },
+    "draw_no_bet": {
+     "prob_home": 53.9
+    },
+    "corners": {
+     "prob_over_85": 64.7,
+     "prob_over_95": 53.1,
+     "prob_over_105": 41.9
+    }
+   },
+   "recommendations": {
+    "favorite": "H",
+    "favorite_prob": 38.7,
+    "bet_favorite": false,
+    "over_15": false,
+    "over_25": false,
+    "over_35": false,
+    "btts": false,
+    "winner": false
+   }
+  },
   "bsd_odds_best": null
  }
 ]
