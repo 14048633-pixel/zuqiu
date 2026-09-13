@@ -1,0 +1,426 @@
+[
+ {
+  "ko_bjt": "09-14 01:00",
+  "league": "CAF Champions League",
+  "home": "Teungueth FC",
+  "away": "FC Canchungo",
+  "model_wdl": [
+   16.9,
+   40.2,
+   42.8
+  ],
+  "market_wdl": [
+   62.7,
+   23.3,
+   14.1
+  ],
+  "xg": [
+   0.63,
+   0.6,
+   1.23
+  ],
+  "over25": 44.6,
+  "ou_line": 2.5,
+  "ou_quote": null,
+  "data_warnings": [
+   "客队'FC Canchungo'无客场近8场数据"
+  ],
+  "draw_warn_pct": 23.3,
+  "bets": [],
+  "best": null,
+  "injury_coef": [
+   1.0,
+   1.0
+  ],
+  "injury_note": null,
+  "injury_detail": {
+   "home": [],
+   "away": []
+  },
+  "odds_estimated": false,
+  "odds_src": "composite(infersports)",
+  "odds_sources": [
+   "infersports"
+  ],
+  "odds_n_sources": 1,
+  "odds_dispersion": null,
+  "odds_note": "复合源单源命中(infersports); 失败: theoddsapi: 联赛 CAFCL 未配置 league_map(需在 config.ODDS['league_map'] 补充); bsd: BSD Teungueth FC vs FC Canchungo 共识赔率缺失: {'home_win': None, 'draw': None, 'away_win': None, 'over_15_goals': None, 'over_25_goals': None, 'over_35_goals': None, 'under_15_goals': None, 'under_25_goals': None, 'under_35_goals': None, 'btts_yes': 1.97, 'btts_no': 1.72}",
+  "ev_basis": {
+   "probability_source": "model_only",
+   "decision_basis": "model_only",
+   "market_weight": 0.5,
+   "note": "EV 使用不含市场先验的校准模型概率(model_1x2); ensemble(市场权重0.50)仅用于展示与一致性审计",
+   "calibration_mode": "time_holdout",
+   "calibration_mode_detail": "holdout_partial(oos=17/fallback=21/uncalibrated=2)",
+   "calibration_src": "in_sample_fallback",
+   "model_calibrated": true,
+   "low_confidence_calibration": true,
+   "calibration_policy": "downgrade",
+   "calibration_coverage": {
+    "mode": "time_holdout",
+    "mode_detail": null,
+    "n_leagues_total": 40,
+    "n_leagues_calibrated": 38,
+    "n_holdout_oos": 17,
+    "n_in_sample_fallback": 21,
+    "n_uncalibrated": 2,
+    "uncalibrated_leagues": [
+     "E3",
+     "SC1"
+    ],
+    "unlabeled_leagues": [],
+    "fallback_leagues": [
+     "AUS",
+     "AUT",
+     "CAFCL",
+     "COL1",
+     "D1",
+     "D2",
+     "DNK",
+     "E2",
+     "F1",
+     "G1",
+     "I2",
+     "JP1",
+     "KR1",
+     "LIB",
+     "NO1",
+     "P1",
+     "SUD",
+     "SW1",
+     "SWE",
+     "T1",
+     "UCL"
+    ],
+    "ou_src": {
+     "ARG": "holdout",
+     "AUS": "holdout",
+     "AUT": "holdout",
+     "B1": "holdout",
+     "BR": "holdout",
+     "BR2": "holdout",
+     "CAFCL": "holdout",
+     "COL1": "holdout",
+     "CSL": "holdout",
+     "D1": "holdout",
+     "D2": "holdout",
+     "DNK": "holdout",
+     "E0": "holdout",
+     "E1": "holdout",
+     "E2": "holdout",
+     "E3": "holdout",
+     "F1": "holdout",
+     "F2": "holdout",
+     "G1": "holdout",
+     "I1": "holdout",
+     "I2": "holdout",
+     "KR1": "holdout",
+     "LIB": "holdout",
+     "MLS": "holdout",
+     "MX1": "holdout",
+     "N1": "holdout",
+     "NO1": "holdout",
+     "P1": "holdout",
+     "POL": "holdout",
+     "ROU": "holdout",
+     "SAU": "holdout",
+     "SC1": "holdout",
+     "SP1": "holdout",
+     "SP2": "holdout",
+     "SUD": "holdout",
+     "SW1": "holdout",
+     "SWE": "holdout",
+     "T1": "holdout",
+     "UCL": "holdout"
+    }
+   }
+  },
+  "bsd_over25": null,
+  "bsd_ou_gate": {
+   "applied": false,
+   "conflict": false,
+   "gap_pp": null
+  },
+  "event_id": 587767,
+  "bsd_prediction": null,
+  "bsd_odds_best": {
+   "event_id": 587767,
+   "bookmakers_count": 10,
+   "total_odds": 126,
+   "markets": {
+    "btts": {
+     "yes": {
+      "best_odds": 2.01,
+      "line": null,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 9
+     },
+     "no": {
+      "best_odds": 1.75,
+      "line": null,
+      "bookmaker_slug": "fonbet",
+      "bookmaker_name": "fonbet",
+      "n_bookmakers": 9
+     }
+    },
+    "draw_no_bet": {
+     "HOME": {
+      "best_odds": 1.18,
+      "line": null,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 4
+     },
+     "AWAY": {
+      "best_odds": 5.5,
+      "line": null,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 4
+     }
+    },
+    "asian_handicap": {
+     "HOME@-1.75": {
+      "best_odds": 2.742,
+      "line": -1.75,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 3
+     },
+     "AWAY@-1.75": {
+      "best_odds": 1.45,
+      "line": -1.75,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 3
+     },
+     "HOME@-1.25": {
+      "best_odds": 2.083,
+      "line": -1.25,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 3
+     },
+     "AWAY@-1.25": {
+      "best_odds": 1.75,
+      "line": -1.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 3
+     },
+     "HOME@-0.75": {
+      "best_odds": 1.6,
+      "line": -0.75,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 3
+     },
+     "AWAY@-0.75": {
+      "best_odds": 2.3,
+      "line": -0.75,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 3
+     },
+     "HOME@0.25": {
+      "best_odds": 1.125,
+      "line": 0.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 3
+     },
+     "AWAY@0.25": {
+      "best_odds": 6.0,
+      "line": 0.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 3
+     },
+     "HOME@0.75": {
+      "best_odds": 1.014,
+      "line": 0.75,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 2
+     },
+     "AWAY@0.75": {
+      "best_odds": 8.4,
+      "line": 0.75,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 2
+     },
+     "HOME@-2.75": {
+      "best_odds": 5.56,
+      "line": -2.75,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 3
+     },
+     "AWAY@-2.75": {
+      "best_odds": 1.15,
+      "line": -2.75,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 3
+     },
+     "HOME@-2.25": {
+      "best_odds": 4.0,
+      "line": -2.25,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 3
+     },
+     "AWAY@-2.25": {
+      "best_odds": 1.25,
+      "line": -2.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 3
+     },
+     "HOME@-1.5": {
+      "best_odds": 2.35,
+      "line": -1.5,
+      "bookmaker_slug": "fonbet",
+      "bookmaker_name": "fonbet",
+      "n_bookmakers": 5
+     },
+     "AWAY@-1.5": {
+      "best_odds": 1.6,
+      "line": -1.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "HOME@-3.5": {
+      "best_odds": 8.9,
+      "line": -3.5,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 2
+     },
+     "AWAY@-3.5": {
+      "best_odds": 1.007,
+      "line": -3.5,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 2
+     },
+     "HOME@-2.5": {
+      "best_odds": 4.4,
+      "line": -2.5,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 4
+     },
+     "AWAY@-2.5": {
+      "best_odds": 1.22,
+      "line": -2.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 4
+     },
+     "HOME@-0.5": {
+      "best_odds": 1.475,
+      "line": -0.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 1
+     },
+     "AWAY@-0.5": {
+      "best_odds": 2.6,
+      "line": -0.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 1
+     },
+     "HOME@0.0": {
+      "best_odds": 1.15,
+      "line": 0.0,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 4
+     },
+     "AWAY@0.0": {
+      "best_odds": 5.5,
+      "line": 0.0,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 4
+     },
+     "HOME@0.5": {
+      "best_odds": 1.105,
+      "line": 0.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 1
+     },
+     "AWAY@0.5": {
+      "best_odds": 6.8,
+      "line": 0.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 1
+     },
+     "HOME@-2.0": {
+      "best_odds": 3.58,
+      "line": -2.0,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 4
+     },
+     "AWAY@-2.0": {
+      "best_odds": 1.3,
+      "line": -2.0,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 4
+     },
+     "HOME@-1.0": {
+      "best_odds": 1.8,
+      "line": -1.0,
+      "bookmaker_slug": "fonbet",
+      "bookmaker_name": "fonbet",
+      "n_bookmakers": 4
+     },
+     "AWAY@-1.0": {
+      "best_odds": 2.025,
+      "line": -1.0,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 4
+     },
+     "HOME@-3.0": {
+      "best_odds": 8.1,
+      "line": -3.0,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 2
+     },
+     "AWAY@-3.0": {
+      "best_odds": 1.018,
+      "line": -3.0,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 2
+     },
+     "HOME@-0.25": {
+      "best_odds": 1.325,
+      "line": -0.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 3
+     },
+     "AWAY@-0.25": {
+      "best_odds": 3.3,
+      "line": -0.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 3
+     }
+    }
+   }
+  }
+ }
+]
