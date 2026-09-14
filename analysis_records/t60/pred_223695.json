@@ -1,0 +1,308 @@
+[
+ {
+  "ko_bjt": "09-15 06:00",
+  "league": "Liga Profesional de Fútbol",
+  "home": "Banfield",
+  "away": "Barracas Central",
+  "model_wdl": [
+   40.1,
+   28.0,
+   31.9
+  ],
+  "market_wdl": [
+   38.8,
+   33.1,
+   28.1
+  ],
+  "xg": [
+   0.89,
+   1.11,
+   2.0
+  ],
+  "over25": 37.5,
+  "ou_line": 1.5,
+  "ou_quote": {
+   "line": 1.5,
+   "over": 1.61,
+   "under": 2.2,
+   "src": "bsd"
+  },
+  "data_warnings": [],
+  "draw_warn_pct": 33.1,
+  "bets": [
+   {
+    "name": "大1.5",
+    "prob": 60.3,
+    "fair_prob": 57.7,
+    "fair_src": "two_way_devig",
+    "odds": 1.61,
+    "ev": -2.9,
+    "star": 0,
+    "mkt": "ou",
+    "line": 1.5,
+    "side": "over",
+    "win_prob": 60.3,
+    "push_prob": 0.0,
+    "loss_prob": 39.7,
+    "line_src": "bsd",
+    "model_calibrated": false,
+    "calibration_src": null,
+    "ou_gate_applied": false,
+    "note_non25": "非2.5线(无2.5校准/无BSD闸门)",
+    "bsd_ou_gate": false,
+    "note_line": "非2.5主盘线，未独立校准",
+    "production_allowed": false
+   }
+  ],
+  "best": {
+   "name": "大1.5",
+   "prob": 60.3,
+   "fair_prob": 57.7,
+   "fair_src": "two_way_devig",
+   "odds": 1.61,
+   "ev": -2.9,
+   "star": 0,
+   "mkt": "ou",
+   "line": 1.5,
+   "side": "over",
+   "win_prob": 60.3,
+   "push_prob": 0.0,
+   "loss_prob": 39.7,
+   "line_src": "bsd",
+   "model_calibrated": false,
+   "calibration_src": null,
+   "ou_gate_applied": false,
+   "note_non25": "非2.5线(无2.5校准/无BSD闸门)",
+   "bsd_ou_gate": false,
+   "note_line": "非2.5主盘线，未独立校准",
+   "production_allowed": false
+  },
+  "injury_coef": [
+   1.0494,
+   0.9493999999999999
+  ],
+  "injury_note": "伤停λ修正 主x1.049 客x0.949 (7人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Manuel Arteaga",
+     "pos": "中场",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.01,
+     "def": 0.01,
+     "replacement_coef": 1.0
+    }
+   ],
+   "away": [
+    {
+     "name": "Dardo Miloc",
+     "pos": "中场",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.01,
+     "def": 0.01,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Fernando Tobio",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Lucas Gamba",
+     "pos": "前锋",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.02,
+     "def": 0.0,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Manuel Duarte",
+     "pos": "中场",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.01,
+     "def": 0.01,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Nicolás Orsini",
+     "pos": "前锋",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.02,
+     "def": 0.0,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Rafael Barrios",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    }
+   ]
+  },
+  "odds_estimated": false,
+  "odds_src": "composite",
+  "odds_sources": [
+   "infersports",
+   "bsd"
+  ],
+  "odds_n_sources": 2,
+  "odds_dispersion": 0.0163,
+  "odds_note": "复合源共识(2源: infersports,bsd); 分歧指数=0.016; 失败: theoddsapi: TheOddsAPI HTTP 401: Unauthorized",
+  "ev_basis": {
+   "probability_source": "model_only",
+   "decision_basis": "model_only",
+   "market_weight": 0.5,
+   "note": "EV 使用不含市场先验的校准模型概率(model_1x2); ensemble(市场权重0.50)仅用于展示与一致性审计",
+   "calibration_mode": "time_holdout",
+   "calibration_mode_detail": "holdout_partial(oos=17/fallback=21/uncalibrated=2)",
+   "calibration_src": "holdout",
+   "model_calibrated": true,
+   "low_confidence_calibration": false,
+   "calibration_policy": "downgrade",
+   "calibration_coverage": {
+    "mode": "time_holdout",
+    "mode_detail": null,
+    "n_leagues_total": 40,
+    "n_leagues_calibrated": 38,
+    "n_holdout_oos": 17,
+    "n_in_sample_fallback": 21,
+    "n_uncalibrated": 2,
+    "uncalibrated_leagues": [
+     "E3",
+     "SC1"
+    ],
+    "unlabeled_leagues": [],
+    "fallback_leagues": [
+     "AUS",
+     "AUT",
+     "CAFCL",
+     "COL1",
+     "D1",
+     "D2",
+     "DNK",
+     "E2",
+     "F1",
+     "G1",
+     "I2",
+     "JP1",
+     "KR1",
+     "LIB",
+     "NO1",
+     "P1",
+     "SUD",
+     "SW1",
+     "SWE",
+     "T1",
+     "UCL"
+    ],
+    "ou_src": {
+     "ARG": "holdout",
+     "AUS": "holdout",
+     "AUT": "holdout",
+     "B1": "holdout",
+     "BR": "holdout",
+     "BR2": "holdout",
+     "CAFCL": "holdout",
+     "COL1": "holdout",
+     "CSL": "holdout",
+     "D1": "holdout",
+     "D2": "holdout",
+     "DNK": "holdout",
+     "E0": "holdout",
+     "E1": "holdout",
+     "E2": "holdout",
+     "E3": "holdout",
+     "F1": "holdout",
+     "F2": "holdout",
+     "G1": "holdout",
+     "I1": "holdout",
+     "I2": "holdout",
+     "KR1": "holdout",
+     "LIB": "holdout",
+     "MLS": "holdout",
+     "MX1": "holdout",
+     "N1": "holdout",
+     "NO1": "holdout",
+     "P1": "holdout",
+     "POL": "holdout",
+     "ROU": "holdout",
+     "SAU": "holdout",
+     "SC1": "holdout",
+     "SP1": "holdout",
+     "SP2": "holdout",
+     "SUD": "holdout",
+     "SW1": "holdout",
+     "SWE": "holdout",
+     "T1": "holdout",
+     "UCL": "holdout"
+    }
+   }
+  },
+  "bsd_over25": null,
+  "bsd_ou_gate": {
+   "applied": false,
+   "conflict": false,
+   "gap_pp": null
+  },
+  "event_id": 223695,
+  "bsd_prediction": {
+   "model_version": "dc-blend-v1",
+   "confidence": 0.3986,
+   "created_at": "2026-09-07T02:15:21Z",
+   "markets": {
+    "match_result": {
+     "prob_home": 39.9,
+     "prob_draw": 34.0,
+     "prob_away": 26.2,
+     "predicted": "H"
+    },
+    "expected_goals": {
+     "home": 1.24,
+     "away": 0.96
+    },
+    "over_under": {
+     "prob_over_15": 58.4,
+     "prob_over_25": 30.9,
+     "prob_over_35": 15.4
+    },
+    "btts": {
+     "prob_yes": 42.0
+    },
+    "score": {
+     "most_likely": "1-0"
+    },
+    "draw_no_bet": {
+     "prob_home": 61.0
+    },
+    "corners": {
+     "prob_over_85": 47.6,
+     "prob_over_95": 36.0,
+     "prob_over_105": 24.1
+    }
+   },
+   "recommendations": {
+    "favorite": "H",
+    "favorite_prob": 39.9,
+    "bet_favorite": false,
+    "over_15": false,
+    "over_25": false,
+    "over_35": false,
+    "btts": false,
+    "winner": false
+   }
+  },
+  "bsd_odds_best": null
+ }
+]
