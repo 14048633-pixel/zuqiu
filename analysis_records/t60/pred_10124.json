@@ -1,0 +1,269 @@
+[
+ {
+  "ko_bjt": "09-15 06:30",
+  "league": "Brasileirão Serie B",
+  "home": "América Mineiro",
+  "away": "São Bernardo",
+  "model_wdl": [
+   52.7,
+   25.7,
+   21.6
+  ],
+  "market_wdl": [
+   36.4,
+   29.4,
+   34.2
+  ],
+  "xg": [
+   1.31,
+   1.45,
+   2.76
+  ],
+  "over25": 40.6,
+  "ou_line": 2.5,
+  "ou_quote": {
+   "line": 2.5,
+   "over": 2.3,
+   "under": 1.6,
+   "src": "bsd"
+  },
+  "data_warnings": [],
+  "draw_warn_pct": 29.4,
+  "bets": [
+   {
+    "name": "主胜",
+    "prob": 52.7,
+    "odds": 2.56,
+    "fair_prob": 36.4,
+    "ensemble_prob": 35.3,
+    "ev": 35.0,
+    "star": 0,
+    "mkt": "1x2",
+    "model_calibrated": true,
+    "calibration_src": "holdout",
+    "veto_draw": "平局预警29.4%禁主/客胜"
+   },
+   {
+    "name": "小2.5",
+    "prob": 59.4,
+    "fair_prob": 59.0,
+    "fair_src": "two_way_devig",
+    "odds": 1.6,
+    "ev": -4.9,
+    "star": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "side": "under",
+    "win_prob": 59.4,
+    "push_prob": 0.0,
+    "loss_prob": 40.6,
+    "line_src": "bsd",
+    "model_calibrated": true,
+    "calibration_src": "holdout",
+    "ou_gate_applied": true,
+    "bsd_ou_gate": true
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 59.4,
+   "fair_prob": 59.0,
+   "fair_src": "two_way_devig",
+   "odds": 1.6,
+   "ev": -4.9,
+   "star": 1,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "win_prob": 59.4,
+   "push_prob": 0.0,
+   "loss_prob": 40.6,
+   "line_src": "bsd",
+   "model_calibrated": true,
+   "calibration_src": "holdout",
+   "ou_gate_applied": true,
+   "bsd_ou_gate": true
+  },
+  "injury_coef": [
+   1.03,
+   0.99
+  ],
+  "injury_note": "伤停λ修正 主x1.030 客x0.990 (2人)",
+  "injury_detail": {
+   "home": [],
+   "away": [
+    {
+     "name": "Matheus Salustiano",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Rodrigo Andrade",
+     "pos": "中场",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.01,
+     "def": 0.01,
+     "replacement_coef": 1.0
+    }
+   ]
+  },
+  "odds_estimated": false,
+  "odds_src": "composite",
+  "odds_sources": [
+   "infersports",
+   "bsd"
+  ],
+  "odds_n_sources": 2,
+  "odds_dispersion": 0.0263,
+  "odds_note": "复合源共识(2源: infersports,bsd); 分歧指数=0.026; 失败: theoddsapi: TheOddsAPI HTTP 401: Unauthorized",
+  "ev_basis": {
+   "probability_source": "model_only",
+   "decision_basis": "model_only",
+   "market_weight": 0.5,
+   "note": "EV 使用不含市场先验的校准模型概率(model_1x2); ensemble(市场权重0.50)仅用于展示与一致性审计",
+   "calibration_mode": "time_holdout",
+   "calibration_mode_detail": "holdout_partial(oos=17/fallback=21/uncalibrated=2)",
+   "calibration_src": "holdout",
+   "model_calibrated": true,
+   "low_confidence_calibration": false,
+   "calibration_policy": "downgrade",
+   "calibration_coverage": {
+    "mode": "time_holdout",
+    "mode_detail": null,
+    "n_leagues_total": 40,
+    "n_leagues_calibrated": 38,
+    "n_holdout_oos": 17,
+    "n_in_sample_fallback": 21,
+    "n_uncalibrated": 2,
+    "uncalibrated_leagues": [
+     "E3",
+     "SC1"
+    ],
+    "unlabeled_leagues": [],
+    "fallback_leagues": [
+     "AUS",
+     "AUT",
+     "CAFCL",
+     "COL1",
+     "D1",
+     "D2",
+     "DNK",
+     "E2",
+     "F1",
+     "G1",
+     "I2",
+     "JP1",
+     "KR1",
+     "LIB",
+     "NO1",
+     "P1",
+     "SUD",
+     "SW1",
+     "SWE",
+     "T1",
+     "UCL"
+    ],
+    "ou_src": {
+     "ARG": "holdout",
+     "AUS": "holdout",
+     "AUT": "holdout",
+     "B1": "holdout",
+     "BR": "holdout",
+     "BR2": "holdout",
+     "CAFCL": "holdout",
+     "COL1": "holdout",
+     "CSL": "holdout",
+     "D1": "holdout",
+     "D2": "holdout",
+     "DNK": "holdout",
+     "E0": "holdout",
+     "E1": "holdout",
+     "E2": "holdout",
+     "E3": "holdout",
+     "F1": "holdout",
+     "F2": "holdout",
+     "G1": "holdout",
+     "I1": "holdout",
+     "I2": "holdout",
+     "KR1": "holdout",
+     "LIB": "holdout",
+     "MLS": "holdout",
+     "MX1": "holdout",
+     "N1": "holdout",
+     "NO1": "holdout",
+     "P1": "holdout",
+     "POL": "holdout",
+     "ROU": "holdout",
+     "SAU": "holdout",
+     "SC1": "holdout",
+     "SP1": "holdout",
+     "SP2": "holdout",
+     "SUD": "holdout",
+     "SW1": "holdout",
+     "SWE": "holdout",
+     "T1": "holdout",
+     "UCL": "holdout"
+    }
+   }
+  },
+  "bsd_over25": 41.3,
+  "bsd_ou_gate": {
+   "applied": true,
+   "conflict": false,
+   "gap_pp": 0.7
+  },
+  "event_id": 10124,
+  "bsd_prediction": {
+   "model_version": "dc-blend-v1",
+   "confidence": 0.3986,
+   "created_at": "2026-09-06T02:15:22Z",
+   "markets": {
+    "match_result": {
+     "prob_home": 39.9,
+     "prob_draw": 29.6,
+     "prob_away": 30.6,
+     "predicted": "H"
+    },
+    "expected_goals": {
+     "home": 1.29,
+     "away": 1.25
+    },
+    "over_under": {
+     "prob_over_15": 66.8,
+     "prob_over_25": 41.3,
+     "prob_over_35": 22.4
+    },
+    "btts": {
+     "prob_yes": 51.7
+    },
+    "score": {
+     "most_likely": "1-1"
+    },
+    "draw_no_bet": {
+     "prob_home": 51.2
+    },
+    "corners": {
+     "prob_over_85": 73.4,
+     "prob_over_95": 62.5,
+     "prob_over_105": 52.6
+    }
+   },
+   "recommendations": {
+    "favorite": "H",
+    "favorite_prob": 39.9,
+    "bet_favorite": false,
+    "over_15": false,
+    "over_25": false,
+    "over_35": false,
+    "btts": false,
+    "winner": false
+   }
+  },
+  "bsd_odds_best": null
+ }
+]
