@@ -1,10 +1,10 @@
 {
- "window": "09-14 13:09 BJT -> 09-16 01:09 BJT",
+ "window": "09-14 19:06 BJT -> 09-16 07:06 BJT",
  "window_utc": [
-  "2026-09-14T05:09:00Z",
-  "2026-09-15T17:09:00Z"
+  "2026-09-14T11:06:00Z",
+  "2026-09-15T23:06:00Z"
  ],
- "generated": "2026-09-14T05:09:26.968805+00:00",
+ "generated": "2026-09-14T11:07:05.020152+00:00",
  "matches": [
   {
    "id": 210095,
@@ -293,16 +293,136 @@
    "home_id": 249,
    "away_id": 247,
    "status": "notstarted"
+  },
+  {
+   "id": 600980,
+   "league": "Ekstraklasa",
+   "kickoff": "09-16 02:30",
+   "kickoff_iso": "2026-09-15T18:30:00+00:00",
+   "ct": "2026-09-15T18:30:00+00:00",
+   "home": "MKS Korona Kielce",
+   "away": "Górnik Zabrze",
+   "home_id": 426,
+   "away_id": 429,
+   "status": "notstarted"
+  },
+  {
+   "id": 214037,
+   "league": "Championship",
+   "kickoff": "09-16 02:45",
+   "kickoff_iso": "2026-09-15T18:45:00+00:00",
+   "ct": "2026-09-15T18:45:00+00:00",
+   "home": "Middlesbrough",
+   "away": "Millwall",
+   "home_id": 207,
+   "away_id": 210,
+   "status": "notstarted"
+  },
+  {
+   "id": 214035,
+   "league": "Championship",
+   "kickoff": "09-16 02:45",
+   "kickoff_iso": "2026-09-15T18:45:00+00:00",
+   "ct": "2026-09-15T18:45:00+00:00",
+   "home": "Bristol City",
+   "away": "Lincoln City",
+   "home_id": 220,
+   "away_id": 1415,
+   "status": "notstarted"
+  },
+  {
+   "id": 600983,
+   "league": "Coppa Italia",
+   "kickoff": "09-16 03:00",
+   "kickoff_iso": "2026-09-15T19:00:00+00:00",
+   "ct": "2026-09-15T19:00:00+00:00",
+   "home": "Fiorentina",
+   "away": "Pisa",
+   "home_id": 68,
+   "away_id": 72,
+   "status": "notstarted"
+  },
+  {
+   "id": 213573,
+   "league": "La Liga",
+   "kickoff": "09-16 03:30",
+   "kickoff_iso": "2026-09-15T19:30:00+00:00",
+   "ct": "2026-09-15T19:30:00+00:00",
+   "home": "Elche",
+   "away": "Real Madrid",
+   "home_id": 55,
+   "away_id": 57,
+   "status": "notstarted"
+  },
+  {
+   "id": 223385,
+   "league": "Categoría Primera A",
+   "kickoff": "09-16 04:00",
+   "kickoff_iso": "2026-09-15T20:00:00+00:00",
+   "ct": "2026-09-15T20:00:00+00:00",
+   "home": "Deportivo Pereira",
+   "away": "Independiente Santa Fe",
+   "home_id": 4780,
+   "away_id": 797,
+   "status": "postponed"
+  },
+  {
+   "id": 601169,
+   "league": "Copa Sudamericana",
+   "kickoff": "09-16 06:00",
+   "kickoff_iso": "2026-09-15T22:00:00+00:00",
+   "ct": "2026-09-15T22:00:00+00:00",
+   "home": "Vasco da Gama",
+   "away": "Independiente Santa Fe",
+   "home_id": 164,
+   "away_id": 797,
+   "status": "notstarted"
+  },
+  {
+   "id": 588062,
+   "league": "Copa Libertadores",
+   "kickoff": "09-16 06:00",
+   "kickoff_iso": "2026-09-15T22:00:00+00:00",
+   "ct": "2026-09-15T22:00:00+00:00",
+   "home": "Club Atlético Platense",
+   "away": "Fluminense",
+   "home_id": 796,
+   "away_id": 153,
+   "status": "notstarted"
+  },
+  {
+   "id": 10133,
+   "league": "Brasileirão Serie B",
+   "kickoff": "09-16 06:30",
+   "kickoff_iso": "2026-09-15T22:30:00+00:00",
+   "ct": "2026-09-15T22:30:00+00:00",
+   "home": "Náutico",
+   "away": "Operário-PR",
+   "home_id": 928,
+   "away_id": 828,
+   "status": "notstarted"
+  },
+  {
+   "id": 10132,
+   "league": "Brasileirão Serie B",
+   "kickoff": "09-16 06:30",
+   "kickoff_iso": "2026-09-15T22:30:00+00:00",
+   "ct": "2026-09-15T22:30:00+00:00",
+   "home": "Londrina",
+   "away": "Ponte Preta",
+   "home_id": 821,
+   "away_id": 844,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 36,
-  "n_keep": 24,
-  "n_drop": 12,
+  "n_src": 67,
+  "n_keep": 34,
+  "n_drop": 33,
   "drop_reasons": {
-   "league_unmapped": 4,
-   "team_no_history": 8
+   "league_unmapped": 23,
+   "team_no_history": 10
   }
  }
 }
