@@ -1,10 +1,10 @@
 {
- "window": "09-15 11:23 BJT -> 09-16 23:23 BJT",
+ "window": "09-15 13:05 BJT -> 09-17 01:05 BJT",
  "window_utc": [
-  "2026-09-15T03:23:00Z",
-  "2026-09-16T15:23:00Z"
+  "2026-09-15T05:05:00Z",
+  "2026-09-16T17:05:00Z"
  ],
- "generated": "2026-09-15T03:24:03.258678+00:00",
+ "generated": "2026-09-15T05:06:05.995417+00:00",
  "matches": [
   {
    "id": 601003,
@@ -197,16 +197,52 @@
    "home_id": 304,
    "away_id": 310,
    "status": "notstarted"
+  },
+  {
+   "id": 602325,
+   "league": "Super League",
+   "kickoff": "09-17 01:00",
+   "kickoff_iso": "2026-09-16T17:00:00+00:00",
+   "ct": "2026-09-16T17:00:00+00:00",
+   "home": "FC Thun",
+   "away": "Servette FC",
+   "home_id": 255,
+   "away_id": 251,
+   "status": "notstarted"
+  },
+  {
+   "id": 602324,
+   "league": "Super League",
+   "kickoff": "09-17 01:00",
+   "kickoff_iso": "2026-09-16T17:00:00+00:00",
+   "ct": "2026-09-16T17:00:00+00:00",
+   "home": "FC Lugano",
+   "away": "FC St. Gallen 1879",
+   "home_id": 254,
+   "away_id": 248,
+   "status": "notstarted"
+  },
+  {
+   "id": 46440,
+   "league": "Allsvenskan",
+   "kickoff": "09-17 01:00",
+   "kickoff_iso": "2026-09-16T17:00:00+00:00",
+   "ct": "2026-09-16T17:00:00+00:00",
+   "home": "AIK",
+   "away": "Mjällby AIF",
+   "home_id": 449,
+   "away_id": 441,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 44,
-  "n_keep": 16,
-  "n_drop": 28,
+  "n_src": 52,
+  "n_keep": 19,
+  "n_drop": 33,
   "drop_reasons": {
-   "team_no_history": 5,
-   "league_unmapped": 23
+   "team_no_history": 7,
+   "league_unmapped": 26
   }
  }
 }
