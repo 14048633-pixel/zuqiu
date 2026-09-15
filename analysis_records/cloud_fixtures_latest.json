@@ -1,10 +1,10 @@
 {
- "window": "09-15 13:05 BJT -> 09-17 01:05 BJT",
+ "window": "09-15 19:16 BJT -> 09-17 07:16 BJT",
  "window_utc": [
-  "2026-09-15T05:05:00Z",
-  "2026-09-16T17:05:00Z"
+  "2026-09-15T11:16:00Z",
+  "2026-09-16T23:16:00Z"
  ],
- "generated": "2026-09-15T05:06:05.995417+00:00",
+ "generated": "2026-09-15T11:16:51.895165+00:00",
  "matches": [
   {
    "id": 601003,
@@ -233,16 +233,76 @@
    "home_id": 449,
    "away_id": 441,
    "status": "notstarted"
+  },
+  {
+   "id": 213575,
+   "league": "La Liga",
+   "kickoff": "09-17 03:30",
+   "kickoff_iso": "2026-09-16T19:30:00+00:00",
+   "ct": "2026-09-16T19:30:00+00:00",
+   "home": "Levante UD",
+   "away": "Athletic Club",
+   "home_id": 46,
+   "away_id": 51,
+   "status": "notstarted"
+  },
+  {
+   "id": 213574,
+   "league": "La Liga",
+   "kickoff": "09-17 03:30",
+   "kickoff_iso": "2026-09-16T19:30:00+00:00",
+   "ct": "2026-09-16T19:30:00+00:00",
+   "home": "FC Barcelona",
+   "away": "Real Racing Club",
+   "home_id": 44,
+   "away_id": 1400,
+   "status": "notstarted"
+  },
+  {
+   "id": 600964,
+   "league": "Copa Libertadores",
+   "kickoff": "09-17 06:00",
+   "kickoff_iso": "2026-09-16T22:00:00+00:00",
+   "ct": "2026-09-16T22:00:00+00:00",
+   "home": "LDU",
+   "away": "Palmeiras",
+   "home_id": 778,
+   "away_id": 162,
+   "status": "notstarted"
+  },
+  {
+   "id": 601942,
+   "league": "Brasileirão Serie A",
+   "kickoff": "09-17 06:30",
+   "kickoff_iso": "2026-09-16T22:30:00+00:00",
+   "ct": "2026-09-16T22:30:00+00:00",
+   "home": "Botafogo",
+   "away": "Grêmio",
+   "home_id": 163,
+   "away_id": 154,
+   "status": "notstarted"
+  },
+  {
+   "id": 602473,
+   "league": "Categoría Primera A",
+   "kickoff": "09-17 07:15",
+   "kickoff_iso": "2026-09-16T23:15:00+00:00",
+   "ct": "2026-09-16T23:15:00+00:00",
+   "home": "Once Caldas",
+   "away": "Deportes Tolima",
+   "home_id": 3891,
+   "away_id": 781,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 52,
-  "n_keep": 19,
-  "n_drop": 33,
+  "n_src": 74,
+  "n_keep": 24,
+  "n_drop": 50,
   "drop_reasons": {
-   "team_no_history": 7,
-   "league_unmapped": 26
+   "team_no_history": 9,
+   "league_unmapped": 41
   }
  }
 }
