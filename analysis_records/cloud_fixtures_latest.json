@@ -1,59 +1,11 @@
 {
- "window": "09-15 07:12 BJT -> 09-16 19:12 BJT",
+ "window": "09-15 09:19 BJT -> 09-16 21:19 BJT",
  "window_utc": [
-  "2026-09-14T23:12:00Z",
-  "2026-09-16T11:12:00Z"
+  "2026-09-15T01:19:00Z",
+  "2026-09-16T13:19:00Z"
  ],
- "generated": "2026-09-14T23:12:37.819430+00:00",
+ "generated": "2026-09-15T01:19:25.346757+00:00",
  "matches": [
-  {
-   "id": 223704,
-   "league": "Liga Profesional de Fútbol",
-   "kickoff": "09-15 08:15",
-   "kickoff_iso": "2026-09-15T00:15:00+00:00",
-   "ct": "2026-09-15T00:15:00+00:00",
-   "home": "Instituto De Córdoba",
-   "away": "Estudiantes de Río Cuarto",
-   "home_id": 4996,
-   "away_id": 5000,
-   "status": "notstarted"
-  },
-  {
-   "id": 10126,
-   "league": "Brasileirão Serie B",
-   "kickoff": "09-15 08:30",
-   "kickoff_iso": "2026-09-15T00:30:00+00:00",
-   "ct": "2026-09-15T00:30:00+00:00",
-   "home": "Avaí",
-   "away": "Vila Nova FC",
-   "home_id": 860,
-   "away_id": 826,
-   "status": "notstarted"
-  },
-  {
-   "id": 602406,
-   "league": "Liga MX Apertura",
-   "kickoff": "09-15 09:00",
-   "kickoff_iso": "2026-09-15T01:00:00+00:00",
-   "ct": "2026-09-15T01:00:00+00:00",
-   "home": "Club León",
-   "away": "Atlético San Luis",
-   "home_id": 318,
-   "away_id": 319,
-   "status": "notstarted"
-  },
-  {
-   "id": 220147,
-   "league": "Categoría Primera A",
-   "kickoff": "09-15 09:00",
-   "kickoff_iso": "2026-09-15T01:00:00+00:00",
-   "ct": "2026-09-15T01:00:00+00:00",
-   "home": "América de Cali",
-   "away": "Deportivo Pasto",
-   "home_id": 753,
-   "away_id": 3419,
-   "status": "notstarted"
-  },
   {
    "id": 601003,
    "league": "Ekstraklasa",
@@ -249,8 +201,8 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 44,
-  "n_keep": 20,
+  "n_src": 40,
+  "n_keep": 16,
   "n_drop": 24,
   "drop_reasons": {
    "team_no_history": 5,
