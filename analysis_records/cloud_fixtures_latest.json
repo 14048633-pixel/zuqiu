@@ -1,83 +1,11 @@
 {
- "window": "09-16 01:05 BJT -> 09-17 13:05 BJT",
+ "window": "09-16 05:45 BJT -> 09-17 17:45 BJT",
  "window_utc": [
-  "2026-09-15T17:05:00Z",
-  "2026-09-17T05:05:00Z"
+  "2026-09-15T21:45:00Z",
+  "2026-09-17T09:45:00Z"
  ],
- "generated": "2026-09-15T17:05:55.229248+00:00",
+ "generated": "2026-09-15T21:45:11.899956+00:00",
  "matches": [
-  {
-   "id": 600980,
-   "league": "Ekstraklasa",
-   "kickoff": "09-16 02:30",
-   "kickoff_iso": "2026-09-15T18:30:00+00:00",
-   "ct": "2026-09-15T18:30:00+00:00",
-   "home": "MKS Korona Kielce",
-   "away": "Górnik Zabrze",
-   "home_id": 426,
-   "away_id": 429,
-   "status": "notstarted"
-  },
-  {
-   "id": 214037,
-   "league": "Championship",
-   "kickoff": "09-16 02:45",
-   "kickoff_iso": "2026-09-15T18:45:00+00:00",
-   "ct": "2026-09-15T18:45:00+00:00",
-   "home": "Middlesbrough",
-   "away": "Millwall",
-   "home_id": 207,
-   "away_id": 210,
-   "status": "notstarted"
-  },
-  {
-   "id": 214035,
-   "league": "Championship",
-   "kickoff": "09-16 02:45",
-   "kickoff_iso": "2026-09-15T18:45:00+00:00",
-   "ct": "2026-09-15T18:45:00+00:00",
-   "home": "Bristol City",
-   "away": "Lincoln City",
-   "home_id": 220,
-   "away_id": 1415,
-   "status": "notstarted"
-  },
-  {
-   "id": 600983,
-   "league": "Coppa Italia",
-   "kickoff": "09-16 03:00",
-   "kickoff_iso": "2026-09-15T19:00:00+00:00",
-   "ct": "2026-09-15T19:00:00+00:00",
-   "home": "Fiorentina",
-   "away": "Pisa",
-   "home_id": 68,
-   "away_id": 72,
-   "status": "notstarted"
-  },
-  {
-   "id": 213573,
-   "league": "La Liga",
-   "kickoff": "09-16 03:30",
-   "kickoff_iso": "2026-09-15T19:30:00+00:00",
-   "ct": "2026-09-15T19:30:00+00:00",
-   "home": "Elche",
-   "away": "Real Madrid",
-   "home_id": 55,
-   "away_id": 57,
-   "status": "notstarted"
-  },
-  {
-   "id": 223385,
-   "league": "Categoría Primera A",
-   "kickoff": "09-16 04:00",
-   "kickoff_iso": "2026-09-15T20:00:00+00:00",
-   "ct": "2026-09-15T20:00:00+00:00",
-   "home": "Deportivo Pereira",
-   "away": "Independiente Santa Fe",
-   "home_id": 4780,
-   "away_id": 797,
-   "status": "postponed"
-  },
   {
    "id": 601169,
    "league": "Copa Sudamericana",
@@ -297,12 +225,12 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 75,
-  "n_keep": 24,
-  "n_drop": 51,
+  "n_src": 49,
+  "n_keep": 18,
+  "n_drop": 31,
   "drop_reasons": {
-   "team_no_history": 6,
-   "league_unmapped": 45
+   "league_unmapped": 27,
+   "team_no_history": 4
   }
  }
 }
