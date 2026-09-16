@@ -1,107 +1,11 @@
 {
- "window": "09-17 01:00 BJT -> 09-18 13:00 BJT",
+ "window": "09-17 05:20 BJT -> 09-18 17:20 BJT",
  "window_utc": [
-  "2026-09-16T17:00:00Z",
-  "2026-09-18T05:00:00Z"
+  "2026-09-16T21:20:00Z",
+  "2026-09-18T09:20:00Z"
  ],
- "generated": "2026-09-16T17:00:54.302435+00:00",
+ "generated": "2026-09-16T21:20:43.944011+00:00",
  "matches": [
-  {
-   "id": 602325,
-   "league": "Super League",
-   "kickoff": "09-17 01:00",
-   "kickoff_iso": "2026-09-16T17:00:00+00:00",
-   "ct": "2026-09-16T17:00:00+00:00",
-   "home": "FC Thun",
-   "away": "Servette FC",
-   "home_id": 255,
-   "away_id": 251,
-   "status": "1st_half"
-  },
-  {
-   "id": 602324,
-   "league": "Super League",
-   "kickoff": "09-17 01:00",
-   "kickoff_iso": "2026-09-16T17:00:00+00:00",
-   "ct": "2026-09-16T17:00:00+00:00",
-   "home": "FC Lugano",
-   "away": "FC St. Gallen 1879",
-   "home_id": 254,
-   "away_id": 248,
-   "status": "notstarted"
-  },
-  {
-   "id": 213572,
-   "league": "La Liga",
-   "kickoff": "09-17 01:00",
-   "kickoff_iso": "2026-09-16T17:00:00+00:00",
-   "ct": "2026-09-16T17:00:00+00:00",
-   "home": "Deportivo de A Coruña",
-   "away": "Sevilla",
-   "home_id": 1260,
-   "away_id": 52,
-   "status": "notstarted"
-  },
-  {
-   "id": 213570,
-   "league": "La Liga",
-   "kickoff": "09-17 01:00",
-   "kickoff_iso": "2026-09-16T17:00:00+00:00",
-   "ct": "2026-09-16T17:00:00+00:00",
-   "home": "Atlético Madrid",
-   "away": "Osasuna",
-   "home_id": 54,
-   "away_id": 58,
-   "status": "notstarted"
-  },
-  {
-   "id": 46440,
-   "league": "Allsvenskan",
-   "kickoff": "09-17 01:00",
-   "kickoff_iso": "2026-09-16T17:00:00+00:00",
-   "ct": "2026-09-16T17:00:00+00:00",
-   "home": "AIK",
-   "away": "Mjällby AIF",
-   "home_id": 449,
-   "away_id": 441,
-   "status": "notstarted"
-  },
-  {
-   "id": 601853,
-   "league": "Championship",
-   "kickoff": "09-17 02:45",
-   "kickoff_iso": "2026-09-16T18:45:00+00:00",
-   "ct": "2026-09-16T18:45:00+00:00",
-   "home": "Wolverhampton",
-   "away": "Portsmouth",
-   "home_id": 11,
-   "away_id": 212,
-   "status": "cancelled"
-  },
-  {
-   "id": 213575,
-   "league": "La Liga",
-   "kickoff": "09-17 03:30",
-   "kickoff_iso": "2026-09-16T19:30:00+00:00",
-   "ct": "2026-09-16T19:30:00+00:00",
-   "home": "Levante UD",
-   "away": "Athletic Club",
-   "home_id": 46,
-   "away_id": 51,
-   "status": "notstarted"
-  },
-  {
-   "id": 213574,
-   "league": "La Liga",
-   "kickoff": "09-17 03:30",
-   "kickoff_iso": "2026-09-16T19:30:00+00:00",
-   "ct": "2026-09-16T19:30:00+00:00",
-   "home": "FC Barcelona",
-   "away": "Real Racing Club",
-   "home_id": 44,
-   "away_id": 1400,
-   "status": "notstarted"
-  },
   {
    "id": 600964,
    "league": "Copa Libertadores",
@@ -261,11 +165,11 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 53,
-  "n_keep": 21,
-  "n_drop": 32,
+  "n_src": 31,
+  "n_keep": 13,
+  "n_drop": 18,
   "drop_reasons": {
-   "league_unmapped": 32
+   "league_unmapped": 18
   }
  }
 }
