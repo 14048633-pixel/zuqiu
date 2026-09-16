@@ -1,47 +1,11 @@
 {
- "window": "09-17 05:20 BJT -> 09-18 17:20 BJT",
+ "window": "09-17 07:01 BJT -> 09-18 19:01 BJT",
  "window_utc": [
-  "2026-09-16T21:20:00Z",
-  "2026-09-18T09:20:00Z"
+  "2026-09-16T23:01:00Z",
+  "2026-09-18T11:01:00Z"
  ],
- "generated": "2026-09-16T21:20:43.944011+00:00",
+ "generated": "2026-09-16T23:01:49.489242+00:00",
  "matches": [
-  {
-   "id": 600964,
-   "league": "Copa Libertadores",
-   "kickoff": "09-17 06:00",
-   "kickoff_iso": "2026-09-16T22:00:00+00:00",
-   "ct": "2026-09-16T22:00:00+00:00",
-   "home": "LDU",
-   "away": "Palmeiras",
-   "home_id": 778,
-   "away_id": 162,
-   "status": "notstarted"
-  },
-  {
-   "id": 599511,
-   "league": "Copa Sudamericana",
-   "kickoff": "09-17 06:00",
-   "kickoff_iso": "2026-09-16T22:00:00+00:00",
-   "ct": "2026-09-16T22:00:00+00:00",
-   "home": "Atlético Mineiro",
-   "away": "Santos",
-   "home_id": 155,
-   "away_id": 165,
-   "status": "notstarted"
-  },
-  {
-   "id": 601942,
-   "league": "Brasileirão Serie A",
-   "kickoff": "09-17 06:30",
-   "kickoff_iso": "2026-09-16T22:30:00+00:00",
-   "ct": "2026-09-16T22:30:00+00:00",
-   "home": "Botafogo",
-   "away": "Grêmio",
-   "home_id": 163,
-   "away_id": 154,
-   "status": "notstarted"
-  },
   {
    "id": 602473,
    "league": "Categoría Primera A",
@@ -165,11 +129,11 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 31,
-  "n_keep": 13,
-  "n_drop": 18,
+  "n_src": 27,
+  "n_keep": 10,
+  "n_drop": 17,
   "drop_reasons": {
-   "league_unmapped": 18
+   "league_unmapped": 17
   }
  }
 }
