@@ -1,10 +1,10 @@
 {
- "window": "09-16 11:19 BJT -> 09-17 23:19 BJT",
+ "window": "09-16 13:04 BJT -> 09-18 01:04 BJT",
  "window_utc": [
-  "2026-09-16T03:19:00Z",
-  "2026-09-17T15:19:00Z"
+  "2026-09-16T05:04:00Z",
+  "2026-09-17T17:04:00Z"
  ],
- "generated": "2026-09-16T03:19:47.288041+00:00",
+ "generated": "2026-09-16T05:04:20.305694+00:00",
  "matches": [
   {
    "id": 602325,
@@ -31,6 +31,30 @@
    "status": "notstarted"
   },
   {
+   "id": 213572,
+   "league": "La Liga",
+   "kickoff": "09-17 01:00",
+   "kickoff_iso": "2026-09-16T17:00:00+00:00",
+   "ct": "2026-09-16T17:00:00+00:00",
+   "home": "Deportivo de A Coruña",
+   "away": "Sevilla",
+   "home_id": 1260,
+   "away_id": 52,
+   "status": "notstarted"
+  },
+  {
+   "id": 213570,
+   "league": "La Liga",
+   "kickoff": "09-17 01:00",
+   "kickoff_iso": "2026-09-16T17:00:00+00:00",
+   "ct": "2026-09-16T17:00:00+00:00",
+   "home": "Atlético Madrid",
+   "away": "Osasuna",
+   "home_id": 54,
+   "away_id": 58,
+   "status": "notstarted"
+  },
+  {
    "id": 46440,
    "league": "Allsvenskan",
    "kickoff": "09-17 01:00",
@@ -41,6 +65,18 @@
    "home_id": 449,
    "away_id": 441,
    "status": "notstarted"
+  },
+  {
+   "id": 601853,
+   "league": "Championship",
+   "kickoff": "09-17 02:45",
+   "kickoff_iso": "2026-09-16T18:45:00+00:00",
+   "ct": "2026-09-16T18:45:00+00:00",
+   "home": "Wolverhampton",
+   "away": "Portsmouth",
+   "home_id": 11,
+   "away_id": 212,
+   "status": "postponed"
   },
   {
    "id": 213575,
@@ -76,6 +112,18 @@
    "away": "Palmeiras",
    "home_id": 778,
    "away_id": 162,
+   "status": "notstarted"
+  },
+  {
+   "id": 599511,
+   "league": "Copa Sudamericana",
+   "kickoff": "09-17 06:00",
+   "kickoff_iso": "2026-09-16T22:00:00+00:00",
+   "ct": "2026-09-16T22:00:00+00:00",
+   "home": "Atlético Mineiro",
+   "away": "Santos",
+   "home_id": 155,
+   "away_id": 165,
    "status": "notstarted"
   },
   {
@@ -125,16 +173,27 @@
    "home_id": 3181,
    "away_id": 766,
    "status": "notstarted"
+  },
+  {
+   "id": 213578,
+   "league": "La Liga",
+   "kickoff": "09-18 01:00",
+   "kickoff_iso": "2026-09-17T17:00:00+00:00",
+   "ct": "2026-09-17T17:00:00+00:00",
+   "home": "Real Betis",
+   "away": "Getafe",
+   "home_id": 56,
+   "away_id": 50,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 43,
-  "n_keep": 10,
-  "n_drop": 33,
+  "n_src": 46,
+  "n_keep": 15,
+  "n_drop": 31,
   "drop_reasons": {
-   "league_unmapped": 29,
-   "team_no_history": 4
+   "league_unmapped": 31
   }
  }
 }
