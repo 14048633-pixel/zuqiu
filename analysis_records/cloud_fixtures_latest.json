@@ -1,10 +1,10 @@
 {
- "window": "09-16 13:04 BJT -> 09-18 01:04 BJT",
+ "window": "09-16 19:05 BJT -> 09-18 07:05 BJT",
  "window_utc": [
-  "2026-09-16T05:04:00Z",
-  "2026-09-17T17:04:00Z"
+  "2026-09-16T11:05:00Z",
+  "2026-09-17T23:05:00Z"
  ],
- "generated": "2026-09-16T05:04:20.305694+00:00",
+ "generated": "2026-09-16T11:05:22.052264+00:00",
  "matches": [
   {
    "id": 602325,
@@ -185,15 +185,63 @@
    "home_id": 56,
    "away_id": 50,
    "status": "notstarted"
+  },
+  {
+   "id": 224118,
+   "league": "League One",
+   "kickoff": "09-18 03:00",
+   "kickoff_iso": "2026-09-17T19:00:00+00:00",
+   "ct": "2026-09-17T19:00:00+00:00",
+   "home": "AFC Wimbledon",
+   "away": "Milton Keynes Dons",
+   "home_id": 1421,
+   "away_id": 1256,
+   "status": "notstarted"
+  },
+  {
+   "id": 213576,
+   "league": "La Liga",
+   "kickoff": "09-18 03:30",
+   "kickoff_iso": "2026-09-17T19:30:00+00:00",
+   "ct": "2026-09-17T19:30:00+00:00",
+   "home": "Málaga CF",
+   "away": "Villarreal",
+   "home_id": 1259,
+   "away_id": 41,
+   "status": "notstarted"
+  },
+  {
+   "id": 602474,
+   "league": "Categoría Primera A",
+   "kickoff": "09-18 07:00",
+   "kickoff_iso": "2026-09-17T23:00:00+00:00",
+   "ct": "2026-09-17T23:00:00+00:00",
+   "home": "Atlético Bucaramanga",
+   "away": "Rionegro Águilas Doradas",
+   "home_id": 771,
+   "away_id": 4786,
+   "status": "postponed"
+  },
+  {
+   "id": 220126,
+   "league": "Categoría Primera A",
+   "kickoff": "09-18 07:00",
+   "kickoff_iso": "2026-09-17T23:00:00+00:00",
+   "ct": "2026-09-17T23:00:00+00:00",
+   "home": "Atlético Bucaramanga",
+   "away": "Independiente Medellín",
+   "home_id": 771,
+   "away_id": 786,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 46,
-  "n_keep": 15,
-  "n_drop": 31,
+  "n_src": 59,
+  "n_keep": 19,
+  "n_drop": 40,
   "drop_reasons": {
-   "league_unmapped": 31
+   "league_unmapped": 40
   }
  }
 }
