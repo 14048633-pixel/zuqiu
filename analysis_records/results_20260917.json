@@ -1,10 +1,80 @@
 {
  "date": "2026-09-17",
  "window_utc": [
-  "2026-09-15T11:02:24Z",
-  "2026-09-16T23:02:24Z"
+  "2026-09-15T11:58:32Z",
+  "2026-09-16T23:58:32Z"
  ],
  "results": [
+  {
+   "id": 207812,
+   "league_id": 57,
+   "season_id": 1435,
+   "home_team_id": 2228,
+   "home_team": "Hartford Athletic",
+   "away_team_id": 2227,
+   "away_team": "SC Jacksonville",
+   "home_coach_id": 1623,
+   "away_coach_id": 1622,
+   "referee_id": null,
+   "venue_id": 1331,
+   "event_date": "2026-09-16T22:00:00+00:00",
+   "status": "finished",
+   "replaced_by": null,
+   "round_number": 1,
+   "round_name": "",
+   "group_name": null,
+   "stage": "regular-season",
+   "stage_name": "Regular season",
+   "round_label": "Regular season · Matchday 1",
+   "period": "FT",
+   "current_minute": 90,
+   "home_score": 2,
+   "away_score": 0,
+   "home_score_ht": 1,
+   "away_score_ht": 0,
+   "penalty_shootout": null,
+   "extra_time_score": null,
+   "is_local_derby": false,
+   "is_neutral_ground": false,
+   "travel_distance_km": null,
+   "weather": {
+    "code": 3,
+    "description": "rain",
+    "wind_speed": 15.5,
+    "temperature_c": 22
+   },
+   "pitch_condition": null,
+   "attendance": null,
+   "live_websocket": false,
+   "websocket_plus": true,
+   "highlights": [],
+   "head_to_head": {
+    "total_matches": 1,
+    "home_wins": 1,
+    "draws": 0,
+    "away_wins": 0,
+    "home_goals": 3,
+    "away_goals": 0,
+    "avg_total_goals": 3.0,
+    "home_win_rate": 1.0,
+    "away_win_rate": 0.0,
+    "recent_matches": [
+     {
+      "away": "Hartford Athletic",
+      "date": "2026-03-08T00:30:00+00:00",
+      "home": "SC Jacksonville",
+      "score": "0-3",
+      "event_id": 207518,
+      "away_score": 3,
+      "home_score": 0,
+      "away_team_id": 2228,
+      "home_team_id": 2227
+     }
+    ]
+   },
+   "has_xg": false,
+   "previous_leg_event_id": null
+  },
   {
    "id": 213574,
    "league_id": 3,
@@ -1039,7 +1109,15 @@
    "attendance": null,
    "live_websocket": true,
    "websocket_plus": true,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "full",
+     "title": "Everton 1 - 0 Wolves — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=GqDT4Dh_878",
+     "thumbnail": "https://i.ytimg.com/vi/GqDT4Dh_878/hqdefault.jpg",
+     "published_at": "2026-09-16T23:12:05+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 25,
     "home_wins": 8,
