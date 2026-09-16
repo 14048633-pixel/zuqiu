@@ -1,47 +1,11 @@
 {
- "window": "09-16 08:01 BJT -> 09-17 20:01 BJT",
+ "window": "09-16 11:19 BJT -> 09-17 23:19 BJT",
  "window_utc": [
-  "2026-09-16T00:01:00Z",
-  "2026-09-17T12:01:00Z"
+  "2026-09-16T03:19:00Z",
+  "2026-09-17T15:19:00Z"
  ],
- "generated": "2026-09-16T00:01:35.271824+00:00",
+ "generated": "2026-09-16T03:19:47.288041+00:00",
  "matches": [
-  {
-   "id": 588064,
-   "league": "Copa Sudamericana",
-   "kickoff": "09-16 08:30",
-   "kickoff_iso": "2026-09-16T00:30:00+00:00",
-   "ct": "2026-09-16T00:30:00+00:00",
-   "home": "São Paulo",
-   "away": "Boca Juniors",
-   "home_id": 158,
-   "away_id": 780,
-   "status": "notstarted"
-  },
-  {
-   "id": 274862,
-   "league": "Categoría Primera A",
-   "kickoff": "09-16 08:30",
-   "kickoff_iso": "2026-09-16T00:30:00+00:00",
-   "ct": "2026-09-16T00:30:00+00:00",
-   "home": "Boyacá Chicó FC",
-   "away": "Alianza Valledupar FC",
-   "home_id": 4784,
-   "away_id": 4783,
-   "status": "notstarted"
-  },
-  {
-   "id": 602322,
-   "league": "Liga MX Apertura",
-   "kickoff": "09-16 09:00",
-   "kickoff_iso": "2026-09-16T01:00:00+00:00",
-   "ct": "2026-09-16T01:00:00+00:00",
-   "home": "Club Puebla",
-   "away": "CD Toluca",
-   "home_id": 304,
-   "away_id": 310,
-   "status": "notstarted"
-  },
   {
    "id": 602325,
    "league": "Super League",
@@ -166,10 +130,10 @@
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
   "n_src": 43,
-  "n_keep": 13,
-  "n_drop": 30,
+  "n_keep": 10,
+  "n_drop": 33,
   "drop_reasons": {
-   "league_unmapped": 26,
+   "league_unmapped": 29,
    "team_no_history": 4
   }
  }
