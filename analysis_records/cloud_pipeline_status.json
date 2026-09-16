@@ -9,9 +9,11 @@
  "clv": {
   "phase": "clv",
   "ok": true,
-  "at": "2026-09-16T21:17:28+00:00",
+  "at": "2026-09-16T21:38:29+00:00",
   "code": "cloud_daily_pipeline",
-  "repo": "/home/user/football/sync/zuqiu"
+  "repo": "/home/user/football/sync/zuqiu",
+  "skipped": true,
+  "reason": "another cloud pipeline task is running"
  },
  "t60": {
   "phase": "t60",
