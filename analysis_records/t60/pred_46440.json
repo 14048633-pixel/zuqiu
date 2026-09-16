@@ -1,0 +1,379 @@
+[
+ {
+  "ko_bjt": "09-17 01:00",
+  "league": "Allsvenskan",
+  "home": "AIK",
+  "away": "Mjällby AIF",
+  "model_wdl": [
+   40.3,
+   34.9,
+   24.8
+  ],
+  "market_wdl": [
+   41.8,
+   26.8,
+   31.5
+  ],
+  "xg": [
+   2.96,
+   0.57,
+   3.53
+  ],
+  "over25": 84.0,
+  "ou_line": 2.5,
+  "ou_quote": {
+   "line": 2.5,
+   "over": 1.73,
+   "under": 2.05,
+   "src": "bsd"
+  },
+  "data_warnings": [],
+  "draw_warn_pct": 26.8,
+  "bets": [
+   {
+    "name": "大2.5",
+    "prob": 84.0,
+    "fair_prob": 54.2,
+    "fair_src": "two_way_devig",
+    "odds": 1.73,
+    "ev": 45.3,
+    "star": 0,
+    "mkt": "ou",
+    "line": 2.5,
+    "side": "over",
+    "win_prob": 84.0,
+    "push_prob": 0.0,
+    "loss_prob": 16.0,
+    "line_src": "bsd",
+    "model_calibrated": true,
+    "calibration_src": "holdout",
+    "ou_gate_applied": true,
+    "bsd_ou_gate": true,
+    "note_big_div": "模型vs市场大分歧(30pp)封顶2星",
+    "veto_big_div": "模型vs市场分歧>25pp不推荐",
+    "veto_bsd_gap": "BSD OU差30pp禁出"
+   }
+  ],
+  "best": {
+   "name": "大2.5",
+   "prob": 84.0,
+   "fair_prob": 54.2,
+   "fair_src": "two_way_devig",
+   "odds": 1.73,
+   "ev": 45.3,
+   "star": 0,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "win_prob": 84.0,
+   "push_prob": 0.0,
+   "loss_prob": 16.0,
+   "line_src": "bsd",
+   "model_calibrated": true,
+   "calibration_src": "holdout",
+   "ou_gate_applied": true,
+   "bsd_ou_gate": true,
+   "note_big_div": "模型vs市场大分歧(30pp)封顶2星",
+   "veto_big_div": "模型vs市场分歧>25pp不推荐",
+   "veto_bsd_gap": "BSD OU差30pp禁出"
+  },
+  "injury_coef": [
+   0.95316,
+   1.1832
+  ],
+  "injury_note": "伤停λ修正 主x0.953 客x1.183 (15人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Adrian Helm",
+     "pos": "中场",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.01,
+     "def": 0.01,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Andreas Redkin",
+     "pos": "中场",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.01,
+     "def": 0.01,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Dino Beširović",
+     "pos": "中场",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.01,
+     "def": 0.01,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Eskil Edh",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Fredrik Nissen",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Ibrahim Cissé",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Kevin Filling",
+     "pos": "前锋",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.02,
+     "def": 0.0,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Lukas Bergquist",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Mads Døhr Thychosen",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Martin Ellingsen",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Sotirios Papagiannopoulos",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Stanley Wilson",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Taha Ayari",
+     "pos": "中场",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.01,
+     "def": 0.01,
+     "replacement_coef": 1.0
+    }
+   ],
+   "away": [
+    {
+     "name": "Timo Stavitski",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Villum Dalsgaard",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(33%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    }
+   ]
+  },
+  "odds_estimated": false,
+  "odds_src": "composite(bsd)",
+  "odds_sources": [
+   "bsd"
+  ],
+  "odds_n_sources": 1,
+  "odds_dispersion": null,
+  "odds_note": "复合源单源命中(bsd); 失败: theoddsapi: TheOddsAPI HTTP 401: Unauthorized; infersports: InferSports 未找到 AIK vs Mjällby AIF",
+  "ev_basis": {
+   "probability_source": "model_only",
+   "decision_basis": "model_only",
+   "market_weight": 0.5,
+   "note": "EV 使用不含市场先验的校准模型概率(model_1x2); ensemble(市场权重0.50)仅用于展示与一致性审计",
+   "calibration_mode": "time_holdout",
+   "calibration_mode_detail": "holdout_partial(oos=17/fallback=21/uncalibrated=2)",
+   "calibration_src": "in_sample_fallback",
+   "model_calibrated": true,
+   "low_confidence_calibration": true,
+   "calibration_policy": "downgrade",
+   "calibration_coverage": {
+    "mode": "time_holdout",
+    "mode_detail": null,
+    "n_leagues_total": 40,
+    "n_leagues_calibrated": 38,
+    "n_holdout_oos": 17,
+    "n_in_sample_fallback": 21,
+    "n_uncalibrated": 2,
+    "uncalibrated_leagues": [
+     "E3",
+     "SC1"
+    ],
+    "unlabeled_leagues": [],
+    "fallback_leagues": [
+     "AUS",
+     "AUT",
+     "CAFCL",
+     "COL1",
+     "D1",
+     "D2",
+     "DNK",
+     "E2",
+     "F1",
+     "G1",
+     "I2",
+     "JP1",
+     "KR1",
+     "LIB",
+     "NO1",
+     "P1",
+     "SUD",
+     "SW1",
+     "SWE",
+     "T1",
+     "UCL"
+    ],
+    "ou_src": {
+     "ARG": "holdout",
+     "AUS": "holdout",
+     "AUT": "holdout",
+     "B1": "holdout",
+     "BR": "holdout",
+     "BR2": "holdout",
+     "CAFCL": "holdout",
+     "COL1": "holdout",
+     "CSL": "holdout",
+     "D1": "holdout",
+     "D2": "holdout",
+     "DNK": "holdout",
+     "E0": "holdout",
+     "E1": "holdout",
+     "E2": "holdout",
+     "E3": "holdout",
+     "F1": "holdout",
+     "F2": "holdout",
+     "G1": "holdout",
+     "I1": "holdout",
+     "I2": "holdout",
+     "KR1": "holdout",
+     "LIB": "holdout",
+     "MLS": "holdout",
+     "MX1": "holdout",
+     "N1": "holdout",
+     "NO1": "holdout",
+     "P1": "holdout",
+     "POL": "holdout",
+     "ROU": "holdout",
+     "SAU": "holdout",
+     "SC1": "holdout",
+     "SP1": "holdout",
+     "SP2": "holdout",
+     "SUD": "holdout",
+     "SW1": "holdout",
+     "SWE": "holdout",
+     "T1": "holdout",
+     "UCL": "holdout"
+    }
+   }
+  },
+  "bsd_over25": 54.2,
+  "bsd_ou_gate": {
+   "applied": true,
+   "conflict": false,
+   "gap_pp": 29.8
+  },
+  "event_id": 46440,
+  "bsd_prediction": {
+   "model_version": "dc-blend-v1",
+   "confidence": 0.413,
+   "created_at": "2026-09-10T02:15:22Z",
+   "markets": {
+    "match_result": {
+     "prob_home": 41.3,
+     "prob_draw": 27.1,
+     "prob_away": 31.6,
+     "predicted": "H"
+    },
+    "expected_goals": {
+     "home": 1.66,
+     "away": 1.2
+    },
+    "over_under": {
+     "prob_over_15": 76.8,
+     "prob_over_25": 54.2,
+     "prob_over_35": 32.1
+    },
+    "btts": {
+     "prob_yes": 57.9
+    },
+    "score": {
+     "most_likely": "1-1"
+    },
+    "draw_no_bet": {
+     "prob_home": 64.9
+    },
+    "corners": {
+     "prob_over_85": 59.4,
+     "prob_over_95": 47.7,
+     "prob_over_105": 36.0
+    }
+   },
+   "recommendations": {
+    "favorite": "H",
+    "favorite_prob": 41.3,
+    "bet_favorite": false,
+    "over_15": false,
+    "over_25": false,
+    "over_35": false,
+    "btts": false,
+    "winner": false
+   }
+  },
+  "bsd_odds_best": null
+ }
+]
