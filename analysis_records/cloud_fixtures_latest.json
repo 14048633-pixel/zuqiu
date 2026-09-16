@@ -1,10 +1,10 @@
 {
- "window": "09-16 19:05 BJT -> 09-18 07:05 BJT",
+ "window": "09-17 01:00 BJT -> 09-18 13:00 BJT",
  "window_utc": [
-  "2026-09-16T11:05:00Z",
-  "2026-09-17T23:05:00Z"
+  "2026-09-16T17:00:00Z",
+  "2026-09-18T05:00:00Z"
  ],
- "generated": "2026-09-16T11:05:22.052264+00:00",
+ "generated": "2026-09-16T17:00:54.302435+00:00",
  "matches": [
   {
    "id": 602325,
@@ -16,7 +16,7 @@
    "away": "Servette FC",
    "home_id": 255,
    "away_id": 251,
-   "status": "notstarted"
+   "status": "1st_half"
   },
   {
    "id": 602324,
@@ -76,7 +76,7 @@
    "away": "Portsmouth",
    "home_id": 11,
    "away_id": 212,
-   "status": "postponed"
+   "status": "cancelled"
   },
   {
    "id": 213575,
@@ -233,15 +233,39 @@
    "home_id": 771,
    "away_id": 786,
    "status": "notstarted"
+  },
+  {
+   "id": 601011,
+   "league": "Copa Libertadores",
+   "kickoff": "09-18 08:30",
+   "kickoff_iso": "2026-09-18T00:30:00+00:00",
+   "ct": "2026-09-18T00:30:00+00:00",
+   "home": "Flamengo",
+   "away": "Independiente del Valle",
+   "home_id": 160,
+   "away_id": 793,
+   "status": "notstarted"
+  },
+  {
+   "id": 600967,
+   "league": "Copa Sudamericana",
+   "kickoff": "09-18 08:30",
+   "kickoff_iso": "2026-09-18T00:30:00+00:00",
+   "ct": "2026-09-18T00:30:00+00:00",
+   "home": "Montevideo City Torque",
+   "away": "Cienciano",
+   "home_id": 747,
+   "away_id": 750,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 59,
-  "n_keep": 19,
-  "n_drop": 40,
+  "n_src": 53,
+  "n_keep": 21,
+  "n_drop": 32,
   "drop_reasons": {
-   "league_unmapped": 40
+   "league_unmapped": 32
   }
  }
 }
