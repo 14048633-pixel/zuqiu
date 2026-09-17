@@ -1,10 +1,10 @@
 {
- "window": "09-17 10:08 BJT -> 09-18 22:08 BJT",
+ "window": "09-17 13:07 BJT -> 09-19 01:07 BJT",
  "window_utc": [
-  "2026-09-17T02:08:00Z",
-  "2026-09-18T14:08:00Z"
+  "2026-09-17T05:07:00Z",
+  "2026-09-18T17:07:00Z"
  ],
- "generated": "2026-09-17T02:08:38.056186+00:00",
+ "generated": "2026-09-17T05:07:13.021014+00:00",
  "matches": [
   {
    "id": 213578,
@@ -101,15 +101,75 @@
    "home_id": 2041,
    "away_id": 2043,
    "status": "notstarted"
+  },
+  {
+   "id": 214604,
+   "league": "Superliga",
+   "kickoff": "09-18 23:00",
+   "kickoff_iso": "2026-09-18T15:00:00+00:00",
+   "ct": "2026-09-18T15:00:00+00:00",
+   "home": "UTA Arad",
+   "away": "Sepsi OSK Sfântu Gheorghe",
+   "home_id": 358,
+   "away_id": 3882,
+   "status": "notstarted"
+  },
+  {
+   "id": 211911,
+   "league": "Ekstraklasa",
+   "kickoff": "09-19 00:00",
+   "kickoff_iso": "2026-09-18T16:00:00+00:00",
+   "ct": "2026-09-18T16:00:00+00:00",
+   "home": "Widzew Łódź",
+   "away": "Wieczysta Kraków",
+   "home_id": 423,
+   "away_id": 1822,
+   "status": "notstarted"
+  },
+  {
+   "id": 221524,
+   "league": "Danish Superliga",
+   "kickoff": "09-19 01:00",
+   "kickoff_iso": "2026-09-18T17:00:00+00:00",
+   "ct": "2026-09-18T17:00:00+00:00",
+   "home": "Lyngby",
+   "away": "Silkeborg IF",
+   "home_id": 1370,
+   "away_id": 1374,
+   "status": "notstarted"
+  },
+  {
+   "id": 216002,
+   "league": "Trendyol Super Lig",
+   "kickoff": "09-19 01:00",
+   "kickoff_iso": "2026-09-18T17:00:00+00:00",
+   "ct": "2026-09-18T17:00:00+00:00",
+   "home": "Kasımpaşa",
+   "away": "Konyaspor",
+   "home_id": 187,
+   "away_id": 192,
+   "status": "notstarted"
+  },
+  {
+   "id": 207080,
+   "league": "Eliteserien",
+   "kickoff": "09-19 01:00",
+   "kickoff_iso": "2026-09-18T17:00:00+00:00",
+   "ct": "2026-09-18T17:00:00+00:00",
+   "home": "Sarpsborg 08",
+   "away": "KFUM Oslo",
+   "home_id": 2074,
+   "away_id": 2082,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 20,
-  "n_keep": 8,
-  "n_drop": 12,
+  "n_src": 32,
+  "n_keep": 13,
+  "n_drop": 19,
   "drop_reasons": {
-   "league_unmapped": 12
+   "league_unmapped": 19
   }
  }
 }
