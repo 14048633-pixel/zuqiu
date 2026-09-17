@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T23:36:14.868252+00:00",
+ "generated_at": "2026-09-17T15:10:18.228917+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -1873,44 +1873,24 @@
    "ko_utc": "2026-09-17T01:20:00+00:00"
   },
   {
-   "row_id": "602324",
-   "ledger": "audit",
-   "event_id": 602324,
+   "row_id": "c13eaca3342070dd",
+   "ledger": "shadow",
+   "event_id": 213578,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "ko_utc": "2026-09-17T17:00:00+00:00"
+  },
+  {
+   "row_id": "f6d8fbf52032e54e",
+   "ledger": "shadow",
+   "event_id": 213578,
    "mkt": "ou",
-   "line": 3.5,
+   "line": 2.5,
    "side": "under",
-   "pick": "小3.5",
-   "ko_utc": "2026-09-16T17:00:00+00:00"
-  },
-  {
-   "row_id": "213572",
-   "ledger": "audit",
-   "event_id": 213572,
-   "mkt": "1x2",
-   "line": 2.5,
-   "side": "HOME",
-   "pick": "主胜",
-   "ko_utc": "2026-09-16T17:00:00+00:00"
-  },
-  {
-   "row_id": "213570",
-   "ledger": "audit",
-   "event_id": 213570,
-   "mkt": "1x2",
-   "line": 2.5,
-   "side": "HOME",
-   "pick": "主胜",
-   "ko_utc": "2026-09-16T17:00:00+00:00"
-  },
-  {
-   "row_id": "46440",
-   "ledger": "audit",
-   "event_id": 46440,
-   "mkt": "ou",
-   "line": 2.5,
-   "side": "over",
-   "pick": "大2.5",
-   "ko_utc": "2026-09-16T17:00:00+00:00"
+   "pick": "小2.5",
+   "ko_utc": "2026-09-17T17:00:00+00:00"
   },
   {
    "row_id": "213575",
@@ -1923,74 +1903,14 @@
    "ko_utc": "2026-09-16T19:30:00+00:00"
   },
   {
-   "row_id": "213574",
+   "row_id": "213578",
    "ledger": "audit",
-   "event_id": 213574,
-   "mkt": "ou",
-   "line": 3.5,
-   "side": "over",
-   "pick": "大3.5",
-   "ko_utc": "2026-09-16T19:30:00+00:00"
-  },
-  {
-   "row_id": "600964",
-   "ledger": "audit",
-   "event_id": 600964,
+   "event_id": 213578,
    "mkt": "ou",
    "line": 2.5,
    "side": "under",
    "pick": "小2.5",
-   "ko_utc": "2026-09-16T22:00:00+00:00"
-  },
-  {
-   "row_id": "599511",
-   "ledger": "audit",
-   "event_id": 599511,
-   "mkt": "ou",
-   "line": 2.5,
-   "side": "under",
-   "pick": "小2.5",
-   "ko_utc": "2026-09-16T22:00:00+00:00"
-  },
-  {
-   "row_id": "601942",
-   "ledger": "audit",
-   "event_id": 601942,
-   "mkt": "ou",
-   "line": 2.5,
-   "side": "over",
-   "pick": "大2.5",
-   "ko_utc": "2026-09-16T22:30:00+00:00"
-  },
-  {
-   "row_id": "602473",
-   "ledger": "audit",
-   "event_id": 602473,
-   "mkt": "ou",
-   "line": 2.5,
-   "side": "over",
-   "pick": "大2.5",
-   "ko_utc": "2026-09-16T23:15:00+00:00"
-  },
-  {
-   "row_id": "600965",
-   "ledger": "audit",
-   "event_id": 600965,
-   "mkt": "ou",
-   "line": 1.5,
-   "side": "over",
-   "pick": "大1.5",
-   "ko_utc": "2026-09-17T00:30:00+00:00"
-  },
-  {
-   "row_id": "220211",
-   "ledger": "audit",
-   "event_id": 220211,
-   "mkt": "ou",
-   "line": 2.5,
-   "side": "over",
-   "pick": "大2.5",
-   "ko_utc": "2026-09-17T01:20:00+00:00"
+   "ko_utc": "2026-09-17T17:00:00+00:00"
   }
  ]
 }
