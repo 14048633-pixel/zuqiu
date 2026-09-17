@@ -1,35 +1,11 @@
 {
- "window": "09-18 01:06 BJT -> 09-19 13:06 BJT",
+ "window": "09-18 07:00 BJT -> 09-19 19:00 BJT",
  "window_utc": [
-  "2026-09-17T17:06:00Z",
-  "2026-09-19T05:06:00Z"
+  "2026-09-17T23:00:00Z",
+  "2026-09-19T11:00:00Z"
  ],
- "generated": "2026-09-17T17:06:38.621164+00:00",
+ "generated": "2026-09-17T23:00:51.478103+00:00",
  "matches": [
-  {
-   "id": 224118,
-   "league": "League One",
-   "kickoff": "09-18 03:00",
-   "kickoff_iso": "2026-09-17T19:00:00+00:00",
-   "ct": "2026-09-17T19:00:00+00:00",
-   "home": "AFC Wimbledon",
-   "away": "Milton Keynes Dons",
-   "home_id": 1421,
-   "away_id": 1256,
-   "status": "notstarted"
-  },
-  {
-   "id": 213576,
-   "league": "La Liga",
-   "kickoff": "09-18 03:30",
-   "kickoff_iso": "2026-09-17T19:30:00+00:00",
-   "ct": "2026-09-17T19:30:00+00:00",
-   "home": "Málaga CF",
-   "away": "Villarreal",
-   "home_id": 1259,
-   "away_id": 41,
-   "status": "notstarted"
-  },
   {
    "id": 602474,
    "league": "Categoría Primera A",
@@ -40,7 +16,7 @@
    "away": "Rionegro Águilas Doradas",
    "home_id": 771,
    "away_id": 4786,
-   "status": "postponed"
+   "status": "cancelled"
   },
   {
    "id": 220126,
@@ -473,15 +449,135 @@
    "home_id": 306,
    "away_id": 321,
    "status": "notstarted"
+  },
+  {
+   "id": 205166,
+   "league": "K League 1",
+   "kickoff": "09-19 15:30",
+   "kickoff_iso": "2026-09-19T07:30:00+00:00",
+   "ct": "2026-09-19T07:30:00+00:00",
+   "home": "Bucheon FC 1995",
+   "away": "Gimcheon Sangmu FC",
+   "home_id": 1955,
+   "away_id": 1952,
+   "status": "notstarted"
+  },
+  {
+   "id": 212258,
+   "league": "J1 League",
+   "kickoff": "09-19 17:00",
+   "kickoff_iso": "2026-09-19T09:00:00+00:00",
+   "ct": "2026-09-19T09:00:00+00:00",
+   "home": "Kawasaki Frontale",
+   "away": "Kashima Antlers",
+   "home_id": 1944,
+   "away_id": 1937,
+   "status": "notstarted"
+  },
+  {
+   "id": 212254,
+   "league": "J1 League",
+   "kickoff": "09-19 17:00",
+   "kickoff_iso": "2026-09-19T09:00:00+00:00",
+   "ct": "2026-09-19T09:00:00+00:00",
+   "home": "Avispa Fukuoka",
+   "away": "Sanfrecce Hiroshima",
+   "home_id": 1940,
+   "away_id": 1933,
+   "status": "notstarted"
+  },
+  {
+   "id": 212262,
+   "league": "J1 League",
+   "kickoff": "09-19 17:30",
+   "kickoff_iso": "2026-09-19T09:30:00+00:00",
+   "ct": "2026-09-19T09:30:00+00:00",
+   "home": "V-Varen Nagasaki",
+   "away": "Cerezo Osaka",
+   "home_id": 1932,
+   "away_id": 1938,
+   "status": "notstarted"
+  },
+  {
+   "id": 212261,
+   "league": "J1 League",
+   "kickoff": "09-19 17:30",
+   "kickoff_iso": "2026-09-19T09:30:00+00:00",
+   "ct": "2026-09-19T09:30:00+00:00",
+   "home": "Urawa Red Diamonds",
+   "away": "Tokyo Verdy",
+   "home_id": 1935,
+   "away_id": 1946,
+   "status": "notstarted"
+  },
+  {
+   "id": 212260,
+   "league": "J1 League",
+   "kickoff": "09-19 17:30",
+   "kickoff_iso": "2026-09-19T09:30:00+00:00",
+   "ct": "2026-09-19T09:30:00+00:00",
+   "home": "Shimizu S-Pulse",
+   "away": "JEF United Chiba",
+   "home_id": 1943,
+   "away_id": 1934,
+   "status": "notstarted"
+  },
+  {
+   "id": 212256,
+   "league": "J1 League",
+   "kickoff": "09-19 18:00",
+   "kickoff_iso": "2026-09-19T10:00:00+00:00",
+   "ct": "2026-09-19T10:00:00+00:00",
+   "home": "Fagiano Okayama",
+   "away": "Kyoto Sanga FC",
+   "home_id": 1941,
+   "away_id": 1930,
+   "status": "notstarted"
+  },
+  {
+   "id": 212255,
+   "league": "J1 League",
+   "kickoff": "09-19 18:00",
+   "kickoff_iso": "2026-09-19T10:00:00+00:00",
+   "ct": "2026-09-19T10:00:00+00:00",
+   "home": "FC Tokyo",
+   "away": "Nagoya Grampus",
+   "home_id": 1936,
+   "away_id": 1942,
+   "status": "notstarted"
+  },
+  {
+   "id": 205167,
+   "league": "K League 1",
+   "kickoff": "09-19 18:00",
+   "kickoff_iso": "2026-09-19T10:00:00+00:00",
+   "ct": "2026-09-19T10:00:00+00:00",
+   "home": "FC Anyang",
+   "away": "Ulsan HD",
+   "home_id": 1959,
+   "away_id": 1950,
+   "status": "notstarted"
+  },
+  {
+   "id": 212263,
+   "league": "J1 League",
+   "kickoff": "09-19 18:30",
+   "kickoff_iso": "2026-09-19T10:30:00+00:00",
+   "ct": "2026-09-19T10:30:00+00:00",
+   "home": "Yokohama F. Marinos",
+   "away": "Mito Hollyhock",
+   "home_id": 1928,
+   "away_id": 1947,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 63,
-  "n_keep": 39,
-  "n_drop": 24,
+  "n_src": 70,
+  "n_keep": 47,
+  "n_drop": 23,
   "drop_reasons": {
-   "league_unmapped": 24
+   "league_unmapped": 23
   }
  }
 }
