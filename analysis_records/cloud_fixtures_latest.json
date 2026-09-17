@@ -1,23 +1,11 @@
 {
- "window": "09-17 19:11 BJT -> 09-19 07:11 BJT",
+ "window": "09-18 01:06 BJT -> 09-19 13:06 BJT",
  "window_utc": [
-  "2026-09-17T11:11:00Z",
-  "2026-09-18T23:11:00Z"
+  "2026-09-17T17:06:00Z",
+  "2026-09-19T05:06:00Z"
  ],
- "generated": "2026-09-17T11:11:57.798231+00:00",
+ "generated": "2026-09-17T17:06:38.621164+00:00",
  "matches": [
-  {
-   "id": 213578,
-   "league": "La Liga",
-   "kickoff": "09-18 01:00",
-   "kickoff_iso": "2026-09-17T17:00:00+00:00",
-   "ct": "2026-09-17T17:00:00+00:00",
-   "home": "Real Betis",
-   "away": "Getafe",
-   "home_id": 56,
-   "away_id": 50,
-   "status": "notstarted"
-  },
   {
    "id": 224118,
    "league": "League One",
@@ -401,15 +389,99 @@
    "home_id": 826,
    "away_id": 838,
    "status": "notstarted"
+  },
+  {
+   "id": 10135,
+   "league": "Brasileirão Serie B",
+   "kickoff": "09-19 07:30",
+   "kickoff_iso": "2026-09-18T23:30:00+00:00",
+   "ct": "2026-09-18T23:30:00+00:00",
+   "home": "Ceará",
+   "away": "Grêmio Novorizontino",
+   "home_id": 169,
+   "away_id": 836,
+   "status": "notstarted"
+  },
+  {
+   "id": 5289,
+   "league": "MLS",
+   "kickoff": "09-19 07:30",
+   "kickoff_iso": "2026-09-18T23:30:00+00:00",
+   "ct": "2026-09-18T23:30:00+00:00",
+   "home": "New York City FC",
+   "away": "New York Red Bulls",
+   "home_id": 301,
+   "away_id": 281,
+   "status": "notstarted"
+  },
+  {
+   "id": 10142,
+   "league": "Brasileirão Serie B",
+   "kickoff": "09-19 08:00",
+   "kickoff_iso": "2026-09-19T00:00:00+00:00",
+   "ct": "2026-09-19T00:00:00+00:00",
+   "home": "São Bernardo",
+   "away": "Atlético Goianiense",
+   "home_id": 841,
+   "away_id": 819,
+   "status": "notstarted"
+  },
+  {
+   "id": 223733,
+   "league": "Liga Profesional de Fútbol",
+   "kickoff": "09-19 08:15",
+   "kickoff_iso": "2026-09-19T00:15:00+00:00",
+   "ct": "2026-09-19T00:15:00+00:00",
+   "home": "Racing Club",
+   "away": "Sarmiento",
+   "home_id": 733,
+   "away_id": 4999,
+   "status": "notstarted"
+  },
+  {
+   "id": 211570,
+   "league": "Liga MX Apertura",
+   "kickoff": "09-19 09:00",
+   "kickoff_iso": "2026-09-19T01:00:00+00:00",
+   "ct": "2026-09-19T01:00:00+00:00",
+   "home": "Club Puebla",
+   "away": "Atlante FC",
+   "home_id": 304,
+   "away_id": 3840,
+   "status": "notstarted"
+  },
+  {
+   "id": 220163,
+   "league": "Categoría Primera A",
+   "kickoff": "09-19 09:10",
+   "kickoff_iso": "2026-09-19T01:10:00+00:00",
+   "ct": "2026-09-19T01:10:00+00:00",
+   "home": "Independiente Medellín",
+   "away": "Jaguares de Córdoba",
+   "home_id": 786,
+   "away_id": 4785,
+   "status": "postponed"
+  },
+  {
+   "id": 211571,
+   "league": "Liga MX Apertura",
+   "kickoff": "09-19 11:00",
+   "kickoff_iso": "2026-09-19T03:00:00+00:00",
+   "ct": "2026-09-19T03:00:00+00:00",
+   "home": "FC Juárez",
+   "away": "Tigres UANL",
+   "home_id": 306,
+   "away_id": 321,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 60,
-  "n_keep": 33,
-  "n_drop": 27,
+  "n_src": 63,
+  "n_keep": 39,
+  "n_drop": 24,
   "drop_reasons": {
-   "league_unmapped": 27
+   "league_unmapped": 24
   }
  }
 }
