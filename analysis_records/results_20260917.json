@@ -1,10 +1,187 @@
 {
  "date": "2026-09-17",
  "window_utc": [
-  "2026-09-15T13:09:08Z",
-  "2026-09-17T01:09:08Z"
+  "2026-09-15T14:09:09Z",
+  "2026-09-17T02:09:09Z"
  ],
  "results": [
+  {
+   "id": 602473,
+   "league_id": 80,
+   "season_id": 1570,
+   "home_team_id": 3891,
+   "home_team": "Once Caldas",
+   "away_team_id": 781,
+   "away_team": "Deportes Tolima",
+   "home_coach_id": 2692,
+   "away_coach_id": 1966,
+   "referee_id": 2728,
+   "venue_id": 1663,
+   "event_date": "2026-09-16T23:15:00+00:00",
+   "status": "finished",
+   "replaced_by": null,
+   "round_number": 7,
+   "round_name": "",
+   "group_name": null,
+   "stage": "league-phase",
+   "stage_name": "League phase",
+   "round_label": "League phase · Matchday 7",
+   "period": "FT",
+   "current_minute": 90,
+   "home_score": 1,
+   "away_score": 0,
+   "home_score_ht": 1,
+   "away_score_ht": 0,
+   "penalty_shootout": null,
+   "extra_time_score": null,
+   "is_local_derby": false,
+   "is_neutral_ground": false,
+   "travel_distance_km": 76,
+   "weather": {
+    "code": 2,
+    "description": "cloudy",
+    "wind_speed": 0.5,
+    "temperature_c": 17
+   },
+   "pitch_condition": 1,
+   "attendance": null,
+   "live_websocket": true,
+   "websocket_plus": true,
+   "highlights": [
+    {
+     "kind": "goals",
+     "title": "Once Caldas 1 - 0 Tolima — 8' Dayro Moreno",
+     "url": "https://www.youtube.com/watch?v=m7hA_wAe0PY",
+     "thumbnail": "https://i.ytimg.com/vi/m7hA_wAe0PY/hqdefault.jpg",
+     "published_at": "2026-09-17T00:06:15+00:00"
+    }
+   ],
+   "head_to_head": {
+    "total_matches": 21,
+    "home_wins": 8,
+    "draws": 6,
+    "away_wins": 7,
+    "home_goals": 27,
+    "away_goals": 29,
+    "avg_total_goals": 2.6666666666666665,
+    "home_win_rate": 0.38095238095238093,
+    "away_win_rate": 0.3333333333333333,
+    "recent_matches": [
+     {
+      "away": "Once Caldas",
+      "date": "2026-02-15T21:20:00+00:00",
+      "home": "Deportes Tolima",
+      "score": "2-1",
+      "event_id": 220069,
+      "away_score": 1,
+      "home_score": 2,
+      "away_team_id": 3891,
+      "home_team_id": 781
+     },
+     {
+      "away": "Once Caldas",
+      "date": "2025-03-11T01:30:00+00:00",
+      "home": "Deportes Tolima",
+      "score": "2-0",
+      "event_id": 225402,
+      "away_score": 0,
+      "home_score": 2,
+      "away_team_id": 3891,
+      "home_team_id": 781
+     },
+     {
+      "away": "Deportes Tolima",
+      "date": "2024-05-26T23:00:00+00:00",
+      "home": "Once Caldas",
+      "score": "0-1",
+      "event_id": 230980,
+      "away_score": 1,
+      "home_score": 0,
+      "away_team_id": 781,
+      "home_team_id": 3891
+     },
+     {
+      "away": "Once Caldas",
+      "date": "2024-05-13T00:30:00+00:00",
+      "home": "Deportes Tolima",
+      "score": "1-1",
+      "event_id": 230938,
+      "away_score": 1,
+      "home_score": 1,
+      "away_team_id": 3891,
+      "home_team_id": 781
+     },
+     {
+      "away": "Deportes Tolima",
+      "date": "2024-04-06T01:20:00+00:00",
+      "home": "Once Caldas",
+      "score": "2-1",
+      "event_id": 231079,
+      "away_score": 1,
+      "home_score": 2,
+      "away_team_id": 781,
+      "home_team_id": 3891
+     },
+     {
+      "away": "Deportes Tolima",
+      "date": "2023-01-31T01:10:00+00:00",
+      "home": "Once Caldas",
+      "score": "1-1",
+      "event_id": 240485,
+      "away_score": 1,
+      "home_score": 1,
+      "away_team_id": 781,
+      "home_team_id": 3891
+     },
+     {
+      "away": "Deportes Tolima",
+      "date": "2022-03-22T23:00:00+00:00",
+      "home": "Once Caldas",
+      "score": "2-2",
+      "event_id": 251112,
+      "away_score": 2,
+      "home_score": 2,
+      "away_team_id": 781,
+      "home_team_id": 3891
+     },
+     {
+      "away": "Once Caldas",
+      "date": "2021-01-18T20:30:00+00:00",
+      "home": "Deportes Tolima",
+      "score": "1-1",
+      "event_id": 264271,
+      "away_score": 1,
+      "home_score": 1,
+      "away_team_id": 3891,
+      "home_team_id": 781
+     },
+     {
+      "away": "Once Caldas",
+      "date": "2020-11-15T23:00:00+00:00",
+      "home": "Deportes Tolima",
+      "score": "2-3",
+      "event_id": 276893,
+      "away_score": 3,
+      "home_score": 2,
+      "away_team_id": 3891,
+      "home_team_id": 781
+     },
+     {
+      "away": "Deportes Tolima",
+      "date": "2019-02-24T22:30:00+00:00",
+      "home": "Once Caldas",
+      "score": "2-1",
+      "event_id": 286466,
+      "away_score": 1,
+      "home_score": 2,
+      "away_team_id": 781,
+      "home_team_id": 3891
+     }
+    ]
+   },
+   "has_xg": false,
+   "previous_leg_event_id": null
+  },
   {
    "id": 601942,
    "league_id": 9,
@@ -27,7 +204,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 21",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 97,
    "home_score": 3,
    "away_score": 2,
    "home_score_ht": 1,
@@ -171,7 +348,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -565,7 +742,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 6",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 94,
    "home_score": 7,
    "away_score": 2,
    "home_score_ht": 4,
@@ -1096,7 +1273,7 @@
    "stage_name": "League phase",
    "round_label": "League phase · Matchday 1",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 1,
    "away_score": 0,
    "home_score_ht": 0,
@@ -1118,7 +1295,7 @@
    "websocket_plus": true,
    "highlights": [],
    "head_to_head": null,
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -1143,7 +1320,7 @@
    "stage_name": "League phase",
    "round_label": "League phase · Matchday 1",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 95,
    "home_score": 0,
    "away_score": 0,
    "home_score_ht": 0,
@@ -1165,7 +1342,7 @@
    "websocket_plus": true,
    "highlights": [],
    "head_to_head": null,
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -1190,7 +1367,7 @@
    "stage_name": "League phase",
    "round_label": "League phase · Matchday 1",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 1,
    "away_score": 2,
    "home_score_ht": 0,
@@ -1276,7 +1453,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -1301,7 +1478,7 @@
    "stage_name": "League phase",
    "round_label": "League phase · Matchday 1",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 2,
    "away_score": 1,
    "home_score_ht": 1,
@@ -1323,7 +1500,7 @@
    "websocket_plus": true,
    "highlights": [],
    "head_to_head": null,
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -1348,7 +1525,7 @@
    "stage_name": "League phase",
    "round_label": "League phase · Matchday 1",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 0,
    "away_score": 0,
    "home_score_ht": 0,
@@ -1404,7 +1581,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -1429,7 +1606,7 @@
    "stage_name": "League phase",
    "round_label": "League phase · Matchday 1",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 2,
    "away_score": 0,
    "home_score_ht": 1,
@@ -1451,7 +1628,7 @@
    "websocket_plus": true,
    "highlights": [],
    "head_to_head": null,
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -1476,7 +1653,7 @@
    "stage_name": "League phase",
    "round_label": "League phase · Matchday 1",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 94,
    "home_score": 0,
    "away_score": 2,
    "home_score_ht": 0,
@@ -1532,7 +1709,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -2624,7 +2801,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 6",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 96,
    "home_score": 0,
    "away_score": 1,
    "home_score_ht": 0,
@@ -2801,7 +2978,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 6",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 94,
    "home_score": 4,
    "away_score": 0,
    "home_score_ht": 1,
@@ -3155,7 +3332,7 @@
    "stage_name": "League phase",
    "round_label": "League phase · Matchday 1",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 92,
    "home_score": 1,
    "away_score": 0,
    "home_score_ht": 0,
@@ -3210,7 +3387,7 @@
    "stage_name": "League phase",
    "round_label": "League phase · Matchday 1",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 1,
    "away_score": 4,
    "home_score_ht": 0,

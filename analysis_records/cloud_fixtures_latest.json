@@ -1,23 +1,11 @@
 {
- "window": "09-17 09:08 BJT -> 09-18 21:08 BJT",
+ "window": "09-17 10:08 BJT -> 09-18 22:08 BJT",
  "window_utc": [
-  "2026-09-17T01:08:00Z",
-  "2026-09-18T13:08:00Z"
+  "2026-09-17T02:08:00Z",
+  "2026-09-18T14:08:00Z"
  ],
- "generated": "2026-09-17T01:08:38.910223+00:00",
+ "generated": "2026-09-17T02:08:38.056186+00:00",
  "matches": [
-  {
-   "id": 220211,
-   "league": "Categoría Primera A",
-   "kickoff": "09-17 09:20",
-   "kickoff_iso": "2026-09-17T01:20:00+00:00",
-   "ct": "2026-09-17T01:20:00+00:00",
-   "home": "Internacional de Bogotá",
-   "away": "Atlético Nacional",
-   "home_id": 3181,
-   "away_id": 766,
-   "status": "notstarted"
-  },
   {
    "id": 213578,
    "league": "La Liga",
@@ -117,11 +105,11 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 25,
-  "n_keep": 9,
-  "n_drop": 16,
+  "n_src": 20,
+  "n_keep": 8,
+  "n_drop": 12,
   "drop_reasons": {
-   "league_unmapped": 16
+   "league_unmapped": 12
   }
  }
 }
