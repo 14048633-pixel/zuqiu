@@ -1,23 +1,11 @@
 {
- "window": "09-17 07:58 BJT -> 09-18 19:58 BJT",
+ "window": "09-17 09:08 BJT -> 09-18 21:08 BJT",
  "window_utc": [
-  "2026-09-16T23:58:00Z",
-  "2026-09-18T11:58:00Z"
+  "2026-09-17T01:08:00Z",
+  "2026-09-18T13:08:00Z"
  ],
- "generated": "2026-09-16T23:58:15.157579+00:00",
+ "generated": "2026-09-17T01:08:38.910223+00:00",
  "matches": [
-  {
-   "id": 600965,
-   "league": "Copa Libertadores",
-   "kickoff": "09-17 08:30",
-   "kickoff_iso": "2026-09-17T00:30:00+00:00",
-   "ct": "2026-09-17T00:30:00+00:00",
-   "home": "Corinthians",
-   "away": "Estudiantes de La Plata",
-   "home_id": 167,
-   "away_id": 787,
-   "status": "notstarted"
-  },
   {
    "id": 220211,
    "league": "Categoría Primera A",
@@ -129,11 +117,11 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 27,
-  "n_keep": 10,
-  "n_drop": 17,
+  "n_src": 25,
+  "n_keep": 9,
+  "n_drop": 16,
   "drop_reasons": {
-   "league_unmapped": 17
+   "league_unmapped": 16
   }
  }
 }
