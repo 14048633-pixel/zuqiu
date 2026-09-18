@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T17:11:31.820397+00:00",
+ "generated_at": "2026-09-18T17:25:23.350353+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -2163,6 +2163,36 @@
    "ko_utc": "2026-09-18T18:45:00+00:00"
   },
   {
+   "row_id": "8e8b5f3aec2dc0d9",
+   "ledger": "shadow",
+   "event_id": 214058,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "ko_utc": "2026-09-18T19:00:00+00:00"
+  },
+  {
+   "row_id": "b9a22a37e390bedc",
+   "ledger": "shadow",
+   "event_id": 213584,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "ko_utc": "2026-09-18T19:00:00+00:00"
+  },
+  {
+   "row_id": "58c1195b7138010b",
+   "ledger": "shadow",
+   "event_id": 213584,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "ko_utc": "2026-09-18T19:00:00+00:00"
+  },
+  {
    "row_id": "213575",
    "ledger": "audit",
    "event_id": 213575,
@@ -2321,6 +2351,26 @@
    "side": "under",
    "pick": "小2.5",
    "ko_utc": "2026-09-18T18:45:00+00:00"
+  },
+  {
+   "row_id": "214058",
+   "ledger": "audit",
+   "event_id": 214058,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "ko_utc": "2026-09-18T19:00:00+00:00"
+  },
+  {
+   "row_id": "213584",
+   "ledger": "audit",
+   "event_id": 213584,
+   "mkt": "1x2",
+   "line": 2.5,
+   "side": "HOME",
+   "pick": "主胜",
+   "ko_utc": "2026-09-18T19:00:00+00:00"
   }
  ]
 }
