@@ -1,0 +1,2872 @@
+[
+ {
+  "ko_bjt": "09-19 22:00",
+  "league": "League Two",
+  "home": "Salford City",
+  "away": "Swindon Town",
+  "model_wdl": [
+   67.2,
+   25.4,
+   7.4
+  ],
+  "market_wdl": [
+   62.6,
+   20.9,
+   16.6
+  ],
+  "xg": [
+   1.52,
+   0.33,
+   1.85
+  ],
+  "over25": 44.6,
+  "ou_line": 3.5,
+  "ou_quote": {
+   "line": 3.5,
+   "over": 2.3,
+   "under": 1.58,
+   "src": "bsd"
+  },
+  "data_warnings": [],
+  "draw_warn_pct": 20.9,
+  "bets": [
+   {
+    "name": "主胜",
+    "prob": 67.2,
+    "odds": 1.52,
+    "fair_prob": 62.6,
+    "ensemble_prob": 65.5,
+    "ev": 2.1,
+    "star": 0,
+    "mkt": "1x2",
+    "model_calibrated": false,
+    "calibration_src": null,
+    "veto_low": "低样本(<60)禁主/客胜"
+   },
+   {
+    "name": "小3.5",
+    "prob": 88.2,
+    "fair_prob": 59.3,
+    "fair_src": "two_way_devig",
+    "odds": 1.58,
+    "ev": 39.4,
+    "star": 0,
+    "mkt": "ou",
+    "line": 3.5,
+    "side": "under",
+    "win_prob": 88.2,
+    "push_prob": 0.0,
+    "loss_prob": 11.8,
+    "line_src": "bsd",
+    "model_calibrated": false,
+    "calibration_src": null,
+    "ou_gate_applied": false,
+    "note_non25": "非2.5线(无2.5校准/无BSD闸门)星级封顶2",
+    "bsd_ou_gate": false,
+    "note_big_div": "模型vs市场大分歧(29pp)封顶2星",
+    "veto_big_div": "模型vs市场分歧>25pp不推荐",
+    "note_line": "非2.5主盘线，未独立校准",
+    "production_allowed": false
+   }
+  ],
+  "best": {
+   "name": "主胜",
+   "prob": 67.2,
+   "odds": 1.52,
+   "fair_prob": 62.6,
+   "ensemble_prob": 65.5,
+   "ev": 2.1,
+   "star": 0,
+   "mkt": "1x2",
+   "model_calibrated": false,
+   "calibration_src": null,
+   "veto_low": "低样本(<60)禁主/客胜"
+  },
+  "injury_coef": [
+   1.0,
+   1.0
+  ],
+  "injury_note": null,
+  "injury_detail": {
+   "home": [],
+   "away": []
+  },
+  "odds_estimated": false,
+  "odds_src": "bsd",
+  "odds_sources": null,
+  "odds_n_sources": null,
+  "odds_dispersion": null,
+  "odds_note": "live源(composite)失败: 多源全部失败: theoddsapi: TheOddsAPI HTTP 401: Unauthorized; infersports: InferSports 未找到 Salford City vs Swindon Town; apifootball: API-Football fixtures 错误: {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}; 已降级为近期均盘",
+  "ev_basis": {
+   "probability_source": "model_only",
+   "decision_basis": "model_only",
+   "market_weight": 0.5,
+   "note": "EV 使用不含市场先验的校准模型概率(model_1x2); ensemble(市场权重0.50)仅用于展示与一致性审计",
+   "calibration_mode": "time_holdout",
+   "calibration_mode_detail": "holdout_partial(oos=17/fallback=21/uncalibrated=2)",
+   "calibration_src": null,
+   "model_calibrated": false,
+   "low_confidence_calibration": false,
+   "calibration_policy": "downgrade",
+   "calibration_coverage": {
+    "mode": "time_holdout",
+    "mode_detail": null,
+    "n_leagues_total": 40,
+    "n_leagues_calibrated": 38,
+    "n_holdout_oos": 17,
+    "n_in_sample_fallback": 21,
+    "n_uncalibrated": 2,
+    "uncalibrated_leagues": [
+     "E3",
+     "SC1"
+    ],
+    "unlabeled_leagues": [],
+    "fallback_leagues": [
+     "AUS",
+     "AUT",
+     "CAFCL",
+     "COL1",
+     "D1",
+     "D2",
+     "DNK",
+     "E2",
+     "F1",
+     "G1",
+     "I2",
+     "JP1",
+     "KR1",
+     "LIB",
+     "NO1",
+     "P1",
+     "SUD",
+     "SW1",
+     "SWE",
+     "T1",
+     "UCL"
+    ],
+    "ou_src": {
+     "ARG": "holdout",
+     "AUS": "holdout",
+     "AUT": "holdout",
+     "B1": "holdout",
+     "BR": "holdout",
+     "BR2": "holdout",
+     "CAFCL": "holdout",
+     "COL1": "holdout",
+     "CSL": "holdout",
+     "D1": "holdout",
+     "D2": "holdout",
+     "DNK": "holdout",
+     "E0": "holdout",
+     "E1": "holdout",
+     "E2": "holdout",
+     "E3": "holdout",
+     "F1": "holdout",
+     "F2": "holdout",
+     "G1": "holdout",
+     "I1": "holdout",
+     "I2": "holdout",
+     "KR1": "holdout",
+     "LIB": "holdout",
+     "MLS": "holdout",
+     "MX1": "holdout",
+     "N1": "holdout",
+     "NO1": "holdout",
+     "P1": "holdout",
+     "POL": "holdout",
+     "ROU": "holdout",
+     "SAU": "holdout",
+     "SC1": "holdout",
+     "SP1": "holdout",
+     "SP2": "holdout",
+     "SUD": "holdout",
+     "SW1": "holdout",
+     "SWE": "holdout",
+     "T1": "holdout",
+     "UCL": "holdout"
+    }
+   }
+  },
+  "bsd_over25": null,
+  "bsd_ou_gate": {
+   "applied": false,
+   "conflict": false,
+   "gap_pp": null
+  },
+  "event_id": 224629,
+  "bsd_prediction": {
+   "model_version": "dc-blend-v1",
+   "confidence": 0.6097,
+   "created_at": "2026-09-13T02:15:24Z",
+   "markets": {
+    "match_result": {
+     "prob_home": 61.0,
+     "prob_draw": 21.6,
+     "prob_away": 17.5,
+     "predicted": "H"
+    },
+    "expected_goals": {
+     "home": 1.57,
+     "away": 1.29
+    },
+    "over_under": {
+     "prob_over_15": 81.6,
+     "prob_over_25": 61.0,
+     "prob_over_35": 38.0
+    },
+    "btts": {
+     "prob_yes": 57.2
+    },
+    "score": {
+     "most_likely": "1-1"
+    },
+    "draw_no_bet": {
+     "prob_home": 59.1
+    },
+    "corners": {
+     "prob_over_85": 66.0,
+     "prob_over_95": 54.4,
+     "prob_over_105": 43.4
+    }
+   },
+   "recommendations": {
+    "favorite": "H",
+    "favorite_prob": 61.0,
+    "bet_favorite": false,
+    "over_15": false,
+    "over_25": false,
+    "over_35": false,
+    "btts": false,
+    "winner": false
+   }
+  },
+  "bsd_odds_best": null
+ },
+ {
+  "ko_bjt": "09-19 22:00",
+  "league": "Premier League",
+  "home": "Brighton & Hove Albion",
+  "away": "Arsenal",
+  "model_wdl": [
+   46.8,
+   26.2,
+   27.0
+  ],
+  "market_wdl": [
+   19.5,
+   23.8,
+   56.6
+  ],
+  "xg": [
+   0.81,
+   1.67,
+   2.49
+  ],
+  "over25": 46.2,
+  "ou_line": 2.5,
+  "ou_quote": {
+   "line": 2.5,
+   "over": 1.75,
+   "under": 2.09,
+   "src": "bsd"
+  },
+  "data_warnings": [],
+  "draw_warn_pct": 23.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 53.8,
+    "fair_prob": 45.6,
+    "fair_src": "two_way_devig",
+    "odds": 2.09,
+    "ev": 12.3,
+    "star": 0,
+    "mkt": "ou",
+    "line": 2.5,
+    "side": "under",
+    "win_prob": 53.8,
+    "push_prob": 0.0,
+    "loss_prob": 46.2,
+    "line_src": "bsd",
+    "model_calibrated": true,
+    "calibration_src": "holdout",
+    "ou_gate_applied": true,
+    "bsd_ou_gate": true,
+    "veto_bsd_ou": "BSD OU方向冲突禁出(本地小 vs BSD大)"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 53.8,
+   "fair_prob": 45.6,
+   "fair_src": "two_way_devig",
+   "odds": 2.09,
+   "ev": 12.3,
+   "star": 0,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "win_prob": 53.8,
+   "push_prob": 0.0,
+   "loss_prob": 46.2,
+   "line_src": "bsd",
+   "model_calibrated": true,
+   "calibration_src": "holdout",
+   "ou_gate_applied": true,
+   "bsd_ou_gate": true,
+   "veto_bsd_ou": "BSD OU方向冲突禁出(本地小 vs BSD大)"
+  },
+  "injury_coef": [
+   0.9505509999999999,
+   1.087335
+  ],
+  "injury_note": "伤停λ修正 主x0.951 客x1.087 (10人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Femi Azeez",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Jack Hinshelwood",
+     "pos": "中场",
+     "weight": 1.0,
+     "tag": "主力(首发62%)",
+     "atk": 0.02,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Kaoru Mitoma",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(25%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Mats Wieffer",
+     "pos": "后卫",
+     "weight": 1.0,
+     "tag": "主力(首发62%)",
+     "atk": 0.0,
+     "def": 0.04,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Michael Svoboda",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Stefanos Tzimas",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Yankuba Minteh",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(38%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Zadok Yohanna",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0,
+     "replacement_coef": 1.0
+    }
+   ],
+   "away": [
+    {
+     "name": "Louie Copley",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "William Saliba",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014,
+     "replacement_coef": 1.0
+    }
+   ]
+  },
+  "odds_estimated": false,
+  "odds_src": "bsd",
+  "odds_sources": null,
+  "odds_n_sources": null,
+  "odds_dispersion": null,
+  "odds_note": "live源(composite)失败: 多源全部失败: infersports: InferSports 未找到 Brighton & Hove Albion vs Arsenal; theoddsapi: TheOddsAPI HTTP 401: Unauthorized; apifootball: API-Football fixtures 错误: {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}; 已降级为近期均盘",
+  "ev_basis": {
+   "probability_source": "model_only",
+   "decision_basis": "model_only",
+   "market_weight": 0.5,
+   "note": "EV 使用不含市场先验的校准模型概率(model_1x2); ensemble(市场权重0.50)仅用于展示与一致性审计",
+   "calibration_mode": "time_holdout",
+   "calibration_mode_detail": "holdout_partial(oos=17/fallback=21/uncalibrated=2)",
+   "calibration_src": "holdout",
+   "model_calibrated": true,
+   "low_confidence_calibration": false,
+   "calibration_policy": "downgrade",
+   "calibration_coverage": {
+    "mode": "time_holdout",
+    "mode_detail": null,
+    "n_leagues_total": 40,
+    "n_leagues_calibrated": 38,
+    "n_holdout_oos": 17,
+    "n_in_sample_fallback": 21,
+    "n_uncalibrated": 2,
+    "uncalibrated_leagues": [
+     "E3",
+     "SC1"
+    ],
+    "unlabeled_leagues": [],
+    "fallback_leagues": [
+     "AUS",
+     "AUT",
+     "CAFCL",
+     "COL1",
+     "D1",
+     "D2",
+     "DNK",
+     "E2",
+     "F1",
+     "G1",
+     "I2",
+     "JP1",
+     "KR1",
+     "LIB",
+     "NO1",
+     "P1",
+     "SUD",
+     "SW1",
+     "SWE",
+     "T1",
+     "UCL"
+    ],
+    "ou_src": {
+     "ARG": "holdout",
+     "AUS": "holdout",
+     "AUT": "holdout",
+     "B1": "holdout",
+     "BR": "holdout",
+     "BR2": "holdout",
+     "CAFCL": "holdout",
+     "COL1": "holdout",
+     "CSL": "holdout",
+     "D1": "holdout",
+     "D2": "holdout",
+     "DNK": "holdout",
+     "E0": "holdout",
+     "E1": "holdout",
+     "E2": "holdout",
+     "E3": "holdout",
+     "F1": "holdout",
+     "F2": "holdout",
+     "G1": "holdout",
+     "I1": "holdout",
+     "I2": "holdout",
+     "KR1": "holdout",
+     "LIB": "holdout",
+     "MLS": "holdout",
+     "MX1": "holdout",
+     "N1": "holdout",
+     "NO1": "holdout",
+     "P1": "holdout",
+     "POL": "holdout",
+     "ROU": "holdout",
+     "SAU": "holdout",
+     "SC1": "holdout",
+     "SP1": "holdout",
+     "SP2": "holdout",
+     "SUD": "holdout",
+     "SW1": "holdout",
+     "SWE": "holdout",
+     "T1": "holdout",
+     "UCL": "holdout"
+    }
+   }
+  },
+  "bsd_over25": 54.1,
+  "bsd_ou_gate": {
+   "applied": true,
+   "conflict": true,
+   "gap_pp": 7.9
+  },
+  "event_id": 209577,
+  "bsd_prediction": {
+   "model_version": "dc-blend-v1",
+   "confidence": 0.5571,
+   "created_at": "2026-09-13T02:15:24Z",
+   "markets": {
+    "match_result": {
+     "prob_home": 20.1,
+     "prob_draw": 24.2,
+     "prob_away": 55.7,
+     "predicted": "A"
+    },
+    "expected_goals": {
+     "home": 1.12,
+     "away": 1.52
+    },
+    "over_under": {
+     "prob_over_15": 76.6,
+     "prob_over_25": 54.1,
+     "prob_over_35": 31.4
+    },
+    "btts": {
+     "prob_yes": 54.5
+    },
+    "score": {
+     "most_likely": "1-1"
+    },
+    "draw_no_bet": {
+     "prob_home": 35.9
+    },
+    "corners": {
+     "prob_over_85": 56.0,
+     "prob_over_95": 44.2,
+     "prob_over_105": 32.4
+    }
+   },
+   "recommendations": {
+    "favorite": "A",
+    "favorite_prob": 55.7,
+    "bet_favorite": false,
+    "over_15": false,
+    "over_25": false,
+    "over_35": false,
+    "btts": false,
+    "winner": false
+   }
+  },
+  "bsd_odds_best": {
+   "event_id": 209577,
+   "bookmakers_count": 26,
+   "total_odds": 363,
+   "markets": {
+    "1x2": {
+     "HOME": {
+      "best_odds": 5.01,
+      "line": null,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 17
+     },
+     "DRAW": {
+      "best_odds": 4.21,
+      "line": null,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 17
+     },
+     "AWAY": {
+      "best_odds": 1.75,
+      "line": null,
+      "bookmaker_slug": "dafabet",
+      "bookmaker_name": "dafabet",
+      "n_bookmakers": 17
+     }
+    },
+    "over_under_05": {
+     "over@0.5": {
+      "best_odds": 1.02,
+      "line": 0.5,
+      "bookmaker_slug": "betvictor",
+      "bookmaker_name": "BetVictor",
+      "n_bookmakers": 2
+     },
+     "under@0.5": {
+      "best_odds": 13.0,
+      "line": 0.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 3
+     }
+    },
+    "over_under_15": {
+     "over@1.5": {
+      "best_odds": 1.27,
+      "line": 1.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 4
+     },
+     "under@1.5": {
+      "best_odds": 4.2,
+      "line": 1.5,
+      "bookmaker_slug": "betvictor",
+      "bookmaker_name": "BetVictor",
+      "n_bookmakers": 4
+     }
+    },
+    "over_under_25": {
+     "over@2.5": {
+      "best_odds": 1.79,
+      "line": 2.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 6
+     },
+     "under@2.5": {
+      "best_odds": 2.18,
+      "line": 2.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 6
+     }
+    },
+    "over_under_35": {
+     "over@3.5": {
+      "best_odds": 2.94,
+      "line": 3.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 4
+     },
+     "under@3.5": {
+      "best_odds": 1.43,
+      "line": 3.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 4
+     }
+    },
+    "btts": {
+     "yes": {
+      "best_odds": 1.75,
+      "line": null,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 17
+     },
+     "no": {
+      "best_odds": 2.1,
+      "line": null,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 17
+     }
+    },
+    "double_chance": {
+     "1X": {
+      "best_odds": 2.22,
+      "line": null,
+      "bookmaker_slug": "sbo",
+      "bookmaker_name": "Sbo",
+      "n_bookmakers": 5
+     },
+     "X2": {
+      "best_odds": 1.22,
+      "line": null,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 5
+     },
+     "12": {
+      "best_odds": 1.27,
+      "line": null,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 5
+     }
+    },
+    "draw_no_bet": {
+     "HOME": {
+      "best_odds": 3.75,
+      "line": null,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 11
+     },
+     "AWAY": {
+      "best_odds": 1.31,
+      "line": null,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 11
+     }
+    },
+    "asian_handicap": {
+     "HOME@-0.75": {
+      "best_odds": 6.25,
+      "line": -0.75,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "AWAY@-0.75": {
+      "best_odds": 1.14,
+      "line": -0.75,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 5
+     },
+     "HOME@0.25": {
+      "best_odds": 2.6,
+      "line": 0.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 6
+     },
+     "AWAY@0.25": {
+      "best_odds": 1.53,
+      "line": 0.25,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 6
+     },
+     "HOME@0.75": {
+      "best_odds": 1.975,
+      "line": 0.75,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 6
+     },
+     "AWAY@0.75": {
+      "best_odds": 1.94,
+      "line": 0.75,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 6
+     },
+     "HOME@1.25": {
+      "best_odds": 1.571,
+      "line": 1.25,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 5
+     },
+     "AWAY@1.25": {
+      "best_odds": 2.65,
+      "line": 1.25,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 5
+     },
+     "HOME@1.75": {
+      "best_odds": 1.3,
+      "line": 1.75,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "AWAY@1.75": {
+      "best_odds": 3.7,
+      "line": 1.75,
+      "bookmaker_slug": "unibet",
+      "bookmaker_name": "Unibet",
+      "n_bookmakers": 5
+     },
+     "HOME@2.25": {
+      "best_odds": 1.16,
+      "line": 2.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "AWAY@2.25": {
+      "best_odds": 5.75,
+      "line": 2.25,
+      "bookmaker_slug": "unibet",
+      "bookmaker_name": "Unibet",
+      "n_bookmakers": 5
+     },
+     "HOME@2.75": {
+      "best_odds": 1.054,
+      "line": 2.75,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 2
+     },
+     "AWAY@2.75": {
+      "best_odds": 6.65,
+      "line": 2.75,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 2
+     },
+     "HOME@-1.5": {
+      "best_odds": 9.2,
+      "line": -1.5,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 3
+     },
+     "AWAY@-1.5": {
+      "best_odds": 1.04,
+      "line": -1.5,
+      "bookmaker_slug": "fonbet",
+      "bookmaker_name": "fonbet",
+      "n_bookmakers": 3
+     },
+     "HOME@2.5": {
+      "best_odds": 1.14,
+      "line": 2.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "AWAY@2.5": {
+      "best_odds": 5.75,
+      "line": 2.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "HOME@1.5": {
+      "best_odds": 1.463,
+      "line": 1.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 7
+     },
+     "AWAY@1.5": {
+      "best_odds": 3.015,
+      "line": 1.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 7
+     },
+     "HOME@3.5": {
+      "best_odds": 1.01,
+      "line": 3.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 1
+     },
+     "AWAY@3.5": {
+      "best_odds": 11.5,
+      "line": 3.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 1
+     },
+     "HOME@-0.5": {
+      "best_odds": 4.65,
+      "line": -0.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 3
+     },
+     "AWAY@-0.5": {
+      "best_odds": 1.22,
+      "line": -0.5,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 3
+     },
+     "HOME@0.0": {
+      "best_odds": 3.55,
+      "line": 0.0,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 7
+     },
+     "AWAY@0.0": {
+      "best_odds": 1.32,
+      "line": 0.0,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 7
+     },
+     "HOME@0.5": {
+      "best_odds": 2.15,
+      "line": 0.5,
+      "bookmaker_slug": "10bet",
+      "bookmaker_name": "10bet",
+      "n_bookmakers": 9
+     },
+     "AWAY@0.5": {
+      "best_odds": 1.74,
+      "line": 0.5,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 9
+     },
+     "HOME@2.0": {
+      "best_odds": 1.19,
+      "line": 2.0,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 6
+     },
+     "AWAY@2.0": {
+      "best_odds": 5.25,
+      "line": 2.0,
+      "bookmaker_slug": "unibet",
+      "bookmaker_name": "Unibet",
+      "n_bookmakers": 6
+     },
+     "HOME@-1.0": {
+      "best_odds": 8.6,
+      "line": -1.0,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 3
+     },
+     "AWAY@-1.0": {
+      "best_odds": 1.05,
+      "line": -1.0,
+      "bookmaker_slug": "fonbet",
+      "bookmaker_name": "fonbet",
+      "n_bookmakers": 3
+     },
+     "HOME@1.0": {
+      "best_odds": 1.675,
+      "line": 1.0,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 8
+     },
+     "AWAY@1.0": {
+      "best_odds": 2.3,
+      "line": 1.0,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 8
+     },
+     "HOME@-0.25": {
+      "best_odds": 4.15,
+      "line": -0.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "AWAY@-0.25": {
+      "best_odds": 1.26,
+      "line": -0.25,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 5
+     }
+    },
+    "total_corners": {
+     "over@7.5": {
+      "best_odds": 1.29,
+      "line": 7.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 2
+     },
+     "under@7.5": {
+      "best_odds": 3.3,
+      "line": 7.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 2
+     },
+     "over@8.5": {
+      "best_odds": 1.61,
+      "line": 8.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 3
+     },
+     "under@8.5": {
+      "best_odds": 2.4,
+      "line": 8.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 3
+     },
+     "over@9.5": {
+      "best_odds": 2.01,
+      "line": 9.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 3
+     },
+     "under@9.5": {
+      "best_odds": 1.85,
+      "line": 9.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 3
+     },
+     "over@10.5": {
+      "best_odds": 2.52,
+      "line": 10.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 3
+     },
+     "under@10.5": {
+      "best_odds": 1.5,
+      "line": 10.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 3
+     },
+     "over@11.5": {
+      "best_odds": 3.3,
+      "line": 11.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 2
+     },
+     "under@11.5": {
+      "best_odds": 1.29,
+      "line": 11.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 2
+     }
+    }
+   }
+  }
+ },
+ {
+  "ko_bjt": "09-19 22:00",
+  "league": "Premier League",
+  "home": "Everton",
+  "away": "Ipswich Town",
+  "model_wdl": [
+   35.7,
+   23.9,
+   40.4
+  ],
+  "market_wdl": [
+   53.9,
+   24.5,
+   21.6
+  ],
+  "xg": [
+   3.38,
+   1.64,
+   5.02
+  ],
+  "over25": 59.6,
+  "ou_line": 2.5,
+  "ou_quote": {
+   "line": 2.5,
+   "over": 1.74,
+   "under": 2.1,
+   "src": "bsd"
+  },
+  "data_warnings": [],
+  "draw_warn_pct": 24.5,
+  "bets": [
+   {
+    "name": "大2.5",
+    "prob": 59.6,
+    "fair_prob": 54.7,
+    "fair_src": "two_way_devig",
+    "odds": 1.74,
+    "ev": 3.7,
+    "star": 1,
+    "mkt": "ou",
+    "line": 2.5,
+    "side": "over",
+    "win_prob": 59.6,
+    "push_prob": 0.0,
+    "loss_prob": 40.4,
+    "line_src": "bsd",
+    "model_calibrated": true,
+    "calibration_src": "holdout",
+    "ou_gate_applied": true,
+    "bsd_ou_gate": true
+   }
+  ],
+  "best": {
+   "name": "大2.5",
+   "prob": 59.6,
+   "fair_prob": 54.7,
+   "fair_src": "two_way_devig",
+   "odds": 1.74,
+   "ev": 3.7,
+   "star": 1,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "win_prob": 59.6,
+   "push_prob": 0.0,
+   "loss_prob": 40.4,
+   "line_src": "bsd",
+   "model_calibrated": true,
+   "calibration_src": "holdout",
+   "ou_gate_applied": true,
+   "bsd_ou_gate": true
+  },
+  "injury_coef": [
+   1.0,
+   1.0
+  ],
+  "injury_note": null,
+  "injury_detail": {
+   "home": [],
+   "away": []
+  },
+  "odds_estimated": false,
+  "odds_src": "bsd",
+  "odds_sources": null,
+  "odds_n_sources": null,
+  "odds_dispersion": null,
+  "odds_note": "live源(composite)失败: 多源全部失败: infersports: InferSports 未找到 Everton vs Ipswich Town; theoddsapi: TheOddsAPI HTTP 401: Unauthorized; apifootball: API-Football fixtures 错误: {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}; 已降级为近期均盘",
+  "ev_basis": {
+   "probability_source": "model_only",
+   "decision_basis": "model_only",
+   "market_weight": 0.5,
+   "note": "EV 使用不含市场先验的校准模型概率(model_1x2); ensemble(市场权重0.50)仅用于展示与一致性审计",
+   "calibration_mode": "time_holdout",
+   "calibration_mode_detail": "holdout_partial(oos=17/fallback=21/uncalibrated=2)",
+   "calibration_src": "holdout",
+   "model_calibrated": true,
+   "low_confidence_calibration": false,
+   "calibration_policy": "downgrade",
+   "calibration_coverage": {
+    "mode": "time_holdout",
+    "mode_detail": null,
+    "n_leagues_total": 40,
+    "n_leagues_calibrated": 38,
+    "n_holdout_oos": 17,
+    "n_in_sample_fallback": 21,
+    "n_uncalibrated": 2,
+    "uncalibrated_leagues": [
+     "E3",
+     "SC1"
+    ],
+    "unlabeled_leagues": [],
+    "fallback_leagues": [
+     "AUS",
+     "AUT",
+     "CAFCL",
+     "COL1",
+     "D1",
+     "D2",
+     "DNK",
+     "E2",
+     "F1",
+     "G1",
+     "I2",
+     "JP1",
+     "KR1",
+     "LIB",
+     "NO1",
+     "P1",
+     "SUD",
+     "SW1",
+     "SWE",
+     "T1",
+     "UCL"
+    ],
+    "ou_src": {
+     "ARG": "holdout",
+     "AUS": "holdout",
+     "AUT": "holdout",
+     "B1": "holdout",
+     "BR": "holdout",
+     "BR2": "holdout",
+     "CAFCL": "holdout",
+     "COL1": "holdout",
+     "CSL": "holdout",
+     "D1": "holdout",
+     "D2": "holdout",
+     "DNK": "holdout",
+     "E0": "holdout",
+     "E1": "holdout",
+     "E2": "holdout",
+     "E3": "holdout",
+     "F1": "holdout",
+     "F2": "holdout",
+     "G1": "holdout",
+     "I1": "holdout",
+     "I2": "holdout",
+     "KR1": "holdout",
+     "LIB": "holdout",
+     "MLS": "holdout",
+     "MX1": "holdout",
+     "N1": "holdout",
+     "NO1": "holdout",
+     "P1": "holdout",
+     "POL": "holdout",
+     "ROU": "holdout",
+     "SAU": "holdout",
+     "SC1": "holdout",
+     "SP1": "holdout",
+     "SP2": "holdout",
+     "SUD": "holdout",
+     "SW1": "holdout",
+     "SWE": "holdout",
+     "T1": "holdout",
+     "UCL": "holdout"
+    }
+   }
+  },
+  "bsd_over25": 54.6,
+  "bsd_ou_gate": {
+   "applied": true,
+   "conflict": false,
+   "gap_pp": 5.0
+  },
+  "event_id": 209578,
+  "bsd_prediction": {
+   "model_version": "dc-blend-v1",
+   "confidence": 0.5304,
+   "created_at": "2026-09-13T02:15:24Z",
+   "markets": {
+    "match_result": {
+     "prob_home": 53.0,
+     "prob_draw": 24.9,
+     "prob_away": 22.1,
+     "predicted": "H"
+    },
+    "expected_goals": {
+     "home": 1.39,
+     "away": 1.41
+    },
+    "over_under": {
+     "prob_over_15": 77.0,
+     "prob_over_25": 54.6,
+     "prob_over_35": 33.0
+    },
+    "btts": {
+     "prob_yes": 55.9
+    },
+    "score": {
+     "most_likely": "1-1"
+    },
+    "draw_no_bet": {
+     "prob_home": 48.9
+    },
+    "corners": {
+     "prob_over_85": 57.9,
+     "prob_over_95": 46.1,
+     "prob_over_105": 34.3
+    }
+   },
+   "recommendations": {
+    "favorite": "H",
+    "favorite_prob": 53.0,
+    "bet_favorite": false,
+    "over_15": false,
+    "over_25": false,
+    "over_35": false,
+    "btts": false,
+    "winner": false
+   }
+  },
+  "bsd_odds_best": {
+   "event_id": 209578,
+   "bookmakers_count": 26,
+   "total_odds": 374,
+   "markets": {
+    "1x2": {
+     "HOME": {
+      "best_odds": 1.86,
+      "line": null,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 17
+     },
+     "DRAW": {
+      "best_odds": 3.96,
+      "line": null,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 17
+     },
+     "AWAY": {
+      "best_odds": 4.5,
+      "line": null,
+      "bookmaker_slug": "cloudbet",
+      "bookmaker_name": "CloudBet",
+      "n_bookmakers": 17
+     }
+    },
+    "over_under_05": {
+     "over@0.5": {
+      "best_odds": 1.02,
+      "line": 0.5,
+      "bookmaker_slug": "betvictor",
+      "bookmaker_name": "BetVictor",
+      "n_bookmakers": 3
+     },
+     "under@0.5": {
+      "best_odds": 13.5,
+      "line": 0.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 3
+     }
+    },
+    "over_under_15": {
+     "over@1.5": {
+      "best_odds": 1.27,
+      "line": 1.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 4
+     },
+     "under@1.5": {
+      "best_odds": 4.33,
+      "line": 1.5,
+      "bookmaker_slug": "betvictor",
+      "bookmaker_name": "BetVictor",
+      "n_bookmakers": 4
+     }
+    },
+    "over_under_25": {
+     "over@2.5": {
+      "best_odds": 1.79,
+      "line": 2.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 6
+     },
+     "under@2.5": {
+      "best_odds": 2.18,
+      "line": 2.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 6
+     }
+    },
+    "over_under_35": {
+     "over@3.5": {
+      "best_odds": 2.86,
+      "line": 3.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 4
+     },
+     "under@3.5": {
+      "best_odds": 1.45,
+      "line": 3.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 4
+     }
+    },
+    "btts": {
+     "yes": {
+      "best_odds": 1.7,
+      "line": null,
+      "bookmaker_slug": "fonbet",
+      "bookmaker_name": "fonbet",
+      "n_bookmakers": 17
+     },
+     "no": {
+      "best_odds": 2.2,
+      "line": null,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 17
+     }
+    },
+    "double_chance": {
+     "1X": {
+      "best_odds": 1.25,
+      "line": null,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 5
+     },
+     "X2": {
+      "best_odds": 2.1,
+      "line": null,
+      "bookmaker_slug": "sbo",
+      "bookmaker_name": "Sbo",
+      "n_bookmakers": 5
+     },
+     "12": {
+      "best_odds": 1.29,
+      "line": null,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 5
+     }
+    },
+    "draw_no_bet": {
+     "HOME": {
+      "best_odds": 1.37,
+      "line": null,
+      "bookmaker_slug": "unibet",
+      "bookmaker_name": "Unibet",
+      "n_bookmakers": 11
+     },
+     "AWAY": {
+      "best_odds": 3.25,
+      "line": null,
+      "bookmaker_slug": "betsson",
+      "bookmaker_name": "Betsson",
+      "n_bookmakers": 11
+     }
+    },
+    "asian_handicap": {
+     "HOME@-1.75": {
+      "best_odds": 4.46,
+      "line": -1.75,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 5
+     },
+     "AWAY@-1.75": {
+      "best_odds": 1.264,
+      "line": -1.75,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 5
+     },
+     "HOME@-1.25": {
+      "best_odds": 2.85,
+      "line": -1.25,
+      "bookmaker_slug": "betsson",
+      "bookmaker_name": "Betsson",
+      "n_bookmakers": 6
+     },
+     "AWAY@-1.25": {
+      "best_odds": 1.462,
+      "line": -1.25,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 6
+     },
+     "HOME@-0.75": {
+      "best_odds": 2.05,
+      "line": -0.75,
+      "bookmaker_slug": "unibet",
+      "bookmaker_name": "Unibet",
+      "n_bookmakers": 7
+     },
+     "AWAY@-0.75": {
+      "best_odds": 1.825,
+      "line": -0.75,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 7
+     },
+     "HOME@0.25": {
+      "best_odds": 1.3,
+      "line": 0.25,
+      "bookmaker_slug": "unibet",
+      "bookmaker_name": "Unibet",
+      "n_bookmakers": 5
+     },
+     "AWAY@0.25": {
+      "best_odds": 3.7,
+      "line": 0.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "HOME@0.75": {
+      "best_odds": 1.16,
+      "line": 0.75,
+      "bookmaker_slug": "unibet",
+      "bookmaker_name": "Unibet",
+      "n_bookmakers": 5
+     },
+     "AWAY@0.75": {
+      "best_odds": 5.75,
+      "line": 0.75,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "HOME@-2.75": {
+      "best_odds": 7.16,
+      "line": -2.75,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 2
+     },
+     "AWAY@-2.75": {
+      "best_odds": 1.042,
+      "line": -2.75,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 2
+     },
+     "HOME@-2.25": {
+      "best_odds": 6.5,
+      "line": -2.25,
+      "bookmaker_slug": "unibet",
+      "bookmaker_name": "Unibet",
+      "n_bookmakers": 5
+     },
+     "AWAY@-2.25": {
+      "best_odds": 1.14,
+      "line": -2.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "HOME@-1.5": {
+      "best_odds": 3.41,
+      "line": -1.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 7
+     },
+     "AWAY@-1.5": {
+      "best_odds": 1.385,
+      "line": -1.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 7
+     },
+     "HOME@-2.5": {
+      "best_odds": 6.25,
+      "line": -2.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "AWAY@-2.5": {
+      "best_odds": 1.12,
+      "line": -2.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "HOME@1.5": {
+      "best_odds": 1.05,
+      "line": 1.5,
+      "bookmaker_slug": "fonbet",
+      "bookmaker_name": "fonbet",
+      "n_bookmakers": 3
+     },
+     "AWAY@1.5": {
+      "best_odds": 8.4,
+      "line": 1.5,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 3
+     },
+     "HOME@-0.5": {
+      "best_odds": 1.83,
+      "line": -0.5,
+      "bookmaker_slug": "interwetten",
+      "bookmaker_name": "Interwetten",
+      "n_bookmakers": 10
+     },
+     "AWAY@-0.5": {
+      "best_odds": 2.05,
+      "line": -0.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 10
+     },
+     "HOME@0.0": {
+      "best_odds": 1.37,
+      "line": 0.0,
+      "bookmaker_slug": "unibet",
+      "bookmaker_name": "Unibet",
+      "n_bookmakers": 8
+     },
+     "AWAY@0.0": {
+      "best_odds": 3.3,
+      "line": 0.0,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 8
+     },
+     "HOME@0.5": {
+      "best_odds": 1.25,
+      "line": 0.5,
+      "bookmaker_slug": "unibet",
+      "bookmaker_name": "Unibet",
+      "n_bookmakers": 3
+     },
+     "AWAY@0.5": {
+      "best_odds": 4.15,
+      "line": 0.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 3
+     },
+     "HOME@-2.0": {
+      "best_odds": 5.75,
+      "line": -2.0,
+      "bookmaker_slug": "unibet",
+      "bookmaker_name": "Unibet",
+      "n_bookmakers": 6
+     },
+     "AWAY@-2.0": {
+      "best_odds": 1.16,
+      "line": -2.0,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 6
+     },
+     "HOME@-1.0": {
+      "best_odds": 2.5,
+      "line": -1.0,
+      "bookmaker_slug": "unibet",
+      "bookmaker_name": "Unibet",
+      "n_bookmakers": 8
+     },
+     "AWAY@-1.0": {
+      "best_odds": 1.6,
+      "line": -1.0,
+      "bookmaker_slug": "fonbet",
+      "bookmaker_name": "fonbet",
+      "n_bookmakers": 8
+     },
+     "HOME@-3.0": {
+      "best_odds": 12.0,
+      "line": -3.0,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 1
+     },
+     "AWAY@-3.0": {
+      "best_odds": 1.01,
+      "line": -3.0,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 1
+     },
+     "HOME@1.0": {
+      "best_odds": 1.06,
+      "line": 1.0,
+      "bookmaker_slug": "fonbet",
+      "bookmaker_name": "fonbet",
+      "n_bookmakers": 3
+     },
+     "AWAY@1.0": {
+      "best_odds": 7.7,
+      "line": 1.0,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 3
+     },
+     "HOME@-0.25": {
+      "best_odds": 1.58,
+      "line": -0.25,
+      "bookmaker_slug": "betsson",
+      "bookmaker_name": "Betsson",
+      "n_bookmakers": 7
+     },
+     "AWAY@-0.25": {
+      "best_odds": 2.45,
+      "line": -0.25,
+      "bookmaker_slug": "betsson",
+      "bookmaker_name": "Betsson",
+      "n_bookmakers": 7
+     }
+    },
+    "total_corners": {
+     "over@7.5": {
+      "best_odds": 1.25,
+      "line": 7.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 2
+     },
+     "under@7.5": {
+      "best_odds": 3.6,
+      "line": 7.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 2
+     },
+     "over@8.5": {
+      "best_odds": 1.51,
+      "line": 8.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 3
+     },
+     "under@8.5": {
+      "best_odds": 2.48,
+      "line": 8.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 3
+     },
+     "over@9.5": {
+      "best_odds": 1.9,
+      "line": 9.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 3
+     },
+     "under@9.5": {
+      "best_odds": 1.96,
+      "line": 9.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 3
+     },
+     "over@10.5": {
+      "best_odds": 2.4,
+      "line": 10.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 3
+     },
+     "under@10.5": {
+      "best_odds": 1.56,
+      "line": 10.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 3
+     },
+     "over@11.5": {
+      "best_odds": 3.3,
+      "line": 11.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 2
+     },
+     "under@11.5": {
+      "best_odds": 1.33,
+      "line": 11.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 2
+     }
+    }
+   }
+  }
+ },
+ {
+  "ko_bjt": "09-19 22:00",
+  "league": "Premier League",
+  "home": "Newcastle United",
+  "away": "Hull City",
+  "model_wdl": [
+   45.4,
+   27.8,
+   26.8
+  ],
+  "market_wdl": [
+   60.3,
+   21.8,
+   17.9
+  ],
+  "xg": [
+   1.35,
+   1.38,
+   2.73
+  ],
+  "over25": 48.5,
+  "ou_line": 2.5,
+  "ou_quote": {
+   "line": 2.5,
+   "over": 1.63,
+   "under": 2.28,
+   "src": "bsd"
+  },
+  "data_warnings": [],
+  "draw_warn_pct": 21.8,
+  "bets": [
+   {
+    "name": "小2.5",
+    "prob": 51.5,
+    "fair_prob": 41.7,
+    "fair_src": "two_way_devig",
+    "odds": 2.28,
+    "ev": 17.5,
+    "star": 0,
+    "mkt": "ou",
+    "line": 2.5,
+    "side": "under",
+    "win_prob": 51.5,
+    "push_prob": 0.0,
+    "loss_prob": 48.5,
+    "line_src": "bsd",
+    "model_calibrated": true,
+    "calibration_src": "holdout",
+    "ou_gate_applied": true,
+    "bsd_ou_gate": true,
+    "veto_bsd_ou": "BSD OU方向冲突禁出(本地小 vs BSD大)"
+   }
+  ],
+  "best": {
+   "name": "小2.5",
+   "prob": 51.5,
+   "fair_prob": 41.7,
+   "fair_src": "two_way_devig",
+   "odds": 2.28,
+   "ev": 17.5,
+   "star": 0,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "win_prob": 51.5,
+   "push_prob": 0.0,
+   "loss_prob": 48.5,
+   "line_src": "bsd",
+   "model_calibrated": true,
+   "calibration_src": "holdout",
+   "ou_gate_applied": true,
+   "bsd_ou_gate": true,
+   "veto_bsd_ou": "BSD OU方向冲突禁出(本地小 vs BSD大)"
+  },
+  "injury_coef": [
+   1.0061280000000001,
+   0.9975989999999999
+  ],
+  "injury_note": "伤停λ修正 主x1.006 客x0.998 (15人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Anthony Elanga",
+     "pos": "前锋",
+     "weight": 1.0,
+     "tag": "主力(首发62%)",
+     "atk": 0.04,
+     "def": 0.0,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Dan Burn",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(12%)",
+     "atk": 0.0,
+     "def": 0.014,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Ewen Jaouen",
+     "pos": "门将",
+     "weight": 0.35,
+     "tag": "轮换(25%)",
+     "atk": 0.007,
+     "def": 0.014,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Jacob Ramsey",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(38%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Joelinton",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(12%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Nico González",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(38%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "William Osula",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(38%)",
+     "atk": 0.014,
+     "def": 0.0,
+     "replacement_coef": 1.0
+    }
+   ],
+   "away": [
+    {
+     "name": "Charlie Hughes",
+     "pos": "后卫",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.0,
+     "def": 0.014,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Darko Gyabi",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Eliot Matazo",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Hidemasa Morita",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(12%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Ilyas Ansah",
+     "pos": "前锋",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.014,
+     "def": 0.0,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Jack Butland",
+     "pos": "门将",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.014,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Nobel Mendy",
+     "pos": "后卫",
+     "weight": 1.0,
+     "tag": "主力(首发62%)",
+     "atk": 0.0,
+     "def": 0.04,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Óscar Zambrano",
+     "pos": "中场",
+     "weight": 0.35,
+     "tag": "轮换(0%)",
+     "atk": 0.007,
+     "def": 0.007,
+     "replacement_coef": 1.0
+    }
+   ]
+  },
+  "odds_estimated": false,
+  "odds_src": "bsd",
+  "odds_sources": null,
+  "odds_n_sources": null,
+  "odds_dispersion": null,
+  "odds_note": "live源(composite)失败: 多源全部失败: infersports: InferSports 未找到 Newcastle United vs Hull City; theoddsapi: TheOddsAPI HTTP 401: Unauthorized; apifootball: API-Football fixtures 错误: {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}; 已降级为近期均盘",
+  "ev_basis": {
+   "probability_source": "model_only",
+   "decision_basis": "model_only",
+   "market_weight": 0.5,
+   "note": "EV 使用不含市场先验的校准模型概率(model_1x2); ensemble(市场权重0.50)仅用于展示与一致性审计",
+   "calibration_mode": "time_holdout",
+   "calibration_mode_detail": "holdout_partial(oos=17/fallback=21/uncalibrated=2)",
+   "calibration_src": "holdout",
+   "model_calibrated": true,
+   "low_confidence_calibration": false,
+   "calibration_policy": "downgrade",
+   "calibration_coverage": {
+    "mode": "time_holdout",
+    "mode_detail": null,
+    "n_leagues_total": 40,
+    "n_leagues_calibrated": 38,
+    "n_holdout_oos": 17,
+    "n_in_sample_fallback": 21,
+    "n_uncalibrated": 2,
+    "uncalibrated_leagues": [
+     "E3",
+     "SC1"
+    ],
+    "unlabeled_leagues": [],
+    "fallback_leagues": [
+     "AUS",
+     "AUT",
+     "CAFCL",
+     "COL1",
+     "D1",
+     "D2",
+     "DNK",
+     "E2",
+     "F1",
+     "G1",
+     "I2",
+     "JP1",
+     "KR1",
+     "LIB",
+     "NO1",
+     "P1",
+     "SUD",
+     "SW1",
+     "SWE",
+     "T1",
+     "UCL"
+    ],
+    "ou_src": {
+     "ARG": "holdout",
+     "AUS": "holdout",
+     "AUT": "holdout",
+     "B1": "holdout",
+     "BR": "holdout",
+     "BR2": "holdout",
+     "CAFCL": "holdout",
+     "COL1": "holdout",
+     "CSL": "holdout",
+     "D1": "holdout",
+     "D2": "holdout",
+     "DNK": "holdout",
+     "E0": "holdout",
+     "E1": "holdout",
+     "E2": "holdout",
+     "E3": "holdout",
+     "F1": "holdout",
+     "F2": "holdout",
+     "G1": "holdout",
+     "I1": "holdout",
+     "I2": "holdout",
+     "KR1": "holdout",
+     "LIB": "holdout",
+     "MLS": "holdout",
+     "MX1": "holdout",
+     "N1": "holdout",
+     "NO1": "holdout",
+     "P1": "holdout",
+     "POL": "holdout",
+     "ROU": "holdout",
+     "SAU": "holdout",
+     "SC1": "holdout",
+     "SP1": "holdout",
+     "SP2": "holdout",
+     "SUD": "holdout",
+     "SW1": "holdout",
+     "SWE": "holdout",
+     "T1": "holdout",
+     "UCL": "holdout"
+    }
+   }
+  },
+  "bsd_over25": 58.3,
+  "bsd_ou_gate": {
+   "applied": true,
+   "conflict": true,
+   "gap_pp": 9.8
+  },
+  "event_id": 209582,
+  "bsd_prediction": {
+   "model_version": "dc-blend-v1",
+   "confidence": 0.5921,
+   "created_at": "2026-09-13T02:15:24Z",
+   "markets": {
+    "match_result": {
+     "prob_home": 59.2,
+     "prob_draw": 22.3,
+     "prob_away": 18.5,
+     "predicted": "H"
+    },
+    "expected_goals": {
+     "home": 1.81,
+     "away": 1.24
+    },
+    "over_under": {
+     "prob_over_15": 79.8,
+     "prob_over_25": 58.3,
+     "prob_over_35": 36.5
+    },
+    "btts": {
+     "prob_yes": 56.6
+    },
+    "score": {
+     "most_likely": "1-1"
+    },
+    "draw_no_bet": {
+     "prob_home": 67.7
+    },
+    "corners": {
+     "prob_over_85": 67.2,
+     "prob_over_95": 55.7,
+     "prob_over_105": 44.8
+    }
+   },
+   "recommendations": {
+    "favorite": "H",
+    "favorite_prob": 59.2,
+    "bet_favorite": false,
+    "over_15": false,
+    "over_25": false,
+    "over_35": false,
+    "btts": false,
+    "winner": false
+   }
+  },
+  "bsd_odds_best": {
+   "event_id": 209582,
+   "bookmakers_count": 26,
+   "total_odds": 346,
+   "markets": {
+    "1x2": {
+     "HOME": {
+      "best_odds": 1.64,
+      "line": null,
+      "bookmaker_slug": "dafabet",
+      "bookmaker_name": "dafabet",
+      "n_bookmakers": 17
+     },
+     "DRAW": {
+      "best_odds": 4.45,
+      "line": null,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 17
+     },
+     "AWAY": {
+      "best_odds": 5.49,
+      "line": null,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 17
+     }
+    },
+    "over_under_05": {
+     "over@0.5": {
+      "best_odds": 1.03,
+      "line": 0.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 2
+     },
+     "under@0.5": {
+      "best_odds": 16.0,
+      "line": 0.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 2
+     }
+    },
+    "over_under_15": {
+     "over@1.5": {
+      "best_odds": 1.18,
+      "line": 1.5,
+      "bookmaker_slug": "betvictor",
+      "bookmaker_name": "BetVictor",
+      "n_bookmakers": 3
+     },
+     "under@1.5": {
+      "best_odds": 5.0,
+      "line": 1.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 3
+     }
+    },
+    "over_under_25": {
+     "over@2.5": {
+      "best_odds": 1.7,
+      "line": 2.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 5
+     },
+     "under@2.5": {
+      "best_odds": 2.34,
+      "line": 2.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 5
+     }
+    },
+    "over_under_35": {
+     "over@3.5": {
+      "best_odds": 2.64,
+      "line": 3.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 4
+     },
+     "under@3.5": {
+      "best_odds": 1.51,
+      "line": 3.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 4
+     }
+    },
+    "btts": {
+     "yes": {
+      "best_odds": 1.67,
+      "line": null,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 17
+     },
+     "no": {
+      "best_odds": 2.22,
+      "line": null,
+      "bookmaker_slug": "betsson",
+      "bookmaker_name": "Betsson",
+      "n_bookmakers": 17
+     }
+    },
+    "double_chance": {
+     "1X": {
+      "best_odds": 1.18,
+      "line": null,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 5
+     },
+     "X2": {
+      "best_odds": 2.4,
+      "line": null,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 5
+     },
+     "12": {
+      "best_odds": 1.25,
+      "line": null,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 5
+     }
+    },
+    "draw_no_bet": {
+     "HOME": {
+      "best_odds": 1.27,
+      "line": null,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 11
+     },
+     "AWAY": {
+      "best_odds": 4.1,
+      "line": null,
+      "bookmaker_slug": "betsson",
+      "bookmaker_name": "Betsson",
+      "n_bookmakers": 11
+     }
+    },
+    "asian_handicap": {
+     "HOME@-1.75": {
+      "best_odds": 3.2,
+      "line": -1.75,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 3
+     },
+     "AWAY@-1.75": {
+      "best_odds": 1.442,
+      "line": -1.75,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 3
+     },
+     "HOME@-1.25": {
+      "best_odds": 2.4,
+      "line": -1.25,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 6
+     },
+     "AWAY@-1.25": {
+      "best_odds": 1.715,
+      "line": -1.25,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 6
+     },
+     "HOME@-0.75": {
+      "best_odds": 1.81,
+      "line": -0.75,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 6
+     },
+     "AWAY@-0.75": {
+      "best_odds": 2.15,
+      "line": -0.75,
+      "bookmaker_slug": "betsson",
+      "bookmaker_name": "Betsson",
+      "n_bookmakers": 6
+     },
+     "HOME@0.25": {
+      "best_odds": 1.23,
+      "line": 0.25,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 4
+     },
+     "AWAY@0.25": {
+      "best_odds": 4.25,
+      "line": 0.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 4
+     },
+     "HOME@0.75": {
+      "best_odds": 1.13,
+      "line": 0.75,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 4
+     },
+     "AWAY@0.75": {
+      "best_odds": 6.4,
+      "line": 0.75,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 4
+     },
+     "HOME@-2.75": {
+      "best_odds": 6.3,
+      "line": -2.75,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 4
+     },
+     "AWAY@-2.75": {
+      "best_odds": 1.125,
+      "line": -2.75,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 4
+     },
+     "HOME@-2.25": {
+      "best_odds": 4.6,
+      "line": -2.25,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 4
+     },
+     "AWAY@-2.25": {
+      "best_odds": 1.21,
+      "line": -2.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 4
+     },
+     "HOME@-1.5": {
+      "best_odds": 2.7,
+      "line": -1.5,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 7
+     },
+     "AWAY@-1.5": {
+      "best_odds": 1.578,
+      "line": -1.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 7
+     },
+     "HOME@-3.5": {
+      "best_odds": 8.2,
+      "line": -3.5,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 2
+     },
+     "AWAY@-3.5": {
+      "best_odds": 1.018,
+      "line": -3.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 2
+     },
+     "HOME@-2.5": {
+      "best_odds": 4.95,
+      "line": -2.5,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 5
+     },
+     "AWAY@-2.5": {
+      "best_odds": 1.19,
+      "line": -2.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "HOME@1.5": {
+      "best_odds": 1.04,
+      "line": 1.5,
+      "bookmaker_slug": "fonbet",
+      "bookmaker_name": "fonbet",
+      "n_bookmakers": 2
+     },
+     "AWAY@1.5": {
+      "best_odds": 11.0,
+      "line": 1.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 2
+     },
+     "HOME@-0.5": {
+      "best_odds": 1.64,
+      "line": -0.5,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 9
+     },
+     "AWAY@-0.5": {
+      "best_odds": 2.41,
+      "line": -0.5,
+      "bookmaker_slug": "betsson",
+      "bookmaker_name": "Betsson",
+      "n_bookmakers": 9
+     },
+     "HOME@0.0": {
+      "best_odds": 1.28,
+      "line": 0.0,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 5
+     },
+     "AWAY@0.0": {
+      "best_odds": 3.75,
+      "line": 0.0,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 5
+     },
+     "HOME@0.5": {
+      "best_odds": 1.2,
+      "line": 0.5,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 2
+     },
+     "AWAY@0.5": {
+      "best_odds": 4.8,
+      "line": 0.5,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 2
+     },
+     "HOME@-2.0": {
+      "best_odds": 4.2,
+      "line": -2.0,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 5
+     },
+     "AWAY@-2.0": {
+      "best_odds": 1.25,
+      "line": -2.0,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 5
+     },
+     "HOME@-1.0": {
+      "best_odds": 2.08,
+      "line": -1.0,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 8
+     },
+     "AWAY@-1.0": {
+      "best_odds": 1.86,
+      "line": -1.0,
+      "bookmaker_slug": "betsson",
+      "bookmaker_name": "Betsson",
+      "n_bookmakers": 8
+     },
+     "HOME@-3.0": {
+      "best_odds": 7.8,
+      "line": -3.0,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 2
+     },
+     "AWAY@-3.0": {
+      "best_odds": 1.032,
+      "line": -3.0,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 2
+     },
+     "HOME@1.0": {
+      "best_odds": 1.05,
+      "line": 1.0,
+      "bookmaker_slug": "fonbet",
+      "bookmaker_name": "fonbet",
+      "n_bookmakers": 3
+     },
+     "AWAY@1.0": {
+      "best_odds": 9.1,
+      "line": 1.0,
+      "bookmaker_slug": "marathon",
+      "bookmaker_name": "Marathon",
+      "n_bookmakers": 3
+     },
+     "HOME@-0.25": {
+      "best_odds": 1.46,
+      "line": -0.25,
+      "bookmaker_slug": "novibet",
+      "bookmaker_name": "Novibet",
+      "n_bookmakers": 4
+     },
+     "AWAY@-0.25": {
+      "best_odds": 2.85,
+      "line": -0.25,
+      "bookmaker_slug": "bet365",
+      "bookmaker_name": "Bet365",
+      "n_bookmakers": 4
+     }
+    },
+    "total_corners": {
+     "over@7.5": {
+      "best_odds": 1.14,
+      "line": 7.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 2
+     },
+     "under@7.5": {
+      "best_odds": 4.8,
+      "line": 7.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 2
+     },
+     "over@8.5": {
+      "best_odds": 1.3,
+      "line": 8.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 2
+     },
+     "under@8.5": {
+      "best_odds": 3.2,
+      "line": 8.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 2
+     },
+     "over@9.5": {
+      "best_odds": 1.53,
+      "line": 9.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 3
+     },
+     "under@9.5": {
+      "best_odds": 2.43,
+      "line": 9.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 3
+     },
+     "over@10.5": {
+      "best_odds": 1.91,
+      "line": 10.5,
+      "bookmaker_slug": "pinnacle",
+      "bookmaker_name": "Pinnacle",
+      "n_bookmakers": 3
+     },
+     "under@10.5": {
+      "best_odds": 1.95,
+      "line": 10.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 3
+     },
+     "over@11.5": {
+      "best_odds": 2.4,
+      "line": 11.5,
+      "bookmaker_slug": "betfair",
+      "bookmaker_name": "betfair",
+      "n_bookmakers": 3
+     },
+     "under@11.5": {
+      "best_odds": 1.57,
+      "line": 11.5,
+      "bookmaker_slug": "1xbet",
+      "bookmaker_name": "1xBet",
+      "n_bookmakers": 3
+     }
+    }
+   }
+  }
+ },
+ {
+  "ko_bjt": "09-19 22:00",
+  "league": "Pro League",
+  "home": "Oud-Heverlee Leuven",
+  "away": "RAAL La Louvière",
+  "model_wdl": [
+   39.0,
+   25.8,
+   35.2
+  ],
+  "market_wdl": [
+   46.0,
+   27.9,
+   26.1
+  ],
+  "xg": [
+   1.35,
+   1.18,
+   2.53
+  ],
+  "over25": 54.5,
+  "ou_line": 2.5,
+  "ou_quote": {
+   "line": 2.5,
+   "over": 1.95,
+   "under": 1.84,
+   "src": "bsd"
+  },
+  "data_warnings": [],
+  "draw_warn_pct": 27.9,
+  "bets": [
+   {
+    "name": "大2.5",
+    "prob": 54.5,
+    "fair_prob": 48.5,
+    "fair_src": "two_way_devig",
+    "odds": 1.95,
+    "ev": 6.3,
+    "star": 0,
+    "mkt": "ou",
+    "line": 2.5,
+    "side": "over",
+    "win_prob": 54.5,
+    "push_prob": 0.0,
+    "loss_prob": 45.5,
+    "line_src": "bsd",
+    "model_calibrated": true,
+    "calibration_src": "holdout",
+    "ou_gate_applied": true,
+    "bsd_ou_gate": true,
+    "veto_bsd_ou": "BSD OU方向冲突禁出(本地大 vs BSD小)"
+   }
+  ],
+  "best": {
+   "name": "大2.5",
+   "prob": 54.5,
+   "fair_prob": 48.5,
+   "fair_src": "two_way_devig",
+   "odds": 1.95,
+   "ev": 6.3,
+   "star": 0,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "win_prob": 54.5,
+   "push_prob": 0.0,
+   "loss_prob": 45.5,
+   "line_src": "bsd",
+   "model_calibrated": true,
+   "calibration_src": "holdout",
+   "ou_gate_applied": true,
+   "bsd_ou_gate": true,
+   "veto_bsd_ou": "BSD OU方向冲突禁出(本地大 vs BSD小)"
+  },
+  "injury_coef": [
+   0.98,
+   1.04
+  ],
+  "injury_note": "伤停λ修正 主x0.980 客x1.040 (3人)",
+  "injury_detail": {
+   "home": [
+    {
+     "name": "Henok Teklab",
+     "pos": "中场",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.01,
+     "def": 0.01,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Thibaud Verlinden",
+     "pos": "中场",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.01,
+     "def": 0.01,
+     "replacement_coef": 1.0
+    },
+    {
+     "name": "Thibault Vlietinck",
+     "pos": "后卫",
+     "weight": 0.5,
+     "tag": "主力待定",
+     "atk": 0.0,
+     "def": 0.02,
+     "replacement_coef": 1.0
+    }
+   ],
+   "away": []
+  },
+  "odds_estimated": false,
+  "odds_src": "bsd",
+  "odds_sources": null,
+  "odds_n_sources": null,
+  "odds_dispersion": null,
+  "odds_note": "live源(composite)失败: 多源全部失败: infersports: InferSports 未找到 Oud-Heverlee Leuven vs RAAL La Louvière; theoddsapi: TheOddsAPI HTTP 401: Unauthorized; apifootball: API-Football fixtures 错误: {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}; 已降级为近期均盘",
+  "ev_basis": {
+   "probability_source": "model_only",
+   "decision_basis": "model_only",
+   "market_weight": 0.5,
+   "note": "EV 使用不含市场先验的校准模型概率(model_1x2); ensemble(市场权重0.50)仅用于展示与一致性审计",
+   "calibration_mode": "time_holdout",
+   "calibration_mode_detail": "holdout_partial(oos=17/fallback=21/uncalibrated=2)",
+   "calibration_src": "holdout",
+   "model_calibrated": true,
+   "low_confidence_calibration": false,
+   "calibration_policy": "downgrade",
+   "calibration_coverage": {
+    "mode": "time_holdout",
+    "mode_detail": null,
+    "n_leagues_total": 40,
+    "n_leagues_calibrated": 38,
+    "n_holdout_oos": 17,
+    "n_in_sample_fallback": 21,
+    "n_uncalibrated": 2,
+    "uncalibrated_leagues": [
+     "E3",
+     "SC1"
+    ],
+    "unlabeled_leagues": [],
+    "fallback_leagues": [
+     "AUS",
+     "AUT",
+     "CAFCL",
+     "COL1",
+     "D1",
+     "D2",
+     "DNK",
+     "E2",
+     "F1",
+     "G1",
+     "I2",
+     "JP1",
+     "KR1",
+     "LIB",
+     "NO1",
+     "P1",
+     "SUD",
+     "SW1",
+     "SWE",
+     "T1",
+     "UCL"
+    ],
+    "ou_src": {
+     "ARG": "holdout",
+     "AUS": "holdout",
+     "AUT": "holdout",
+     "B1": "holdout",
+     "BR": "holdout",
+     "BR2": "holdout",
+     "CAFCL": "holdout",
+     "COL1": "holdout",
+     "CSL": "holdout",
+     "D1": "holdout",
+     "D2": "holdout",
+     "DNK": "holdout",
+     "E0": "holdout",
+     "E1": "holdout",
+     "E2": "holdout",
+     "E3": "holdout",
+     "F1": "holdout",
+     "F2": "holdout",
+     "G1": "holdout",
+     "I1": "holdout",
+     "I2": "holdout",
+     "KR1": "holdout",
+     "LIB": "holdout",
+     "MLS": "holdout",
+     "MX1": "holdout",
+     "N1": "holdout",
+     "NO1": "holdout",
+     "P1": "holdout",
+     "POL": "holdout",
+     "ROU": "holdout",
+     "SAU": "holdout",
+     "SC1": "holdout",
+     "SP1": "holdout",
+     "SP2": "holdout",
+     "SUD": "holdout",
+     "SW1": "holdout",
+     "SWE": "holdout",
+     "T1": "holdout",
+     "UCL": "holdout"
+    }
+   }
+  },
+  "bsd_over25": 48.5,
+  "bsd_ou_gate": {
+   "applied": true,
+   "conflict": true,
+   "gap_pp": 6.0
+  },
+  "event_id": 211358,
+  "bsd_prediction": {
+   "model_version": "dc-blend-v1",
+   "confidence": 0.4537,
+   "created_at": "2026-09-13T02:15:24Z",
+   "markets": {
+    "match_result": {
+     "prob_home": 45.4,
+     "prob_draw": 28.1,
+     "prob_away": 26.5,
+     "predicted": "H"
+    },
+    "expected_goals": {
+     "home": 1.38,
+     "away": 1.2
+    },
+    "over_under": {
+     "prob_over_15": 72.6,
+     "prob_over_25": 48.5,
+     "prob_over_35": 27.2
+    },
+    "btts": {
+     "prob_yes": 53.2
+    },
+    "score": {
+     "most_likely": "1-1"
+    },
+    "draw_no_bet": {
+     "prob_home": 56.1
+    },
+    "corners": {
+     "prob_over_85": 65.8,
+     "prob_over_95": 54.2,
+     "prob_over_105": 43.2
+    }
+   },
+   "recommendations": {
+    "favorite": "H",
+    "favorite_prob": 45.4,
+    "bet_favorite": false,
+    "over_15": false,
+    "over_25": false,
+    "over_35": false,
+    "btts": false,
+    "winner": false
+   }
+  },
+  "bsd_odds_best": null
+ }
+]
