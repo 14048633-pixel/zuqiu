@@ -20,9 +20,11 @@
  "t60": {
   "phase": "t60",
   "ok": true,
-  "at": "2026-09-20T21:22:07+00:00",
+  "at": "2026-09-20T23:16:38+00:00",
   "code": "cloud_daily_pipeline",
-  "repo": "/home/user/football/sync/zuqiu"
+  "repo": "/home/user/football/sync/zuqiu",
+  "skipped": true,
+  "reason": "another cloud pipeline task is running"
  },
  "settle": {
   "phase": "settle",
