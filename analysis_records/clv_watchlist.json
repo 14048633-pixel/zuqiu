@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T21:21:26.586656+00:00",
+ "generated_at": "2026-09-21T01:49:42.904942+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -4413,6 +4413,66 @@
    "ko_utc": "2026-09-20T15:30:00+00:00"
   },
   {
+   "row_id": "b3c3d6c421a3b730",
+   "ledger": "shadow",
+   "event_id": 223724,
+   "mkt": "ou",
+   "line": 1.5,
+   "side": "over",
+   "pick": "大1.5",
+   "ko_utc": "2026-09-21T22:00:00+00:00"
+  },
+  {
+   "row_id": "5bacc2ea642b5b95",
+   "ledger": "shadow",
+   "event_id": 223724,
+   "mkt": "ou",
+   "line": 1.5,
+   "side": "under",
+   "pick": "小1.5",
+   "ko_utc": "2026-09-21T22:00:00+00:00"
+  },
+  {
+   "row_id": "8e9e53616b97809d",
+   "ledger": "shadow",
+   "event_id": 10136,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "ko_utc": "2026-09-21T22:30:00+00:00"
+  },
+  {
+   "row_id": "db3bca4b758f0849",
+   "ledger": "shadow",
+   "event_id": 223725,
+   "mkt": "ou",
+   "line": 1.5,
+   "side": "under",
+   "pick": "小1.5",
+   "ko_utc": "2026-09-22T00:15:00+00:00"
+  },
+  {
+   "row_id": "7043e3d01ac0cfed",
+   "ledger": "shadow",
+   "event_id": 223725,
+   "mkt": "ou",
+   "line": 1.5,
+   "side": "over",
+   "pick": "大1.5",
+   "ko_utc": "2026-09-22T00:15:00+00:00"
+  },
+  {
+   "row_id": "579e24a6b7889247",
+   "ledger": "shadow",
+   "event_id": 10137,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "ko_utc": "2026-09-22T00:30:00+00:00"
+  },
+  {
    "row_id": "213575",
    "ledger": "audit",
    "event_id": 213575,
@@ -5351,6 +5411,46 @@
    "side": "over",
    "pick": "大2.5",
    "ko_utc": "2026-09-20T12:00:00+00:00"
+  },
+  {
+   "row_id": "223724",
+   "ledger": "audit",
+   "event_id": 223724,
+   "mkt": "ou",
+   "line": 1.5,
+   "side": "over",
+   "pick": "大1.5",
+   "ko_utc": "2026-09-21T22:00:00+00:00"
+  },
+  {
+   "row_id": "10136",
+   "ledger": "audit",
+   "event_id": 10136,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "ko_utc": "2026-09-21T22:30:00+00:00"
+  },
+  {
+   "row_id": "223725",
+   "ledger": "audit",
+   "event_id": 223725,
+   "mkt": "ou",
+   "line": 1.5,
+   "side": "under",
+   "pick": "小1.5",
+   "ko_utc": "2026-09-22T00:15:00+00:00"
+  },
+  {
+   "row_id": "10137",
+   "ledger": "audit",
+   "event_id": 10137,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "ko_utc": "2026-09-22T00:30:00+00:00"
   }
  ]
 }
