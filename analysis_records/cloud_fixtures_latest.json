@@ -1,23 +1,11 @@
 {
- "window": "09-21 19:32 BJT -> 09-23 07:32 BJT",
+ "window": "09-22 01:02 BJT -> 09-23 13:02 BJT",
  "window_utc": [
-  "2026-09-21T11:32:00Z",
-  "2026-09-22T23:32:00Z"
+  "2026-09-21T17:02:00Z",
+  "2026-09-23T05:02:00Z"
  ],
- "generated": "2026-09-21T11:32:10.649662+00:00",
+ "generated": "2026-09-21T17:02:31.376623+00:00",
  "matches": [
-  {
-   "id": 214603,
-   "league": "Superliga",
-   "kickoff": "09-21 23:00",
-   "kickoff_iso": "2026-09-21T15:00:00+00:00",
-   "ct": "2026-09-21T15:00:00+00:00",
-   "home": "SC Oțelul Galați",
-   "away": "FC Corvinul Hunedoara",
-   "home_id": 361,
-   "away_id": 3549,
-   "status": "notstarted"
-  },
   {
    "id": 223723,
    "league": "Liga Profesional de Fútbol",
@@ -101,15 +89,27 @@
    "home_id": 786,
    "away_id": 4785,
    "status": "notstarted"
+  },
+  {
+   "id": 220182,
+   "league": "Categoría Primera A",
+   "kickoff": "09-23 09:00",
+   "kickoff_iso": "2026-09-23T01:00:00+00:00",
+   "ct": "2026-09-23T01:00:00+00:00",
+   "home": "Independiente Santa Fe",
+   "away": "Deportivo Cali",
+   "home_id": 797,
+   "away_id": 3733,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 23,
+  "n_src": 21,
   "n_keep": 8,
-  "n_drop": 15,
+  "n_drop": 13,
   "drop_reasons": {
-   "league_unmapped": 15
+   "league_unmapped": 13
   }
  }
 }
