@@ -1,59 +1,11 @@
 {
- "window": "09-22 01:02 BJT -> 09-23 13:02 BJT",
+ "window": "09-22 07:08 BJT -> 09-23 19:08 BJT",
  "window_utc": [
-  "2026-09-21T17:02:00Z",
-  "2026-09-23T05:02:00Z"
+  "2026-09-21T23:08:00Z",
+  "2026-09-23T11:08:00Z"
  ],
- "generated": "2026-09-21T17:02:31.376623+00:00",
+ "generated": "2026-09-21T23:08:37.136533+00:00",
  "matches": [
-  {
-   "id": 223723,
-   "league": "Liga Profesional de Fútbol",
-   "kickoff": "09-22 01:30",
-   "kickoff_iso": "2026-09-21T17:30:00+00:00",
-   "ct": "2026-09-21T17:30:00+00:00",
-   "home": "Aldosivi",
-   "away": "Atlético Tucumán",
-   "home_id": 4993,
-   "away_id": 3132,
-   "status": "notstarted"
-  },
-  {
-   "id": 214600,
-   "league": "Superliga",
-   "kickoff": "09-22 02:00",
-   "kickoff_iso": "2026-09-21T18:00:00+00:00",
-   "ct": "2026-09-21T18:00:00+00:00",
-   "home": "FC Petrolul Ploiești",
-   "away": "FK Csíkszereda Miercurea Ciuc",
-   "home_id": 362,
-   "away_id": 367,
-   "status": "notstarted"
-  },
-  {
-   "id": 223724,
-   "league": "Liga Profesional de Fútbol",
-   "kickoff": "09-22 06:00",
-   "kickoff_iso": "2026-09-21T22:00:00+00:00",
-   "ct": "2026-09-21T22:00:00+00:00",
-   "home": "Barracas Central",
-   "away": "Independiente Rivadavia",
-   "home_id": 734,
-   "away_id": 774,
-   "status": "notstarted"
-  },
-  {
-   "id": 10136,
-   "league": "Brasileirão Serie B",
-   "kickoff": "09-22 06:30",
-   "kickoff_iso": "2026-09-21T22:30:00+00:00",
-   "ct": "2026-09-21T22:30:00+00:00",
-   "home": "Criciúma",
-   "away": "Operário-PR",
-   "home_id": 929,
-   "away_id": 828,
-   "status": "notstarted"
-  },
   {
    "id": 223725,
    "league": "Liga Profesional de Fútbol",
@@ -77,6 +29,18 @@
    "home_id": 863,
    "away_id": 928,
    "status": "notstarted"
+  },
+  {
+   "id": 10136,
+   "league": "Brasileirão Serie B",
+   "kickoff": "09-23 06:30",
+   "kickoff_iso": "2026-09-22T22:30:00+00:00",
+   "ct": "2026-09-22T22:30:00+00:00",
+   "home": "Criciúma",
+   "away": "Operário-PR",
+   "home_id": 929,
+   "away_id": 828,
+   "status": "postponed"
   },
   {
    "id": 604405,
@@ -105,11 +69,11 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 21,
-  "n_keep": 8,
-  "n_drop": 13,
+  "n_src": 24,
+  "n_keep": 5,
+  "n_drop": 19,
   "drop_reasons": {
-   "league_unmapped": 13
+   "league_unmapped": 19
   }
  }
 }
