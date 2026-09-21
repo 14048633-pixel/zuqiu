@@ -1,10 +1,10 @@
 {
- "window": "09-21 13:07 BJT -> 09-23 01:07 BJT",
+ "window": "09-21 19:32 BJT -> 09-23 07:32 BJT",
  "window_utc": [
-  "2026-09-21T05:07:00Z",
-  "2026-09-22T17:07:00Z"
+  "2026-09-21T11:32:00Z",
+  "2026-09-22T23:32:00Z"
  ],
- "generated": "2026-09-21T05:08:04.102621+00:00",
+ "generated": "2026-09-21T11:32:10.649662+00:00",
  "matches": [
   {
    "id": 214603,
@@ -89,15 +89,27 @@
    "home_id": 863,
    "away_id": 928,
    "status": "notstarted"
+  },
+  {
+   "id": 604405,
+   "league": "Categoría Primera A",
+   "kickoff": "09-23 07:00",
+   "kickoff_iso": "2026-09-22T23:00:00+00:00",
+   "ct": "2026-09-22T23:00:00+00:00",
+   "home": "Independiente Medellín",
+   "away": "Jaguares de Córdoba",
+   "home_id": 786,
+   "away_id": 4785,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 9,
-  "n_keep": 7,
-  "n_drop": 2,
+  "n_src": 23,
+  "n_keep": 8,
+  "n_drop": 15,
   "drop_reasons": {
-   "league_unmapped": 2
+   "league_unmapped": 15
   }
  }
 }
