@@ -1,10 +1,10 @@
 {
- "window": "09-22 19:04 BJT -> 09-24 07:04 BJT",
+ "window": "09-23 01:00 BJT -> 09-24 13:00 BJT",
  "window_utc": [
-  "2026-09-22T11:04:00Z",
-  "2026-09-23T23:04:00Z"
+  "2026-09-22T17:00:00Z",
+  "2026-09-24T05:00:00Z"
  ],
- "generated": "2026-09-22T11:04:39.222025+00:00",
+ "generated": "2026-09-22T17:00:39.503499+00:00",
  "matches": [
   {
    "id": 10136,
@@ -41,12 +41,36 @@
    "home_id": 797,
    "away_id": 3733,
    "status": "notstarted"
+  },
+  {
+   "id": 220183,
+   "league": "Categoría Primera A",
+   "kickoff": "09-24 08:30",
+   "kickoff_iso": "2026-09-24T00:30:00+00:00",
+   "ct": "2026-09-24T00:30:00+00:00",
+   "home": "América de Cali",
+   "away": "Rionegro Águilas Doradas",
+   "home_id": 753,
+   "away_id": 4786,
+   "status": "notstarted"
+  },
+  {
+   "id": 10313,
+   "league": "MLS",
+   "kickoff": "09-24 09:30",
+   "kickoff_iso": "2026-09-24T01:30:00+00:00",
+   "ct": "2026-09-24T01:30:00+00:00",
+   "home": "Seattle Sounders FC",
+   "away": "Real Salt Lake",
+   "home_id": 302,
+   "away_id": 279,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 40,
-  "n_keep": 3,
+  "n_src": 42,
+  "n_keep": 5,
   "n_drop": 37,
   "drop_reasons": {
    "league_unmapped": 37
