@@ -1,35 +1,11 @@
 {
- "window": "09-22 07:08 BJT -> 09-23 19:08 BJT",
+ "window": "09-22 13:04 BJT -> 09-24 01:04 BJT",
  "window_utc": [
-  "2026-09-21T23:08:00Z",
-  "2026-09-23T11:08:00Z"
+  "2026-09-22T05:04:00Z",
+  "2026-09-23T17:04:00Z"
  ],
- "generated": "2026-09-21T23:08:37.136533+00:00",
+ "generated": "2026-09-22T05:04:40.116316+00:00",
  "matches": [
-  {
-   "id": 223725,
-   "league": "Liga Profesional de Fútbol",
-   "kickoff": "09-22 08:15",
-   "kickoff_iso": "2026-09-22T00:15:00+00:00",
-   "ct": "2026-09-22T00:15:00+00:00",
-   "home": "CA Lanús",
-   "away": "Estudiantes de La Plata",
-   "home_id": 785,
-   "away_id": 787,
-   "status": "notstarted"
-  },
-  {
-   "id": 10137,
-   "league": "Brasileirão Serie B",
-   "kickoff": "09-22 08:30",
-   "kickoff_iso": "2026-09-22T00:30:00+00:00",
-   "ct": "2026-09-22T00:30:00+00:00",
-   "home": "Cuiabá",
-   "away": "Náutico",
-   "home_id": 863,
-   "away_id": 928,
-   "status": "notstarted"
-  },
   {
    "id": 10136,
    "league": "Brasileirão Serie B",
@@ -69,11 +45,11 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 24,
-  "n_keep": 5,
-  "n_drop": 19,
+  "n_src": 36,
+  "n_keep": 3,
+  "n_drop": 33,
   "drop_reasons": {
-   "league_unmapped": 19
+   "league_unmapped": 33
   }
  }
 }
