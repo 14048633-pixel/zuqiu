@@ -1,8 +1,8 @@
 {
  "date": "2026-09-23",
  "window_utc": [
-  "2026-09-21T14:58:55Z",
-  "2026-09-23T02:58:55Z"
+  "2026-09-21T17:01:16Z",
+  "2026-09-23T05:01:16Z"
  ],
  "results": [
   {
@@ -47,7 +47,15 @@
    "attendance": null,
    "live_websocket": true,
    "websocket_plus": true,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "goals",
+     "title": "Santa Fe 0 - 1 Dep. Cali — 38' Eduard Bello",
+     "url": "https://www.youtube.com/watch?v=pazZCQ9ScEE",
+     "thumbnail": "https://i.ytimg.com/vi/pazZCQ9ScEE/hqdefault.jpg",
+     "published_at": "2026-09-23T01:53:24+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 23,
     "home_wins": 7,
@@ -387,7 +395,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 29",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 98,
    "home_score": 0,
    "away_score": 2,
    "home_score_ht": 0,
@@ -407,7 +415,15 @@
    "attendance": null,
    "live_websocket": false,
    "websocket_plus": true,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "full",
+     "title": "Criciúma 0 - 2 Operário-PR — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=PRKs5iSNHuM&pp=ygULZXNwbiBicmFzaWw%3D",
+     "thumbnail": "https://i.ytimg.com/vi/PRKs5iSNHuM/hqdefault.jpg",
+     "published_at": "2026-09-23T04:07:34+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 10,
     "home_wins": 1,
@@ -531,7 +547,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -961,8 +977,8 @@
    "stage_name": "Qualification Round 2",
    "round_label": "Qualification Round 2",
    "period": "FT",
-   "current_minute": 90,
-   "home_score": 1,
+   "current_minute": 120,
+   "home_score": 2,
    "away_score": 1,
    "home_score_ht": 0,
    "away_score_ht": 0,
@@ -1095,87 +1111,6 @@
       "home_score": 1,
       "away_team_id": 1874,
       "home_team_id": 4034
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 604536,
-   "league_id": 39,
-   "season_id": 1961,
-   "home_team_id": 3344,
-   "home_team": "Wimborne Town",
-   "away_team_id": 1869,
-   "away_team": "Weston Super Mare",
-   "home_coach_id": 3647,
-   "away_coach_id": 1235,
-   "referee_id": null,
-   "venue_id": null,
-   "event_date": "2026-09-22T18:45:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 2,
-   "round_name": "Qualification Round 2",
-   "group_name": null,
-   "stage": "qualification-round-2",
-   "stage_name": "Qualification Round 2",
-   "round_label": "Qualification Round 2",
-   "period": "PEN",
-   "current_minute": 120,
-   "home_score": 1,
-   "away_score": 1,
-   "home_score_ht": 0,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": null,
-    "description": null,
-    "wind_speed": null,
-    "temperature_c": null
-   },
-   "pitch_condition": null,
-   "attendance": null,
-   "live_websocket": false,
-   "websocket_plus": false,
-   "highlights": [],
-   "head_to_head": {
-    "total_matches": 2,
-    "home_wins": 0,
-    "draws": 2,
-    "away_wins": 0,
-    "home_goals": 2,
-    "away_goals": 2,
-    "avg_total_goals": 2.0,
-    "home_win_rate": 0.0,
-    "away_win_rate": 0.0,
-    "recent_matches": [
-     {
-      "away": "Weston Super Mare",
-      "date": "2026-09-22T18:45:00+00:00",
-      "home": "Wimborne Town",
-      "score": "1-1",
-      "event_id": 604536,
-      "away_score": 1,
-      "home_score": 1,
-      "away_team_id": 1869,
-      "home_team_id": 3344
-     },
-     {
-      "away": "Wimborne Town",
-      "date": "2026-09-19T14:00:00+00:00",
-      "home": "Weston Super Mare",
-      "score": "1-1",
-      "event_id": 602574,
-      "away_score": 1,
-      "home_score": 1,
-      "away_team_id": 3344,
-      "home_team_id": 1869
      }
     ]
    },
@@ -1528,8 +1463,8 @@
    "stage_name": "Qualification Round 2",
    "round_label": "Qualification Round 2",
    "period": "FT",
-   "current_minute": 90,
-   "home_score": 2,
+   "current_minute": 120,
+   "home_score": 5,
    "away_score": 2,
    "home_score_ht": 1,
    "away_score_ht": 0,
@@ -1588,6 +1523,93 @@
    "previous_leg_event_id": null
   },
   {
+   "id": 604536,
+   "league_id": 39,
+   "season_id": 1961,
+   "home_team_id": 3344,
+   "home_team": "Wimborne Town",
+   "away_team_id": 1869,
+   "away_team": "Weston Super Mare",
+   "home_coach_id": 3647,
+   "away_coach_id": 1235,
+   "referee_id": null,
+   "venue_id": null,
+   "event_date": "2026-09-22T18:30:00+00:00",
+   "status": "finished",
+   "replaced_by": null,
+   "round_number": 2,
+   "round_name": "Qualification Round 2",
+   "group_name": null,
+   "stage": "qualification-round-2",
+   "stage_name": "Qualification Round 2",
+   "round_label": "Qualification Round 2",
+   "period": "PEN",
+   "current_minute": 120,
+   "home_score": 0,
+   "away_score": 0,
+   "home_score_ht": 0,
+   "away_score_ht": 0,
+   "penalty_shootout": {
+    "home": 4,
+    "away": 3
+   },
+   "extra_time_score": {
+    "home": 1,
+    "away": 1
+   },
+   "is_local_derby": false,
+   "is_neutral_ground": false,
+   "travel_distance_km": null,
+   "weather": {
+    "code": null,
+    "description": null,
+    "wind_speed": null,
+    "temperature_c": null
+   },
+   "pitch_condition": null,
+   "attendance": null,
+   "live_websocket": false,
+   "websocket_plus": false,
+   "highlights": [],
+   "head_to_head": {
+    "total_matches": 2,
+    "home_wins": 0,
+    "draws": 2,
+    "away_wins": 0,
+    "home_goals": 2,
+    "away_goals": 2,
+    "avg_total_goals": 2.0,
+    "home_win_rate": 0.0,
+    "away_win_rate": 0.0,
+    "recent_matches": [
+     {
+      "away": "Weston Super Mare",
+      "date": "2026-09-22T18:45:00+00:00",
+      "home": "Wimborne Town",
+      "score": "1-1",
+      "event_id": 604536,
+      "away_score": 1,
+      "home_score": 1,
+      "away_team_id": 1869,
+      "home_team_id": 3344
+     },
+     {
+      "away": "Wimborne Town",
+      "date": "2026-09-19T14:00:00+00:00",
+      "home": "Weston Super Mare",
+      "score": "1-1",
+      "event_id": 602574,
+      "away_score": 1,
+      "home_score": 1,
+      "away_team_id": 3344,
+      "home_team_id": 1869
+     }
+    ]
+   },
+   "has_xg": false,
+   "previous_leg_event_id": null
+  },
+  {
    "id": 10137,
    "league_id": 34,
    "season_id": 52,
@@ -1609,7 +1631,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 29",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 97,
    "home_score": 3,
    "away_score": 0,
    "home_score_ht": 1,
@@ -1717,7 +1739,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -2293,208 +2315,6 @@
       "home_score": 1,
       "away_team_id": 4993,
       "home_team_id": 3132
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 604418,
-   "league_id": 31,
-   "season_id": 133,
-   "home_team_id": 706,
-   "home_team": "Dominica",
-   "away_team_id": 685,
-   "away_team": "Anguilla",
-   "home_coach_id": 55,
-   "away_coach_id": 40,
-   "referee_id": null,
-   "venue_id": null,
-   "event_date": "2026-09-21T15:00:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": null,
-   "round_name": "",
-   "group_name": null,
-   "stage": "league-phase",
-   "stage_name": "League phase",
-   "round_label": "League phase",
-   "period": "FT",
-   "current_minute": 90,
-   "home_score": 1,
-   "away_score": 0,
-   "home_score_ht": 0,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": null,
-    "description": null,
-    "wind_speed": null,
-    "temperature_c": null
-   },
-   "pitch_condition": null,
-   "attendance": null,
-   "live_websocket": false,
-   "websocket_plus": false,
-   "highlights": [],
-   "head_to_head": {
-    "total_matches": 4,
-    "home_wins": 2,
-    "draws": 2,
-    "away_wins": 0,
-    "home_goals": 5,
-    "away_goals": 1,
-    "avg_total_goals": 1.5,
-    "home_win_rate": 0.5,
-    "away_win_rate": 0.0,
-    "recent_matches": [
-     {
-      "away": "Anguilla",
-      "date": "2026-09-21T15:00:00+00:00",
-      "home": "Dominica",
-      "score": "1-0",
-      "event_id": 604418,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 685,
-      "home_team_id": 706
-     },
-     {
-      "away": "Anguilla",
-      "date": "2022-06-05T19:00:00+00:00",
-      "home": "Dominica",
-      "score": "1-1",
-      "event_id": 251564,
-      "away_score": 1,
-      "home_score": 1,
-      "away_team_id": 685,
-      "home_team_id": 706
-     },
-     {
-      "away": "Dominica",
-      "date": "2022-06-02T20:00:00+00:00",
-      "home": "Anguilla",
-      "score": "0-0",
-      "event_id": 251545,
-      "away_score": 0,
-      "home_score": 0,
-      "away_team_id": 706,
-      "home_team_id": 685
-     },
-     {
-      "away": "Anguilla",
-      "date": "2021-06-02T19:00:00+00:00",
-      "home": "Dominica",
-      "score": "3-0",
-      "event_id": 262636,
-      "away_score": 0,
-      "home_score": 3,
-      "away_team_id": 685,
-      "home_team_id": 706
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 214603,
-   "league_id": 23,
-   "season_id": 1396,
-   "home_team_id": 361,
-   "home_team": "SC Oțelul Galați",
-   "away_team_id": 3549,
-   "away_team": "FC Corvinul Hunedoara",
-   "home_coach_id": 227,
-   "away_coach_id": 2881,
-   "referee_id": 1665,
-   "venue_id": 341,
-   "event_date": "2026-09-21T15:00:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 10,
-   "round_name": "",
-   "group_name": null,
-   "stage": "regular-season",
-   "stage_name": "Regular season",
-   "round_label": "Regular season · Matchday 10",
-   "period": "FT",
-   "current_minute": 97,
-   "home_score": 2,
-   "away_score": 3,
-   "home_score_ht": 0,
-   "away_score_ht": 1,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 1,
-    "description": "clear",
-    "wind_speed": 22.3,
-    "temperature_c": 29
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "goals",
-     "title": "Oțelul Galați 2 - 2 Corvinul Hunedoara — 64' Denis Bordun",
-     "url": "https://www.youtube.com/watch?v=aRx0C0j-F30",
-     "thumbnail": "https://i.ytimg.com/vi/aRx0C0j-F30/hqdefault.jpg",
-     "published_at": "2026-09-21T16:43:11+00:00"
-    },
-    {
-     "kind": "goals",
-     "title": "Oțelul Galați 1 - 2 Corvinul Hunedoara — 62' Gideon Goodlad",
-     "url": "https://www.youtube.com/watch?v=a8ktYJkKA-4",
-     "thumbnail": "https://i.ytimg.com/vi/a8ktYJkKA-4/hqdefault.jpg",
-     "published_at": "2026-09-21T16:42:58+00:00"
-    },
-    {
-     "kind": "goals",
-     "title": "Oțelul Galați 1 - 1 Corvinul Hunedoara — 51' Miguel Silva",
-     "url": "https://www.youtube.com/watch?v=ANgIUS14XzY",
-     "thumbnail": "https://i.ytimg.com/vi/ANgIUS14XzY/hqdefault.jpg",
-     "published_at": "2026-09-21T16:42:53+00:00"
-    },
-    {
-     "kind": "goals",
-     "title": "Oțelul Galați 0 - 1 Corvinul Hunedoara — 20' Nicolae Pîrvulescu",
-     "url": "https://www.youtube.com/watch?v=2IdJo43MzSs",
-     "thumbnail": "https://i.ytimg.com/vi/2IdJo43MzSs/hqdefault.jpg",
-     "published_at": "2026-09-21T16:19:01+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 1,
-    "home_wins": 0,
-    "draws": 0,
-    "away_wins": 1,
-    "home_goals": 2,
-    "away_goals": 3,
-    "avg_total_goals": 5.0,
-    "home_win_rate": 0.0,
-    "away_win_rate": 1.0,
-    "recent_matches": [
-     {
-      "away": "FC Corvinul Hunedoara",
-      "date": "2026-09-21T15:00:00+00:00",
-      "home": "SC Oțelul Galați",
-      "score": "2-3",
-      "event_id": 214603,
-      "away_score": 3,
-      "home_score": 2,
-      "away_team_id": 3549,
-      "home_team_id": 361
      }
     ]
    },
