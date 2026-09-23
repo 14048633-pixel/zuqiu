@@ -1,23 +1,11 @@
 {
- "window": "09-23 07:09 BJT -> 09-24 19:09 BJT",
+ "window": "09-23 10:58 BJT -> 09-24 22:58 BJT",
  "window_utc": [
-  "2026-09-22T23:09:00Z",
-  "2026-09-24T11:09:00Z"
+  "2026-09-23T02:58:00Z",
+  "2026-09-24T14:58:00Z"
  ],
- "generated": "2026-09-22T23:10:12.585729+00:00",
+ "generated": "2026-09-23T02:58:17.595867+00:00",
  "matches": [
-  {
-   "id": 220182,
-   "league": "Categoría Primera A",
-   "kickoff": "09-23 09:00",
-   "kickoff_iso": "2026-09-23T01:00:00+00:00",
-   "ct": "2026-09-23T01:00:00+00:00",
-   "home": "Independiente Santa Fe",
-   "away": "Deportivo Cali",
-   "home_id": 797,
-   "away_id": 3733,
-   "status": "notstarted"
-  },
   {
    "id": 220183,
    "league": "Categoría Primera A",
@@ -45,11 +33,11 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 31,
-  "n_keep": 3,
-  "n_drop": 28,
+  "n_src": 32,
+  "n_keep": 2,
+  "n_drop": 30,
   "drop_reasons": {
-   "league_unmapped": 28
+   "league_unmapped": 30
   }
  }
 }
