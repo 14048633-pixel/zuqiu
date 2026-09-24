@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T23:16:33.025111+00:00",
+ "generated_at": "2026-09-24T00:38:09.381544+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -4931,26 +4931,48 @@
    "ko_utc": "2026-09-23T01:00:00+00:00"
   },
   {
-   "row_id": "604405",
-   "ledger": "audit",
-   "event_id": 604405,
+   "row_id": "95b1ab515be4cd97",
+   "ledger": "shadow",
+   "event_id": 220183,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Categoría Primera A",
+   "ko_utc": "2026-09-24T00:30:00+00:00"
+  },
+  {
+   "row_id": "8dde720ea123be8a",
+   "ledger": "shadow",
+   "event_id": 220183,
    "mkt": "ou",
    "line": 2.5,
    "side": "over",
    "pick": "大2.5",
    "league": "Categoría Primera A",
-   "ko_utc": "2026-09-22T23:00:00+00:00"
+   "ko_utc": "2026-09-24T00:30:00+00:00"
   },
   {
-   "row_id": "220182",
-   "ledger": "audit",
-   "event_id": 220182,
+   "row_id": "e9db648173c2932f",
+   "ledger": "shadow",
+   "event_id": 10313,
    "mkt": "ou",
    "line": 2.5,
-   "side": "under",
-   "pick": "小2.5",
-   "league": "Categoría Primera A",
-   "ko_utc": "2026-09-23T01:00:00+00:00"
+   "side": "over",
+   "pick": "大2.5",
+   "league": "MLS",
+   "ko_utc": "2026-09-24T01:30:00+00:00"
+  },
+  {
+   "row_id": "10313",
+   "ledger": "audit",
+   "event_id": 10313,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "MLS",
+   "ko_utc": "2026-09-24T01:30:00+00:00"
   }
  ]
 }
