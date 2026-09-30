@@ -1,10 +1,10 @@
 {
- "window": "10-01 01:05 BJT -> 10-02 13:05 BJT",
+ "window": "10-01 07:07 BJT -> 10-02 19:07 BJT",
  "window_utc": [
-  "2026-09-30T17:05:00Z",
-  "2026-10-02T05:05:00Z"
+  "2026-09-30T23:07:00Z",
+  "2026-10-02T11:07:00Z"
  ],
- "generated": "2026-09-30T17:05:27.561028+00:00",
+ "generated": "2026-09-30T23:08:03.601072+00:00",
  "matches": [
   {
    "id": 605013,
@@ -81,11 +81,11 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 47,
+  "n_src": 63,
   "n_keep": 6,
-  "n_drop": 41,
+  "n_drop": 57,
   "drop_reasons": {
-   "league_unmapped": 41
+   "league_unmapped": 57
   }
  }
 }
