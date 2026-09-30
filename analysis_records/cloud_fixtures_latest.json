@@ -1,10 +1,10 @@
 {
- "window": "09-30 19:05 BJT -> 10-02 07:05 BJT",
+ "window": "10-01 01:05 BJT -> 10-02 13:05 BJT",
  "window_utc": [
-  "2026-09-30T11:05:00Z",
-  "2026-10-01T23:05:00Z"
+  "2026-09-30T17:05:00Z",
+  "2026-10-02T05:05:00Z"
  ],
- "generated": "2026-09-30T11:05:27.449188+00:00",
+ "generated": "2026-09-30T17:05:27.561028+00:00",
  "matches": [
   {
    "id": 605013,
@@ -29,15 +29,63 @@
    "home_id": 766,
    "away_id": 789,
    "status": "notstarted"
+  },
+  {
+   "id": 10154,
+   "league": "Brasileirão Serie B",
+   "kickoff": "10-02 07:30",
+   "kickoff_iso": "2026-10-01T23:30:00+00:00",
+   "ct": "2026-10-01T23:30:00+00:00",
+   "home": "Athletic Club",
+   "away": "Sport Recife",
+   "home_id": 843,
+   "away_id": 159,
+   "status": "notstarted"
+  },
+  {
+   "id": 10160,
+   "league": "Brasileirão Serie B",
+   "kickoff": "10-02 08:00",
+   "kickoff_iso": "2026-10-02T00:00:00+00:00",
+   "ct": "2026-10-02T00:00:00+00:00",
+   "home": "Grêmio Novorizontino",
+   "away": "Goiás",
+   "home_id": 836,
+   "away_id": 809,
+   "status": "notstarted"
+  },
+  {
+   "id": 220285,
+   "league": "Categoría Primera A",
+   "kickoff": "10-02 09:00",
+   "kickoff_iso": "2026-10-02T01:00:00+00:00",
+   "ct": "2026-10-02T01:00:00+00:00",
+   "home": "Internacional de Bogotá",
+   "away": "Once Caldas",
+   "home_id": 3181,
+   "away_id": 3891,
+   "status": "notstarted"
+  },
+  {
+   "id": 209462,
+   "league": "MLS",
+   "kickoff": "10-02 09:30",
+   "kickoff_iso": "2026-10-02T01:30:00+00:00",
+   "ct": "2026-10-02T01:30:00+00:00",
+   "home": "Seattle Sounders FC",
+   "away": "Sporting Kansas City",
+   "home_id": 302,
+   "away_id": 299,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 51,
-  "n_keep": 2,
-  "n_drop": 49,
+  "n_src": 47,
+  "n_keep": 6,
+  "n_drop": 41,
   "drop_reasons": {
-   "league_unmapped": 49
+   "league_unmapped": 41
   }
  }
 }
