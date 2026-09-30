@@ -1,8 +1,8 @@
 {
  "date": "2026-09-30",
  "window_utc": [
-  "2026-09-28T21:31:06Z",
-  "2026-09-30T09:31:06Z"
+  "2026-09-28T23:05:59Z",
+  "2026-09-30T11:05:59Z"
  ],
  "results": [
   {
@@ -1556,7 +1556,15 @@
    "attendance": null,
    "live_websocket": true,
    "websocket_plus": false,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "full",
+     "title": "Woking 2 - 4 Solihull Moors — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=HwLccJ1yIeY",
+     "thumbnail": "https://i.ytimg.com/vi/HwLccJ1yIeY/hqdefault.jpg",
+     "published_at": "2026-09-30T10:08:45+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 18,
     "home_wins": 8,
@@ -2518,7 +2526,15 @@
    "attendance": null,
    "live_websocket": true,
    "websocket_plus": false,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "full",
+     "title": "Fylde 0 - 2 Carlisle — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=D_iSqMh6D6s",
+     "thumbnail": "https://i.ytimg.com/vi/D_iSqMh6D6s/hqdefault.jpg",
+     "published_at": "2026-09-30T11:04:00+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 1,
     "home_wins": 0,
@@ -4710,294 +4726,6 @@
       "home_score": 2,
       "away_team_id": 662,
       "home_team_id": 722
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 10144,
-   "league_id": 34,
-   "season_id": 52,
-   "home_team_id": 838,
-   "home_team": "América Mineiro",
-   "away_team_id": 156,
-   "away_team": "Juventude",
-   "home_coach_id": 3582,
-   "away_coach_id": 118,
-   "referee_id": 1839,
-   "venue_id": 630,
-   "event_date": "2026-09-28T22:30:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 30,
-   "round_name": "",
-   "group_name": null,
-   "stage": "regular-season",
-   "stage_name": "Regular season",
-   "round_label": "Regular season · Matchday 30",
-   "period": "FT",
-   "current_minute": 95,
-   "home_score": 0,
-   "away_score": 1,
-   "home_score_ht": 0,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": 1289,
-   "weather": {
-    "code": 1,
-    "description": "clear",
-    "wind_speed": 13.0,
-    "temperature_c": 30
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "América-MG 0 - 1 Juventude — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=RAKltNwBkS8",
-     "thumbnail": "https://i.ytimg.com/vi/RAKltNwBkS8/hqdefault.jpg",
-     "published_at": "2026-09-29T01:13:01+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 12,
-    "home_wins": 5,
-    "draws": 4,
-    "away_wins": 3,
-    "home_goals": 13,
-    "away_goals": 11,
-    "avg_total_goals": 2.0,
-    "home_win_rate": 0.4166666666666667,
-    "away_win_rate": 0.25,
-    "recent_matches": [
-     {
-      "away": "Juventude",
-      "date": "2026-09-28T22:30:00+00:00",
-      "home": "América Mineiro",
-      "score": "0-1",
-      "event_id": 10144,
-      "away_score": 1,
-      "home_score": 0,
-      "away_team_id": 156,
-      "home_team_id": 838
-     },
-     {
-      "away": "América Mineiro",
-      "date": "2026-05-30T00:00:00+00:00",
-      "home": "Juventude",
-      "score": "3-0",
-      "event_id": 9959,
-      "away_score": 0,
-      "home_score": 3,
-      "away_team_id": 838,
-      "home_team_id": 156
-     },
-     {
-      "away": "América Mineiro",
-      "date": "2022-08-06T19:30:00+00:00",
-      "home": "Juventude",
-      "score": "0-1",
-      "event_id": 314210,
-      "away_score": 1,
-      "home_score": 0,
-      "away_team_id": 838,
-      "home_team_id": 156
-     },
-     {
-      "away": "Juventude",
-      "date": "2022-04-16T22:00:00+00:00",
-      "home": "América Mineiro",
-      "score": "4-1",
-      "event_id": 314020,
-      "away_score": 1,
-      "home_score": 4,
-      "away_team_id": 156,
-      "home_team_id": 838
-     },
-     {
-      "away": "América Mineiro",
-      "date": "2021-10-10T00:00:00+00:00",
-      "home": "Juventude",
-      "score": "1-1",
-      "event_id": 318006,
-      "away_score": 1,
-      "home_score": 1,
-      "away_team_id": 838,
-      "home_team_id": 156
-     },
-     {
-      "away": "Juventude",
-      "date": "2021-06-24T19:00:00+00:00",
-      "home": "América Mineiro",
-      "score": "1-1",
-      "event_id": 317807,
-      "away_score": 1,
-      "home_score": 1,
-      "away_team_id": 156,
-      "home_team_id": 838
-     },
-     {
-      "away": "Juventude",
-      "date": "2020-11-25T00:30:00+00:00",
-      "home": "América Mineiro",
-      "score": "2-1",
-      "event_id": 276294,
-      "away_score": 1,
-      "home_score": 2,
-      "away_team_id": 156,
-      "home_team_id": 838
-     },
-     {
-      "away": "América Mineiro",
-      "date": "2020-08-17T23:00:00+00:00",
-      "home": "Juventude",
-      "score": "0-0",
-      "event_id": 276085,
-      "away_score": 0,
-      "home_score": 0,
-      "away_team_id": 838,
-      "home_team_id": 156
-     },
-     {
-      "away": "América Mineiro",
-      "date": "2019-03-01T00:30:00+00:00",
-      "home": "Juventude",
-      "score": "2-1",
-      "event_id": 287343,
-      "away_score": 1,
-      "home_score": 2,
-      "away_team_id": 838,
-      "home_team_id": 156
-     },
-     {
-      "away": "Juventude",
-      "date": "2017-11-14T23:30:00+00:00",
-      "home": "América Mineiro",
-      "score": "1-0",
-      "event_id": 341493,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 156,
-      "home_team_id": 838
-     }
-    ]
-   },
-   "has_xg": true,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 223095,
-   "league_id": 65,
-   "season_id": 1633,
-   "home_team_id": 2291,
-   "home_team": "Suriname",
-   "away_team_id": 682,
-   "away_team": "Martinique",
-   "home_coach_id": 3924,
-   "away_coach_id": 35,
-   "referee_id": null,
-   "venue_id": 1456,
-   "event_date": "2026-09-28T22:00:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 2,
-   "round_name": "",
-   "group_name": "League A, Group B",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "League A, Group B · Matchday 2",
-   "period": "FT",
-   "current_minute": 94,
-   "home_score": 2,
-   "away_score": 1,
-   "home_score_ht": 0,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": null,
-    "description": null,
-    "wind_speed": null,
-    "temperature_c": null
-   },
-   "pitch_condition": null,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Suriname 2 - 1 Martinique — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=0YKyWcFLNA0",
-     "thumbnail": "https://i.ytimg.com/vi/0YKyWcFLNA0/hqdefault.jpg",
-     "published_at": "2026-09-29T01:13:12+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 4,
-    "home_wins": 3,
-    "draws": 1,
-    "away_wins": 0,
-    "home_goals": 5,
-    "away_goals": 2,
-    "avg_total_goals": 1.75,
-    "home_win_rate": 0.75,
-    "away_win_rate": 0.0,
-    "recent_matches": [
-     {
-      "away": "Martinique",
-      "date": "2026-09-28T22:00:00+00:00",
-      "home": "Suriname",
-      "score": "2-1",
-      "event_id": 223095,
-      "away_score": 1,
-      "home_score": 2,
-      "away_team_id": 682,
-      "home_team_id": 2291
-     },
-     {
-      "away": "Suriname",
-      "date": "2025-03-25T23:00:00+00:00",
-      "home": "Martinique",
-      "score": "0-1",
-      "event_id": 209419,
-      "away_score": 1,
-      "home_score": 0,
-      "away_team_id": 2291,
-      "home_team_id": 682
-     },
-     {
-      "away": "Martinique",
-      "date": "2025-03-21T22:00:00+00:00",
-      "home": "Suriname",
-      "score": "1-0",
-      "event_id": 209413,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 682,
-      "home_team_id": 2291
-     },
-     {
-      "away": "Martinique",
-      "date": "2024-03-24T18:00:00+00:00",
-      "home": "Suriname",
-      "score": "1-1",
-      "event_id": 233466,
-      "away_score": 1,
-      "home_score": 1,
-      "away_team_id": 682,
-      "home_team_id": 2291
      }
     ]
    },
