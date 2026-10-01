@@ -1,10 +1,10 @@
 {
- "window": "10-01 19:23 BJT -> 10-03 07:23 BJT",
+ "window": "10-02 01:10 BJT -> 10-03 13:10 BJT",
  "window_utc": [
-  "2026-10-01T11:23:00Z",
-  "2026-10-02T23:23:00Z"
+  "2026-10-01T17:10:00Z",
+  "2026-10-03T05:10:00Z"
  ],
- "generated": "2026-10-01T11:24:00.292075+00:00",
+ "generated": "2026-10-01T17:10:29.224439+00:00",
  "matches": [
   {
    "id": 10154,
@@ -101,15 +101,87 @@
    "home_id": 158,
    "away_id": 165,
    "status": "notstarted"
+  },
+  {
+   "id": 10162,
+   "league": "Brasileirão Serie B",
+   "kickoff": "10-03 07:30",
+   "kickoff_iso": "2026-10-02T23:30:00+00:00",
+   "ct": "2026-10-02T23:30:00+00:00",
+   "home": "Londrina",
+   "away": "Criciúma",
+   "home_id": 821,
+   "away_id": 929,
+   "status": "notstarted"
+  },
+  {
+   "id": 10161,
+   "league": "Brasileirão Serie B",
+   "kickoff": "10-03 07:45",
+   "kickoff_iso": "2026-10-02T23:45:00+00:00",
+   "ct": "2026-10-02T23:45:00+00:00",
+   "home": "Juventude",
+   "away": "Operário-PR",
+   "home_id": 156,
+   "away_id": 828,
+   "status": "notstarted"
+  },
+  {
+   "id": 223764,
+   "league": "Liga Profesional de Fútbol",
+   "kickoff": "10-03 08:30",
+   "kickoff_iso": "2026-10-03T00:30:00+00:00",
+   "ct": "2026-10-03T00:30:00+00:00",
+   "home": "Independiente Rivadavia",
+   "away": "Gimnasia y Esgrima",
+   "home_id": 774,
+   "away_id": 4998,
+   "status": "notstarted"
+  },
+  {
+   "id": 223756,
+   "league": "Liga Profesional de Fútbol",
+   "kickoff": "10-03 08:30",
+   "kickoff_iso": "2026-10-03T00:30:00+00:00",
+   "ct": "2026-10-03T00:30:00+00:00",
+   "home": "Boca Juniors",
+   "away": "Club Atlético Unión de Santa Fe",
+   "home_id": 780,
+   "away_id": 4620,
+   "status": "notstarted"
+  },
+  {
+   "id": 10159,
+   "league": "Brasileirão Serie B",
+   "kickoff": "10-03 08:35",
+   "kickoff_iso": "2026-10-03T00:35:00+00:00",
+   "ct": "2026-10-03T00:35:00+00:00",
+   "home": "Fortaleza",
+   "away": "Náutico",
+   "home_id": 152,
+   "away_id": 928,
+   "status": "notstarted"
+  },
+  {
+   "id": 220203,
+   "league": "Categoría Primera A",
+   "kickoff": "10-03 08:45",
+   "kickoff_iso": "2026-10-03T00:45:00+00:00",
+   "ct": "2026-10-03T00:45:00+00:00",
+   "home": "Deportivo Cali",
+   "away": "Alianza Valledupar FC",
+   "home_id": 3733,
+   "away_id": 4783,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 110,
-  "n_keep": 8,
-  "n_drop": 102,
+  "n_src": 121,
+  "n_keep": 14,
+  "n_drop": 107,
   "drop_reasons": {
-   "league_unmapped": 101,
+   "league_unmapped": 106,
    "team_no_history": 1
   }
  }
