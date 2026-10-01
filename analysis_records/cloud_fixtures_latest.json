@@ -1,10 +1,10 @@
 {
- "window": "10-01 13:20 BJT -> 10-03 01:20 BJT",
+ "window": "10-01 19:23 BJT -> 10-03 07:23 BJT",
  "window_utc": [
-  "2026-10-01T05:20:00Z",
-  "2026-10-02T17:20:00Z"
+  "2026-10-01T11:23:00Z",
+  "2026-10-02T23:23:00Z"
  ],
- "generated": "2026-10-01T05:20:40.717753+00:00",
+ "generated": "2026-10-01T11:24:00.292075+00:00",
  "matches": [
   {
    "id": 10154,
@@ -53,15 +53,64 @@
    "home_id": 302,
    "away_id": 299,
    "status": "notstarted"
+  },
+  {
+   "id": 214846,
+   "league": "Segunda División",
+   "kickoff": "10-03 02:30",
+   "kickoff_iso": "2026-10-02T18:30:00+00:00",
+   "ct": "2026-10-02T18:30:00+00:00",
+   "home": "CD Eldense",
+   "away": "Real Oviedo",
+   "home_id": 1403,
+   "away_id": 42,
+   "status": "notstarted"
+  },
+  {
+   "id": 220283,
+   "league": "Categoría Primera A",
+   "kickoff": "10-03 04:05",
+   "kickoff_iso": "2026-10-02T20:05:00+00:00",
+   "ct": "2026-10-02T20:05:00+00:00",
+   "home": "Rionegro Águilas Doradas",
+   "away": "Fortaleza FC",
+   "home_id": 4786,
+   "away_id": 4782,
+   "status": "postponed"
+  },
+  {
+   "id": 223757,
+   "league": "Liga Profesional de Fútbol",
+   "kickoff": "10-03 06:15",
+   "kickoff_iso": "2026-10-02T22:15:00+00:00",
+   "ct": "2026-10-02T22:15:00+00:00",
+   "home": "CA Independiente",
+   "away": "Instituto De Córdoba",
+   "home_id": 2390,
+   "away_id": 4996,
+   "status": "notstarted"
+  },
+  {
+   "id": 604422,
+   "league": "Brasileirão Serie A",
+   "kickoff": "10-03 07:00",
+   "kickoff_iso": "2026-10-02T23:00:00+00:00",
+   "ct": "2026-10-02T23:00:00+00:00",
+   "home": "São Paulo",
+   "away": "Santos",
+   "home_id": 158,
+   "away_id": 165,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 92,
-  "n_keep": 4,
-  "n_drop": 88,
+  "n_src": 110,
+  "n_keep": 8,
+  "n_drop": 102,
   "drop_reasons": {
-   "league_unmapped": 88
+   "league_unmapped": 101,
+   "team_no_history": 1
   }
  }
 }
