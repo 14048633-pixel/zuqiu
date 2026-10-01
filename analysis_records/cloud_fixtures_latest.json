@@ -1,35 +1,11 @@
 {
- "window": "10-01 07:07 BJT -> 10-02 19:07 BJT",
+ "window": "10-01 10:55 BJT -> 10-02 22:55 BJT",
  "window_utc": [
-  "2026-09-30T23:07:00Z",
-  "2026-10-02T11:07:00Z"
+  "2026-10-01T02:55:00Z",
+  "2026-10-02T14:55:00Z"
  ],
- "generated": "2026-09-30T23:08:03.601072+00:00",
+ "generated": "2026-10-01T02:55:59.650185+00:00",
  "matches": [
-  {
-   "id": 605013,
-   "league": "MLS",
-   "kickoff": "10-01 07:30",
-   "kickoff_iso": "2026-09-30T23:30:00+00:00",
-   "ct": "2026-09-30T23:30:00+00:00",
-   "home": "New York Red Bulls",
-   "away": "St.Louis City",
-   "home_id": 281,
-   "away_id": 274,
-   "status": "notstarted"
-  },
-  {
-   "id": 220002,
-   "league": "Categoría Primera A",
-   "kickoff": "10-01 09:00",
-   "kickoff_iso": "2026-10-01T01:00:00+00:00",
-   "ct": "2026-10-01T01:00:00+00:00",
-   "home": "Atlético Nacional",
-   "away": "Junior Barranquilla",
-   "home_id": 766,
-   "away_id": 789,
-   "status": "notstarted"
-  },
   {
    "id": 10154,
    "league": "Brasileirão Serie B",
@@ -81,11 +57,11 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 63,
-  "n_keep": 6,
-  "n_drop": 57,
+  "n_src": 77,
+  "n_keep": 4,
+  "n_drop": 73,
   "drop_reasons": {
-   "league_unmapped": 57
+   "league_unmapped": 73
   }
  }
 }
