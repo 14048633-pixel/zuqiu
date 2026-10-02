@@ -1,10 +1,10 @@
 {
- "window": "10-02 13:02 BJT -> 10-04 01:02 BJT",
+ "window": "10-02 19:01 BJT -> 10-04 07:01 BJT",
  "window_utc": [
-  "2026-10-02T05:02:00Z",
-  "2026-10-03T17:02:00Z"
+  "2026-10-02T11:01:00Z",
+  "2026-10-03T23:01:00Z"
  ],
- "generated": "2026-10-02T05:02:21.747514+00:00",
+ "generated": "2026-10-02T11:01:32.399253+00:00",
  "matches": [
   {
    "id": 214846,
@@ -473,15 +473,123 @@
    "home_id": 1467,
    "away_id": 1460,
    "status": "notstarted"
+  },
+  {
+   "id": 223759,
+   "league": "Liga Profesional de Fútbol",
+   "kickoff": "10-04 01:45",
+   "kickoff_iso": "2026-10-03T17:45:00+00:00",
+   "ct": "2026-10-03T17:45:00+00:00",
+   "home": "Defensa y Justicia",
+   "away": "San Lorenzo",
+   "home_id": 3136,
+   "away_id": 742,
+   "status": "notstarted"
+  },
+  {
+   "id": 220202,
+   "league": "Categoría Primera A",
+   "kickoff": "10-04 03:00",
+   "kickoff_iso": "2026-10-03T19:00:00+00:00",
+   "ct": "2026-10-03T19:00:00+00:00",
+   "home": "Rionegro Águilas Doradas",
+   "away": "Jaguares de Córdoba",
+   "home_id": 4786,
+   "away_id": 4785,
+   "status": "notstarted"
+  },
+  {
+   "id": 10155,
+   "league": "Brasileirão Serie B",
+   "kickoff": "10-04 03:00",
+   "kickoff_iso": "2026-10-03T19:00:00+00:00",
+   "ct": "2026-10-03T19:00:00+00:00",
+   "home": "Atlético Goianiense",
+   "away": "América Mineiro",
+   "home_id": 819,
+   "away_id": 838,
+   "status": "notstarted"
+  },
+  {
+   "id": 223765,
+   "league": "Liga Profesional de Fútbol",
+   "kickoff": "10-04 04:00",
+   "kickoff_iso": "2026-10-03T20:00:00+00:00",
+   "ct": "2026-10-03T20:00:00+00:00",
+   "home": "Newell's Old Boys",
+   "away": "CA Lanús",
+   "home_id": 4997,
+   "away_id": 785,
+   "status": "notstarted"
+  },
+  {
+   "id": 223754,
+   "league": "Liga Profesional de Fútbol",
+   "kickoff": "10-04 04:00",
+   "kickoff_iso": "2026-10-03T20:00:00+00:00",
+   "ct": "2026-10-03T20:00:00+00:00",
+   "home": "Atlético Tucumán",
+   "away": "Barracas Central",
+   "home_id": 3132,
+   "away_id": 734,
+   "status": "notstarted"
+  },
+  {
+   "id": 10158,
+   "league": "Brasileirão Serie B",
+   "kickoff": "10-04 04:00",
+   "kickoff_iso": "2026-10-03T20:00:00+00:00",
+   "ct": "2026-10-03T20:00:00+00:00",
+   "home": "Cuiabá",
+   "away": "Ponte Preta",
+   "home_id": 863,
+   "away_id": 844,
+   "status": "notstarted"
+  },
+  {
+   "id": 220204,
+   "league": "Categoría Primera A",
+   "kickoff": "10-04 05:05",
+   "kickoff_iso": "2026-10-03T21:05:00+00:00",
+   "ct": "2026-10-03T21:05:00+00:00",
+   "home": "Deportes Tolima",
+   "away": "Boyacá Chicó FC",
+   "home_id": 781,
+   "away_id": 4784,
+   "status": "notstarted"
+  },
+  {
+   "id": 604491,
+   "league": "Brasileirão Serie A",
+   "kickoff": "10-04 05:30",
+   "kickoff_iso": "2026-10-03T21:30:00+00:00",
+   "ct": "2026-10-03T21:30:00+00:00",
+   "home": "Atlético Mineiro",
+   "away": "Red Bull Bragantino",
+   "home_id": 155,
+   "away_id": 168,
+   "status": "notstarted"
+  },
+  {
+   "id": 10157,
+   "league": "Brasileirão Serie B",
+   "kickoff": "10-04 05:30",
+   "kickoff_iso": "2026-10-03T21:30:00+00:00",
+   "ct": "2026-10-03T21:30:00+00:00",
+   "home": "Botafogo-SP",
+   "away": "Vila Nova FC",
+   "home_id": 927,
+   "away_id": 826,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 240,
-  "n_keep": 39,
-  "n_drop": 201,
+  "n_src": 248,
+  "n_keep": 48,
+  "n_drop": 200,
   "drop_reasons": {
-   "league_unmapped": 199,
+   "league_unmapped": 198,
    "team_no_history": 2
   }
  }
