@@ -1,10 +1,10 @@
 {
- "window": "10-10 15:36 BJT -> 10-12 03:36 BJT",
+ "window": "10-10 16:46 BJT -> 10-12 04:46 BJT",
  "window_utc": [
-  "2026-10-10T07:36:00Z",
-  "2026-10-11T19:36:00Z"
+  "2026-10-10T08:46:00Z",
+  "2026-10-11T20:46:00Z"
  ],
- "generated": "2026-10-10T07:36:28.327710+00:00",
+ "generated": "2026-10-10T08:46:10.151458+00:00",
  "matches": [
   {
    "id": 212271,
@@ -2321,15 +2321,87 @@
    "home_id": 25,
    "away_id": 34,
    "status": "notstarted"
+  },
+  {
+   "id": 223795,
+   "league": "Liga Profesional de Fútbol",
+   "kickoff": "10-12 04:00",
+   "kickoff_iso": "2026-10-11T20:00:00+00:00",
+   "ct": "2026-10-11T20:00:00+00:00",
+   "home": "Rosario Central",
+   "away": "Independiente Rivadavia",
+   "home_id": 792,
+   "away_id": 774,
+   "status": "notstarted"
+  },
+  {
+   "id": 223788,
+   "league": "Liga Profesional de Fútbol",
+   "kickoff": "10-12 04:00",
+   "kickoff_iso": "2026-10-11T20:00:00+00:00",
+   "ct": "2026-10-11T20:00:00+00:00",
+   "home": "Club Atlético Platense",
+   "away": "Argentinos Juniors",
+   "home_id": 796,
+   "away_id": 806,
+   "status": "notstarted"
+  },
+  {
+   "id": 10182,
+   "league": "Brasileirão Serie B",
+   "kickoff": "10-12 04:30",
+   "kickoff_iso": "2026-10-11T20:30:00+00:00",
+   "ct": "2026-10-11T20:30:00+00:00",
+   "home": "Náutico",
+   "away": "Vila Nova FC",
+   "home_id": 928,
+   "away_id": 826,
+   "status": "notstarted"
+  },
+  {
+   "id": 7290,
+   "league": "Brasileirão Serie A",
+   "kickoff": "10-12 04:30",
+   "kickoff_iso": "2026-10-11T20:30:00+00:00",
+   "ct": "2026-10-11T20:30:00+00:00",
+   "home": "Palmeiras",
+   "away": "Corinthians",
+   "home_id": 162,
+   "away_id": 167,
+   "status": "notstarted"
+  },
+  {
+   "id": 7289,
+   "league": "Brasileirão Serie A",
+   "kickoff": "10-12 04:30",
+   "kickoff_iso": "2026-10-11T20:30:00+00:00",
+   "ct": "2026-10-11T20:30:00+00:00",
+   "home": "Grêmio",
+   "away": "Internacional",
+   "home_id": 154,
+   "away_id": 161,
+   "status": "notstarted"
+  },
+  {
+   "id": 7288,
+   "league": "Brasileirão Serie A",
+   "kickoff": "10-12 04:30",
+   "kickoff_iso": "2026-10-11T20:30:00+00:00",
+   "ct": "2026-10-11T20:30:00+00:00",
+   "home": "Flamengo",
+   "away": "Fluminense",
+   "home_id": 160,
+   "away_id": 153,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 345,
-  "n_keep": 193,
-  "n_drop": 152,
+  "n_src": 352,
+  "n_keep": 199,
+  "n_drop": 153,
   "drop_reasons": {
-   "league_unmapped": 151,
+   "league_unmapped": 152,
    "team_no_history": 1
   }
  }
