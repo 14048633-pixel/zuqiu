@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T18:08:01.760183+00:00",
+ "generated_at": "2026-10-10T08:57:13.177415+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -5030,15 +5030,59 @@
    "ko_utc": "2026-10-02T18:30:00+00:00"
   },
   {
-   "row_id": "214846",
-   "ledger": "audit",
-   "event_id": 214846,
+   "row_id": "8e54aff7c6c3be58",
+   "ledger": "shadow",
+   "event_id": 212271,
    "mkt": "ou",
    "line": 2.5,
-   "side": "under",
-   "pick": "小2.5",
-   "league": "Segunda División",
-   "ko_utc": "2026-10-02T18:30:00+00:00"
+   "side": "over",
+   "pick": "大2.5",
+   "league": "J1 League",
+   "ko_utc": "2026-10-10T10:00:00+00:00"
+  },
+  {
+   "row_id": "6b2501f771dac0d6",
+   "ledger": "shadow",
+   "event_id": 216011,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Trendyol Super Lig",
+   "ko_utc": "2026-10-10T10:30:00+00:00"
+  },
+  {
+   "row_id": "0df580baf23d8ee7",
+   "ledger": "shadow",
+   "event_id": 216011,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Trendyol Super Lig",
+   "ko_utc": "2026-10-10T10:30:00+00:00"
+  },
+  {
+   "row_id": "212271",
+   "ledger": "audit",
+   "event_id": 212271,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "J1 League",
+   "ko_utc": "2026-10-10T10:00:00+00:00"
+  },
+  {
+   "row_id": "216011",
+   "ledger": "audit",
+   "event_id": 216011,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Trendyol Super Lig",
+   "ko_utc": "2026-10-10T10:30:00+00:00"
   }
  ]
 }
