@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T16:23:20.323707+00:00",
+ "generated_at": "2026-10-14T00:15:56.270003+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -5151,6 +5151,28 @@
    "ko_utc": "2026-10-13T16:45:00+00:00"
   },
   {
+   "row_id": "ef17bec9c68c30cc",
+   "ledger": "shadow",
+   "event_id": 604419,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Copa Sudamericana",
+   "ko_utc": "2026-10-14T00:30:00+00:00"
+  },
+  {
+   "row_id": "73b60ac26ece32d4",
+   "ledger": "shadow",
+   "event_id": 220210,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Categoría Primera A",
+   "ko_utc": "2026-10-14T01:30:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -5204,6 +5226,28 @@
    "pick": "大3",
    "league": "Champions League",
    "ko_utc": "2026-10-13T16:45:00+00:00"
+  },
+  {
+   "row_id": "604419",
+   "ledger": "audit",
+   "event_id": 604419,
+   "mkt": "1x2",
+   "line": 2.5,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Copa Sudamericana",
+   "ko_utc": "2026-10-14T00:30:00+00:00"
+  },
+  {
+   "row_id": "220210",
+   "ledger": "audit",
+   "event_id": 220210,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Categoría Primera A",
+   "ko_utc": "2026-10-14T01:30:00+00:00"
   }
  ]
 }
