@@ -1,35 +1,11 @@
 {
- "window": "10-14 08:08 BJT -> 10-15 20:08 BJT",
+ "window": "10-14 13:21 BJT -> 10-16 01:21 BJT",
  "window_utc": [
-  "2026-10-14T00:08:00Z",
-  "2026-10-15T12:08:00Z"
+  "2026-10-14T05:21:00Z",
+  "2026-10-15T17:21:00Z"
  ],
- "generated": "2026-10-14T00:09:08.427319+00:00",
+ "generated": "2026-10-14T05:21:26.126689+00:00",
  "matches": [
-  {
-   "id": 604419,
-   "league": "Copa Sudamericana",
-   "kickoff": "10-14 08:30",
-   "kickoff_iso": "2026-10-14T00:30:00+00:00",
-   "ct": "2026-10-14T00:30:00+00:00",
-   "home": "Boca Juniors",
-   "away": "Vasco da Gama",
-   "home_id": 780,
-   "away_id": 164,
-   "status": "notstarted"
-  },
-  {
-   "id": 220210,
-   "league": "Categoría Primera A",
-   "kickoff": "10-14 09:30",
-   "kickoff_iso": "2026-10-14T01:30:00+00:00",
-   "ct": "2026-10-14T01:30:00+00:00",
-   "home": "Millonarios",
-   "away": "Once Caldas",
-   "home_id": 736,
-   "away_id": 3891,
-   "status": "notstarted"
-  },
   {
    "id": 601101,
    "league": "Champions League",
@@ -413,15 +389,51 @@
    "home_id": 292,
    "away_id": 290,
    "status": "notstarted"
+  },
+  {
+   "id": 222840,
+   "league": "Saudi Pro League",
+   "kickoff": "10-15 21:40",
+   "kickoff_iso": "2026-10-15T13:40:00+00:00",
+   "ct": "2026-10-15T13:40:00+00:00",
+   "home": "Al Faisaly",
+   "away": "Al-Kholood",
+   "home_id": 4909,
+   "away_id": 261,
+   "status": "notstarted"
+  },
+  {
+   "id": 222844,
+   "league": "Saudi Pro League",
+   "kickoff": "10-15 22:50",
+   "kickoff_iso": "2026-10-15T14:50:00+00:00",
+   "ct": "2026-10-15T14:50:00+00:00",
+   "home": "Al-Khaleej",
+   "away": "Al-Fayha",
+   "home_id": 265,
+   "away_id": 269,
+   "status": "notstarted"
+  },
+  {
+   "id": 222842,
+   "league": "Saudi Pro League",
+   "kickoff": "10-15 23:15",
+   "kickoff_iso": "2026-10-15T15:15:00+00:00",
+   "ct": "2026-10-15T15:15:00+00:00",
+   "home": "Al-Hazem",
+   "away": "Al-Fateh",
+   "home_id": 257,
+   "away_id": 268,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 44,
-  "n_keep": 34,
-  "n_drop": 10,
+  "n_src": 63,
+  "n_keep": 35,
+  "n_drop": 28,
   "drop_reasons": {
-   "league_unmapped": 8,
+   "league_unmapped": 26,
    "team_no_history": 2
   }
  }
