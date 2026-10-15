@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T00:15:56.270003+00:00",
+ "generated_at": "2026-10-15T17:46:25.891406+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -5173,6 +5173,39 @@
    "ko_utc": "2026-10-14T01:30:00+00:00"
   },
   {
+   "row_id": "264d3a3f6b8a735c",
+   "ledger": "shadow",
+   "event_id": 222844,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-10-15T14:50:00+00:00"
+  },
+  {
+   "row_id": "d12fe66cf8cfe0b7",
+   "ledger": "shadow",
+   "event_id": 224172,
+   "mkt": "ou",
+   "line": 2.75,
+   "side": "over",
+   "pick": "大2.75",
+   "league": "League One",
+   "ko_utc": "2026-10-15T19:00:00+00:00"
+  },
+  {
+   "row_id": "914caacfeb6c16e9",
+   "ledger": "shadow",
+   "event_id": 224172,
+   "mkt": "ou",
+   "line": 2.75,
+   "side": "under",
+   "pick": "小2.8",
+   "league": "League One",
+   "ko_utc": "2026-10-15T19:00:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -5228,17 +5261,6 @@
    "ko_utc": "2026-10-13T16:45:00+00:00"
   },
   {
-   "row_id": "604419",
-   "ledger": "audit",
-   "event_id": 604419,
-   "mkt": "1x2",
-   "line": 2.5,
-   "side": "HOME",
-   "pick": "主胜",
-   "league": "Copa Sudamericana",
-   "ko_utc": "2026-10-14T00:30:00+00:00"
-  },
-  {
    "row_id": "220210",
    "ledger": "audit",
    "event_id": 220210,
@@ -5248,6 +5270,17 @@
    "pick": "小2.5",
    "league": "Categoría Primera A",
    "ko_utc": "2026-10-14T01:30:00+00:00"
+  },
+  {
+   "row_id": "224172",
+   "ledger": "audit",
+   "event_id": 224172,
+   "mkt": "ou",
+   "line": 2.75,
+   "side": "over",
+   "pick": "大2.75",
+   "league": "League One",
+   "ko_utc": "2026-10-15T19:00:00+00:00"
   }
  ]
 }
