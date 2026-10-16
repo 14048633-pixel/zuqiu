@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:35:07.423104+00:00",
+ "generated_at": "2026-10-16T18:11:22.733393+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -5404,6 +5404,127 @@
    "ko_utc": "2026-10-16T17:00:00+00:00"
   },
   {
+   "row_id": "36489ea3ece458e4",
+   "ledger": "shadow",
+   "event_id": 580550,
+   "mkt": "ou",
+   "line": 3.0,
+   "side": "under",
+   "pick": "小3",
+   "league": "Ligue 2",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "bee68a411f1b3a02",
+   "ledger": "shadow",
+   "event_id": 580550,
+   "mkt": "ou",
+   "line": 3.0,
+   "side": "over",
+   "pick": "大3.0",
+   "league": "Ligue 2",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "32750cf8f907f80c",
+   "ledger": "shadow",
+   "event_id": 580549,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Ligue 2",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "4b2583745abba4c3",
+   "ledger": "shadow",
+   "event_id": 580544,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Ligue 2",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "0bd1ffeaab18d757",
+   "ledger": "shadow",
+   "event_id": 580543,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Ligue 2",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "1d6a1a7d9398d1da",
+   "ledger": "shadow",
+   "event_id": 580542,
+   "mkt": "ou",
+   "line": 2.0,
+   "side": "under",
+   "pick": "小2",
+   "league": "Ligue 2",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "e7863678ecceb866",
+   "ledger": "shadow",
+   "event_id": 580542,
+   "mkt": "ou",
+   "line": 2.0,
+   "side": "over",
+   "pick": "大2.0",
+   "league": "Ligue 2",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "f0a35471850de0e8",
+   "ledger": "shadow",
+   "event_id": 214614,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Superliga",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "4e525ca39c51eadd",
+   "ledger": "shadow",
+   "event_id": 214614,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Superliga",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "026d4d23d96be118",
+   "ledger": "shadow",
+   "event_id": 210871,
+   "mkt": "ou",
+   "line": 3.0,
+   "side": "over",
+   "pick": "大3",
+   "league": "Eredivisie",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "e4b72976d7a28c89",
+   "ledger": "shadow",
+   "event_id": 210871,
+   "mkt": "ou",
+   "line": 3.0,
+   "side": "under",
+   "pick": "小3.0",
+   "league": "Eredivisie",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -5556,6 +5677,72 @@
    "pick": "小3.5",
    "league": "Allsvenskan",
    "ko_utc": "2026-10-16T17:00:00+00:00"
+  },
+  {
+   "row_id": "580550",
+   "ledger": "audit",
+   "event_id": 580550,
+   "mkt": "ou",
+   "line": 3.0,
+   "side": "under",
+   "pick": "小3",
+   "league": "Ligue 2",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "580549",
+   "ledger": "audit",
+   "event_id": 580549,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Ligue 2",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "580544",
+   "ledger": "audit",
+   "event_id": 580544,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Ligue 2",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "580543",
+   "ledger": "audit",
+   "event_id": 580543,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Ligue 2",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "580542",
+   "ledger": "audit",
+   "event_id": 580542,
+   "mkt": "ou",
+   "line": 2.0,
+   "side": "under",
+   "pick": "小2",
+   "league": "Ligue 2",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "row_id": "214614",
+   "ledger": "audit",
+   "event_id": 214614,
+   "mkt": "1x2",
+   "line": 2.5,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Superliga",
+   "ko_utc": "2026-10-16T18:00:00+00:00"
   }
  ]
 }
