@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T10:50:35.794519+00:00",
+ "generated_at": "2026-10-16T11:41:32.457977+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -5217,6 +5217,39 @@
    "ko_utc": "2026-10-16T11:35:00+00:00"
   },
   {
+   "row_id": "2074a4e618aa8c8a",
+   "ledger": "shadow",
+   "event_id": 222845,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-10-16T13:15:00+00:00"
+  },
+  {
+   "row_id": "58d808f9fbf63ea2",
+   "ledger": "shadow",
+   "event_id": 222845,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "over",
+   "pick": "大3.5",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-10-16T13:15:00+00:00"
+  },
+  {
+   "row_id": "f51d027c47261e6a",
+   "ledger": "shadow",
+   "event_id": 222845,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-10-16T13:15:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -5292,6 +5325,17 @@
    "pick": "大2.5",
    "league": "Chinese Super League",
    "ko_utc": "2026-10-16T11:35:00+00:00"
+  },
+  {
+   "row_id": "222845",
+   "ledger": "audit",
+   "event_id": 222845,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "over",
+   "pick": "大3.5",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-10-16T13:15:00+00:00"
   }
  ]
 }
