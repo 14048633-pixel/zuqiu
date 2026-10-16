@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T14:13:24.845007+00:00",
+ "generated_at": "2026-10-16T15:35:07.423104+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -5305,6 +5305,105 @@
    "ko_utc": "2026-10-16T16:00:00+00:00"
   },
   {
+   "row_id": "82610d5696cd21fd",
+   "ledger": "shadow",
+   "event_id": 221534,
+   "mkt": "ou",
+   "line": 2.75,
+   "side": "under",
+   "pick": "小2.75",
+   "league": "Danish Superliga",
+   "ko_utc": "2026-10-16T17:00:00+00:00"
+  },
+  {
+   "row_id": "a80bd5f3355d02fa",
+   "ledger": "shadow",
+   "event_id": 221534,
+   "mkt": "ou",
+   "line": 2.75,
+   "side": "over",
+   "pick": "大2.8",
+   "league": "Danish Superliga",
+   "ko_utc": "2026-10-16T17:00:00+00:00"
+  },
+  {
+   "row_id": "1ff3931b14b7dabd",
+   "ledger": "shadow",
+   "event_id": 216023,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Trendyol Super Lig",
+   "ko_utc": "2026-10-16T17:00:00+00:00"
+  },
+  {
+   "row_id": "e6c31a04830ba11d",
+   "ledger": "shadow",
+   "event_id": 216023,
+   "mkt": "ou",
+   "line": 3.0,
+   "side": "under",
+   "pick": "小3",
+   "league": "Trendyol Super Lig",
+   "ko_utc": "2026-10-16T17:00:00+00:00"
+  },
+  {
+   "row_id": "a0994755ddf22367",
+   "ledger": "shadow",
+   "event_id": 216023,
+   "mkt": "ou",
+   "line": 3.0,
+   "side": "over",
+   "pick": "大3.0",
+   "league": "Trendyol Super Lig",
+   "ko_utc": "2026-10-16T17:00:00+00:00"
+  },
+  {
+   "row_id": "8bbf11c278b8de69",
+   "ledger": "shadow",
+   "event_id": 46491,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "Allsvenskan",
+   "ko_utc": "2026-10-16T17:00:00+00:00"
+  },
+  {
+   "row_id": "8ee8d3fbd617b49a",
+   "ledger": "shadow",
+   "event_id": 46491,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "over",
+   "pick": "大3.5",
+   "league": "Allsvenskan",
+   "ko_utc": "2026-10-16T17:00:00+00:00"
+  },
+  {
+   "row_id": "be0486f436c39017",
+   "ledger": "shadow",
+   "event_id": 46491,
+   "mkt": "ou",
+   "line": 3.25,
+   "side": "under",
+   "pick": "小3.25",
+   "league": "Allsvenskan",
+   "ko_utc": "2026-10-16T17:00:00+00:00"
+  },
+  {
+   "row_id": "7c2842cc5c22b29d",
+   "ledger": "shadow",
+   "event_id": 46491,
+   "mkt": "ou",
+   "line": 3.25,
+   "side": "over",
+   "pick": "大3.2",
+   "league": "Allsvenskan",
+   "ko_utc": "2026-10-16T17:00:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -5424,6 +5523,39 @@
    "pick": "小3",
    "league": "Ekstraklasa",
    "ko_utc": "2026-10-16T16:00:00+00:00"
+  },
+  {
+   "row_id": "221534",
+   "ledger": "audit",
+   "event_id": 221534,
+   "mkt": "ou",
+   "line": 2.75,
+   "side": "under",
+   "pick": "小2.75",
+   "league": "Danish Superliga",
+   "ko_utc": "2026-10-16T17:00:00+00:00"
+  },
+  {
+   "row_id": "216023",
+   "ledger": "audit",
+   "event_id": 216023,
+   "mkt": "1x2",
+   "line": 3.0,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Trendyol Super Lig",
+   "ko_utc": "2026-10-16T17:00:00+00:00"
+  },
+  {
+   "row_id": "46491",
+   "ledger": "audit",
+   "event_id": 46491,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "Allsvenskan",
+   "ko_utc": "2026-10-16T17:00:00+00:00"
   }
  ]
 }
