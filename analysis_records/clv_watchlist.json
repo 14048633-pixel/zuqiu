@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T03:22:39.249542+00:00",
+ "generated_at": "2026-10-17T03:35:14.010380+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -5481,6 +5481,17 @@
    "ko_utc": "2026-10-17T05:00:00+00:00"
   },
   {
+   "row_id": "66784ab2dd6ca068",
+   "ledger": "shadow",
+   "event_id": 212276,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "J1 League",
+   "ko_utc": "2026-10-17T05:00:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -5708,6 +5719,17 @@
    "line": 3.5,
    "side": "under",
    "pick": "小3.5",
+   "league": "J1 League",
+   "ko_utc": "2026-10-17T05:00:00+00:00"
+  },
+  {
+   "row_id": "212276",
+   "ledger": "audit",
+   "event_id": 212276,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
    "league": "J1 League",
    "ko_utc": "2026-10-17T05:00:00+00:00"
   }
