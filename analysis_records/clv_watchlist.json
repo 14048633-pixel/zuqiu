@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T07:43:02.401701+00:00",
+ "generated_at": "2026-10-17T08:58:29.661519+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -113,72 +113,6 @@
    "ko_utc": "2026-09-13T23:10:00+00:00"
   },
   {
-   "row_id": "a6d97ba6bbdec031",
-   "ledger": "shadow",
-   "event_id": 600964,
-   "mkt": "1x2",
-   "line": null,
-   "side": "HOME",
-   "pick": "主胜",
-   "league": "Copa Libertadores",
-   "ko_utc": "2026-09-16T22:00:00+00:00"
-  },
-  {
-   "row_id": "11f28e60bfa562cf",
-   "ledger": "shadow",
-   "event_id": 600964,
-   "mkt": "ou",
-   "line": 2.5,
-   "side": "under",
-   "pick": "小2.5",
-   "league": "Copa Libertadores",
-   "ko_utc": "2026-09-16T22:00:00+00:00"
-  },
-  {
-   "row_id": "95b1ab515be4cd97",
-   "ledger": "shadow",
-   "event_id": 220183,
-   "mkt": "1x2",
-   "line": null,
-   "side": "HOME",
-   "pick": "主胜",
-   "league": "Categoría Primera A",
-   "ko_utc": "2026-09-24T00:30:00+00:00"
-  },
-  {
-   "row_id": "8dde720ea123be8a",
-   "ledger": "shadow",
-   "event_id": 220183,
-   "mkt": "ou",
-   "line": 2.5,
-   "side": "over",
-   "pick": "大2.5",
-   "league": "Categoría Primera A",
-   "ko_utc": "2026-09-24T00:30:00+00:00"
-  },
-  {
-   "row_id": "e9db648173c2932f",
-   "ledger": "shadow",
-   "event_id": 10313,
-   "mkt": "ou",
-   "line": 2.5,
-   "side": "over",
-   "pick": "大2.5",
-   "league": "MLS",
-   "ko_utc": "2026-09-24T01:30:00+00:00"
-  },
-  {
-   "row_id": "73b60ac26ece32d4",
-   "ledger": "shadow",
-   "event_id": 220210,
-   "mkt": "ou",
-   "line": 2.5,
-   "side": "under",
-   "pick": "小2.5",
-   "league": "Categoría Primera A",
-   "ko_utc": "2026-10-14T01:30:00+00:00"
-  },
-  {
    "row_id": "8906f7b99946ae97",
    "ledger": "shadow",
    "event_id": 212282,
@@ -289,6 +223,61 @@
    "ko_utc": "2026-10-17T07:30:00+00:00"
   },
   {
+   "row_id": "56496e0f3fe9ceb7",
+   "ledger": "shadow",
+   "event_id": 212278,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "J1 League",
+   "ko_utc": "2026-10-17T10:00:00+00:00"
+  },
+  {
+   "row_id": "6b0f603a0ddc5163",
+   "ledger": "shadow",
+   "event_id": 212278,
+   "mkt": "ou",
+   "line": 2.75,
+   "side": "over",
+   "pick": "大2.75",
+   "league": "J1 League",
+   "ko_utc": "2026-10-17T10:00:00+00:00"
+  },
+  {
+   "row_id": "b892bbf0b88afb58",
+   "ledger": "shadow",
+   "event_id": 212278,
+   "mkt": "ou",
+   "line": 2.75,
+   "side": "under",
+   "pick": "小2.8",
+   "league": "J1 League",
+   "ko_utc": "2026-10-17T10:00:00+00:00"
+  },
+  {
+   "row_id": "8cf7f0ee5c1e0b2a",
+   "ledger": "shadow",
+   "event_id": 216017,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Trendyol Super Lig",
+   "ko_utc": "2026-10-17T10:30:00+00:00"
+  },
+  {
+   "row_id": "c50d2d11fe547958",
+   "ledger": "shadow",
+   "event_id": 216017,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Trendyol Super Lig",
+   "ko_utc": "2026-10-17T10:30:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -397,6 +386,28 @@
    "pick": "大2.5",
    "league": "J1 League",
    "ko_utc": "2026-10-17T07:00:00+00:00"
+  },
+  {
+   "row_id": "212278",
+   "ledger": "audit",
+   "event_id": 212278,
+   "mkt": "1x2",
+   "line": 2.75,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "J1 League",
+   "ko_utc": "2026-10-17T10:00:00+00:00"
+  },
+  {
+   "row_id": "216017",
+   "ledger": "audit",
+   "event_id": 216017,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Trendyol Super Lig",
+   "ko_utc": "2026-10-17T10:30:00+00:00"
   }
  ]
 }
