@@ -1,47 +1,11 @@
 {
- "window": "10-18 11:19 BJT -> 10-19 23:19 BJT",
+ "window": "10-18 13:17 BJT -> 10-20 01:17 BJT",
  "window_utc": [
-  "2026-10-18T03:19:00Z",
-  "2026-10-19T15:19:00Z"
+  "2026-10-18T05:17:00Z",
+  "2026-10-19T17:17:00Z"
  ],
- "generated": "2026-10-18T03:19:33.268929+00:00",
+ "generated": "2026-10-18T05:17:59.208434+00:00",
  "matches": [
-  {
-   "id": 212275,
-   "league": "J1 League",
-   "kickoff": "10-18 12:55",
-   "kickoff_iso": "2026-10-18T04:55:00+00:00",
-   "ct": "2026-10-18T04:55:00+00:00",
-   "home": "Fagiano Okayama",
-   "away": "Vissel Kobe",
-   "home_id": 1941,
-   "away_id": 1931,
-   "status": "notstarted"
-  },
-  {
-   "id": 205181,
-   "league": "K League 1",
-   "kickoff": "10-18 13:00",
-   "kickoff_iso": "2026-10-18T05:00:00+00:00",
-   "ct": "2026-10-18T05:00:00+00:00",
-   "home": "Jeonbuk Hyundai Motors",
-   "away": "Jeju SK",
-   "home_id": 1954,
-   "away_id": 1956,
-   "status": "notstarted"
-  },
-  {
-   "id": 205180,
-   "league": "K League 1",
-   "kickoff": "10-18 13:00",
-   "kickoff_iso": "2026-10-18T05:00:00+00:00",
-   "ct": "2026-10-18T05:00:00+00:00",
-   "home": "Daejeon Hana Citizen",
-   "away": "Gwangju FC",
-   "home_id": 1958,
-   "away_id": 1957,
-   "status": "notstarted"
-  },
   {
    "id": 212279,
    "league": "J1 League",
@@ -1073,15 +1037,87 @@
    "home_id": 269,
    "away_id": 258,
    "status": "notstarted"
+  },
+  {
+   "id": 222848,
+   "league": "Saudi Pro League",
+   "kickoff": "10-19 23:20",
+   "kickoff_iso": "2026-10-19T15:20:00+00:00",
+   "ct": "2026-10-19T15:20:00+00:00",
+   "home": "Abha",
+   "away": "Al-Kholood",
+   "home_id": 2415,
+   "away_id": 261,
+   "status": "notstarted"
+  },
+  {
+   "id": 210123,
+   "league": "Serie A",
+   "kickoff": "10-20 00:30",
+   "kickoff_iso": "2026-10-19T16:30:00+00:00",
+   "ct": "2026-10-19T16:30:00+00:00",
+   "home": "Monza",
+   "away": "Cagliari",
+   "home_id": 1286,
+   "away_id": 67,
+   "status": "notstarted"
+  },
+  {
+   "id": 221539,
+   "league": "Danish Superliga",
+   "kickoff": "10-20 01:00",
+   "kickoff_iso": "2026-10-19T17:00:00+00:00",
+   "ct": "2026-10-19T17:00:00+00:00",
+   "home": "Viborg FF",
+   "away": "FC Midtjylland",
+   "home_id": 1376,
+   "away_id": 127,
+   "status": "notstarted"
+  },
+  {
+   "id": 216022,
+   "league": "Trendyol Super Lig",
+   "kickoff": "10-20 01:00",
+   "kickoff_iso": "2026-10-19T17:00:00+00:00",
+   "ct": "2026-10-19T17:00:00+00:00",
+   "home": "Trabzonspor",
+   "away": "Beşiktaş JK",
+   "home_id": 197,
+   "away_id": 196,
+   "status": "notstarted"
+  },
+  {
+   "id": 211930,
+   "league": "Ekstraklasa",
+   "kickoff": "10-20 01:00",
+   "kickoff_iso": "2026-10-19T17:00:00+00:00",
+   "ct": "2026-10-19T17:00:00+00:00",
+   "home": "Wisła Płock",
+   "away": "Radomiak Radom",
+   "home_id": 425,
+   "away_id": 433,
+   "status": "notstarted"
+  },
+  {
+   "id": 46489,
+   "league": "Allsvenskan",
+   "kickoff": "10-20 01:00",
+   "kickoff_iso": "2026-10-19T17:00:00+00:00",
+   "ct": "2026-10-19T17:00:00+00:00",
+   "home": "Degerfors IF",
+   "away": "Kalmar FF",
+   "home_id": 443,
+   "away_id": 1053,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 163,
-  "n_keep": 89,
-  "n_drop": 74,
+  "n_src": 167,
+  "n_keep": 92,
+  "n_drop": 75,
   "drop_reasons": {
-   "league_unmapped": 72,
+   "league_unmapped": 73,
    "team_no_history": 2
   }
  }
