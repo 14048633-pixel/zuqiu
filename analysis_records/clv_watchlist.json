@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T19:29:14.492955+00:00",
+ "generated_at": "2026-10-23T19:59:21.991503+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -619,6 +619,28 @@
    "ko_utc": "2026-10-23T19:45:00+00:00"
   },
   {
+   "row_id": "81c715134ce37f83",
+   "ledger": "shadow",
+   "event_id": 223852,
+   "mkt": "ou",
+   "line": 1.5,
+   "side": "over",
+   "pick": "大1.5",
+   "league": "Liga Profesional de Fútbol",
+   "ko_utc": "2026-10-23T21:30:00+00:00"
+  },
+  {
+   "row_id": "89a11c1a45179ddc",
+   "ledger": "shadow",
+   "event_id": 223852,
+   "mkt": "ou",
+   "line": 1.5,
+   "side": "under",
+   "pick": "小1.5",
+   "league": "Liga Profesional de Fútbol",
+   "ko_utc": "2026-10-23T21:30:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -969,6 +991,17 @@
    "pick": "大2.5",
    "league": "Liga Portugal Betclic",
    "ko_utc": "2026-10-23T19:45:00+00:00"
+  },
+  {
+   "row_id": "223852",
+   "ledger": "audit",
+   "event_id": 223852,
+   "mkt": "ou",
+   "line": 1.5,
+   "side": "over",
+   "pick": "大1.5",
+   "league": "Liga Profesional de Fútbol",
+   "ko_utc": "2026-10-23T21:30:00+00:00"
   }
  ]
 }
