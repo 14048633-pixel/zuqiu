@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T19:34:34.687233+00:00",
+ "generated_at": "2026-10-24T20:16:41.038477+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -1719,6 +1719,61 @@
    "ko_utc": "2026-10-24T20:00:00+00:00"
   },
   {
+   "row_id": "444125535a30793f",
+   "ledger": "shadow",
+   "event_id": 10201,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Brasileirão Serie B",
+   "ko_utc": "2026-10-24T21:30:00+00:00"
+  },
+  {
+   "row_id": "5a680ebb5e3e04c2",
+   "ledger": "shadow",
+   "event_id": 7312,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Brasileirão Serie A",
+   "ko_utc": "2026-10-24T21:30:00+00:00"
+  },
+  {
+   "row_id": "511ded95404ae7a5",
+   "ledger": "shadow",
+   "event_id": 7310,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Brasileirão Serie A",
+   "ko_utc": "2026-10-24T21:30:00+00:00"
+  },
+  {
+   "row_id": "5a84475f14cb9d88",
+   "ledger": "shadow",
+   "event_id": 5366,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "over",
+   "pick": "大3.5",
+   "league": "MLS",
+   "ko_utc": "2026-10-24T21:30:00+00:00"
+  },
+  {
+   "row_id": "24a7a296d6132791",
+   "ledger": "shadow",
+   "event_id": 5366,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "MLS",
+   "ko_utc": "2026-10-24T21:30:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -2542,6 +2597,50 @@
    "pick": "小2.5",
    "league": "Liga Profesional de Fútbol",
    "ko_utc": "2026-10-24T20:00:00+00:00"
+  },
+  {
+   "row_id": "10201",
+   "ledger": "audit",
+   "event_id": 10201,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Brasileirão Serie B",
+   "ko_utc": "2026-10-24T21:30:00+00:00"
+  },
+  {
+   "row_id": "7312",
+   "ledger": "audit",
+   "event_id": 7312,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Brasileirão Serie A",
+   "ko_utc": "2026-10-24T21:30:00+00:00"
+  },
+  {
+   "row_id": "7310",
+   "ledger": "audit",
+   "event_id": 7310,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Brasileirão Serie A",
+   "ko_utc": "2026-10-24T21:30:00+00:00"
+  },
+  {
+   "row_id": "5366",
+   "ledger": "audit",
+   "event_id": 5366,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "over",
+   "pick": "大3.5",
+   "league": "MLS",
+   "ko_utc": "2026-10-24T21:30:00+00:00"
   }
  ]
 }
