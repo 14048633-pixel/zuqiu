@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T17:25:53.013493+00:00",
+ "generated_at": "2026-10-28T18:33:18.405556+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -212,6 +212,50 @@
    "ko_utc": "2026-10-28T18:00:00+00:00"
   },
   {
+   "row_id": "62840d14ff32837a",
+   "ledger": "shadow",
+   "event_id": 602350,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "over",
+   "pick": "大3.5",
+   "league": "DFB Pokal",
+   "ko_utc": "2026-10-28T19:45:00+00:00"
+  },
+  {
+   "row_id": "f90aa5f523e7ccc5",
+   "ledger": "shadow",
+   "event_id": 602350,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "DFB Pokal",
+   "ko_utc": "2026-10-28T19:45:00+00:00"
+  },
+  {
+   "row_id": "6871cede2b00e433",
+   "ledger": "shadow",
+   "event_id": 210142,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Serie A",
+   "ko_utc": "2026-10-28T19:45:00+00:00"
+  },
+  {
+   "row_id": "f418e81617041297",
+   "ledger": "shadow",
+   "event_id": 210141,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Serie A",
+   "ko_utc": "2026-10-28T19:45:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -342,6 +386,39 @@
    "pick": "小2.5",
    "league": "Allsvenskan",
    "ko_utc": "2026-10-28T18:00:00+00:00"
+  },
+  {
+   "row_id": "602350",
+   "ledger": "audit",
+   "event_id": 602350,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "over",
+   "pick": "大3.5",
+   "league": "DFB Pokal",
+   "ko_utc": "2026-10-28T19:45:00+00:00"
+  },
+  {
+   "row_id": "210142",
+   "ledger": "audit",
+   "event_id": 210142,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Serie A",
+   "ko_utc": "2026-10-28T19:45:00+00:00"
+  },
+  {
+   "row_id": "210141",
+   "ledger": "audit",
+   "event_id": 210141,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Serie A",
+   "ko_utc": "2026-10-28T19:45:00+00:00"
   }
  ]
 }
