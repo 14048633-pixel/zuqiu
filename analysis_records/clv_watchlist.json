@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T16:02:22.433467+00:00",
+ "generated_at": "2026-10-29T16:43:01.370283+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -179,6 +179,83 @@
    "ko_utc": "2026-10-29T17:30:00+00:00"
   },
   {
+   "row_id": "40ee34f1ebeb32ee",
+   "ledger": "shadow",
+   "event_id": 222872,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-10-29T18:00:00+00:00"
+  },
+  {
+   "row_id": "e0c780f0f7a0f9dd",
+   "ledger": "shadow",
+   "event_id": 222872,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "over",
+   "pick": "大3.5",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-10-29T18:00:00+00:00"
+  },
+  {
+   "row_id": "d2dbd4400059c6cb",
+   "ledger": "shadow",
+   "event_id": 222871,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-10-29T18:00:00+00:00"
+  },
+  {
+   "row_id": "40f309027685ddcb",
+   "ledger": "shadow",
+   "event_id": 222871,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-10-29T18:00:00+00:00"
+  },
+  {
+   "row_id": "1bf99cfd60090178",
+   "ledger": "shadow",
+   "event_id": 222871,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "over",
+   "pick": "大3.5",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-10-29T18:00:00+00:00"
+  },
+  {
+   "row_id": "1352526b4d92f357",
+   "ledger": "shadow",
+   "event_id": 46511,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Allsvenskan",
+   "ko_utc": "2026-10-29T18:00:00+00:00"
+  },
+  {
+   "row_id": "de59013da64209a8",
+   "ledger": "shadow",
+   "event_id": 46510,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Allsvenskan",
+   "ko_utc": "2026-10-29T18:00:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -276,6 +353,50 @@
    "pick": "小3.5",
    "league": "Allsvenskan",
    "ko_utc": "2026-10-29T17:30:00+00:00"
+  },
+  {
+   "row_id": "222872",
+   "ledger": "audit",
+   "event_id": 222872,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-10-29T18:00:00+00:00"
+  },
+  {
+   "row_id": "222871",
+   "ledger": "audit",
+   "event_id": 222871,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-10-29T18:00:00+00:00"
+  },
+  {
+   "row_id": "46511",
+   "ledger": "audit",
+   "event_id": 46511,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Allsvenskan",
+   "ko_utc": "2026-10-29T18:00:00+00:00"
+  },
+  {
+   "row_id": "46510",
+   "ledger": "audit",
+   "event_id": 46510,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Allsvenskan",
+   "ko_utc": "2026-10-29T18:00:00+00:00"
   }
  ]
 }
