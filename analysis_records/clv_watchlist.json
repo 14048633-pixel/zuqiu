@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T10:27:31.813063+00:00",
+ "generated_at": "2026-11-01T11:00:29.536633+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -168,6 +168,17 @@
    "ko_utc": "2026-11-01T11:30:00+00:00"
   },
   {
+   "row_id": "aa50a1661c83a008",
+   "ledger": "shadow",
+   "event_id": 212799,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Pro League",
+   "ko_utc": "2026-11-01T12:30:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -265,6 +276,17 @@
    "pick": "大3.5",
    "league": "Serie A",
    "ko_utc": "2026-11-01T11:30:00+00:00"
+  },
+  {
+   "row_id": "212799",
+   "ledger": "audit",
+   "event_id": 212799,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Pro League",
+   "ko_utc": "2026-11-01T12:30:00+00:00"
   }
  ]
 }
