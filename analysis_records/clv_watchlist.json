@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T15:31:22.100221+00:00",
+ "generated_at": "2026-11-01T16:05:47.224222+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -938,6 +938,50 @@
    "ko_utc": "2026-11-01T17:00:00+00:00"
   },
   {
+   "row_id": "4369cf6f3d49e475",
+   "ledger": "shadow",
+   "event_id": 214889,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Segunda División",
+   "ko_utc": "2026-11-01T17:30:00+00:00"
+  },
+  {
+   "row_id": "8d57c5f4e3492d20",
+   "ledger": "shadow",
+   "event_id": 213622,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "La Liga",
+   "ko_utc": "2026-11-01T17:30:00+00:00"
+  },
+  {
+   "row_id": "06885b3c4a506371",
+   "ledger": "shadow",
+   "event_id": 213622,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "La Liga",
+   "ko_utc": "2026-11-01T17:30:00+00:00"
+  },
+  {
+   "row_id": "31ac0f2ed93a7130",
+   "ledger": "shadow",
+   "event_id": 212801,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Pro League",
+   "ko_utc": "2026-11-01T17:30:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -1442,6 +1486,39 @@
    "pick": "小2.5",
    "league": "Serie A",
    "ko_utc": "2026-11-01T17:00:00+00:00"
+  },
+  {
+   "row_id": "214889",
+   "ledger": "audit",
+   "event_id": 214889,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Segunda División",
+   "ko_utc": "2026-11-01T17:30:00+00:00"
+  },
+  {
+   "row_id": "213622",
+   "ledger": "audit",
+   "event_id": 213622,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "La Liga",
+   "ko_utc": "2026-11-01T17:30:00+00:00"
+  },
+  {
+   "row_id": "212801",
+   "ledger": "audit",
+   "event_id": 212801,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Pro League",
+   "ko_utc": "2026-11-01T17:30:00+00:00"
   }
  ]
 }
