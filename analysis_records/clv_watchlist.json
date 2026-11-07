@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T11:34:58.106177+00:00",
+ "generated_at": "2026-11-07T12:12:28.955265+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -289,6 +289,50 @@
    "ko_utc": "2026-11-07T13:00:00+00:00"
   },
   {
+   "row_id": "e9fbd2ef1c84868f",
+   "ledger": "shadow",
+   "event_id": 211958,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Ekstraklasa",
+   "ko_utc": "2026-11-07T13:45:00+00:00"
+  },
+  {
+   "row_id": "be3d267559a31754",
+   "ledger": "shadow",
+   "event_id": 210165,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Serie A",
+   "ko_utc": "2026-11-07T14:00:00+00:00"
+  },
+  {
+   "row_id": "8ada8dceabcdc17c",
+   "ledger": "shadow",
+   "event_id": 210158,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "Serie A",
+   "ko_utc": "2026-11-07T14:00:00+00:00"
+  },
+  {
+   "row_id": "89446d50b541d1e8",
+   "ledger": "shadow",
+   "event_id": 210158,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "over",
+   "pick": "大3.5",
+   "league": "Serie A",
+   "ko_utc": "2026-11-07T14:00:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -485,6 +529,39 @@
    "pick": "小2.5",
    "league": "Superliga",
    "ko_utc": "2026-11-07T13:00:00+00:00"
+  },
+  {
+   "row_id": "211958",
+   "ledger": "audit",
+   "event_id": 211958,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Ekstraklasa",
+   "ko_utc": "2026-11-07T13:45:00+00:00"
+  },
+  {
+   "row_id": "210165",
+   "ledger": "audit",
+   "event_id": 210165,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Serie A",
+   "ko_utc": "2026-11-07T14:00:00+00:00"
+  },
+  {
+   "row_id": "210158",
+   "ledger": "audit",
+   "event_id": 210158,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "Serie A",
+   "ko_utc": "2026-11-07T14:00:00+00:00"
   }
  ]
 }
