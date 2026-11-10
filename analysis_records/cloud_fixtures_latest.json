@@ -1,79 +1,18 @@
 {
- "window": "11-09 13:23 BJT -> 11-11 01:23 BJT",
+ "window": "11-10 13:11 BJT -> 11-12 01:11 BJT",
  "window_utc": [
-  "2026-11-09T05:23:00Z",
-  "2026-11-10T17:23:00Z"
+  "2026-11-10T05:11:00Z",
+  "2026-11-11T17:11:00Z"
  ],
- "generated": "2026-11-09T05:23:14.220672+00:00",
- "matches": [
-  {
-   "id": 654033,
-   "league": "Eliteserien",
-   "kickoff": "11-10 02:00",
-   "kickoff_iso": "2026-11-09T18:00:00+00:00",
-   "ct": "2026-11-09T18:00:00+00:00",
-   "home": "Kristiansund BK",
-   "away": "Vålerenga IF",
-   "home_id": 2079,
-   "away_id": 2084,
-   "status": "notstarted"
-  },
-  {
-   "id": 214640,
-   "league": "Superliga",
-   "kickoff": "11-10 02:00",
-   "kickoff_iso": "2026-11-09T18:00:00+00:00",
-   "ct": "2026-11-09T18:00:00+00:00",
-   "home": "FC Botoșani",
-   "away": "SC Oțelul Galați",
-   "home_id": 365,
-   "away_id": 361,
-   "status": "notstarted"
-  },
-  {
-   "id": 214906,
-   "league": "Segunda División",
-   "kickoff": "11-10 03:30",
-   "kickoff_iso": "2026-11-09T19:30:00+00:00",
-   "ct": "2026-11-09T19:30:00+00:00",
-   "home": "UD Las Palmas",
-   "away": "CD Eldense",
-   "home_id": 1266,
-   "away_id": 1403,
-   "status": "postponed"
-  },
-  {
-   "id": 214900,
-   "league": "Segunda División",
-   "kickoff": "11-10 03:30",
-   "kickoff_iso": "2026-11-09T19:30:00+00:00",
-   "ct": "2026-11-09T19:30:00+00:00",
-   "home": "CE Sabadell",
-   "away": "Real Sociedad B",
-   "home_id": 1467,
-   "away_id": 1829,
-   "status": "notstarted"
-  },
-  {
-   "id": 643032,
-   "league": "Categoría Primera A",
-   "kickoff": "11-10 08:00",
-   "kickoff_iso": "2026-11-10T00:00:00+00:00",
-   "ct": "2026-11-10T00:00:00+00:00",
-   "home": "Junior Barranquilla",
-   "away": "Cúcuta Deportivo",
-   "home_id": 789,
-   "away_id": 4635,
-   "status": "notstarted"
-  }
- ],
+ "generated": "2026-11-10T05:11:17.288883+00:00",
+ "matches": [],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 15,
-  "n_keep": 5,
-  "n_drop": 10,
+  "n_src": 12,
+  "n_keep": 0,
+  "n_drop": 12,
   "drop_reasons": {
-   "league_unmapped": 10
+   "league_unmapped": 12
   }
  }
 }
