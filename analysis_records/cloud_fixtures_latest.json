@@ -1,10 +1,10 @@
 {
- "window": "11-11 13:10 BJT -> 11-13 01:10 BJT",
+ "window": "11-11 19:00 BJT -> 11-13 07:00 BJT",
  "window_utc": [
-  "2026-11-11T05:10:00Z",
-  "2026-11-12T17:10:00Z"
+  "2026-11-11T11:00:00Z",
+  "2026-11-12T23:00:00Z"
  ],
- "generated": "2026-11-11T05:10:46.990791+00:00",
+ "generated": "2026-11-11T11:00:02.247033+00:00",
  "matches": [
   {
    "id": 10230,
@@ -17,15 +17,88 @@
    "home_id": 821,
    "away_id": 928,
    "status": "notstarted"
+  },
+  {
+   "id": 220330,
+   "league": "Categoría Primera A",
+   "kickoff": "11-13 04:00",
+   "kickoff_iso": "2026-11-12T20:00:00+00:00",
+   "ct": "2026-11-12T20:00:00+00:00",
+   "home": "Llaneros FC",
+   "away": "Boyacá Chicó FC",
+   "home_id": 4781,
+   "away_id": 4784,
+   "status": "postponed"
+  },
+  {
+   "id": 220329,
+   "league": "Categoría Primera A",
+   "kickoff": "11-13 04:00",
+   "kickoff_iso": "2026-11-12T20:00:00+00:00",
+   "ct": "2026-11-12T20:00:00+00:00",
+   "home": "Internacional de Bogotá",
+   "away": "Independiente Santa Fe",
+   "home_id": 3181,
+   "away_id": 797,
+   "status": "postponed"
+  },
+  {
+   "id": 220326,
+   "league": "Categoría Primera A",
+   "kickoff": "11-13 04:00",
+   "kickoff_iso": "2026-11-12T20:00:00+00:00",
+   "ct": "2026-11-12T20:00:00+00:00",
+   "home": "Deportivo Cali",
+   "away": "Deportes Tolima",
+   "home_id": 3733,
+   "away_id": 781,
+   "status": "postponed"
+  },
+  {
+   "id": 220323,
+   "league": "Categoría Primera A",
+   "kickoff": "11-13 05:00",
+   "kickoff_iso": "2026-11-12T21:00:00+00:00",
+   "ct": "2026-11-12T21:00:00+00:00",
+   "home": "Atlético Bucaramanga",
+   "away": "Fortaleza FC",
+   "home_id": 771,
+   "away_id": 4782,
+   "status": "postponed"
+  },
+  {
+   "id": 654335,
+   "league": "Categoría Primera A",
+   "kickoff": "11-13 06:00",
+   "kickoff_iso": "2026-11-12T22:00:00+00:00",
+   "ct": "2026-11-12T22:00:00+00:00",
+   "home": "Deportivo Pasto",
+   "away": "Junior Barranquilla",
+   "home_id": 3419,
+   "away_id": 789,
+   "status": "notstarted"
+  },
+  {
+   "id": 10231,
+   "league": "Brasileirão Serie B",
+   "kickoff": "11-13 06:00",
+   "kickoff_iso": "2026-11-12T22:00:00+00:00",
+   "ct": "2026-11-12T22:00:00+00:00",
+   "home": "Ponte Preta",
+   "away": "Operário-PR",
+   "home_id": 844,
+   "away_id": 828,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 24,
-  "n_keep": 1,
-  "n_drop": 23,
+  "n_src": 47,
+  "n_keep": 7,
+  "n_drop": 40,
   "drop_reasons": {
-   "league_unmapped": 23
+   "league_unmapped": 39,
+   "team_no_history": 1
   }
  }
 }
