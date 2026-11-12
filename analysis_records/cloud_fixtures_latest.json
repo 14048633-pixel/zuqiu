@@ -1,23 +1,11 @@
 {
- "window": "11-11 19:00 BJT -> 11-13 07:00 BJT",
+ "window": "11-12 13:12 BJT -> 11-14 01:12 BJT",
  "window_utc": [
-  "2026-11-11T11:00:00Z",
-  "2026-11-12T23:00:00Z"
+  "2026-11-12T05:12:00Z",
+  "2026-11-13T17:12:00Z"
  ],
- "generated": "2026-11-11T11:00:02.247033+00:00",
+ "generated": "2026-11-12T05:12:56.011672+00:00",
  "matches": [
-  {
-   "id": 10230,
-   "league": "Brasileirão Serie B",
-   "kickoff": "11-12 06:00",
-   "kickoff_iso": "2026-11-11T22:00:00+00:00",
-   "ct": "2026-11-11T22:00:00+00:00",
-   "home": "Londrina",
-   "away": "Náutico",
-   "home_id": 821,
-   "away_id": 928,
-   "status": "notstarted"
-  },
   {
    "id": 220330,
    "league": "Categoría Primera A",
@@ -89,15 +77,27 @@
    "home_id": 844,
    "away_id": 828,
    "status": "notstarted"
+  },
+  {
+   "id": 654336,
+   "league": "Categoría Primera A",
+   "kickoff": "11-13 08:00",
+   "kickoff_iso": "2026-11-13T00:00:00+00:00",
+   "ct": "2026-11-13T00:00:00+00:00",
+   "home": "Llaneros FC",
+   "away": "Boyacá Chicó FC",
+   "home_id": 4781,
+   "away_id": 4784,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 47,
+  "n_src": 62,
   "n_keep": 7,
-  "n_drop": 40,
+  "n_drop": 55,
   "drop_reasons": {
-   "league_unmapped": 39,
+   "league_unmapped": 54,
    "team_no_history": 1
   }
  }
