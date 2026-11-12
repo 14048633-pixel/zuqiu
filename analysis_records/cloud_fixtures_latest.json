@@ -1,10 +1,10 @@
 {
- "window": "11-12 13:12 BJT -> 11-14 01:12 BJT",
+ "window": "11-12 19:00 BJT -> 11-14 07:00 BJT",
  "window_utc": [
-  "2026-11-12T05:12:00Z",
-  "2026-11-13T17:12:00Z"
+  "2026-11-12T11:00:00Z",
+  "2026-11-13T23:00:00Z"
  ],
- "generated": "2026-11-12T05:12:56.011672+00:00",
+ "generated": "2026-11-12T11:00:02.673996+00:00",
  "matches": [
   {
    "id": 220330,
@@ -89,15 +89,27 @@
    "home_id": 4781,
    "away_id": 4784,
    "status": "notstarted"
+  },
+  {
+   "id": 214915,
+   "league": "Segunda División",
+   "kickoff": "11-14 03:30",
+   "kickoff_iso": "2026-11-13T19:30:00+00:00",
+   "ct": "2026-11-13T19:30:00+00:00",
+   "home": "Leganés",
+   "away": "Burgos Club de Fútbol",
+   "home_id": 1268,
+   "away_id": 1401,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 62,
-  "n_keep": 7,
-  "n_drop": 55,
+  "n_src": 86,
+  "n_keep": 8,
+  "n_drop": 78,
   "drop_reasons": {
-   "league_unmapped": 54,
+   "league_unmapped": 77,
    "team_no_history": 1
   }
  }
