@@ -1,10 +1,10 @@
 {
- "window": "11-13 19:00 BJT -> 11-15 07:00 BJT",
+ "window": "11-14 01:00 BJT -> 11-15 13:00 BJT",
  "window_utc": [
-  "2026-11-13T11:00:00Z",
-  "2026-11-14T23:00:00Z"
+  "2026-11-13T17:00:00Z",
+  "2026-11-15T05:00:00Z"
  ],
- "generated": "2026-11-13T11:00:13.369989+00:00",
+ "generated": "2026-11-13T17:00:01.890231+00:00",
  "matches": [
   {
    "id": 214915,
@@ -557,15 +557,27 @@
    "home_id": 309,
    "away_id": 317,
    "status": "notstarted"
+  },
+  {
+   "id": 649792,
+   "league": "Brasileirão Serie A",
+   "kickoff": "11-15 07:30",
+   "kickoff_iso": "2026-11-14T23:30:00+00:00",
+   "ct": "2026-11-14T23:30:00+00:00",
+   "home": "Chapecoense",
+   "away": "Vasco da Gama",
+   "home_id": 373,
+   "away_id": 164,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 213,
-  "n_keep": 46,
-  "n_drop": 167,
+  "n_src": 202,
+  "n_keep": 47,
+  "n_drop": 155,
   "drop_reasons": {
-   "league_unmapped": 166,
+   "league_unmapped": 154,
    "team_no_history": 1
   }
  }
