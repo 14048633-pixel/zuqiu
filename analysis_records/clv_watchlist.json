@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T18:00:43.463821+00:00",
+ "generated_at": "2026-11-14T00:01:14.880339+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -124,6 +124,17 @@
    "ko_utc": "2026-11-13T19:30:00+00:00"
   },
   {
+   "row_id": "a520cb5541a653db",
+   "ledger": "shadow",
+   "event_id": 654334,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Categoría Primera A",
+   "ko_utc": "2026-11-14T01:30:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -188,6 +199,17 @@
    "pick": "小2.5",
    "league": "Segunda División",
    "ko_utc": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "row_id": "654334",
+   "ledger": "audit",
+   "event_id": 654334,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Categoría Primera A",
+   "ko_utc": "2026-11-14T01:30:00+00:00"
   }
  ]
 }
