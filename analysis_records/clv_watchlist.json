@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T10:56:32.109660+00:00",
+ "generated_at": "2026-11-15T11:31:31.694675+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -113,6 +113,28 @@
    "ko_utc": "2026-09-13T23:10:00+00:00"
   },
   {
+   "row_id": "ae06bdee734386d7",
+   "ledger": "shadow",
+   "event_id": 214912,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Segunda División",
+   "ko_utc": "2026-11-15T13:00:00+00:00"
+  },
+  {
+   "row_id": "ba0a3241c67c28f7",
+   "ledger": "shadow",
+   "event_id": 214912,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Segunda División",
+   "ko_utc": "2026-11-15T13:00:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -166,6 +188,17 @@
    "pick": "小2.5",
    "league": "Pro League",
    "ko_utc": "2026-10-23T18:45:00+00:00"
+  },
+  {
+   "row_id": "214912",
+   "ledger": "audit",
+   "event_id": 214912,
+   "mkt": "1x2",
+   "line": 2.5,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Segunda División",
+   "ko_utc": "2026-11-15T13:00:00+00:00"
   }
  ]
 }
