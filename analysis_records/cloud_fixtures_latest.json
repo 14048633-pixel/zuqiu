@@ -1,35 +1,11 @@
 {
- "window": "11-15 19:00 BJT -> 11-17 07:00 BJT",
+ "window": "11-16 01:00 BJT -> 11-17 13:00 BJT",
  "window_utc": [
-  "2026-11-15T11:00:00Z",
-  "2026-11-16T23:00:00Z"
+  "2026-11-15T17:00:00Z",
+  "2026-11-17T05:00:00Z"
  ],
- "generated": "2026-11-15T11:00:34.409001+00:00",
+ "generated": "2026-11-15T17:00:01.745432+00:00",
  "matches": [
-  {
-   "id": 214912,
-   "league": "Segunda División",
-   "kickoff": "11-15 21:00",
-   "kickoff_iso": "2026-11-15T13:00:00+00:00",
-   "ct": "2026-11-15T13:00:00+00:00",
-   "home": "CD Tenerife",
-   "away": "AD Ceuta",
-   "home_id": 1388,
-   "away_id": 1458,
-   "status": "notstarted"
-  },
-  {
-   "id": 214914,
-   "league": "Segunda División",
-   "kickoff": "11-15 23:15",
-   "kickoff_iso": "2026-11-15T15:15:00+00:00",
-   "ct": "2026-11-15T15:15:00+00:00",
-   "home": "Granada",
-   "away": "UD Las Palmas",
-   "home_id": 1261,
-   "away_id": 1266,
-   "status": "notstarted"
-  },
   {
    "id": 214913,
    "league": "Segunda División",
@@ -69,11 +45,11 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 112,
-  "n_keep": 5,
-  "n_drop": 107,
+  "n_src": 40,
+  "n_keep": 3,
+  "n_drop": 37,
   "drop_reasons": {
-   "league_unmapped": 107
+   "league_unmapped": 37
   }
  }
 }
