@@ -1,10 +1,10 @@
 {
- "window": "11-15 13:10 BJT -> 11-17 01:10 BJT",
+ "window": "11-15 19:00 BJT -> 11-17 07:00 BJT",
  "window_utc": [
-  "2026-11-15T05:10:00Z",
-  "2026-11-16T17:10:00Z"
+  "2026-11-15T11:00:00Z",
+  "2026-11-16T23:00:00Z"
  ],
- "generated": "2026-11-15T05:11:06.797653+00:00",
+ "generated": "2026-11-15T11:00:34.409001+00:00",
  "matches": [
   {
    "id": 214912,
@@ -53,15 +53,27 @@
    "home_id": 1403,
    "away_id": 1467,
    "status": "notstarted"
+  },
+  {
+   "id": 214909,
+   "league": "Segunda División",
+   "kickoff": "11-17 03:30",
+   "kickoff_iso": "2026-11-16T19:30:00+00:00",
+   "ct": "2026-11-16T19:30:00+00:00",
+   "home": "Albacete Balompié",
+   "away": "Celta Fortuna",
+   "home_id": 1395,
+   "away_id": 3883,
+   "status": "notstarted"
   }
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 98,
-  "n_keep": 4,
-  "n_drop": 94,
+  "n_src": 112,
+  "n_keep": 5,
+  "n_drop": 107,
   "drop_reasons": {
-   "league_unmapped": 94
+   "league_unmapped": 107
   }
  }
 }

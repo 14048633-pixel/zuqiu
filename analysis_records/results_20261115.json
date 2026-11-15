@@ -1,10 +1,57 @@
 {
  "date": "2026-11-15",
  "window_utc": [
-  "2026-11-13T17:11:03Z",
-  "2026-11-15T05:11:03Z"
+  "2026-11-13T23:00:21Z",
+  "2026-11-15T11:00:21Z"
  ],
  "results": [
+  {
+   "id": 655336,
+   "league_id": 44,
+   "season_id": 2240,
+   "home_team_id": 4960,
+   "home_team": "AS Tefana",
+   "away_team_id": 1751,
+   "away_team": "Thionville Lusitanos",
+   "home_coach_id": null,
+   "away_coach_id": 1129,
+   "referee_id": null,
+   "venue_id": 2718,
+   "event_date": "2026-11-15T04:00:00+00:00",
+   "status": "finished",
+   "replaced_by": null,
+   "round_number": 7,
+   "round_name": "Round 7",
+   "group_name": null,
+   "stage": "round-7",
+   "stage_name": "Round 7",
+   "round_label": "Round 7",
+   "period": "FT",
+   "current_minute": 90,
+   "home_score": 0,
+   "away_score": 3,
+   "home_score_ht": 0,
+   "away_score_ht": 3,
+   "penalty_shootout": null,
+   "extra_time_score": null,
+   "is_local_derby": false,
+   "is_neutral_ground": false,
+   "travel_distance_km": null,
+   "weather": {
+    "code": null,
+    "description": null,
+    "wind_speed": null,
+    "temperature_c": null
+   },
+   "pitch_condition": null,
+   "attendance": null,
+   "live_websocket": false,
+   "websocket_plus": false,
+   "highlights": [],
+   "head_to_head": null,
+   "has_xg": false,
+   "previous_leg_event_id": null
+  },
   {
    "id": 654196,
    "league_id": 31,
@@ -2596,7 +2643,29 @@
    "attendance": null,
    "live_websocket": true,
    "websocket_plus": true,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "full",
+     "title": "Romania 2 - 1 Poland — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=ebONMIg5BRo",
+     "thumbnail": "https://i.ytimg.com/vi/ebONMIg5BRo/hqdefault.jpg",
+     "published_at": "2026-11-15T08:58:03+00:00"
+    },
+    {
+     "kind": "full",
+     "title": "Romania 2 - 1 Poland — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=rQF1aaG-_no",
+     "thumbnail": "https://i.ytimg.com/vi/rQF1aaG-_no/hqdefault.jpg",
+     "published_at": "2026-11-15T08:57:08+00:00"
+    },
+    {
+     "kind": "full",
+     "title": "Romania 2 - 1 Poland — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=LrS_WcbXvfM",
+     "thumbnail": "https://i.ytimg.com/vi/LrS_WcbXvfM/hqdefault.jpg",
+     "published_at": "2026-11-15T08:55:28+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 6,
     "home_wins": 2,
@@ -2721,7 +2790,22 @@
    "attendance": null,
    "live_websocket": true,
    "websocket_plus": true,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "full",
+     "title": "Austria 1 - 0 Ireland — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=H8rKRqDzPqk&pp=ygUaYXVzdHJpYSBpcmVsYW5kIGhpZ2hsaWdodHM%3D",
+     "thumbnail": "https://i.ytimg.com/vi/H8rKRqDzPqk/hqdefault.jpg",
+     "published_at": "2026-11-15T09:02:36+00:00"
+    },
+    {
+     "kind": "full",
+     "title": "Austria 1 - 0 Ireland — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=q-QtAMpR6c0",
+     "thumbnail": "https://i.ytimg.com/vi/q-QtAMpR6c0/hqdefault.jpg",
+     "published_at": "2026-11-15T09:01:48+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 6,
     "home_wins": 2,
@@ -2846,7 +2930,15 @@
    "attendance": null,
    "live_websocket": true,
    "websocket_plus": true,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "full",
+     "title": "Northern Ireland 1 - 0 Ukraine — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=3HRlDAbnYEc&pp=0gcJCccHAYcqIYzv",
+     "thumbnail": "https://i.ytimg.com/vi/3HRlDAbnYEc/hqdefault.jpg",
+     "published_at": "2026-11-15T09:01:20+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 4,
     "home_wins": 3,
@@ -4574,7 +4666,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 94,
    "home_score": 1,
    "away_score": 2,
    "home_score_ht": 0,
@@ -4627,7 +4719,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -4652,7 +4744,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 3,
    "away_score": 1,
    "home_score_ht": 1,
@@ -4804,7 +4896,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -4829,7 +4921,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 92,
    "home_score": 4,
    "away_score": 0,
    "home_score_ht": 1,
@@ -4981,7 +5073,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -5006,7 +5098,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 94,
    "home_score": 1,
    "away_score": 2,
    "home_score_ht": 0,
@@ -5081,7 +5173,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -5106,7 +5198,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 94,
    "home_score": 1,
    "away_score": 2,
    "home_score_ht": 0,
@@ -5159,7 +5251,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -5184,7 +5276,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 6,
    "away_score": 1,
    "home_score_ht": 3,
@@ -5259,7 +5351,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -6324,7 +6416,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 1,
    "away_score": 0,
    "home_score_ht": 0,
@@ -8545,7 +8637,29 @@
    "attendance": null,
    "live_websocket": true,
    "websocket_plus": true,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "full",
+     "title": "Georgia 0 - 2 Hungary — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=zxCqkD1D8t0",
+     "thumbnail": "https://i.ytimg.com/vi/zxCqkD1D8t0/hqdefault.jpg",
+     "published_at": "2026-11-15T09:09:28+00:00"
+    },
+    {
+     "kind": "full",
+     "title": "Georgia 0 - 2 Hungary — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=Fpv6eEVcWxA",
+     "thumbnail": "https://i.ytimg.com/vi/Fpv6eEVcWxA/hqdefault.jpg",
+     "published_at": "2026-11-15T09:08:12+00:00"
+    },
+    {
+     "kind": "full",
+     "title": "Georgia 0 - 2 Hungary — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=v7u_duSp12w",
+     "thumbnail": "https://i.ytimg.com/vi/v7u_duSp12w/hqdefault.jpg",
+     "published_at": "2026-11-15T09:07:27+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 2,
     "home_wins": 0,
@@ -8626,7 +8740,22 @@
    "attendance": null,
    "live_websocket": true,
    "websocket_plus": true,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "full",
+     "title": "Norway 3 - 1 Wales — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=R6XdhA1VgiM",
+     "thumbnail": "https://i.ytimg.com/vi/R6XdhA1VgiM/hqdefault.jpg",
+     "published_at": "2026-11-15T09:00:49+00:00"
+    },
+    {
+     "kind": "full",
+     "title": "Norway 3 - 1 Wales — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=Tu-i3XVinHA",
+     "thumbnail": "https://i.ytimg.com/vi/Tu-i3XVinHA/hqdefault.jpg",
+     "published_at": "2026-11-15T08:58:50+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 3,
     "home_wins": 1,
@@ -8768,7 +8897,7 @@
    "stage_name": "Group stage",
    "round_label": "Group B · Matchday 14",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 3,
    "away_score": 2,
    "home_score_ht": 2,
@@ -8898,7 +9027,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -8923,7 +9052,7 @@
    "stage_name": "Group stage",
    "round_label": "Group C · Matchday 14",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 3,
    "away_score": 2,
    "home_score_ht": 3,
@@ -9075,7 +9204,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -9100,7 +9229,7 @@
    "stage_name": "Group stage",
    "round_label": "Group A · Matchday 14",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 96,
    "home_score": 1,
    "away_score": 2,
    "home_score_ht": 0,
@@ -9219,7 +9348,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -9244,7 +9373,7 @@
    "stage_name": "Group stage",
    "round_label": "Group A · Matchday 14",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 95,
    "home_score": 1,
    "away_score": 1,
    "home_score_ht": 0,
@@ -9297,7 +9426,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -10372,7 +10501,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 17",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 95,
    "home_score": 2,
    "away_score": 2,
    "home_score_ht": 2,
@@ -10549,7 +10678,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 17",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 0,
    "away_score": 2,
    "home_score_ht": 0,
@@ -10726,7 +10855,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 17",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 96,
    "home_score": 2,
    "away_score": 1,
    "home_score_ht": 0,
@@ -10981,7 +11110,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 17",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 94,
    "home_score": 1,
    "away_score": 1,
    "home_score_ht": 0,
@@ -11158,7 +11287,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 17",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 94,
    "home_score": 2,
    "away_score": 1,
    "home_score_ht": 1,
@@ -11236,7 +11365,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 17",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 95,
    "home_score": 1,
    "away_score": 1,
    "home_score_ht": 0,
@@ -11402,7 +11531,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 17",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 94,
    "home_score": 4,
    "away_score": 0,
    "home_score_ht": 0,
@@ -11657,7 +11786,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 17",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 95,
    "home_score": 1,
    "away_score": 2,
    "home_score_ht": 0,
@@ -11834,7 +11963,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 17",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 96,
    "home_score": 2,
    "away_score": 0,
    "home_score_ht": 1,
@@ -11934,7 +12063,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 97,
    "home_score": 1,
    "away_score": 4,
    "home_score_ht": 0,
@@ -12111,7 +12240,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 95,
    "home_score": 2,
    "away_score": 1,
    "home_score_ht": 0,
@@ -12288,7 +12417,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 1,
    "away_score": 1,
    "home_score_ht": 0,
@@ -12432,7 +12561,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 94,
    "home_score": 0,
    "away_score": 1,
    "home_score_ht": 0,
@@ -12609,7 +12738,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 4,
    "away_score": 2,
    "home_score_ht": 2,
@@ -12778,7 +12907,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 96,
    "home_score": 2,
    "away_score": 2,
    "home_score_ht": 0,
@@ -12955,7 +13084,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 97,
    "home_score": 2,
    "away_score": 0,
    "home_score_ht": 0,
@@ -13132,7 +13261,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 94,
    "home_score": 0,
    "away_score": 2,
    "home_score_ht": 0,
@@ -14137,7 +14266,15 @@
    "attendance": null,
    "live_websocket": false,
    "websocket_plus": false,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "full",
+     "title": "PAOK 3 - 1 Partizan — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=bZaUCBg2lok",
+     "thumbnail": "https://i.ytimg.com/vi/bZaUCBg2lok/hqdefault.jpg",
+     "published_at": "2026-11-15T09:16:05+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 1,
     "home_wins": 1,
@@ -14347,7 +14484,22 @@
    "attendance": null,
    "live_websocket": true,
    "websocket_plus": true,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "full",
+     "title": "Kosovo 0 - 0 Israel — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=nmyyV5As2Ag",
+     "thumbnail": "https://i.ytimg.com/vi/nmyyV5As2Ag/hqdefault.jpg",
+     "published_at": "2026-11-15T09:14:26+00:00"
+    },
+    {
+     "kind": "full",
+     "title": "Kosovo 0 - 0 Israel — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=ljSFTPUoq_E",
+     "thumbnail": "https://i.ytimg.com/vi/ljSFTPUoq_E/hqdefault.jpg",
+     "published_at": "2026-11-15T09:10:49+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 2,
     "home_wins": 0,
@@ -14484,7 +14636,7 @@
    "stage_name": "Group stage",
    "round_label": "Group B · Matchday 14",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 96,
    "home_score": 4,
    "away_score": 2,
    "home_score_ht": 3,
@@ -14581,7 +14733,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -14606,7 +14758,7 @@
    "stage_name": "Group stage",
    "round_label": "Group B · Matchday 14",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 96,
    "home_score": 0,
    "away_score": 0,
    "home_score_ht": 0,
@@ -14659,7 +14811,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -14684,7 +14836,7 @@
    "stage_name": "Group stage",
    "round_label": "Group C · Matchday 14",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 95,
    "home_score": 3,
    "away_score": 1,
    "home_score_ht": 1,
@@ -14759,7 +14911,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -14784,7 +14936,7 @@
    "stage_name": "Group stage",
    "round_label": "Group A · Matchday 14",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 95,
    "home_score": 3,
    "away_score": 3,
    "home_score_ht": 2,
@@ -14837,7 +14989,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -14862,7 +15014,7 @@
    "stage_name": "Group stage",
    "round_label": "Group A · Matchday 14",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 97,
    "home_score": 3,
    "away_score": 2,
    "home_score_ht": 2,
@@ -14959,7 +15111,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -14984,7 +15136,7 @@
    "stage_name": "Group stage",
    "round_label": "Group A · Matchday 14",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 96,
    "home_score": 1,
    "away_score": 2,
    "home_score_ht": 0,
@@ -15059,7 +15211,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -15751,7 +15903,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 15",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 1,
    "away_score": 0,
    "home_score_ht": 0,
@@ -16490,7 +16642,15 @@
    "attendance": null,
    "live_websocket": false,
    "websocket_plus": false,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "goals",
+     "title": "Legia 4 - 2 Pogoń G. M. — All Goals",
+     "url": "https://www.youtube.com/watch?v=_UuCzCDX7Eg",
+     "thumbnail": "https://i.ytimg.com/vi/_UuCzCDX7Eg/hqdefault.jpg",
+     "published_at": "2026-11-15T09:20:39+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 3,
     "home_wins": 3,
@@ -16629,7 +16789,22 @@
    "attendance": null,
    "live_websocket": true,
    "websocket_plus": true,
-   "highlights": [],
+   "highlights": [
+    {
+     "kind": "full",
+     "title": "Japan 3 - 2 Brazil — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=77KnTbS8V9c",
+     "thumbnail": "https://i.ytimg.com/vi/77KnTbS8V9c/hqdefault.jpg",
+     "published_at": "2026-11-15T09:27:08+00:00"
+    },
+    {
+     "kind": "full",
+     "title": "Japan 3 - 2 Brazil — Full Highlights",
+     "url": "https://www.youtube.com/watch?v=Tp-QjreO9hc",
+     "thumbnail": "https://i.ytimg.com/vi/Tp-QjreO9hc/hqdefault.jpg",
+     "published_at": "2026-11-15T09:25:17+00:00"
+    }
+   ],
    "head_to_head": {
     "total_matches": 8,
     "home_wins": 2,
@@ -18290,2432 +18465,6 @@
       "home_score": 0,
       "away_team_id": 698,
       "home_team_id": 2292
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 653960,
-   "league_id": 31,
-   "season_id": 133,
-   "home_team_id": 489,
-   "home_team": "Argentina",
-   "away_team_id": 480,
-   "away_team": "Uruguay",
-   "home_coach_id": 124,
-   "away_coach_id": 3978,
-   "referee_id": 3446,
-   "venue_id": 579,
-   "event_date": "2026-11-13T23:00:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": null,
-   "round_name": "",
-   "group_name": null,
-   "stage": "league-phase",
-   "stage_name": "League phase",
-   "round_label": "League phase",
-   "period": "FT",
-   "current_minute": 95,
-   "home_score": 1,
-   "away_score": 2,
-   "home_score_ht": 0,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": 214,
-   "weather": {
-    "code": 2,
-    "description": "cloudy",
-    "wind_speed": 8.1,
-    "temperature_c": 26
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Argentina 1 - 2 Uruguay — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=yqnMLU-IhrE",
-     "thumbnail": "https://i.ytimg.com/vi/yqnMLU-IhrE/hqdefault.jpg",
-     "published_at": "2026-11-14T01:06:49+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 19,
-    "home_wins": 11,
-    "draws": 3,
-    "away_wins": 5,
-    "home_goals": 27,
-    "away_goals": 18,
-    "avg_total_goals": 2.3684210526315788,
-    "home_win_rate": 0.5789473684210527,
-    "away_win_rate": 0.2631578947368421,
-    "recent_matches": [
-     {
-      "away": "Uruguay",
-      "date": "2026-11-13T23:00:00+00:00",
-      "home": "Argentina",
-      "score": "1-2",
-      "event_id": 653960,
-      "away_score": 2,
-      "home_score": 1,
-      "away_team_id": 480,
-      "home_team_id": 489
-     },
-     {
-      "away": "Argentina",
-      "date": "2025-03-21T23:30:00+00:00",
-      "home": "Uruguay",
-      "score": "0-1",
-      "event_id": 208256,
-      "away_score": 1,
-      "home_score": 0,
-      "away_team_id": 489,
-      "home_team_id": 480
-     },
-     {
-      "away": "Uruguay",
-      "date": "2023-11-17T00:00:00+00:00",
-      "home": "Argentina",
-      "score": "0-2",
-      "event_id": 208214,
-      "away_score": 2,
-      "home_score": 0,
-      "away_team_id": 480,
-      "home_team_id": 489
-     },
-     {
-      "away": "Argentina",
-      "date": "2021-11-12T23:00:00+00:00",
-      "home": "Uruguay",
-      "score": "0-1",
-      "event_id": 262803,
-      "away_score": 1,
-      "home_score": 0,
-      "away_team_id": 489,
-      "home_team_id": 480
-     },
-     {
-      "away": "Uruguay",
-      "date": "2021-10-10T23:30:00+00:00",
-      "home": "Argentina",
-      "score": "3-0",
-      "event_id": 262756,
-      "away_score": 0,
-      "home_score": 3,
-      "away_team_id": 480,
-      "home_team_id": 489
-     },
-     {
-      "away": "Uruguay",
-      "date": "2021-06-19T00:00:00+00:00",
-      "home": "Argentina",
-      "score": "1-0",
-      "event_id": 265159,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 480,
-      "home_team_id": 489
-     },
-     {
-      "away": "Uruguay",
-      "date": "2019-11-18T19:15:00+00:00",
-      "home": "Argentina",
-      "score": "2-2",
-      "event_id": 289916,
-      "away_score": 2,
-      "home_score": 2,
-      "away_team_id": 480,
-      "home_team_id": 489
-     },
-     {
-      "away": "Argentina",
-      "date": "2017-08-31T23:00:00+00:00",
-      "home": "Uruguay",
-      "score": "0-0",
-      "event_id": 340151,
-      "away_score": 0,
-      "home_score": 0,
-      "away_team_id": 489,
-      "home_team_id": 480
-     },
-     {
-      "away": "Uruguay",
-      "date": "2016-09-01T23:30:00+00:00",
-      "home": "Argentina",
-      "score": "1-0",
-      "event_id": 340112,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 480,
-      "home_team_id": 489
-     },
-     {
-      "away": "Uruguay",
-      "date": "2015-06-16T23:30:00+00:00",
-      "home": "Argentina",
-      "score": "1-0",
-      "event_id": 373813,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 480,
-      "home_team_id": 489
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 606228,
-   "league_id": 65,
-   "season_id": 1633,
-   "home_team_id": 934,
-   "home_team": "Saint Martin",
-   "away_team_id": 689,
-   "away_team": "El Salvador",
-   "home_coach_id": 48,
-   "away_coach_id": 36,
-   "referee_id": null,
-   "venue_id": 1505,
-   "event_date": "2026-11-13T23:00:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 29,
-   "round_name": "Final",
-   "group_name": null,
-   "stage": "final",
-   "stage_name": "Final",
-   "round_label": "Final",
-   "period": "FT",
-   "current_minute": 94,
-   "home_score": 0,
-   "away_score": 2,
-   "home_score_ht": 0,
-   "away_score_ht": 1,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 2,
-    "description": "cloudy",
-    "wind_speed": 0.4,
-    "temperature_c": 28
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Saint Martin 0 - 2 El Salvador — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=-1WcGirToU0",
-     "thumbnail": "https://i.ytimg.com/vi/-1WcGirToU0/hqdefault.jpg",
-     "published_at": "2026-11-14T13:40:32+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 1,
-    "home_wins": 0,
-    "draws": 0,
-    "away_wins": 1,
-    "home_goals": 0,
-    "away_goals": 2,
-    "avg_total_goals": 2.0,
-    "home_win_rate": 0.0,
-    "away_win_rate": 1.0,
-    "recent_matches": [
-     {
-      "away": "El Salvador",
-      "date": "2026-11-13T23:00:00+00:00",
-      "home": "Saint Martin",
-      "score": "0-2",
-      "event_id": 606228,
-      "away_score": 2,
-      "home_score": 0,
-      "away_team_id": 689,
-      "home_team_id": 934
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 654306,
-   "league_id": 79,
-   "season_id": 1552,
-   "home_team_id": 2627,
-   "home_team": "Colo-Colo",
-   "away_team_id": 733,
-   "away_team": "Racing Club",
-   "home_coach_id": 2645,
-   "away_coach_id": 1675,
-   "referee_id": null,
-   "venue_id": null,
-   "event_date": "2026-11-13T22:00:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": null,
-   "round_name": "",
-   "group_name": null,
-   "stage": "regular-season",
-   "stage_name": "Regular season",
-   "round_label": "Regular season",
-   "period": "FT",
-   "current_minute": 90,
-   "home_score": 2,
-   "away_score": 1,
-   "home_score_ht": 1,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": null,
-    "description": null,
-    "wind_speed": null,
-    "temperature_c": null
-   },
-   "pitch_condition": null,
-   "attendance": null,
-   "live_websocket": false,
-   "websocket_plus": false,
-   "highlights": [],
-   "head_to_head": {
-    "total_matches": 3,
-    "home_wins": 1,
-    "draws": 1,
-    "away_wins": 1,
-    "home_goals": 3,
-    "away_goals": 6,
-    "avg_total_goals": 3.0,
-    "home_win_rate": 0.3333333333333333,
-    "away_win_rate": 0.3333333333333333,
-    "recent_matches": [
-     {
-      "away": "Racing Club",
-      "date": "2026-11-13T22:00:00+00:00",
-      "home": "Colo-Colo",
-      "score": "2-1",
-      "event_id": 654306,
-      "away_score": 1,
-      "home_score": 2,
-      "away_team_id": 733,
-      "home_team_id": 2627
-     },
-     {
-      "away": "Colo-Colo",
-      "date": "2025-05-15T00:30:00+00:00",
-      "home": "Racing Club",
-      "score": "4-0",
-      "event_id": 226218,
-      "away_score": 0,
-      "home_score": 4,
-      "away_team_id": 2627,
-      "home_team_id": 733
-     },
-     {
-      "away": "Racing Club",
-      "date": "2025-04-23T00:30:00+00:00",
-      "home": "Colo-Colo",
-      "score": "1-1",
-      "event_id": 226180,
-      "away_score": 1,
-      "home_score": 1,
-      "away_team_id": 733,
-      "home_team_id": 2627
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 643210,
-   "league_id": 41,
-   "season_id": 2052,
-   "home_team_id": 3519,
-   "home_team": "Salamanca UDS",
-   "away_team_id": 49,
-   "away_team": "Celta Vigo",
-   "home_coach_id": 4246,
-   "away_coach_id": 396,
-   "referee_id": null,
-   "venue_id": null,
-   "event_date": "2026-11-13T20:00:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 1,
-   "round_name": "Round 1",
-   "group_name": null,
-   "stage": "round-1",
-   "stage_name": "Round 1",
-   "round_label": "Round 1",
-   "period": "FT",
-   "current_minute": 90,
-   "home_score": 0,
-   "away_score": 5,
-   "home_score_ht": 0,
-   "away_score_ht": 3,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": null,
-    "description": null,
-    "wind_speed": null,
-    "temperature_c": null
-   },
-   "pitch_condition": null,
-   "attendance": null,
-   "live_websocket": false,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Salamanca 0 - 5 Celta — Full Highlights",
-     "url": "https://youtu.be/03IFYulvp20",
-     "thumbnail": "https://i.ytimg.com/vi/03IFYulvp20/hqdefault.jpg",
-     "published_at": "2026-11-13T23:28:35+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 2,
-    "home_wins": 0,
-    "draws": 0,
-    "away_wins": 2,
-    "home_goals": 0,
-    "away_goals": 12,
-    "avg_total_goals": 6.0,
-    "home_win_rate": 0.0,
-    "away_win_rate": 1.0,
-    "recent_matches": [
-     {
-      "away": "Celta Vigo",
-      "date": "2026-11-13T20:00:00+00:00",
-      "home": "Salamanca UDS",
-      "score": "0-5",
-      "event_id": 643210,
-      "away_score": 5,
-      "home_score": 0,
-      "away_team_id": 49,
-      "home_team_id": 3519
-     },
-     {
-      "away": "Celta Vigo",
-      "date": "2024-12-03T20:00:00+00:00",
-      "home": "Salamanca UDS",
-      "score": "0-7",
-      "event_id": 231644,
-      "away_score": 7,
-      "home_score": 0,
-      "away_team_id": 49,
-      "home_team_id": 3519
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 212702,
-   "league_id": 64,
-   "season_id": 1430,
-   "home_team_id": 2212,
-   "home_team": "Liechtenstein",
-   "away_team_id": 2092,
-   "away_team": "Azerbaijan",
-   "home_coach_id": 1578,
-   "away_coach_id": 1684,
-   "referee_id": 2514,
-   "venue_id": 820,
-   "event_date": "2026-11-13T19:45:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 5,
-   "round_name": "",
-   "group_name": "League D, Group 2",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "League D, Group 2 · Matchday 5",
-   "period": "FT",
-   "current_minute": 96,
-   "home_score": 0,
-   "away_score": 1,
-   "home_score_ht": 0,
-   "away_score_ht": 1,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 2,
-    "description": "cloudy",
-    "wind_speed": 9.0,
-    "temperature_c": 2
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Liechtenstein 0 - 1 Azerbaijan — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=FviOlnsZ4wM",
-     "thumbnail": "https://i.ytimg.com/vi/FviOlnsZ4wM/hqdefault.jpg",
-     "published_at": "2026-11-14T07:59:55+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 5,
-    "home_wins": 0,
-    "draws": 2,
-    "away_wins": 3,
-    "home_goals": 0,
-    "away_goals": 4,
-    "avg_total_goals": 0.8,
-    "home_win_rate": 0.0,
-    "away_win_rate": 0.6,
-    "recent_matches": [
-     {
-      "away": "Azerbaijan",
-      "date": "2026-11-13T19:45:00+00:00",
-      "home": "Liechtenstein",
-      "score": "0-1",
-      "event_id": 212702,
-      "away_score": 1,
-      "home_score": 0,
-      "away_team_id": 2092,
-      "home_team_id": 2212
-     },
-     {
-      "away": "Liechtenstein",
-      "date": "2026-10-01T16:00:00+00:00",
-      "home": "Azerbaijan",
-      "score": "0-0",
-      "event_id": 212635,
-      "away_score": 0,
-      "home_score": 0,
-      "away_team_id": 2212,
-      "home_team_id": 2092
-     },
-     {
-      "away": "Liechtenstein",
-      "date": "2013-02-06T14:00:00+00:00",
-      "home": "Azerbaijan",
-      "score": "1-0",
-      "event_id": 410846,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 2212,
-      "home_team_id": 2092
-     },
-     {
-      "away": "Azerbaijan",
-      "date": "2009-10-10T18:00:00+00:00",
-      "home": "Liechtenstein",
-      "score": "0-2",
-      "event_id": 460433,
-      "away_score": 2,
-      "home_score": 0,
-      "away_team_id": 2092,
-      "home_team_id": 2212
-     },
-     {
-      "away": "Liechtenstein",
-      "date": "2008-09-10T16:00:00+00:00",
-      "home": "Azerbaijan",
-      "score": "0-0",
-      "event_id": 460306,
-      "away_score": 0,
-      "home_score": 0,
-      "away_team_id": 2212,
-      "home_team_id": 2092
-     }
-    ]
-   },
-   "has_xg": true,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 212701,
-   "league_id": 64,
-   "season_id": 1430,
-   "home_team_id": 701,
-   "home_team": "Andorra",
-   "away_team_id": 2219,
-   "away_team": "Gibraltar",
-   "home_coach_id": 76,
-   "away_coach_id": 1596,
-   "referee_id": 2413,
-   "venue_id": 910,
-   "event_date": "2026-11-13T19:45:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 5,
-   "round_name": "",
-   "group_name": "League D, Group 1",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "League D, Group 1 · Matchday 5",
-   "period": "FT",
-   "current_minute": 93,
-   "home_score": 2,
-   "away_score": 0,
-   "home_score_ht": 2,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 1,
-    "description": "clear",
-    "wind_speed": 5.5,
-    "temperature_c": -1
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Andorra 2 - 0 Gibraltar — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=oTDu-wubY9c",
-     "thumbnail": "https://i.ytimg.com/vi/oTDu-wubY9c/hqdefault.jpg",
-     "published_at": "2026-11-14T07:44:58+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 5,
-    "home_wins": 1,
-    "draws": 2,
-    "away_wins": 2,
-    "home_goals": 2,
-    "away_goals": 2,
-    "avg_total_goals": 0.8,
-    "home_win_rate": 0.2,
-    "away_win_rate": 0.4,
-    "recent_matches": [
-     {
-      "away": "Gibraltar",
-      "date": "2026-11-13T19:45:00+00:00",
-      "home": "Andorra",
-      "score": "2-0",
-      "event_id": 212701,
-      "away_score": 0,
-      "home_score": 2,
-      "away_team_id": 2219,
-      "home_team_id": 701
-     },
-     {
-      "away": "Andorra",
-      "date": "2026-09-27T16:00:00+00:00",
-      "home": "Gibraltar",
-      "score": "0-0",
-      "event_id": 212613,
-      "away_score": 0,
-      "home_score": 0,
-      "away_team_id": 701,
-      "home_team_id": 2219
-     },
-     {
-      "away": "Andorra",
-      "date": "2024-09-04T16:00:00+00:00",
-      "home": "Gibraltar",
-      "score": "1-0",
-      "event_id": 233367,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 701,
-      "home_team_id": 2219
-     },
-     {
-      "away": "Andorra",
-      "date": "2022-11-19T17:00:00+00:00",
-      "home": "Gibraltar",
-      "score": "1-0",
-      "event_id": 254069,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 701,
-      "home_team_id": 2219
-     },
-     {
-      "away": "Gibraltar",
-      "date": "2021-06-07T18:45:00+00:00",
-      "home": "Andorra",
-      "score": "0-0",
-      "event_id": 267215,
-      "away_score": 0,
-      "home_score": 0,
-      "away_team_id": 2219,
-      "home_team_id": 701
-     }
-    ]
-   },
-   "has_xg": true,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 212700,
-   "league_id": 64,
-   "season_id": 1430,
-   "home_team_id": 2091,
-   "home_team": "Luxembourg",
-   "away_team_id": 2208,
-   "away_team": "Estonia",
-   "home_coach_id": 1674,
-   "away_coach_id": 1566,
-   "referee_id": 2571,
-   "venue_id": 1358,
-   "event_date": "2026-11-13T19:45:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 5,
-   "round_name": "",
-   "group_name": "League C, Group 4",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "League C, Group 4 · Matchday 5",
-   "period": "FT",
-   "current_minute": 94,
-   "home_score": 0,
-   "away_score": 1,
-   "home_score_ht": 0,
-   "away_score_ht": 1,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 1,
-    "description": "clear",
-    "wind_speed": 8.1,
-    "temperature_c": 7
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Luxembourg 0 - 1 Estonia — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=EHnKvkHthOA",
-     "thumbnail": "https://i.ytimg.com/vi/EHnKvkHthOA/hqdefault.jpg",
-     "published_at": "2026-11-14T07:59:41+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 4,
-    "home_wins": 0,
-    "draws": 0,
-    "away_wins": 4,
-    "home_goals": 0,
-    "away_goals": 8,
-    "avg_total_goals": 2.0,
-    "home_win_rate": 0.0,
-    "away_win_rate": 1.0,
-    "recent_matches": [
-     {
-      "away": "Estonia",
-      "date": "2026-11-13T19:45:00+00:00",
-      "home": "Luxembourg",
-      "score": "0-1",
-      "event_id": 212700,
-      "away_score": 1,
-      "home_score": 0,
-      "away_team_id": 2208,
-      "home_team_id": 2091
-     },
-     {
-      "away": "Luxembourg",
-      "date": "2026-10-03T16:00:00+00:00",
-      "home": "Estonia",
-      "score": "1-0",
-      "event_id": 212656,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 2091,
-      "home_team_id": 2208
-     },
-     {
-      "away": "Estonia",
-      "date": "2005-10-12T18:15:00+00:00",
-      "home": "Luxembourg",
-      "score": "0-2",
-      "event_id": 492314,
-      "away_score": 2,
-      "home_score": 0,
-      "away_team_id": 2208,
-      "home_team_id": 2091
-     },
-     {
-      "away": "Luxembourg",
-      "date": "2004-09-04T15:00:00+00:00",
-      "home": "Estonia",
-      "score": "4-0",
-      "event_id": 492066,
-      "away_score": 0,
-      "home_score": 4,
-      "away_team_id": 2091,
-      "home_team_id": 2208
-     }
-    ]
-   },
-   "has_xg": true,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 212699,
-   "league_id": 64,
-   "season_id": 1430,
-   "home_team_id": 2090,
-   "home_team": "Bulgaria",
-   "away_team_id": 665,
-   "away_team": "Iceland",
-   "home_coach_id": 4148,
-   "away_coach_id": 84,
-   "referee_id": 2304,
-   "venue_id": 324,
-   "event_date": "2026-11-13T19:45:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 5,
-   "round_name": "",
-   "group_name": "League C, Group 4",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "League C, Group 4 · Matchday 5",
-   "period": "FT",
-   "current_minute": 92,
-   "home_score": 0,
-   "away_score": 5,
-   "home_score_ht": 0,
-   "away_score_ht": 2,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 2,
-    "description": "cloudy",
-    "wind_speed": 4.9,
-    "temperature_c": 16
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Bulgaria 0 - 5 Iceland — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=XN-1kg1Ixbo",
-     "thumbnail": "https://i.ytimg.com/vi/XN-1kg1Ixbo/hqdefault.jpg",
-     "published_at": "2026-11-14T08:04:08+00:00"
-    },
-    {
-     "kind": "full",
-     "title": "Bulgaria 0 - 5 Iceland — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=HxxB2sdAZcU",
-     "thumbnail": "https://i.ytimg.com/vi/HxxB2sdAZcU/hqdefault.jpg",
-     "published_at": "2026-11-14T08:00:12+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 4,
-    "home_wins": 2,
-    "draws": 0,
-    "away_wins": 2,
-    "home_goals": 6,
-    "away_goals": 11,
-    "avg_total_goals": 4.25,
-    "home_win_rate": 0.5,
-    "away_win_rate": 0.5,
-    "recent_matches": [
-     {
-      "away": "Iceland",
-      "date": "2026-11-13T19:45:00+00:00",
-      "home": "Bulgaria",
-      "score": "0-5",
-      "event_id": 212699,
-      "away_score": 5,
-      "home_score": 0,
-      "away_team_id": 665,
-      "home_team_id": 2090
-     },
-     {
-      "away": "Bulgaria",
-      "date": "2026-10-03T16:00:00+00:00",
-      "home": "Iceland",
-      "score": "3-0",
-      "event_id": 212657,
-      "away_score": 0,
-      "home_score": 3,
-      "away_team_id": 2090,
-      "home_team_id": 665
-     },
-     {
-      "away": "Iceland",
-      "date": "2005-09-07T16:00:00+00:00",
-      "home": "Bulgaria",
-      "score": "3-2",
-      "event_id": 492243,
-      "away_score": 2,
-      "home_score": 3,
-      "away_team_id": 665,
-      "home_team_id": 2090
-     },
-     {
-      "away": "Bulgaria",
-      "date": "2004-09-04T16:00:00+00:00",
-      "home": "Iceland",
-      "score": "1-3",
-      "event_id": 492049,
-      "away_score": 3,
-      "home_score": 1,
-      "away_team_id": 2090,
-      "home_team_id": 665
-     }
-    ]
-   },
-   "has_xg": true,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 212698,
-   "league_id": 64,
-   "season_id": 1430,
-   "home_team_id": 725,
-   "home_team": "Slovakia",
-   "away_team_id": 711,
-   "away_team": "Faroe Islands",
-   "home_coach_id": 644,
-   "away_coach_id": 807,
-   "referee_id": 1601,
-   "venue_id": 1364,
-   "event_date": "2026-11-13T19:45:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 5,
-   "round_name": "",
-   "group_name": "League C, Group 3",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "League C, Group 3 · Matchday 5",
-   "period": "FT",
-   "current_minute": 94,
-   "home_score": 2,
-   "away_score": 2,
-   "home_score_ht": 1,
-   "away_score_ht": 1,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 2,
-    "description": "cloudy",
-    "wind_speed": 17.3,
-    "temperature_c": 6
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Slovakia 2 - 2 Faroe Islands — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=B-Ioh7rRqwY&pp=ygUkZmFyb2UgaXNsYW5kcyB2cyBzbG92YWtpYSBoaWdobGlnaHRz",
-     "thumbnail": "https://i.ytimg.com/vi/B-Ioh7rRqwY/hqdefault.jpg",
-     "published_at": "2026-11-14T07:59:13+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 2,
-    "home_wins": 0,
-    "draws": 2,
-    "away_wins": 0,
-    "home_goals": 3,
-    "away_goals": 3,
-    "avg_total_goals": 3.0,
-    "home_win_rate": 0.0,
-    "away_win_rate": 0.0,
-    "recent_matches": [
-     {
-      "away": "Faroe Islands",
-      "date": "2026-11-13T19:45:00+00:00",
-      "home": "Slovakia",
-      "score": "2-2",
-      "event_id": 212698,
-      "away_score": 2,
-      "home_score": 2,
-      "away_team_id": 711,
-      "home_team_id": 725
-     },
-     {
-      "away": "Slovakia",
-      "date": "2026-10-02T18:45:00+00:00",
-      "home": "Faroe Islands",
-      "score": "1-1",
-      "event_id": 212652,
-      "away_score": 1,
-      "home_score": 1,
-      "away_team_id": 725,
-      "home_team_id": 711
-     }
-    ]
-   },
-   "has_xg": true,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 212696,
-   "league_id": 64,
-   "season_id": 1430,
-   "home_team_id": 675,
-   "home_team": "Serbia",
-   "away_team_id": 467,
-   "away_team": "Germany",
-   "home_coach_id": 4969,
-   "away_coach_id": 3044,
-   "referee_id": 1951,
-   "venue_id": 129,
-   "event_date": "2026-11-13T19:45:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 5,
-   "round_name": "",
-   "group_name": "League A, Group 2",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "League A, Group 2 · Matchday 5",
-   "period": "FT",
-   "current_minute": 94,
-   "home_score": 1,
-   "away_score": 3,
-   "home_score_ht": 0,
-   "away_score_ht": 2,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 2,
-    "description": "cloudy",
-    "wind_speed": 6.4,
-    "temperature_c": 12
-   },
-   "pitch_condition": 2,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Serbia 1 - 3 Germany — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=qLmjBJ5eswE",
-     "thumbnail": "https://i.ytimg.com/vi/qLmjBJ5eswE/hqdefault.jpg",
-     "published_at": "2026-11-14T07:56:19+00:00"
-    },
-    {
-     "kind": "full",
-     "title": "Serbia 1 - 3 Germany — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=AAgms1GNtHs",
-     "thumbnail": "https://i.ytimg.com/vi/AAgms1GNtHs/hqdefault.jpg",
-     "published_at": "2026-11-14T07:55:08+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 4,
-    "home_wins": 1,
-    "draws": 1,
-    "away_wins": 2,
-    "home_goals": 3,
-    "away_goals": 6,
-    "avg_total_goals": 2.25,
-    "home_win_rate": 0.25,
-    "away_win_rate": 0.5,
-    "recent_matches": [
-     {
-      "away": "Germany",
-      "date": "2026-11-13T19:45:00+00:00",
-      "home": "Serbia",
-      "score": "1-3",
-      "event_id": 212696,
-      "away_score": 3,
-      "home_score": 1,
-      "away_team_id": 467,
-      "home_team_id": 675
-     },
-     {
-      "away": "Serbia",
-      "date": "2026-10-01T18:45:00+00:00",
-      "home": "Germany",
-      "score": "2-0",
-      "event_id": 212636,
-      "away_score": 0,
-      "home_score": 2,
-      "away_team_id": 675,
-      "home_team_id": 467
-     },
-     {
-      "away": "Serbia",
-      "date": "2019-03-20T19:45:00+00:00",
-      "home": "Germany",
-      "score": "1-1",
-      "event_id": 290075,
-      "away_score": 1,
-      "home_score": 1,
-      "away_team_id": 675,
-      "home_team_id": 467
-     },
-     {
-      "away": "Serbia",
-      "date": "2010-06-18T11:30:00+00:00",
-      "home": "Germany",
-      "score": "0-1",
-      "event_id": 459676,
-      "away_score": 1,
-      "home_score": 0,
-      "away_team_id": 675,
-      "home_team_id": 467
-     }
-    ]
-   },
-   "has_xg": true,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 212695,
-   "league_id": 64,
-   "season_id": 1430,
-   "home_team_id": 469,
-   "home_team": "Netherlands",
-   "away_team_id": 702,
-   "away_team": "Greece",
-   "home_coach_id": 3460,
-   "away_coach_id": 80,
-   "referee_id": 1635,
-   "venue_id": 120,
-   "event_date": "2026-11-13T19:45:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 5,
-   "round_name": "",
-   "group_name": "League A, Group 2",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "League A, Group 2 · Matchday 5",
-   "period": "FT",
-   "current_minute": 91,
-   "home_score": 7,
-   "away_score": 0,
-   "home_score_ht": 5,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 1,
-    "description": "clear",
-    "wind_speed": 4.2,
-    "temperature_c": 10
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Netherlands 7 - 0 Greece — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=P6GE3jAjCyw",
-     "thumbnail": "https://i.ytimg.com/vi/P6GE3jAjCyw/hqdefault.jpg",
-     "published_at": "2026-11-14T07:54:18+00:00"
-    },
-    {
-     "kind": "full",
-     "title": "Netherlands 7 - 0 Greece — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=MGPRRXuWe_w",
-     "thumbnail": "https://i.ytimg.com/vi/MGPRRXuWe_w/hqdefault.jpg",
-     "published_at": "2026-11-14T07:53:15+00:00"
-    },
-    {
-     "kind": "full",
-     "title": "Netherlands 7 - 0 Greece — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=3tJUBRhkzXU",
-     "thumbnail": "https://i.ytimg.com/vi/3tJUBRhkzXU/hqdefault.jpg",
-     "published_at": "2026-11-14T07:51:40+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 4,
-    "home_wins": 2,
-    "draws": 1,
-    "away_wins": 1,
-    "home_goals": 11,
-    "away_goals": 4,
-    "avg_total_goals": 3.75,
-    "home_win_rate": 0.5,
-    "away_win_rate": 0.25,
-    "recent_matches": [
-     {
-      "away": "Greece",
-      "date": "2026-11-13T19:45:00+00:00",
-      "home": "Netherlands",
-      "score": "7-0",
-      "event_id": 212695,
-      "away_score": 0,
-      "home_score": 7,
-      "away_team_id": 702,
-      "home_team_id": 469
-     },
-     {
-      "away": "Netherlands",
-      "date": "2026-10-01T18:45:00+00:00",
-      "home": "Greece",
-      "score": "2-2",
-      "event_id": 212637,
-      "away_score": 2,
-      "home_score": 2,
-      "away_team_id": 469,
-      "home_team_id": 702
-     },
-     {
-      "away": "Greece",
-      "date": "2016-09-01T18:45:00+00:00",
-      "home": "Netherlands",
-      "score": "1-2",
-      "event_id": 361141,
-      "away_score": 2,
-      "home_score": 1,
-      "away_team_id": 702,
-      "home_team_id": 469
-     },
-     {
-      "away": "Greece",
-      "date": "1980-06-11T18:30:00+00:00",
-      "home": "Netherlands",
-      "score": "1-0",
-      "event_id": 565481,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 702,
-      "home_team_id": 469
-     }
-    ]
-   },
-   "has_xg": true,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 212686,
-   "league_id": 64,
-   "season_id": 1430,
-   "home_team_id": 715,
-   "home_team": "Slovenia",
-   "away_team_id": 462,
-   "away_team": "Switzerland",
-   "home_coach_id": 74,
-   "away_coach_id": 78,
-   "referee_id": 1817,
-   "venue_id": 794,
-   "event_date": "2026-11-13T19:45:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 5,
-   "round_name": "",
-   "group_name": "League B, Group 1",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "League B, Group 1 · Matchday 5",
-   "period": "FT",
-   "current_minute": 92,
-   "home_score": 0,
-   "away_score": 0,
-   "home_score_ht": 0,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": 839,
-   "weather": {
-    "code": 2,
-    "description": "cloudy",
-    "wind_speed": 1.1,
-    "temperature_c": 6
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Slovenia 0 - 0 Switzerland — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=eVKZ5B5vUY0&pp=ygUic2xvdmVuaWEgdnMgc3dpdHplcmxhbmQgaGlnaGxpZ2h0cw%3D%3D",
-     "thumbnail": "https://i.ytimg.com/vi/eVKZ5B5vUY0/hqdefault.jpg",
-     "published_at": "2026-11-14T07:50:05+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 6,
-    "home_wins": 0,
-    "draws": 2,
-    "away_wins": 4,
-    "home_goals": 1,
-    "away_goals": 8,
-    "avg_total_goals": 1.5,
-    "home_win_rate": 0.0,
-    "away_win_rate": 0.6666666666666666,
-    "recent_matches": [
-     {
-      "away": "Switzerland",
-      "date": "2026-11-13T19:45:00+00:00",
-      "home": "Slovenia",
-      "score": "0-0",
-      "event_id": 212686,
-      "away_score": 0,
-      "home_score": 0,
-      "away_team_id": 462,
-      "home_team_id": 715
-     },
-     {
-      "away": "Slovenia",
-      "date": "2026-10-03T18:45:00+00:00",
-      "home": "Switzerland",
-      "score": "2-1",
-      "event_id": 212634,
-      "away_score": 1,
-      "home_score": 2,
-      "away_team_id": 715,
-      "home_team_id": 462
-     },
-     {
-      "away": "Switzerland",
-      "date": "2025-10-13T18:45:00+00:00",
-      "home": "Slovenia",
-      "score": "0-0",
-      "event_id": 208118,
-      "away_score": 0,
-      "home_score": 0,
-      "away_team_id": 462,
-      "home_team_id": 715
-     },
-     {
-      "away": "Slovenia",
-      "date": "2025-09-08T18:45:00+00:00",
-      "home": "Switzerland",
-      "score": "3-0",
-      "event_id": 208069,
-      "away_score": 0,
-      "home_score": 3,
-      "away_team_id": 715,
-      "home_team_id": 462
-     },
-     {
-      "away": "Slovenia",
-      "date": "2013-10-15T18:00:00+00:00",
-      "home": "Switzerland",
-      "score": "1-0",
-      "event_id": 405073,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 715,
-      "home_team_id": 462
-     },
-     {
-      "away": "Switzerland",
-      "date": "2012-09-07T18:30:00+00:00",
-      "home": "Slovenia",
-      "score": "0-2",
-      "event_id": 404838,
-      "away_score": 2,
-      "home_score": 0,
-      "away_team_id": 462,
-      "home_team_id": 715
-     }
-    ]
-   },
-   "has_xg": true,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 212685,
-   "league_id": 64,
-   "season_id": 1430,
-   "home_team_id": 466,
-   "home_team": "Scotland",
-   "away_team_id": 730,
-   "away_team": "North Macedonia",
-   "home_coach_id": 437,
-   "away_coach_id": 111,
-   "referee_id": 2650,
-   "venue_id": 1201,
-   "event_date": "2026-11-13T19:45:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 5,
-   "round_name": "",
-   "group_name": "League B, Group 1",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "League B, Group 1 · Matchday 5",
-   "period": "FT",
-   "current_minute": 94,
-   "home_score": 2,
-   "away_score": 1,
-   "home_score_ht": 0,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": 3212,
-   "weather": {
-    "code": 2,
-    "description": "cloudy",
-    "wind_speed": 3.1,
-    "temperature_c": 11
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Scotland 2 - 1 North Macedonia — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=1ruNHxH6OgM",
-     "thumbnail": "https://i.ytimg.com/vi/1ruNHxH6OgM/hqdefault.jpg",
-     "published_at": "2026-11-14T07:58:30+00:00"
-    },
-    {
-     "kind": "full",
-     "title": "Scotland 2 - 1 North Macedonia — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=yDXQlbnKMgc",
-     "thumbnail": "https://i.ytimg.com/vi/yDXQlbnKMgc/hqdefault.jpg",
-     "published_at": "2026-11-14T07:57:01+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 6,
-    "home_wins": 4,
-    "draws": 1,
-    "away_wins": 1,
-    "home_goals": 9,
-    "away_goals": 4,
-    "avg_total_goals": 2.1666666666666665,
-    "home_win_rate": 0.6666666666666666,
-    "away_win_rate": 0.16666666666666666,
-    "recent_matches": [
-     {
-      "away": "North Macedonia",
-      "date": "2026-11-13T19:45:00+00:00",
-      "home": "Scotland",
-      "score": "2-1",
-      "event_id": 212685,
-      "away_score": 1,
-      "home_score": 2,
-      "away_team_id": 730,
-      "home_team_id": 466
-     },
-     {
-      "away": "Scotland",
-      "date": "2026-10-03T18:45:00+00:00",
-      "home": "North Macedonia",
-      "score": "0-2",
-      "event_id": 212633,
-      "away_score": 2,
-      "home_score": 0,
-      "away_team_id": 466,
-      "home_team_id": 730
-     },
-     {
-      "away": "Scotland",
-      "date": "2013-09-10T18:30:00+00:00",
-      "home": "North Macedonia",
-      "score": "1-2",
-      "event_id": 405036,
-      "away_score": 2,
-      "home_score": 1,
-      "away_team_id": 466,
-      "home_team_id": 730
-     },
-     {
-      "away": "North Macedonia",
-      "date": "2012-09-11T19:00:00+00:00",
-      "home": "Scotland",
-      "score": "1-1",
-      "event_id": 404872,
-      "away_score": 1,
-      "home_score": 1,
-      "away_team_id": 730,
-      "home_team_id": 466
-     },
-     {
-      "away": "North Macedonia",
-      "date": "2009-09-05T14:00:00+00:00",
-      "home": "Scotland",
-      "score": "2-0",
-      "event_id": 460445,
-      "away_score": 0,
-      "home_score": 2,
-      "away_team_id": 730,
-      "home_team_id": 466
-     },
-     {
-      "away": "Scotland",
-      "date": "2008-09-06T13:00:00+00:00",
-      "home": "North Macedonia",
-      "score": "1-0",
-      "event_id": 460279,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 466,
-      "home_team_id": 730
-     }
-    ]
-   },
-   "has_xg": true,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 607156,
-   "league_id": 103,
-   "season_id": 2130,
-   "home_team_id": 6752,
-   "home_team": "Latina",
-   "away_team_id": 8150,
-   "away_team": "Campobasso FC",
-   "home_coach_id": 4361,
-   "away_coach_id": 3407,
-   "referee_id": 3134,
-   "venue_id": null,
-   "event_date": "2026-11-13T19:30:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 14,
-   "round_name": "",
-   "group_name": "Group B",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "Group B · Matchday 14",
-   "period": "FT",
-   "current_minute": 93,
-   "home_score": 4,
-   "away_score": 0,
-   "home_score_ht": 1,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": 149,
-   "weather": {
-    "code": 2,
-    "description": "cloudy",
-    "wind_speed": null,
-    "temperature_c": null
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Latina 4 - 0 Campobasso — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=nfQi5p54m1E",
-     "thumbnail": "https://i.ytimg.com/vi/nfQi5p54m1E/hqdefault.jpg",
-     "published_at": "2026-11-13T23:40:25+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 3,
-    "home_wins": 2,
-    "draws": 0,
-    "away_wins": 1,
-    "home_goals": 8,
-    "away_goals": 3,
-    "avg_total_goals": 3.6666666666666665,
-    "home_win_rate": 0.6666666666666666,
-    "away_win_rate": 0.3333333333333333,
-    "recent_matches": [
-     {
-      "away": "Campobasso FC",
-      "date": "2026-11-13T19:30:00+00:00",
-      "home": "Latina",
-      "score": "4-0",
-      "event_id": 607156,
-      "away_score": 0,
-      "home_score": 4,
-      "away_team_id": 8150,
-      "home_team_id": 6752
-     },
-     {
-      "away": "Latina",
-      "date": "2022-03-20T13:30:00+00:00",
-      "home": "Campobasso FC",
-      "score": "2-0",
-      "event_id": 626536,
-      "away_score": 0,
-      "home_score": 2,
-      "away_team_id": 6752,
-      "home_team_id": 8150
-     },
-     {
-      "away": "Campobasso FC",
-      "date": "2021-11-14T13:30:00+00:00",
-      "home": "Latina",
-      "score": "4-1",
-      "event_id": 626342,
-      "away_score": 1,
-      "home_score": 4,
-      "away_team_id": 8150,
-      "home_team_id": 6752
-     }
-    ]
-   },
-   "has_xg": true,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 606392,
-   "league_id": 101,
-   "season_id": 2103,
-   "home_team_id": 4735,
-   "home_team": "Ospitaletto Franciacorta",
-   "away_team_id": 4715,
-   "away_team": "Dolomiti Bellunesi",
-   "home_coach_id": 2797,
-   "away_coach_id": 4716,
-   "referee_id": 3116,
-   "venue_id": null,
-   "event_date": "2026-11-13T19:30:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 14,
-   "round_name": "",
-   "group_name": "Group A",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "Group A · Matchday 14",
-   "period": "FT",
-   "current_minute": 95,
-   "home_score": 1,
-   "away_score": 0,
-   "home_score_ht": 0,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 2,
-    "description": "cloudy",
-    "wind_speed": null,
-    "temperature_c": null
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Ospitaletto 1 - 0 Dolomiti Bellunesi — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=DOAY74J6fCA",
-     "thumbnail": "https://i.ytimg.com/vi/DOAY74J6fCA/hqdefault.jpg",
-     "published_at": "2026-11-13T23:40:09+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 3,
-    "home_wins": 2,
-    "draws": 0,
-    "away_wins": 1,
-    "home_goals": 5,
-    "away_goals": 5,
-    "avg_total_goals": 3.3333333333333335,
-    "home_win_rate": 0.6666666666666666,
-    "away_win_rate": 0.3333333333333333,
-    "recent_matches": [
-     {
-      "away": "Dolomiti Bellunesi",
-      "date": "2026-11-13T19:30:00+00:00",
-      "home": "Ospitaletto Franciacorta",
-      "score": "1-0",
-      "event_id": 606392,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 4715,
-      "home_team_id": 4735
-     },
-     {
-      "away": "Ospitaletto Franciacorta",
-      "date": "2026-03-07T13:30:00+00:00",
-      "home": "Dolomiti Bellunesi",
-      "score": "4-1",
-      "event_id": 616089,
-      "away_score": 1,
-      "home_score": 4,
-      "away_team_id": 4735,
-      "home_team_id": 4715
-     },
-     {
-      "away": "Dolomiti Bellunesi",
-      "date": "2025-11-03T19:30:00+00:00",
-      "home": "Ospitaletto Franciacorta",
-      "score": "3-1",
-      "event_id": 615906,
-      "away_score": 1,
-      "home_score": 3,
-      "away_team_id": 4715,
-      "home_team_id": 4735
-     }
-    ]
-   },
-   "has_xg": true,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 214915,
-   "league_id": 38,
-   "season_id": 1356,
-   "home_team_id": 1268,
-   "home_team": "Leganés",
-   "away_team_id": 1401,
-   "away_team": "Burgos Club de Fútbol",
-   "home_coach_id": 4462,
-   "away_coach_id": 1954,
-   "referee_id": 2923,
-   "venue_id": 735,
-   "event_date": "2026-11-13T19:30:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 14,
-   "round_name": "",
-   "group_name": null,
-   "stage": "regular-season",
-   "stage_name": "Regular season",
-   "round_label": "Regular season · Matchday 14",
-   "period": "FT",
-   "current_minute": 96,
-   "home_score": 3,
-   "away_score": 1,
-   "home_score_ht": 3,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": 223,
-   "weather": {
-    "code": 2,
-    "description": "cloudy",
-    "wind_speed": 9.9,
-    "temperature_c": 7
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Leganés 3 - 1 Burgos — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=OdNHZAKoP6g",
-     "thumbnail": "https://i.ytimg.com/vi/OdNHZAKoP6g/hqdefault.jpg",
-     "published_at": "2026-11-13T21:52:58+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 9,
-    "home_wins": 3,
-    "draws": 2,
-    "away_wins": 4,
-    "home_goals": 10,
-    "away_goals": 10,
-    "avg_total_goals": 2.2222222222222223,
-    "home_win_rate": 0.3333333333333333,
-    "away_win_rate": 0.4444444444444444,
-    "recent_matches": [
-     {
-      "away": "Burgos Club de Fútbol",
-      "date": "2026-11-13T19:30:00+00:00",
-      "home": "Leganés",
-      "score": "3-1",
-      "event_id": 214915,
-      "away_score": 1,
-      "home_score": 3,
-      "away_team_id": 1401,
-      "home_team_id": 1268
-     },
-     {
-      "away": "Leganés",
-      "date": "2026-01-31T15:15:00+00:00",
-      "home": "Burgos Club de Fútbol",
-      "score": "2-1",
-      "event_id": 204086,
-      "away_score": 1,
-      "home_score": 2,
-      "away_team_id": 1268,
-      "home_team_id": 1401
-     },
-     {
-      "away": "Burgos Club de Fútbol",
-      "date": "2025-11-01T17:30:00+00:00",
-      "home": "Leganés",
-      "score": "1-2",
-      "event_id": 203955,
-      "away_score": 2,
-      "home_score": 1,
-      "away_team_id": 1401,
-      "home_team_id": 1268
-     },
-     {
-      "away": "Burgos Club de Fútbol",
-      "date": "2024-01-22T19:30:00+00:00",
-      "home": "Leganés",
-      "score": "2-0",
-      "event_id": 248704,
-      "away_score": 0,
-      "home_score": 2,
-      "away_team_id": 1401,
-      "home_team_id": 1268
-     },
-     {
-      "away": "Leganés",
-      "date": "2023-10-04T19:30:00+00:00",
-      "home": "Burgos Club de Fútbol",
-      "score": "1-0",
-      "event_id": 248545,
-      "away_score": 0,
-      "home_score": 1,
-      "away_team_id": 1268,
-      "home_team_id": 1401
-     },
-     {
-      "away": "Leganés",
-      "date": "2023-05-12T19:00:00+00:00",
-      "home": "Burgos Club de Fútbol",
-      "score": "0-3",
-      "event_id": 259893,
-      "away_score": 3,
-      "home_score": 0,
-      "away_team_id": 1268,
-      "home_team_id": 1401
-     },
-     {
-      "away": "Burgos Club de Fútbol",
-      "date": "2022-09-18T12:00:00+00:00",
-      "home": "Leganés",
-      "score": "0-0",
-      "event_id": 259525,
-      "away_score": 0,
-      "home_score": 0,
-      "away_team_id": 1401,
-      "home_team_id": 1268
-     },
-     {
-      "away": "Leganés",
-      "date": "2022-01-23T13:00:00+00:00",
-      "home": "Burgos Club de Fútbol",
-      "score": "4-0",
-      "event_id": 273198,
-      "away_score": 0,
-      "home_score": 4,
-      "away_team_id": 1268,
-      "home_team_id": 1401
-     },
-     {
-      "away": "Burgos Club de Fútbol",
-      "date": "2021-08-23T20:00:00+00:00",
-      "home": "Leganés",
-      "score": "0-0",
-      "event_id": 272961,
-      "away_score": 0,
-      "home_score": 0,
-      "away_team_id": 1401,
-      "home_team_id": 1268
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 649858,
-   "league_id": 44,
-   "season_id": 2240,
-   "home_team_id": 9262,
-   "home_team": "FCF La Neuvillette-Jamin",
-   "away_team_id": 3583,
-   "away_team": "Valenciennes",
-   "home_coach_id": null,
-   "away_coach_id": 1079,
-   "referee_id": null,
-   "venue_id": null,
-   "event_date": "2026-11-13T19:00:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 7,
-   "round_name": "Round 7",
-   "group_name": null,
-   "stage": "round-7",
-   "stage_name": "Round 7",
-   "round_label": "Round 7",
-   "period": "PEN",
-   "current_minute": 120,
-   "home_score": 2,
-   "away_score": 2,
-   "home_score_ht": 0,
-   "away_score_ht": 0,
-   "penalty_shootout": {
-    "home": 0,
-    "away": 3
-   },
-   "extra_time_score": {
-    "home": 0,
-    "away": 0
-   },
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": null,
-    "description": null,
-    "wind_speed": null,
-    "temperature_c": null
-   },
-   "pitch_condition": null,
-   "attendance": null,
-   "live_websocket": false,
-   "websocket_plus": false,
-   "highlights": [],
-   "head_to_head": {
-    "total_matches": 1,
-    "home_wins": 0,
-    "draws": 1,
-    "away_wins": 0,
-    "home_goals": 2,
-    "away_goals": 2,
-    "avg_total_goals": 4.0,
-    "home_win_rate": 0.0,
-    "away_win_rate": 0.0,
-    "recent_matches": [
-     {
-      "away": "Valenciennes",
-      "date": "2026-11-13T19:00:00+00:00",
-      "home": "FCF La Neuvillette-Jamin",
-      "score": "2-2",
-      "event_id": 649858,
-      "away_score": 2,
-      "home_score": 2,
-      "away_team_id": 3583,
-      "home_team_id": 9262
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 649809,
-   "league_id": 44,
-   "season_id": 2240,
-   "home_team_id": 5281,
-   "home_team": "US St. Philbert de Grandlieu",
-   "away_team_id": 4670,
-   "away_team": "VFC La Roche-sur-Yon",
-   "home_coach_id": 4763,
-   "away_coach_id": 2727,
-   "referee_id": null,
-   "venue_id": null,
-   "event_date": "2026-11-13T19:00:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 7,
-   "round_name": "Round 7",
-   "group_name": null,
-   "stage": "round-7",
-   "stage_name": "Round 7",
-   "round_label": "Round 7",
-   "period": "FT",
-   "current_minute": 90,
-   "home_score": 1,
-   "away_score": 3,
-   "home_score_ht": 0,
-   "away_score_ht": 2,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": null,
-    "description": null,
-    "wind_speed": null,
-    "temperature_c": null
-   },
-   "pitch_condition": null,
-   "attendance": null,
-   "live_websocket": false,
-   "websocket_plus": false,
-   "highlights": [],
-   "head_to_head": {
-    "total_matches": 1,
-    "home_wins": 0,
-    "draws": 0,
-    "away_wins": 1,
-    "home_goals": 1,
-    "away_goals": 3,
-    "avg_total_goals": 4.0,
-    "home_win_rate": 0.0,
-    "away_win_rate": 1.0,
-    "recent_matches": [
-     {
-      "away": "VFC La Roche-sur-Yon",
-      "date": "2026-11-13T19:00:00+00:00",
-      "home": "US St. Philbert de Grandlieu",
-      "score": "1-3",
-      "event_id": 649809,
-      "away_score": 3,
-      "home_score": 1,
-      "away_team_id": 4670,
-      "home_team_id": 5281
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 649799,
-   "league_id": 44,
-   "season_id": 2240,
-   "home_team_id": 1305,
-   "home_team": "Dijon",
-   "away_team_id": 1610,
-   "away_team": "US Orléans",
-   "home_coach_id": 2184,
-   "away_coach_id": 1047,
-   "referee_id": null,
-   "venue_id": 770,
-   "event_date": "2026-11-13T19:00:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 7,
-   "round_name": "Round 7",
-   "group_name": null,
-   "stage": "round-7",
-   "stage_name": "Round 7",
-   "round_label": "Round 7",
-   "period": "FT",
-   "current_minute": 90,
-   "home_score": 1,
-   "away_score": 2,
-   "home_score_ht": 0,
-   "away_score_ht": 2,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 0,
-    "description": "unknown",
-    "wind_speed": 14.2,
-    "temperature_c": 6
-   },
-   "pitch_condition": null,
-   "attendance": null,
-   "live_websocket": false,
-   "websocket_plus": false,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Dijon 1 - 2 Orléans — Full Highlights",
-     "url": "https://www.youtube.com/watch?v=ebkowu0ep64",
-     "thumbnail": "https://i.ytimg.com/vi/ebkowu0ep64/hqdefault.jpg",
-     "published_at": "2026-11-14T21:29:44+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 3,
-    "home_wins": 2,
-    "draws": 0,
-    "away_wins": 1,
-    "home_goals": 4,
-    "away_goals": 3,
-    "avg_total_goals": 2.3333333333333335,
-    "home_win_rate": 0.6666666666666666,
-    "away_win_rate": 0.3333333333333333,
-    "recent_matches": [
-     {
-      "away": "US Orléans",
-      "date": "2026-11-13T19:00:00+00:00",
-      "home": "Dijon",
-      "score": "1-2",
-      "event_id": 649799,
-      "away_score": 2,
-      "home_score": 1,
-      "away_team_id": 1610,
-      "home_team_id": 1305
-     },
-     {
-      "away": "Dijon",
-      "date": "2015-04-25T12:00:00+00:00",
-      "home": "US Orléans",
-      "score": "0-1",
-      "event_id": 585245,
-      "away_score": 1,
-      "home_score": 0,
-      "away_team_id": 1305,
-      "home_team_id": 1610
-     },
-     {
-      "away": "US Orléans",
-      "date": "2014-11-21T19:00:00+00:00",
-      "home": "Dijon",
-      "score": "2-1",
-      "event_id": 585060,
-      "away_score": 1,
-      "home_score": 2,
-      "away_team_id": 1610,
-      "home_team_id": 1305
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 606209,
-   "league_id": 65,
-   "season_id": 1633,
-   "home_team_id": 661,
-   "home_team": "Grenada",
-   "away_team_id": 2294,
-   "away_team": "Saint Kitts and Nevis",
-   "home_coach_id": 1714,
-   "away_coach_id": 1715,
-   "referee_id": null,
-   "venue_id": 3106,
-   "event_date": "2026-11-13T19:00:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 5,
-   "round_name": "",
-   "group_name": "League B, Group C",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "League B, Group C · Matchday 5",
-   "period": "FT",
-   "current_minute": 97,
-   "home_score": 3,
-   "away_score": 2,
-   "home_score_ht": 1,
-   "away_score_ht": 1,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 2,
-    "description": "cloudy",
-    "wind_speed": 11.6,
-    "temperature_c": 27
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Grenada 3 - 2 St. Kitts And Nevis — Full Highlights",
-     "url": "https://youtu.be/bYby771J7Io",
-     "thumbnail": "https://i.ytimg.com/vi/bYby771J7Io/hqdefault.jpg",
-     "published_at": "2026-11-13T23:28:04+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 5,
-    "home_wins": 3,
-    "draws": 1,
-    "away_wins": 1,
-    "home_goals": 8,
-    "away_goals": 8,
-    "avg_total_goals": 3.2,
-    "home_win_rate": 0.6,
-    "away_win_rate": 0.2,
-    "recent_matches": [
-     {
-      "away": "Saint Kitts and Nevis",
-      "date": "2026-11-13T19:00:00+00:00",
-      "home": "Grenada",
-      "score": "3-2",
-      "event_id": 606209,
-      "away_score": 2,
-      "home_score": 3,
-      "away_team_id": 2294,
-      "home_team_id": 661
-     },
-     {
-      "away": "Grenada",
-      "date": "2026-09-29T00:00:00+00:00",
-      "home": "Saint Kitts and Nevis",
-      "score": "3-0",
-      "event_id": 223099,
-      "away_score": 0,
-      "home_score": 3,
-      "away_team_id": 661,
-      "home_team_id": 2294
-     },
-     {
-      "away": "Grenada",
-      "date": "2025-06-10T19:00:00+00:00",
-      "home": "Saint Kitts and Nevis",
-      "score": "2-3",
-      "event_id": 208847,
-      "away_score": 3,
-      "home_score": 2,
-      "away_team_id": 661,
-      "home_team_id": 2294
-     },
-     {
-      "away": "Grenada",
-      "date": "2019-11-14T19:00:00+00:00",
-      "home": "Saint Kitts and Nevis",
-      "score": "0-0",
-      "event_id": 286962,
-      "away_score": 0,
-      "home_score": 0,
-      "away_team_id": 661,
-      "home_team_id": 2294
-     },
-     {
-      "away": "Saint Kitts and Nevis",
-      "date": "2019-09-05T22:00:00+00:00",
-      "home": "Grenada",
-      "score": "2-1",
-      "event_id": 286891,
-      "away_score": 1,
-      "home_score": 2,
-      "away_team_id": 2294,
-      "home_team_id": 661
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 606208,
-   "league_id": 65,
-   "season_id": 1633,
-   "home_team_id": 2295,
-   "home_team": "Puerto Rico",
-   "away_team_id": 706,
-   "away_team": "Dominica",
-   "home_coach_id": 4970,
-   "away_coach_id": 4037,
-   "referee_id": null,
-   "venue_id": 1489,
-   "event_date": "2026-11-13T19:00:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 5,
-   "round_name": "",
-   "group_name": "League B, Group A",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "League B, Group A · Matchday 5",
-   "period": "FT",
-   "current_minute": 93,
-   "home_score": 4,
-   "away_score": 2,
-   "home_score_ht": 1,
-   "away_score_ht": 0,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 1,
-    "description": "clear",
-    "wind_speed": 21.3,
-    "temperature_c": 30
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Puerto Rico 4 - 2 Dominica — Full Highlights",
-     "url": "https://youtu.be/hfMMmZ2r1lg",
-     "thumbnail": "https://i.ytimg.com/vi/hfMMmZ2r1lg/hqdefault.jpg",
-     "published_at": "2026-11-13T22:29:02+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 2,
-    "home_wins": 2,
-    "draws": 0,
-    "away_wins": 0,
-    "home_goals": 6,
-    "away_goals": 2,
-    "avg_total_goals": 4.0,
-    "home_win_rate": 1.0,
-    "away_win_rate": 0.0,
-    "recent_matches": [
-     {
-      "away": "Dominica",
-      "date": "2026-11-13T19:00:00+00:00",
-      "home": "Puerto Rico",
-      "score": "4-2",
-      "event_id": 606208,
-      "away_score": 2,
-      "home_score": 4,
-      "away_team_id": 706,
-      "home_team_id": 2295
-     },
-     {
-      "away": "Puerto Rico",
-      "date": "2026-09-28T00:00:00+00:00",
-      "home": "Dominica",
-      "score": "0-2",
-      "event_id": 223091,
-      "away_score": 2,
-      "home_score": 0,
-      "away_team_id": 2295,
-      "home_team_id": 706
-     }
-    ]
-   },
-   "has_xg": false,
-   "previous_leg_event_id": null
-  },
-  {
-   "id": 606192,
-   "league_id": 65,
-   "season_id": 1633,
-   "home_team_id": 668,
-   "home_team": "Bermuda",
-   "away_team_id": 2293,
-   "away_team": "Saint Lucia",
-   "home_coach_id": 4045,
-   "away_coach_id": 4058,
-   "referee_id": null,
-   "venue_id": 1504,
-   "event_date": "2026-11-13T19:00:00+00:00",
-   "status": "finished",
-   "replaced_by": null,
-   "round_number": 5,
-   "round_name": "",
-   "group_name": "League B, Group B",
-   "stage": "group-stage",
-   "stage_name": "Group stage",
-   "round_label": "League B, Group B · Matchday 5",
-   "period": "FT",
-   "current_minute": 94,
-   "home_score": 1,
-   "away_score": 2,
-   "home_score_ht": 0,
-   "away_score_ht": 1,
-   "penalty_shootout": null,
-   "extra_time_score": null,
-   "is_local_derby": false,
-   "is_neutral_ground": false,
-   "travel_distance_km": null,
-   "weather": {
-    "code": 2,
-    "description": "cloudy",
-    "wind_speed": null,
-    "temperature_c": null
-   },
-   "pitch_condition": 1,
-   "attendance": null,
-   "live_websocket": true,
-   "websocket_plus": true,
-   "highlights": [
-    {
-     "kind": "full",
-     "title": "Bermuda 1 - 2 Saint Lucia — Full Highlights",
-     "url": "https://youtu.be/Umz0nr-s_qs",
-     "thumbnail": "https://i.ytimg.com/vi/Umz0nr-s_qs/hqdefault.jpg",
-     "published_at": "2026-11-13T22:56:11+00:00"
-    }
-   ],
-   "head_to_head": {
-    "total_matches": 2,
-    "home_wins": 0,
-    "draws": 0,
-    "away_wins": 2,
-    "home_goals": 3,
-    "away_goals": 7,
-    "avg_total_goals": 5.0,
-    "home_win_rate": 0.0,
-    "away_win_rate": 1.0,
-    "recent_matches": [
-     {
-      "away": "Saint Lucia",
-      "date": "2026-11-13T19:00:00+00:00",
-      "home": "Bermuda",
-      "score": "1-2",
-      "event_id": 606192,
-      "away_score": 2,
-      "home_score": 1,
-      "away_team_id": 2293,
-      "home_team_id": 668
-     },
-     {
-      "away": "Bermuda",
-      "date": "2026-09-29T00:00:00+00:00",
-      "home": "Saint Lucia",
-      "score": "5-2",
-      "event_id": 223097,
-      "away_score": 2,
-      "home_score": 5,
-      "away_team_id": 668,
-      "home_team_id": 2293
      }
     ]
    },
