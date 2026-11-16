@@ -1,35 +1,11 @@
 {
- "window": "11-16 01:00 BJT -> 11-17 13:00 BJT",
+ "window": "11-16 13:10 BJT -> 11-18 01:10 BJT",
  "window_utc": [
-  "2026-11-15T17:00:00Z",
-  "2026-11-17T05:00:00Z"
+  "2026-11-16T05:10:00Z",
+  "2026-11-17T17:10:00Z"
  ],
- "generated": "2026-11-15T17:00:01.745432+00:00",
+ "generated": "2026-11-16T05:11:18.587775+00:00",
  "matches": [
-  {
-   "id": 214913,
-   "league": "Segunda División",
-   "kickoff": "11-16 01:30",
-   "kickoff_iso": "2026-11-15T17:30:00+00:00",
-   "ct": "2026-11-15T17:30:00+00:00",
-   "home": "Eibar",
-   "away": "Cádiz",
-   "home_id": 1397,
-   "away_id": 1270,
-   "status": "notstarted"
-  },
-  {
-   "id": 214911,
-   "league": "Segunda División",
-   "kickoff": "11-16 01:30",
-   "kickoff_iso": "2026-11-15T17:30:00+00:00",
-   "ct": "2026-11-15T17:30:00+00:00",
-   "home": "CD Eldense",
-   "away": "CE Sabadell",
-   "home_id": 1403,
-   "away_id": 1467,
-   "status": "notstarted"
-  },
   {
    "id": 214909,
    "league": "Segunda División",
@@ -45,11 +21,11 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 40,
-  "n_keep": 3,
-  "n_drop": 37,
+  "n_src": 33,
+  "n_keep": 1,
+  "n_drop": 32,
   "drop_reasons": {
-   "league_unmapped": 37
+   "league_unmapped": 32
   }
  }
 }
