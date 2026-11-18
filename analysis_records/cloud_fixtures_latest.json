@@ -1,18 +1,91 @@
 {
- "window": "11-17 13:10 BJT -> 11-19 01:10 BJT",
+ "window": "11-18 13:00 BJT -> 11-20 01:00 BJT",
  "window_utc": [
-  "2026-11-17T05:10:00Z",
-  "2026-11-18T17:10:00Z"
+  "2026-11-18T05:00:00Z",
+  "2026-11-19T17:00:00Z"
  ],
- "generated": "2026-11-17T05:11:05.170317+00:00",
- "matches": [],
+ "generated": "2026-11-18T05:00:02.865243+00:00",
+ "matches": [
+  {
+   "id": 7335,
+   "league": "Brasileirão Serie A",
+   "kickoff": "11-19 06:30",
+   "kickoff_iso": "2026-11-18T22:30:00+00:00",
+   "ct": "2026-11-18T22:30:00+00:00",
+   "home": "Coritiba",
+   "away": "Santos",
+   "home_id": 370,
+   "away_id": 165,
+   "status": "notstarted"
+  },
+  {
+   "id": 7340,
+   "league": "Brasileirão Serie A",
+   "kickoff": "11-19 07:00",
+   "kickoff_iso": "2026-11-18T23:00:00+00:00",
+   "ct": "2026-11-18T23:00:00+00:00",
+   "home": "Remo",
+   "away": "Chapecoense",
+   "home_id": 372,
+   "away_id": 373,
+   "status": "notstarted"
+  },
+  {
+   "id": 7337,
+   "league": "Brasileirão Serie A",
+   "kickoff": "11-19 07:30",
+   "kickoff_iso": "2026-11-18T23:30:00+00:00",
+   "ct": "2026-11-18T23:30:00+00:00",
+   "home": "Flamengo",
+   "away": "Athletico",
+   "home_id": 160,
+   "away_id": 371,
+   "status": "notstarted"
+  },
+  {
+   "id": 7336,
+   "league": "Brasileirão Serie A",
+   "kickoff": "11-19 07:30",
+   "kickoff_iso": "2026-11-18T23:30:00+00:00",
+   "ct": "2026-11-18T23:30:00+00:00",
+   "home": "Cruzeiro",
+   "away": "Palmeiras",
+   "home_id": 150,
+   "away_id": 162,
+   "status": "notstarted"
+  },
+  {
+   "id": 7338,
+   "league": "Brasileirão Serie A",
+   "kickoff": "11-19 08:30",
+   "kickoff_iso": "2026-11-19T00:30:00+00:00",
+   "ct": "2026-11-19T00:30:00+00:00",
+   "home": "Grêmio",
+   "away": "Bahia",
+   "home_id": 154,
+   "away_id": 166,
+   "status": "notstarted"
+  },
+  {
+   "id": 7334,
+   "league": "Brasileirão Serie A",
+   "kickoff": "11-19 08:30",
+   "kickoff_iso": "2026-11-19T00:30:00+00:00",
+   "ct": "2026-11-19T00:30:00+00:00",
+   "home": "Corinthians",
+   "away": "Botafogo",
+   "home_id": 167,
+   "away_id": 163,
+   "status": "notstarted"
+  }
+ ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 40,
-  "n_keep": 0,
-  "n_drop": 40,
+  "n_src": 17,
+  "n_keep": 6,
+  "n_drop": 11,
   "drop_reasons": {
-   "league_unmapped": 40
+   "league_unmapped": 11
   }
  }
 }
