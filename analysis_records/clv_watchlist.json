@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T23:53:47.680157+00:00",
+ "generated_at": "2026-11-19T23:31:57.744469+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -113,81 +113,37 @@
    "ko_utc": "2026-09-13T23:10:00+00:00"
   },
   {
-   "row_id": "4e87a6ced0a78982",
+   "row_id": "cbf60770cb4db9ba",
    "ledger": "shadow",
-   "event_id": 7337,
-   "mkt": "1x2",
-   "line": null,
-   "side": "HOME",
-   "pick": "主胜",
-   "league": "Brasileirão Serie A",
-   "ko_utc": "2026-11-18T23:30:00+00:00"
-  },
-  {
-   "row_id": "a6a586cdd087fa61",
-   "ledger": "shadow",
-   "event_id": 7337,
-   "mkt": "ou",
-   "line": 3.5,
-   "side": "under",
-   "pick": "小3.5",
-   "league": "Brasileirão Serie A",
-   "ko_utc": "2026-11-18T23:30:00+00:00"
-  },
-  {
-   "row_id": "299acb8a24c0f91b",
-   "ledger": "shadow",
-   "event_id": 7337,
+   "event_id": 654064,
    "mkt": "ou",
    "line": 3.5,
    "side": "over",
    "pick": "大3.5",
-   "league": "Brasileirão Serie A",
-   "ko_utc": "2026-11-18T23:30:00+00:00"
+   "league": "MLS",
+   "ko_utc": "2026-11-20T00:30:00+00:00"
   },
   {
-   "row_id": "cebbeae22f318de9",
+   "row_id": "fe658fc6eccb4566",
    "ledger": "shadow",
-   "event_id": 7336,
+   "event_id": 654064,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "MLS",
+   "ko_utc": "2026-11-20T00:30:00+00:00"
+  },
+  {
+   "row_id": "c7cc4a7d1e8dba5b",
+   "ledger": "shadow",
+   "event_id": 7341,
    "mkt": "ou",
    "line": 2.5,
-   "side": "over",
-   "pick": "大2.5",
+   "side": "under",
+   "pick": "小2.5",
    "league": "Brasileirão Serie A",
-   "ko_utc": "2026-11-18T23:30:00+00:00"
-  },
-  {
-   "row_id": "2bafe7ca06d720a1",
-   "ledger": "shadow",
-   "event_id": 7338,
-   "mkt": "ou",
-   "line": 2.5,
-   "side": "over",
-   "pick": "大2.5",
-   "league": "Brasileirão Serie A",
-   "ko_utc": "2026-11-19T00:30:00+00:00"
-  },
-  {
-   "row_id": "2497424dfa03ce1a",
-   "ledger": "shadow",
-   "event_id": 7334,
-   "mkt": "1x2",
-   "line": null,
-   "side": "HOME",
-   "pick": "主胜",
-   "league": "Brasileirão Serie A",
-   "ko_utc": "2026-11-19T00:30:00+00:00"
-  },
-  {
-   "row_id": "ec2e94ee597f621b",
-   "ledger": "shadow",
-   "event_id": 7334,
-   "mkt": "ou",
-   "line": 2.5,
-   "side": "over",
-   "pick": "大2.5",
-   "league": "Brasileirão Serie A",
-   "ko_utc": "2026-11-19T00:30:00+00:00"
+   "ko_utc": "2026-11-20T00:30:00+00:00"
   },
   {
    "row_id": "212271",
@@ -245,26 +201,26 @@
    "ko_utc": "2026-10-23T18:45:00+00:00"
   },
   {
-   "row_id": "7338",
+   "row_id": "654064",
    "ledger": "audit",
-   "event_id": 7338,
+   "event_id": 654064,
    "mkt": "ou",
-   "line": 2.5,
+   "line": 3.5,
    "side": "over",
-   "pick": "大2.5",
-   "league": "Brasileirão Serie A",
-   "ko_utc": "2026-11-19T00:30:00+00:00"
+   "pick": "大3.5",
+   "league": "MLS",
+   "ko_utc": "2026-11-20T00:30:00+00:00"
   },
   {
-   "row_id": "7334",
+   "row_id": "7341",
    "ledger": "audit",
-   "event_id": 7334,
+   "event_id": 7341,
    "mkt": "ou",
    "line": 2.5,
-   "side": "over",
-   "pick": "大2.5",
+   "side": "under",
+   "pick": "小2.5",
    "league": "Brasileirão Serie A",
-   "ko_utc": "2026-11-19T00:30:00+00:00"
+   "ko_utc": "2026-11-20T00:30:00+00:00"
   }
  ]
 }
