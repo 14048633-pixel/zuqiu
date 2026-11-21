@@ -1,83 +1,11 @@
 {
- "window": "11-21 13:00 BJT -> 11-23 01:00 BJT",
+ "window": "11-21 13:10 BJT -> 11-23 01:10 BJT",
  "window_utc": [
-  "2026-11-21T05:00:00Z",
-  "2026-11-22T17:00:00Z"
+  "2026-11-21T05:10:00Z",
+  "2026-11-22T17:10:00Z"
  ],
- "generated": "2026-11-21T05:00:02.742629+00:00",
+ "generated": "2026-11-21T05:11:06.529032+00:00",
  "matches": [
-  {
-   "id": 643047,
-   "league": "K League 1",
-   "kickoff": "11-21 13:00",
-   "kickoff_iso": "2026-11-21T05:00:00+00:00",
-   "ct": "2026-11-21T05:00:00+00:00",
-   "home": "Pohang Steelers",
-   "away": "FC Anyang",
-   "home_id": 1953,
-   "away_id": 1959,
-   "status": "notstarted"
-  },
-  {
-   "id": 643046,
-   "league": "K League 1",
-   "kickoff": "11-21 13:00",
-   "kickoff_iso": "2026-11-21T05:00:00+00:00",
-   "ct": "2026-11-21T05:00:00+00:00",
-   "home": "Jeonbuk Hyundai Motors",
-   "away": "FC Seoul",
-   "home_id": 1954,
-   "away_id": 1949,
-   "status": "notstarted"
-  },
-  {
-   "id": 212332,
-   "league": "J1 League",
-   "kickoff": "11-21 13:00",
-   "kickoff_iso": "2026-11-21T05:00:00+00:00",
-   "ct": "2026-11-21T05:00:00+00:00",
-   "home": "Tokyo Verdy",
-   "away": "Nagoya Grampus",
-   "home_id": 1946,
-   "away_id": 1942,
-   "status": "notstarted"
-  },
-  {
-   "id": 212331,
-   "league": "J1 League",
-   "kickoff": "11-21 13:00",
-   "kickoff_iso": "2026-11-21T05:00:00+00:00",
-   "ct": "2026-11-21T05:00:00+00:00",
-   "home": "Sanfrecce Hiroshima",
-   "away": "Yokohama F. Marinos",
-   "home_id": 1933,
-   "away_id": 1928,
-   "status": "notstarted"
-  },
-  {
-   "id": 212330,
-   "league": "J1 League",
-   "kickoff": "11-21 13:00",
-   "kickoff_iso": "2026-11-21T05:00:00+00:00",
-   "ct": "2026-11-21T05:00:00+00:00",
-   "home": "Machida Zelvia",
-   "away": "V-Varen Nagasaki",
-   "home_id": 1929,
-   "away_id": 1932,
-   "status": "notstarted"
-  },
-  {
-   "id": 212329,
-   "league": "J1 League",
-   "kickoff": "11-21 13:00",
-   "kickoff_iso": "2026-11-21T05:00:00+00:00",
-   "ct": "2026-11-21T05:00:00+00:00",
-   "home": "Kyoto Sanga FC",
-   "away": "Urawa Red Diamonds",
-   "home_id": 1930,
-   "away_id": 1935,
-   "status": "notstarted"
-  },
   {
    "id": 212328,
    "league": "J1 League",
@@ -1941,8 +1869,8 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 334,
-  "n_keep": 161,
+  "n_src": 328,
+  "n_keep": 155,
   "n_drop": 173,
   "drop_reasons": {
    "league_unmapped": 168,
