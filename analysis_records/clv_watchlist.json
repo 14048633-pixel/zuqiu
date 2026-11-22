@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T00:01:39.458585+00:00",
+ "generated_at": "2026-11-22T01:40:47.218902+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -2027,6 +2027,17 @@
    "ko_utc": "2026-11-22T01:15:00+00:00"
   },
   {
+   "row_id": "53b3705e50ae8539",
+   "ledger": "shadow",
+   "event_id": 211648,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Liga MX Apertura",
+   "ko_utc": "2026-11-22T03:00:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -3048,6 +3059,17 @@
    "pick": "小2.5",
    "league": "Categoría Primera A",
    "ko_utc": "2026-11-22T01:15:00+00:00"
+  },
+  {
+   "row_id": "211648",
+   "ledger": "audit",
+   "event_id": 211648,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Liga MX Apertura",
+   "ko_utc": "2026-11-22T03:00:00+00:00"
   }
  ]
 }
