@@ -1,10 +1,179 @@
 {
  "date": "2026-11-22",
  "window_utc": [
-  "2026-11-20T17:00:02Z",
-  "2026-11-22T05:00:02Z"
+  "2026-11-20T17:11:25Z",
+  "2026-11-22T05:11:25Z"
  ],
  "results": [
+  {
+   "id": 211648,
+   "league_id": 19,
+   "season_id": 1309,
+   "home_team_id": 321,
+   "home_team": "Tigres UANL",
+   "away_team_id": 307,
+   "away_team": "Club América",
+   "home_coach_id": 3556,
+   "away_coach_id": 423,
+   "referee_id": 2382,
+   "venue_id": 308,
+   "event_date": "2026-11-22T03:00:00+00:00",
+   "status": "finished",
+   "replaced_by": null,
+   "round_number": 17,
+   "round_name": "",
+   "group_name": null,
+   "stage": "regular-season",
+   "stage_name": "Regular season",
+   "round_label": "Regular season · Matchday 17",
+   "period": "FT",
+   "current_minute": 90,
+   "home_score": 1,
+   "away_score": 0,
+   "home_score_ht": 0,
+   "away_score_ht": 0,
+   "penalty_shootout": null,
+   "extra_time_score": null,
+   "is_local_derby": false,
+   "is_neutral_ground": false,
+   "travel_distance_km": 725,
+   "weather": {
+    "code": 2,
+    "description": "cloudy",
+    "wind_speed": 10.1,
+    "temperature_c": 21
+   },
+   "pitch_condition": 1,
+   "attendance": null,
+   "live_websocket": true,
+   "websocket_plus": true,
+   "highlights": [],
+   "head_to_head": {
+    "total_matches": 49,
+    "home_wins": 15,
+    "draws": 15,
+    "away_wins": 19,
+    "home_goals": 61,
+    "away_goals": 72,
+    "avg_total_goals": 2.7142857142857144,
+    "home_win_rate": 0.30612244897959184,
+    "away_win_rate": 0.3877551020408163,
+    "recent_matches": [
+     {
+      "away": "Tigres UANL",
+      "date": "2026-03-28T22:00:00+00:00",
+      "home": "Club América",
+      "score": "1-1",
+      "event_id": 217659,
+      "away_score": 1,
+      "home_score": 1,
+      "away_team_id": 321,
+      "home_team_id": 307
+     },
+     {
+      "away": "Tigres UANL",
+      "date": "2026-03-01T03:10:00+00:00",
+      "home": "Club América",
+      "score": "1-4",
+      "event_id": 6191,
+      "away_score": 4,
+      "home_score": 1,
+      "away_team_id": 321,
+      "home_team_id": 307
+     },
+     {
+      "away": "Club América",
+      "date": "2025-08-17T01:00:00+00:00",
+      "home": "Tigres UANL",
+      "score": "1-3",
+      "event_id": 6008,
+      "away_score": 3,
+      "home_score": 1,
+      "away_team_id": 307,
+      "home_team_id": 321
+     },
+     {
+      "away": "Tigres UANL",
+      "date": "2025-03-30T01:05:00+00:00",
+      "home": "Club América",
+      "score": "3-0",
+      "event_id": 236193,
+      "away_score": 0,
+      "home_score": 3,
+      "away_team_id": 321,
+      "home_team_id": 307
+     },
+     {
+      "away": "Club América",
+      "date": "2024-07-18T03:00:00+00:00",
+      "home": "Tigres UANL",
+      "score": "1-0",
+      "event_id": 235937,
+      "away_score": 0,
+      "home_score": 1,
+      "away_team_id": 307,
+      "home_team_id": 321
+     },
+     {
+      "away": "Tigres UANL",
+      "date": "2024-03-10T03:00:00+00:00",
+      "home": "Club América",
+      "score": "2-0",
+      "event_id": 245771,
+      "away_score": 0,
+      "home_score": 2,
+      "away_team_id": 321,
+      "home_team_id": 307
+     },
+     {
+      "away": "Tigres UANL",
+      "date": "2023-12-18T01:30:00+00:00",
+      "home": "Club América",
+      "score": "3-0",
+      "event_id": 245673,
+      "away_score": 0,
+      "home_score": 3,
+      "away_team_id": 321,
+      "home_team_id": 307
+     },
+     {
+      "away": "Club América",
+      "date": "2023-12-15T03:00:00+00:00",
+      "home": "Tigres UANL",
+      "score": "1-1",
+      "event_id": 245672,
+      "away_score": 1,
+      "home_score": 1,
+      "away_team_id": 307,
+      "home_team_id": 321
+     },
+     {
+      "away": "Club América",
+      "date": "2023-11-12T03:10:00+00:00",
+      "home": "Tigres UANL",
+      "score": "0-0",
+      "event_id": 245653,
+      "away_score": 0,
+      "home_score": 0,
+      "away_team_id": 307,
+      "home_team_id": 321
+     },
+     {
+      "away": "Club América",
+      "date": "2023-03-12T03:10:00+00:00",
+      "home": "Tigres UANL",
+      "score": "0-2",
+      "event_id": 256991,
+      "away_score": 2,
+      "home_score": 0,
+      "away_team_id": 307,
+      "home_team_id": 321
+     }
+    ]
+   },
+   "has_xg": false,
+   "previous_leg_event_id": null
+  },
   {
    "id": 607433,
    "league_id": 104,
@@ -5369,7 +5538,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 11",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 93,
    "home_score": 1,
    "away_score": 1,
    "home_score_ht": 1,
@@ -5414,7 +5583,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -5785,7 +5954,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 13",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 92,
    "home_score": 0,
    "away_score": 3,
    "home_score_ht": 0,
@@ -10991,7 +11160,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 13",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 94,
    "home_score": 0,
    "away_score": 1,
    "home_score_ht": 0,
@@ -11160,7 +11329,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 13",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 94,
    "home_score": 2,
    "away_score": 1,
    "home_score_ht": 2,
@@ -13387,7 +13556,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 11",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 92,
    "home_score": 2,
    "away_score": 0,
    "home_score_ht": 0,
@@ -13432,7 +13601,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {
@@ -13457,7 +13626,7 @@
    "stage_name": "Regular season",
    "round_label": "Regular season · Matchday 11",
    "period": "FT",
-   "current_minute": 90,
+   "current_minute": 95,
    "home_score": 1,
    "away_score": 1,
    "home_score_ht": 1,
@@ -13502,7 +13671,7 @@
      }
     ]
    },
-   "has_xg": false,
+   "has_xg": true,
    "previous_leg_event_id": null
   },
   {

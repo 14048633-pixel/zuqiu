@@ -1,35 +1,11 @@
 {
- "window": "11-22 13:00 BJT -> 11-24 01:00 BJT",
+ "window": "11-22 13:11 BJT -> 11-24 01:11 BJT",
  "window_utc": [
-  "2026-11-22T05:00:00Z",
-  "2026-11-23T17:00:00Z"
+  "2026-11-22T05:11:00Z",
+  "2026-11-23T17:11:00Z"
  ],
- "generated": "2026-11-22T05:00:02.199890+00:00",
+ "generated": "2026-11-22T05:11:33.809547+00:00",
  "matches": [
-  {
-   "id": 643051,
-   "league": "K League 1",
-   "kickoff": "11-22 13:00",
-   "kickoff_iso": "2026-11-22T05:00:00+00:00",
-   "ct": "2026-11-22T05:00:00+00:00",
-   "home": "Gwangju FC",
-   "away": "Bucheon FC 1995",
-   "home_id": 1957,
-   "away_id": 1955,
-   "status": "notstarted"
-  },
-  {
-   "id": 643050,
-   "league": "K League 1",
-   "kickoff": "11-22 13:00",
-   "kickoff_iso": "2026-11-22T05:00:00+00:00",
-   "ct": "2026-11-22T05:00:00+00:00",
-   "home": "Gimcheon Sangmu FC",
-   "away": "Jeju SK",
-   "home_id": 1952,
-   "away_id": 1956,
-   "status": "notstarted"
-  },
   {
    "id": 216050,
    "league": "Trendyol Super Lig",
@@ -849,8 +825,8 @@
  ],
  "collection_filter": {
   "manifest": "/home/user/football/sync/zuqiu/analysis_records/supported_manifest.json",
-  "n_src": 149,
-  "n_keep": 70,
+  "n_src": 147,
+  "n_keep": 68,
   "n_drop": 79,
   "drop_reasons": {
    "league_unmapped": 78,
