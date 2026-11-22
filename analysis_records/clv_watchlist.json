@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T16:53:05.639099+00:00",
+ "generated_at": "2026-11-22T17:42:13.126347+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -1092,6 +1092,50 @@
    "ko_utc": "2026-11-22T18:30:00+00:00"
   },
   {
+   "row_id": "380b84cdcba2b9b9",
+   "ledger": "shadow",
+   "event_id": 655432,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Brasileirão Serie B",
+   "ko_utc": "2026-11-22T19:00:00+00:00"
+  },
+  {
+   "row_id": "d8bbf2c11439304a",
+   "ledger": "shadow",
+   "event_id": 654314,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Liga Profesional de Fútbol",
+   "ko_utc": "2026-11-22T19:00:00+00:00"
+  },
+  {
+   "row_id": "5aecb82d5381d20f",
+   "ledger": "shadow",
+   "event_id": 654314,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Liga Profesional de Fútbol",
+   "ko_utc": "2026-11-22T19:00:00+00:00"
+  },
+  {
+   "row_id": "4338424301c3c8a8",
+   "ledger": "shadow",
+   "event_id": 7344,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Brasileirão Serie A",
+   "ko_utc": "2026-11-22T19:00:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -1618,6 +1662,39 @@
    "pick": "小2.5",
    "league": "Superliga",
    "ko_utc": "2026-11-22T18:30:00+00:00"
+  },
+  {
+   "row_id": "655432",
+   "ledger": "audit",
+   "event_id": 655432,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Brasileirão Serie B",
+   "ko_utc": "2026-11-22T19:00:00+00:00"
+  },
+  {
+   "row_id": "654314",
+   "ledger": "audit",
+   "event_id": 654314,
+   "mkt": "1x2",
+   "line": 2.5,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Liga Profesional de Fútbol",
+   "ko_utc": "2026-11-22T19:00:00+00:00"
+  },
+  {
+   "row_id": "7344",
+   "ledger": "audit",
+   "event_id": 7344,
+   "mkt": "1x2",
+   "line": 2.5,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Brasileirão Serie A",
+   "ko_utc": "2026-11-22T19:00:00+00:00"
   }
  ]
 }
