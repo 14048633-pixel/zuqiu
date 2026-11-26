@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T13:00:49.672064+00:00",
+ "generated_at": "2026-11-26T19:20:54.743507+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -146,6 +146,50 @@
    "ko_utc": "2026-11-26T14:25:00+00:00"
   },
   {
+   "row_id": "b11d96c6ad4801c9",
+   "ledger": "shadow",
+   "event_id": 654205,
+   "mkt": "1x2",
+   "line": null,
+   "side": "AWAY",
+   "pick": "客胜",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-11-26T15:05:00+00:00"
+  },
+  {
+   "row_id": "8765b0febcb87752",
+   "ledger": "shadow",
+   "event_id": 654205,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-11-26T15:05:00+00:00"
+  },
+  {
+   "row_id": "2532099e0ac8d365",
+   "ledger": "shadow",
+   "event_id": 224242,
+   "mkt": "1x2",
+   "line": null,
+   "side": "AWAY",
+   "pick": "客胜",
+   "league": "League One",
+   "ko_utc": "2026-11-26T20:00:00+00:00"
+  },
+  {
+   "row_id": "a9fc9a2c54cdf2f0",
+   "ledger": "shadow",
+   "event_id": 224242,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "League One",
+   "ko_utc": "2026-11-26T20:00:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -232,6 +276,17 @@
    "pick": "大2.5",
    "league": "Saudi Pro League",
    "ko_utc": "2026-11-26T14:25:00+00:00"
+  },
+  {
+   "row_id": "224242",
+   "ledger": "audit",
+   "event_id": 224242,
+   "mkt": "1x2",
+   "line": 2.5,
+   "side": "AWAY",
+   "pick": "客胜",
+   "league": "League One",
+   "ko_utc": "2026-11-26T20:00:00+00:00"
   }
  ]
 }
