@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T15:33:54.646359+00:00",
+ "generated_at": "2026-11-27T16:32:07.484564+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -234,6 +234,39 @@
    "ko_utc": "2026-11-27T17:30:00+00:00"
   },
   {
+   "row_id": "4cc176ece16bcb88",
+   "ledger": "shadow",
+   "event_id": 221569,
+   "mkt": "1x2",
+   "line": null,
+   "side": "AWAY",
+   "pick": "客胜",
+   "league": "Danish Superliga",
+   "ko_utc": "2026-11-27T18:00:00+00:00"
+  },
+  {
+   "row_id": "ab5d7d8bce49ea1d",
+   "ledger": "shadow",
+   "event_id": 221569,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Danish Superliga",
+   "ko_utc": "2026-11-27T18:00:00+00:00"
+  },
+  {
+   "row_id": "86c455d7dc111088",
+   "ledger": "shadow",
+   "event_id": 214655,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Superliga",
+   "ko_utc": "2026-11-27T18:30:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -364,6 +397,28 @@
    "pick": "大2.5",
    "league": "Saudi Pro League",
    "ko_utc": "2026-11-27T17:30:00+00:00"
+  },
+  {
+   "row_id": "221569",
+   "ledger": "audit",
+   "event_id": 221569,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Danish Superliga",
+   "ko_utc": "2026-11-27T18:00:00+00:00"
+  },
+  {
+   "row_id": "214655",
+   "ledger": "audit",
+   "event_id": 214655,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Superliga",
+   "ko_utc": "2026-11-27T18:30:00+00:00"
   }
  ]
 }
