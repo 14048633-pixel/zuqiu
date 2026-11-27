@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T09:57:42.610144+00:00",
+ "generated_at": "2026-11-27T10:30:31.866891+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -124,6 +124,17 @@
    "ko_utc": "2026-11-27T03:10:00+00:00"
   },
   {
+   "row_id": "158b0b14c61590c5",
+   "ledger": "shadow",
+   "event_id": 654207,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-11-27T12:15:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -177,6 +188,17 @@
    "pick": "小2.5",
    "league": "Pro League",
    "ko_utc": "2026-10-23T18:45:00+00:00"
+  },
+  {
+   "row_id": "654207",
+   "ledger": "audit",
+   "event_id": 654207,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Saudi Pro League",
+   "ko_utc": "2026-11-27T12:15:00+00:00"
   }
  ]
 }
