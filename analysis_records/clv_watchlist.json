@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T16:32:07.484564+00:00",
+ "generated_at": "2026-11-27T17:32:44.657767+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -267,6 +267,105 @@
    "ko_utc": "2026-11-27T18:30:00+00:00"
   },
   {
+   "row_id": "d0a1636345404b8d",
+   "ledger": "shadow",
+   "event_id": 210918,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Eredivisie",
+   "ko_utc": "2026-11-27T19:00:00+00:00"
+  },
+  {
+   "row_id": "b8601e102df55b26",
+   "ledger": "shadow",
+   "event_id": 210918,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "Eredivisie",
+   "ko_utc": "2026-11-27T19:00:00+00:00"
+  },
+  {
+   "row_id": "8f320ede6dbe8810",
+   "ledger": "shadow",
+   "event_id": 210918,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "over",
+   "pick": "大3.5",
+   "league": "Eredivisie",
+   "ko_utc": "2026-11-27T19:00:00+00:00"
+  },
+  {
+   "row_id": "67017365dbc1753c",
+   "ledger": "shadow",
+   "event_id": 214938,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Segunda División",
+   "ko_utc": "2026-11-27T19:30:00+00:00"
+  },
+  {
+   "row_id": "975d55f79401a9e1",
+   "ledger": "shadow",
+   "event_id": 213764,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Bundesliga",
+   "ko_utc": "2026-11-27T19:30:00+00:00"
+  },
+  {
+   "row_id": "d8719f53c7bb06f4",
+   "ledger": "shadow",
+   "event_id": 213764,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "under",
+   "pick": "小3.5",
+   "league": "Bundesliga",
+   "ko_utc": "2026-11-27T19:30:00+00:00"
+  },
+  {
+   "row_id": "5a0f7210d719e5c7",
+   "ledger": "shadow",
+   "event_id": 213764,
+   "mkt": "ou",
+   "line": 3.5,
+   "side": "over",
+   "pick": "大3.5",
+   "league": "Bundesliga",
+   "ko_utc": "2026-11-27T19:30:00+00:00"
+  },
+  {
+   "row_id": "ac2536fa42525f1e",
+   "ledger": "shadow",
+   "event_id": 211968,
+   "mkt": "1x2",
+   "line": null,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Ekstraklasa",
+   "ko_utc": "2026-11-27T19:30:00+00:00"
+  },
+  {
+   "row_id": "38dfecbb1b190d03",
+   "ledger": "shadow",
+   "event_id": 211968,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Ekstraklasa",
+   "ko_utc": "2026-11-27T19:30:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -419,6 +518,50 @@
    "pick": "小2.5",
    "league": "Superliga",
    "ko_utc": "2026-11-27T18:30:00+00:00"
+  },
+  {
+   "row_id": "210918",
+   "ledger": "audit",
+   "event_id": 210918,
+   "mkt": "1x2",
+   "line": 3.5,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Eredivisie",
+   "ko_utc": "2026-11-27T19:00:00+00:00"
+  },
+  {
+   "row_id": "214938",
+   "ledger": "audit",
+   "event_id": 214938,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "Segunda División",
+   "ko_utc": "2026-11-27T19:30:00+00:00"
+  },
+  {
+   "row_id": "213764",
+   "ledger": "audit",
+   "event_id": 213764,
+   "mkt": "1x2",
+   "line": 3.5,
+   "side": "HOME",
+   "pick": "主胜",
+   "league": "Bundesliga",
+   "ko_utc": "2026-11-27T19:30:00+00:00"
+  },
+  {
+   "row_id": "211968",
+   "ledger": "audit",
+   "event_id": 211968,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "Ekstraklasa",
+   "ko_utc": "2026-11-27T19:30:00+00:00"
   }
  ]
 }
