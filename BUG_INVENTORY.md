@@ -1,5 +1,11 @@
 # 问题追踪表 (BUG_INVENTORY)
 
+> ## ⚠️ 已归档（2026-11-27）
+> 系统已从「预测/出单」全面转为 **纯采集 / 结算 / CLV 研究**口径：不预测、不推荐、不下单，生产门关闭。
+> 下方 P0/P1/P2 的「待办」项均属旧预测模型与赛前报告口径（Dixon-Coles、百炼伤停、poisson 拟合、星级/EV 等），
+> **整体归档、不再适用**，仅保留作历史追溯，不再排期修复。
+> 当前问题追踪以**数据采集完整性与 CLV 质量**为准（见 sharp_lines 与 cloud_health 心跳告警）。
+
 > 所有复盘发现的问题统一记录在此，按优先级排序，修复后更新状态。
 > 每次修改代码后必须跑 `run_tests.py` 确认全绿。
 
@@ -39,6 +45,7 @@
 | P2-2 | elo_home != 1500.0 建议改成 abs(x-1500) > 1e-9 更稳 | 2026-08-30 | 改比较方式 | 待办 | elo.py |
 | P2-3 | 百炼引用来源的site/publish_time字段为空，无法验证时效性 | 2026-08-31 | 解析百炼返回的完整来源信息 | 待办 | dashscope_search.py |
 | P2-4 | generate_report.py里extract_injury_json和render_full_report里fetch_lineup_intel重复调用 | 2026-08-31 | 把第一次结果传给render_full_report，避免重复调用 | 待办 | generate_report.py, report_renderer.py |
+| P2-5 | daily_scan 的 poisson_grid 截断在 m=10 且不重新归一：极端大 λ 时（如拜仁 213754，λh≈5.7）“单队进球>10”约 3.2% 质量被丢弃，v2=0.5logistic+0.5poisson 概率和仅 0.9368；69 场中仅 1 场<0.95，方向 argmax 不受影响，对 v2 累计 Brier 均值影响约 0.001 | 2026-11-23 | 网格提到 m=25（已验证和为 1.0）或让 H/D/A/over 按网格总质量归一；改后跑 run_tests，不回写已封存文件 | 已修复 | daily_scan.py（poisson_grid/stat_probs） |
 
 ---
 
@@ -53,6 +60,7 @@
 | F-5 | get_latest_elo每场重算compute_elo_history(遍历几万场) | 2026-08-30 | 加缓存 | ✅ 性能提升 |
 | F-6 | generate_report.py缺少import os，百炼判断报错 | 2026-08-31 | 添加import os和load_dotenv | ✅ 正常运行 |
 | F-7 | report_renderer.py的fetch_lineup_intel只用ark_search | 2026-08-31 | 改成只用百炼dashscope_search | ✅ 伤停正常显示 |
+| F-8 | poisson_grid 截断 m=10 不归一导致极端大 λ 下 v2 概率和<1（P2-5，拜仁213754 和0.9368）；daily_scan 与 oof_walkforward 两份独立副本同病 | 2026-11-23 | 两处默认网格均提至 m=25，H/D/A/over 按网格总质量 z 归一，零 λ 加保护 | ✅ 全 λ 概率和=1，普通场新旧差<1e-6，run_tests ALL GREEN，oof 编译/导入通过 |
 
 ---
 
