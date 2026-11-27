@@ -49,3 +49,5 @@ analysis_records/.cache/
 analysis_records/t60/
 analysis_records/*.tmp
 analysis_records/.cloud_pipeline*.lock
+# 系统cron心跳：运行时状态，每10分钟变化，不入库
+analysis_records/cron_heartbeat.json
