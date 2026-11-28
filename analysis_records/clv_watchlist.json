@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T01:31:37.625844+00:00",
+ "generated_at": "2026-11-28T03:51:12.100785+00:00",
  "window_min": 15.0,
  "legs": [
   {
@@ -487,6 +487,50 @@
    "ko_utc": "2026-11-28T03:00:00+00:00"
   },
   {
+   "row_id": "0934667844763b7a",
+   "ledger": "shadow",
+   "event_id": 643053,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "K League 1",
+   "ko_utc": "2026-11-28T05:00:00+00:00"
+  },
+  {
+   "row_id": "8522392e83805f25",
+   "ledger": "shadow",
+   "event_id": 643052,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "K League 1",
+   "ko_utc": "2026-11-28T05:00:00+00:00"
+  },
+  {
+   "row_id": "882e1be4b843d788",
+   "ledger": "shadow",
+   "event_id": 212351,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "J1 League",
+   "ko_utc": "2026-11-28T05:00:00+00:00"
+  },
+  {
+   "row_id": "dc5228f5c6e1f95a",
+   "ledger": "shadow",
+   "event_id": 212347,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "J1 League",
+   "ko_utc": "2026-11-28T05:00:00+00:00"
+  },
+  {
    "row_id": "212271",
    "ledger": "audit",
    "event_id": 212271,
@@ -771,6 +815,50 @@
    "pick": "小3.5",
    "league": "MLS",
    "ko_utc": "2026-11-28T03:00:00+00:00"
+  },
+  {
+   "row_id": "643053",
+   "ledger": "audit",
+   "event_id": 643053,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "K League 1",
+   "ko_utc": "2026-11-28T05:00:00+00:00"
+  },
+  {
+   "row_id": "643052",
+   "ledger": "audit",
+   "event_id": 643052,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "K League 1",
+   "ko_utc": "2026-11-28T05:00:00+00:00"
+  },
+  {
+   "row_id": "212351",
+   "ledger": "audit",
+   "event_id": 212351,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "under",
+   "pick": "小2.5",
+   "league": "J1 League",
+   "ko_utc": "2026-11-28T05:00:00+00:00"
+  },
+  {
+   "row_id": "212347",
+   "ledger": "audit",
+   "event_id": 212347,
+   "mkt": "ou",
+   "line": 2.5,
+   "side": "over",
+   "pick": "大2.5",
+   "league": "J1 League",
+   "ko_utc": "2026-11-28T05:00:00+00:00"
   }
  ]
 }
