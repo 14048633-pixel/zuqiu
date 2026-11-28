@@ -13354,10 +13354,12 @@
   "at": "2026-11-28T13:50:01+00:00"
  },
  "214189": {
-  "done": false,
-  "error": "CalledProcessError(1, ['/opt/python3.12/bin/python3', 'batch_predict.py', '/home/user/football/sync/zuqiu/analysis_records/t60/clean_214189.json', '/home/user/football/sync/zuqiu/analysis_records/t60/pred_214189.json', '--bsd-enrich'])",
-  "retry": true,
-  "at": "2026-11-28T14:00:01+00:00"
+  "done": true,
+  "pred": "/home/user/football/sync/zuqiu/analysis_records/t60/pred_214189.json",
+  "kickoff_minutes": 40.0,
+  "ko_utc": "2026-11-28T15:00:00+00:00",
+  "ko_source": "kickoff_iso",
+  "at": "2026-11-28T14:20:02+00:00"
  },
  "214188": {
   "done": true,
@@ -13443,5 +13445,66 @@
   "done": true,
   "reason": "filtered",
   "at": "2026-11-28T14:00:01+00:00"
+ },
+ "214931": {
+  "done": true,
+  "pred": "/home/user/football/sync/zuqiu/analysis_records/t60/pred_214931.json",
+  "kickoff_minutes": 55.0,
+  "ko_utc": "2026-11-28T15:15:00+00:00",
+  "ko_source": "kickoff_iso",
+  "at": "2026-11-28T14:20:02+00:00"
+ },
+ "213655": {
+  "done": true,
+  "reason": "filtered",
+  "at": "2026-11-28T14:20:02+00:00"
+ },
+ "215580": {
+  "done": true,
+  "pred": "/home/user/football/sync/zuqiu/analysis_records/t60/pred_215580.json",
+  "kickoff_minutes": 70.0,
+  "ko_utc": "2026-11-28T15:30:00+00:00",
+  "ko_source": "kickoff_iso",
+  "at": "2026-11-28T14:20:02+00:00"
+ },
+ "215577": {
+  "done": true,
+  "pred": "/home/user/football/sync/zuqiu/analysis_records/t60/pred_215577.json",
+  "kickoff_minutes": 70.0,
+  "ko_utc": "2026-11-28T15:30:00+00:00",
+  "ko_source": "kickoff_iso",
+  "at": "2026-11-28T14:20:02+00:00"
+ },
+ "210917": {
+  "done": true,
+  "pred": "/home/user/football/sync/zuqiu/analysis_records/t60/pred_210917.json",
+  "kickoff_minutes": 70.0,
+  "ko_utc": "2026-11-28T15:30:00+00:00",
+  "ko_source": "kickoff_iso",
+  "at": "2026-11-28T14:20:02+00:00"
+ },
+ "649750": {
+  "done": true,
+  "pred": "/home/user/football/sync/zuqiu/analysis_records/t60/pred_649750.json",
+  "kickoff_minutes": 100.0,
+  "ko_utc": "2026-11-28T16:00:00+00:00",
+  "ko_source": "kickoff_iso",
+  "at": "2026-11-28T14:20:02+00:00"
+ },
+ "649330": {
+  "done": true,
+  "pred": "/home/user/football/sync/zuqiu/analysis_records/t60/pred_649330.json",
+  "kickoff_minutes": 100.0,
+  "ko_utc": "2026-11-28T16:00:00+00:00",
+  "ko_source": "kickoff_iso",
+  "at": "2026-11-28T14:20:02+00:00"
+ },
+ "210536": {
+  "done": true,
+  "pred": "/home/user/football/sync/zuqiu/analysis_records/t60/pred_210536.json",
+  "kickoff_minutes": 115.0,
+  "ko_utc": "2026-11-28T16:15:00+00:00",
+  "ko_source": "kickoff_iso",
+  "at": "2026-11-28T14:20:02+00:00"
  }
 }
